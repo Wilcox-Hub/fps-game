@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#080b12">
-  <meta name="description" content="Neon Breach is a first-person survival shooter. Hold the line against the breach.">
-  <title>Neon Breach — FPS Survival</title>
+  <meta name="theme-color" content="#171521">
+  <meta name="description" content="Ridgefire is a first-person sci-fi gladiator shooter. Survive the pit, pick your weapon, and make every round count.">
+  <title>RIDGEFIRE — The Pit</title>
   <link rel="stylesheet" href="styles.css">
   <script src="game.js" defer></script>
 </head>
 <body>
   <main class="game-shell">
     <header class="topbar">
-      <a class="brand" href="#home" aria-label="Neon Breach home"><span class="brand-mark">N</span><span>NEON<span class="brand-accent">BREACH</span></span></a>
-      <div class="topbar-right"><span class="live-indicator"><i></i> BREACH ACTIVE</span><button class="icon-button" id="sound-button" type="button" aria-label="Toggle sound" aria-pressed="true">♪</button></div>
+      <a class="brand" href="#home" aria-label="Ridgefire home"><span class="brand-mark">R</span><span>RIDGE<span class="brand-accent">FIRE</span></span></a>
+      <div class="topbar-right"><span class="live-indicator"><i></i> THE PIT · DUSK CYCLE</span><button class="icon-button" id="sound-button" type="button" aria-label="Toggle sound" aria-pressed="true">♪</button></div>
     </header>
     <section class="arena" aria-label="Game arena">
       <canvas id="game-canvas" aria-label="First-person neon arena. Use WASD to move and aim with the mouse."></canvas>
@@ -21,23 +21,30 @@
       <section class="hud" id="hud" aria-label="Game status" hidden>
         <div class="hud-top">
           <div class="hud-card health-card"><div class="hud-label"><span>VITALS</span><span id="health-text">100</span></div><div class="meter"><span id="health-fill"></span></div></div>
-          <div class="hud-card ammo-card"><div class="hud-label"><span>CHARGE</span><span><b id="ammo-text">12</b><small> / <span id="reserve-text">72</span></small></span></div><div class="meter ammo-meter"><span id="ammo-fill"></span></div></div>
-          <div class="hud-card score-card"><span class="hud-label">SCORE</span><strong id="score-text">000000</strong></div>
+          <div class="hud-card ammo-card"><div class="hud-label"><span id="weapon-name">CHARGE</span><span><b id="ammo-text">12</b><small> / <span id="reserve-text">72</span></small></span></div><div class="meter ammo-meter"><span id="ammo-fill"></span></div></div>
+          <div class="hud-card score-card"><span class="hud-label">SCORE</span><strong id="score-text">000000</strong><small id="combo-text">—</small></div>
           <div class="hud-card wave-card"><span class="hud-label">WAVE</span><strong id="wave-text">01</strong></div>
         </div>
-        <div class="objective" id="objective">CLEAR THE SECTOR</div>
+        <div class="objective" id="objective">HOLD THE RIDGE</div>
+        <div class="surge-meter" id="surge-meter"><span>ION SURGE</span><div class="meter"><i id="surge-fill"></i></div><kbd id="surge-key">E · 0%</kbd></div>
         <div class="crosshair" id="crosshair" aria-hidden="true"><i></i><b></b></div>
         <div class="hit-marker" id="hit-marker" aria-hidden="true">✦</div>
-        <div class="weapon-frame" aria-hidden="true"><div class="weapon-sight"></div><div class="weapon-body"></div><div class="weapon-core"></div></div>
-        <div class="hud-bottom"><span><kbd>W A S D</kbd> MOVE <span class="divider">/</span> <kbd>MOUSE</kbd> AIM</span><span><kbd>CLICK</kbd> FIRE <span class="divider">/</span> <kbd>R</kbd> RELOAD <span class="divider">/</span> <kbd>F</kbd> MEDKIT <span class="divider">/</span> <kbd>ESC</kbd> PAUSE</span></div>
+        <div class="hud-bottom"><span><kbd>W A S D</kbd> MOVE <span class="divider">/</span> <kbd>MOUSE</kbd> AIM</span><span><kbd>CLICK</kbd> FIRE <span class="divider">/</span> <kbd>R</kbd> RELOAD <span class="divider">/</span> <kbd>F</kbd> PATCH <span class="divider">/</span> <kbd>E</kbd> ION SURGE <span class="divider">/</span> <kbd>ESC</kbd> PAUSE</span></div>
         <div class="toast" id="toast" role="status" aria-live="polite"></div>
       </section>
       <div class="screen screen-start" id="start-screen">
-        <div class="screen-kicker"><span></span> LAST LIGHTS // SECTOR 07</div>
-        <h1>THE CITY<br><em>BIT BACK.</em></h1>
-        <p class="screen-copy">The breach is open. The swarm is inside.<br>Hold the line, runner.</p>
-        <button class="primary-button" id="start-button" type="button"><span>ENTER THE BREACH</span><b>↗</b></button>
-        <div class="start-meta"><span>WAVE SURVIVAL</span><span>NO DOWNLOAD · NO MERCY</span></div>
+        <div class="screen-kicker"><span></span> THE PIT // DUSK CYCLE</div>
+        <h1>THE CROWD<br><em>WANTS CHAOS.</em></h1>
+        <p class="screen-copy">Sentinels descend into the arena.<br>Choose your weapon. Make every shot count.</p>
+        <button class="primary-button" id="start-button" type="button"><span>ENTER THE PIT</span><b>↗</b></button>
+        <div class="start-meta"><span>ARENA SURVIVAL</span><span>SCAVENGE · STREAK · SURVIVE</span></div>
+      </div>
+      <div class="screen screen-armory" id="armory-screen" hidden>
+        <div class="screen-kicker"><span></span> THE PIT ARMORY // PICK YOUR FATE</div>
+        <h2>CHOOSE YOUR<br><em>INSTRUMENT.</em></h2>
+        <p class="screen-copy">Two proven tools. One fresh roll from the machine.<br>The machine has no sense of fairness.</p>
+        <div class="armory-grid" id="armory-cards" aria-label="Choose your starting weapon"></div>
+        <div class="start-meta"><span>WILDCARD ROLLS AGAIN EVERY RUN</span><span>NO BALANCE · NO TAKEBACKS</span></div>
       </div>
       <div class="screen screen-pause" id="pause-screen" hidden>
         <div class="screen-kicker"><span></span> SIGNAL PAUSED</div><h2>TAKE A<br><em>BREATHER.</em></h2><p class="screen-copy">The city can wait a second.</p>
@@ -50,10 +57,10 @@
       </div>
       <div class="touch-controls" id="touch-controls" aria-label="Touch controls">
         <div class="dpad" aria-label="Movement"><button type="button" data-move="forward" aria-label="Move forward">▲</button><button type="button" data-move="left" aria-label="Move left">◀</button><button type="button" data-move="back" aria-label="Move back">▼</button><button type="button" data-move="right" aria-label="Move right">▶</button></div>
-        <div class="touch-actions"><button type="button" id="touch-medkit">MED</button><button class="fire-button" type="button" id="touch-fire">FIRE</button></div>
+        <div class="touch-actions"><button type="button" id="touch-medkit">MED</button><button type="button" id="touch-surge">ION</button><button class="fire-button" type="button" id="touch-fire">FIRE</button></div>
       </div>
     </section>
-    <footer class="footer"><span>NEON BREACH <span class="footer-muted">// A CITY AFTER DARK</span></span><span>LOCAL RUN <b id="best-score">BEST 000000</b></span></footer>
+    <footer class="footer"><span>RIDGEFIRE <span class="footer-muted">// THE PIT REMEMBERS</span></span><span>LOCAL RUN <b id="best-score">BEST 000000</b></span></footer>
   </main>
 </body>
 </html>
