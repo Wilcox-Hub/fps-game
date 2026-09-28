@@ -21,4 +21,5 @@ Use this workflow when it helps the task; keep it proportional to the player-fac
 - Record concise evidence and remaining risks in Git-tracked project docs when it will help future work.
 - Keep decisions canonical in repository files and GitHub issues. Recheck those sources before acting on remembered context.
 - For Unreal work, follow `unreal/AGENTS.md`; for the root browser prototype, follow its actual HTML/CSS/JavaScript pipeline. Never assume an engine or asset workflow from another project applies.
+- The current Unreal target is `unreal/Ridgefire` on UE 5.8.3. Blender 3.0.0 is installed locally; when a new mesh is needed, retain its editable source, validate export/import scale and orientation, set up materials/collision or animation in Unreal, and inspect the asset in actual gameplay. Do not require Blender for code-only fixes or assume a successful import proves a playable result.
 - A slice is complete only when the stated player-facing outcome works at the level claimed. Asset creation, compilation, smoke tests, rendered play, packaged play, and human feedback are different evidence levels.
