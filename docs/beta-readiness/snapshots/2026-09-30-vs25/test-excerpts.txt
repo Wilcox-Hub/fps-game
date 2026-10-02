@@ -1,0 +1,263 @@
+## Saved/Logs/IRON-SUN-Scatter-20260930-190600-044.log
+[2026.10.01-02.06.18:276][ 34]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.01-02.06.18:279][ 34]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.01-02.06.18:282][ 34]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.01-02.06.18:284][ 34]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.01-02.06.18:286][ 34]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.01-02.06.20:298][ 42]LogTemp: Display: RIDGEFIRE BEAM MOTION CASE label=case=0 pellets=5 paths=5 transforms=3 worst_error_cm=0.000 result=PASS
+[2026.10.01-02.06.21:379][ 43]LogTemp: Display: RIDGEFIRE BEAM MOTION CASE label=case=1 pellets=11 paths=11 transforms=3 worst_error_cm=0.000 result=PASS
+[2026.10.01-02.06.21:712][ 44]LogTemp: Display: RIDGEFIRE BEAM MOTION CASE label=case=2 pellets=3 paths=3 transforms=3 worst_error_cm=0.000 result=PASS
+[2026.10.01-02.06.22:041][ 45]LogTemp: Display: RIDGEFIRE BEAM MOTION CASE label=case=3 pellets=5 paths=5 transforms=3 worst_error_cm=0.000 result=PASS
+[2026.10.01-02.06.22:044][ 46]LogTemp: Display: RIDGEFIRE BEAM MOTION CASE label=case=4 pellets=11 paths=11 transforms=3 worst_error_cm=0.000 result=PASS
+[2026.10.01-02.06.22:061][ 47]LogTemp: Display: RIDGEFIRE BEAM MOTION CASE label=Auto paths=1 transforms=3 worst_error_cm=0.000 result=PASS
+[2026.10.01-02.06.22:077][ 48]LogTemp: Display: RIDGEFIRE BEAM MOTION CASE label=Phasma paths=1 transforms=3 worst_error_cm=0.000 result=PASS
+[2026.10.01-02.06.22:312][ 50]LogTemp: Display: RIDGEFIRE BEAM MOTION PASS cases=7 translate=verified turn=verified scale=verified viewmodel=attached expiry=verified
+[2026.10.01-02.06.22:312][ 50]LogTemp: Display: RIDGEFIRE SCATTER VISUAL PASS pellets=5,11,3,5,11,Auto paths=verified pool=reused ammo=verified expiry=verified
+[2026.10.01-02.06.22:539][ 51]LogAutomationController: Display: Test Completed. Result={Success} Name={VisiblePelletPaths} Path={Ridgefire.Weapons.Scatter.VisiblePelletPaths}
+
+## Saved/Logs/IRON-SUN-Loadout-20260930-190623-456.log
+[2026.10.01-02.06.41:582][ 35]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.01-02.06.41:586][ 35]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.01-02.06.41:588][ 35]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.01-02.06.41:591][ 35]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.01-02.06.41:594][ 35]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.01-02.06.46:337][ 49]LogTemp: Display: RIDGEFIRE LOADOUT PASS bindings=normal arsenal_fire=blocked close_trigger=cleared secondary_return=correct ammo=independent repeated=stable
+[2026.10.01-02.06.46:355][ 50]LogAutomationController: Display: Test Completed. Result={Success} Name={NormalInteractions} Path={Ridgefire.Weapons.Loadout.NormalInteractions}
+
+## Saved/Logs/IRON-SUN-Loadout-20260930-190646-746.log
+[2026.10.01-02.07.03:707][ 49]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.01-02.07.03:710][ 49]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.01-02.07.03:713][ 49]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.01-02.07.03:715][ 49]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.01-02.07.03:718][ 49]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.01-02.07.07:326][ 69]LogTemp: Display: RIDGEFIRE LOADOUT PASS bindings=normal arsenal_fire=blocked close_trigger=cleared secondary_return=correct ammo=independent repeated=stable
+[2026.10.01-02.07.07:467][ 70]LogAutomationController: Display: Test Completed. Result={Success} Name={NormalInteractions} Path={Ridgefire.Weapons.Loadout.NormalInteractions}
+
+## Saved/Logs/IRON-SUN-Wildcard-20260930-190728-902.log
+[2026.10.01-02.07.42:845][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.01-02.07.42:848][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.01-02.07.42:850][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.01-02.07.42:853][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.01-02.07.42:855][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.01-02.07.42:862][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_5
+[2026.10.01-02.07.42:864][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_6
+[2026.10.01-02.07.44:516][556]LogTemp: Display: RIDGEFIRE WILDCARD PASS seed=20903 draws=110 cases=100 unique=100 modes=9 ammo=verified targets=finite muzzle=verified roulette_endpoint=verified scatter_first_endpoint=verified roulette_hits=3 roulette_misses=8 scatter_hits=11 scatter_misses=0
+[2026.10.01-02.07.44:535][557]LogAutomationController: Display: Test Completed. Result={Success} Name={GeneratedCombat} Path={Ridgefire.Weapons.Wildcard.GeneratedCombat}
+
+## Saved/Logs/IRON-SUN-Scatter-20260930-190744-730.log
+[2026.10.01-02.07.58:586][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.01-02.07.58:589][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.01-02.07.58:592][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.01-02.07.58:594][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.01-02.07.58:597][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.01-02.07.58:904][475]LogTemp: Display: RIDGEFIRE SCATTER VISUAL PASS pellets=5,11,3,5,11,Auto paths=verified pool=reused ammo=verified expiry=verified
+[2026.10.01-02.07.58:937][477]LogAutomationController: Display: Test Completed. Result={Success} Name={VisiblePelletPaths} Path={Ridgefire.Weapons.Scatter.VisiblePelletPaths}
+
+## Saved/Logs/IRON-SUN-Weapon-Presentation-20260930-190759-451.log
+[2026.10.01-02.08.13:255][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.01-02.08.13:259][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.01-02.08.13:261][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.01-02.08.13:264][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.01-02.08.13:267][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.01-02.08.16:871][673]LogTemp: Display: RIDGEFIRE WEAPON PRESENTATION PASS switches=27 identities=stable materials=reused components=bounded attachments=correct anchor=retained fire=actual_muzzle colors=current
+[2026.10.01-02.08.16:903][675]LogAutomationController: Display: Test Completed. Result={Success} Name={RepeatedEquipment} Path={Ridgefire.Weapons.Presentation.RepeatedEquipment}
+
+## Saved/Logs/IRON-SUN-Weapon-Fire-20260930-190817-187-044ba91c.log
+[2026.10.01-02.08.35:402][521]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.01-02.08.35:404][521]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.01-02.08.35:406][521]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.01-02.08.35:410][521]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.01-02.08.35:413][521]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.01-02.08.35:416][521]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_5
+[2026.10.01-02.08.35:420][521]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_6
+[2026.10.01-02.08.35:422][521]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_7
+[2026.10.01-02.08.35:424][521]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_8
+[2026.10.01-02.08.35:429][521]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_9
+[2026.10.01-02.08.35:431][521]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_10
+[2026.10.01-02.08.35:434][521]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_11
+[2026.10.01-02.08.35:883][918]LogTemp: Display: RIDGEFIRE WEAPON FIRE TEST PASS modes=Auto,Pierce,Echo,Burst auth_damage=verified cover=verified cadence=verified release=verified
+[2026.10.01-02.08.35:893][920]LogAutomationController: Display: Test Completed. Result={Success} Name={AuthoritativePierceDamage} Path={Ridgefire.Weapons.Fire.AuthoritativePierceDamage}
+
+## Saved/Logs/IRON-SUN-Loadout-20260930-190836-428.log
+[2026.10.01-02.08.50:157][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.01-02.08.50:160][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.01-02.08.50:162][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.01-02.08.50:165][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.01-02.08.50:167][456]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.01-02.08.52:771][613]LogTemp: Display: RIDGEFIRE LOADOUT PASS bindings=normal arsenal_fire=blocked close_trigger=cleared secondary_return=correct ammo=independent repeated=stable
+[2026.10.01-02.08.52:806][615]LogAutomationController: Display: Test Completed. Result={Success} Name={NormalInteractions} Path={Ridgefire.Weapons.Loadout.NormalInteractions}
+
+## Saved/Logs/IRON-SUN-Beta-Smoke-20260930-190906.log
+[2026.10.01-02.09.25:034][744]LogTemp: Display: RIDGEFIRE SMOKE PASS: gamepad X selects the wildcard offer.
+[2026.10.01-02.09.27:535][749]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.01-02.09.27:538][749]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.01-02.09.27:540][749]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.01-02.09.27:542][749]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.01-02.09.27:545][749]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.01-02.09.33:800][286]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_1
+[2026.10.01-02.09.34:512][687]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_4
+[2026.10.01-02.09.34:587][729]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_2
+[2026.10.01-02.09.35:062][994]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_3
+[2026.10.01-02.09.35:539][254]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_0
+[2026.10.01-02.09.35:618][297]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_4
+[2026.10.01-02.09.36:010][522]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_2
+[2026.10.01-02.09.36:227][650]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_3
+[2026.10.01-02.09.36:377][735]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_2
+[2026.10.01-02.09.36:393][744]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_0
+[2026.10.01-02.09.36:577][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: one of 3 natural visible sentries moved toward the player and telegraphed, delivered, and damaged with an attack (best approach 997 cm, 8.8 s).
+[2026.10.01-02.09.36:577][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: a claimed wildcard rejects reroll without spending a token or changing the weapon.
+[2026.10.01-02.09.36:577][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: the selected wildcard has bounded live stats and describes its rolled mode, payload, and condition.
+[2026.10.01-02.09.36:577][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: Siphon offer text identifies its on-hit heal and discrete kill-heal rewards.
+[2026.10.01-02.09.36:577][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: deterministic wildcard property smoke seed=20903 validated 100 rolls, finite bounds, legal ammo/pellet values, and mode/payload/condition descriptions.
+[2026.10.01-02.09.36:577][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: repeated keyboard sprint press/release restores walking speed.
+[2026.10.01-02.09.36:577][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: sprint scales and restores a nonstandard character walk speed.
+[2026.10.01-02.09.36:577][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: pausing during held sprint restores walk speed and resumes cleanly.
+[2026.10.01-02.09.36:577][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: gamepad menu pauses and resumes the live run.
+[2026.10.01-02.09.36:577][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: rapid repeated weapon-selection inputs do not duplicate a live wave.
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: the bound mouse fire input creates a visible muzzle-origin beam.
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: firing consumed ammunition (5 -> 4).
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: firing triggers the immediate reticle feedback pulse.
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: switching between carried primaries preserves each gun's ammunition (4 rounds restored).
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: opening wave has five baseline sentries and no special roles.
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: sentinels maneuver after spawning.
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: an aimed player shot damages a naturally positioned visible sentinel.
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: a sentry energy shot damages the player.
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: incoming sentry damage triggers the directional HUD cue.
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: a surviving sentinel hit shows hit feedback without kill confirmation.
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: an already-defeated sentinel does not retrigger hit or kill feedback.
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_1
+[2026.10.01-02.09.36:578][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: secondary sentinel damage triggers kill confirmation.
+[2026.10.01-02.09.36:580][845]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_0
+[2026.10.01-02.09.36:580][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: a lethal direct hit triggers distinct kill confirmation.
+[2026.10.01-02.09.36:580][845]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_2
+[2026.10.01-02.09.36:580][845]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_3
+[2026.10.01-02.09.36:581][845]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_4
+[2026.10.01-02.09.36:581][845]LogTemp: Display: RIDGEFIRE SMOKE PASS: defeated sentry skeletal mesh stays hidden and non-simulating.
+[2026.10.01-02.09.41:578][293]LogTemp: Display: RIDGEFIRE SMOKE PASS: Brassfall entry reserve refill granted once to 1 connected players at 10% per carried primary, capped; duplicate transition granted zero.
+[2026.10.01-02.09.42:577][831]LogTemp: Display: RIDGEFIRE SMOKE PASS: first wave cleared and wave two spawned seven sentinels.
+[2026.10.01-02.09.42:577][831]LogTemp: Display: RIDGEFIRE SMOKE PASS: wave two has no Foundry Turrets, one Sprinter, no Brute, and six baseline sentries.
+[2026.10.01-02.09.42:577][831]LogTemp: Display: RIDGEFIRE SMOKE PASS: wave-clear transition entered Brassfall and registered its one-time furnace anchor objective.
+[2026.10.01-02.09.42:577][831]LogTemp: Display: RIDGEFIRE SMOKE PASS: Brassfall furnace anchor rejects distant use, rewards once, and rejects repeat use.
+[2026.10.01-02.09.42:577][831]LogTemp: Display: RIDGEFIRE SMOKE PASS: wave clear replenished reserve ammunition.
+[2026.10.01-02.09.42:578][831]LogTemp: Display: RIDGEFIRE SMOKE PASS: health pickup overlap heals the player without changing reserve ammo.
+[2026.10.01-02.09.42:578][831]LogTemp: Display: RIDGEFIRE SMOKE PASS: eligible replicated field pickup overlap grants exactly 18 reserve ammo once; repeat collection rejected.
+[2026.10.01-02.09.42:578][831]LogTemp: Display: RIDGEFIRE SMOKE PASS: player defeat enters game over without destroying the pawn.
+[2026.10.01-02.09.42:625][868]LogTemp: Display: RIDGEFIRE SMOKE PASS: pause/back on host game-over keeps the game running, unpaused, and cursor-accessible.
+[2026.10.01-02.09.48:077][295]LogTemp: Display: RIDGEFIRE SMOKE PASS: defeated player remains on game-over screen without an automatic respawn.
+[2026.10.01-02.09.50:078][709]LogTemp: Display: RIDGEFIRE SMOKE PASS: restart restores a living player and fresh armory with no stale sentries, score, ammo, or wave/streak timers.
+
+## Saved/Logs/RIDGEFIRE-COOP-20260930-190950-Host.log
+[2026.10.01-02.10.03:399][665]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS opening armory stays open for both clients until each selects a starting primary
+[2026.10.01-02.10.03:410][665]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.01-02.10.03:411][665]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS default-material fallback showed telegraph without triggering caller cancellation: BP_ShooterNPC_C_0
+[2026.10.01-02.10.03:411][665]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_0
+[2026.10.01-02.10.03:411][665]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS exactly one sentry telegraph warning cue dispatch: BP_ShooterNPC_C_0
+[2026.10.01-02.10.03:412][665]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS exactly one sentry warning cue dispatch for living target; RPC dispatch only, audio playback/client delivery unverified
+[2026.10.01-02.10.03:412][665]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS sentry target handoff to living player after current target marked unavailable
+[2026.10.01-02.10.03:412][665]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS sole eligible player remains sentry fallback despite temporary path deprioritization
+[2026.10.01-02.10.03:412][665]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS personal arsenal range-gated and per-player; host/remote open/close independent, out-of-range denied
+[2026.10.01-02.10.03:412][665]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS independent secondary offers host=1 remote=0; invalid and primary-owned offers rejected
+[2026.10.01-02.10.03:412][665]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS station offer selection stayed per-player; each panel closed after selection and global armory stayed unchanged
+[2026.10.01-02.10.03:413][665]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS independent primary loadouts host=Gale Repeater ammo=24 remote=Phasma Rifle ammo=6
+[2026.10.01-02.10.03:413][665]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS unique possessed pawns: BP_ShooterCharacter_C_0 and BP_ShooterCharacter_C_1
+[2026.10.01-02.10.05:892][989]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.01-02.10.05:894][989]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.01-02.10.05:897][989]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.01-02.10.05:901][989]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.01-02.10.05:904][989]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_5
+[2026.10.01-02.10.05:973][ 48]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_1
+[2026.10.01-02.10.07:972][177]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS: secondary shot consumed ammo and damaged a living sentry; primary and spent secondary ammo/reserve both restored.
+[2026.10.01-02.10.07:972][177]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS server-authoritative remote fire consumed ammo only on remote, killed replicated target, score=110 and ion=14 once despite repeated death callbacks
+[2026.10.01-02.10.07:974][177]LogTemp: Display: RIDGEFIRE SMOKE PASS: Brassfall entry reserve refill granted once to 2 connected players at 10% per carried primary, capped; duplicate transition granted zero.
+[2026.10.01-02.10.07:974][177]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS transitioned host arena to Brassfall for client replication
+[2026.10.01-02.10.07:974][177]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS host completion acknowledged to remote reload smoke with authoritative ammo=4 reserve=30
+[2026.10.01-02.10.09:168][436]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_2
+[2026.10.01-02.10.09:168][436]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS all living players receive shared sentinel kill reward +14 ion
+[2026.10.01-02.10.09:169][436]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_3
+[2026.10.01-02.10.09:169][436]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_4
+[2026.10.01-02.10.09:169][436]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_5
+[2026.10.01-02.10.14:421][721]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS all living teammates receive wave-clear health/reserve +24/ion +18 (wave=2)
+[2026.10.01-02.10.14:421][721]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS first player defeat leaves surviving teammate and run active
+[2026.10.01-02.10.14:422][721]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_6
+[2026.10.01-02.10.14:422][721]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS living survivor receives shared sentinel kill reward +14 ion; defeated host receives none
+[2026.10.01-02.10.14:422][721]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_7
+[2026.10.01-02.10.14:422][721]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_8
+[2026.10.01-02.10.14:422][721]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_9
+[2026.10.01-02.10.14:423][721]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_10
+[2026.10.01-02.10.14:423][721]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_11
+[2026.10.01-02.10.14:423][721]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_12
+[2026.10.01-02.10.14:469][764]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS early remote restart request rejected while run remains active
+[2026.10.01-02.10.19:673][185]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS living survivor receives wave-clear health/reserve +24/ion +18; defeated host receives none (wave=3)
+[2026.10.01-02.10.19:673][185]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_13
+[2026.10.01-02.10.19:673][185]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_14
+[2026.10.01-02.10.19:673][185]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_15
+[2026.10.01-02.10.19:675][185]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_16
+[2026.10.01-02.10.19:675][185]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_17
+[2026.10.01-02.10.19:675][185]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_18
+[2026.10.01-02.10.19:675][185]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_19
+[2026.10.01-02.10.19:676][185]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_20
+[2026.10.01-02.10.19:676][185]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_21
+[2026.10.01-02.10.24:926][908]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS living survivor receives wave-clear health/reserve +24/ion +18; defeated host receives none (wave=4)
+[2026.10.01-02.10.24:926][908]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS full team defeat enters shared game over
+[2026.10.01-02.10.30:567][575]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS restart keeps listen host and remote with distinct living pawns; fresh armory wave=0 score=0 offers=3
+[2026.10.01-02.10.43:579][954]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.01-02.10.43:582][954]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.01-02.10.43:585][954]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.01-02.10.43:588][954]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.01-02.10.43:592][954]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.01-02.10.43:819][ 55]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS post-restart remote selected opening offer 1 and server equipped Gale Repeater
+[2026.10.01-02.10.45:819][977]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS post-restart remote movement authoritative forward displacement 1105.9 cm
+[2026.10.01-02.10.46:068][ 91]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS post-restart remote firing authoritative ammo 24->23
+
+## Saved/Logs/RIDGEFIRE-COOP-20260930-190950-Client.log
+[2026.10.01-02.10.05:977][320]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS client received replicated ammo field drop actor.
+[2026.10.01-02.10.08:062][799]LogTemp: Display: RIDGEFIRE COOP CLIENT SMOKE PASS replicated ammo=4 target_hp=0 score=110 after host completion
+[2026.10.01-02.10.09:161][603]LogTemp: Display: RIDGEFIRE COOP CLIENT SMOKE RELOAD PASS replicated_reload=true->false magazine=4->6 reserve=30->28 transferred=2
+[2026.10.01-02.10.24:963][817]LogTemp: Display: RIDGEFIRE COOP CLIENT TEAM_WIPE PASS own_defeat=true replicated_run_over=true
+[2026.10.01-02.10.30:565][420]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART PASS remained remote with living pawn and replicated fresh armory wave=0 score=0 offers=3
+[2026.10.01-02.10.45:866][ 76]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART PASS real movement input projected displacement 1140.5 cm
+[2026.10.01-02.10.45:916][113]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART PASS replicated magazine consumed after movement 1140.5 cm; ammo 24->23
+
+## Saved/Logs/IRON-SUN-Recovery-20260930-191046-354.log
+[2026.10.01-02.11.07:217][870]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.01-02.11.07:220][870]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.01-02.11.07:222][870]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.01-02.11.07:224][870]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.01-02.11.07:227][870]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.01-02.11.14:251][292]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_0
+[2026.10.01-02.11.15:152][346]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_0
+[2026.10.01-02.11.15:152][346]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_1
+[2026.10.01-02.11.15:152][346]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_2
+[2026.10.01-02.11.15:153][346]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_3
+[2026.10.01-02.11.15:153][346]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_4
+[2026.10.01-02.11.20:155][646]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_5
+[2026.10.01-02.11.20:157][646]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_6
+[2026.10.01-02.11.20:160][646]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_7
+[2026.10.01-02.11.20:164][646]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_8
+[2026.10.01-02.11.20:167][646]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_9
+[2026.10.01-02.11.20:170][646]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_10
+[2026.10.01-02.11.20:173][646]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_11
+[2026.10.01-02.12.23:848][467]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_5
+[2026.10.01-02.12.23:849][467]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_6
+[2026.10.01-02.12.23:849][467]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_7
+[2026.10.01-02.12.23:849][467]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_8
+[2026.10.01-02.12.23:849][467]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_9
+[2026.10.01-02.12.23:851][467]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_10
+[2026.10.01-02.12.23:851][467]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_11
+[2026.10.01-02.12.28:873][767]LogTemp: Display: RIDGEFIRE RECOVERY TEST PASS clock=60_unpaused hit=real_trace_and_autonomous repeated_pause=5s late_hit=preserved blocked_exit=waits transition=deferred_then_resumed original_pawn=restored inventory=retained movement=actual fire=actual health=provisional_50
+[2026.10.01-02.12.28:881][768]LogAutomationController: Display: Test Completed. Result={Success} Name={RecoveryAndCombat} Path={Ridgefire.Rescue.Tube.RecoveryAndCombat}
+
+## Saved/Automation/IRON-SUN-Focused-20260930-190853/Automation.log
+[2026.10.01-02.09.06:257][598]LogAutomationController: Display: Test Completed. Result={Success} Name={SignFacesLocalView} Path={Ridgefire.Arena.Arsenal.SignFacesLocalView}
+[2026.10.01-02.09.06:282][601]LogAutomationController: Display: Test Completed. Result={Success} Name={CompletionAndClamp} Path={Ridgefire.Rescue.Clock.CompletionAndClamp}
+[2026.10.01-02.09.06:306][604]LogAutomationController: Display: Test Completed. Result={Success} Name={PartialFrameBoundary} Path={Ridgefire.Rescue.Clock.PartialFrameBoundary}
+[2026.10.01-02.09.06:332][607]LogAutomationController: Display: Test Completed. Result={Success} Name={RejectInvalidSamples} Path={Ridgefire.Rescue.Clock.RejectInvalidSamples}
+[2026.10.01-02.09.06:349][609]LogAutomationController: Display: Test Completed. Result={Success} Name={RepeatedHitsExtendPause} Path={Ridgefire.Rescue.Clock.RepeatedHitsExtendPause}
+[2026.10.01-02.09.06:373][612]LogAutomationController: Display: Test Completed. Result={Success} Name={ResetAndReuse} Path={Ridgefire.Rescue.Clock.ResetAndReuse}
+[2026.10.01-02.09.06:399][615]LogAutomationController: Display: Test Completed. Result={Success} Name={ZeroElapsedSamples} Path={Ridgefire.Rescue.Clock.ZeroElapsedSamples}
+[2026.10.01-02.09.06:423][618]LogAutomationController: Display: Test Completed. Result={Success} Name={CloseContactVisualClearance} Path={Ridgefire.Sentry.CloseContactVisualClearance}
+[2026.10.01-02.09.06:441][620]LogAutomationController: Display: Test Completed. Result={Success} Name={AmmoFeedbackStates} Path={Ridgefire.UI.HUD.AmmoFeedbackStates}
+[2026.10.01-02.09.06:466][623]LogAutomationController: Display: Test Completed. Result={Success} Name={ArmoryLayoutResolutionMatrix} Path={Ridgefire.UI.HUD.ArmoryLayoutResolutionMatrix}
+[2026.10.01-02.09.06:482][625]LogAutomationController: Display: Test Completed. Result={Success} Name={CombatResourcesResolutionMatrix} Path={Ridgefire.UI.HUD.CombatResourcesResolutionMatrix}
+[2026.10.01-02.09.06:498][627]LogAutomationController: Display: Test Completed. Result={Success} Name={RepeatedPressAndBoundaryTiming} Path={Ridgefire.Weapon.Cadence.RepeatedPressAndBoundaryTiming}
+

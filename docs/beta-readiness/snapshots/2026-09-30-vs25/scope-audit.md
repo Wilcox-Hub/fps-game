@@ -1,0 +1,17 @@
+# VS25 — Ten-Arena Gameplay Scope Audit
+
+**No revised readiness percentage.** The documented 35/100 is the low-confidence, gameplay-only planning estimate from 2026-09-29, not a current test-pass rate or ten-arena beta sign-off. This audit uses the later ten-distinct-arena target; the older three-arena gate is not sufficient.
+
+## Evidence status
+
+- **Demonstrated in controlled local automation:** Current-source VS24 focused combat, fire-path, loadout, solo wave/defeat/restart, recovery, and local two-peer damage/reload/reward/team-wipe/restart checks are recorded in `unreal/Ridgefire/BETA_PLAYTEST_LOOP.md` (BETA-VS22–24). A four-process rescue-claim fixture checks contention, but is not a four-player combat session. Headless/offscreen checks and local packet emulation are useful technical evidence, not human or hardware-input play.
+- **Source plus limited smoke evidence:** `RidgefireGameMode.cpp` implements waves and an Iron Sun → Brassfall Foundry transition (`StartWave`, `BeginNextWave`, `TransitionToBrassfallFoundry`); the loop records headless transition evidence. This is a two-arena prototype path—not the agreed branching 2–5-arena progression run, unique route votes, route-changing champions, ten completed arenas, or packaged traversal. No route-vote/perk/XP system was found in the reviewed GameMode/controller interfaces.
+- **Online/recovery remains partial:** The session subsystem exposes host/find/join/leave, with LAN-default arguments (`RidgefireSessionSubsystem.h:22-34`). Local multi-process replication/recovery checks do not establish Steam/public matchmaking, internet, four-player end-to-end play, real-device delivery, or disconnect takeover/reclaim. Issues #9-12 remain open, including #11 disconnect/AI/reclaim and #12 Steam/session discovery.
+- **Progression evidence missing:** No complete tested personal XP/ten-node tree, two personal perk choices, temporary team arena perks, or shared branch vote is demonstrated. Issues #13, #15-17 remain open; #14 is the three-species/blade ticket. Source stubs or a passing unrelated smoke would not satisfy these outcomes.
+- **Ten-arena scope is not delivered:** The only shooter map found is `Content/Variant_Shooter/Lvl_Shooter.umap`; the logged playable prototype phases are Iron Sun and Brassfall Foundry. Ten future arena objective/species ticket pairs (#32-51) are all open. Generated themed blockouts/enums are not finished, individually playable arenas.
+- **Still unverified:** The latest complete Shipping prototype (`Saved/Packages/20260930-185436-409/Windows/TP_FirstPerson.exe`) only survived a short hidden/offscreen startup; the log explicitly says it was not played. Normal-input packaged full runs, route completion, actual Steam/internet/device co-op, disconnect/reclaim, human fun sessions, and full visual/art sign-off remain outstanding (#52-56). Human fun is unmeasured.
+
+## Basis and risks
+
+Read `BETA_PLAYTEST_LOOP.md:358-370` and its BETA-VS24 completion; checked `RidgefireGameMode.cpp` wave/transition seams, `RidgefireSessionSubsystem.h`, and `RidgefireGameMode.h`/`ShooterPlayerController.h` for progression interfaces; verified open issue titles/states with GitHub CLI. No tests, builds, or playtests were run for this audit. Risks: issue state can change; source presence and local automation do not prove the player-facing experience. Lead should continue the recorded packaged, rendered, online-device, ten-arena, progression, and human-testing gates before revising readiness or signing off.
+

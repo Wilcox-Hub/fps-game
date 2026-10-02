@@ -1,0 +1,106 @@
+[
+  {
+    "log": "Saved/Logs/IRON-SUN-Scatter-20260930-190600-044.log",
+    "sha256": "74FD874CF97A3E2733C22DAFB2A71250EA00B8FDA6FE03511FA404489BFCC8E9",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.06.22:539][ 51]LogAutomationController: Display: Test Completed. Result={Success} Name={VisiblePelletPaths} Path={Ridgefire.Weapons.Scatter.VisiblePelletPaths}",
+    "recorded_success_markers": 15,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  },
+  {
+    "log": "Saved/Logs/IRON-SUN-Loadout-20260930-190623-456.log",
+    "sha256": "83D0539F8BC26F93095A3842520A70E6BB15E254F5D67114B71973DA54A5AC27",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.06.46:355][ 50]LogAutomationController: Display: Test Completed. Result={Success} Name={NormalInteractions} Path={Ridgefire.Weapons.Loadout.NormalInteractions}",
+    "recorded_success_markers": 7,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  },
+  {
+    "log": "Saved/Logs/IRON-SUN-Loadout-20260930-190646-746.log",
+    "sha256": "E0C95D5D0BDC24AB863FCF91BE8EDB2AE2F6401E524361C714DBC1753169187E",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.07.07:467][ 70]LogAutomationController: Display: Test Completed. Result={Success} Name={NormalInteractions} Path={Ridgefire.Weapons.Loadout.NormalInteractions}",
+    "recorded_success_markers": 7,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  },
+  {
+    "log": "Saved/Logs/IRON-SUN-Wildcard-20260930-190728-902.log",
+    "sha256": "81011471943FA2ACA724B69AD2CFA750ECE83AD2E10FB5FEFEA9FF9703C84FCE",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.07.44:535][557]LogAutomationController: Display: Test Completed. Result={Success} Name={GeneratedCombat} Path={Ridgefire.Weapons.Wildcard.GeneratedCombat}",
+    "recorded_success_markers": 9,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  },
+  {
+    "log": "Saved/Logs/IRON-SUN-Scatter-20260930-190744-730.log",
+    "sha256": "6F75B11A2648CEC9805FBE21B8C7072A24D033988A9A25614A48B4EAA916B8D6",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.07.58:937][477]LogAutomationController: Display: Test Completed. Result={Success} Name={VisiblePelletPaths} Path={Ridgefire.Weapons.Scatter.VisiblePelletPaths}",
+    "recorded_success_markers": 7,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  },
+  {
+    "log": "Saved/Logs/IRON-SUN-Weapon-Presentation-20260930-190759-451.log",
+    "sha256": "26B3660E14DFF519A0271086B75A9359228BF2EEBF19B822F6D1C4F4892B3C85",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.08.16:903][675]LogAutomationController: Display: Test Completed. Result={Success} Name={RepeatedEquipment} Path={Ridgefire.Weapons.Presentation.RepeatedEquipment}",
+    "recorded_success_markers": 7,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  },
+  {
+    "log": "Saved/Logs/IRON-SUN-Weapon-Fire-20260930-190817-187-044ba91c.log",
+    "sha256": "DC4DF26CBC619A23BFB24F63EE7FBA1C3AB50F4A1182DBFD15B9FC7FBBE5EB8B",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.08.35:893][920]LogAutomationController: Display: Test Completed. Result={Success} Name={AuthoritativePierceDamage} Path={Ridgefire.Weapons.Fire.AuthoritativePierceDamage}",
+    "recorded_success_markers": 14,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  },
+  {
+    "log": "Saved/Logs/IRON-SUN-Loadout-20260930-190836-428.log",
+    "sha256": "018BB28A23D95E412D37EABA01EFCDA6DDC5FC219F531DCDD2C40C319E3793B8",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.08.52:806][615]LogAutomationController: Display: Test Completed. Result={Success} Name={NormalInteractions} Path={Ridgefire.Weapons.Loadout.NormalInteractions}",
+    "recorded_success_markers": 7,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  },
+  {
+    "log": "Saved/Logs/IRON-SUN-Beta-Smoke-20260930-190906.log",
+    "sha256": "EC09C143362D2A3E657A5FB733C623F1CA1076A83F987EDB06ACC526FDC6D5BE",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.09.50:078][709]LogTemp: Display: RIDGEFIRE SMOKE PASS: restart restores a living player and fresh armory with no stale sentries, score, ammo, or wave/streak timers.",
+    "recorded_success_markers": 57,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  },
+  {
+    "log": "Saved/Logs/RIDGEFIRE-COOP-20260930-190950-Host.log",
+    "sha256": "DC25690D18A315F9BB7C1FAE9E5582DBB97834F6B154C5C33EFB9705A75DF202",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.10.46:068][ 91]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS post-restart remote firing authoritative ammo 24->23",
+    "recorded_success_markers": 61,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  },
+  {
+    "log": "Saved/Logs/RIDGEFIRE-COOP-20260930-190950-Client.log",
+    "sha256": "0EB5F6D3E472361BDBF3C50E84E15ABB8D46E51C230817A7C167BC8162400623",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.10.45:916][113]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART PASS replicated magazine consumed after movement 1140.5 cm; ammo 24->23",
+    "recorded_success_markers": 7,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  },
+  {
+    "log": "Saved/Logs/IRON-SUN-Recovery-20260930-191046-354.log",
+    "sha256": "5F75567DE61A29939BAC608D869E032D813D4F6AAB059BB29C3434869C94374E",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.12.28:881][768]LogAutomationController: Display: Test Completed. Result={Success} Name={RecoveryAndCombat} Path={Ridgefire.Rescue.Tube.RecoveryAndCombat}",
+    "recorded_success_markers": 27,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  },
+  {
+    "log": "Saved/Automation/IRON-SUN-Focused-20260930-190853/Automation.log",
+    "sha256": "6B4A24D4499BDC9992495C17363B002CE90F1F11D36D24FCAB13B20FC773D707",
+    "recorded_failure_markers": 0,
+    "recorded_last_pass": "[2026.10.01-02.09.06:498][627]LogAutomationController: Display: Test Completed. Result={Success} Name={RepeatedPressAndBoundaryTiming} Path={Ridgefire.Weapon.Cadence.RepeatedPressAndBoundaryTiming}",
+    "recorded_success_markers": 12,
+    "evidence_level": "Controlled Editor fixture / local automation; see report for rendered versus NullRHI scope"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "PackageRoot": "Saved/Packages/20260930-185436-409",
+  "Runtime": "Saved/Packages/20260930-185436-409/Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+  "StartedAtUtc": "2026-10-01T02:07:08.0113116Z",
+  "ObservedSeconds": 22.24,
+  "ProcessSurvived": true,
+  "GraphicsModules": [
+    "dxgi.dll",
+    "d3d12.dll",
+    "D3D12Core.dll"
+  ],
+  "Scope": "Owned offscreen Shipping process startup survival/module-load check only; no rendered-frame inspection, menu input, normal play, audio, remote peers, performance or beta acceptance."
+}

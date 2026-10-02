@@ -12,3 +12,7 @@
 - For asset, audio, engine-integration, or playtest work, use `docs/AI_GAME_PRODUCTION.md` proportionally; a code fix does not need art. Read `docs/MEMORY.md` for memory setup or recovery, not for every edit.
 - Review integrated changes and run focused checks. Separate source/build/smoke results from rendered, packaged, multiplayer-device, performance, and human-fun evidence.
 - Stage explicit paths only; commit or push only when the current request explicitly asks. Preserve unrelated files.
+
+## Beta readiness records
+
+For beta status, scoring, milestone planning, or test selection, read `docs/beta-readiness/latest.json` and `docs/beta-readiness/README.md` first. Reuse saved evidence when its source inputs and validation scope match; use the folder's hash checker before applying historical passes to current code. After relevant tests or a readiness assessment, add a dated snapshot and update the latest pointer and overview together. Keep recorded percentages dated and distinguish gameplay estimates from overall beta acceptance.

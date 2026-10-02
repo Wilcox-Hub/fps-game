@@ -1,0 +1,48 @@
+{
+  "scope": "Gameplay-only planning estimate; not overall beta completion or a test pass rate",
+  "estimated_on": "2026-09-29",
+  "confirmed_by_audit": "2026-09-30-vs25",
+  "confidence": "low",
+  "judgment_range_percent": [
+    25,
+    45
+  ],
+  "rubric": [
+    {
+      "category": "Controls and combat",
+      "weight_percent": 30,
+      "readiness_percent": 55,
+      "contribution": 16.5
+    },
+    {
+      "category": "Weapons and arsenal",
+      "weight_percent": 20,
+      "readiness_percent": 40,
+      "contribution": 8.0
+    },
+    {
+      "category": "Waves, routes and arenas",
+      "weight_percent": 20,
+      "readiness_percent": 30,
+      "contribution": 6.0
+    },
+    {
+      "category": "Co-op and recovery",
+      "weight_percent": 20,
+      "readiness_percent": 20,
+      "contribution": 4.0
+    },
+    {
+      "category": "Perks and progression",
+      "weight_percent": 10,
+      "readiness_percent": 0,
+      "contribution": 0.0,
+      "note": "No evidence-backed credit; unverified rather than measured zero completion"
+    }
+  ],
+  "weighted_score": 34.5,
+  "displayed_gameplay_readiness_percent": 35,
+  "overall_beta_readiness_percent": null,
+  "beta_ready": false,
+  "target_gameplay_readiness_percent": 50
+}

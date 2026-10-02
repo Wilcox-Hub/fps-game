@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-10-02",
+  "tested_on": "2026-09-30",
+  "timezone": "America/Los_Angeles",
+  "snapshot_id": "2026-09-30-vs25",
+  "source_baseline_commit": "a3d2d1ca109764962493722f5859b3013b1cf058",
+  "tested_source_includes_unpublished_changes": true,
+  "tested_input_count": 529,
+  "engine": "Unreal Engine 5.8.3",
+  "project": "unreal/Ridgefire",
+  "verdict": "NOT_BETA_READY",
+  "gameplay_readiness_percent": 35,
+  "gameplay_weighted_score": 34.5,
+  "overall_beta_readiness_percent": null,
+  "confidence": "low",
+  "score": "snapshots/2026-09-30-vs25/scores.json",
+  "report": "snapshots/2026-09-30-vs25/report.md",
+  "input_manifest": "snapshots/2026-09-30-vs25/input-manifest.json",
+  "test_results": "snapshots/2026-09-30-vs25/test-results.json",
+  "cache_policy": "Reuse matching-input evidence at its recorded validation level. Changed, missing or added inputs require affected checks; historical scores remain dated until a new assessment.",
+  "remaining_gates": [
+    "Current Shipping normal-input full run and sustained combat",
+    "Production arena, enemy and weapon art/animation/audio acceptance",
+    "Internet/Steam sessions, four-player rescue, disconnect/takeover/reclaim",
+    "Personal XP/perks, temporary team perks, shared lobby/route votes, bosses",
+    "Ten distinct finished beta arenas",
+    "Minimum-PC profiling, controller/resolution testing, longer soaks and blind co-op fun sessions"
+  ]
+}
