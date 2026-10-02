@@ -2,7 +2,7 @@ param([string]$RepositoryRoot = (Split-Path (Split-Path $PSScriptRoot -Parent) -
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 $latest = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'latest.json') -Raw | ConvertFrom-Json
-$manifest = @(Get-Content -LiteralPath (Join-Path $PSScriptRoot $latest.input_manifest) -Raw | ConvertFrom-Json)
+$manifest = @(Get-Content -LiteralPath (Join-Path $PSScriptRoot $latest.input_manifest) -Raw | ConvertFrom-Json | ForEach-Object { $_ })
 $projectRoot = [System.IO.Path]::GetFullPath((Join-Path $RepositoryRoot $latest.project))
 $expected = @{}
 foreach ($entry in $manifest) {
