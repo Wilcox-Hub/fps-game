@@ -1,0 +1,6 @@
+{
+  "previous_snapshot": "2026-10-03-vs30",
+  "route_property_tests": "RunPlan .h/.cpp hashes match; retain the dated 20,000 pure route-property cases at their previous validation level.",
+  "recovery": "VS30 actual sixty-second recovery remains historical; the tube/carry implementation is unchanged, but this snapshot does not claim a fresh lobby-launched recovery fixture.",
+  "package": "VS30 package/startup remains historical and is superseded for current-source claims by this package."
+}

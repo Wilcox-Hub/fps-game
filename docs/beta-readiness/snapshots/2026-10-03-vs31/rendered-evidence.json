@@ -1,0 +1,11 @@
+[
+  {
+    "path": "rendered/lobby-1280x720.png",
+    "sha256": "E4B6BB08E4575DBAA7066C3344F3D869084F74C66B9FF2E47409FE607096FF78",
+    "width": 1280,
+    "height": 720,
+    "inspected": true,
+    "scope": "Actual offscreen D3D12 Editor lobby, two actual peers. Keyboard events supplied through the production InputKey path; no physical controller or human UX acceptance.",
+    "note": "Console HighResShot writes Saved/Screenshots/WindowsEditor/HighresScreenshot00000.png despite the fixture SetFilename request. File timestamp and screenshot log are matched; retained under a unique snapshot name. Other resolutions and minimum type size remain pending."
+  }
+]

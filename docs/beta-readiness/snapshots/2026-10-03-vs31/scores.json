@@ -1,0 +1,53 @@
+{
+  "scope": "Gameplay-only planning estimate; not overall beta completion or a test pass rate",
+  "estimated_on": "2026-10-03",
+  "confidence": "low",
+  "judgment_range_percent": [
+    43,
+    72
+  ],
+  "rubric": [
+    {
+      "category": "Controls and combat",
+      "weight_percent": 30,
+      "readiness_percent": 60,
+      "contribution": 18.0,
+      "rationale": "Retain VS30 credit. Fresh integrated normal-route regression passes after lobby/input integration. No new combat-feel, art, balance or performance credit."
+    },
+    {
+      "category": "Weapons and arsenal",
+      "weight_percent": 20,
+      "readiness_percent": 50,
+      "contribution": 10.0,
+      "rationale": "Retain VS30 credit. Actual primary/secondary draw and normal setup timeouts pass after lobby launch. Complete secondary catalog and production weapons remain open."
+    },
+    {
+      "category": "Waves, routes and arenas",
+      "weight_percent": 20,
+      "readiness_percent": 60,
+      "contribution": 12.0,
+      "rationale": "Retain VS30 credit. Fresh normal route regression validates arena objectives, champion phases and bounded terminal victory. Four prototypes remain short of ten finished arenas and intended run pacing."
+    },
+    {
+      "category": "Co-op and recovery",
+      "weight_percent": 20,
+      "readiness_percent": 65,
+      "contribution": 13.0,
+      "rationale": "Add an integrated LAN party browser, actual discovery/join, ready/unready roster, authoritative launch, party-wide setup and leave/end/rehost. Two and four local peers pass controlled lifecycle runs; final abrupt host loss cleans all three clients after the default 60-second timeout. Internet/Steam, matchmaking, authenticated AI/reclaim, packaged human full runs and cross-device testing remain open."
+    },
+    {
+      "category": "Perks and progression",
+      "weight_percent": 10,
+      "readiness_percent": 75,
+      "contribution": 7.5,
+      "rationale": "Retain VS30 credit. Existing grounded perks, profiles and 20/10/10 setup integrate with the party launch. Character preselection, shared reveal, checkpoint/reclaim and human balance remain open."
+    }
+  ],
+  "weighted_score": 60.5,
+  "displayed_gameplay_readiness_percent": 61,
+  "overall_beta_readiness_percent": null,
+  "beta_ready": false,
+  "target_gameplay_readiness_percent": 75,
+  "target_status": "IN_PROGRESS; 75% has not been substantiated",
+  "assessment_note": "Same five weights as VS30. Co-op planning credit rises 50 to 65 for integrated verified local session lifecycle, adding three weighted points. No finished art, human-fun, Internet or minimum-PC credit. Range is a subjective judgment band, not a statistical confidence interval."
+}

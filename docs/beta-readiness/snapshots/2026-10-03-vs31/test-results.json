@@ -1,0 +1,121 @@
+[
+  {
+    "gate": "network-four-fixed-output.txt",
+    "status": "PASS",
+    "scope": "Actual local Editor processes; Null/LAN provider discovery and join, owned input/RPCs, ready/unready, timed setup, leave/end/rehost. No Internet/Steam or human-input acceptance.",
+    "recorded_time_utc": "2026-10-03T13:58:40.6215434Z",
+    "reuse_note": "Four local peers; two lifecycle cycles on the preceding iteration. Final changes preserve the tested M/R/Enter/L path, but alter menu back/gamepad and hosted-restart guards. Explicit scoped reuse; final four-peer host-loss and two-peer full lifecycle separately exercise final source.",
+    "logs": [
+      {
+        "path": "[local workspace]\\research\\vs31\\network-four-fixed\\checks-20261003-065658-547\\Peer0.log",
+        "sha256": "8AAF1FE121126258A4F0F4535B72FA0786DE04DA844F8A3831E436DA366B7940"
+      },
+      {
+        "path": "[local workspace]\\research\\vs31\\network-four-fixed\\checks-20261003-065658-547\\Peer1.log",
+        "sha256": "A5C8777D63E2D77E0AF28BF0B3D7E54F23DF93FE92A25F8A510BA18E94095FD5"
+      },
+      {
+        "path": "[local workspace]\\research\\vs31\\network-four-fixed\\checks-20261003-065658-547\\Peer2.log",
+        "sha256": "384A44C6CD6B625FD57698F43428FE954222B895F2A1BB4A66F2144ADD64E8E7"
+      },
+      {
+        "path": "[local workspace]\\research\\vs31\\network-four-fixed\\checks-20261003-065658-547\\Peer3.log",
+        "sha256": "34297CE4A98AA40BCC7D71742DB6108A7B4DD55D5056096977824A079341A847"
+      }
+    ],
+    "peers": 4,
+    "cycles": 2,
+    "host_loss": false
+  },
+  {
+    "gate": "network-two-render-output.txt",
+    "status": "PASS",
+    "scope": "Actual local Editor processes; Null/LAN provider discovery and join, owned input/RPCs, ready/unready, timed setup, leave/end/rehost. No Internet/Steam or human-input acceptance.",
+    "recorded_time_utc": "2026-10-03T14:02:23.5282353Z",
+    "reuse_note": "Final source; two actual peers and an offscreen D3D12 host. Both pass two lifecycle cycles. Real LAN discovery, owned input/RPCs, normal setup clocks, unready/stale/unauthorized guards, leave/end/rehost and one possessed pawn in each returned menu.",
+    "logs": [
+      {
+        "path": "[local workspace]\\research\\vs31\\network-two-render\\checks-20261003-070044-250\\Peer0.log",
+        "sha256": "87895AD70494AB8AD88DCC10A63172513B4C385602CD7B4872D8914FBBD753C9"
+      },
+      {
+        "path": "[local workspace]\\research\\vs31\\network-two-render\\checks-20261003-070044-250\\Peer1.log",
+        "sha256": "589B8C50F4664C1BAB1686BB2E0591F9AB4E91B298D93907ECDB39873639AE18"
+      }
+    ],
+    "peers": 2,
+    "cycles": 2,
+    "host_loss": false
+  },
+  {
+    "gate": "network-host-loss-output.txt",
+    "status": "PASS",
+    "scope": "Actual local Editor processes; Null/LAN provider discovery and join, owned input/RPCs, ready/unready, timed setup, leave/end/rehost. No Internet/Steam or human-input acceptance.",
+    "recorded_time_utc": "2026-10-03T14:05:21.7581316Z",
+    "reuse_note": "Final source; four peers launch and complete the normal setup, then the owned host process is terminated. All three remaining peers clean up and reach menu state. Failure detection takes the engine default 60-second connection timeout; no host migration or reclaim.",
+    "logs": [
+      {
+        "path": "[local workspace]\\research\\vs31\\network-host-loss\\checks-20261003-070301-188\\Peer0.log",
+        "sha256": "1E3C9EFE740B471184DB046D7B2142E6CB0F4A7A198A6D44E7EEF9E7CCD9AE93"
+      },
+      {
+        "path": "[local workspace]\\research\\vs31\\network-host-loss\\checks-20261003-070301-188\\Peer1.log",
+        "sha256": "8AE934CA53A71442DA0C4D06D014E35A2619FD9040A4091CC6E059A7120ABF65"
+      },
+      {
+        "path": "[local workspace]\\research\\vs31\\network-host-loss\\checks-20261003-070301-188\\Peer2.log",
+        "sha256": "4C017B0FAA336D9D851F8320E05B09B6703ED6D41D40823F63F0DB37AD8F448E"
+      },
+      {
+        "path": "[local workspace]\\research\\vs31\\network-host-loss\\checks-20261003-070301-188\\Peer3.log",
+        "sha256": "2707CE6E1D482ED91D943C62778C05A3A76350669290C1C273F2A2559A9548C3"
+      }
+    ],
+    "peers": 4,
+    "cycles": 1,
+    "host_loss": true
+  },
+  {
+    "gate": "run-regression-output.txt",
+    "status": "PASS",
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "recorded_time_utc": "2026-10-03T14:03:31.1324728Z",
+    "reuse_note": "Final source; normal solo setup and actual route/objective/NPC/champion/victory fixture. Controlled positions and accelerated enemy defeats; no human full run.",
+    "logs": [
+      {
+        "path": "[local workspace]\\unreal\\Ridgefire\\Saved\\Automation\\Run\\checks-20261003-070135-820\\Automation.log",
+        "sha256": "8D406CAB34D82A716E5BDF0F2A3FED049D77D09D4782F943C152F35E11E798A8"
+      }
+    ],
+    "exit_code": 0,
+    "tests": [
+      "Ridgefire.Run.IntegratedRoute"
+    ]
+  },
+  {
+    "gate": "Editor build",
+    "status": "PASS",
+    "log_sha256": "948D54EA1407C375588085869A6140752F47D93EF0FB1C66832DB77E299CBF4F",
+    "scope": "Final source; UE 5.8.3 Development Editor. -gather with -NoUBTMakefiles discovers added CPP files. Existing engine/toolchain deprecation warnings remain."
+  },
+  {
+    "gate": "Windows Shipping BuildCookRun",
+    "status": "PASS",
+    "log_sha256": "AB7AF50A01CEE6557CC65AFABBE5CADB4DE5108976A28ABE7BD01E7393170D80",
+    "package_id": "20261003-070136-890",
+    "runtime_sha256": "0176A78ABE7DEA0048D940515999191EDC1D2536D53D1C94BD792A0D80657D5D",
+    "scope": "Final source compiled/cooked/staged/archived, complete prototype marker, UAT exit 0; not downloadable/public beta release."
+  },
+  {
+    "gate": "Shipping startup",
+    "status": "PASS",
+    "scope": "Owned offscreen Shipping process startup survival/module-load check only; no rendered-frame inspection, menu input, normal play, audio, remote peers, performance or beta acceptance.",
+    "details": "packaged-startup.json"
+  },
+  {
+    "gate": "launcher selection",
+    "status": "PASS",
+    "log_sha256": "503966889B29E9349F54BF550BC193B27DAA7AC5887570720991C230C86BAAAD",
+    "scope": "ListOnly selects and validates newest complete package; launch arguments now request the play menu. No physical input or packaged lobby session claim."
+  }
+]

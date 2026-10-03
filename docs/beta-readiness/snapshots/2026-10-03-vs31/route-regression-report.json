@@ -1,0 +1,26 @@
+{
+  "reportCreatedOn": "2026.10.03-14.03.29",
+  "succeeded": 1,
+  "succeededWithWarnings": 0,
+  "failed": 0,
+  "notRun": 0,
+  "inProcess": 0,
+  "totalDuration": 102.05440521240234,
+  "tests": [
+    {
+      "testDisplayName": "IntegratedRoute",
+      "fullTestPath": "Ridgefire.Run.IntegratedRoute",
+      "tags": [],
+      "state": "Success",
+      "deviceInstance": [
+        "F4AB0CE94D5F9DCBDF7295834B2CC1C9"
+      ],
+      "duration": 102.05440521240234,
+      "dateTime": "2026.10.03-14.01.47",
+      "entries": [],
+      "warnings": 0,
+      "errors": 0,
+      "artifacts": []
+    }
+  ]
+}

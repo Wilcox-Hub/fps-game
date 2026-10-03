@@ -1,0 +1,260 @@
+## network-four-fixed-output.txt / Peer0.log
+[2026.10.03-13.57.06:342][  2]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=511 players=1
+[2026.10.03-13.57.06:359][  3]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-13.57.06:359][  4]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=1
+[2026.10.03-13.57.10:855][133]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=512 players=2
+[2026.10.03-13.57.13:531][192]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=513 players=3
+[2026.10.03-13.57.14:480][524]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=514 players=4
+[2026.10.03-13.57.14:480][524]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=0 cycle=0 seats=4 stale_and_unauthorized_sent=true
+[2026.10.03-13.57.22:481][374]LogTemp: Display: RIDGEFIRE LOBBY launched players=4 epoch=514 perks_seconds=20
+[2026.10.03-13.57.22:481][374]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE LAUNCH cycle=0 held=true unready_gate=true
+[2026.10.03-13.57.22:482][375]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=1
+[2026.10.03-13.57.42:482][950]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=1
+[2026.10.03-13.57.52:482][161]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=1
+[2026.10.03-13.57.59:986][128]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=1 reload_votes=3 skip=0 eligible=4 result_mask=4
+[2026.10.03-13.57.59:986][128]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=1
+[2026.10.03-13.58.12:019][840]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=1
+[2026.10.03-13.58.14:527][890]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=1 perk_defaults=true mask=4 actual_secondary_draw=true
+[2026.10.03-13.58.14:527][890]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE DEPLOYED PeerIndex=0 all_timers_and_loadout=true
+[2026.10.03-13.58.20:619][989]LogTemp: Display: RIDGEFIRE SESSION OK: Party ended. You can host a new party.
+[2026.10.03-13.58.20:619][990]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-13.58.20:620][990]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE MENU PeerIndex=0 cycle=0 clean=true
+[2026.10.03-13.58.20:998][991]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=30092 players=1
+[2026.10.03-13.58.21:014][992]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-13.58.21:014][993]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=1
+[2026.10.03-13.58.23:024][159]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=30093 players=2
+[2026.10.03-13.58.25:939][508]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=30094 players=3
+[2026.10.03-13.58.26:037][641]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=30095 players=4
+[2026.10.03-13.58.26:038][641]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=0 cycle=1 seats=4 stale_and_unauthorized_sent=true
+[2026.10.03-13.58.34:038][469]LogTemp: Display: RIDGEFIRE LOBBY launched players=4 epoch=30095 perks_seconds=20
+[2026.10.03-13.58.34:038][469]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE LAUNCH cycle=1 held=true unready_gate=true
+[2026.10.03-13.58.34:039][470]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE SECOND LAUNCH PeerIndex=0
+[2026.10.03-13.58.39:947][199]LogTemp: Display: RIDGEFIRE SESSION OK: Party ended. You can host a new party.
+[2026.10.03-13.58.39:947][199]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-13.58.39:947][199]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE PASS PeerIndex=0 cycles=2 clean_menu=true one_pawn=true
+
+## network-four-fixed-output.txt / Peer1.log
+[2026.10.03-13.57.13:107][144]LogTemp: Display: RIDGEFIRE SESSION OK: 1 parties found. Select a party and join.
+[2026.10.03-13.57.13:107][145]LogTemp: Display: RIDGEFIRE SESSION SMOKE JOINED; client travel requested
+[2026.10.03-13.57.13:786][690]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-13.57.13:786][691]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=0
+[2026.10.03-13.57.14:497][714]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=1 cycle=0 seats=4 stale_and_unauthorized_sent=true
+[2026.10.03-13.57.22:524][724]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=1
+[2026.10.03-13.57.42:505][799]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=1
+[2026.10.03-13.57.52:487][261]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-13.58.00:013][460]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-13.58.12:043][534]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-13.58.14:612][714]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=4 actual_secondary_draw=true
+[2026.10.03-13.58.14:612][714]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE DEPLOYED PeerIndex=1 all_timers_and_loadout=true
+[2026.10.03-13.58.17:624][711]LogTemp: Display: RIDGEFIRE SESSION OK: Left the party. You can search again.
+[2026.10.03-13.58.17:624][711]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-13.58.17:625][711]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE MENU PeerIndex=1 cycle=0 clean=true
+[2026.10.03-13.58.22:624][617]LogTemp: Display: RIDGEFIRE SESSION OK: 1 parties found. Select a party and join.
+[2026.10.03-13.58.22:624][618]LogTemp: Display: RIDGEFIRE SESSION SMOKE JOINED; client travel requested
+[2026.10.03-13.58.23:279][993]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-13.58.23:279][993]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=0
+[2026.10.03-13.58.26:049][ 30]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=1 cycle=1 seats=4 stale_and_unauthorized_sent=true
+[2026.10.03-13.58.34:053][119]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE SECOND LAUNCH PeerIndex=1
+[2026.10.03-13.58.40:383][ 45]LogTemp: Display: RIDGEFIRE SESSION OK: Left the party. You can search again.
+[2026.10.03-13.58.40:383][ 46]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-13.58.40:383][ 46]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE PASS PeerIndex=1 cycles=2 clean_menu=true one_pawn=true
+
+## network-four-fixed-output.txt / Peer2.log
+[2026.10.03-13.57.10:454][ 85]LogTemp: Display: RIDGEFIRE SESSION OK: 1 parties found. Select a party and join.
+[2026.10.03-13.57.10:455][ 85]LogTemp: Display: RIDGEFIRE SESSION SMOKE JOINED; client travel requested
+[2026.10.03-13.57.11:110][445]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-13.57.11:110][445]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=0
+[2026.10.03-13.57.14:504][328]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=2 cycle=0 seats=4 stale_and_unauthorized_sent=true
+[2026.10.03-13.57.22:502][444]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=1
+[2026.10.03-13.57.42:487][673]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=1
+[2026.10.03-13.57.52:499][254]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-13.57.59:995][464]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-13.58.12:044][615]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-13.58.14:577][774]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=4 actual_secondary_draw=true
+[2026.10.03-13.58.14:577][774]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE DEPLOYED PeerIndex=2 all_timers_and_loadout=true
+[2026.10.03-13.58.20:612][268]LogTemp: Display: RIDGEFIRE SESSION OK: Left the party. You can search again.
+[2026.10.03-13.58.20:612][269]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-13.58.20:612][269]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE MENU PeerIndex=2 cycle=0 clean=true
+[2026.10.03-13.58.25:611][423]LogTemp: Display: RIDGEFIRE SESSION OK: 1 parties found. Select a party and join.
+[2026.10.03-13.58.25:611][424]LogTemp: Display: RIDGEFIRE SESSION SMOKE JOINED; client travel requested
+[2026.10.03-13.58.26:293][848]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-13.58.26:293][849]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=0
+[2026.10.03-13.58.26:294][849]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=2 cycle=1 seats=4 stale_and_unauthorized_sent=true
+[2026.10.03-13.58.34:101][587]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE SECOND LAUNCH PeerIndex=2
+[2026.10.03-13.58.40:369][426]LogTemp: Display: RIDGEFIRE SESSION OK: Left the party. You can search again.
+[2026.10.03-13.58.40:369][427]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-13.58.40:369][427]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE PASS PeerIndex=2 cycles=2 clean_menu=true one_pawn=true
+
+## network-four-fixed-output.txt / Peer3.log
+[2026.10.03-13.57.14:042][477]LogTemp: Display: RIDGEFIRE SESSION OK: 1 parties found. Select a party and join.
+[2026.10.03-13.57.14:042][478]LogTemp: Display: RIDGEFIRE SESSION SMOKE JOINED; client travel requested
+[2026.10.03-13.57.14:737][824]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-13.57.14:737][825]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=0
+[2026.10.03-13.57.14:737][825]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=3 cycle=0 seats=4 stale_and_unauthorized_sent=true
+[2026.10.03-13.57.22:498][511]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=1
+[2026.10.03-13.57.42:496][687]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=1
+[2026.10.03-13.57.52:489][199]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-13.58.00:004][395]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-13.58.12:035][485]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-13.58.14:604][696]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=4 actual_secondary_draw=true
+[2026.10.03-13.58.14:604][696]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE DEPLOYED PeerIndex=3 all_timers_and_loadout=true
+[2026.10.03-13.58.20:507][150]LogTemp: Display: RIDGEFIRE SESSION OK: Left the party. You can search again.
+[2026.10.03-13.58.20:507][151]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-13.58.20:507][151]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE MENU PeerIndex=3 cycle=0 clean=true
+[2026.10.03-13.58.25:507][316]LogTemp: Display: RIDGEFIRE SESSION OK: 1 parties found. Select a party and join.
+[2026.10.03-13.58.25:507][316]LogTemp: Display: RIDGEFIRE SESSION SMOKE JOINED; client travel requested
+[2026.10.03-13.58.26:196][660]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-13.58.26:196][661]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=0
+[2026.10.03-13.58.26:196][661]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=3 cycle=1 seats=4 stale_and_unauthorized_sent=true
+[2026.10.03-13.58.34:057][486]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE SECOND LAUNCH PeerIndex=3
+[2026.10.03-13.58.40:374][392]LogTemp: Display: RIDGEFIRE SESSION OK: Left the party. You can search again.
+[2026.10.03-13.58.40:374][392]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-13.58.40:374][392]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE PASS PeerIndex=3 cycles=2 clean_menu=true one_pawn=true
+
+## network-two-render-output.txt / Peer0.log
+[2026.10.03-14.00.52:982][  2]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=20067 players=1
+[2026.10.03-14.00.53:033][  3]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-14.00.53:033][  4]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=1
+[2026.10.03-14.00.55:480][224]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=20068 players=2
+[2026.10.03-14.00.55:480][224]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=0 cycle=0 seats=2 stale_and_unauthorized_sent=true
+[2026.10.03-14.01.03:481][886]LogTemp: Display: RIDGEFIRE LOBBY launched players=2 epoch=20068 perks_seconds=20
+[2026.10.03-14.01.03:481][886]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE LAUNCH cycle=0 held=true unready_gate=true
+[2026.10.03-14.01.03:493][887]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=1
+[2026.10.03-14.01.23:505][609]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=1
+[2026.10.03-14.01.33:509][473]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=1
+[2026.10.03-14.01.40:645][ 87]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=1 reload_votes=1 skip=0 eligible=2 result_mask=4
+[2026.10.03-14.01.40:657][ 88]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=1
+[2026.10.03-14.01.52:672][101]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=1
+[2026.10.03-14.01.55:203][319]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=1 perk_defaults=true mask=4 actual_secondary_draw=true
+[2026.10.03-14.01.55:203][319]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE DEPLOYED PeerIndex=0 all_timers_and_loadout=true
+[2026.10.03-14.02.01:297][808]LogTemp: Display: RIDGEFIRE SESSION OK: Party ended. You can host a new party.
+[2026.10.03-14.02.01:297][809]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-14.02.01:297][809]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE MENU PeerIndex=0 cycle=0 clean=true
+[2026.10.03-14.02.01:773][810]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=8005 players=1
+[2026.10.03-14.02.01:819][811]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-14.02.01:819][812]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=1
+[2026.10.03-14.02.08:668][423]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=8006 players=2
+[2026.10.03-14.02.08:668][423]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=0 cycle=1 seats=2 stale_and_unauthorized_sent=true
+[2026.10.03-14.02.16:678][107]LogTemp: Display: RIDGEFIRE LOBBY launched players=2 epoch=8006 perks_seconds=20
+[2026.10.03-14.02.16:678][107]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE LAUNCH cycle=1 held=true unready_gate=true
+[2026.10.03-14.02.16:689][108]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE SECOND LAUNCH PeerIndex=0
+[2026.10.03-14.02.22:884][599]LogTemp: Display: RIDGEFIRE SESSION OK: Party ended. You can host a new party.
+[2026.10.03-14.02.22:884][600]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-14.02.22:885][600]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE PASS PeerIndex=0 cycles=2 clean_menu=true one_pawn=true
+
+## network-two-render-output.txt / Peer1.log
+[2026.10.03-14.00.55:085][480]LogTemp: Display: RIDGEFIRE SESSION OK: 1 parties found. Select a party and join.
+[2026.10.03-14.00.55:086][481]LogTemp: Display: RIDGEFIRE SESSION SMOKE JOINED; client travel requested
+[2026.10.03-14.00.55:981][881]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-14.00.55:982][882]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=0
+[2026.10.03-14.00.55:982][882]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=1 cycle=0 seats=2 stale_and_unauthorized_sent=true
+[2026.10.03-14.01.03:482][413]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=1
+[2026.10.03-14.01.23:495][302]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=1
+[2026.10.03-14.01.33:500][621]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-14.01.40:646][831]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-14.01.52:671][669]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-14.01.55:254][223]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=4 actual_secondary_draw=true
+[2026.10.03-14.01.55:254][223]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE DEPLOYED PeerIndex=1 all_timers_and_loadout=true
+[2026.10.03-14.01.58:238][739]LogTemp: Display: RIDGEFIRE SESSION OK: Left the party. You can search again.
+[2026.10.03-14.01.58:238][740]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-14.01.58:239][740]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE MENU PeerIndex=1 cycle=0 clean=true
+[2026.10.03-14.02.03:238][625]LogTemp: Display: RIDGEFIRE SESSION OK: 0 parties found. Select a party and join.
+[2026.10.03-14.02.08:239][716]LogTemp: Display: RIDGEFIRE SESSION OK: 1 parties found. Select a party and join.
+[2026.10.03-14.02.08:239][717]LogTemp: Display: RIDGEFIRE SESSION SMOKE JOINED; client travel requested
+[2026.10.03-14.02.08:922][150]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-14.02.08:922][150]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=0
+[2026.10.03-14.02.08:923][150]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=1 cycle=1 seats=2 stale_and_unauthorized_sent=true
+[2026.10.03-14.02.16:679][186]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE SECOND LAUNCH PeerIndex=1
+[2026.10.03-14.02.23:305][555]LogTemp: Display: RIDGEFIRE SESSION OK: Left the party. You can search again.
+[2026.10.03-14.02.23:305][556]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-14.02.23:305][556]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE PASS PeerIndex=1 cycles=2 clean_menu=true one_pawn=true
+
+## network-host-loss-output.txt / Peer0.log
+[2026.10.03-14.03.10:492][  2]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=5888 players=1
+[2026.10.03-14.03.10:511][  3]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-14.03.10:511][  4]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=1
+[2026.10.03-14.03.12:994][491]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=5889 players=2
+[2026.10.03-14.03.17:729][135]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=5890 players=3
+[2026.10.03-14.03.18:173][726]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=5891 players=4
+[2026.10.03-14.03.18:173][726]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=0 cycle=0 seats=4 stale_and_unauthorized_sent=true
+[2026.10.03-14.03.26:173][708]LogTemp: Display: RIDGEFIRE LOBBY launched players=4 epoch=5891 perks_seconds=20
+[2026.10.03-14.03.26:173][708]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE LAUNCH cycle=0 held=true unready_gate=true
+[2026.10.03-14.03.26:174][709]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=1
+[2026.10.03-14.03.46:174][796]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=1
+[2026.10.03-14.03.56:174][ 40]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=1
+[2026.10.03-14.04.04:146][818]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=1 reload_votes=3 skip=0 eligible=4 result_mask=8
+[2026.10.03-14.04.04:146][818]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=1
+[2026.10.03-14.04.16:159][162]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=1
+[2026.10.03-14.04.18:685][235]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=1 perk_defaults=true mask=8 actual_secondary_draw=true
+[2026.10.03-14.04.18:685][235]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE DEPLOYED PeerIndex=0 all_timers_and_loadout=true
+
+## network-host-loss-output.txt / Peer1.log
+[2026.10.03-14.03.12:488][225]LogTemp: Display: RIDGEFIRE SESSION OK: 1 parties found. Select a party and join.
+[2026.10.03-14.03.12:488][226]LogTemp: Display: RIDGEFIRE SESSION SMOKE JOINED; client travel requested
+[2026.10.03-14.03.13:251][545]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-14.03.13:251][546]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=0
+[2026.10.03-14.03.18:188][281]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=1 cycle=0 seats=4 stale_and_unauthorized_sent=true
+[2026.10.03-14.03.26:242][634]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=1
+[2026.10.03-14.03.46:188][ 89]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=1
+[2026.10.03-14.03.56:183][535]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-14.04.04:161][447]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-14.04.16:177][ 81]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-14.04.18:763][251]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=8 actual_secondary_draw=true
+[2026.10.03-14.04.18:763][251]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE DEPLOYED PeerIndex=1 all_timers_and_loadout=true
+[2026.10.03-14.05.21:472][440]LogTemp: Display: RIDGEFIRE SESSION OK: Connection to the party was lost. Search again or host a new party.
+[2026.10.03-14.05.21:472][441]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-14.05.21:472][441]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE PASS PeerIndex=1 host_loss=true clean_menu=true
+
+## network-host-loss-output.txt / Peer2.log
+[2026.10.03-14.03.17:280][675]LogTemp: Display: RIDGEFIRE SESSION OK: 1 parties found. Select a party and join.
+[2026.10.03-14.03.17:280][676]LogTemp: Display: RIDGEFIRE SESSION SMOKE JOINED; client travel requested
+[2026.10.03-14.03.17:988][200]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-14.03.17:988][201]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=0
+[2026.10.03-14.03.18:195][456]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=2 cycle=0 seats=4 stale_and_unauthorized_sent=true
+[2026.10.03-14.03.26:190][527]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=1
+[2026.10.03-14.03.46:178][947]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=1
+[2026.10.03-14.03.56:192][371]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-14.04.04:151][241]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-14.04.16:178][841]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-14.04.18:754][992]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=8 actual_secondary_draw=true
+[2026.10.03-14.04.18:754][992]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE DEPLOYED PeerIndex=2 all_timers_and_loadout=true
+[2026.10.03-14.05.21:470][146]LogTemp: Display: RIDGEFIRE SESSION OK: Connection to the party was lost. Search again or host a new party.
+[2026.10.03-14.05.21:470][147]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-14.05.21:470][147]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE PASS PeerIndex=2 host_loss=true clean_menu=true
+
+## network-host-loss-output.txt / Peer3.log
+[2026.10.03-14.03.17:704][967]LogTemp: Display: RIDGEFIRE SESSION OK: 1 parties found. Select a party and join.
+[2026.10.03-14.03.17:704][967]LogTemp: Display: RIDGEFIRE SESSION SMOKE JOINED; client travel requested
+[2026.10.03-14.03.18:431][442]LogTemp: Display: RIDGEFIRE SESSION OK: Connected to the party. Ready up when everyone has joined.
+[2026.10.03-14.03.18:431][442]LogTemp: Display: RIDGEFIRE SESSION LOBBY CONNECTED hosting=0
+[2026.10.03-14.03.18:431][442]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE CONNECTED PeerIndex=3 cycle=0 seats=4 stale_and_unauthorized_sent=true
+[2026.10.03-14.03.26:181][227]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=1
+[2026.10.03-14.03.46:206][654]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=1
+[2026.10.03-14.03.56:200][ 62]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-14.04.04:165][938]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-14.04.16:177][532]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-14.04.18:736][672]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=8 actual_secondary_draw=true
+[2026.10.03-14.04.18:736][672]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE DEPLOYED PeerIndex=3 all_timers_and_loadout=true
+[2026.10.03-14.05.21:466][889]LogTemp: Display: RIDGEFIRE SESSION OK: Connection to the party was lost. Search again or host a new party.
+[2026.10.03-14.05.21:466][890]LogTemp: Display: RIDGEFIRE SESSION MENU RETURNED clean=1
+[2026.10.03-14.05.21:467][890]LogTemp: Display: RIDGEFIRE LOBBY FIXTURE PASS PeerIndex=3 host_loss=true clean_menu=true
+
+## run-regression-output.txt / Automation.log
+[2026.10.03-14.02.21:917][ 35]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=0 reload_votes=0 skip=0 eligible=1 result_mask=4
+[2026.10.03-14.02.33:360][986]LogTemp: Display: RIDGEFIRE RUN OBSERVED arena=0 wave=0
+[2026.10.03-14.02.45:686][ 54]LogTemp: Display: RIDGEFIRE RUN arena_cleared=0 visited=1 seed=13473
+[2026.10.03-14.02.46:686][699]LogTemp: Display: RIDGEFIRE RUN route_locked=2 left=0 right=1 eligible=1 epoch=1
+[2026.10.03-14.02.47:190][502]LogTemp: Display: RIDGEFIRE RUN entered=2 visited=2 relays=3 tube=RidgefireHealingTube_1
+[2026.10.03-14.02.47:191][502]LogTemp: Display: RIDGEFIRE RUN OBSERVED arena=2 wave=2
+[2026.10.03-14.03.00:129][572]LogTemp: Display: RIDGEFIRE RUN arena_cleared=2 visited=2 seed=13473
+[2026.10.03-14.03.01:129][722]LogTemp: Display: RIDGEFIRE RUN route_locked=1 left=1 right=0 eligible=1 epoch=2
+[2026.10.03-14.03.01:635][198]LogTemp: Display: RIDGEFIRE RUN entered=1 visited=3 relays=0 tube=RidgefireHealingTube_2
+[2026.10.03-14.03.01:635][198]LogTemp: Display: RIDGEFIRE RUN OBSERVED arena=1 wave=4
+[2026.10.03-14.03.14:604][996]LogTemp: Display: RIDGEFIRE RUN arena_cleared=1 visited=3 seed=13473
+[2026.10.03-14.03.14:604][996]LogTemp: Display: RIDGEFIRE RUN route_locked=3 left=0 right=0 eligible=1 epoch=3
+[2026.10.03-14.03.15:107][554]LogTemp: Display: RIDGEFIRE RUN entered=3 visited=4 relays=3 tube=RidgefireHealingTube_3
+[2026.10.03-14.03.15:107][554]LogTemp: Display: RIDGEFIRE RUN OBSERVED arena=3 wave=6
+[2026.10.03-14.03.23:120][773]LogTemp: Display: RIDGEFIRE RUN arena_cleared=3 visited=4 seed=13473
+[2026.10.03-14.03.23:120][773]LogTemp: Display: RIDGEFIRE RUN victory arenas=4 waves=7 seed=13473 score=17490
+[2026.10.03-14.03.29:120][843]LogTemp: Display: RIDGEFIRE RUN PASS four unique prototypes, normal setup, seven real waves, interactive relays, champion guard/phase, bounded victory and reward idempotence; combat accelerated by fixture
+[2026.10.03-14.03.29:121][845]LogAutomationController: Display: Test Completed. Result={Success} Name={IntegratedRoute} Path={Ridgefire.Run.IntegratedRoute}
