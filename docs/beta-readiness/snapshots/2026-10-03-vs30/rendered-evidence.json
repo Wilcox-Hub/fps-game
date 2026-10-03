@@ -1,0 +1,38 @@
+[
+  {
+    "path": "rendered/Arena0.png",
+    "sha256": "5B26C0A9A446177244CF6FD61CEE91D42E87ADCE50ED04C012748629BBB0771E",
+    "inspected": true,
+    "width": 1280,
+    "height": 720,
+    "scope": "Actual offscreen D3D12 Editor frames, constructed camera positions, frozen enemies",
+    "notes": "Shader preparation overlay in initial arena, prototype geometry/player/enemy/weapon art, very bright lens pylons and no art acceptance."
+  },
+  {
+    "path": "rendered/Arena2.png",
+    "sha256": "7BB43F672A1BC7593A034CE610E3E332B558C90C0BEB8AE08D1AC9BC7DDF2724",
+    "inspected": true,
+    "width": 1280,
+    "height": 720,
+    "scope": "Actual offscreen D3D12 Editor frames, constructed camera positions, frozen enemies",
+    "notes": "Shader preparation overlay in initial arena, prototype geometry/player/enemy/weapon art, very bright lens pylons and no art acceptance."
+  },
+  {
+    "path": "rendered/Arena1.png",
+    "sha256": "DB1A79A623A6C1E4A13F490EEC25330504040A1D122DCA6AC2E7B8D8A37CC395",
+    "inspected": true,
+    "width": 1280,
+    "height": 720,
+    "scope": "Actual offscreen D3D12 Editor frames, constructed camera positions, frozen enemies",
+    "notes": "Shader preparation overlay in initial arena, prototype geometry/player/enemy/weapon art, very bright lens pylons and no art acceptance."
+  },
+  {
+    "path": "rendered/Arena3.png",
+    "sha256": "1C37823620D92DF413A878AFADC6389C3D05D1849E65FB773B3A44E352B1D0F6",
+    "inspected": true,
+    "width": 1280,
+    "height": 720,
+    "scope": "Actual offscreen D3D12 Editor frames, constructed camera positions, frozen enemies",
+    "notes": "Shader preparation overlay in initial arena, prototype geometry/player/enemy/weapon art, very bright lens pylons and no art acceptance."
+  }
+]

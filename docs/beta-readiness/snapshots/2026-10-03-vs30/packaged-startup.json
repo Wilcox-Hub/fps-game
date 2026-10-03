@@ -1,0 +1,14 @@
+{
+  "PackageRoot": "[local workspace]\\unreal\\Ridgefire\\Saved\\Packages\\20261003-022312-641",
+  "Runtime": "[local workspace]\\unreal\\Ridgefire\\Saved\\Packages\\20261003-022312-641\\Windows\\Ridgefire\\Binaries\\Win64\\TP_FirstPerson-Win64-Shipping.exe",
+  "StartedAtUtc": "2026-10-03T09:25:25.5650681Z",
+  "ObservedSeconds": 22.44,
+  "ProcessSurvived": true,
+  "GraphicsModules": [
+    "dxgi.dll",
+    "d3d12.dll",
+    "D3D12Core.dll"
+  ],
+  "Scope": "Owned offscreen Shipping process startup survival/module-load check only; no rendered-frame inspection, menu input, normal play, audio, remote peers, performance or beta acceptance.",
+  "RuntimeSHA256": "2E1BD841A93FEBB3FBFCFB7E28FC12F7FCE71C6F47225655D39A3435BECDB539"
+}

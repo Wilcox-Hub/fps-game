@@ -1,0 +1,53 @@
+{
+  "scope": "Gameplay-only planning estimate; not overall beta completion or a test pass rate",
+  "estimated_on": "2026-10-03",
+  "confidence": "low",
+  "judgment_range_percent": [
+    40,
+    70
+  ],
+  "rubric": [
+    {
+      "category": "Controls and combat",
+      "weight_percent": 30,
+      "readiness_percent": 60,
+      "contribution": 18.0,
+      "rationale": "Prototype champion guard counterplay and a half-health movement phase; arena arrival resets old aim pitch. Existing authoritative firing/reload/wipe/restart checks pass. No human combat-feel, production animation or performance credit."
+    },
+    {
+      "category": "Weapons and arsenal",
+      "weight_percent": 20,
+      "readiness_percent": 50,
+      "contribution": 10.0,
+      "rationale": "Retain previous credit. Existing personal primary/secondary loadouts survive new route transitions. No new finished weapon, ten-secondary catalog or art/balance acceptance."
+    },
+    {
+      "category": "Waves, routes and arenas",
+      "weight_percent": 20,
+      "readiness_percent": 60,
+      "contribution": 12.0,
+      "rationale": "Finite three/four-unique-arena routes, majority votes with seeded ties, deadlines, relay objectives, finale and idempotent clearance/XP. Twenty thousand model routes and integrated real-world checks pass. Only four prototypes, not ten finished arenas; intended 45\u201360-minute pacing, survival mode and saved checkpoints remain open."
+    },
+    {
+      "category": "Co-op and recovery",
+      "weight_percent": 20,
+      "readiness_percent": 50,
+      "contribution": 10.0,
+      "rationale": "Four real local Editor peers share route choices and bounded victory. A route voter disconnect leaves three eligible players, who finish. Four-peer real sixty-second recovery and two-peer combat/wipe/restart pass. No Steam/Internet, human full-run or AI takeover/reclaim acceptance."
+    },
+    {
+      "category": "Perks and progression",
+      "weight_percent": 10,
+      "readiness_percent": 75,
+      "contribution": 7.5,
+      "rationale": "Retain previous credit for grounded ten-perk effects/profiles and staged setup. New arena-clear XP is idempotent. Character preselection, shared reveal, authenticated reconnect and human balance remain open."
+    }
+  ],
+  "weighted_score": 57.5,
+  "displayed_gameplay_readiness_percent": 58,
+  "overall_beta_readiness_percent": null,
+  "beta_ready": false,
+  "target_gameplay_readiness_percent": 75,
+  "target_status": "IN_PROGRESS; 75% has not been substantiated",
+  "assessment_note": "7.5 planning points above VS29: combat +1.5, run framework/prototypes +5, co-op route handling +1. No finished production content, human-fun, Internet or minimum-PC credit inferred from accelerated fixtures."
+}

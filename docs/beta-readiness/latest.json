@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
   "recorded_on": "2026-10-03",
-  "tested_on": "2026-10-02",
+  "tested_on": "2026-10-03",
   "timezone": "America/Los_Angeles",
-  "snapshot_id": "2026-10-03-release-review",
+  "snapshot_id": "2026-10-03-vs30",
   "source_baseline_commit": "a3d2d1ca109764962493722f5859b3013b1cf058",
   "tested_source_includes_unpublished_changes": true,
-  "tested_input_count": 534,
+  "tested_input_count": 543,
   "engine": "Unreal Engine 5.8.3",
   "project": "unreal/Ridgefire",
   "verdict": "NOT_BETA_READY",
-  "gameplay_readiness_percent": 50,
-  "gameplay_weighted_score": 50.0,
+  "gameplay_readiness_percent": 58,
+  "gameplay_weighted_score": 57.5,
   "overall_beta_readiness_percent": null,
   "confidence": "low",
-  "score": "snapshots/2026-10-02-vs29/scores.json",
-  "report": "snapshots/2026-10-03-release-review/report.md",
-  "input_manifest": "snapshots/2026-10-02-vs29/input-manifest.json",
-  "test_results": "snapshots/2026-10-02-vs29/test-results.json",
+  "score": "snapshots/2026-10-03-vs30/scores.json",
+  "report": "snapshots/2026-10-03-vs30/report.md",
+  "input_manifest": "snapshots/2026-10-03-vs30/input-manifest.json",
+  "test_results": "snapshots/2026-10-03-vs30/test-results.json",
   "cache_policy": "Reuse matching-input evidence at its recorded validation level. Changed, missing or added inputs require affected checks; historical scores remain dated until a new assessment.",
   "remaining_gates": [
     "Normal-input packaged full runs and human balance testing",
-    "Ten finished arenas, branch routes and champions",
-    "Character preselection, shared reveal and integrated online lobby",
-    "Internet/Steam, four-human full runs, disconnect/takeover/reclaim",
-    "Production art/animation/audio and minimum-PC profiling"
+    "Ten finished arenas, intended run pacing, survival mode and original champions",
+    "Character preselection, shared reveal, saved checkpoints and integrated online lobby",
+    "Internet/Steam, four-human full runs, disconnect AI/takeover/reclaim",
+    "Production art/animation/audio and minimum-PC profiling/soaks"
   ],
   "project_descriptor": {
     "path": "Ridgefire.uproject",
@@ -33,5 +33,7 @@
   "previous_test_snapshot": "2026-10-02-vs29",
   "beta_readiness_approved": false,
   "testing_recommendation": "Supervised internal alpha playtest; closed external testing conditional on a normal-input packaged session",
-  "assessment_kind": "Release review with matching-input evidence reuse; no new gameplay testing"
+  "assessment_kind": "Run foundation implementation and focused controlled engine validation",
+  "target_gameplay_readiness_percent": 75,
+  "target_status": "IN_PROGRESS; not reached"
 }

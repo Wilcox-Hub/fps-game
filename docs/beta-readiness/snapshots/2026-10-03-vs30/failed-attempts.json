@@ -1,0 +1,11 @@
+{
+  "resolved": true,
+  "attempts": [
+    "Initial compile required explicit UObject pointer element types and the expected replication macro parameter name; repaired and build passed.",
+    "UBT reused a makefile that omitted the new test file. Rebuilt with -NoUBTMakefiles; discovered tests.",
+    "The initial integrated fixture secured lenses before the champion spawned, then incorrectly expected guard protection. Corrected fixture order; guarded and unguarded damage/phase pass.",
+    "Initial captures exposed retained downward aim and a champion HUD overlap. Corrected arrival aim, HUD position/contrast and parameterized route material, then inspected new captures.",
+    "The strict render wrapper missed a buffered completion marker, although Unreal exported Success with zero errors/warnings. Preserve the report, fix the wrapper to read authoritative reports and separately verify final clean exit under NullRHI."
+  ],
+  "unverified": "Normal-input packaged full play, audio, human balance, Internet/Steam and minimum-PC/soak acceptance."
+}

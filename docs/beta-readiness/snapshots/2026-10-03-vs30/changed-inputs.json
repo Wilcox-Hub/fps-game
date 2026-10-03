@@ -1,0 +1,20 @@
+[
+  "Source/TP_FirstPerson/RidgefireArenaDressing.cpp",
+  "Source/TP_FirstPerson/RidgefireArenaDressing.h",
+  "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+  "Source/TP_FirstPerson/RidgefireGameMode.h",
+  "Source/TP_FirstPerson/RidgefireHUD.cpp",
+  "Source/TP_FirstPerson/RidgefireRelay.cpp",
+  "Source/TP_FirstPerson/RidgefireRelay.h",
+  "Source/TP_FirstPerson/RidgefireRouteGeometry.cpp",
+  "Source/TP_FirstPerson/RidgefireRun.cpp",
+  "Source/TP_FirstPerson/RidgefireRunPlan.cpp",
+  "Source/TP_FirstPerson/RidgefireRunPlan.h",
+  "Source/TP_FirstPerson/Tests/RidgefireRunNetworkFixture.cpp",
+  "Source/TP_FirstPerson/Tests/RidgefireRunTests.cpp",
+  "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.cpp",
+  "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.h",
+  "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+  "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h",
+  "Content/Variant_Shooter/Materials/M_Ridgefire_RouteSurface.uasset"
+]

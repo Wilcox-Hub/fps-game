@@ -1,21 +1,21 @@
 # IRON SUN beta readiness
 
-Latest gameplay planning estimate: **50%**, low confidence, assessed October 2, 2026. **NOT_BETA_READY.** The provisional 50% gameplay milestone is reached; overall beta completion remains unmeasured. This is a planning judgment, not a test pass rate.
+Latest gameplay planning estimate: **58%** (weighted 57.5), low confidence, assessed October 3, 2026. **NOT_BETA_READY.** The current target is **75%; it remains in progress**. Overall beta completion remains unmeasured. These percentages are planning judgments, not test pass rates.
 
-Start with [latest.json](latest.json), its [release review](snapshots/2026-10-03-release-review/report.md), [tested build report](snapshots/2026-10-02-vs29/report.md), [scores](snapshots/2026-10-02-vs29/scores.json), [test results](snapshots/2026-10-02-vs29/test-results.json), and [progression guide](snapshots/2026-10-02-vs29/progression-guide.md). Older snapshots remain history.
+Start with [latest.json](latest.json), the [report](snapshots/2026-10-03-vs30/report.md), [scores](snapshots/2026-10-03-vs30/scores.json), [test results](snapshots/2026-10-03-vs30/test-results.json), [progression guide](snapshots/2026-10-03-vs30/progression-guide.md), and [remaining 75% milestones](snapshots/2026-10-03-vs30/target-75.md). Older snapshots remain history, including the [developer release review](snapshots/2026-10-03-release-review/report.md).
 
 | Area | Weight | Readiness | Points |
 | --- | ---: | ---: | ---: |
-| Controls and combat | 30% | 55% | 16.5 |
+| Controls and combat | 30% | 60% | 18.0 |
 | Weapons and arsenal | 20% | 50% | 10.0 |
-| Waves, routes and arenas | 20% | 35% | 7.0 |
-| Co-op and recovery | 20% | 45% | 9.0 |
+| Waves, routes and arenas | 20% | 60% | 12.0 |
+| Co-op and recovery | 20% | 50% | 10.0 |
 | Perks and progression | 10% | 75% | 7.5 |
 
-For readiness questions, consult this folder before starting tests. Compare current inputs using `powershell -NoProfile -File docs/beta-readiness/Check-Readiness.ps1`. Matching hashes allow reuse only at the recorded validation level. Changed inputs require affected checks; an engine, platform, package or network change requires corresponding evidence. These checks never start Unreal. See individual gate reuse notes for scoped evidence retained from earlier VS29 iterations.
+Consult this folder before selecting tests or answering readiness questions. Compare current inputs with `powershell -NoProfile -File docs/beta-readiness/Check-Readiness.ps1`. Matching hashes permit reuse only at the recorded date and validation level. Changed inputs require affected checks; engine, platform, package and network changes require corresponding evidence. See individual gate notes for scoped reuse and the rendered report wrapper limitation.
 
-Game source includes unpublished local changes; GitHub source may differ. Preserve the ten-finished-arena beta target and the hardware, production-art, Internet, performance and human-fun gates. After relevant work, add a dated snapshot and update this overview and the latest pointer together.
+VS30 adds finite three/four-arena prototype routes, majority ballots with seeded ties, deadline/disconnect handling, Mirror Delta relays, Last Star lens controls, a guarded champion phase and one terminal victory. Twenty thousand seeded route cases pass. Four local Editor peers share a controlled victory; a departing route voter leaves three eligible peers who finish. Final four-peer actual sixty-second recovery passes. A new Windows Shipping prototype builds and survives a D3D12 startup check. None of these is a normal-input packaged human full run.
 
-VS29 adds timed perk/secondary/vote stages, secondary reservation and timeout deployment. Four actual local Editor peers exercise ballots and owner loadouts; a disconnect scenario and real sixty-second remote-player recovery also pass. This does not establish four-human full runs or Internet readiness.
+Game source includes unpublished local changes; GitHub source may differ. Four playable prototypes do not satisfy the ten-finished-arena target. Human playtests are pending because the owner cannot test currently; no human acceptance was invented. Integrated lobby/Steam, takeover/reclaim, saved checkpoints, survival mode, production art/audio and minimum-PC profiling remain open.
 
-Developer release review, October 3: supervised internal alpha playtesting is approved; beta readiness is not approved. The 50% planning estimate is retained without new credit. All 534 inputs match VS29, so its dated evidence is reused; no gameplay tests were repeated. A complete human-played packaged session is required before broader closed distribution.
+Supervised internal alpha remains the testing recommendation. Beta release approval remains false. After relevant work, add a dated snapshot and update this overview and the latest pointer together.

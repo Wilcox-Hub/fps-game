@@ -1,0 +1,136 @@
+[
+  {
+    "gate": "rules-output.txt",
+    "status": "PASS",
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "reuse_note": "RunPlan source unchanged since this passing rules run; 5,000 seeds with four vote patterns, no rendering or combat.",
+    "logs": [
+      {
+        "path": "[local workspace]\\vs30\\rules\\checks-20261003-021010-204\\Automation.log",
+        "sha256": "D163822516034C8BA0D1BE436B2333AA87318F3461C217F0D6B87FA28746762C"
+      }
+    ],
+    "tests": [
+      "Ridgefire.Run.RouteProperties"
+    ],
+    "recorded_time_utc": "2026-10-03T09:10:28.6105344Z"
+  },
+  {
+    "gate": "run-final-output.txt",
+    "status": "PASS",
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "reuse_note": "Fresh final source; normal production setup timeouts, accelerated enemy deaths and constructed objective positioning. Automation report and process exit 0.",
+    "logs": [
+      {
+        "path": "[local workspace]\\vs30\\run-final\\checks-20261003-022826-664\\Automation.log",
+        "sha256": "8DD16DA90D317CC8867EA71CCE1F9D34448CB920B200EFF1B332C41C0C7D168B"
+      }
+    ],
+    "tests": [
+      "Ridgefire.Run.IntegratedRoute"
+    ],
+    "recorded_time_utc": "2026-10-03T09:30:20.7658585Z",
+    "process_exit_code": 0
+  },
+  {
+    "gate": "run-network-output.txt",
+    "status": "PASS",
+    "scope": "Four real local Editor processes, RPC route choices and replicated bounded victory; enemies frozen and killed by opt-in fixture, no human/Internet acceptance",
+    "reuse_note": "Four peers before final camera/material/HUD, countdown-refresh and next-tick logout correction. Core no-disconnect route/RPC/victory path unchanged; final disconnect run separately exercises changed logout and final geometry. This historical gate is scoped, not claimed as a rerun on final source.",
+    "logs": [
+      {
+        "path": "[local workspace]\\vs30\\network\\checks-20261003-021134-535\\Host.log",
+        "sha256": "76C3D05D11485D8063DF6A253433B66305BE2D48ABC87F47AAB874E398B5B7C5"
+      },
+      {
+        "path": "[local workspace]\\vs30\\network\\checks-20261003-021134-535\\Client1.log",
+        "sha256": "FCFF770574606497F3714BE3DDDC4C49D93E7617464D64D8CAA8D7833F4FF8B0"
+      },
+      {
+        "path": "[local workspace]\\vs30\\network\\checks-20261003-021134-535\\Client2.log",
+        "sha256": "5627CC3C25FC47E8B27B77968D679B7326DC215E9FA054F3E93EEFC7E290795B"
+      },
+      {
+        "path": "[local workspace]\\vs30\\network\\checks-20261003-021134-535\\Client3.log",
+        "sha256": "8254F12DE649E611B148ED929305AD773481D5A32F2CF04AEBA4104F87193831"
+      }
+    ],
+    "tests": [],
+    "recorded_time_utc": "2026-10-03T09:13:28.5588624Z"
+  },
+  {
+    "gate": "run-network-disconnect-output.txt",
+    "status": "PASS",
+    "scope": "Real local Editor processes, RPC route choices and replicated bounded victory; enemies frozen and killed by opt-in fixture, no human/Internet acceptance",
+    "reuse_note": "Fresh final source, four peers initially; one abstaining peer is terminated during the first route vote, leaving three. No takeover/reclaim behavior inferred.",
+    "logs": [
+      {
+        "path": "[local workspace]\\vs30\\network-disconnect\\checks-20261003-022527-328\\Host.log",
+        "sha256": "6E5E701155670366B3366617DF32AA3B698DDDA3BC145FA885C5B452AC5623CE"
+      },
+      {
+        "path": "[local workspace]\\vs30\\network-disconnect\\checks-20261003-022527-328\\Client1.log",
+        "sha256": "387653C230DE306DB9F63F7C30E097FBA904D9A807A7A7C850DD81E020048504"
+      },
+      {
+        "path": "[local workspace]\\vs30\\network-disconnect\\checks-20261003-022527-328\\Client2.log",
+        "sha256": "44784FDCEABE4A0C7555817FE940D8B727D58F5A9E70740A912F1533EBDD9C11"
+      },
+      {
+        "path": "[local workspace]\\vs30\\network-disconnect\\checks-20261003-022527-328\\Client3.log",
+        "sha256": "0EA3A2FF0B1053304BE5F0C1C3DFFA66CA3429FEB8DEC8B9A50BBDF0A4A5DA8C"
+      }
+    ],
+    "tests": [],
+    "recorded_time_utc": "2026-10-03T09:27:20.2650746Z"
+  },
+  {
+    "gate": "recovery-final-output.txt",
+    "status": "PASS",
+    "scope": "Four local Editor processes with real replication and RPCs; no Internet/Steam or human input acceptance",
+    "reuse_note": "Fresh final source; four-peer normal setup and actual sixty-second recovery of a remote possessed player; enemies frozen and positions constructed.",
+    "logs": [
+      {
+        "path": "[local workspace]\\vs30\\recovery-final\\checks-20261003-022827-156\\Host.log",
+        "sha256": "DC89E41D592AC64E4EA8BF7A4FE66D227D334EC37A3FB754C36D9FC242876D98"
+      },
+      {
+        "path": "[local workspace]\\vs30\\recovery-final\\checks-20261003-022827-156\\Client1.log",
+        "sha256": "410D9A553E47826FED42FA7BDE135F7B3FDED8D68B260ADCA0FA54B992EE47DF"
+      },
+      {
+        "path": "[local workspace]\\vs30\\recovery-final\\checks-20261003-022827-156\\Client2.log",
+        "sha256": "8512BBDDAA1B8B9786E3F302252AB8C4A75D6B9B97D4B7A440A9A5C15FB0BFD0"
+      },
+      {
+        "path": "[local workspace]\\vs30\\recovery-final\\checks-20261003-022827-156\\Client3.log",
+        "sha256": "DCEF16F6A6C055225A5FC64EB09722F725BF4DBC0A4614C710D5CD95FC436AFA"
+      }
+    ],
+    "tests": [],
+    "recorded_time_utc": "2026-10-03T09:30:35.1381814Z"
+  },
+  {
+    "gate": "rendered integrated route",
+    "status": "PASS (automation report)",
+    "scope": "Final source; actual D3D12 frames and report show success. The original wrapper expected a final log marker that was not flushed; it rejected this attempt. Process exit was not recorded by that wrapper. A subsequent final NullRHI run separately reports exit 0.",
+    "report": "render-automation-report.json",
+    "log_sha256": "6D850F306BF5E9E7CBC390927DA3731B8C05037A864D924B77C9DF48B8E7D121"
+  },
+  {
+    "gate": "co-op combat/wipe/restart",
+    "status": "PASS",
+    "logs": [
+      {
+        "path": "[local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\RIDGEFIRE-COOP-20261003-021747-Host.log",
+        "sha256": "83EA60F44C35A9C5FEB6F4B3FD22B11A47BA687A47FF92048CA5E55069C56466"
+      },
+      {
+        "path": "[local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\RIDGEFIRE-COOP-20261003-021747-Client.log",
+        "sha256": "B4E98732E0417FD9C72B983420772E7322B86CC4E8F519881B654433DA9370AA"
+      }
+    ],
+    "scope": "Two real local NullRHI Editor peers; older opt-in combat fixture isolates the timed setup and keeps its endless-wave scenario",
+    "reuse_note": "Before final route countdown/next-tick logout correction and fixture/HUD edits. The unchanged no-disconnect legacy combat/restart path is scoped reuse, not a fresh final rerun."
+  }
+]
