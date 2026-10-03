@@ -1,0 +1,3 @@
+# Hosting direction agreed October 3, 2026
+
+Keep run state on the player host. Start with 2–4 player-hosted co-op and planned Steam lobbies/private invites/public Quick Play. Steam integration and Internet acceptance remain unfinished. Do not add host migration or party cloud-save sharing as part of this milestone. Dedicated server rental is a future option once sales and player activity support ongoing costs. Keep gameplay authority separate from lobby discovery and avoid making desktop UI a requirement for server gameplay. Checkpoints on the host remain a separate implementation milestone.

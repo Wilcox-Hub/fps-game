@@ -1,0 +1,21 @@
+# Party lobby and session flow (VS32)
+
+Use `Play-IRON-SUN.bat` to open the newest complete Windows Shipping prototype at the play menu. Direct Editor map launch starts solo setup; press **M** to open the session browser. **Menu** on a gamepad opens the browser during play; **Select** retains arsenal interaction.
+
+- **H / X:** host a LAN party. Left/right or D-pad chooses two, three or four slots. The lobby must finish binding its listening port before its session is created and advertised.
+- **F / Y:** refresh the LAN party list. Up/down selects a result; **Enter / A** joins it. Invalid port-zero Null/LAN addresses return to the menu with a refresh message.
+- **S / RB:** start a fresh solo run from the menu. Solo browsing pauses the current solo world.
+- In the lobby, **R / A** readies or unreadies you. Every connected player must ready; at least two players are required. Membership changes clear readiness and invalidate stale ready requests.
+- The host uses **Enter / Menu** to launch. Players complete the ordinary 20-second personal-perk, 10-second secondary and 10-second team-vote stages together, followed by the 12-second entry-weapon fallback. Combat stays held while the lobby waits.
+- When everyone is defeated, a connected player can use the existing reload/restart action to restart the party. Hosted restart keeps established connections through seamless travel, creates fresh pawns/run state, preserves personal XP and capacity, and begins normal setup. The old lobby does not reopen. Session menus and queued weapon choices reset. Early requests during a living run are rejected; duplicate requests cannot start a second simultaneous restart.
+- **L** leaves a party; a host ends it for everyone. **B / Esc** leaves from the lobby, or closes the browser during play. Each peer returns to a fresh menu world. The host can create another party.
+
+Only matching IRON SUN protocol results appear. Launch closes advertising and rejects new joins, including after restart. A full party reports full; a launched party with spare space rejects the newcomer as already launched. Reconnect/reclaim, Steam invites, friend-private sessions, public queue and Internet/device acceptance remain unfinished. Internet requests under the Null provider report that a configured online provider is required.
+
+Operations have deadlines and clear delegate handles. Successful join means reaching replicated lobby state. Network/travel failure closes session state and returns to the menu. Abrupt host loss currently uses the engine's 60-second connection timeout; there is no host migration. Provider timeout/cleanup failures have not all been fault-injected.
+
+Focused controlled acceptance: `Tools/Invoke-LobbyNetworkChecks.ps1 -Peers 2 -HostedRestart -VerifyLateJoin` and `-Peers 4 -HostedRestart -VerifyLateJoin -Render`. These use actual local LAN discovery and ordinary setup clocks, controlled enemy AI/damage, owned input/RPCs and gamepad key events. Both run two full wipes/restarts, first requested by a client and then the host. Checks cover retained XP, fresh pawns/state, cleared menu/queued choices, local and authoritative movement/fire/ammo-conserving reload and clean party shutdown. The two-peer check reserves a spare slot for launched-party rejection; the four-peer check renders its host and rejects a fifth connection as full. A port-zero browse is a test failure.
+
+VS32 reruns ordinary two-peer leave/end/rehost after the host creation change. VS31 four-peer ordinary lifecycle and abrupt host-loss passes remain historical evidence. VS32 also reruns the integrated solo route fixture and builds/starts a complete Shipping prototype. Shipping startup confirms survival and D3D12 module loading only. These checks do not establish packaged multiplayer, physical-controller input, cross-device/Internet, minimum-PC performance or human fun. Earlier lobby layout inspection remains historical.
+
+Keep active run state on the player host. Saved host checkpoints remain a separate milestone. Steam lobbies/Quick Play are planned; rented dedicated servers remain a future option if sales and activity support ongoing costs. Do not add migration or shared cloud saves under this milestone.

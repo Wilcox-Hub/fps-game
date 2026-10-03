@@ -1,0 +1,7 @@
+[
+  "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+  "Source/TP_FirstPerson/RidgefireSessionSubsystem.cpp",
+  "Source/TP_FirstPerson/RidgefireSessionSubsystem.h",
+  "Source/TP_FirstPerson/Tests/RidgefireLobbyNetworkFixture.cpp",
+  "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp"
+]

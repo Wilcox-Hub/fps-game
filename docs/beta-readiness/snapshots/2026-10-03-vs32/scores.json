@@ -1,0 +1,53 @@
+{
+  "scope": "Gameplay-only planning estimate; not overall beta completion or a test pass rate",
+  "estimated_on": "2026-10-03",
+  "confidence": "low",
+  "judgment_range_percent": [
+    43,
+    72
+  ],
+  "rubric": [
+    {
+      "category": "Controls and combat",
+      "weight_percent": 30,
+      "readiness_percent": 60,
+      "contribution": 18.0,
+      "rationale": "Retain the previous dated planning credit. Fresh integrated solo route regression passes after restart/input lifecycle changes. No new production content, art, balance, performance or human-fun credit."
+    },
+    {
+      "category": "Weapons and arsenal",
+      "weight_percent": 20,
+      "readiness_percent": 50,
+      "contribution": 10.0,
+      "rationale": "Retain the previous dated planning credit. Fresh integrated solo route regression passes after restart/input lifecycle changes. No new production content, art, balance, performance or human-fun credit."
+    },
+    {
+      "category": "Waves, routes and arenas",
+      "weight_percent": 20,
+      "readiness_percent": 60,
+      "contribution": 12.0,
+      "rationale": "Retain the previous dated planning credit. Fresh integrated solo route regression passes after restart/input lifecycle changes. No new production content, art, balance, performance or human-fun credit."
+    },
+    {
+      "category": "Co-op and recovery",
+      "weight_percent": 20,
+      "readiness_percent": 70,
+      "contribution": 14.0,
+      "rationale": "Hosted-party restart drops stale lobby URL options and keeps existing connections via seamless travel. Session creation waits for a bound listening port, fixing an observed port-zero discovery race. Two and four actual local LAN peers pass two wipes/restarts, retained personal XP, fresh pawns/run state, repeated normal setup, authority-observed movement/fire/reload, transient-menu/choice reset and clean host shutdown. Late join is rejected with a spare slot and at full capacity. Steam/Internet, authenticated AI/reclaim, checkpoints, cross-device and human packaged full runs remain open."
+    },
+    {
+      "category": "Perks and progression",
+      "weight_percent": 10,
+      "readiness_percent": 75,
+      "contribution": 7.5,
+      "rationale": "Retain the previous dated planning credit. Fresh integrated solo route regression passes after restart/input lifecycle changes. No new production content, art, balance, performance or human-fun credit."
+    }
+  ],
+  "weighted_score": 61.5,
+  "displayed_gameplay_readiness_percent": 62,
+  "overall_beta_readiness_percent": null,
+  "beta_ready": false,
+  "target_gameplay_readiness_percent": 75,
+  "target_status": "IN_PROGRESS; 75% has not been substantiated",
+  "assessment_note": "Same five weights. Co-op planning rises 65 to 70 for verified hosted restart reliability, adding one weighted point. This is low-confidence gameplay planning, not overall beta readiness or a pass rate. No Internet, human, production-art or minimum-PC acceptance is inferred."
+}

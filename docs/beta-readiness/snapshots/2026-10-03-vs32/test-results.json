@@ -1,0 +1,120 @@
+[
+  {
+    "gate": "restart-two-bound-output.txt",
+    "status": "PASS",
+    "scope": "Final source, two actual LAN peers in a three-slot hosted lobby. A separate late direct connection is rejected explicitly as already launched despite the spare slot. Remote then host restart, duplicate/early guards, retained XP, reset menus/queued choices, three full ordinary setup sequences, local and authoritative movement/fire/reload, and clean end.",
+    "time_utc": "2026-10-03T16:07:26.6079371Z",
+    "logs": [
+      {
+        "path": "[local workspace]\\research\\vs32\\restart-two-bound\\checks-20261003-090354-450\\Peer0.log",
+        "sha256": "7F8A6284B81A2214361E8E48264AD8C4DD6CB3F363F36846EDC3A490A0C739A2"
+      },
+      {
+        "path": "[local workspace]\\research\\vs32\\restart-two-bound\\checks-20261003-090354-450\\Peer1.log",
+        "sha256": "54B8EFFDE9003F9F01FEAEADE7F1A21AF6D01E25E0982D14C92C8B831CE677FE"
+      },
+      {
+        "path": "[local workspace]\\research\\vs32\\restart-two-bound\\checks-20261003-090354-450\\LateJoin.log",
+        "sha256": "A2578B22BEC964B06E4F6A48416802CED59D8ED553E8354E9087C89D1B78DB32"
+      }
+    ],
+    "peers": 2,
+    "hosted_restart": true,
+    "late_join_rejected": true,
+    "rendered_host": false
+  },
+  {
+    "gate": "restart-four-bound-output.txt",
+    "status": "PASS",
+    "scope": "Final source, four actual LAN peers and an offscreen D3D12 host. Two full wipes/restarts preserve all players and personal XP with fresh pawns, normal setup and authoritative gameplay checks. A separate fifth connection is rejected as Server full; this checks capacity, while the two-peer spare-slot test checks launched-party policy.",
+    "time_utc": "2026-10-03T16:03:15.1183630Z",
+    "logs": [
+      {
+        "path": "[local workspace]\\research\\vs32\\restart-four-bound\\checks-20261003-085936-766\\Peer0.log",
+        "sha256": "D2106AB7CC657E2D3512E8378A5EAA454FA6CF75D731E0F099273A45D08B8EBD"
+      },
+      {
+        "path": "[local workspace]\\research\\vs32\\restart-four-bound\\checks-20261003-085936-766\\Peer1.log",
+        "sha256": "EA50CC2EF3D8B06E2A667D74F415EBCDECBC1EB4137C14A6FB580FC83F35FA8C"
+      },
+      {
+        "path": "[local workspace]\\research\\vs32\\restart-four-bound\\checks-20261003-085936-766\\Peer2.log",
+        "sha256": "9C678BD02807E0D09E03262B038C30055EFE8CD7018F13172EA53B7127057650"
+      },
+      {
+        "path": "[local workspace]\\research\\vs32\\restart-four-bound\\checks-20261003-085936-766\\Peer3.log",
+        "sha256": "B5C3AE2F99FF5B49B136FFE1B877EAE2C182DBE7D66B4EC527321A0308661FAE"
+      },
+      {
+        "path": "[local workspace]\\research\\vs32\\restart-four-bound\\checks-20261003-085936-766\\LateJoin.log",
+        "sha256": "D5061188AA453B78896E2A05AA8C5791B5CDC0D8EF9ADE3E7F94C067E0CF54B8"
+      }
+    ],
+    "peers": 4,
+    "hosted_restart": true,
+    "late_join_rejected": true,
+    "rendered_host": true
+  },
+  {
+    "gate": "lifecycle-bound-output.txt",
+    "status": "PASS",
+    "scope": "Final source, two actual LAN peers. Initial discovery/join/ready launch and normal setup, client leave, host end, clean standalone menu with one possessed player pawn, then rediscovery/rehost and a second lobby launch/end. Rerun because host session creation changed.",
+    "time_utc": "2026-10-03T16:10:13.3195962Z",
+    "logs": [
+      {
+        "path": "[local workspace]\\research\\vs32\\lifecycle-bound\\checks-20261003-090833-342\\Peer0.log",
+        "sha256": "D928C1864BB39B56EF0E139300168073AA2ABE0C1007E0C9D4698E14EA0AD4D8"
+      },
+      {
+        "path": "[local workspace]\\research\\vs32\\lifecycle-bound\\checks-20261003-090833-342\\Peer1.log",
+        "sha256": "8F24528CE8E17AB882828D882D380EFD017BBE1F0691094179607C99B0956754"
+      }
+    ],
+    "peers": 2,
+    "hosted_restart": false,
+    "late_join_rejected": false,
+    "rendered_host": false
+  },
+  {
+    "gate": "route-bound-output.txt",
+    "status": "PASS",
+    "scope": "Final source; existing integrated ordinary solo setup, controlled NPC defeats, route voting, objective interaction, champion phases and terminal victory. No human full run.",
+    "time_utc": "2026-10-03T16:05:47.7112786Z",
+    "logs": [
+      {
+        "path": "[local workspace]\\research\\vs32\\route-bound\\checks-20261003-090353-607\\Automation.log",
+        "sha256": "307A2EA923EFF2C8D6703BA4C349B432B449879CAF7972D0E41B1F22581CEE0A"
+      }
+    ],
+    "exit_code": 0,
+    "tests": [
+      "Ridgefire.Run.IntegratedRoute"
+    ]
+  },
+  {
+    "gate": "Development Editor build",
+    "status": "PASS",
+    "log_sha256": "7CA2789807CAF1FFE122220A83AC4B0726BA8B740B90091C5317C0D619383D0D",
+    "scope": "Final source compiled with UE 5.8.3; engine/toolchain deprecation warnings remain."
+  },
+  {
+    "gate": "Windows Shipping BuildCookRun",
+    "status": "PASS",
+    "log_sha256": "EBDBB1D56DE5949BE956B1C01E914EF83BAEEDC01E1FA2F814F7713DFE1F0501",
+    "package_id": "20261003-090523-645",
+    "runtime_sha256": "5294B120D20BDF706BAA29C75343C8F675D6A0A05909367ECB16DCBD5D11C700",
+    "scope": "Final source build/cook/stage/archive complete; prototype package, not public beta."
+  },
+  {
+    "gate": "Shipping startup",
+    "status": "PASS",
+    "details": "packaged-startup.json",
+    "scope": "Owned offscreen Shipping process startup survival/module-load check only; no rendered-frame inspection, menu input, normal play, audio, remote peers, performance or beta acceptance."
+  },
+  {
+    "gate": "latest-package selector",
+    "status": "PASS",
+    "log_sha256": "E2FED8906AA220B106195D2A9A4F7CBAE18B0A587AFD0DEB799BDD84A60909C7",
+    "scope": "ListOnly selection/validation; no packaged co-op input acceptance."
+  }
+]

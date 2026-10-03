@@ -1,0 +1,18 @@
+[
+  {
+    "path": "Tools/Invoke-LobbyNetworkChecks.ps1",
+    "sha256": "3D358D09C865CB966192CBEBAC39995E749C67AEC4BF0925437B44B2D945092D"
+  },
+  {
+    "path": "Tools/Invoke-RunChecks.ps1",
+    "sha256": "15C91BAC218CE3F8402996A7FEDCAFE165A2253D3365C09B7A27FE57ED952B25"
+  },
+  {
+    "path": "Tools/Build-WindowsShipping.ps1",
+    "sha256": "6E3EEBEC56263D6B7B6CB9D1C4D872AE927C1E040616944C6A75AD95029A1E84"
+  },
+  {
+    "path": "Tools/Play-Latest-WindowsPackage.ps1",
+    "sha256": "8B72577D232DD8224BFD7BA8D3A051EF63D68F9F02FF60A39A4EE040264E0CEF"
+  }
+]

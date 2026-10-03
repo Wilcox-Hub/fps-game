@@ -1,0 +1,15 @@
+{
+  "previous_snapshot": "2026-10-03-vs31",
+  "unchanged_inputs": 541,
+  "changed_inputs": [
+    "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+    "Source/TP_FirstPerson/RidgefireSessionSubsystem.cpp",
+    "Source/TP_FirstPerson/RidgefireSessionSubsystem.h",
+    "Source/TP_FirstPerson/Tests/RidgefireLobbyNetworkFixture.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp"
+  ],
+  "route_properties": "RunPlan .h/.cpp input hashes match; retain dated VS30 pure route property results. Integrated route fixture rerun on final source.",
+  "lobby": "Final restart fixtures freshly exercise initial discovery/join/ready launch and final host-end cleanup. Ordinary two-peer leave/end/rehost is also rerun on final source because host creation changed. VS31 ordinary four-peer leave/end/rehost and abrupt host-loss remain historical evidence; no fresh unchanged-input pass for those checks or full operation fault-injection claim.",
+  "rendering": "Fresh four-peer check renders its host through two seamless travels. Prior lobby layout inspection remains historical. No new art/audio or human controller credit.",
+  "package": "VS31 package is historical; current build/startup has its own runtime hash. No packaged multiplayer acceptance."
+}

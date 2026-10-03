@@ -1,0 +1,9 @@
+# Corrections before the recorded passes
+
+The diagnostic baseline reproduced a real hosted restart failure: relative travel preserved RidgefireLobby and reopened the lobby rather than loadout setup. Restart now travels absolutely, preserves slot capacity, and uses seamless travel for hosted parties. Established clients remain connected while new logins continue to be rejected.
+
+The fixture initially used a local Pawn variable that shadowed Controller::Pawn; it was renamed. A two-slot selection initially pressed left only once (four to three); the corrected fixture selects the requested capacity. One superseded rerun began before a staging edit succeeded; it is not counted as evidence. The final fresh-state acceptance also checks that retained controllers clear menus and pending choices on the new setup stage.
+
+The first four-peer authority check sampled ammo during client secondary swaps. The corrected fixture waits for completed primary return before recording baselines. A fifth connection to a full four-slot party reports Server full before the custom launched-party guard; the separate final two-peer/three-slot check verifies the launched-party guard with a spare slot. Only final passing runs are scored.
+
+A subsequent four-peer run exposed another production race: creation advertised the session before the listen driver bound, and one client cached a port-zero address. An intermediate hidden-session/update attempt did not make the LAN lobby discoverable and was stopped. The final lifecycle opens the listening lobby first, then creates the advertised session only after its port is nonzero. Null/LAN joins also reject explicitly invalid port-zero addresses. Final two- and four-peer runs use this source and the runner rejects port-zero browse logs. No retry/stagger workaround is credited.
