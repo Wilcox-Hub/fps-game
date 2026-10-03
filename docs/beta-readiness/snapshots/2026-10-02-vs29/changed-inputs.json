@@ -1,0 +1,13 @@
+{
+  "previous_snapshot": "2026-10-02-vs28",
+  "changed_or_added": [
+    "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+    "Source/TP_FirstPerson/RidgefireGameMode.h",
+    "Source/TP_FirstPerson/RidgefireHUD.cpp",
+    "Source/TP_FirstPerson/RidgefireProgression.h",
+    "Source/TP_FirstPerson/Tests/RidgefireSetupTests.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h"
+  ],
+  "removed": []
+}

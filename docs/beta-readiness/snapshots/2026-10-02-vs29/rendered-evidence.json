@@ -1,0 +1,82 @@
+[
+  {
+    "path": "rendered/1280x720/Stage0.png",
+    "sha256": "30521E17C3FBD1D6447CAA13D6407837C9C4E481693AD84C0E7810F165C50BFA",
+    "inspected": true,
+    "scope": "Actual offscreen D3D12 Editor fixture using normal production setup timers",
+    "reuse_note": "Fresh final source, normal timers, actual D3D12 frames",
+    "notes": ""
+  },
+  {
+    "path": "rendered/1280x720/Stage1.png",
+    "sha256": "09919A62F6E0C3907911126980C2E50025B1C3031B58BC35E2A96EA57C7F40FF",
+    "inspected": true,
+    "scope": "Actual offscreen D3D12 Editor fixture using normal production setup timers",
+    "reuse_note": "Fresh final source, normal timers, actual D3D12 frames",
+    "notes": ""
+  },
+  {
+    "path": "rendered/1280x720/Stage2.png",
+    "sha256": "ABBCCCA2C28637F1CDB3F2E62F11AA29085316649A35BB443A9032457CD31637",
+    "inspected": true,
+    "scope": "Actual offscreen D3D12 Editor fixture using normal production setup timers",
+    "reuse_note": "Fresh final source, normal timers, actual D3D12 frames",
+    "notes": ""
+  },
+  {
+    "path": "rendered/1280x720/Stage3.png",
+    "sha256": "3A4A64C4C02A1E8196EF4AF0009E77D8DF60F331A740C89BF7F9E4529A415393",
+    "inspected": true,
+    "scope": "Actual offscreen D3D12 Editor fixture using normal production setup timers",
+    "reuse_note": "Fresh final source, normal timers, actual D3D12 frames",
+    "notes": ""
+  },
+  {
+    "path": "rendered/1280x720/Stage4.png",
+    "sha256": "0FBA33B3BA539B7DBEAB9A21EF9BD6945111959AB0C0EEA658FB6658271F3E37",
+    "inspected": true,
+    "scope": "Actual offscreen D3D12 Editor fixture using normal production setup timers",
+    "reuse_note": "Fresh final source, normal timers, actual D3D12 frames",
+    "notes": "Stage4 is immediate deployment before wave one; shader-warmup overlay remains in the 1280x720 frame. Not production art acceptance."
+  },
+  {
+    "path": "rendered/800x320/Stage0.png",
+    "sha256": "92A9DBF41BE0F2C5EE6754EEE31ABFA9970188A29958CCBE5BF516BE990619CC",
+    "inspected": true,
+    "scope": "Actual offscreen D3D12 Editor fixture using normal production setup timers",
+    "reuse_note": "Rendered after UI/stage fixes, before the subsequent Gale-as-secondary fallback and opt-in recovery fixture. HUD file and displayed paths are unchanged; the new Gale fallback is separately tested.",
+    "notes": ""
+  },
+  {
+    "path": "rendered/800x320/Stage1.png",
+    "sha256": "FB4C4CCD12CB45B74AE15ED92E5BCAAB1234BC9A66D2B713F90352EEFD6D2DF5",
+    "inspected": true,
+    "scope": "Actual offscreen D3D12 Editor fixture using normal production setup timers",
+    "reuse_note": "Rendered after UI/stage fixes, before the subsequent Gale-as-secondary fallback and opt-in recovery fixture. HUD file and displayed paths are unchanged; the new Gale fallback is separately tested.",
+    "notes": ""
+  },
+  {
+    "path": "rendered/800x320/Stage2.png",
+    "sha256": "F40991E88CC86E99E94DCBA55EEE7646390BD579AD507EF301CAA8C2D59BA317",
+    "inspected": true,
+    "scope": "Actual offscreen D3D12 Editor fixture using normal production setup timers",
+    "reuse_note": "Rendered after UI/stage fixes, before the subsequent Gale-as-secondary fallback and opt-in recovery fixture. HUD file and displayed paths are unchanged; the new Gale fallback is separately tested.",
+    "notes": ""
+  },
+  {
+    "path": "rendered/800x320/Stage3.png",
+    "sha256": "36FC25772C8B071DDDB5F38452753D019704082D20CF5C09F95D72AACEBA562C",
+    "inspected": true,
+    "scope": "Actual offscreen D3D12 Editor fixture using normal production setup timers",
+    "reuse_note": "Rendered after UI/stage fixes, before the subsequent Gale-as-secondary fallback and opt-in recovery fixture. HUD file and displayed paths are unchanged; the new Gale fallback is separately tested.",
+    "notes": ""
+  },
+  {
+    "path": "rendered/800x320/Stage4.png",
+    "sha256": "F2FBEDDCC94E5135135CC5A94BBC30835F08F1F2EE250A7901E69B24A2850791",
+    "inspected": true,
+    "scope": "Actual offscreen D3D12 Editor fixture using normal production setup timers",
+    "reuse_note": "Rendered after UI/stage fixes, before the subsequent Gale-as-secondary fallback and opt-in recovery fixture. HUD file and displayed paths are unchanged; the new Gale fallback is separately tested.",
+    "notes": "Stage4 is immediate deployment before wave one; shader-warmup overlay remains in the 1280x720 frame. Not production art acceptance."
+  }
+]

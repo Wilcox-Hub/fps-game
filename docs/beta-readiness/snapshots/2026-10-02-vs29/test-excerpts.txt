@@ -1,0 +1,261 @@
+## rules-output.txt / Automation.log
+[2026.10.03-04.34.19:492][578]LogAutomationController: Display: Test Completed. Result={Success} Name={SaveRoundTrip} Path={Ridgefire.Progression.SaveRoundTrip}
+[2026.10.03-04.34.19:517][581]LogAutomationController: Display: Test Completed. Result={Success} Name={StorePersistenceAndIsolation} Path={Ridgefire.Progression.StorePersistenceAndIsolation}
+[2026.10.03-04.34.19:543][584]LogAutomationController: Display: Test Completed. Result={Success} Name={UnlocksAndEffects} Path={Ridgefire.Progression.UnlocksAndEffects}
+
+## progression-regression-output.txt / Automation.log
+[2026.10.03-04.31.48:885][139]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=1 reload_votes=0 skip=0 eligible=1 result_mask=4
+[2026.10.03-04.31.48:913][139]LogTemp: Display: RIDGEFIRE GROUNDED PERKS: universal bracing, stable recovery, body/head damage and unequip paths checked
+[2026.10.03-04.31.51:415][194]LogTemp: Display: RIDGEFIRE PROGRESSION INTERACTIONS: keyboard/gamepad equip, pawn health/jump, lock/combat guards, death XP and duplicate guard checked; session only
+[2026.10.03-04.31.56:408][ 34]LogTemp: Display: RIDGEFIRE TEAM PERKS PASS: actual wave transition and anchor interaction, movement/damage effects, duplicate guard, personal-profile isolation
+[2026.10.03-04.31.56:417][ 36]LogAutomationController: Display: Test Completed. Result={Success} Name={PossessedInteractions} Path={Ridgefire.Progression.PossessedInteractions}
+
+## gale-fallback-output.txt / Automation.log
+[2026.10.03-04.30.38:869][696]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=0 time=5.07 seconds=15
+[2026.10.03-04.30.53:804][654]LogTemp: Display: RIDGEFIRE SETUP stage=1
+[2026.10.03-04.30.53:806][655]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=1 time=20.00 seconds=10
+[2026.10.03-04.31.03:804][850]LogTemp: Display: RIDGEFIRE SETUP stage=2
+[2026.10.03-04.31.03:805][850]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=2 time=30.00 seconds=0
+[2026.10.03-04.31.13:806][340]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=0 reload_votes=0 skip=0 eligible=1 result_mask=4
+[2026.10.03-04.31.13:806][340]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=3 time=40.00 seconds=0
+[2026.10.03-04.31.25:819][997]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=4 time=52.00 seconds=0
+[2026.10.03-04.31.28:335][610]LogTemp: Display: RIDGEFIRE SETUP PASS normal 20/10/10 timers; input selections/defaults, stage locks, reserved offer, deploy and actual secondary draw; defaults=0
+[2026.10.03-04.31.28:342][612]LogAutomationController: Display: Test Completed. Result={Success} Name={TimedStages} Path={Ridgefire.Setup.TimedStages}
+
+## setup-render1280-final-output.txt / Automation.log
+[2026.10.03-04.31.58:809][896]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=0 time=10.30 seconds=10
+[2026.10.03-04.31.59:347][897]LogTemp: Display: RIDGEFIRE SETUP CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Setup-194274757952/Stage0.png
+[2026.10.03-04.32.08:653][725]LogTemp: Display: RIDGEFIRE SETUP stage=1
+[2026.10.03-04.32.08:655][725]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=1 time=20.01 seconds=10
+[2026.10.03-04.32.08:735][726]LogTemp: Display: RIDGEFIRE SETUP CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Setup-194274757952/Stage1.png
+[2026.10.03-04.32.18:662][616]LogTemp: Display: RIDGEFIRE SETUP stage=2
+[2026.10.03-04.32.18:663][616]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=2 time=30.01 seconds=0
+[2026.10.03-04.32.18:743][617]LogTemp: Display: RIDGEFIRE SETUP CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Setup-194274757952/Stage2.png
+[2026.10.03-04.32.28:663][506]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=0 reload_votes=0 skip=0 eligible=1 result_mask=4
+[2026.10.03-04.32.28:664][506]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=3 time=40.02 seconds=0
+[2026.10.03-04.32.28:748][507]LogTemp: Display: RIDGEFIRE SETUP CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Setup-194274757952/Stage3.png
+[2026.10.03-04.32.28:777][508]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=4 time=40.13 seconds=0
+[2026.10.03-04.32.28:909][509]LogTemp: Display: RIDGEFIRE SETUP CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Setup-194274757952/Stage4.png
+[2026.10.03-04.32.31:224][714]LogTemp: Display: RIDGEFIRE SETUP PASS normal 20/10/10 timers; input selections/defaults, stage locks, reserved offer, deploy and actual secondary draw; defaults=0
+[2026.10.03-04.32.31:233][716]LogAutomationController: Display: Test Completed. Result={Success} Name={TimedStages} Path={Ridgefire.Setup.TimedStages}
+
+## setup-render800-output.txt / Automation.log
+[2026.10.03-04.25.27:092][546]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=0 time=10.29 seconds=10
+[2026.10.03-04.25.27:593][547]LogTemp: Display: RIDGEFIRE SETUP CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Setup-190357581016/Stage0.png
+[2026.10.03-04.25.36:898][  1]LogTemp: Display: RIDGEFIRE SETUP stage=1
+[2026.10.03-04.25.36:898][  1]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=1 time=20.00 seconds=10
+[2026.10.03-04.25.36:938][  2]LogTemp: Display: RIDGEFIRE SETUP CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Setup-190357581016/Stage1.png
+[2026.10.03-04.25.46:901][560]LogTemp: Display: RIDGEFIRE SETUP stage=2
+[2026.10.03-04.25.46:902][560]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=2 time=30.00 seconds=0
+[2026.10.03-04.25.46:940][561]LogTemp: Display: RIDGEFIRE SETUP CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Setup-190357581016/Stage2.png
+[2026.10.03-04.25.56:903][131]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=0 reload_votes=0 skip=0 eligible=1 result_mask=4
+[2026.10.03-04.25.56:903][131]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=3 time=40.01 seconds=0
+[2026.10.03-04.25.56:943][132]LogTemp: Display: RIDGEFIRE SETUP CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Setup-190357581016/Stage3.png
+[2026.10.03-04.25.56:971][133]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=4 time=40.07 seconds=0
+[2026.10.03-04.25.57:021][134]LogTemp: Display: RIDGEFIRE SETUP CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Setup-190357581016/Stage4.png
+[2026.10.03-04.25.59:451][513]LogTemp: Display: RIDGEFIRE SETUP PASS normal 20/10/10 timers; input selections/defaults, stage locks, reserved offer, deploy and actual secondary draw; defaults=0
+[2026.10.03-04.25.59:459][514]LogAutomationController: Display: Test Completed. Result={Success} Name={TimedStages} Path={Ridgefire.Setup.TimedStages}
+
+## setup-defaults-output.txt / Automation.log
+[2026.10.03-03.55.57:933][ 18]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=0 time=5.16 seconds=15
+[2026.10.03-03.56.12:349][549]LogTemp: Display: RIDGEFIRE SETUP stage=1
+[2026.10.03-03.56.12:349][549]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=1 time=20.00 seconds=10
+[2026.10.03-03.56.22:093][378]LogTemp: Display: RIDGEFIRE SETUP stage=2
+[2026.10.03-03.56.22:093][378]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=2 time=30.00 seconds=0
+[2026.10.03-03.56.31:802][316]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=0 reload_votes=0 skip=0 eligible=1 result_mask=4
+[2026.10.03-03.56.31:802][316]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=3 time=40.00 seconds=0
+[2026.10.03-03.56.42:856][740]LogTemp: Display: RIDGEFIRE SETUP OBSERVED stage=4 time=52.00 seconds=0
+[2026.10.03-03.56.45:204][497]LogTemp: Display: RIDGEFIRE SETUP PASS normal 20/10/10 timers; input selections/defaults, stage locks, reserved offer, deploy and actual secondary draw; defaults=1
+[2026.10.03-03.56.45:209][499]LogAutomationController: Display: Test Completed. Result={Success} Name={TimedStages} Path={Ridgefire.Setup.TimedStages}
+
+## network-skip-output.txt / Host.log
+[2026.10.03-04.00.46:767][  1]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=-1
+[2026.10.03-04.01.06:684][283]LogTemp: Display: RIDGEFIRE SETUP stage=1
+[2026.10.03-04.01.06:684][284]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=-1
+[2026.10.03-04.01.16:685][696]LogTemp: Display: RIDGEFIRE SETUP stage=2
+[2026.10.03-04.01.16:685][697]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=1
+[2026.10.03-04.01.24:780][640]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=0 reload_votes=0 skip=4 eligible=4 result_mask=0
+[2026.10.03-04.01.24:780][640]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=1
+[2026.10.03-04.01.36:793][500]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=1
+[2026.10.03-04.01.39:318][603]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=1 perk_defaults=true mask=0 actual_secondary_draw=true
+
+## network-skip-output.txt / Client1.log
+[2026.10.03-04.00.55:819][154]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=11 vote_seconds=0 secondary=-1
+[2026.10.03-04.01.06:702][878]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=-1
+[2026.10.03-04.01.16:699][502]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-04.01.24:799][650]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.01.36:854][845]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.01.39:420][ 41]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=0 actual_secondary_draw=true
+
+## network-skip-output.txt / Client2.log
+[2026.10.03-04.00.52:373][ 21]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=15 vote_seconds=0 secondary=-1
+[2026.10.03-04.01.06:694][441]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=-1
+[2026.10.03-04.01.16:699][989]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-04.01.24:798][ 79]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.01.36:811][ 91]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.01.39:362][273]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=0 actual_secondary_draw=true
+
+## network-skip-output.txt / Client3.log
+[2026.10.03-04.00.54:864][167]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=12 vote_seconds=0 secondary=-1
+[2026.10.03-04.01.06:729][ 72]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=-1
+[2026.10.03-04.01.16:690][575]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-04.01.24:789][659]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.01.36:811][695]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.01.39:373][884]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=0 actual_secondary_draw=true
+
+## network-disconnect-output.txt / Host.log
+[2026.10.03-04.25.16:614][  1]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=-1
+[2026.10.03-04.25.36:530][913]LogTemp: Display: RIDGEFIRE SETUP stage=1
+[2026.10.03-04.25.36:530][914]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=-1
+[2026.10.03-04.25.46:530][902]LogTemp: Display: RIDGEFIRE SETUP stage=2
+[2026.10.03-04.25.46:532][903]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=1
+[2026.10.03-04.25.54:548][903]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=1 reload_votes=2 skip=0 eligible=3 result_mask=4
+[2026.10.03-04.25.54:548][903]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=1
+[2026.10.03-04.26.06:562][ 14]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=1
+[2026.10.03-04.26.09:085][356]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=1 perk_defaults=true mask=4 actual_secondary_draw=true
+
+## network-disconnect-output.txt / Client1.log
+[2026.10.03-04.25.25:869][  8]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=11 vote_seconds=0 secondary=-1
+[2026.10.03-04.25.36:552][344]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=-1
+[2026.10.03-04.25.46:553][553]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-04.25.54:554][731]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.26.06:580][  4]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.26.09:132][420]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=4 actual_secondary_draw=true
+
+## network-disconnect-output.txt / Client2.log
+[2026.10.03-04.25.23:798][ 11]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=13 vote_seconds=0 secondary=-1
+[2026.10.03-04.25.36:543][850]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=-1
+[2026.10.03-04.25.46:535][150]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-04.25.54:571][435]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.26.06:571][741]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.26.09:161][194]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=4 actual_secondary_draw=true
+
+## network-disconnect-output.txt / Client3.log
+[2026.10.03-04.25.27:036][ 16]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=10 vote_seconds=0 secondary=-1
+[2026.10.03-04.25.36:533][931]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=-1
+
+## network-recovery-output.txt / Host.log
+[2026.10.03-04.30.31:538][  1]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=20 vote_seconds=0 secondary=-1
+[2026.10.03-04.30.51:494][335]LogTemp: Display: RIDGEFIRE SETUP stage=1
+[2026.10.03-04.30.51:495][336]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=-1
+[2026.10.03-04.31.01:494][183]LogTemp: Display: RIDGEFIRE SETUP stage=2
+[2026.10.03-04.31.01:494][184]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=1
+[2026.10.03-04.31.08:539][182]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=1 reload_votes=3 skip=0 eligible=4 result_mask=8
+[2026.10.03-04.31.08:539][182]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=1
+[2026.10.03-04.31.20:555][847]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=1
+[2026.10.03-04.31.23:084][785]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=1 perk_defaults=true mask=8 actual_secondary_draw=true
+[2026.10.03-04.31.32:496][808]LogTemp: Display: RIDGEFIRE FOUR RECOVERY deposited actual remote Peer; team continues; four owned profiles gained exactly 10 XP including patient
+[2026.10.03-04.32.32:497][275]LogTemp: Display: RIDGEFIRE FOUR RECOVERY HOST PASS four_possessed_peers=true real_60_seconds=true same_patient=true depositor_xp=12 team_active=true
+
+## network-recovery-output.txt / Client1.log
+[2026.10.03-04.30.39:646][432]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=12 vote_seconds=0 secondary=-1
+[2026.10.03-04.30.51:512][877]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=-1
+[2026.10.03-04.31.01:514][ 60]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-04.31.08:551][286]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.31.20:573][389]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.31.23:147][479]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=8 actual_secondary_draw=true
+[2026.10.03-04.32.32:508][664]LogTemp: Display: RIDGEFIRE FOUR RECOVERY CLIENT PASS observed_down=true observed_tube=true recovered_same_pawn=true owner_xp=10
+
+## network-recovery-output.txt / Client2.log
+[2026.10.03-04.30.38:292][ 16]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=14 vote_seconds=0 secondary=-1
+[2026.10.03-04.30.51:522][341]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=-1
+[2026.10.03-04.31.01:506][550]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-04.31.08:549][828]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.31.20:573][970]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.31.23:156][ 57]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=8 actual_secondary_draw=true
+[2026.10.03-04.32.32:500][643]LogTemp: Display: RIDGEFIRE FOUR RECOVERY CLIENT PASS observed_down=true observed_tube=true recovered_same_pawn=true owner_xp=10
+
+## network-recovery-output.txt / Client3.log
+[2026.10.03-04.30.40:695][435]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=0 seconds=11 vote_seconds=0 secondary=-1
+[2026.10.03-04.30.51:503][488]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=1 seconds=10 vote_seconds=0 secondary=-1
+[2026.10.03-04.31.01:514][675]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=2 seconds=0 vote_seconds=10 secondary=2
+[2026.10.03-04.31.08:559][913]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=3 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.31.20:601][ 16]LogTemp: Display: RIDGEFIRE SETUP NETWORK stage=4 seconds=0 vote_seconds=0 secondary=2
+[2026.10.03-04.31.23:156][ 79]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=8 actual_secondary_draw=true
+[2026.10.03-04.32.32:526][515]LogTemp: Display: RIDGEFIRE FOUR RECOVERY CLIENT PASS observed_down=true observed_tube=true recovered_same_pawn=true owner_xp=10
+
+## coop-restart-output.txt / RIDGEFIRE-COOP-20261002-213357-Host.log
+[2026.10.03-04.34.19:195][598]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=1 reload_votes=1 skip=0 eligible=2 result_mask=4
+[2026.10.03-04.34.19:453][ 15]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS opening armory stays open for both clients until each selects a starting primary
+[2026.10.03-04.34.19:465][ 15]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.03-04.34.19:465][ 15]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS default-material fallback showed telegraph without triggering caller cancellation: BP_ShooterNPC_C_0
+[2026.10.03-04.34.19:466][ 15]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS sentry telegraph warning cue multicast dispatched: BP_ShooterNPC_C_0
+[2026.10.03-04.34.19:466][ 15]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS exactly one sentry telegraph warning cue dispatch: BP_ShooterNPC_C_0
+[2026.10.03-04.34.19:466][ 15]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS exactly one sentry warning cue dispatch for living target; RPC dispatch only, audio playback/client delivery unverified
+[2026.10.03-04.34.19:466][ 15]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS sentry target handoff to living player after current target marked unavailable
+[2026.10.03-04.34.19:466][ 15]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS sole eligible player remains sentry fallback despite temporary path deprioritization
+[2026.10.03-04.34.19:466][ 15]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS personal arsenal range-gated and per-player; host/remote open/close independent, out-of-range denied
+[2026.10.03-04.34.19:466][ 15]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS independent secondary offers host=1 remote=0; invalid and primary-owned offers rejected
+[2026.10.03-04.34.19:467][ 15]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS station offer selection stayed per-player; each panel closed after selection and global armory stayed unchanged
+[2026.10.03-04.34.19:467][ 15]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS independent primary loadouts host=Gale Repeater ammo=24 remote=Phasma Rifle ammo=6
+[2026.10.03-04.34.19:467][ 15]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS unique possessed pawns: BP_ShooterCharacter_C_0 and BP_ShooterCharacter_C_1
+[2026.10.03-04.34.21:947][ 71]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.03-04.34.21:949][ 71]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.03-04.34.21:951][ 71]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.03-04.34.21:953][ 71]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.03-04.34.21:955][ 71]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_5
+[2026.10.03-04.34.21:955][ 71]LogTemp: Display: RIDGEFIRE COOP SMOKE LOS_PASS target=BP_ShooterNPC_C_1 aimHit=BP_ShooterNPC_C_1 muzzleHit=BP_ShooterNPC_C_1
+[2026.10.03-04.34.22:014][126]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_1
+[2026.10.03-04.34.24:012][475]LogTemp: Display: RIDGEFIRE COOP PROGRESSION PASS equal_base=10 host_xp=10 remote_xp=10 duplicate_callbacks=no_extra_xp
+[2026.10.03-04.34.24:012][475]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS: secondary shot consumed ammo and damaged a living sentry; primary and spent secondary ammo/reserve both restored.
+[2026.10.03-04.34.24:012][475]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS server-authoritative remote fire consumed ammo only on remote, killed replicated target, score=110 and ion=14 once despite repeated death callbacks
+[2026.10.03-04.34.24:012][475]LogTemp: Display: RIDGEFIRE COOP TEAM PERK PASS both teammates receive momentum once
+[2026.10.03-04.34.24:015][475]LogTemp: Display: RIDGEFIRE SMOKE PASS: Brassfall entry reserve refill granted once to 2 connected players at 10% per carried primary, capped; duplicate transition granted zero.
+[2026.10.03-04.34.24:015][475]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS transitioned host arena to Brassfall for client replication
+[2026.10.03-04.34.24:015][475]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS host completion acknowledged to remote reload smoke with authoritative ammo=4 reserve=30
+[2026.10.03-04.34.25:198][932]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_2
+[2026.10.03-04.34.25:198][932]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS all living players receive shared sentinel kill reward +14 ion
+[2026.10.03-04.34.25:198][932]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_3
+[2026.10.03-04.34.25:199][932]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_4
+[2026.10.03-04.34.25:199][932]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_5
+[2026.10.03-04.34.30:449][414]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS all living teammates receive wave-clear health/reserve +24/ion +18 (wave=2)
+[2026.10.03-04.34.30:449][414]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS first player defeat leaves surviving teammate and run active
+[2026.10.03-04.34.30:450][414]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_6
+[2026.10.03-04.34.30:450][414]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS living survivor receives shared sentinel kill reward +14 ion; defeated host receives none
+[2026.10.03-04.34.30:450][414]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_7
+[2026.10.03-04.34.30:450][414]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_8
+[2026.10.03-04.34.30:450][414]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_9
+[2026.10.03-04.34.30:450][414]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_10
+[2026.10.03-04.34.30:451][414]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_11
+[2026.10.03-04.34.30:451][414]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_12
+[2026.10.03-04.34.30:500][473]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS early remote restart request rejected while run remains active
+[2026.10.03-04.34.35:701][466]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS living survivor receives wave-clear health/reserve +24/ion +18; defeated host receives none (wave=3)
+[2026.10.03-04.34.35:701][466]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_13
+[2026.10.03-04.34.35:703][466]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_14
+[2026.10.03-04.34.35:703][466]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_15
+[2026.10.03-04.34.35:703][466]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_16
+[2026.10.03-04.34.35:703][466]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_17
+[2026.10.03-04.34.35:703][466]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_18
+[2026.10.03-04.34.35:703][466]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_19
+[2026.10.03-04.34.35:704][466]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_20
+[2026.10.03-04.34.35:704][466]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS mechanical death hides inherited skeletal mesh and ragdoll: BP_ShooterNPC_C_21
+[2026.10.03-04.34.40:954][886]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS living survivor receives wave-clear health/reserve +24/ion +18; defeated host receives none (wave=4)
+[2026.10.03-04.34.40:954][886]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS full team defeat enters shared game over
+[2026.10.03-04.34.46:566][878]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS restart keeps listen host and remote with distinct living pawns; fresh armory wave=0 score=0 offers=3
+[2026.10.03-04.34.55:065][931]LogTemp: Display: RIDGEFIRE STARTING VOTE resolved shield_votes=0 reload_votes=0 skip=0 eligible=2 result_mask=4
+[2026.10.03-04.35.09:566][ 79]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_0
+[2026.10.03-04.35.09:570][ 79]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_1
+[2026.10.03-04.35.09:572][ 79]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_2
+[2026.10.03-04.35.09:574][ 79]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_3
+[2026.10.03-04.35.09:575][ 79]LogTemp: Display: RIDGEFIRE NPC SMOKE PASS first-arena armored sentry added 12 attached visibility-query armor parts without movement/navigation collision with top 252.7 and half-width 84.2: BP_ShooterNPC_C_4
+[2026.10.03-04.35.09:809][212]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS post-restart remote selected opening offer 1 and server equipped Gale Repeater
+[2026.10.03-04.35.11:809][388]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS post-restart remote movement authoritative forward displacement 1104.7 cm
+[2026.10.03-04.35.12:059][538]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS post-restart remote firing authoritative ammo 24->23
+
+## coop-restart-output.txt / RIDGEFIRE-COOP-20261002-213357-Client.log
+[2026.10.03-04.34.22:019][653]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS client received replicated health field drop actor.
+[2026.10.03-04.34.24:099][363]LogTemp: Display: RIDGEFIRE COOP CLIENT SMOKE PASS replicated ammo=4 target_hp=0 score=110 after host completion
+[2026.10.03-04.34.24:099][363]LogTemp: Display: RIDGEFIRE COOP PROGRESSION OWNER PASS xp=10 replicated to owning client; team_momentum=true
+[2026.10.03-04.34.25:197][375]LogTemp: Display: RIDGEFIRE COOP CLIENT SMOKE RELOAD PASS replicated_reload=true->false magazine=4->6 reserve=30->28 transferred=2
+[2026.10.03-04.34.30:498][821]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART_EARLY_REQUEST while surviving teammate remains active
+[2026.10.03-04.34.41:000][879]LogTemp: Display: RIDGEFIRE COOP CLIENT TEAM_WIPE PASS own_defeat=true replicated_run_over=true
+[2026.10.03-04.34.41:000][879]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART_REQUEST after replicated team wipe; repeated_requests=3
+[2026.10.03-04.34.46:472][619]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART handoff consumed by fresh controller
+[2026.10.03-04.34.46:521][669]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART PASS remained remote with living pawn and replicated fresh armory wave=0 score=0 offers=3
+[2026.10.03-04.34.46:521][669]LogTemp: Display: RIDGEFIRE COOP PROGRESSION RESTART PASS xp=300 retained on owning remote across shared restart; team_perks_reset=true
+[2026.10.03-04.34.46:521][669]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART selected opening offer through normal input path
+[2026.10.03-04.35.09:812][ 90]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART movement diagnostic mode=1 ignored=0 speed=600.0 blocked=0 penetration=0 blocker=None component=None distance=0.0
+[2026.10.03-04.35.09:812][ 90]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART movement input started through CharacterMovement
+[2026.10.03-04.35.11:821][881]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART PASS real movement input projected displacement 1117.7 cm
+[2026.10.03-04.35.11:821][881]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART firing through normal weapon input and authoritative RPC
+[2026.10.03-04.35.11:872][926]LogTemp: Display: RIDGEFIRE COOP CLIENT RESTART PASS replicated magazine consumed after movement 1117.7 cm; ammo 24->23

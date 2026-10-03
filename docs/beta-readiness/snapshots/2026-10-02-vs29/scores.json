@@ -1,0 +1,53 @@
+{
+  "scope": "Gameplay-only planning estimate; not overall beta completion or test pass rate",
+  "estimated_on": "2026-10-02",
+  "confidence": "low",
+  "judgment_range_percent": [
+    35,
+    60
+  ],
+  "rubric": [
+    {
+      "category": "Controls and combat",
+      "weight_percent": 30,
+      "readiness_percent": 55,
+      "contribution": 16.5,
+      "rationale": "Retain prior credit. Existing possessed combat/handling regression and real two-peer firing/reload/restart pass. Physical keyboard/controller packaged runs and feel remain unaccepted."
+    },
+    {
+      "category": "Weapons and arsenal",
+      "weight_percent": 20,
+      "readiness_percent": 50,
+      "contribution": 10.0,
+      "rationale": "Add tested personal timed secondary selection, slot reservation, deterministic deployment, actual secondary draw on four owners and Gale-secondary timeout fallback. Full weapon presentation and normal-input packaged combat remain incomplete."
+    },
+    {
+      "category": "Waves, routes and arenas",
+      "weight_percent": 20,
+      "readiness_percent": 35,
+      "contribution": 7.0,
+      "rationale": "Retain prior credit for two prototype phases and temporary rewards. No new finished arena, branch route or champion credit."
+    },
+    {
+      "category": "Co-op and recovery",
+      "weight_percent": 20,
+      "readiness_percent": 45,
+      "contribution": 9.0,
+      "rationale": "Four actual local Editor processes pass weighted/skip setup, owner loadouts and draw; a setup disconnect correctly reduces voters to three. Four possessed profiles receive one kill reward including a downed peer, an actual remote player is carried/deposited and all clients observe real sixty-second recovery of the same pawn. Existing two-peer full wipe/restart regression passes. Internet/Steam, four-human full runs and disconnect takeover/reclaim remain open."
+    },
+    {
+      "category": "Perks and progression",
+      "weight_percent": 10,
+      "readiness_percent": 75,
+      "contribution": 7.5,
+      "rationale": "Add production 20/10/10 staged selection with saved/default choices, lock boundaries, real timer checks and four-peer ballot outcomes. Existing ten-perk/effect/save/isolation checks pass. Character preselection, reveal animation, human balance and authenticated reconnect remain unfinished."
+    }
+  ],
+  "weighted_score": 50.0,
+  "displayed_gameplay_readiness_percent": 50,
+  "overall_beta_readiness_percent": null,
+  "beta_ready": false,
+  "target_gameplay_readiness_percent": 50,
+  "target_status": "Reached as a provisional gameplay planning milestone; overall beta release readiness remains unmeasured",
+  "assessment_note": "Six planning points above VS28: arsenal +2, co-op/recovery +3, staged progression +1. Controls and arena scores are retained. No production-art, finished-arena, Internet, performance, human-fun or package-full-run credit is inferred from controlled fixtures."
+}

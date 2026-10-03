@@ -1,0 +1,7 @@
+********** BUILD COMMAND COMPLETED **********
+********** COOK COMMAND COMPLETED **********
+********** STAGE COMMAND COMPLETED **********
+********** ARCHIVE COMMAND COMPLETED **********
+BuildCookRun time: 35.55 s
+BUILD SUCCESSFUL
+Windows Shipping package marked COMPLETE (Prototype): [local workspace]\unreal\Ridgefire\Saved\Packages\20261002-213234-746

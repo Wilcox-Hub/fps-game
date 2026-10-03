@@ -1,0 +1,194 @@
+[
+  {
+    "gate": "rules-output.txt",
+    "status": "PASS",
+    "tests": [
+      "Ridgefire.Progression.SaveRoundTrip",
+      "Ridgefire.Progression.StorePersistenceAndIsolation",
+      "Ridgefire.Progression.UnlocksAndEffects"
+    ],
+    "logs": [
+      {
+        "path": "[local workspace]\\vs29\\progression-rules\\checks-20261002-213357-933\\Automation.log",
+        "sha256": "3539D43A2B342277C3109481E50E8C302BC51E3404B2EACEE62EF121422C49BA"
+      }
+    ],
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "reuse_note": "Fresh final source",
+    "recorded_time_utc": "2026-10-03T04:34:19.7584756Z"
+  },
+  {
+    "gate": "progression-regression-output.txt",
+    "status": "PASS",
+    "tests": [
+      "Ridgefire.Progression.PossessedInteractions"
+    ],
+    "logs": [
+      {
+        "path": "[local workspace]\\vs29\\progression-regression\\checks-20261002-213135-798\\Automation.log",
+        "sha256": "DB04197642E78AD7EADD54494B46CA56D7371357C1E9D35DA9A745CF30F100C3"
+      }
+    ],
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "reuse_note": "Fresh final source; older combat fixture deliberately isolates setup through its Editor-only short path",
+    "recorded_time_utc": "2026-10-03T04:31:56.8190131Z"
+  },
+  {
+    "gate": "gale-fallback-output.txt",
+    "status": "PASS",
+    "tests": [
+      "Ridgefire.Setup.TimedStages"
+    ],
+    "logs": [
+      {
+        "path": "[local workspace]\\vs29\\gale-fallback\\checks-20261002-213027-892\\Automation.log",
+        "sha256": "4E3BAFFBEA18E47226B905CF3866B62A5C64DF4CC0ED2B5D29D36692431D91AE"
+      }
+    ],
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "reuse_note": "Fresh final source, normal timers and Gale reserved as secondary",
+    "recorded_time_utc": "2026-10-03T04:31:28.7551610Z"
+  },
+  {
+    "gate": "setup-render1280-final-output.txt",
+    "status": "PASS",
+    "tests": [
+      "Ridgefire.Setup.TimedStages"
+    ],
+    "logs": [
+      {
+        "path": "[local workspace]\\vs29\\rendered1280-final\\checks-20261002-213135-415\\Automation.log",
+        "sha256": "4C0061D025C49B2DE09268121E5414AD6485212FB0FA538E15456D28751A67DA"
+      }
+    ],
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "reuse_note": "Fresh final source, normal timers, actual D3D12 frames",
+    "recorded_time_utc": "2026-10-03T04:32:31.8123082Z"
+  },
+  {
+    "gate": "setup-render800-output.txt",
+    "status": "PASS",
+    "tests": [
+      "Ridgefire.Setup.TimedStages"
+    ],
+    "logs": [
+      {
+        "path": "[local workspace]\\vs29\\rendered800-final\\checks-20261002-212509-290\\Automation.log",
+        "sha256": "C18D605F2B1B5BB336B41405A0B92518B2D13204D75203E568C9D5C304E0CB9E"
+      }
+    ],
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "reuse_note": "Rendered after UI/stage fixes, before the subsequent Gale-as-secondary fallback and opt-in recovery fixture. HUD file and displayed paths are unchanged; the new Gale fallback is separately tested.",
+    "recorded_time_utc": "2026-10-03T04:25:59.9127231Z"
+  },
+  {
+    "gate": "setup-defaults-output.txt",
+    "status": "PASS",
+    "tests": [
+      "Ridgefire.Setup.TimedStages"
+    ],
+    "logs": [
+      {
+        "path": "[local workspace]\\vs29\\defaults\\checks-20261002-205546-902\\Automation.log",
+        "sha256": "7FCFFAAB5B7F97BD34AB9F5D82892C461FD14B80E8AD0E0AD8A4052DB887461F"
+      }
+    ],
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "reuse_note": "Phasma-secondary/Gale-primary default path tested before the later Gale-secondary conditional was added; its unchanged branch is reused, with the new branch checked separately.",
+    "recorded_time_utc": "2026-10-03T03:56:45.3759570Z"
+  },
+  {
+    "gate": "network-skip-output.txt",
+    "status": "PASS",
+    "tests": [],
+    "logs": [
+      {
+        "path": "[local workspace]\\vs29\\network-skip\\checks-20261002-210041-230\\Host.log",
+        "sha256": "41254227E24DF7815756306A58FD3709926B036A1597D63CFF0F1C573878FA4D"
+      },
+      {
+        "path": "[local workspace]\\vs29\\network-skip\\checks-20261002-210041-230\\Client1.log",
+        "sha256": "93132E2BBD67F2C9F426B833CA871A5672A0B86E2E7D339CAF122B178338768A"
+      },
+      {
+        "path": "[local workspace]\\vs29\\network-skip\\checks-20261002-210041-230\\Client2.log",
+        "sha256": "F33A6F3C0D5A396817200877DCAED668F8DB630B539E766B1FD81A6180B99E34"
+      },
+      {
+        "path": "[local workspace]\\vs29\\network-skip\\checks-20261002-210041-230\\Client3.log",
+        "sha256": "14385ED0E4A1D9E12423BE6D263D76C43FF3AC3C1CEF9A2873FF88A60312574F"
+      }
+    ],
+    "scope": "Four local Editor processes with real replication and RPCs; no Internet/Steam or human input acceptance",
+    "reuse_note": "Four-peer skip checked after stage guards/UI fixes, before the later conditional Gale fallback and opt-in recovery fixture; observed secondary 1/2 branches are unchanged.",
+    "recorded_time_utc": "2026-10-03T04:01:39.7205619Z"
+  },
+  {
+    "gate": "network-disconnect-output.txt",
+    "status": "PASS",
+    "tests": [],
+    "logs": [
+      {
+        "path": "[local workspace]\\vs29\\network-disconnect\\checks-20261002-212510-774\\Host.log",
+        "sha256": "57885E8E0188242EA872EB498B1328FCDF0A91753D15AB8FC2E911FEA2DAB7E3"
+      },
+      {
+        "path": "[local workspace]\\vs29\\network-disconnect\\checks-20261002-212510-774\\Client1.log",
+        "sha256": "EA726AF57406A42E090482F13FC0997EA488F3CB258F071E4CB3DDCB7B9010FD"
+      },
+      {
+        "path": "[local workspace]\\vs29\\network-disconnect\\checks-20261002-212510-774\\Client2.log",
+        "sha256": "C6900BF8785AFC7DD344B457DCB2112EB653E3637A15B95C8ED15799AE2473FA"
+      },
+      {
+        "path": "[local workspace]\\vs29\\network-disconnect\\checks-20261002-212510-774\\Client3.log",
+        "sha256": "6EBE300AC17E3487D5140262591EE0C4CA504330C0CD39162462178DFFF702B3"
+      }
+    ],
+    "scope": "Four local Editor processes with real replication and RPCs; no Internet/Steam or human input acceptance",
+    "reuse_note": "Four-peer setup disconnect checked before the later conditional Gale fallback and opt-in recovery fixture; observed secondary 1/2 branches are unchanged.",
+    "recorded_time_utc": "2026-10-03T04:26:09.3221532Z"
+  },
+  {
+    "gate": "network-recovery-output.txt",
+    "status": "PASS",
+    "tests": [],
+    "logs": [
+      {
+        "path": "[local workspace]\\vs29\\network-recovery\\checks-20261002-213025-744\\Host.log",
+        "sha256": "AF1365571CDF11B51A858562D0E2EEE43DE1402141EE045000C5959CC118076F"
+      },
+      {
+        "path": "[local workspace]\\vs29\\network-recovery\\checks-20261002-213025-744\\Client1.log",
+        "sha256": "18E75A50DEF5F721C8183A7EA3B05E24C6D1E72265D668EA552A508E377FBC52"
+      },
+      {
+        "path": "[local workspace]\\vs29\\network-recovery\\checks-20261002-213025-744\\Client2.log",
+        "sha256": "FB8153EF5D19396E35DFB78A9D3C3DDB55519A1E2A4B0255630CC70F085EAD62"
+      },
+      {
+        "path": "[local workspace]\\vs29\\network-recovery\\checks-20261002-213025-744\\Client3.log",
+        "sha256": "21157E21A61C48565481F56C262469707B6E5B85BD770D323C7A9B456774AE3A"
+      }
+    ],
+    "scope": "Four local Editor processes with real replication and RPCs; no Internet/Steam or human input acceptance",
+    "reuse_note": "Fresh final source; real four-peer weighted setup and replicated actual-player recovery, with constructed positioning and enemies disabled during recovery",
+    "recorded_time_utc": "2026-10-03T04:32:33.0099332Z"
+  },
+  {
+    "gate": "coop-restart-output.txt",
+    "status": "PASS",
+    "logs": [
+      {
+        "path": "[local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\RIDGEFIRE-COOP-20261002-213357-Host.log",
+        "sha256": "B07B5079E17B344DF11D7543730E8D94A28D0A2B998D72EED1FAAA2E865A795E"
+      },
+      {
+        "path": "[local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\RIDGEFIRE-COOP-20261002-213357-Client.log",
+        "sha256": "B059446AC93D448408DA53D9CD45A599D4F188FC379D27BA6006E44DF0941539"
+      }
+    ],
+    "scope": "Two real local NullRHI Editor peers; short setup fixture isolates the existing combat/wipe/restart scenario",
+    "summary": "NullRHI co-op smoke passed: host/client state parity in Iron Sun and Brassfall, client blockout suppression, distinct pawns, acknowledged remote aim, authoritative target hit/damage, single reward, replicated health/ammo/score, and remote reload start/completion with reserve consumption.\nTwo-player team-wipe regression passed: first defeat leaves a survivor/run active; final defeat ends the shared run and the client observes replicated game over.\nLiving-player reward regression passed: both alive receive shared rewards; the remote survivor receives subsequent kill and wave-clear rewards, not the defeated host.\nClient-requested team restart passed: repeated requests restore the authoritative/replicated armory, distinct living pawns, real remote movement, and authoritative firing with replicated magazine consumption.\nHost log: [local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\RIDGEFIRE-COOP-20261002-213357-Host.log\nClient log: [local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\RIDGEFIRE-COOP-20261002-213357-Client.log\n"
+  }
+]
