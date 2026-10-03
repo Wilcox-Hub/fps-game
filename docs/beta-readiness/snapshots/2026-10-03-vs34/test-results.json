@@ -1,0 +1,21 @@
+[
+  {
+    "gate": "VS33 input hash comparison",
+    "status": "PASS",
+    "scope": "Input hash comparison only; no gameplay tests executed. Build/package/environment changes need separate validation.",
+    "observed_input_count": 550,
+    "differences": []
+  },
+  {
+    "gate": "Owner perk-menu recording",
+    "status": "VISUALLY_INSPECTED",
+    "scope": "Nine sampled frames and an enlarged opening frame from a 4.99-second 1600x900 recording. Perk menu/countdown only. No audio/input/combat/full-run/balance acceptance.",
+    "details": "video-observations.md"
+  },
+  {
+    "gate": "VS33 gameplay/build/package evidence",
+    "status": "REUSED_AT_RECORDED_SCOPE",
+    "details": "../2026-10-03-vs33/test-results.json",
+    "scope": "All 550 inputs match. Preserve original October 3 controlled solo/co-op, focused rules/recoil, build and bounded startup scopes. No game checks rerun, new human balance pass or Internet acceptance."
+  }
+]
