@@ -1,0 +1,10 @@
+{
+  "resolved": true,
+  "attempts": [
+    "Fixture missing damage-event include; added explicit header",
+    "Fixture tried duplicate slot before freeing it; reordered selections",
+    "Fixture expected personal armor without existing team shield; added team multiplier",
+    "Earlier VS26 identity/vote/head-collider fixes remain documented in local logs"
+  ],
+  "discarded_draft": "Flashy active-power draft was never installed; user chose equipment-style percentage perks"
+}

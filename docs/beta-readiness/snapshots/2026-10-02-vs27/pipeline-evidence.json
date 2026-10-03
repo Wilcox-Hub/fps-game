@@ -1,0 +1,100 @@
+{
+  "asset_job": {
+    "status": "PASS",
+    "cached": false,
+    "asset_id": "arsenal-station",
+    "signature": "22990484EF03030D658E85974F4D1809E26E18E1402F310BFD4C8AB3A3797F57",
+    "recorded_at": "2026-10-03T01:09:45.9933217Z",
+    "elapsed_seconds": 37.84,
+    "result": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\AssetJobs\\Job_20261002_180908_152_a5dd6d\\result.json",
+    "scope": "Blender static export/previews + unsaved Unreal import/scale check; no gameplay or art acceptance",
+    "blender": {
+      "status": "PASS",
+      "asset_id": "arsenal-station",
+      "blender_version": "5.2.2 LTS",
+      "mesh_objects": 120,
+      "triangles": 32176,
+      "material_slots": 6,
+      "dimensions_cm": [
+        588.0,
+        588.0,
+        272.5
+      ],
+      "export": {
+        "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\AssetJobs\\Job_20261002_180908_152_a5dd6d\\asset.fbx",
+        "sha256": "20760B6D5570C0331FB0423E9B7C3C774E94BDEC1F017BFDA3C5D61E52F3B4BB"
+      },
+      "previews": [
+        {
+          "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\AssetJobs\\Job_20261002_180908_152_a5dd6d\\preview-three-quarter.png",
+          "sha256": "118921BA37351F07B216CCD05605CEF17CFA66835929C836FD9F62DF1CFA9F58"
+        },
+        {
+          "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\AssetJobs\\Job_20261002_180908_152_a5dd6d\\preview-front.png",
+          "sha256": "3C95F9E98C782905921A21382E6815AB7B6E3D5FED04EA41180A1852B95BB81F"
+        },
+        {
+          "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\AssetJobs\\Job_20261002_180908_152_a5dd6d\\preview-top.png",
+          "sha256": "4135638890B62B275CD0C38BAB6249B750D29E7A9F11B68FC8BF5EE4D324C6F3"
+        }
+      ],
+      "source_saved": false,
+      "scope": "Static asset export and isolated Blender previews; not engine appearance or gameplay acceptance"
+    },
+    "unreal": {
+      "status": "PASS",
+      "engine_version": "5.8.3-58210709+++UE5+Release-5.8",
+      "asset_path": "/Game/Developer/AssetPipelineRuns/Job_20261002_180908_152_a5dd6d/SM_JobReview",
+      "dimensions_cm": [
+        588.0,
+        588.0,
+        272.50000001490116
+      ],
+      "relative_bounds_errors": [
+        0.0,
+        0.0,
+        5.468316034439507e-11
+      ],
+      "material_slots": 6,
+      "saved": false,
+      "scope": "Unsaved static-mesh import and scale check; materials, collision, LODs and gameplay remain unaccepted"
+    },
+    "artifacts": [
+      {
+        "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\AssetJobs\\Job_20261002_180908_152_a5dd6d\\blender-result.json",
+        "sha256": "B8BD2F49871A038A1C9C4C3C4A1F5E7FAE5D11F71AC9A15E1C75E0E47AB3093C"
+      },
+      {
+        "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\AssetJobs\\Job_20261002_180908_152_a5dd6d\\unreal-result.json",
+        "sha256": "26EEA5B018F510A1D2F641693120385012F1FE8EDDCF5F2A23D54612D3D85242"
+      },
+      {
+        "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\AssetJobs\\Job_20261002_180908_152_a5dd6d\\inputs.json",
+        "sha256": "A2DE8FC44BC66B041DD1EF155BACC89102004307D3120C627C6F5E34CD5D3633"
+      },
+      {
+        "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\AssetJobs\\Job_20261002_180908_152_a5dd6d\\asset.fbx",
+        "sha256": "20760B6D5570C0331FB0423E9B7C3C774E94BDEC1F017BFDA3C5D61E52F3B4BB"
+      },
+      {
+        "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\AssetJobs\\Job_20261002_180908_152_a5dd6d\\preview-three-quarter.png",
+        "sha256": "118921BA37351F07B216CCD05605CEF17CFA66835929C836FD9F62DF1CFA9F58"
+      },
+      {
+        "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\AssetJobs\\Job_20261002_180908_152_a5dd6d\\preview-front.png",
+        "sha256": "3C95F9E98C782905921A21382E6815AB7B6E3D5FED04EA41180A1852B95BB81F"
+      },
+      {
+        "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\AssetJobs\\Job_20261002_180908_152_a5dd6d\\preview-top.png",
+        "sha256": "4135638890B62B275CD0C38BAB6249B750D29E7A9F11B68FC8BF5EE4D324C6F3"
+      }
+    ]
+  },
+  "previews_inspected": 3,
+  "second_invocation_cache_hit": true,
+  "token_savings_measured": false,
+  "readiness_credit": 0,
+  "github": "App reads and separate CLI docs publication verified",
+  "blender": "Live loopback MCP and isolated background asset job verified",
+  "chatgpt_web": "Separate web connection not verified"
+}

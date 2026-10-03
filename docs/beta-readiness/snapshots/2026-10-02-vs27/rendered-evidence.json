@@ -1,0 +1,42 @@
+[
+  {
+    "path": "rendered/1280x720/CombatTeamPerks.png",
+    "sha256": "DA38D5C67C3A119902C220EACA11D76B226E779489DF9F8E7F82FF24C4E5D2FD",
+    "scope": "Offscreen Editor fixture; normal voting is 10s, test discovery window is extended"
+  },
+  {
+    "path": "rendered/1280x720/LockedPerks.png",
+    "sha256": "C223D2289739BA2691AB2D93984EDE25E426DBA1A4BCA19C581D0327C538D7A0",
+    "scope": "Offscreen Editor fixture; normal voting is 10s, test discovery window is extended"
+  },
+  {
+    "path": "rendered/1280x720/StartingVote.png",
+    "sha256": "8E7123EC0460C57EBAAB25814C538E3BFE43DED44A21FE40E97DE32DD1765035",
+    "scope": "Offscreen Editor fixture; normal voting is 10s, test discovery window is extended"
+  },
+  {
+    "path": "rendered/1280x720/UnlockedPerks.png",
+    "sha256": "C6561A96A81D67CB4EBCD7663D2BFD994EB99D473DF2F0248E75322CF50D285C",
+    "scope": "Offscreen Editor fixture; normal voting is 10s, test discovery window is extended"
+  },
+  {
+    "path": "rendered/800x320/CombatTeamPerks.png",
+    "sha256": "960171DCE48D9F39BF4924FF4B4A6BB299FC70572F215EAC79E3CDC9253E6344",
+    "scope": "Offscreen Editor fixture; normal voting is 10s, test discovery window is extended"
+  },
+  {
+    "path": "rendered/800x320/LockedPerks.png",
+    "sha256": "FD0CC48D9FE33702F60FBE3B83CB11AB86EA2CFE51645445F3EA0083C78C207C",
+    "scope": "Offscreen Editor fixture; normal voting is 10s, test discovery window is extended"
+  },
+  {
+    "path": "rendered/800x320/StartingVote.png",
+    "sha256": "CB99E6DA3152971CE87F41DA5DC7292AFC9FBF5C7709A0327B435692F6D79D2F",
+    "scope": "Offscreen Editor fixture; normal voting is 10s, test discovery window is extended"
+  },
+  {
+    "path": "rendered/800x320/UnlockedPerks.png",
+    "sha256": "26A81964FA20611186A0B3B72D8CE5F9F63746665538C082BB9F744FB962C964",
+    "scope": "Offscreen Editor fixture; normal voting is 10s, test discovery window is extended"
+  }
+]

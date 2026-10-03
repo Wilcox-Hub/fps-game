@@ -1,0 +1,13 @@
+{
+  "PackageRoot": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261002-192837-203",
+  "Runtime": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261002-192837-203\\Windows\\Ridgefire\\Binaries\\Win64\\TP_FirstPerson-Win64-Shipping.exe",
+  "StartedAtUtc": "2026-10-03T02:33:39.7863844Z",
+  "ObservedSeconds": 22.04,
+  "ProcessSurvived": true,
+  "GraphicsModules": [
+    "dxgi.dll",
+    "d3d12.dll",
+    "D3D12Core.dll"
+  ],
+  "Scope": "Owned offscreen Shipping process startup survival/module-load check only; no rendered-frame inspection, menu input, normal play, audio, remote peers, performance or beta acceptance."
+}

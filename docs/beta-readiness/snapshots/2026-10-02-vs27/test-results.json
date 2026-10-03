@@ -1,0 +1,74 @@
+[
+  {
+    "gate": "rules-results.txt",
+    "status": "PASS",
+    "tests": [
+      "Ridgefire.Progression.SaveRoundTrip",
+      "Ridgefire.Progression.StorePersistenceAndIsolation",
+      "Ridgefire.Progression.UnlocksAndEffects"
+    ],
+    "log_sha256": "51CB32184B0CBDB7E5370E6E7A05165FFFD03D1B0212A66C25C4785B5A6655CA",
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "validation_level": "Controlled Editor automation; rendered D3D12 for interaction fixtures"
+  },
+  {
+    "gate": "interactions-final.txt",
+    "status": "PASS",
+    "tests": [
+      "Ridgefire.Progression.PossessedInteractions"
+    ],
+    "log_sha256": "247CF429D221DF8C399EB74A9B6BF5C23F77A3327F0D890AE280B9B82D27E78F",
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "validation_level": "Controlled Editor automation; rendered D3D12 for interaction fixtures"
+  },
+  {
+    "gate": "interactions-narrow.txt",
+    "status": "PASS",
+    "tests": [
+      "Ridgefire.Progression.PossessedInteractions"
+    ],
+    "log_sha256": "3E4D87E482D62A1EA021DD4EFCDC33542539AC6231B6A9C325081D8436EC7231",
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "validation_level": "Controlled Editor automation; rendered D3D12 for interaction fixtures"
+  },
+  {
+    "gate": "wildcard-results.txt",
+    "status": "PASS",
+    "logs": [
+      {
+        "path": "[local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\IRON-SUN-Wildcard-20261002-193207-114.log",
+        "sha256": "3495B9C70A5EED2ADA898E539F4C4E831B36E8FAAF0E4287F0B0EAAFBC55F2D7"
+      }
+    ],
+    "summary": "RIDGEFIRE WILDCARD COVERAGE mode=0 cases=15\nRIDGEFIRE WILDCARD COVERAGE mode=1 cases=11\nRIDGEFIRE WILDCARD COVERAGE mode=2 cases=14\nRIDGEFIRE WILDCARD COVERAGE mode=3 cases=5\nRIDGEFIRE WILDCARD COVERAGE mode=4 cases=10\nRIDGEFIRE WILDCARD COVERAGE mode=5 cases=13\nRIDGEFIRE WILDCARD COVERAGE mode=6 cases=11\nRIDGEFIRE WILDCARD COVERAGE mode=7 cases=11\nRIDGEFIRE WILDCARD COVERAGE mode=8 cases=10\nRIDGEFIRE WILDCARD PASS seed=20903 draws=110 cases=100 unique=100 modes=9 ammo=verified targets=finite muzzle=verified roulette_endpoint=verified scatter_first_endpoint=verified roulette_hits=3 roulette_misses=8 scatter_hits=11 scatter_misses=0\n100 actual generated combinations passed. Log: [local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\IRON-SUN-Wildcard-20261002-193207-114.log\nScope: staged off-world Blueprint actors, frozen high-HP targets, one press per roll and replayed random shot seeds. Render frames briefly hold world time for actual tracers; observer HUD is not the cloned loadout. Scatter primary represents its first actual pellet; the separate Scatter visual fixture checks all paths/pool reuse. No kill triggers, full condition truth table, physical input, remote Scatter delivery, internet, Shipping, performance or human-fun acceptance. Frames require manual inspection.\n",
+    "scope": "Controlled Editor automation / two local peers for co-op"
+  },
+  {
+    "gate": "fire-results.txt",
+    "status": "PASS",
+    "logs": [
+      {
+        "path": "[local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\IRON-SUN-Weapon-Fire-20261002-193226-893-833651df.log",
+        "sha256": "A6C3959DA8BA1902191B82EF5B4A503B11C6EAF8606F8A44E4B25F5A9DA1EF0D"
+      }
+    ],
+    "summary": "Authoritative weapon-fire smoke passed in a standalone game world. Log: [local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\IRON-SUN-Weapon-Fire-20261002-193226-893-833651df.log\nScope: constructed Blueprint actors exercised gameplay APIs; no OS input, rendering, or multiplayer-client evidence.\n",
+    "scope": "Controlled Editor automation / two local peers for co-op"
+  },
+  {
+    "gate": "coop-results.txt",
+    "status": "PASS",
+    "logs": [
+      {
+        "path": "[local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\RIDGEFIRE-COOP-20261002-193252-Host.log",
+        "sha256": "85C7281A51FE03624272FFC6A53ADE83B77DEAE28B8D28A70D9E29B0D631F49B"
+      },
+      {
+        "path": "[local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\RIDGEFIRE-COOP-20261002-193252-Client.log",
+        "sha256": "3BC5BF984A7E2EE02085CBE4729A343102D6E3A45159E50FB8534EF7F440DAD1"
+      }
+    ],
+    "summary": "NullRHI co-op smoke passed: host/client state parity in Iron Sun and Brassfall, client blockout suppression, distinct pawns, acknowledged remote aim, authoritative target hit/damage, single reward, replicated health/ammo/score, and remote reload start/completion with reserve consumption.\nTwo-player team-wipe regression passed: first defeat leaves a survivor/run active; final defeat ends the shared run and the client observes replicated game over.\nLiving-player reward regression passed: both alive receive shared rewards; the remote survivor receives subsequent kill and wave-clear rewards, not the defeated host.\nClient-requested team restart passed: repeated requests restore the authoritative/replicated armory, distinct living pawns, real remote movement, and authoritative firing with replicated magazine consumption.\nHost log: [local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\RIDGEFIRE-COOP-20261002-193252-Host.log\nClient log: [local workspace]\\unreal\\Ridgefire\\Saved\\Logs\\RIDGEFIRE-COOP-20261002-193252-Client.log\n",
+    "scope": "Controlled Editor automation / two local peers for co-op"
+  }
+]
