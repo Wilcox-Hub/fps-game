@@ -1,0 +1,72 @@
+[
+  {
+    "path": "rendered/1280x720/CombatTeamPerks.png",
+    "sha256": "DF40B0BDBF31E2E7018D34070D020999F646BB5F4A79FCDDE253D8A22970054A",
+    "inspected": true,
+    "scope": "Offscreen Editor fixture; extended voting discovery window; unfinished art remains",
+    "notes": ""
+  },
+  {
+    "path": "rendered/1280x720/CrouchBracing.png",
+    "sha256": "4E589B3DEF9ED27FA434C5A2DD41239A9C0DFD16ED84D3D0DBF06AD73375479B",
+    "inspected": true,
+    "scope": "Offscreen Editor fixture; extended voting discovery window; unfinished art remains",
+    "notes": "Crouch frame contains a transient editor shader-warmup overlay; not a production visual acceptance frame"
+  },
+  {
+    "path": "rendered/1280x720/LockedPerks.png",
+    "sha256": "A1C778666D8BF849C3D8764B2D11418D2374F9E7CFF95802D318FBA68610F234",
+    "inspected": true,
+    "scope": "Offscreen Editor fixture; extended voting discovery window; unfinished art remains",
+    "notes": ""
+  },
+  {
+    "path": "rendered/1280x720/StartingVote.png",
+    "sha256": "D9C7600BB21329BFE88B686AD7E3E149958268612C443B323937C550E7D60943",
+    "inspected": true,
+    "scope": "Offscreen Editor fixture; extended voting discovery window; unfinished art remains",
+    "notes": ""
+  },
+  {
+    "path": "rendered/1280x720/UnlockedPerks.png",
+    "sha256": "42D74F6F5E357206DB32E741481ACFE1FD4DFEB994748EEAAEBFBA0976E5BF72",
+    "inspected": true,
+    "scope": "Offscreen Editor fixture; extended voting discovery window; unfinished art remains",
+    "notes": ""
+  },
+  {
+    "path": "rendered/800x320/CombatTeamPerks.png",
+    "sha256": "14F82DB46A6A7A6A06688F8022F0339F461FBA1D3CFAF73C94990293EFCEAF23",
+    "inspected": true,
+    "scope": "Offscreen Editor fixture; extended voting discovery window; unfinished art remains",
+    "notes": ""
+  },
+  {
+    "path": "rendered/800x320/CrouchBracing.png",
+    "sha256": "60DF889BD93B75664A93FEB3C13BCCD5B766EB76193FD6874207D58715C02227",
+    "inspected": true,
+    "scope": "Offscreen Editor fixture; extended voting discovery window; unfinished art remains",
+    "notes": "Crouch frame contains a transient editor shader-warmup overlay; not a production visual acceptance frame"
+  },
+  {
+    "path": "rendered/800x320/LockedPerks.png",
+    "sha256": "FECFC30EC644F2EB4CCFB9D8B2DFC7A975573216C0D7829A54C56939654027FE",
+    "inspected": true,
+    "scope": "Offscreen Editor fixture; extended voting discovery window; unfinished art remains",
+    "notes": ""
+  },
+  {
+    "path": "rendered/800x320/StartingVote.png",
+    "sha256": "67AEFA9DED3207FC5BF7382060F5F92F3B2B50736EF7BDD7E4A9AB12A056FAB9",
+    "inspected": true,
+    "scope": "Offscreen Editor fixture; extended voting discovery window; unfinished art remains",
+    "notes": ""
+  },
+  {
+    "path": "rendered/800x320/UnlockedPerks.png",
+    "sha256": "F9C3E5DEFAB38A86F6B87DC63ED43338DEBDC042CD4F4D4755F4ACFE3035A0AB",
+    "inspected": true,
+    "scope": "Offscreen Editor fixture; extended voting discovery window; unfinished art remains",
+    "notes": ""
+  }
+]

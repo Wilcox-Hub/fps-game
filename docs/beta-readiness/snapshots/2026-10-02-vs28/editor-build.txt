@@ -1,0 +1,39 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" TP_FirstPersonEditor Win64 Development -Project=C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Ridgefire.uproject -WaitMutex -NoHotReloadFromIDE
+Log file: C:\Users\YaYa\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Available x64 toolchains (1):
+ * C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.51.36231
+    (Family=14.51.36231, FamilyRank=2, Version=14.51.36260, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64)
+Visual Studio compiler version 14.51.36260 is newer than latest preferred version 14.50.35717. Please use caution as this compiler has not been heavily tested
+Building TP_FirstPersonEditor...
+===== Toolchain Information =====
+Using ISPC compiler (G:\Unreal Engine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.51.36260 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.51.36231) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Warning: Visual Studio compiler 14.51.36260 is not a preferred version
+[Adaptive Build] Excluded from TP_FirstPerson unity file: RidgefireArenaDressing.cpp, RidgefireCharacterMovement.cpp, RidgefireGameMode.cpp, RidgefireHealingTube.cpp, RidgefireHUD.cpp, RidgefirePickup.cpp, RidgefireProgression.cpp, RidgefireSessionSubsystem.cpp, RidgefireSynthWave.cpp, RidgefireWildcardFactory.cpp, TP_FirstPerson.cpp, TP_FirstPersonCameraManager.cpp, TP_FirstPersonCharacter.cpp, TP_FirstPersonGameMode.cpp, TP_FirstPersonPlayerController.cpp, RidgefireArsenalPresentationTests.cpp, RidgefireCarryPresentationTests.cpp, RidgefireCarryTests.cpp, RidgefireHealingTubeNetworkTests.cpp, RidgefireHealingTubeTests.cpp, RidgefireHUDLayoutTests.cpp, RidgefireLoadoutInteractionTests.cpp, RidgefirePiercingTraceTests.cpp, RidgefireProgressionInteractionTests.cpp, RidgefireProgressionTests.cpp, RidgefireRecoveryTests.cpp, RidgefireRescueClockTests.cpp, RidgefireRescueContentionTests.cpp, RidgefireRescueLifecycleTests.cpp, RidgefireScatterVisualTests.cpp, RidgefireSentryClearanceTests.cpp, RidgefireWeaponCadenceTests.cpp, RidgefireWeaponFireTests.cpp, RidgefireWeaponPresentationTests.cpp, RidgefireWildcardCombatTests.cpp, HorrorCharacter.cpp, HorrorGameMode.cpp, HorrorPlayerController.cpp, HorrorUI.cpp, ShooterCharacter.cpp, ShooterGameMode.cpp, ShooterPlayerController.cpp, EnvQueryContext_Target.cpp, ShooterAIController.cpp, ShooterNPC.cpp, ShooterNPCSpawner.cpp, ShooterStateTreeUtility.cpp, ShooterBulletCounterUI.cpp, ShooterUI.cpp, ShooterPickup.cpp, ShooterProjectile.cpp, ShooterWeapon.cpp, ShooterWeaponHolder.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 31.16 GB physical, 15.16 GB/33.16 GB committed
+  UBA Storage capacity 40 GB
+[1/4] Compile [x64] ShooterCharacter.cpp
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\Sound\SoundWaveProcedural.h(65,26): warning C4996: 'USoundWave::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	ENGINE_API virtual void GetAssetRegistryTags(TArray<FAssetRegistryTag>& OutTags) const override;
+	                        ^
+[2/4] Link [x64] UnrealEditor-TP_FirstPerson.lib
+[3/4] Link [x64] UnrealEditor-TP_FirstPerson.dll
+[4/4] WriteMetadata TP_FirstPersonEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 4.22 seconds
+Output binary: G:\Unreal Engine\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 4.93 seconds
+Trace written to file C:\Users\YaYa\AppData\Local\UnrealBuildTool\Trace.uba with size 5.6kb

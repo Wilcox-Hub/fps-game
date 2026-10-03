@@ -1,0 +1,9 @@
+{
+  "resolved": true,
+  "attempts": [
+    "Initial compile: literal printf format and controller local field-name collision corrected",
+    "Fixture secondary assignment overwritten by team-state refresh: select a real secondary through game mode",
+    "Repeated crouch camera assertions exposed a 56 cm stale socket transform despite restored relative positions. Adjust camera child and refresh skeletal attachment transforms after native crouch offsets; two rendered interaction fixtures now pass. Failed/diagnostic logs remain local."
+  ],
+  "validation_limit": "Tested engine fixtures; not physical hardware input, internet or human balance"
+}

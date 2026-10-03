@@ -1,0 +1,53 @@
+{
+  "scope": "Gameplay-only planning estimate; not overall beta completion or test pass rate",
+  "estimated_on": "2026-10-02",
+  "confidence": "low",
+  "judgment_range_percent": [
+    30,
+    55
+  ],
+  "rubric": [
+    {
+      "category": "Controls and combat",
+      "weight_percent": 30,
+      "readiness_percent": 55,
+      "contribution": 16.5,
+      "rationale": "Retain prior credit: controlled controls/combat pass; new menus support keyboard/gamepad inputs but physical-input packaged play remains unaccepted."
+    },
+    {
+      "category": "Weapons and arsenal",
+      "weight_percent": 20,
+      "readiness_percent": 40,
+      "contribution": 8.0,
+      "rationale": "Retain prior credit: generated arsenal and authoritative fire pass. Conditional head-hit bonus is now tested; production presentation/full packaged combat remain unaccepted."
+    },
+    {
+      "category": "Waves, routes and arenas",
+      "weight_percent": 20,
+      "readiness_percent": 35,
+      "contribution": 7.0,
+      "rationale": "Two prototype phases now award XP and distinct temporary team rewards. Ten finished arenas, branching routes and champions remain incomplete."
+    },
+    {
+      "category": "Co-op and recovery",
+      "weight_percent": 20,
+      "readiness_percent": 30,
+      "contribution": 6.0,
+      "rationale": "Two local processes now exercise voting, owner XP, team buffs and progression-preserving restart; actual healing-tube success earns depositor XP. Internet/Steam/four-player lifecycle remain unaccepted."
+    },
+    {
+      "category": "Perks and progression",
+      "weight_percent": 10,
+      "readiness_percent": 65,
+      "contribution": 6.5,
+      "rationale": "Ten unlocked equipment/training choices, two slots, real store persistence/isolation, conditional damage and short shared ballot pass. Balance, full staged lobby and authenticated reconnect remain unaccepted."
+    }
+  ],
+  "weighted_score": 44.0,
+  "displayed_gameplay_readiness_percent": 44,
+  "overall_beta_readiness_percent": null,
+  "beta_ready": false,
+  "target_gameplay_readiness_percent": 50,
+  "target_status": "Not reached; avoid inflating retained categories to match target",
+  "assessment_note": "Retain VS27 44% gameplay planning estimate. Scoped role/crouch/carry improvements receive no new readiness credit before hardware/network-feel/human balance acceptance."
+}
