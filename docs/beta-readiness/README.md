@@ -2,7 +2,7 @@
 
 Latest gameplay planning estimate: **50%**, low confidence, assessed October 2, 2026. **NOT_BETA_READY.** The provisional 50% gameplay milestone is reached; overall beta completion remains unmeasured. This is a planning judgment, not a test pass rate.
 
-Start with [latest.json](latest.json), its [report](snapshots/2026-10-02-vs29/report.md), [scores](snapshots/2026-10-02-vs29/scores.json), [test results](snapshots/2026-10-02-vs29/test-results.json), and [progression guide](snapshots/2026-10-02-vs29/progression-guide.md). Older snapshots remain history.
+Start with [latest.json](latest.json), its [release review](snapshots/2026-10-03-release-review/report.md), [tested build report](snapshots/2026-10-02-vs29/report.md), [scores](snapshots/2026-10-02-vs29/scores.json), [test results](snapshots/2026-10-02-vs29/test-results.json), and [progression guide](snapshots/2026-10-02-vs29/progression-guide.md). Older snapshots remain history.
 
 | Area | Weight | Readiness | Points |
 | --- | ---: | ---: | ---: |
@@ -17,3 +17,5 @@ For readiness questions, consult this folder before starting tests. Compare curr
 Game source includes unpublished local changes; GitHub source may differ. Preserve the ten-finished-arena beta target and the hardware, production-art, Internet, performance and human-fun gates. After relevant work, add a dated snapshot and update this overview and the latest pointer together.
 
 VS29 adds timed perk/secondary/vote stages, secondary reservation and timeout deployment. Four actual local Editor peers exercise ballots and owner loadouts; a disconnect scenario and real sixty-second remote-player recovery also pass. This does not establish four-human full runs or Internet readiness.
+
+Developer release review, October 3: supervised internal alpha playtesting is approved; beta readiness is not approved. The 50% planning estimate is retained without new credit. All 534 inputs match VS29, so its dated evidence is reused; no gameplay tests were repeated. A complete human-played packaged session is required before broader closed distribution.

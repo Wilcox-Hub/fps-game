@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "recorded_on": "2026-10-02",
+  "recorded_on": "2026-10-03",
   "tested_on": "2026-10-02",
   "timezone": "America/Los_Angeles",
-  "snapshot_id": "2026-10-02-vs29",
+  "snapshot_id": "2026-10-03-release-review",
   "source_baseline_commit": "a3d2d1ca109764962493722f5859b3013b1cf058",
   "tested_source_includes_unpublished_changes": true,
   "tested_input_count": 534,
@@ -15,7 +15,7 @@
   "overall_beta_readiness_percent": null,
   "confidence": "low",
   "score": "snapshots/2026-10-02-vs29/scores.json",
-  "report": "snapshots/2026-10-02-vs29/report.md",
+  "report": "snapshots/2026-10-03-release-review/report.md",
   "input_manifest": "snapshots/2026-10-02-vs29/input-manifest.json",
   "test_results": "snapshots/2026-10-02-vs29/test-results.json",
   "cache_policy": "Reuse matching-input evidence at its recorded validation level. Changed, missing or added inputs require affected checks; historical scores remain dated until a new assessment.",
@@ -29,5 +29,9 @@
   "project_descriptor": {
     "path": "Ridgefire.uproject",
     "sha256": "065A1AB7AF0B97F9C813738343DCC20B66CE016D144DC7FAC6799DCC2692F331"
-  }
+  },
+  "previous_test_snapshot": "2026-10-02-vs29",
+  "beta_readiness_approved": false,
+  "testing_recommendation": "Supervised internal alpha playtest; closed external testing conditional on a normal-input packaged session",
+  "assessment_kind": "Release review with matching-input evidence reuse; no new gameplay testing"
 }
