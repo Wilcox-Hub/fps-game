@@ -1,0 +1,23 @@
+{
+  "status": "INSPECTED",
+  "resolution": "1280x720",
+  "scope": "Four offscreen Editor captures on final source, constructed fixture cameras. Encounter/live/pending HUD line fits without clipping. Station prompt overlays, primitive art and bright geometry remain prototype presentation concerns. No human-input, boss-frame, performance or audio acceptance.",
+  "images": [
+    {
+      "path": "visuals/Arena0.png",
+      "sha256": "11E19BD371DA432742408ECA16F37C99201EA91D6C96510B7A2BF03F2AD21EFC"
+    },
+    {
+      "path": "visuals/Arena1.png",
+      "sha256": "F4E7772D991329207AB925E48BD2255E499B274BE1CE3A0A7F57416F58B923EC"
+    },
+    {
+      "path": "visuals/Arena2.png",
+      "sha256": "022D3062871B67CF5A0759900948B61B99574A419F813484A700DB2D5B69CCD4"
+    },
+    {
+      "path": "visuals/Arena3.png",
+      "sha256": "045A1DE327047D698D105AA344F57334B3A30EF93F2154C20CE6BC8DEE3E3E0C"
+    }
+  ]
+}

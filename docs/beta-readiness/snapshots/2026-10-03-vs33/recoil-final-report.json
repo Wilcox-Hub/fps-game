@@ -1,0 +1,17 @@
+[
+  {
+    "testDisplayName": "PhysicalDirection",
+    "fullTestPath": "Ridgefire.Weapon.Recoil.PhysicalDirection",
+    "tags": [],
+    "state": "Success",
+    "deviceInstance": [
+      "A1867BEC455E78741FA8CC9889B8BBB3"
+    ],
+    "duration": 0.0016165971755981445,
+    "dateTime": "2026.10.03-18.52.18",
+    "entries": [],
+    "warnings": 0,
+    "errors": 0,
+    "artifacts": []
+  }
+]

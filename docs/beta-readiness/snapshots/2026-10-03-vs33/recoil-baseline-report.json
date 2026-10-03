@@ -1,0 +1,51 @@
+[
+  {
+    "testDisplayName": "PhysicalDirection",
+    "fullTestPath": "Ridgefire.Weapon.Recoil.PhysicalDirection",
+    "tags": [],
+    "state": "Fail",
+    "deviceInstance": [
+      "1C2933644C3E2D92E99D688ACF9FD9D4"
+    ],
+    "duration": 0.08937679976224899,
+    "dateTime": "2026.10.03-18.21.03",
+    "entries": [
+      {
+        "event": {
+          "type": "Info",
+          "message": "LogTemp: RIDGEFIRE RECOIL CHECK input_scale=1.0 pitch=0.3000 forward_z=0.00524",
+          "context": "log",
+          "artifact": "00000000000000000000000000000000"
+        },
+        "filename": "",
+        "lineNumber": -1,
+        "timestamp": "2026.10.03-18.21.03"
+      },
+      {
+        "event": {
+          "type": "Error",
+          "message": "Expected 'physical kick raises aim with input pitch scale -2.5' to be true.",
+          "context": "",
+          "artifact": "00000000000000000000000000000000"
+        },
+        "filename": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Source\\TP_FirstPerson\\Tests\\RidgefireRecoilTests.cpp",
+        "lineNumber": 37,
+        "timestamp": "2026.10.03-18.21.03"
+      },
+      {
+        "event": {
+          "type": "Info",
+          "message": "LogTemp: RIDGEFIRE RECOIL CHECK input_scale=-2.5 pitch=359.2500 forward_z=-0.01309",
+          "context": "log",
+          "artifact": "00000000000000000000000000000000"
+        },
+        "filename": "",
+        "lineNumber": -1,
+        "timestamp": "2026.10.03-18.21.03"
+      }
+    ],
+    "warnings": 0,
+    "errors": 1,
+    "artifacts": []
+  }
+]

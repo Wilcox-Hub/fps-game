@@ -1,0 +1,248 @@
+## rules-output.txt / Automation.log
+[2026.10.03-18.35.33:337][597]LogAutomationController: Display: Test Completed. Result={Success} Name={EncounterPlan} Path={Ridgefire.Run.EncounterPlan}
+
+## solo-final-output.txt / Automation.log
+[2026.10.03-18.45.41:079][603]LogTemp: Display: RIDGEFIRE RUN OBSERVED arena=0 wave=0
+[2026.10.03-18.45.57:585][ 77]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=1 fight=1/6 party=1 live=12 pending=12 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.46.14:704][452]LogTemp: Display: RIDGEFIRE DAMAGE CHECK base_ratio=0.03610 scaled_ratio=0.07220 multiplier=2.000
+[2026.10.03-18.46.16:359][582]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=1 fight=1/6 party=1 live=6 pending=6 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.46.18:353][743]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=1 fight=1/6 party=1 live=6 pending=0 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.46.25:372][308]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=2 fight=2/6 party=1 live=6 pending=12 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.46.27:379][471]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=2 fight=2/6 party=1 live=6 pending=6 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.46.29:393][633]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=2 fight=2/6 party=1 live=6 pending=0 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.46.36:418][195]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=3 fight=3/6 party=1 live=7 pending=14 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.46.38:419][355]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=3 fight=3/6 party=1 live=7 pending=7 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.46.40:425][514]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=3 fight=3/6 party=1 live=7 pending=0 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.46.47:441][ 75]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=4 fight=4/6 party=1 live=7 pending=14 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.46.49:454][232]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=4 fight=4/6 party=1 live=7 pending=7 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.46.51:461][390]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=4 fight=4/6 party=1 live=7 pending=0 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.46.58:490][942]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=5 fight=5/6 party=1 live=7 pending=14 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.47.00:500][ 97]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=5 fight=5/6 party=1 live=7 pending=7 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.47.02:496][253]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=5 fight=5/6 party=1 live=7 pending=0 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.47.09:498][800]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=6 fight=6/6 party=1 live=8 pending=16 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.47.11:512][959]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=6 fight=6/6 party=1 live=8 pending=8 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.47.13:515][115]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=6 fight=6/6 party=1 live=8 pending=0 hp_scale=1.100 damage_scale=2.000
+[2026.10.03-18.47.18:486][510]LogTemp: Display: RIDGEFIRE RUN arena_cleared=0 visited=1 seed=8553
+[2026.10.03-18.47.20:015][631]LogTemp: Display: RIDGEFIRE RUN OBSERVED arena=2 wave=6
+[2026.10.03-18.47.25:059][ 52]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=7 fight=1/6 party=1 live=6 pending=12 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.47.27:067][224]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=7 fight=1/6 party=1 live=6 pending=6 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.47.29:079][392]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=7 fight=1/6 party=1 live=6 pending=0 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.47.36:094][966]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=8 fight=2/6 party=1 live=6 pending=12 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.47.38:098][132]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=8 fight=2/6 party=1 live=6 pending=6 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.47.40:107][296]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=8 fight=2/6 party=1 live=6 pending=0 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.47.47:122][875]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=9 fight=3/6 party=1 live=7 pending=14 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.47.49:132][ 40]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=9 fight=3/6 party=1 live=7 pending=7 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.47.51:140][205]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=9 fight=3/6 party=1 live=7 pending=0 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.47.58:160][781]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=10 fight=4/6 party=1 live=7 pending=14 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.48.00:186][943]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=10 fight=4/6 party=1 live=7 pending=7 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.48.02:230][108]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=10 fight=4/6 party=1 live=7 pending=0 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.48.09:229][676]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=11 fight=5/6 party=1 live=7 pending=14 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.48.11:232][837]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=11 fight=5/6 party=1 live=7 pending=7 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.48.13:229][998]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=11 fight=5/6 party=1 live=7 pending=0 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.48.20:243][571]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=12 fight=6/6 party=1 live=8 pending=16 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.48.22:246][736]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=12 fight=6/6 party=1 live=8 pending=8 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.48.24:251][901]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=12 fight=6/6 party=1 live=8 pending=0 hp_scale=1.100 damage_scale=2.200
+[2026.10.03-18.48.29:232][313]LogTemp: Display: RIDGEFIRE RUN arena_cleared=2 visited=2 seed=8553
+[2026.10.03-18.48.30:761][440]LogTemp: Display: RIDGEFIRE RUN OBSERVED arena=1 wave=12
+[2026.10.03-18.48.35:805][864]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=13 fight=1/6 party=1 live=6 pending=12 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.48.37:805][ 30]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=13 fight=1/6 party=1 live=6 pending=6 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.48.39:819][196]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=13 fight=1/6 party=1 live=6 pending=0 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.48.46:842][770]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=14 fight=2/6 party=1 live=6 pending=12 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.48.48:845][932]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=14 fight=2/6 party=1 live=6 pending=6 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.48.50:848][ 95]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=14 fight=2/6 party=1 live=6 pending=0 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.48.57:860][659]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=15 fight=3/6 party=1 live=7 pending=14 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.48.59:865][820]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=15 fight=3/6 party=1 live=7 pending=7 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.49.01:875][981]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=15 fight=3/6 party=1 live=7 pending=0 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.49.08:883][546]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=16 fight=4/6 party=1 live=7 pending=14 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.49.10:893][709]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=16 fight=4/6 party=1 live=7 pending=7 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.49.12:894][870]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=16 fight=4/6 party=1 live=7 pending=0 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.49.19:908][438]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=17 fight=5/6 party=1 live=7 pending=14 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.49.21:913][597]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=17 fight=5/6 party=1 live=7 pending=7 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.49.23:922][757]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=17 fight=5/6 party=1 live=7 pending=0 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.49.30:929][313]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=18 fight=6/6 party=1 live=8 pending=16 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.49.32:930][470]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=18 fight=6/6 party=1 live=8 pending=8 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.49.34:941][629]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=18 fight=6/6 party=1 live=8 pending=0 hp_scale=1.100 damage_scale=2.400
+[2026.10.03-18.49.39:916][ 22]LogTemp: Display: RIDGEFIRE RUN arena_cleared=1 visited=3 seed=8553
+[2026.10.03-18.49.40:442][ 64]LogTemp: Display: RIDGEFIRE RUN OBSERVED arena=3 wave=18
+[2026.10.03-18.49.45:480][470]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=19 fight=1/3 party=1 live=6 pending=12 hp_scale=1.100 damage_scale=2.600
+[2026.10.03-18.49.47:481][636]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=19 fight=1/3 party=1 live=6 pending=6 hp_scale=1.100 damage_scale=2.600
+[2026.10.03-18.49.49:484][795]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=19 fight=1/3 party=1 live=6 pending=0 hp_scale=1.100 damage_scale=2.600
+[2026.10.03-18.49.56:496][350]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=20 fight=2/3 party=1 live=6 pending=12 hp_scale=1.100 damage_scale=2.600
+[2026.10.03-18.49.58:503][509]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=20 fight=2/3 party=1 live=6 pending=6 hp_scale=1.100 damage_scale=2.600
+[2026.10.03-18.50.00:517][667]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=20 fight=2/3 party=1 live=6 pending=0 hp_scale=1.100 damage_scale=2.600
+[2026.10.03-18.50.07:582][225]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=21 fight=3/3 party=1 live=7 pending=14 hp_scale=1.100 damage_scale=2.600
+[2026.10.03-18.50.09:592][385]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=21 fight=3/3 party=1 live=7 pending=7 hp_scale=1.100 damage_scale=2.600
+[2026.10.03-18.50.11:593][544]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=21 fight=3/3 party=1 live=7 pending=0 hp_scale=1.100 damage_scale=2.600
+[2026.10.03-18.50.16:576][932]LogTemp: Display: RIDGEFIRE RUN arena_cleared=3 visited=4 seed=8553
+[2026.10.03-18.50.16:576][932]LogTemp: Display: RIDGEFIRE RUN victory arenas=4 waves=21 seed=8553 score=321970
+[2026.10.03-18.50.22:587][416]LogTemp: Display: RIDGEFIRE RUN PASS four unique prototypes, normal setup, twenty-one reinforced encounters, interactive relays, champion guard/phase, bounded victory and reward idempotence; combat accelerated by fixture
+[2026.10.03-18.50.22:600][417]LogAutomationController: Display: Test Completed. Result={Success} Name={IntegratedRoute} Path={Ridgefire.Run.IntegratedRoute}
+
+## network-final-output.txt / Host.log
+[2026.10.03-18.45.58:143][606]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=1 fight=1/6 party=4 live=24 pending=32 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.14:174][ 10]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=1 party=4 budget=56 pending=32 damage=2.600 boss_hp=0
+[2026.10.03-18.46.16:239][935]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=1 fight=1/6 party=4 live=14 pending=18 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.18:305][654]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=1 fight=1/6 party=4 live=14 pending=4 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.20:331][245]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=1 fight=1/6 party=4 live=4 pending=0 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.25:399][804]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=2 party=4 budget=56 pending=42 damage=2.600 boss_hp=0
+[2026.10.03-18.46.27:457][505]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=2 fight=2/6 party=4 live=14 pending=28 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.29:519][193]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=2 fight=2/6 party=4 live=14 pending=14 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.31:587][820]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=2 fight=2/6 party=4 live=14 pending=0 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.36:671][169]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=3 party=4 budget=64 pending=48 damage=2.600 boss_hp=0
+[2026.10.03-18.46.38:743][732]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=3 fight=3/6 party=4 live=16 pending=32 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.40:823][307]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=3 fight=3/6 party=4 live=16 pending=16 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.42:900][834]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=3 fight=3/6 party=4 live=16 pending=0 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.47:983][ 34]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=4 party=4 budget=64 pending=48 damage=2.600 boss_hp=0
+[2026.10.03-18.46.50:053][549]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=4 fight=4/6 party=4 live=16 pending=32 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.52:129][ 30]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=4 fight=4/6 party=4 live=16 pending=16 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.54:206][522]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=4 fight=4/6 party=4 live=16 pending=0 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.46.59:290][611]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=5 party=4 budget=64 pending=48 damage=2.600 boss_hp=0
+[2026.10.03-18.47.01:360][ 73]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=5 fight=5/6 party=4 live=16 pending=32 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.47.03:442][547]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=5 fight=5/6 party=4 live=16 pending=16 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.47.05:519][ 15]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=5 fight=5/6 party=4 live=16 pending=0 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.47.10:616][114]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=6 party=4 budget=72 pending=54 damage=2.600 boss_hp=0
+[2026.10.03-18.47.12:697][581]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=6 fight=6/6 party=4 live=18 pending=36 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.47.14:789][ 64]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=6 fight=6/6 party=4 live=18 pending=18 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.47.16:879][524]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=6 fight=6/6 party=4 live=18 pending=0 hp_scale=1.694 damage_scale=2.600
+[2026.10.03-18.47.21:892][593]LogTemp: Display: RIDGEFIRE RUN arena_cleared=0 visited=1 seed=314159
+[2026.10.03-18.47.21:892][594]LogTemp: Display: RIDGEFIRE RUN NETWORK VOTE epoch=1 wanted=2 choice=1
+[2026.10.03-18.47.28:260][321]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=7 party=4 budget=56 pending=42 damage=2.860 boss_hp=0
+[2026.10.03-18.47.30:306][370]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=7 fight=1/6 party=4 live=14 pending=28 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.47.32:358][157]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=7 fight=1/6 party=4 live=14 pending=14 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.47.34:412][769]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=7 fight=1/6 party=4 live=14 pending=0 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.47.39:475][ 77]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=8 party=4 budget=56 pending=42 damage=2.860 boss_hp=0
+[2026.10.03-18.47.41:525][611]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=8 fight=2/6 party=4 live=14 pending=28 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.47.43:587][156]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=8 fight=2/6 party=4 live=14 pending=14 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.47.45:642][702]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=8 fight=2/6 party=4 live=14 pending=0 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.47.50:712][937]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=9 party=4 budget=64 pending=48 damage=2.860 boss_hp=0
+[2026.10.03-18.47.52:769][449]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=9 fight=3/6 party=4 live=16 pending=32 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.47.54:834][877]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=9 fight=3/6 party=4 live=16 pending=16 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.47.56:892][371]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=9 fight=3/6 party=4 live=16 pending=0 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.48.01:961][528]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=10 party=4 budget=64 pending=48 damage=2.860 boss_hp=0
+[2026.10.03-18.48.04:016][988]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=10 fight=4/6 party=4 live=16 pending=32 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.48.06:080][442]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=10 fight=4/6 party=4 live=16 pending=16 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.48.08:146][885]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=10 fight=4/6 party=4 live=16 pending=0 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.48.13:219][934]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=11 party=4 budget=64 pending=48 damage=2.860 boss_hp=0
+[2026.10.03-18.48.15:276][395]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=11 fight=5/6 party=4 live=16 pending=32 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.48.17:342][955]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=11 fight=5/6 party=4 live=16 pending=16 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.48.19:404][566]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=11 fight=5/6 party=4 live=16 pending=0 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.48.24:479][  3]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=12 party=4 budget=72 pending=54 damage=2.860 boss_hp=0
+[2026.10.03-18.48.26:536][600]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=12 fight=6/6 party=4 live=18 pending=36 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.48.28:603][179]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=12 fight=6/6 party=4 live=18 pending=18 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.48.30:671][763]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=12 fight=6/6 party=4 live=18 pending=0 hp_scale=1.694 damage_scale=2.860
+[2026.10.03-18.48.35:684][127]LogTemp: Display: RIDGEFIRE RUN arena_cleared=2 visited=2 seed=314159
+[2026.10.03-18.48.35:685][128]LogTemp: Display: RIDGEFIRE RUN NETWORK VOTE epoch=2 wanted=1 choice=1
+[2026.10.03-18.48.39:282][263]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=13 party=4 budget=56 pending=42 damage=3.120 boss_hp=0
+[2026.10.03-18.48.41:324][592]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=13 fight=1/6 party=4 live=14 pending=28 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.48.43:374][613]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=13 fight=1/6 party=4 live=14 pending=14 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.48.45:425][433]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=13 fight=1/6 party=4 live=14 pending=0 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.48.50:482][163]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=14 party=4 budget=56 pending=42 damage=3.120 boss_hp=0
+[2026.10.03-18.48.52:531][884]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=14 fight=2/6 party=4 live=14 pending=28 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.48.54:582][523]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=14 fight=2/6 party=4 live=14 pending=14 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.48.56:635][233]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=14 fight=2/6 party=4 live=14 pending=0 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.01:703][894]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=15 party=4 budget=64 pending=48 damage=3.120 boss_hp=0
+[2026.10.03-18.49.03:752][575]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=15 fight=3/6 party=4 live=16 pending=32 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.05:813][238]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=15 fight=3/6 party=4 live=16 pending=16 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.07:872][879]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=15 fight=3/6 party=4 live=16 pending=0 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.12:936][361]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=16 party=4 budget=64 pending=48 damage=3.120 boss_hp=0
+[2026.10.03-18.49.14:986][993]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=16 fight=4/6 party=4 live=16 pending=32 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.17:046][614]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=16 fight=4/6 party=4 live=16 pending=16 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.19:103][230]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=16 fight=4/6 party=4 live=16 pending=0 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.24:176][579]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=17 party=4 budget=64 pending=48 damage=3.120 boss_hp=0
+[2026.10.03-18.49.26:230][200]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=17 fight=5/6 party=4 live=16 pending=32 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.28:287][796]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=17 fight=5/6 party=4 live=16 pending=16 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.30:348][415]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=17 fight=5/6 party=4 live=16 pending=0 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.35:428][834]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=18 party=4 budget=72 pending=54 damage=3.120 boss_hp=0
+[2026.10.03-18.49.37:487][418]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=18 fight=6/6 party=4 live=18 pending=36 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.39:555][987]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=18 fight=6/6 party=4 live=18 pending=18 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.41:623][567]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=18 fight=6/6 party=4 live=18 pending=0 hp_scale=1.694 damage_scale=3.120
+[2026.10.03-18.49.46:637][963]LogTemp: Display: RIDGEFIRE RUN arena_cleared=1 visited=3 seed=314159
+[2026.10.03-18.49.50:184][971]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=19 party=4 budget=56 pending=42 damage=3.380 boss_hp=0
+[2026.10.03-18.49.52:224][252]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=19 fight=1/3 party=4 live=14 pending=28 hp_scale=1.694 damage_scale=3.380
+[2026.10.03-18.49.54:272][254]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=19 fight=1/3 party=4 live=14 pending=14 hp_scale=1.694 damage_scale=3.380
+[2026.10.03-18.49.56:318][961]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=19 fight=1/3 party=4 live=14 pending=0 hp_scale=1.694 damage_scale=3.380
+[2026.10.03-18.50.01:375][647]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=20 party=4 budget=56 pending=42 damage=3.380 boss_hp=0
+[2026.10.03-18.50.03:419][374]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=20 fight=2/3 party=4 live=14 pending=28 hp_scale=1.694 damage_scale=3.380
+[2026.10.03-18.50.05:465][ 79]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=20 fight=2/3 party=4 live=14 pending=14 hp_scale=1.694 damage_scale=3.380
+[2026.10.03-18.50.07:517][777]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=20 fight=2/3 party=4 live=14 pending=0 hp_scale=1.694 damage_scale=3.380
+[2026.10.03-18.50.15:485][234]LogTemp: Display: RIDGEFIRE RUN NETWORK PLAN wave=21 party=4 budget=64 pending=48 damage=3.380 boss_hp=16225
+[2026.10.03-18.50.17:533][109]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=21 fight=3/3 party=4 live=16 pending=32 hp_scale=1.694 damage_scale=3.380
+[2026.10.03-18.50.19:590][952]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=21 fight=3/3 party=4 live=16 pending=16 hp_scale=1.694 damage_scale=3.380
+[2026.10.03-18.50.21:653][644]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=21 fight=3/3 party=4 live=16 pending=0 hp_scale=1.694 damage_scale=3.380
+[2026.10.03-18.50.26:662][306]LogTemp: Display: RIDGEFIRE RUN arena_cleared=3 visited=4 seed=314159
+[2026.10.03-18.50.26:662][306]LogTemp: Display: RIDGEFIRE RUN victory arenas=4 waves=21 seed=314159 score=969650
+[2026.10.03-18.50.26:663][307]LogTemp: Display: RIDGEFIRE RUN NETWORK PASS role=host cleared=4 wave=21 xp=13870 seed=314159
+
+## network-final-output.txt / Client1.log
+[2026.10.03-18.47.21:909][449]LogTemp: Display: RIDGEFIRE RUN NETWORK VOTE epoch=1 wanted=2 choice=1
+[2026.10.03-18.48.35:687][917]LogTemp: Display: RIDGEFIRE RUN NETWORK VOTE epoch=2 wanted=1 choice=1
+[2026.10.03-18.50.26:674][144]LogTemp: Display: RIDGEFIRE RUN NETWORK PASS role=client cleared=4 wave=21 xp=13870 seed=314159
+
+## network-final-output.txt / Client2.log
+[2026.10.03-18.47.21:984][252]LogTemp: Display: RIDGEFIRE RUN NETWORK VOTE epoch=1 wanted=2 choice=1
+[2026.10.03-18.48.35:725][330]LogTemp: Display: RIDGEFIRE RUN NETWORK VOTE epoch=2 wanted=1 choice=1
+[2026.10.03-18.50.26:689][355]LogTemp: Display: RIDGEFIRE RUN NETWORK PASS role=client cleared=4 wave=21 xp=13870 seed=314159
+
+## network-final-output.txt / Client3.log
+[2026.10.03-18.47.21:902][841]LogTemp: Display: RIDGEFIRE RUN NETWORK VOTE epoch=1 wanted=2 choice=1
+[2026.10.03-18.48.35:697][483]LogTemp: Display: RIDGEFIRE RUN NETWORK VOTE epoch=2 wanted=1 choice=1
+[2026.10.03-18.50.26:680][533]LogTemp: Display: RIDGEFIRE RUN NETWORK PASS role=client cleared=4 wave=21 xp=13870 seed=314159
+
+## restart-final-output.txt / Peer0.log
+[2026.10.03-18.45.54:209][158]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=1 perk_defaults=true mask=4 actual_secondary_draw=true
+[2026.10.03-18.45.58:214][861]LogTemp: Display: RIDGEFIRE HOSTED RESTART WIPE round=0 players=2 survivor_gate=true
+[2026.10.03-18.45.59:215][587]LogTemp: Display: RIDGEFIRE HOSTED RESTART GAMEOVER peer=0 round=0 xp=17
+[2026.10.03-18.46.02:006][ 43]LogTemp: Display: RIDGEFIRE HOSTED RESTART FRESH peer=0 round=0 xp=17 session_kept=true
+[2026.10.03-18.46.16:213][844]LogNet: PreLogin failure: The party has already launched. Wait for a new lobby.
+[2026.10.03-18.46.54:213][813]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=1 perk_defaults=true mask=4 actual_secondary_draw=true
+[2026.10.03-18.47.02:213][573]LogTemp: Display: RIDGEFIRE HOSTED RESTART RECOIL peer=0 round=0 upward=true
+[2026.10.03-18.47.02:213][573]LogTemp: Display: RIDGEFIRE HOSTED RESTART AUTHORITY round=0 peers=2 movement_fire_reload=true
+[2026.10.03-18.47.02:213][573]LogTemp: Display: RIDGEFIRE HOSTED RESTART PLAYABLE peer=0 round=0 displacement=1130.9 ammo_transfer=1
+[2026.10.03-18.47.06:215][571]LogTemp: Display: RIDGEFIRE HOSTED RESTART WIPE round=1 players=2 survivor_gate=true
+[2026.10.03-18.47.07:225][ 99]LogTemp: Display: RIDGEFIRE HOSTED RESTART GAMEOVER peer=0 round=1 xp=34
+[2026.10.03-18.47.09:219][ 70]LogTemp: Display: RIDGEFIRE HOSTED RESTART REQUEST peer=0 round=1 duplicate=true
+[2026.10.03-18.47.10:002][106]LogTemp: Display: RIDGEFIRE HOSTED RESTART FRESH peer=0 round=1 xp=34 session_kept=true
+[2026.10.03-18.48.02:151][125]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=1 perk_defaults=true mask=4 actual_secondary_draw=true
+[2026.10.03-18.48.10:153][895]LogTemp: Display: RIDGEFIRE HOSTED RESTART RECOIL peer=0 round=1 upward=true
+[2026.10.03-18.48.10:153][895]LogTemp: Display: RIDGEFIRE HOSTED RESTART AUTHORITY round=1 peers=2 movement_fire_reload=true
+[2026.10.03-18.48.10:153][895]LogTemp: Display: RIDGEFIRE HOSTED RESTART PLAYABLE peer=0 round=1 displacement=1134.3 ammo_transfer=1
+
+## restart-final-output.txt / Peer1.log
+[2026.10.03-18.45.54:287][347]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=4 actual_secondary_draw=true
+[2026.10.03-18.45.59:225][716]LogTemp: Display: RIDGEFIRE HOSTED RESTART GAMEOVER peer=1 round=0 xp=24
+[2026.10.03-18.46.01:225][701]LogTemp: Display: RIDGEFIRE HOSTED RESTART REQUEST peer=1 round=0 duplicate=true
+[2026.10.03-18.46.02:558][410]LogTemp: Display: RIDGEFIRE HOSTED RESTART FRESH peer=1 round=0 xp=24 session_kept=true
+[2026.10.03-18.46.54:266][424]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=4 actual_secondary_draw=true
+[2026.10.03-18.47.02:274][462]LogTemp: Display: RIDGEFIRE HOSTED RESTART RECOIL peer=1 round=0 upward=true
+[2026.10.03-18.47.02:274][462]LogTemp: Display: RIDGEFIRE HOSTED RESTART PLAYABLE peer=1 round=0 displacement=1135.1 ammo_transfer=1
+[2026.10.03-18.47.07:227][485]LogTemp: Display: RIDGEFIRE HOSTED RESTART GAMEOVER peer=1 round=1 xp=48
+[2026.10.03-18.47.10:568][999]LogTemp: Display: RIDGEFIRE HOSTED RESTART FRESH peer=1 round=1 xp=48 session_kept=true
+[2026.10.03-18.48.02:220][984]LogTemp: Display: RIDGEFIRE SETUP NETWORK PASS all_five_stages=true primary=0 secondary=2 perk_defaults=true mask=4 actual_secondary_draw=true
+[2026.10.03-18.48.10:226][119]LogTemp: Display: RIDGEFIRE HOSTED RESTART RECOIL peer=1 round=1 upward=true
+[2026.10.03-18.48.10:226][119]LogTemp: Display: RIDGEFIRE HOSTED RESTART PLAYABLE peer=1 round=1 displacement=1134.2 ammo_transfer=1
+
+## restart-final-output.txt / LateJoin.log
+[2026.10.03-18.46.16:215][  3]LogNet: NetConnection::Close() [PendingNetDriver] [NoPC] [No Owner] from NMT_Failure The party has already launched. Wait for a new lobby.
+[2026.10.03-18.46.16:215][  3]LogNet: Error: UEngine::BroadcastNetworkFailure: FailureType = PendingConnectionFailure, ErrorString = The party has already launched. Wait for a new lobby., Driver = Name:PendingNetDriver Def:GameNetDriver IpNetDriver_0
+[2026.10.03-18.46.16:215][  3]LogNet: Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: The party has already launched. Wait for a new lobby.
+[2026.10.03-18.46.16:215][  3]LogNet: NetworkFailure: PendingConnectionFailure, Error: 'The party has already launched. Wait for a new lobby.'
+[2026.10.03-18.47.25:036][ 25]LogTemp: Display: RIDGEFIRE ENCOUNTER wave=1 fight=1/6 party=1 live=12 pending=12 hp_scale=1.100 damage_scale=2.000
+
+## recoil-baseline
+[2026.10.03-18.21.03:141][959]LogTemp: Display: RIDGEFIRE RECOIL CHECK input_scale=1.0 pitch=0.3000 forward_z=0.00524
+[2026.10.03-18.21.03:228][959]LogTemp: Display: RIDGEFIRE RECOIL CHECK input_scale=-2.5 pitch=359.2500 forward_z=-0.01309
+[2026.10.03-18.21.03:230][961]LogAutomationController: Error: Test Completed. Result={Fail} Name={PhysicalDirection} Path={Ridgefire.Weapon.Recoil.PhysicalDirection}
+[2026.10.03-18.21.03:230][961]LogAutomationController: LogTemp: RIDGEFIRE RECOIL CHECK input_scale=1.0 pitch=0.3000 forward_z=0.00524 [log] 
+[2026.10.03-18.21.03:230][961]LogAutomationController: LogTemp: RIDGEFIRE RECOIL CHECK input_scale=-2.5 pitch=359.2500 forward_z=-0.01309 [log] 
+
+## recoil-baseline-repeat
+[2026.10.03-18.30.44:725][907]LogTemp: Display: RIDGEFIRE RECOIL CHECK input_scale=1.0 pitch=0.3000 forward_z=0.00524
+[2026.10.03-18.30.44:757][907]LogTemp: Display: RIDGEFIRE RECOIL CHECK input_scale=-2.5 pitch=359.2500 forward_z=-0.01309
+[2026.10.03-18.30.44:759][909]LogAutomationController: Error: Test Completed. Result={Fail} Name={PhysicalDirection} Path={Ridgefire.Weapon.Recoil.PhysicalDirection}
+[2026.10.03-18.30.44:759][909]LogAutomationController: LogTemp: RIDGEFIRE RECOIL CHECK input_scale=1.0 pitch=0.3000 forward_z=0.00524 [log] 
+[2026.10.03-18.30.44:759][909]LogAutomationController: LogTemp: RIDGEFIRE RECOIL CHECK input_scale=-2.5 pitch=359.2500 forward_z=-0.01309 [log] 
+
+## recoil-final
+[2026.10.03-18.52.18:968][470]LogTemp: Display: RIDGEFIRE RECOIL CHECK input_scale=1.0 pitch=0.3000 forward_z=0.00524
+[2026.10.03-18.52.18:969][470]LogTemp: Display: RIDGEFIRE RECOIL CHECK input_scale=-2.5 pitch=0.3000 forward_z=0.00524
+[2026.10.03-18.52.18:969][472]LogAutomationController: Display: Test Completed. Result={Success} Name={PhysicalDirection} Path={Ridgefire.Weapon.Recoil.PhysicalDirection}

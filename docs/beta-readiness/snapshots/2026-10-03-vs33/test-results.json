@@ -1,0 +1,131 @@
+[
+  {
+    "gate": "rules-output.txt",
+    "status": "PASS",
+    "scope": "Encounter model across one through four players, all prototype arenas/encounters: finite and clamped values, bounded budgets/caps, monotonic party scaling and finale staging. Model/test hashes match final files; later changes affect the spawn helper and opt-in restart fixture only.",
+    "time_utc": "2026-10-03T18:36:18.5810946Z",
+    "logs": [
+      {
+        "path": "[local workspace]\\research\\vs33\\pacing-rules\\checks-20261003-113512-290\\Automation.log",
+        "sha256": "A568B3F0B0EDD29F3AD9124B3D4E0E389035274FAB031903115A6CAB5FF2B9BE"
+      }
+    ],
+    "exit_code": 0,
+    "tests": [
+      "Ridgefire.Run.EncounterPlan"
+    ]
+  },
+  {
+    "gate": "solo-final-output.txt",
+    "status": "PASS",
+    "scope": "Final source, offscreen rendered solo game with normal setup. Four prototypes, 21 encounters, actual live-cap fill, reinforcement/reward/advance guards, differential real NPC trace damage, interactive relays, champion guard/phase and terminal reward idempotence. NPC AI and defeats are controlled; no normal human pacing measurement.",
+    "time_utc": "2026-10-03T18:50:23.3192704Z",
+    "logs": [
+      {
+        "path": "[local workspace]\\research\\vs33\\solo-final\\checks-20261003-114439-055\\Automation.log",
+        "sha256": "AC750E9B87BEC8EEA5A217B3A4E9A2C5428CB06BC8089CCF73E5A27A84BFDF45"
+      }
+    ],
+    "exit_code": 0,
+    "tests": [
+      "Ridgefire.Run.IntegratedRoute"
+    ]
+  },
+  {
+    "gate": "network-final-output.txt",
+    "status": "PASS",
+    "scope": "Final source, four actual local Editor host/client processes. Four prototypes, 21 encounters, replicated party/encounter state, actual live-cap fill and partial batches, role HP/damage multipliers, 16,250-HP champion, owner route RPCs and shared victory. Frozen/controlled NPC combat, no Internet/human acceptance.",
+    "time_utc": "2026-10-03T18:50:27.0631327Z",
+    "logs": [
+      {
+        "path": "[local workspace]\\research\\vs33\\four-route-final\\checks-20261003-114439-437\\Host.log",
+        "sha256": "478E7F7A0A247AE9F873A27BF6DFB5D6DA52E0BF9264E043DDF0F011FADEB98F"
+      },
+      {
+        "path": "[local workspace]\\research\\vs33\\four-route-final\\checks-20261003-114439-437\\Client1.log",
+        "sha256": "014CE2FB798BCC21884AB0A93125CE3CA1CF6D92DBA9C95F2F9519FD11B65A70"
+      },
+      {
+        "path": "[local workspace]\\research\\vs33\\four-route-final\\checks-20261003-114439-437\\Client2.log",
+        "sha256": "1293AF119E9F05F3C669AC44EC6CB08F40B81C0137A8D321695D04CC0EACD313"
+      },
+      {
+        "path": "[local workspace]\\research\\vs33\\four-route-final\\checks-20261003-114439-437\\Client3.log",
+        "sha256": "B27BBF27A1BCE29FF3B7ACF811F214C6960D097C1B56E7C4CC72ADC727B2EB42"
+      }
+    ],
+    "initial_peers": 4,
+    "remaining_peers": 4
+  },
+  {
+    "gate": "restart-final-output.txt",
+    "status": "PASS",
+    "scope": "Final source, two actual LAN peers and a spare lobby slot. Two full wipes/restarts, fresh pending count, retained XP, ordinary setup, actual upward owned shot recoil, authority-observed movement/fire/reload, transient menu reset, clean end and explicit rejection of a late connection. Synthetic input, no human/Internet acceptance.",
+    "time_utc": "2026-10-03T18:48:15.4684908Z",
+    "logs": [
+      {
+        "path": "[local workspace]\\research\\vs33\\restart-two-final\\checks-20261003-114439-246\\Peer0.log",
+        "sha256": "5463D9D8A76CBACA42133E0313A55A1532B19502D6F64106F331EF13AD2708E5"
+      },
+      {
+        "path": "[local workspace]\\research\\vs33\\restart-two-final\\checks-20261003-114439-246\\Peer1.log",
+        "sha256": "7D6123413DCE597481C8BE0CC9205DE8401CA43E412B9305377232283E2F3DAD"
+      },
+      {
+        "path": "[local workspace]\\research\\vs33\\restart-two-final\\checks-20261003-114439-246\\LateJoin.log",
+        "sha256": "82F983411FF0CF1ACAF6E2C5315D20AF90C623FD6283F3B89A638E0A877B0F22"
+      }
+    ],
+    "peers": 2,
+    "hosted_restart": true,
+    "late_join_rejected": true,
+    "rendered_host": false
+  },
+  {
+    "gate": "recoil-baseline",
+    "status": "BASELINE_REPRODUCED",
+    "time_utc": "2026-10-03T18:21:03.3656343Z",
+    "log_sha256": "6F31451D1BA4435F62C97A4F7B8628DA57FBEBA0FA39103CE75EB755A0D5676D",
+    "scope": "Owned local player recoil API and engine UpdateRotation under positive and inverted legacy pitch scales; no physical input or rendered recoil animation acceptance"
+  },
+  {
+    "gate": "recoil-baseline-repeat",
+    "status": "BASELINE_REPRODUCED",
+    "time_utc": "2026-10-03T18:30:45.1071674Z",
+    "log_sha256": "878AABE7636FA0FA99162FFC4ECDDEF57FC4229DE0F89BA0E686BEC33B8E1DAD",
+    "scope": "Owned local player recoil API and engine UpdateRotation under positive and inverted legacy pitch scales; no physical input or rendered recoil animation acceptance"
+  },
+  {
+    "gate": "recoil-final",
+    "status": "PASS",
+    "time_utc": "2026-10-03T18:52:19.3614581Z",
+    "log_sha256": "6B2590267A37840FCB546B18D595C32FC46F2273226434E3C1FC78F5D376EBBA",
+    "scope": "Owned local player recoil API and engine UpdateRotation under positive and inverted legacy pitch scales; no physical input or rendered recoil animation acceptance"
+  },
+  {
+    "gate": "Development Editor build",
+    "status": "PASS",
+    "log_sha256": "80CD66993D62CC3FFB6A0F6C707338819F383451F4CF9AA65D57727F81F16DB9",
+    "scope": "Final source compiles on UE 5.8.3; existing engine/toolchain deprecation warnings remain."
+  },
+  {
+    "gate": "Windows Shipping BuildCookRun",
+    "status": "PASS",
+    "log_sha256": "7779E21029CC93D71D7D348431D29C7B3A211FAFAE6F1AE772DB675DD70B7779",
+    "package_id": "20261003-114553-608",
+    "runtime_sha256": "3467D526F46E49614D73E7C9A5291C1B2706A505617E21EAA5DE4D76E248857C",
+    "scope": "Final source build/cook/stage/archive complete, marked COMPLETE Prototype."
+  },
+  {
+    "gate": "Shipping startup",
+    "status": "PASS",
+    "details": "packaged-startup.json",
+    "scope": "Owned offscreen Shipping process startup survival/module-load check only; no rendered-frame inspection, menu input, normal play, audio, remote peers, performance or beta acceptance."
+  },
+  {
+    "gate": "latest-package selector",
+    "status": "PASS",
+    "log_sha256": "0C37CECF51B1D77A90BBDA2606C56EC55A71C857E17D8E88E85058C3C107CDBF",
+    "scope": "ListOnly selection/validation; no packaged input or multiplayer acceptance."
+  }
+]

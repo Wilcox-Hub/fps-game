@@ -1,0 +1,25 @@
+{
+  "previous_snapshot": "2026-10-03-vs32",
+  "unchanged_inputs": 535,
+  "changed_inputs": [
+    "Source/TP_FirstPerson/RidgefireEncounterPlan.h",
+    "Source/TP_FirstPerson/RidgefireEncounters.cpp",
+    "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+    "Source/TP_FirstPerson/RidgefireGameMode.h",
+    "Source/TP_FirstPerson/RidgefireHUD.cpp",
+    "Source/TP_FirstPerson/RidgefireRun.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireEncounterPlanTests.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireLobbyNetworkFixture.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireRecoilTests.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireRunNetworkFixture.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireRunTests.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.h",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h"
+  ],
+  "policy": "All 546 VS32 hashes matched before edits. Fresh affected checks supersede the old integrated route/build/package results. Encounter model test retains only its unchanged model/test hashes. Prior isolated legacy combat, perk, recovery and geometry evidence stays dated and scope-limited; global source changes do not create a new pass for them.",
+  "route_properties": "Unchanged RunPlan .h/.cpp hashes retain VS30 property evidence. Final route integration is rerun.",
+  "network": "Fresh four-peer direct-listen route and two-peer LAN restart. The old four-peer LAN restart, abrupt host loss, ordinary leave/rehost and disconnect-vote variant remain historical evidence; no new pass claimed for those paths.",
+  "human": "Owner Editor recording and explicit feedback are real playtest evidence for the pre-fix experience. Exact video/source correspondence is unproven. Post-fix human/package balance and 4\u20136-minute pacing remain unaccepted."
+}

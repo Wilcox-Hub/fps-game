@@ -1,0 +1,17 @@
+[
+  "Source/TP_FirstPerson/RidgefireEncounterPlan.h",
+  "Source/TP_FirstPerson/RidgefireEncounters.cpp",
+  "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+  "Source/TP_FirstPerson/RidgefireGameMode.h",
+  "Source/TP_FirstPerson/RidgefireHUD.cpp",
+  "Source/TP_FirstPerson/RidgefireRun.cpp",
+  "Source/TP_FirstPerson/Tests/RidgefireEncounterPlanTests.cpp",
+  "Source/TP_FirstPerson/Tests/RidgefireLobbyNetworkFixture.cpp",
+  "Source/TP_FirstPerson/Tests/RidgefireRecoilTests.cpp",
+  "Source/TP_FirstPerson/Tests/RidgefireRunNetworkFixture.cpp",
+  "Source/TP_FirstPerson/Tests/RidgefireRunTests.cpp",
+  "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.cpp",
+  "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.h",
+  "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+  "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h"
+]

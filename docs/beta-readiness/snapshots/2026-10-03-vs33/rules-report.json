@@ -1,0 +1,26 @@
+{
+  "reportCreatedOn": "2026.10.03-18.35.33",
+  "succeeded": 1,
+  "succeededWithWarnings": 0,
+  "failed": 0,
+  "notRun": 0,
+  "inProcess": 0,
+  "totalDuration": 0.007868900895118713,
+  "tests": [
+    {
+      "testDisplayName": "EncounterPlan",
+      "fullTestPath": "Ridgefire.Run.EncounterPlan",
+      "tags": [],
+      "state": "Success",
+      "deviceInstance": [
+        "5CCB2520468F68B1B1D2099B4784379E"
+      ],
+      "duration": 0.007868900895118713,
+      "dateTime": "2026.10.03-18.35.33",
+      "entries": [],
+      "warnings": 0,
+      "errors": 0,
+      "artifacts": []
+    }
+  ]
+}
