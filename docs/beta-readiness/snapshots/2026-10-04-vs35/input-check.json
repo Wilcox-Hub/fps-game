@@ -1,0 +1,12 @@
+{
+  "snapshot": "2026-10-03-vs34",
+  "tested_on": "2026-10-03",
+  "checked_on": "2026-10-04",
+  "gameplay_readiness_percent": 62,
+  "verdict": "NOT_BETA_READY",
+  "reusable_input_evidence": true,
+  "observed_input_count": 550,
+  "expected_input_count": 550,
+  "differences": [],
+  "validation_scope": "Input hash comparison only; no gameplay tests executed. Build/package/environment changes need separate validation."
+}

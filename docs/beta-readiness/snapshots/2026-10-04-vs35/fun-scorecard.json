@@ -1,0 +1,25 @@
+{
+  "scope": "Developer ordinal judgment about one sampled solo Editor recording, supported by owner feedback; not automated fun measurement, readiness, a percentage, or population evidence.",
+  "scale": {
+    "1": "Absent or actively undermined",
+    "2": "Weak/repetitive",
+    "3": "Useful but uneven",
+    "4": "Strong and recurring",
+    "5": "Consistently compelling"
+  },
+  "ratings": {
+    "progression": 3,
+    "pressure_and_release": 2,
+    "tactical_decisions": 2,
+    "encounter_variety": 2,
+    "visual_shooting_feedback": 3,
+    "control_trust": 1,
+    "combat_readability": 2
+  },
+  "composite_score": null,
+  "owner_feedback": {
+    "liked": "Later enemies sometimes need two shots; mechanics are improving.",
+    "disliked": "Still boring; unrequested slot-1 weapon switches; weird hit attribution with two-to-three bots dying."
+  },
+  "next_design_direction": "Awaiting owner pacing interview; no new pacing or lean design approved or implemented."
+}

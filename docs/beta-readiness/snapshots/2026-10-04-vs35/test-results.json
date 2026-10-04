@@ -1,0 +1,40 @@
+[
+  {
+    "gate": "Current input hash comparison",
+    "status": "PASS",
+    "scope": "Input hash comparison only; no gameplay tests executed. Build/package/environment changes need separate validation.",
+    "observed_input_count": 550,
+    "differences": [],
+    "details": "input-check.json"
+  },
+  {
+    "gate": "Owner Editor gameplay review",
+    "status": "VISUALLY_INSPECTED_WITH_OPEN_DEFECTS",
+    "scope": "Two offset sampled passes over 508.34 seconds and closer frame sequences. Solo Editor partial run; no audio evaluation, source/build correspondence, hardware-input telemetry, champion, packaged or co-op acceptance.",
+    "details": "video-review.md"
+  },
+  {
+    "gate": "Matching Editor session-log measurements",
+    "status": "ANALYZED",
+    "scope": "4:31.8 first arena, nine started encounters, fire-input and death log counts; event counts are not successful shots, hit rate, damage-cause proof or fun measurements.",
+    "details": "log-metrics.json"
+  },
+  {
+    "gate": "Human fun and pacing acceptance",
+    "status": "NOT_ACCEPTED",
+    "scope": "Owner likes later tougher enemies but calls play boring. Developer ordinal scorecard guides the interview; it is not an automated objective score.",
+    "details": "fun-scorecard.json"
+  },
+  {
+    "gate": "Weapon switching and hit-attribution regression fixes",
+    "status": "OPEN_NOT_REPRODUCED_IN_NEW_ENGINE_CHECK",
+    "scope": "Symptoms documented and regression scenarios specified. No new failing engine fixture, source change, fix, build or package executed.",
+    "details": "video-review.md"
+  },
+  {
+    "gate": "Previous automated implementation/build/package evidence",
+    "status": "REUSED_AT_RECORDED_SCOPE",
+    "details": "../2026-10-03-vs33/test-results.json",
+    "scope": "All 550 inputs match. October 3 controlled/API/NullLAN checks retain their scope; the new owner report demonstrates those checks do not cover every normal-input defect. No reruns or new acceptance."
+  }
+]

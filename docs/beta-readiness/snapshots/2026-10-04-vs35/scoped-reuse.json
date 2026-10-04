@@ -1,0 +1,13 @@
+{
+  "previous_snapshot": "2026-10-03-vs34",
+  "implementation_snapshot": "2026-10-03-vs33",
+  "input_count": 550,
+  "changed_inputs": [],
+  "game_source_changes": false,
+  "gameplay_tests_rerun": false,
+  "new_build": false,
+  "new_package": false,
+  "new_human_evidence": "Partial solo Play in Editor recording and direct owner feedback; open defects and rejected fun acceptance.",
+  "recorded_gameplay_percent": 62,
+  "score_estimated_on": "2026-10-03"
+}

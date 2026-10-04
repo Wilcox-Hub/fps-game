@@ -1,0 +1,26 @@
+{
+  "filename": "Ridgefire - Unreal Editor 2026-10-04 13-23-26.mp4",
+  "bytes": 556471624,
+  "sha256": "02BB3A62C634F6ABC9100020CB6DFD98C7F1C8422FA526619A70759B15778186",
+  "duration_seconds": 508.34,
+  "resolution": [
+    1920,
+    1032
+  ],
+  "video_codec": "H.264",
+  "audio_codec": "AAC stereo, 48000Hz",
+  "review_date": "2026-10-04",
+  "validation_level": "Sampled solo owner Play in Editor visual review plus matching session-log analysis",
+  "sample_counts": {
+    "overview": 85,
+    "offset_fun_pass": 85,
+    "first_switch": 16,
+    "clustered_kills": 24,
+    "late_health": 20
+  },
+  "reviewed_audio": false,
+  "continuous_video_playback": false,
+  "game_source_correspondence": "Not established by recording; independent current 550-input comparison matches VS34.",
+  "raw_video_uploaded": false,
+  "raw_log_uploaded": false
+}

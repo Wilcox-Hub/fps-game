@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "recorded_on": "2026-10-03",
+  "recorded_on": "2026-10-04",
   "tested_on": "2026-10-03",
   "timezone": "America/Los_Angeles",
-  "snapshot_id": "2026-10-03-vs34",
+  "snapshot_id": "2026-10-04-vs35",
   "source_baseline_commit": "a3d2d1ca109764962493722f5859b3013b1cf058",
   "tested_source_includes_unpublished_changes": true,
   "tested_input_count": 550,
@@ -14,12 +14,14 @@
   "gameplay_weighted_score": 61.5,
   "overall_beta_readiness_percent": null,
   "confidence": "low",
-  "score": "snapshots/2026-10-03-vs34/scores.json",
-  "report": "snapshots/2026-10-03-vs34/report.md",
-  "input_manifest": "snapshots/2026-10-03-vs34/input-manifest.json",
-  "test_results": "snapshots/2026-10-03-vs34/test-results.json",
+  "score": "snapshots/2026-10-04-vs35/scores.json",
+  "report": "snapshots/2026-10-04-vs35/report.md",
+  "input_manifest": "snapshots/2026-10-04-vs35/input-manifest.json",
+  "test_results": "snapshots/2026-10-04-vs35/test-results.json",
   "cache_policy": "Reuse matching-input evidence at its recorded validation level. Changed, missing or added inputs require affected checks; historical scores remain dated until a new assessment.",
   "remaining_gates": [
+    "Resolve owner-reported unrequested primary-slot-1 switches and confusing multi-bot hit/kill attribution",
+    "Human fun/pacing acceptance after the owner pacing interview",
     "Post-fix normal-input packaged full runs and human pacing/balance testing",
     "Ten finished arenas, intended final-run pacing, survival and original champions",
     "Character preselection/shared reveal, host checkpoints and packaged hosted-session acceptance",
@@ -30,10 +32,18 @@
     "path": "Ridgefire.uproject",
     "sha256": "065A1AB7AF0B97F9C813738343DCC20B66CE016D144DC7FAC6799DCC2692F331"
   },
-  "previous_test_snapshot": "2026-10-03-vs33",
+  "previous_test_snapshot": "2026-10-03-vs34",
   "beta_readiness_approved": false,
-  "testing_recommendation": "Supervised internal alpha playtest; closed external testing conditional on a normal-input packaged session",
-  "assessment_kind": "Five-second owner perk-menu video review; unchanged-source evidence reuse",
+  "testing_recommendation": "Supervised internal alpha playtest after targeted switching and hit-attribution diagnosis; closed external testing still conditional on normal-input packaged session",
+  "assessment_kind": "Partial solo owner Editor gameplay review, subjective fun analysis and matched-session log measurements; open control/combat defects",
   "target_gameplay_readiness_percent": 75,
-  "target_status": "IN_PROGRESS; not reached"
+  "target_status": "IN_PROGRESS; not reached",
+  "last_automated_implementation_snapshot": "2026-10-03-vs33",
+  "gameplay_score_estimated_on": "2026-10-03",
+  "human_recording_reviewed_on": "2026-10-04",
+  "owner_feedback_acceptance": "Mechanics/progression partly liked; fun/pacing not accepted; two reported defects remain open",
+  "next_gameplay_checks": [
+    "Selected slot persists through the real encounter/reward/reinforcement boundaries without selection input",
+    "Normal-preset damage recipients match intended hit/occlusion/splash geometry"
+  ]
 }

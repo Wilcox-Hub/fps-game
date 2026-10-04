@@ -1,0 +1,210 @@
+{
+  "scope": "Matching owner Editor session log, 2026-10-04. Input events are not successful-shot counts. Same-frame deaths corroborate clustering but do not establish hitbox cause, damage radius, or intent.",
+  "log_sha256": "A6019728074ED58030641B5A1065F6CEFE60425C0BDC8FD17D803FAADD0638A7",
+  "session_window_utc": [
+    "2026-10-04T20:23:55",
+    "2026-10-04T20:31:43"
+  ],
+  "first_arena_start_to_clear_seconds": 271.786,
+  "waves_started": 9,
+  "waves": [
+    {
+      "wave": 1,
+      "started_utc": "2026-10-04T20:23:57.655000",
+      "deaths": 24,
+      "last_death_utc": "2026-10-04T20:24:38.121000",
+      "start_to_last_recorded_death_seconds": 40.466
+    },
+    {
+      "wave": 2,
+      "started_utc": "2026-10-04T20:24:43.130000",
+      "deaths": 24,
+      "last_death_utc": "2026-10-04T20:25:19.143000",
+      "start_to_last_recorded_death_seconds": 36.013
+    },
+    {
+      "wave": 3,
+      "started_utc": "2026-10-04T20:25:24.145000",
+      "deaths": 28,
+      "last_death_utc": "2026-10-04T20:26:01.222000",
+      "start_to_last_recorded_death_seconds": 37.077
+    },
+    {
+      "wave": 4,
+      "started_utc": "2026-10-04T20:26:06.221000",
+      "deaths": 28,
+      "last_death_utc": "2026-10-04T20:26:39.390000",
+      "start_to_last_recorded_death_seconds": 33.169
+    },
+    {
+      "wave": 5,
+      "started_utc": "2026-10-04T20:26:44.394000",
+      "deaths": 28,
+      "last_death_utc": "2026-10-04T20:27:30.120000",
+      "start_to_last_recorded_death_seconds": 45.726
+    },
+    {
+      "wave": 6,
+      "started_utc": "2026-10-04T20:27:35.129000",
+      "deaths": 32,
+      "last_death_utc": "2026-10-04T20:28:24.439000",
+      "start_to_last_recorded_death_seconds": 49.31
+    },
+    {
+      "wave": 7,
+      "started_utc": "2026-10-04T20:28:37.631000",
+      "deaths": 24,
+      "last_death_utc": "2026-10-04T20:29:51.668000",
+      "start_to_last_recorded_death_seconds": 74.037
+    },
+    {
+      "wave": 8,
+      "started_utc": "2026-10-04T20:29:56.668000",
+      "deaths": 24,
+      "last_death_utc": "2026-10-04T20:30:37.601000",
+      "start_to_last_recorded_death_seconds": 40.933
+    },
+    {
+      "wave": 9,
+      "started_utc": "2026-10-04T20:30:42.602000",
+      "deaths": 27,
+      "last_death_utc": "2026-10-04T20:31:35.775000",
+      "start_to_last_recorded_death_seconds": 53.173
+    }
+  ],
+  "mechanical_deaths_logged": 239,
+  "fire_input_events": 337,
+  "fire_inputs_by_weapon": {
+    "Phasma Rifle": 289,
+    "Gale Repeater": 45,
+    "rail-fed Last Word No. 7": 3
+  },
+  "empty_magazine_fire_inputs": 18,
+  "same_frame_multi_death_groups_with_fire_input": [
+    {
+      "timestamp_utc": "2026-10-04T20:24:13.450000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_2",
+        "BP_ShooterNPC_C_4"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-04T20:24:28.442000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_17",
+        "BP_ShooterNPC_C_12"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-04T20:25:08.221000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_40",
+        "BP_ShooterNPC_C_37"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-04T20:25:25.567000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_51",
+        "BP_ShooterNPC_C_49"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-04T20:25:57.343000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_69",
+        "BP_ShooterNPC_C_73"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-04T20:26:14.216000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_78",
+        "BP_ShooterNPC_C_76"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-04T20:26:17.788000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_88",
+        "BP_ShooterNPC_C_85"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-04T20:26:25.343000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_96",
+        "BP_ShooterNPC_C_93"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-04T20:27:29.026000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_125",
+        "BP_ShooterNPC_C_127"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-04T20:28:55.475000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_171",
+        "BP_ShooterNPC_C_172"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-04T20:30:37.599000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_206",
+        "BP_ShooterNPC_C_211"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-04T20:31:06.619000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_215",
+        "BP_ShooterNPC_C_216"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-04T20:31:22.157000",
+      "weapon": "Phasma Rifle",
+      "same_frame_death_count": 2,
+      "actors": [
+        "BP_ShooterNPC_C_228",
+        "BP_ShooterNPC_C_219"
+      ]
+    }
+  ],
+  "multi_death_group_count": 13,
+  "maximum_same_frame_deaths_with_fire_input": 2,
+  "limitations": [
+    "No shot/hit telemetry or hardware key log.",
+    "UTC log timestamps are not asserted to align exactly to video presentation timestamps.",
+    "One solo Editor run, ending during the second arena; not a complete run or packaged/co-op acceptance.",
+    "No cause or fix validated."
+  ]
+}
