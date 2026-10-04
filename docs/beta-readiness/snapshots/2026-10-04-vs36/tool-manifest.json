@@ -1,0 +1,30 @@
+[
+  {
+    "path": "Tools/Invoke-CombatReliabilityChecks.ps1",
+    "sha256": "8CE8531C83ACF0217CECDDAE7218726F26AA42AE982B1EA1F497452BC86A2D3E"
+  },
+  {
+    "path": "Tools/Invoke-WeaponFireSmoke.ps1",
+    "sha256": "BC8CB44E1502D3F281BE33C29CCB8CC8F37FBD97587AFCFFED1490177B168AD1"
+  },
+  {
+    "path": "Tools/Invoke-PiercingTraceSmoke.ps1",
+    "sha256": "46DE06436DF3C6CF042A015906E0FCFCC21A58AF4C09F7914D0C3BBCDFA81DDF"
+  },
+  {
+    "path": "Tools/Invoke-LoadoutInteractionSmoke.ps1",
+    "sha256": "75E4E8A0FE99480A566F01A5907440DF99490193058BA70CFFB0E73AA199A2BC"
+  },
+  {
+    "path": "Tools/Invoke-CoopCombatSmoke.ps1",
+    "sha256": "0F0CBFCDEF1A5D5FA091435043433523D67FB668218E5EDE2090F3FA9E8E01ED"
+  },
+  {
+    "path": "Tools/Build-WindowsShipping.ps1",
+    "sha256": "6E3EEBEC56263D6B7B6CB9D1C4D872AE927C1E040616944C6A75AD95029A1E84"
+  },
+  {
+    "path": "Tools/Play-Latest-WindowsPackage.ps1",
+    "sha256": "8B72577D232DD8224BFD7BA8D3A051EF63D68F9F02FF60A39A4EE040264E0CEF"
+  }
+]

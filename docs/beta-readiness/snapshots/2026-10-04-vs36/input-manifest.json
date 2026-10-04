@@ -1,0 +1,2206 @@
+[
+  {
+    "path": "Source/TP_FirstPerson/RidgefireArenaDressing.cpp",
+    "sha256": "69A1C8133590F646DE11BCF4A98BC43FC495930EC15F78AADB1FEEF2B3E89ED7"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireArenaDressing.h",
+    "sha256": "7BB4C8ADB24CEB109DBDBF03E3F102C65997115EC145308B59331CCBC14BC89E"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireCharacterMovement.cpp",
+    "sha256": "940DD67441FCE7D4A398641DB90D9DD4C12454067ABF5C6B4868C1DE05C4C3F1"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireCharacterMovement.h",
+    "sha256": "F2B5673E6BEE8D89BC5E9A2E347BA824B5448682229ECAF925D720E497F4F77F"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireEncounterPlan.h",
+    "sha256": "4025E2FAE454CFE7C91292BF845EC5C186AD59B2E1945C50F80E0C8F4E9A512E"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireEncounters.cpp",
+    "sha256": "5A13983E74FA0CEA2348FE8718608F05C388BC771D5BCD8DCBE5D552F2650E5A"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+    "sha256": "16CAACBC6884D121E2D45794AE115AD049617FC953BF91E4A85F3630FF947412"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireGameMode.h",
+    "sha256": "250551A5F1DB6A1CEAE76B0975C9520966C32E1F0C567DE4E6D79885E8817915"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireHealingTube.cpp",
+    "sha256": "1EEBF9847E923115B0287C2B5F97035E3381BB9C9759DE72AB64FEF7320C9B80"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireHealingTube.h",
+    "sha256": "6CEFDAEC41B0A846019F91727B65028366EEE6007442C089FCD333BBD0C45BC4"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireHUD.cpp",
+    "sha256": "BCDCE894FA2971086A1D3A36CF0275AE3DF0756A8DD0D15968A9D2FC86D79E15"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireHUD.h",
+    "sha256": "99D8FD3ED8B91EB42FA9C86520C15811E298291CB5154FCF243EE504F61AB211"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireLobby.cpp",
+    "sha256": "065C780BD51CEBB094E909D4F40FA36FF2C6DE2EC8ABD06FA3F10A32C85CEE20"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefirePickup.cpp",
+    "sha256": "4D4B1FEF83F49982D3A0C3B197C6841002E5EF7FEDBC80AAFF7E68202578C801"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefirePickup.h",
+    "sha256": "44B157388831710B3E8EF5C998CD8B601DADD5924F2BC38DCD9F6CEC0A18EDF2"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireProgression.cpp",
+    "sha256": "B8E600F51291A20CB86008695B6DD191C5ADB9B6327EB65D3FAF2BD3541EF8D8"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireProgression.h",
+    "sha256": "2111287ABC1A48163B617BA1408BE80F3ABEEA65B4CF2B78282E30B47C8BD871"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireRelay.cpp",
+    "sha256": "BBCA06522B1961DBDB9D4BBF19B891F420CCC03B0ADE0E8D5AF442D6CEBE4A3E"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireRelay.h",
+    "sha256": "927CB05DB0D503A20A65FAF8002ABC48A4BA22D8FA46FB3528CEB4487F6627BE"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireRescueClock.h",
+    "sha256": "AAB42B6EB69EE1EB6D3ED2C6B02BB75F46A6AF500877EA853FE3F0C5711FF9A9"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireRouteGeometry.cpp",
+    "sha256": "354409CAB5B3B1D69663D5D386EB9A03A9075D39758AB50C0AE8E0FAEC4551A0"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireRun.cpp",
+    "sha256": "29BACC4F93A3FE96D53E54850D98C414ADC4AD90954AC532188C26F5531D1096"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireRunPlan.cpp",
+    "sha256": "D3F9860661C228F1ED19E51426469712773A3C2D5151BFFD292E02C6491E079A"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireRunPlan.h",
+    "sha256": "E813454E0C9199BEADD9D354A3C03057F63ADA0D13E5A7F1754196661B9C8B3F"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireSessionHUD.cpp",
+    "sha256": "1E69A4A302288C363B3386E242CC4D9A6F56D71A7E1D0F52A4ECB9AF43F01E28"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireSessionSubsystem.cpp",
+    "sha256": "1AB861A8DD4BDDC48CAEC1744B0B4E7CB14BA6709C9F678945976AD2B21EAB7C"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireSessionSubsystem.h",
+    "sha256": "0D174206FE2F57FF6D7D0F6E8AC88DA9BC38EDB90FE6FB52350256EB8C0248B9"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireSynthWave.cpp",
+    "sha256": "34F74F15E2FF9120113E96B1304D973E738D5FD8CA84B3E105BC74156EFA43F2"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireSynthWave.h",
+    "sha256": "6F67AE23058E07A155258EDA1DBF9218F29B8D3CB15CC3D000E77160CCD50072"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireWildcardFactory.cpp",
+    "sha256": "2AA29189F132010850FD505B013A135C309371373A83A5AC80EBAC998A3F2BDD"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireWildcardFactory.h",
+    "sha256": "7552DC7106513C48F9BDE10BCC21BB128A3CC6FCDE4D00FB9C848D7650A5BE30"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireArsenalPresentationTests.cpp",
+    "sha256": "32CFF61C02794C51A9DE200BD3E844F40B2397630BD8033358D9F044E2A38611"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireCarryPresentationTests.cpp",
+    "sha256": "70D10E6040F9E905FEE8C8E4385C63EE69234163486AEF0FCEEC4F25EE895BB4"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireCarryTests.cpp",
+    "sha256": "9E2A148DBFEE0EB6158D9FADBBB6E90A7C4C9DF45C3DDDFE1FC312EAD1FBC1CA"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp",
+    "sha256": "05DABFCEA62A56CCA2D4F2242F3BC0877B38EA5194F346711128801468B05BB7"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireEncounterPlanTests.cpp",
+    "sha256": "DFA1CD5E5BF790C6FFAEF24A8F7F6BF0FA120DB9C883586BD2347FF6B265FFC2"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireHealingTubeNetworkTests.cpp",
+    "sha256": "9580363B1233B3B74C4B662A0236FBA7AEF261B660FC977E635B95F6562556AC"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireHealingTubeTests.cpp",
+    "sha256": "D0B1A9DABB4972B5AE0112B3EAA047C79A61346B35099FEDB93FD0ABDE632B4F"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireHUDLayoutTests.cpp",
+    "sha256": "CE8D858EBFBBCA0C5FA1CFC16C6BDFBE8260D7A211DF79CB0F008FDD8C407747"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireLoadoutInteractionTests.cpp",
+    "sha256": "AE2BE99FD4D0F82017AF0B55752BCCD0BD496E8BC32059FF9453DBB79871537F"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireLobbyNetworkFixture.cpp",
+    "sha256": "ABFAE9234CC662E5C2FD6FB32151F4D9F5B133BCAB97E22D9F9034BCDAB67A8B"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefirePiercingTraceTests.cpp",
+    "sha256": "434A80847DD2DD9372E665BD161C661CA7A994DFF534BA8326504E874008E592"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireProgressionInteractionTests.cpp",
+    "sha256": "0F6363CF42D4738C08CCD54B8395651C2F0B209CE96744FC181718FE0FBE1701"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireProgressionTests.cpp",
+    "sha256": "397FADBF82972EB16B2E2E01131B7091CFBA797DAF7101D15F5CEF2E9056A60F"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireRecoilTests.cpp",
+    "sha256": "C5EE44D7E000353B3DEE57E5728B927C62BCCDDEFFA560F171EDFF1C837F71CE"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireRecoveryTests.cpp",
+    "sha256": "B28F525162850511AF3EB3033D9713AC760973697A0086447CEB21E8852B9E35"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireRescueClockTests.cpp",
+    "sha256": "9864C4D4D98E05C1885A04DAA0B99DD74A3D8D90E21480B47278B2F3271C8E4B"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireRescueContentionTests.cpp",
+    "sha256": "ADE49927AE5D71C8A684D26369BFF7631228437C28172D36245715EC52AE4E33"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireRescueLifecycleTests.cpp",
+    "sha256": "868344EBCDD96ED6E33722D300D11A13506E2DB06C895175F10F93F88C3DACB0"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireRunNetworkFixture.cpp",
+    "sha256": "94D2A3ED12C940734C8BB8D1D98F22B2E4D174D404EC3A92F477BA0084ACB595"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireRunTests.cpp",
+    "sha256": "B27109E374FF52CFD9026474797D78BD3830103A80FFD1A9A09377525E1BCB8D"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireScatterVisualTests.cpp",
+    "sha256": "F322A493D38FDADFE3B327AA33BF7070A35E7DD6D2749E452FEE592FB5DDBD39"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireSentryClearanceTests.cpp",
+    "sha256": "71FD9278391D0DE2AC1DC5DB276877BE4FAA731B5F3B8F6B78CE32B063F0E093"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireSetupTests.cpp",
+    "sha256": "C478E7FA9117F0012BB2BBA2313A4A68C971E6BABE712BC13FED521BA8918DF8"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireWeaponCadenceTests.cpp",
+    "sha256": "FE8AF235D3A87944EEF3C3CD95F118556FE30123004EC073DDC9A1D058C2D014"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireWeaponFireTests.cpp",
+    "sha256": "E340699CBD7FBF885E9B4CDA7C1165E1E539B7B22F4B74ADB0420628E43CE2C2"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireWeaponPresentationTests.cpp",
+    "sha256": "33EAE76D904538F7DFACACA64D48F75BDF3F0A319DF755D4CEA1C1D4C4AE3A6F"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireWildcardCombatTests.cpp",
+    "sha256": "81A98B1242990C61628B3FA32DE74F0BFFFBA055683EF1BAA508EF6B9BF61E2C"
+  },
+  {
+    "path": "Source/TP_FirstPerson/TP_FirstPerson.Build.cs",
+    "sha256": "CAD9829FF2742EF4B61E6886F3DBA45A011405B8E94A14DDA1933EF59A41EAC0"
+  },
+  {
+    "path": "Source/TP_FirstPerson/TP_FirstPerson.cpp",
+    "sha256": "8FE4FC3B55CC6BE3510AEEBE3BF8AE6F5BC937B4C0CDF03AD55CA803CEB29937"
+  },
+  {
+    "path": "Source/TP_FirstPerson/TP_FirstPerson.h",
+    "sha256": "457150296B6A9831DF3D30050BDE29AF2DF6802903A21A55EE52BA3B2E50498F"
+  },
+  {
+    "path": "Source/TP_FirstPerson/TP_FirstPersonCameraManager.cpp",
+    "sha256": "E9A71BA1596EF78448FB7A9CF57C0FE8B96D873172C61CB99D4C31C5CECCC915"
+  },
+  {
+    "path": "Source/TP_FirstPerson/TP_FirstPersonCameraManager.h",
+    "sha256": "2FD6601CBB36863F57C1B5300705F2F35DFD79DF92FB7CB9274817A0AE49E895"
+  },
+  {
+    "path": "Source/TP_FirstPerson/TP_FirstPersonCharacter.cpp",
+    "sha256": "320736AE30F4113C39E0869D92D1D00A96E64E2BFE90699E57BB3416AD297979"
+  },
+  {
+    "path": "Source/TP_FirstPerson/TP_FirstPersonCharacter.h",
+    "sha256": "767BC6F0D79A578360F935B4182BB51882D2A7C2E7251427F32D1766CD7D74C2"
+  },
+  {
+    "path": "Source/TP_FirstPerson/TP_FirstPersonGameMode.cpp",
+    "sha256": "1FB9EF388BEDE0C676EB2F58A1B0BDF4106FAF81DBC3F7D3995BCF54FA6914ED"
+  },
+  {
+    "path": "Source/TP_FirstPerson/TP_FirstPersonGameMode.h",
+    "sha256": "B69A5E75540820CBC679E57C453567435D6F50747FD577B70DBF9A4BFBDF2665"
+  },
+  {
+    "path": "Source/TP_FirstPerson/TP_FirstPersonPlayerController.cpp",
+    "sha256": "3C1445C256F1F31D7D85802DE52775A68A7C3BEFABFD2CA635F4A400D4227C24"
+  },
+  {
+    "path": "Source/TP_FirstPerson/TP_FirstPersonPlayerController.h",
+    "sha256": "623EA90A3AE2188705C4151E8EF050B68A92BF6CC39EA22D183DF17DA910961C"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Horror/HorrorCharacter.cpp",
+    "sha256": "B3F3D4670BE1FC85366E9CD0444CD59A47A04A517FE43281B60C86518385F75C"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Horror/HorrorCharacter.h",
+    "sha256": "5ACF3B5DA745F001928E280BF3D1E67FD54D5FADF8D5003B6EE360609D69C36C"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Horror/HorrorGameMode.cpp",
+    "sha256": "A1645AEB66DD6116D55B4268D8721A2A5ECB42692F0401B874085E29E7D8124F"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Horror/HorrorGameMode.h",
+    "sha256": "ABA26459D7F1EFB3E5A3356CDBE5239FCFC30AEC6CB90B6FAC5105B901DA7978"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Horror/HorrorPlayerController.cpp",
+    "sha256": "DB4D995BA693529E546F238C8C9045BAAC0EF61D9C8C37AB10106FF225514319"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Horror/HorrorPlayerController.h",
+    "sha256": "58DD2C242CE746646A40232F25B13423C7F63E2B8D5A25027FC0E49E40AA6FBD"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Horror/UI/HorrorUI.cpp",
+    "sha256": "5FAB92FC1F734EB0DA9A03EFBD176D05C715360692CA4F399E72D2BC79D80799"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Horror/UI/HorrorUI.h",
+    "sha256": "4881946D0A3E5A6BB858BD5A996902815FA678DB1C8040F5D58796F35E664D80"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/AI/EnvQueryContext_Target.cpp",
+    "sha256": "25EBF02C5C3615F192B0ED5E57AA332E1C910D47355BAC1EAA0702271F515BB1"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/AI/EnvQueryContext_Target.h",
+    "sha256": "6D197E333BBA5E1E0BBB563ADC10106DF99132C4423FFED185557E4D2C35425B"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterAIController.cpp",
+    "sha256": "469491561BEEAC249A2A30C663435B31E579988C2E57B2067F17A66F284064DD"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterAIController.h",
+    "sha256": "A9EB3EC6FCD8F37821AD3C37257543C200EA8B8286877F61BB69D03150F1A050"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.cpp",
+    "sha256": "46354BD8F8B0C4427DE0AC0258FE2773F5B92350D31D9BD8D968FE4DB4B4553D"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.h",
+    "sha256": "11912E2C1A30F025BE256E276F6C890ADE748A9AB10DE136AF58AD095B06C41C"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPCSpawner.cpp",
+    "sha256": "5FCC9839623EC7A111AB3D8999CD7CC4B796030AB6A42C2762C4AEA69B7ED22C"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPCSpawner.h",
+    "sha256": "83A9EA8911862779F3AEEEA3C53339AC46CE33837DD393ABFED2132C7B97B775"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterStateTreeUtility.cpp",
+    "sha256": "D8C2A883B93EC8A80B03F081A7712070B45DA1D6882C111B182CCFAFBD99A99E"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterStateTreeUtility.h",
+    "sha256": "6B1D1EDAC47E0E2C0E01CFD379F0F70A8D5630039D912E61888BA83E2D8E1F5E"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+    "sha256": "AADF41EA80156F23020349B0B90A46228EBC091C06A4EBC47D59645A62E736F6"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h",
+    "sha256": "76A68514C5AAB23F406CBEFCA46DF2C4D7ABD01F4F740307767DB6D76B9EA4C5"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterGameMode.cpp",
+    "sha256": "B545DBF539A144EBFDF489B728AA654B3C59375C3264B92DE7D14477738271C8"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterGameMode.h",
+    "sha256": "5236A566552808ABC2F11B7DED7B2370610E92C12F2C4556CEC4AFAB2E0723DB"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+    "sha256": "979B932E6955F9EA0992EC3CA0A2AA9B3ED389393298A63087BAEA3910CA6F4E"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h",
+    "sha256": "89D97B5EF8AE9518A8C3EE2E8519594AE67B41FC2171C3095689CC13A409A515"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/UI/ShooterBulletCounterUI.cpp",
+    "sha256": "59B2D096D3ECAA1CBE9B779A6A3F233F8E441F6B6AB326B8F726941D95DB1472"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/UI/ShooterBulletCounterUI.h",
+    "sha256": "D677F44A6AD312A5441F6F3967D777737C1C9AEE2AFAE2BBD65D0245CD329104"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/UI/ShooterUI.cpp",
+    "sha256": "F7C16B8859F4341B891F91931A20602ABD9330BE29B96F973626225CD89C9997"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/UI/ShooterUI.h",
+    "sha256": "9F9FB9A9533E44F1DE63831B4A25FD43BCE3173EC58EA76F9F96BF058D3AAAE8"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/Weapons/ShooterPickup.cpp",
+    "sha256": "6BEEBC84244502B3BAC7225DB7479D0ECB817E4608F9B5069C64066C5F90C56F"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/Weapons/ShooterPickup.h",
+    "sha256": "E2E03C3B17608D88055675872816EF23C690F1D6A37631057AE61EB9496DE654"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/Weapons/ShooterProjectile.cpp",
+    "sha256": "C5EFCA8C51D8330CA5C5ADA3383EF81D3D036DB381F493EB70B430B11E3254BF"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/Weapons/ShooterProjectile.h",
+    "sha256": "FAA9561DD5D7BA90AD221226E31EAA9919B9597250E70D3B60CF27F3D5AC4051"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/Weapons/ShooterWeapon.cpp",
+    "sha256": "C9B81A2235CA7DB65F7473067CC58AFB8EED8911FB25C526D042EF3AA5726A4A"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/Weapons/ShooterWeapon.h",
+    "sha256": "E75D72F581942B34BBB1795D122CDEF392144A558E0572D83142E897487175D5"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/Weapons/ShooterWeaponHolder.cpp",
+    "sha256": "F22A853A56CEDB88E199A17A7F68A487515EB4B4EB04E6D31D816607F0CF919A"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/Weapons/ShooterWeaponHolder.h",
+    "sha256": "CFFB7F7E83AEE7D61F171AD84EB1B609046D284054237C2A86A0B4019D570604"
+  },
+  {
+    "path": "Source/TP_FirstPerson.Target.cs",
+    "sha256": "981AAD9BFB78D9164ACAFF7EE2DBA83AF947B1CCCE9804C000B43E8561E2E005"
+  },
+  {
+    "path": "Source/TP_FirstPersonEditor.Target.cs",
+    "sha256": "B30A7F22BC49009BFA1B3EE31FBEC81D9628611822AC285FC9036862CA48C165"
+  },
+  {
+    "path": "Config/config.ini",
+    "sha256": "AD5BF0B7791CC3A7C20EA7657353DC7E67C4942F9119E22E6563BB42EA119A10"
+  },
+  {
+    "path": "Config/DefaultEditor.ini",
+    "sha256": "75B14452C35D0A4D4BE6539647B43628FED60ED11BDDE6B55AC545EFDBF6AD1A"
+  },
+  {
+    "path": "Config/DefaultEditorPerProjectUserSettings.ini",
+    "sha256": "A5D03EDB46B9A2243CF01484632260D4206469092DD39299C0643719AFFF9AD7"
+  },
+  {
+    "path": "Config/DefaultEngine.ini",
+    "sha256": "1695A5B8166150E7A16FCAE1479F39B16760259447E50B38CB7A27D83011AC05"
+  },
+  {
+    "path": "Config/DefaultGame.ini",
+    "sha256": "2DCC52118A7C72298302BF502C5AB5A5A8EF23E9A19A9434338ED7D38C97B4FE"
+  },
+  {
+    "path": "Config/DefaultInput.ini",
+    "sha256": "1F8383E027887849EB15B3CAE427A2916F3C29B36FB3B1EF3BBFF7F44D6F133F"
+  },
+  {
+    "path": "Config/TemplateDefs.ini",
+    "sha256": "9C6F48E54BBEF6C616649BE6266352AD44D33C88033B686F08BC34CC08BF6AC6"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/44/E30ITTGIQYU50RQY5Y9XCY.uasset",
+    "sha256": "1FD5D1E84D5DBA0FBFBA0D346F793948AEBE92A7BAC32966B8943A0115A7E745"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/56/I0F38RE5S8MZ8PNQ5GDDSS.uasset",
+    "sha256": "13EC26F31FFDC735B6C30C155DDB8F286AE4A01F227D086678A8E46CF91EC71B"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/9C/F5Z2JNQMT747Y7QES5KOP7.uasset",
+    "sha256": "D8A840194A739FE47A05AA99D7E72BDEBC22FA16E45500FB4857DD04A3E25A4B"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/ER/GJUIXEEO8HUV9WZCSZR9GH.uasset",
+    "sha256": "929131003949426D3C93FFEC16CD40962034B29716DEB6C6C5DD81C5B57F8E70"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/GZ/TTBKQTM7H2HDLWB3T16ZLY.uasset",
+    "sha256": "E3024FFFD6719421105F02F55F322BC7E973B22843E3C7950134E004661E8E8D"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/QF/0MZRSMWGNM91UYLLVJ3D8E.uasset",
+    "sha256": "3BE3B8539EC1B2279EAC98C567C144EE7FAF2204F5DCE21845110F59F0E73B4D"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/2T/XLTJQ7V46UNMQF707MQDQK.uasset",
+    "sha256": "552FB42078A2CA15BC24092ADEC7F3895447E739D2176A07ACC179F37A803182"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/CC/0JTUNI8VQLSXUN7CSUXHGJ.uasset",
+    "sha256": "D69BF0AA7148D7920DF9EF1D6A33CD8D05DCF8EFF77F21F6004715E4C21FE1F0"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/IH/6AC5KKMX2JQTMBRMPI2QXX.uasset",
+    "sha256": "D1CDF3A42C200036482697FCDD78F82DC11522C228A1152D3B29DBA5895069B3"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/TT/AN7EDCE3WNBXY7C6MLPGQH.uasset",
+    "sha256": "64C5D1D35F443BF17FECCD9CF6C14C74543C16BFFDBB297AE090C236D5308187"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/WL/M7MJFQ0T76JWU6F1Z7YH8J.uasset",
+    "sha256": "8AEABC4DA5A0538607A1E45ADF83176B436F6DEEC3F5B64EDCD23177A1CCEF17"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/1X/SN5R6LIXKDO3W51X1TVUTZ.uasset",
+    "sha256": "1F2B2A66DFF9E37AF110421B745E00A610B1784FF3F228C566F4EA144A2B5A60"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/EG/CIZR6W2NYH4Y5P8G67XOU0.uasset",
+    "sha256": "31AA797EA02A1624E53B1F0EE2D9B3BF0326F0C573C3D9C8D603D5E883D6451C"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/NN/UPER9K07U6B78EE80PY058.uasset",
+    "sha256": "544976A287D472845BD47C068AE6913A5AE2FEBC1B15EA3E38F85D28B1EF2119"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/OC/XS0DUOELE7HJY3F9XZSBNV.uasset",
+    "sha256": "A53B2DB8FA271E74B4C008591E37E57300DFD807811D0B00D818AF17B844501C"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/SP/2T0RTK13XAOOIQD0QTXDQ9.uasset",
+    "sha256": "2AC7294A8C384AAF56ACF7677EAE0258690A8CB95E564853363883A8E7DB70ED"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/8B/S2VB6OCHYGRYWAD0QGDM9H.uasset",
+    "sha256": "9C44F043902614F573127FEA9B9C7BA232D6D9C3CB01B4CA1383FEE644A0E603"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/BN/PJBVMDVV9BICN8MLKJ849X.uasset",
+    "sha256": "4097F145E34E5800D8327453129E035AA85615423BA349C5DA34CA825FCAD9D6"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/3X/YJ94LSV2G9NAIYZIK96QLE.uasset",
+    "sha256": "6059AAF6424A039EEB4C0A553D153053EE80DCB2E9A085FF1981F24CA906D158"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/6J/NUEDVP0K274K8FKJ6Y0WEX.uasset",
+    "sha256": "60B69C327673345E73B47E740DE6A16ACFA5F56C1F1C84968427C0CA400ABAA8"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/8V/Q896X99E5DMTT521YEXM9A.uasset",
+    "sha256": "9B68ADCED8A0643E73BC23F5A4D2039638865581BA7AB7333BE042DE8DB7D4F7"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/IJ/E7WQWO4MJ84GWAX8H4UR84.uasset",
+    "sha256": "249D8EEB2C18A123A57BB01818C7EFA4413BDCD4AF3562B872DEC997E221BD19"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/N3/FQV2FW1I8D4Z06TF38UTCR.uasset",
+    "sha256": "97D2EB9039077E03883B932E8D37011937607FEDF490A48E5F4E9057952B0EC0"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/QB/9YXJRQGLS33G0BEH37USBX.uasset",
+    "sha256": "FB3A51BFC0D3A883D6B4E6D4A96944B17381113A78FF9EF8D47C0C7436E8188E"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/XL/U0BAKX7624EKY7QR8W4QDX.uasset",
+    "sha256": "56B4C9E9EFF4EE041DEB0F85B48CFD34C91B9F8D83F75CA3CF817EFC0C435357"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/TI/UOUH4EXJHIGJNF2D0Y7CPX.uasset",
+    "sha256": "0C0C264535040BD0F536DB0F4DAC7DA4151E2EB3118B726E9C9979E526258FD1"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/UU/1ZY1QFVHRWZSP8YI4VZLMK.uasset",
+    "sha256": "178BADE818C10D835DBF50594649180565221E9A03243D78EAC6EE87B3E53E87"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/V6/DING1S8EVR2AQW03U1ABGV.uasset",
+    "sha256": "1FD64F4ECFA1C08BCDED5E52CF06D44A18ABBF52EC3DE1A1E20ED2DADDF68743"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/6I/29E05UQXOAGP6TCP5CN0BQ.uasset",
+    "sha256": "8984AA9512BD2430FA9FBA4EAE33E289966EB57641EFA6369DB4990102F57CAC"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/96/JEF6NHSL8XXSCQTOUZMFM6.uasset",
+    "sha256": "CA485F940CF796321BD9D7F2A8E6EB96C2AC2ED4EAA0BD4DF3B409A7953C8EF2"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/I5/5U3R0J6P3EIOET939AGA6V.uasset",
+    "sha256": "4EBD9B1B2F271C6EE433DE999D4BD60AD004FD99F3D31EA19BADE704702A39DE"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/U8/LL0QNHFPYL403X5YW0FGG6.uasset",
+    "sha256": "C57F36FD530BBC96C0BE9DC179725FA3BAFE08DAFEE3D5F4D3C773089B5DC25A"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/HV/3VH3D4CLM38OC4F8ICXDVQ.uasset",
+    "sha256": "DA7B7B99D9C27B7673EEE56C4B07FBD7E1545065947D3D55078F726035103F68"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/NI/7Z9KFUHGDC33I0LYBUUYUQ.uasset",
+    "sha256": "779E27D6444187D7EE82D69737AF13DBEFEB9434DA79C25E51431E554E65D244"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/2H/HS4VI3UZJT1LNKM6HC7PL2.uasset",
+    "sha256": "FC16D8D1E4012E81C59BFE89809DCAA219A63080B39E5E9D6672EDB153BE4653"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/7M/FNN1ELJOC3KQT4JN0YDHT6.uasset",
+    "sha256": "009F67305E4E1C4BEB32C561D61E23F940E0A37D60F3BA3BF377620866B5FC04"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/I3/0VVXG3S0B4RN6QSHFSGKGX.uasset",
+    "sha256": "87D9CFD2362C089E9052CBD288900AC340785142864ED3E698886D3144D67DC6"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/KL/17EY7JSE7TF01OWV9LBSC1.uasset",
+    "sha256": "A0DA854F07DDC30CDB407B7B2B81A6CC6D1FDE1AEDFBE145363ADCAEB28A8103"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/QY/FSMNL3KLM133J5VKZAU0BE.uasset",
+    "sha256": "5F1AB50543D0F9461964953EE9B87CD33605F122AAE0FCC8549CFCFB635EDDCD"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/W2/920TYXDM12T8GKK1E0M892.uasset",
+    "sha256": "72EF4AA93658F946E30264D284A8980F65A8BE98CB323BA0A9D8BCFED6489F8B"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/3M/CN6DASGRPPAPEICARMETU3.uasset",
+    "sha256": "4EC161C68C11B622EFFB26332CFBF57922E9F828B43BF2043EDA517DB9E8686D"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/8O/BVYOAIREBMOAK7193TKE2N.uasset",
+    "sha256": "B7EC31C3222C631FC4D98F006C2154ED3D0FE6C719A62BBCE1973307F95F94EC"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/9S/AT66MUZW91DYUD6WM5FH0P.uasset",
+    "sha256": "174FDD5AFE25F12C51CA928F42315784E87352FB81CAD79FA81743FDBE30CE45"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/AC/RFQ7INIHB1Q1JWY7DWYQ5Y.uasset",
+    "sha256": "10A7AAE6F5DFC918C9EE3B94A539F1842D5DC9667AAE9D4C9F6F270A6BE41234"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/D2/66RZ3E9MEBJPV125V7SWQ6.uasset",
+    "sha256": "FC7BE44AE999D1A1A536C42F9EF1CF5891EA7179F9A7DD1A0742ADE12B3FDC9C"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/LJ/OQX9YN9UJ9NNRX6ERJ3PPZ.uasset",
+    "sha256": "73C567328E9702DCC8A888E1DF6B0F395B5B2C083E5D07D89A1F2667B84C73D2"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/2N/XWEBNOYZ7JA5DZOPBGZ71S.uasset",
+    "sha256": "67F13BA89531BA4183441E94BE3C4FAD5891DD6B0714F3ED62A2688AF12AB593"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/HH/BIAWP2Z8HW32809JWMRLU3.uasset",
+    "sha256": "FC18DE260705DA3EC567FCB9A07EAC7FFFD562D4620856C8856AEA97C3CF2BBA"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/J3/JQWZC33CXMXDX87CAIWJ94.uasset",
+    "sha256": "A2CA78DB0081BA307F8A47548EE775CE1706558FA03C6AE1219E6E1792F4A249"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/U0/N7D7PHGDI2A4EOLD58TA92.uasset",
+    "sha256": "F67A09A14FE4A886397EE19991D6658CC4BAB9BE0E87ECCC3E20F7181E8896B4"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/TG/2MDU2GF02TMAKTSII7ZI7V.uasset",
+    "sha256": "EC8286DE11EAFA2F9AC839A4338C50465F22B78ECBB975B5F4A151E82A04D10D"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/U9/AHG6736Q2Y3SGC1JQONLFJ.uasset",
+    "sha256": "A40D0DA0570A3B6090BEDEF8E0260FCEC73F9C61EA5CA7858D9C3B55FA2EAED9"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/0I/0PXPLZ76IWADZO9D6J4VWA.uasset",
+    "sha256": "24D62187D5B4B616E20D21D35FC154A2D3A9D1D72655C47FD939A6F5E944EBB2"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/GO/765U52T3ZSF8D2MPGLVRR0.uasset",
+    "sha256": "72A049AFD99066C8F30483AE265B853CD9B16B6320298E5098A1A6867BDC7B2A"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/BL/WB7S47W2IE4F23EZ9SLQ1B.uasset",
+    "sha256": "A1823AD6744BFE9409F572098E8EDB445B6AA3FDAA889BBE2A89E9ACF264192E"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/C7/LHEOZ28EA00LZG55QEAGFH.uasset",
+    "sha256": "2C71D45731360D08D92F769DDBE0758E9EB501EDE0806AEDC2FDD949526725B9"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/IP/FTEAYZDQR9M2KDS0TEPHA0.uasset",
+    "sha256": "EC4BF819E9BC775FC353D76CD8A379B6D57005CD1D9AF6A385545CE358EABE9E"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/LE/5ZDRK6QRB1CF1JSS3HJKPV.uasset",
+    "sha256": "15D53E81635F2743E72551BBB53B2828485AC88D61C1C05F96266593A229AE05"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/R5/8FN93FIP5FEZUI0RECK61K.uasset",
+    "sha256": "675B8D471E08D69429C163E5540A68DBD1D9E016057965EF04EA6604B9D8A3A6"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/TO/58Y2HCG1B7M6VAJN1E38IS.uasset",
+    "sha256": "D4810C44E752ED272B3B69B284D3418866D91DB2F601F7D50A818CDFDE6FC9B0"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/V1/DLNCFC4C5RQ8EDPCDYCKHQ.uasset",
+    "sha256": "59B0B636102604704850E6D7ABD0BD9A526F0F04AD936E70A6E7BA90B2CB60DA"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/W0/RTEFXSATTAVCPYEQHKNEY1.uasset",
+    "sha256": "A902CE57E2F5FA422C445CC8D372740ACF35271E21980E90E4B8872224615707"
+  },
+  {
+    "path": "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/P7/9DOH3BZKA2A8C7ZTDWILWC.uasset",
+    "sha256": "F01C917A9CF50C122F35EF3A121CA690C0F4B26A61D3DB8B1691136636E87B6A"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/0/9N/XNV375O8KPWILSKVGEFNR7.uasset",
+    "sha256": "1D639773F1268DB4A88C93FF8BD8379892C4A8C94AB010F963A46A01F55B870B"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/0/H4/6XP4MN111ML9O0QCEYRKH2.uasset",
+    "sha256": "90C59B9C5930AFEB76B3A1E3C3CF4BBA0EEEBA842952B836D24B9E6F41691AFE"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/0/UL/NBOXI91CXDV03LG1XB034Y.uasset",
+    "sha256": "2988B53B84B22457182B41AE9723E8326B81DBD306C2EE9A47C934408A0DEA69"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/1/BG/SUO39IID039W2OIT4A9WHD.uasset",
+    "sha256": "04181FD0CF40857CDD61595BC98DFD68D1501C75CA28A3FA8377236E5ED8871B"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/1/IF/NN5BW9XQMA6PPAIDJ7SMAQ.uasset",
+    "sha256": "1E32481C4E1DC5B18AB773E811871DCC06E799DE7737271FE7D2808AF7D911F9"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/1/XK/00H4DFA6S89FDUNS6VXWUB.uasset",
+    "sha256": "86DF08FDEFD31820BE93ADC771058CB972140EEC7255490B792B2B394B5D945A"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/2/64/I7XEQFHVL5DIB1CJZBSBRU.uasset",
+    "sha256": "902DBF9D049A2EEFCBF3D84B62B43211B5D8562B568D0021B93DA2CFB4D4AF93"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/2/6N/K64CJI6KHKILLZWQSQ7IAN.uasset",
+    "sha256": "34C878B5A861529E8B3E2C36052A52380AD1057641081ABF92F509891C471912"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/2/9C/1NTY6MECNAM0L7QUTBTWTC.uasset",
+    "sha256": "D717D4A2D231AB5E8EB24CC8E9710A13BF30E993BE5570F48069075F215BE28B"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/2/B7/QY8ULQWFS49XORXUUJYHBV.uasset",
+    "sha256": "019217DD99C9A018E273042899EF53AB20FE577F10FA54462D8C7C5A2AB3C0E8"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/2/JU/S4QLU8WK2BN4J46DP9RPNN.uasset",
+    "sha256": "A7477377909C4FB874EAC57096F645D291E482F095E0A57F7E4EF1472A2610CF"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/2/LP/X22M42YXL5MXZCB4XVRYG9.uasset",
+    "sha256": "7E7BEE7B398B8911601AFD0A4AEB3E7582B6B5983BD18332E685D9BB1F592D3C"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/2/PD/B1KLFOWOLE3HXLMQBBLOPE.uasset",
+    "sha256": "A701B262202288724820E1837E78BB2F213FFA3334D66ED17D7AACE71BFA1DE4"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/2/ZK/SYYE0JBNQ0IF99D0Z8K10C.uasset",
+    "sha256": "ED40337C204DD3EB505DBB5E734D90FB6F0D1B508BB77CB8CCFB08311913711C"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/3/6N/OFZ2R5U7SYT7F3CB3XEANE.uasset",
+    "sha256": "751D0DE85F4895B264E1AFB30A6DDCD066AED4C8C1DA7C777529AE4797039D6F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/3/8G/ZPBH7EIP0LIE3IEE3X5I9P.uasset",
+    "sha256": "8FE427DDD8B631ED113ABB341201F3322156C8ADD4A4327DF87416FB73A62E28"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/3/AD/4ANYKIAZ7LHW90QHRA8XXY.uasset",
+    "sha256": "A5AD3B081A0A82B9E9485B997D231C9175D273482D750D4DFE279DC34E7857ED"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/3/GK/3ZJBQHCJ1O8II9Z86X5JZ8.uasset",
+    "sha256": "504C17A6D04F8BB71E3C6A6911F7977C66E66ECA0EB61343D2401986B36E5535"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/3/HE/OG8UP7YLDKLJGZ6KZI41ZV.uasset",
+    "sha256": "7FA42C2202ACA090062ED06F9660B9357092B233FEEBF76C9AE38B9BA19F119E"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/3/JM/JB5K424E7XL6HOHHKAGZ44.uasset",
+    "sha256": "65E4834F351F62FB44AAF64FB4CC364D1D04248DF36C1388340EE9AF453BE858"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/3/L5/T7HZAJOHJ8Z18VN4WJBHUF.uasset",
+    "sha256": "9843DA996D04D5A00D87D5C78DB9143C008902217CC0777AB08056A29763A35F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/3/PZ/4LJ5CNYK9QNGK7I6CKWDDP.uasset",
+    "sha256": "61AEF99E0A7306473E83521C9489A74EA2D57DCBAA61E2F3E41809A91C1AC1A5"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/3/QB/9KU2R8SEQ5NZF4EGCALVVD.uasset",
+    "sha256": "8C496965FD6BE284536D1AC501CAA84A084F465F98C57D66B883FF329F16D3DB"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/3/U3/8G5Q2ACBQL028FQW3TNA83.uasset",
+    "sha256": "9DEBB82901C5FAC4225A51374615243E5040D53F3D1E00DBAD7DDAF71D2F703B"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/3/XH/ZI2O8JLKELBZHG2VGWB2BY.uasset",
+    "sha256": "5FAFF5771130C043FD199899E5D8AADE144DE96B10B08FE80FCE6628B63C2BDA"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/4/1N/6ZCWCW0P2JN8XT3L45YXLS.uasset",
+    "sha256": "27F2605071D224A6E9F3DC164EC8FEDFA0EE1BDEFC64753597A1F4B673999751"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/4/3O/7P5L1R6H2S9W36WVJFO7C2.uasset",
+    "sha256": "6034AD1B60222F3381581FD96C89C78A98ED14FDEFA47B307FC099C7CD0E914C"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/4/CU/3X5T5KEXZ9AFNDPZO353I4.uasset",
+    "sha256": "F863813C3432C5112C329CC4C901BADAD6EBC27AE9D3B63241CD1F068DBB4581"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/4/LW/63SRQSBPGN1O19F38FOJJI.uasset",
+    "sha256": "83AB44CA17AFB951FB8E58D10A5E1269E56229AB5C507F538A975877F261FD15"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/4/YO/H0MBGL3CLVB8BC3LTOTEJZ.uasset",
+    "sha256": "11456F4E71E7113715378FD2FBE1DE715B61EEA8036A40B104A6ED50F5669BBD"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/4/YQ/U25QS32O4D60A2JP4UZWAL.uasset",
+    "sha256": "042ADFF64DF014936F0198EC30BF44501B3007B41BB551175F566E49534668F1"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/5/9G/8PH3B28FAWBUO5LZGIKBPY.uasset",
+    "sha256": "4EF31333D6FFB0767A2A9B7BF7C2B596B64C23F457A6D4C068BCC916657D9542"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/5/RE/41ING9B1UUSXVFVQAR67TW.uasset",
+    "sha256": "E8DAC4A6A3DC52C31AF9109DE6A98A2C7D473A9E7FE72D2552D8ADC7258B7BD5"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/5/TR/3KZ317G6QAISBA8KVHXNID.uasset",
+    "sha256": "63F05C371C6F7712C7ABEF12ADA211B0DA9D5741A7C563ADDC436078ACD9B7C6"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/5/V8/ELVBBJP6FQBB46EOR16SNV.uasset",
+    "sha256": "EE870350B1CEB6CFD6EDA436B5D91AEF75B47ACEE6BB3B8DC6D5DE8791694B9F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/5/XB/P3903AEGCCLEKH4X762BHW.uasset",
+    "sha256": "7A6C17D4949704270B2531AC4452BD8F6B490D52ADE11DCABB8F4BC40ED094F2"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/6/2Q/U1Q6LWD0LO8TBYP8XAG1HZ.uasset",
+    "sha256": "55AFD9D155F087924A0B8382BD70F5DEF0968A7E70D05EA575306836BC71AF39"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/6/BR/8VZFJT0FO7JL9XP9AKBVU0.uasset",
+    "sha256": "5A8ABC5D3422002B09B1914860ACE8961AC0634B397BE7145B640EBCC3AA90E3"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/6/FN/P6DHQRHWG5A4ANBB6IVE9X.uasset",
+    "sha256": "C8CC80AC2B775E4406D27B90E214D4EB1F5204F7B9A3E75FF43DCE0B9359284B"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/6/NR/EKR8BAGTREZL6130JK27PM.uasset",
+    "sha256": "6293CE4F1B9F3DEBD49D4718BB279DC38056BF7E80534F300BB0172890F55557"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/6/ST/OY6MMZK8D42GBJO5FHWZLC.uasset",
+    "sha256": "5BA9225851B37143D5600BE98ADECE3A0C0ABB1F0E4CFADBD16FDF32D249AFAD"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/7/H6/HH9TF15E2MP5ZWX3UGV7P3.uasset",
+    "sha256": "F23BC171D5D77342AA9C027E966965BC867F5639138B0385573538E7E6D3901B"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/8/4F/T21R05MMSCET8BZ2EG6SWS.uasset",
+    "sha256": "CFF5A2DFF137C31AB95A8744ACF66405BCF21B7EA65C80B57F5E8777E8E53CB8"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/8/9N/KESGN0131EL35XN79RTO8S.uasset",
+    "sha256": "BFB9FFA2BFDEF47C5CA417488B675438BE9117BD9B2EA5C4AE2FB2B2B12F5698"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/8/GM/VJPIOZG5M5HV9SMJQGRMD7.uasset",
+    "sha256": "522873C39E2F103C309EB647E7CBEC4A5BCD0CE31C4CF8883D6637197F16589F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/8/V7/K9TZMCU1XLDYBOME86VZ0D.uasset",
+    "sha256": "17A62BB79CFCEF9716121CB1EE80A5767D4DA9197DAEDFA80F0C89A137F0E75E"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/8/VA/9SHJ6ONF0NO9EQH3EUOZ67.uasset",
+    "sha256": "8FC9835148FD358B959BB38279D473FE734027825FF5D79FD10CDE99FB2EB1B7"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/9/8K/OGFT07X88T4YB1XZANAEWK.uasset",
+    "sha256": "7DB338F16015924EC7B365B1D05C16062A8B0E0DEF31CD72BCE7BFD4A2709F36"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/9/8P/HXB7QO5CUITP877I1SNGVT.uasset",
+    "sha256": "2742BF5EF94489694C2867D44B4D828AA1CE00117A6DB90B0582382F7D14DDF6"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/9/DJ/PDAUG5BCKDEAJ2FGTRYQW7.uasset",
+    "sha256": "0F1355EF34C89DC5F5DBDE31366A7577240C813F9C5BBE5EC6EE20BA642C9509"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/9/J6/KXD20TVKFIAWADS9P5K6T3.uasset",
+    "sha256": "96A3B229673C2187D5BDA979E4DCF7DA131F43403BDAEEFD077748FA44571EAA"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/9/L1/8PH18ZESFPZR6AFQNZZJHY.uasset",
+    "sha256": "8D24F5B2C66303AC2299DAA747D9D1C1D99CFE19674B4B4F4C3CA36194D76E60"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/9/NW/3TP5SO08C78O361MV635WZ.uasset",
+    "sha256": "0DCBC7693B5994FBA7373CDE9D3805475AB76AF950793E1158B94E3DAE7D6DF9"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/9/PO/Z5JQ3715U90GC78LF8YVZE.uasset",
+    "sha256": "2BAAB240B907A1C2525B81A01C05C13FF5B3A3390984564D64F1844AC9492B53"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/9/PQ/FUO1PC0ZE1T7HGD5M7WH3M.uasset",
+    "sha256": "99440A0F6E6FFC597FFBE0BAEA6C40E2C4D3F2731317B92A61AE773627944593"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/9/SQ/MI31B44UZ0O83WZ92D8YYJ.uasset",
+    "sha256": "482A127D6E2EA505B25EEF2E93250B0D8FB8CD74A1ECC27AB589DB7B7426FD19"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/A/4E/Z2RVP4X49TRJ8PV1TG7F99.uasset",
+    "sha256": "83DC319A0620B9AB09E8A40310A585EB3BF946A98F5A391C04B2CA6CA17FAD55"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/A/A0/0ZNCGT5BJTSIS7GE8BBTBR.uasset",
+    "sha256": "6F22126E4AD75636A470CFCF6B72FD1EDFC5B54616FB923C2E72597BFDFFFF5A"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/A/RE/2051XEA4LGIN555FZ9R41D.uasset",
+    "sha256": "5031862EBABED53891E2AEC43E512812169BDF8CE1259E23357BE8D613D096ED"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/A/TT/PEKH451HOOMAWN4TUYPAXE.uasset",
+    "sha256": "BBD474DBC5F991C4A7A6A24D9C3F6B7652BBD8DD36711932D449B545487143B7"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/A/WM/PVV6DOCSPK8FAIAI96F846.uasset",
+    "sha256": "8BB712B6F2C8ECECB2C22F1FCBA972B390C9B17826A9A5C11463238A9E4F710E"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/B/2Z/V55SREFRW1QNPJ6CMEYPID.uasset",
+    "sha256": "EAC3C4111CD3C01539886FF03E5A08405A9B6CDF89D4EC6BF3A12D56F9A2490A"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/B/CQ/T05AOFB8X3Y7RPQEZ703H3.uasset",
+    "sha256": "92EE5D6F326F9E8441CD89D2B790D44E2B24EEB69E886FB8ED88E3CE75F787AA"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/B/DR/JY8SVZB41D6BLQJZT15DEL.uasset",
+    "sha256": "7AD451A157837AE2104EA2E2898F4E4BE1716B39AA54E6506355C66CFF4E7539"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/B/E5/HXHMPRE5K9TQ8IMYNUFT0K.uasset",
+    "sha256": "84FC3434A4825A4A6B11F23211314CA35630D0A92A8855CFDB8AA205FB386BFA"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/B/FY/LE2HVZRIWYTD4D2LOE75Z7.uasset",
+    "sha256": "4F5FC4141A849F1296A59095B578E9CE24D07805EE0FEC6C2B66A3CF861F0321"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/B/JT/XP386E2S52UV4Y1UWONFOG.uasset",
+    "sha256": "53E1E085D6EE21D435C58DC25A06436FF1D668E64A27BACAD0ECD125EE25E351"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/B/LN/PZBDBOZ4P0GSOF0G4UQO24.uasset",
+    "sha256": "D7F7AFD5920321D39AAAE64F2C38D6137B8BE1B3AF0BA6178B0D6A75ACC058E0"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/B/U8/WEFKJYFRD6NOQWK1CYE8MC.uasset",
+    "sha256": "4F004D43516A8E126583381802304B370BA06C5966E169EFBB7F5FA8E05C030A"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/C/6B/R2H3DQMJE0N712J72DUGZM.uasset",
+    "sha256": "2DCC9FC219597A329C7EAB8E2215E255B28F87F6343AA61228C0E1CF999F3815"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/C/F2/KD7ZDAX5WSTHYZHAIHIVOE.uasset",
+    "sha256": "6B97B6F9696FB3A3B88A97EFCEDED1980B18735CA323DBE694334CB79CAE7FA3"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/C/VN/3X14DSC2WBO2DN31WFFFEC.uasset",
+    "sha256": "A1FB6371C4D2E7BA527B2A0EE961C1896E8F7EA75BC2E3C0A27EDD5EA1D00EAF"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/D/G7/X9LYXH5KHAQDRL4H74W1CV.uasset",
+    "sha256": "281D183555C6346D8E4400924D8BC8C7F16A0E7F627787701305EDCE93D02C9F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/D/GK/ZY5JAZ69GEG4DXEH3ABYGY.uasset",
+    "sha256": "29D064321AC7F31DB9D4525C99731CF13EBE35CBFC3A53D06E3A8E4A209589CA"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/D/XI/NKDB0RUCK5SBQ97LIA6W5N.uasset",
+    "sha256": "646B1ED09E29F56F7929A0FD872190A0822A2CFAA1EA9FFC9C4C35ECFC639491"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/D/ZA/2D8B8Y2TMBHSQR4C5FUHOM.uasset",
+    "sha256": "8A0E3687076575F36CFB1CC3142ED4CB67ED888903D3F2BBB9F853F67CE3188E"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/E/7J/9BJEHFBRWNQ4Y19IW2AX89.uasset",
+    "sha256": "EC746D21DF40ADC548A6407F5B20318DEC2761AEEFB2F2DCDD2A003411AB77C0"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/E/ID/VDROBGOSK9AYG8F03X20KO.uasset",
+    "sha256": "BCA01CFFA66E6331538173637FEAC8DAAD79D440AB0F8BD766481EA1628D3E70"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/E/IM/098ZZWGR4KV9W9OSXMLS3F.uasset",
+    "sha256": "A8C249DE0EA457CA89F97641FCC6EDD959783D7948B9DA28E64049B3C79BFF3D"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/E/OZ/EWBP9T0DZVQI1I0D108ARK.uasset",
+    "sha256": "1509A5FAD003E77C0ACE183E9915B476D3EE3D1B221F06E0AFC49D1C3F6396ED"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/E/YZ/J9IK7N0CFE4C5F69C788OD.uasset",
+    "sha256": "49BFB9DE69D01FAE95F774D4DE2E12C51DF348962EE4CE414944E4CAEA2943BE"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Horror/Lvl_Horror/F/30/Q30QC3KM9PIKZM4AGT7MT8.uasset",
+    "sha256": "F08873CDDE0319C71D272381C20CDE0D553F06FEBE9BD9A29934ACD60677FEB3"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/0/0M/2W7A0TQFW2RQ2JSGI4EAAU.uasset",
+    "sha256": "4FFB2FB133BF59FD69757EC3C7725BCE3B5CC83D19C32E4433A609B8B0863617"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/0/3W/4OWTQGAFHRSSWPHLF17GDA.uasset",
+    "sha256": "D7C32AC747EFD135B5E40D01A454B28FEA64B231A384C88FAE128FDB104947D0"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/0/AF/ZF7MEEQXMQ4L1ZLTG98CF2.uasset",
+    "sha256": "EAE251B4162DFFD0736F702C4F3D0A131F833BD1875078463E381EC67C6C5837"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/0/F4/YDO8QO1YCWW4FK9C6JXB13.uasset",
+    "sha256": "CF31CE6D496CB0A63EA893B7D5EDBA640A9462D95D693A5B1A8BA83096841F3C"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/0/GO/V9XAM3GMJV136EQQRF4AX6.uasset",
+    "sha256": "C93120DB759CB6411CA9F7E7AF84C8A5FE122A2BA588E60C38B1DCDD21EC07AB"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/0/NI/MG4LD5RUV0OUVPW5ILC24A.uasset",
+    "sha256": "6E92BFB28F5951D14D4707F56D68ABC3F822BDFCF812047D4FA8FC073E2DBDE2"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/0/SB/8XCGDZOPH9K2GTXGM0NZ9Z.uasset",
+    "sha256": "3F5DE39F26FC19F3B29F82BD8BBD90710496573C34DE1D3F9AE990E0C77970DC"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/0/Z7/F9FGM7QMM5OJ69Q0FQVPI2.uasset",
+    "sha256": "86002278A962EF5C144AF60903F3C5087529B874A94CFC2F17CF747E585F3CE4"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/1/C4/DK472FPXL56BWBL5GTSRYC.uasset",
+    "sha256": "493F53EDEDCE39B3F031343AD85CD0C303DB6EEA5055A466884B2CF3C5F4B7BC"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/1/E0/YOQ2IEWKHEFVIYLKEOACFS.uasset",
+    "sha256": "9BE4FB1143125722E2D4D252C0A8605AF032170D495DF39170F875113B280CAA"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/1/J3/5P2KEO4NI8FORQR8QBNI47.uasset",
+    "sha256": "EC95EE4F6E50C22CDE188589F7631F8854312D63F555C65D140873D1F735C6DF"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/1/TR/H93R1S6H13LSMPCN0XLH1U.uasset",
+    "sha256": "6576B334091A5538A4B72182CCFC2FBBDE129F349CF728AA777C40F63A76D804"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/1/W6/NU6H0B1N4KZ39T0WFGMC85.uasset",
+    "sha256": "4B7DEB03C475F33E8B2B89FDF382462AD3D370993BCCB0D7337087381D8F604F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/1/X5/OJ9O1Z0V1RA2I60X0E1MCB.uasset",
+    "sha256": "9A6A8259D4D91C853EAA5230F043958634F7A9FC3CE3882490420015265EF379"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/2/21/OPIKYSZSUNYQ6FCTTCKNH2.uasset",
+    "sha256": "B6EC8306A7D199B17F51A7E99092EE56956712FFE3E2BD0C98BC406C8FC41E6B"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/2/2I/LP90LR7MNBZK6BK6WBYWE0.uasset",
+    "sha256": "E0DD676E1961BAB83BECFA612A921B103443134259F9C51EA077DB79E8A5CC6D"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/2/3S/QP7RC5S7TEGQTEGEPKYS7S.uasset",
+    "sha256": "A2CA730DFCD1868010B295A36AB562E0A2EAA7990DD5CAB8FFB291C7D1A20D96"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/2/47/EPSQHQIUJ0PMGCKIRS4P3D.uasset",
+    "sha256": "36C05FE97E9A9708A079E74417F6E0D06249DED9A8921FAF59130AF0DF1AC307"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/2/4R/OLEQXEVNQITH993RA1K72C.uasset",
+    "sha256": "9308E44B81356B43994B185BB40C01937AEA6269F8D32080F3536BA3C9FDA4E3"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/2/71/YW8CI30OGK3D0E0UFPW345.uasset",
+    "sha256": "6785C5502DE39133C69924C987BD20D755B38C3513BC911836132D15EE5CD75C"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/2/A7/N2VQC81615YBX5QQ4DD1DH.uasset",
+    "sha256": "C649311CDDCD87CEF967C2E8E1C5ED3033258720D12E0E5EA74CF67D849D316A"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/2/EL/ZCMASU9FA69X4FRWIOZXLF.uasset",
+    "sha256": "1F8758AC53AE14FB7DA7731AB7F44820111E7D704140F38FE24E9291293D981A"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/2/TF/5V1R4R14ALRKBVE4EB3IE5.uasset",
+    "sha256": "2C6B538F0443E7B342CC1CD43BA0A6437E4656FD034ABC782367BF900E715BEC"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/2/VV/8T4IS7U0HG2KEYF3554ZMT.uasset",
+    "sha256": "A5C9CCF202166C4F9F379B9A45C3FC60508663B08D6AE057E0DD99B2DDB98423"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/2/XB/NXHNT4IWLYE5N4Q5JWHKQT.uasset",
+    "sha256": "ED120208CB87745A8D052EF7A1522E3804F0058B4A57A4336B8CC671E802D94F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/3/D1/BFO7PDRG6PWTEPAEPCNPD3.uasset",
+    "sha256": "B1D51F110D2B7FA35283CA2B986D61975CAD0B5101C631DFFA9676627E29DAC2"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/3/EF/ONB59WKPJIJQFIU8TQF5HB.uasset",
+    "sha256": "36394A64BD4124764A5FB09FD3E122EFEAD905763843E6B6DBC45118103F55D1"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/3/FK/B8JHTMJJT6RAJNB20BVLHG.uasset",
+    "sha256": "E5F172E25394CFDA7244D06694D694612A4965047CE312069A265FD27D70B065"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/3/G0/CNMKSON899NRH3LSKRTO8B.uasset",
+    "sha256": "44312F76C74E133D5A00E94000618B38FDDF4A398EF44EE54494AB19945BAFAA"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/3/KQ/U2GB5PAQ7IKHBWZX9B3E5C.uasset",
+    "sha256": "BEBEDCD83F59E1D47E101744CE8828A7B973E4B2ADB3BCC3CF3FD4326D7806EF"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/3/L4/X2RT7LNEHCGGGU1MI95AT3.uasset",
+    "sha256": "55A18A9198C4E84A4788F069AA2AD5F8793912A0C982071FC09EE552E15FC36E"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/3/LP/VOOY55N5QBASMJ3MB5FBF8.uasset",
+    "sha256": "26CEC94979B39BE91E99FF49AAEF166229925596168F3043AAD7FFC8C237A1C8"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/3/NR/2FFVMWVCFXP8BHOTFV9ZYZ.uasset",
+    "sha256": "54F1DB95D6D30CB7B0716DE8C47FCC93561966B5793C2E11B439484BB5FE5698"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/4/3S/AY58X4SHLU19PXGLVCJLCU.uasset",
+    "sha256": "F963D40B801CA417C1D674823B65C4C8C35B717DE2F224A098BF120DE889D38E"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/4/4A/VTCLSHIX2YXQ8FSREY3I5O.uasset",
+    "sha256": "958456CBF07FC4575EC7727BAD6F3E47A8331F68778C713FC0259A3173453C80"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/4/74/E8REIFZ2JXZGKXPAG377ZI.uasset",
+    "sha256": "09F4F0ED2DBBE3F7F533506CDA77B53F9934D23B2C3B9C6E0E666E3F26664546"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/4/8R/4KE7PNR39XBST18TQVKQD2.uasset",
+    "sha256": "D8A0A76BC2C293CA7AC499BC6E03F36B12E1D94284A29095934298420CB621A4"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/4/CB/MKHCMIGW9MTCBYZ2ENCHZI.uasset",
+    "sha256": "4ED53645ECDCE464A3A65A83A2E1E3845FD80931CE43CFC1AD2CC366AE935489"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/4/F9/IYHQGBLXUFEQ4FSL3LGMKP.uasset",
+    "sha256": "AA63AAD7A7B0EFDE1BBFF104F92FF3B7F84A5370501F647E3D1EF9926E20ED58"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/4/FK/N0I7ZGW3RHRDWQJANEWT2R.uasset",
+    "sha256": "9C5F58D73DDE89A0CEED6BBB0A1F5AB6833CEE2BFBC7C832723E4EC38FF3E7EF"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/4/QR/Y2VZNQLMIRRT4AF72G5PJY.uasset",
+    "sha256": "239C67F95A8BE87583CA8E8F63C45AB6B6007759149F5F27B0692077594A26F2"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/4/X8/2YV05QMX7SE54V3NZM2SUR.uasset",
+    "sha256": "021A3BE8AE552B7BBCD4A13B7EA2BDE985619E23D871421B5A309445B0921108"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/5/1C/A3UKEQ70E1RMOB72D74WHO.uasset",
+    "sha256": "6FD2AD98BC20E600D1BA1F35F519575967F8D26D1E85673071F5223B902DF734"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/5/4N/8930XQ2F5PXX5UP7J3NZWP.uasset",
+    "sha256": "D99F770DE4479E63820FCA5BFE0BEC7DB73D9FB0D4413C219183B581D0E47A3D"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/5/82/3FXC2P85LEFD9UWU50YMVL.uasset",
+    "sha256": "E5448B9576AFE5753A88E44501E7B58A56E03DDF0933434D4AD5565DC8154892"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/5/EX/SPBUY5TP7JPB25VIYJCI4N.uasset",
+    "sha256": "816BE8198D44041FE461E6E1B219FE0BBFFA5C8B931A68F1244160B7ECD6B03D"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/5/GY/1OQ2XTVN6TLOZQR3TZZHWO.uasset",
+    "sha256": "47343B1F54BDDD228B759433E61404D73C8093D63E0E08152F985D05DA69EB1C"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/5/MJ/6PQD4KP1RTD6RK0X2WYDRD.uasset",
+    "sha256": "63C2578C2A7374375865A64EDBD6C23ECFB585D64B6DE246D4500C09AAF7F7D6"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/5/PY/CZVJVA9FVPJCDZW8N0DY0E.uasset",
+    "sha256": "98F1B5DBBFBB2D814F1AE4FA5539E7EF8218585FA3A6832F5F01FF71B2075D96"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/5/QI/EVFNMBE7BZTBXFSLA3MNGI.uasset",
+    "sha256": "40AB7DCE5CFE75D0F72C6C795A01C88EE73556E021A2DC2200B60E34B56BD008"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/5/RU/F7I0JH45UMMDWQKJ3B0IES.uasset",
+    "sha256": "6953644000C3E2C4FD0D84653E1D0D17ADF8F6BB001021A13E3FBFEDF68C5D75"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/5/UG/2IAK7M3SWBNKRNSUQDDLRF.uasset",
+    "sha256": "40B962F02E61125F18D296C9A0FFA4606321019B809CCBC97A809365F81346F9"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/5/UG/PX4LZ68G18XX9UTSXQAF8R.uasset",
+    "sha256": "645BBF6DF9F37DA1533BBCD0CED01F1B58633FAC8EBBCD25D1217981D5245FC1"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/6/81/TPBZUMZA7ZAO0NAMA5WZE6.uasset",
+    "sha256": "B1218850A94BACEDC6A35806280D0C5B109DA42F2AFB6559E9ECCD48D9B5A69F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/6/8N/MFMXWD65LGY7YKQ3QKC7IB.uasset",
+    "sha256": "E2E94801AFA6C7BE19D55039FA3CB66D9B96FA3E8E20F21972880C487638D9E4"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/6/EG/ML1BFF59ATFJJFFG0FBMPJ.uasset",
+    "sha256": "35AE81A4FDFFE814F02ECF8868F13613E4B5AC16AB5E68A7FB4F16510F870D92"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/6/HK/WBN373R14SBX6NJ2K8QXXG.uasset",
+    "sha256": "A9C5D66E5E27C4026B79F21888971E9F51A9922781B9C7D1F3E39BD78DF80AF3"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/6/JX/HBTUH10XOH0KFVBAHOIL2X.uasset",
+    "sha256": "1762100D674AC105BBAD8BD690C8880C5D3E7AD43122A1961B906A4041E499E0"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/6/UV/ITSLYO85KH2FWAZPPGLCO2.uasset",
+    "sha256": "D740E7741506018B31460F8D5BFCA695F6C766B72B8D61E35A46010E207197BF"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/7/0F/CLSM7G0KP9S3SKWG7BP65A.uasset",
+    "sha256": "467776918812E68AA500BB9BECCF5EB594548359E7F9C34484244756F49D5F38"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/7/4Q/SE3163RHB7C0OIJ715G8XJ.uasset",
+    "sha256": "083D53DDA208050B815EF1144DA489328C1A6AE81F79CD6D5E3ACC5C657017AA"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/7/7F/JS7TSR3L8BG7QAMXGPE8KZ.uasset",
+    "sha256": "89777F6F60338F00C52EFF6DFD924DDD56AD0F302AEA29699532142BBC8D43DA"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/7/8P/4RJMNHEYLO9LBSKTWAP3K0.uasset",
+    "sha256": "5E83E03BAFD177CC4577DEC941EC03B0059C6E4714F7D7FE475D178EE028B8B5"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/7/A4/GM34X4MV7JKOEVMT9BD6DK.uasset",
+    "sha256": "D04C5BABF2F930A9BF69CEB140B245DB39421C1F0D23A748032D133B138D4DB5"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/7/ES/AZ00WJD36GHTQFGAA3M640.uasset",
+    "sha256": "589FB019A51E9559285D967E56AD30857ECF76D3330463E3976474A34B9F73D3"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/7/FY/DZULLSRWN7CLU58WEZBQBD.uasset",
+    "sha256": "544E272F982DEB816C3B678A061B8A84B4631984F0FE250EB6B675AAA9428E79"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/7/QR/5L81GGT6LFA1SR1E1HOHAF.uasset",
+    "sha256": "729DB090EBCD9758C37E03801F3D941AA5C7A21D17A21A5CB9FF1061BC352B45"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/7/TM/IKFTKD1ZP1KLUJC4DQ8KVE.uasset",
+    "sha256": "961240ADF4E8B7125473D35C4760A54CBC9C0EFE484ABDA4BF1E633521A99FEA"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/8/2A/XHGPJ0ECCIW2GOB3K8SHKN.uasset",
+    "sha256": "2F06AB8C4A144C1837300DFF2DC3D6F7872621F47702E89250F6A3D9FC60B19B"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/8/3N/EBHCOJGXSI7GEKQVASGUTT.uasset",
+    "sha256": "F7664452B41DC6E5D769B337287D8545C13DBC87D91EFA2E25C26C2D5E38698F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/8/5D/WSN91CNHUAVJ5XDYC4FAC4.uasset",
+    "sha256": "2CB5F3FE05A7AB8030B4E22C2B0F499DD385770687959CCFCA33A6FD1D823BCD"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/8/8M/VITU9EX4VWF006RSKKKE8H.uasset",
+    "sha256": "E3FD0F866D1B8F06CEB45D09C3E3C642937C24EA7F7D378DF6BA6D3C84EB5DDE"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/8/8V/DETGNY7T4LFNIO9AW8AJ2Y.uasset",
+    "sha256": "1E9D571ED41C4EF66D74B8021356EF4D447495736EFD93E7BC3FB7866829E216"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/8/E4/SHIWMFW5LS6BMG8YLQF90P.uasset",
+    "sha256": "23DB7ED87E4E37F35C0690ACBBF099B91BD2DED8E5E96030D9A80D4244B28A24"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/8/J2/NJSICP75S1AAG0RX0WWEV8.uasset",
+    "sha256": "9A8D6A300FE499163BBF79A3B52EE9082A7479D60558418EB2DEDE5BEAE1FCF0"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/8/PA/GKTBLM66BNQLPZV4E8XZL2.uasset",
+    "sha256": "CE649762E4F0783DC757DD0BE4D4AA065C399DE72215C52A925D42B90D78B933"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/8/SH/AIAQJXTFOA1VCWQOW2E4RR.uasset",
+    "sha256": "D11367E258E378CC2BC0B13B424B8477CCCD89D51AA7A5C110277B4AFF14BA0D"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/8/U0/X7YRBKY2NXUICG2T2L9HFS.uasset",
+    "sha256": "55D51FDD0FD271F4A91F1F48041B334661BD91F70B15DB933DF389D40D238497"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/11/S85EET3C30AER5UMTBB972.uasset",
+    "sha256": "C9E37308DA7AF8525EB9D33D4A6D458282FEB171059B3549488F1445D178B25D"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/68/5UFLOC7TYTREZUJD4TVN5J.uasset",
+    "sha256": "661D7377ED098B0B020C060F5DC941C0E267C8FE155178315BF6FE9C2DEE86FE"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/B4/XH06CNJM9F5JBUW37K8ZGU.uasset",
+    "sha256": "7FB5BEE53E2E85FE3A81504BE0AFB4596DBF789204E58C33495598F3AA529070"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/CD/WSMTLK2F2LHYHZ1ODL6U8I.uasset",
+    "sha256": "E7B82F6F5A0045EFD73F29367A337127506A236C1011457C5671670342C2B74A"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/CV/UORV0S2ARLO4XJO8GJVJYP.uasset",
+    "sha256": "49FD5A3B5BB8CBE3E1169940D477B2D249AAF323AAE2EC11E63ACA869BFA097D"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/EA/IFDP9Q20ZABLKDWU3JG0XI.uasset",
+    "sha256": "B6B4EFA899286F37F537A50469334A6A7422C02655A0E937EAADEE6737418ADE"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/EF/TX8KPTY73QLOGBRUT0K7QO.uasset",
+    "sha256": "50C1C9C1FDDDA094C813AEB8221F5A484E573CE6155F783C673A18B77BABA879"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/EY/FC7NMRYAN0Y77NPAC5S5K2.uasset",
+    "sha256": "70ACD71E28839EBF0EE8C135672522AEB040D7324030E467FE427272D8277CF9"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/GW/JEA64HFPIFEUWSJWGTPHOD.uasset",
+    "sha256": "B1618A32A5016D66B74F472E0F2B2162230C85FF67E0C8A37ED02AB16652AE0F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/I2/5ND7QZ3YOE1FN57S92PCC6.uasset",
+    "sha256": "D47614217677E63CE4929E92D1124EE7F9DE67BDC5BC25464B084443B3B6BE3F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/KF/E8ZVIKZWKZVYOPCOJLJJDC.uasset",
+    "sha256": "13479809EDE20E8BDE3BC5497BCA3A5A3D37B1DAEABA95D8756C911CAE74FA3B"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/OQ/WIWCALTDEKEGJB0TLM45SL.uasset",
+    "sha256": "659AF50BFD13E43658F88EC9D11B4FCEEEBF56C31794D6D2E4B8A6EE74B467E8"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/P2/ZPU2HDJ9PZWQ718JH95FB7.uasset",
+    "sha256": "94A36A252D7315B6A9F1EF10998CF99A99BC33710CD2C5DC49621A4874649268"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/RL/Z64VCCBBIKFGKMJSXMOLRD.uasset",
+    "sha256": "9718CCDAD9C746E51C55D002F3EACD46FF3071333ECB9870CFC8B4091D9B0DC2"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/S7/MS6LGAZB30JAO6LZXG9NCQ.uasset",
+    "sha256": "6DB3C699A0AD22A9ECD43AB69592A3224633A372CD4B2390EC1F4F6AA3DC0BC9"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/T1/Y5TFOGZA2J90AXOJ1X2SI3.uasset",
+    "sha256": "86B492F9BA438FE7D283E51C497DCE8FF4B800CE70A94C7A7904DC4511651D40"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/WI/M7RG491UCWT2BKDWW40DQ1.uasset",
+    "sha256": "96F2FB7683E6A9C56A86C549B044376D94031BB5A1A47CBE8847268C78AF427D"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/A/68/K0MN1M8CMOSGHYTDTYOTRA.uasset",
+    "sha256": "C481DCC05B753DECAF9096DC31F96E795E59F72F31F882409F7F95C931A4B9D8"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/A/HE/VU8B6ST3EIXVOIQ7RDLJXD.uasset",
+    "sha256": "904F2587C91D47C8342849AA8C2868886451415281DA4482F034D37386EB5D71"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/A/HT/64QNI431ITASWGXQVEP9GZ.uasset",
+    "sha256": "AA7651564B7A1A7A014B48F9DE4F5C35D07F3EEB160164BF850F190F0E5494BF"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/A/KN/QKE5ONGFK6KBAWKGOX5EFP.uasset",
+    "sha256": "130F18A0AD965179B7FCB1E645226F276CFE74B0485C1B326E7B1401FF9D4659"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/A/O1/JPCT6UKOQUR6ZBFSX0R3YW.uasset",
+    "sha256": "C02F468F6164089B050C17276C62984931872C28BDA919EDC315A455313C0D6B"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/A/OG/ID8G9B27E6SMDDH5XN7JAE.uasset",
+    "sha256": "1054FD4739339C146E8F5C903F1881DF43F26D3D89DA192D7697197E1FDB5402"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/A/OR/8M18FS2XGZVEKEZCD9M9G5.uasset",
+    "sha256": "B93A6486A9A1803EF52BFCEEE60657C0F0E4AD5251BE44270253453E52E272C2"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/A/PS/2HHOJ2I7VB009PVNZSASSP.uasset",
+    "sha256": "ADDEC85C12AEC062192C3DE8D2BD53E9498FD57CECD346E81F2E7CE268829C4F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/A/RB/DH88LLLXULXZVJKUSKUY65.uasset",
+    "sha256": "D5814E6A95B8DA5AB3F37960559AF5BFA20C19BBD93B9DD8CFE2BD59ADA1357C"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/A/WS/OD81AP87WA1TF62223ZRF1.uasset",
+    "sha256": "5AFDAFC94DA03893DCF3E4F881C9C4C771C7CE9E36688929C3AA8D36FA2A11C0"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/A/WY/LVFUG6K1BKN13XE4KQQ40K.uasset",
+    "sha256": "458BD9EA04993CE12674B760147C75A59AE429BD0BAB12205B8EE8854B3B7898"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/B/D9/Z57RGITVPW1E9TYTA44LWH.uasset",
+    "sha256": "F8195FEE65345B7FA9AF846E5563AB0902401379AE9983BEED7C5F7BC09400B3"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/B/K6/H3CZPHI7O0HFA0DHKWFFB1.uasset",
+    "sha256": "59D20CEC3E6FFA01A2E2EB83C18F8224E09662F0F3FD02D356FB2C1975630572"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/B/NY/ZXIJINPFFQNCKX34HPQEDZ.uasset",
+    "sha256": "564382FD32687710F9B18EE3DD2861B6837B46E0605908DD1AFFC4AF1E7A5A6F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/B/T9/WTK0WZ7YP778QRTNM2ASIH.uasset",
+    "sha256": "3D202BBFF2090C8873E94BB5785B6381CD88AE6056B0CB912F270D1EE9190D2F"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/B/Y2/NO03Q09VKP8EMBQAGCK9MU.uasset",
+    "sha256": "C33AC38315FB29C30003F90176858955655E6849C36D29BA64A3A1A3C2C4EA80"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/C/7O/0L9RYRRBQG7VEGHR8Q98BD.uasset",
+    "sha256": "B937407713B7013996C18C7372CBC5E576207E738F90450A714B044659B48D2D"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/C/C3/Q48R0F7C7BXL14R1P7QC22.uasset",
+    "sha256": "CFB53EEFD83CCD6F3A31AFE5A728668792939ABA9A2C45CA325CA6E0C8B8522B"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/C/DO/HZ34Q26I12KNKJVQEF18EM.uasset",
+    "sha256": "7A6A6839BED8B903ECC2414901416B40186E69309C7F625C620D55553FBF08B4"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/C/EC/KA71OOH03YKI068HDGL3VB.uasset",
+    "sha256": "5B7ACCA59BFD88C1FA6F00E8C60D534323043F0AFCE831E67CFC7A2BF4FCAD05"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/C/SI/8DCD2UP9VNXNP2N5WMXNUQ.uasset",
+    "sha256": "12161558D0F875B340CC241050E3EAC0FB5FD2F61CAE337FAA8154D9CA4F95FB"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/D/5O/XGIEUX13MQCOU125YK3X2C.uasset",
+    "sha256": "A56156C7BDDD29F8B67A23B411D56E48B42C08DA6ECF209EE5C0D86650AFCF4D"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/D/9H/36KF3AMIT683JEIMNB4XAA.uasset",
+    "sha256": "ED26976DBCE726F3E23DAC318E8CD16F22D867D2E0F58A961BE3543DBFF9096C"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/D/G8/7GP7X2YYJWIGC7PC3AVPXQ.uasset",
+    "sha256": "178AF063983CCF4BAFDB73B881816DE6D3B26E363E25776AB723CD8620A35AA3"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/D/HW/I1794TW7FPLR5XAV3TW7L6.uasset",
+    "sha256": "18C666507687171346A2BC15195277C0B407467595009036A59A475BD243E497"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/E/44/H4Q0ZTK0XODVRU6OS62V6B.uasset",
+    "sha256": "A87BF8669E9B8D7B436B145680D5F4D1AD1A215CF558B90B7E41CDEB4AB8B198"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/E/4V/C1AI26EB3D2ORY2QX3LI4V.uasset",
+    "sha256": "2DF3756ECEA53C15CD5C98F395E1739B515F69F3F5A1436C33FC40AC34452896"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/E/8K/GQDG92R9FRUQLYSQOFAMKI.uasset",
+    "sha256": "B2351BBBEF09BFB0737AFDCF65DECDA298285BB1E2A35AD473D5CE2553B81AE2"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/E/99/L0HWLRDISQ4RX3LTBZGL2Y.uasset",
+    "sha256": "08C9858CD5530B86EE94383E8BB5A3A7ACDE9B5419806E5D75CB13A8AC45C631"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/E/AG/V9HGVOTOBYIE10UPD6CPRU.uasset",
+    "sha256": "0D3E4CA6116D2416E0C8970000F8C3D8669FA0862139CAB23C66FEAB0E8FF75C"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/E/CY/PYU8OGSFL0C5HOKJTOQJ18.uasset",
+    "sha256": "540A01D224989113D1522D1F9D7A5F2A27E8FD0FCCE9D7EC7EA36813060D3F42"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/E/OV/WP567OU0GDSNI7DV6OHSHL.uasset",
+    "sha256": "8635248BCB1DCB70F7F14A6F0B07EDCB5A1A088D60CF2DB74DC289324ACE4DFA"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/E/PP/0FS30TRW5307EXU14BXFWH.uasset",
+    "sha256": "4ADDE21D5AA94CBC96BF40B227B94F6DF18535F7C4CCCFBB95DA4BBE7A40516E"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/E/RC/YWG76NICZRGBLF21JJXNPV.uasset",
+    "sha256": "66D1201F81ED4AEE6FB168D54141E6A0CC29C7AE5B477D55C1C52B6DE491E4BC"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/E/TB/LAHFA52TW10239NQOCP5VJ.uasset",
+    "sha256": "26B4F7412BF4BDF5008220B535920416644C2C6CFF39207AEA8C3A2A63D2EAB4"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/F/1S/0E5W9QWRKKYALBDU8J7OJ7.uasset",
+    "sha256": "FEC46935F270103F71356360D5B08EF75CE9AABEA6AE99E50BB103E4002005E2"
+  },
+  {
+    "path": "Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/F/3Q/D5C015VFBWHJPBUNK6LYQZ.uasset",
+    "sha256": "F173458C5AA4E60439A5372A97B74F183023C1017FF7A472270E337D2A8F4768"
+  },
+  {
+    "path": "Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/1/E5/IOQOGT9AJYYZQ06SOLO6RW.uasset",
+    "sha256": "AE06F5D4591172A518E5215EE2B4EE22EE57CD286E746CD9717BD00557F7C691"
+  },
+  {
+    "path": "Content/__ExternalObjects__/Variant_Horror/Lvl_Horror/E/4S/MTC0EUCY5X4PPSGG0YEW81.uasset",
+    "sha256": "D816742250B3D2EEC4A3B538D10C879AFD74104A32D3145E2D1B887C753686DC"
+  },
+  {
+    "path": "Content/__ExternalObjects__/Variant_Shooter/Lvl_Shooter/1/YM/YQOYN83O0AY6EIUCED607T.uasset",
+    "sha256": "E619B59C625BFB73214A1BEE7CD29DE0DFD8F639B4F0D6B1318321D55024CD28"
+  },
+  {
+    "path": "Content/__ExternalObjects__/Variant_Shooter/Lvl_Shooter/3/2W/ZNRQ5WHS64UROQO8IYBQ8K.uasset",
+    "sha256": "90DF125B6E8CF69878A3F2737D50908BDA726B8E9DB7614F576B67CB1A35F8B9"
+  },
+  {
+    "path": "Content/__ExternalObjects__/Variant_Shooter/Lvl_Shooter/3/GX/9T107TEODWHN5T1WPYBUQ7.uasset",
+    "sha256": "BC6618A04D372F7FD7C21EF6ED3D41E9032AA55191B645B64D14A47B0346911F"
+  },
+  {
+    "path": "Content/__ExternalObjects__/Variant_Shooter/Lvl_Shooter/5/VB/10P3UZA0QNYFH1YBTDGMZ1.uasset",
+    "sha256": "FB5FBA0DF41968592E79473A86B07A30AE38702F51D4DFA708A1106B734A4D64"
+  },
+  {
+    "path": "Content/__ExternalObjects__/Variant_Shooter/Lvl_Shooter/6/CO/XIQDOOHSXSPVKBOZEQMPYA.uasset",
+    "sha256": "CAF33DF308B779E5B0B9C8BFCCAA55DEB2CC432BF60CFE78EC5DE4FC720BE193"
+  },
+  {
+    "path": "Content/__ExternalObjects__/Variant_Shooter/Lvl_Shooter/A/U2/YWYC9H20DSG3PUCQB8WBZY.uasset",
+    "sha256": "B7BA2CB9FA2E19B0F59C28A53C68E395049DB9324EDEB0288DE3642EC1D85C71"
+  },
+  {
+    "path": "Content/__ExternalObjects__/Variant_Shooter/Lvl_Shooter/A/X7/68F5K6E8SAVZAFAA6X809G.uasset",
+    "sha256": "E1F3ED94390E1B4C09F286E9DD7871753EE5209CBAF11A3406CF705B4EC872AF"
+  },
+  {
+    "path": "Content/__ExternalObjects__/Variant_Shooter/Lvl_Shooter/C/EV/FYOQKZQDM3AYZEKRQRNWNL.uasset",
+    "sha256": "214DC666E5599BD8E227D8C49A80401376B17FD3999609381B8806C4C33C246A"
+  },
+  {
+    "path": "Content/__ExternalObjects__/Variant_Shooter/Lvl_Shooter/D/H2/NB2B3NDNJ5EHLF4RBHMD8K.uasset",
+    "sha256": "EC7573B7439CE6C1D5C0DD40AE90C0A84C92EA74CEF8E9F129FE0015B7B128A0"
+  },
+  {
+    "path": "Content/__ExternalObjects__/Variant_Shooter/Lvl_Shooter/E/9R/OEDP71GC0TR19P70FPV3QX.uasset",
+    "sha256": "4B27EBC76FCB857DAB317279FE0C9B7FB234356AC5D42818D859DCA71658CE0C"
+  },
+  {
+    "path": "Content/DemoTemplate/_Core/MI_Intro_Colorway.uasset",
+    "sha256": "6E3F9DBD6D8073F8BD19CA85547C00A799786945D2B4E3AC6C64791A1890371E"
+  },
+  {
+    "path": "Content/Developer/IRON_SUN_PlayerPreview.umap",
+    "sha256": "1AC5446EC065A9FFF957512CE2C1E69B9374F8765A49EB1EA8777BCF3B609194"
+  },
+  {
+    "path": "Content/FirstPerson/Anims/ABP_FP_Copy.uasset",
+    "sha256": "A9D36CAC5BB30F5A5ECDB175DC4FCBD50D8AE74405AD57802436FBEDBAB02455"
+  },
+  {
+    "path": "Content/FirstPerson/Anims/CtrlRig_FPWarp.uasset",
+    "sha256": "7CAB27CF0FDEC19DA9DD6EC98C5C1E8308774C460DDA518CA0753C276AF85078"
+  },
+  {
+    "path": "Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+    "sha256": "2036349BC35B21FD4FB0264E57386EC39FB66186E3875CCED338FD40DBB20E5F"
+  },
+  {
+    "path": "Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset",
+    "sha256": "EBAF0599860564CDFEFB636AE6A782F3338E0B93B28431E5B7C57342E2B06AE8"
+  },
+  {
+    "path": "Content/FirstPerson/Blueprints/BP_FirstPersonPlayerController.uasset",
+    "sha256": "5E7292C7BEA13E1DFE9306465643EB12BBAF805797B041FFF74608F6AF37A8EA"
+  },
+  {
+    "path": "Content/FirstPerson/Lvl_FirstPerson.umap",
+    "sha256": "0DB1A737486001B5C2BE6C6126D9CDBF42F6BBDF575D09F9311321CFECBEDFAA"
+  },
+  {
+    "path": "Content/FirstPerson/MI_FirstPersonColorway.uasset",
+    "sha256": "D0821072D542C67E5EB8802456CF0F4744EA3EEB843FBF59BAEAE1771E939D23"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_DoorFrame_Edge.uasset",
+    "sha256": "26EB76A2CE36BE334BF0770561475A9E06BE928E9CA75B4A31F5DF3DEBB36592"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/Door/BP_DoorFrame.uasset",
+    "sha256": "4386D7D71B8D5241FD8150AA47900711EB0D8BD069C00DE25FCE07F011D698FA"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/Door/Meshes/SM_Door.uasset",
+    "sha256": "FA98C4FC5083393E085D7B44D0B67A7E830922E2601A439167916616BBC29993"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/Door/Meshes/SM_DoorFrame_Corner.uasset",
+    "sha256": "383DEA9555E76303D60D0011FAE6651A4BE07C24033C0ACEEECD137C954EE3FC"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/Door/Meshes/SM_DoorFrame_Edge.uasset",
+    "sha256": "26EB76A2CE36BE334BF0770561475A9E06BE928E9CA75B4A31F5DF3DEBB36592"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_GradientGlow.uasset",
+    "sha256": "C1B29AD29C2EAC3DBA6DD6A90AED9DE8C6147A13B6288A42BD73FE14B78970A8"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_SimpleGlow.uasset",
+    "sha256": "E6098242541B34BE6ABA19EA1FBFA35107F891E8F55D30D4061AA11B065B8BD8"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/MI_GlowNT.uasset",
+    "sha256": "6FD40BC38BFEA9418FA54FE365732A1219E615169542A0A4D2E1D518318C864B"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularBand.uasset",
+    "sha256": "97FBE3DA2D907279DCBFBBF285E1B111CEB8D5F4A1C9D6BD48FCB8DEFC86842B"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularGlow.uasset",
+    "sha256": "6DDB27BF7020F4980D3F8435CB0928FB48B32C1AB3EA24BAC7E253435081BF6B"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/JumpPad/Assets/NS_JumpPad.uasset",
+    "sha256": "2E76849CBB139160E5E73C226FE6AAA66A63FBF75CBD1213F871CCA65E409817"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/JumpPad/BP_JumpPad.uasset",
+    "sha256": "42BA8262F07355CDF36E33977F3BB415810390CF210B75573D766BD819CF8401"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/Target/Assets/SM_TargetBaseMesh.uasset",
+    "sha256": "378ACE355B8F5E71A12E459D9F8CF4958626884142FEC34BE8630DB6D8412CAD"
+  },
+  {
+    "path": "Content/LevelPrototyping/Interactable/Target/BP_WobbleTarget.uasset",
+    "sha256": "8BD8784BF03CB945D63DEB2C4C22261A9A9EA2AF1F84766805CA92EC7B521AB3"
+  },
+  {
+    "path": "Content/LevelPrototyping/Materials/M_FlatCol.uasset",
+    "sha256": "41DBBDA4B463A224C29EE01765E1F52A8AE63F2F94F1440EE267FE7B1A481585"
+  },
+  {
+    "path": "Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset",
+    "sha256": "BF8625AD5917CEE705867038D8A590B25465E6B5D5818A738A584E515D7CBDFC"
+  },
+  {
+    "path": "Content/LevelPrototyping/Materials/MF_ProcGrid.uasset",
+    "sha256": "E5EE13ABDB241D9811F6C1BCC0A607D229FA7ADC5F46BFD5A9D5FEDBFA279683"
+  },
+  {
+    "path": "Content/LevelPrototyping/Materials/MI_DefaultColorway.uasset",
+    "sha256": "786A4DFCAAA6F4DAF459C77BDA247C2C138140680A8246D521974D0CC4FC8A8E"
+  },
+  {
+    "path": "Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uasset",
+    "sha256": "084681BF680DAD66B8C8CA803D927053CF46756F2F2E62D18FCC439E07DE7263"
+  },
+  {
+    "path": "Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02.uasset",
+    "sha256": "FA0F2A06A7D937127D7D737C13BACB3F8FE88C8E0479F5E6B7CDA81FD225D077"
+  },
+  {
+    "path": "Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_Round.uasset",
+    "sha256": "901EC868E81E7A73C9F3AD4814E1205AF27ABC772949E5A30550A00F31CE4437"
+  },
+  {
+    "path": "Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset",
+    "sha256": "838034E5AFC7AB3A70BFFF6DE2E1237AA02337FB423E95C1B536B3E30C61C982"
+  },
+  {
+    "path": "Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset",
+    "sha256": "B20A3AE9668EC599DB519AF3F84B67952D0E31AC4427B80EE812232EDDE91F53"
+  },
+  {
+    "path": "Content/LevelPrototyping/Meshes/SM_Cube.uasset",
+    "sha256": "4680317A8C87F983E077F6C0A6B93FFAA0BA4DBDDBC810960D4553E6AD380A89"
+  },
+  {
+    "path": "Content/LevelPrototyping/Meshes/SM_Cylinder.uasset",
+    "sha256": "76AAA3C2B812FF790FB57AE7736B748E4E1556AFBB13466FD787D4BACD2C7DFE"
+  },
+  {
+    "path": "Content/LevelPrototyping/Meshes/SM_Plane.uasset",
+    "sha256": "39AB83DC57A9A27A80476711610F72E81C0685A05D4AA95413B3E4E7F6C4A3F2"
+  },
+  {
+    "path": "Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset",
+    "sha256": "4087B3F85753D9CCBCED7D00D42208DAD4D21185F24A97B0C86DB31BE867B733"
+  },
+  {
+    "path": "Content/LevelPrototyping/Meshes/SM_QuarterCylinderOuter.uasset",
+    "sha256": "AB58A5224DA57452F367C9D55EA4976466138FC2CB8EC9E2FA92748C86A07F11"
+  },
+  {
+    "path": "Content/LevelPrototyping/Meshes/SM_Ramp.uasset",
+    "sha256": "E5B472DEB37A9956B9112DCCEE3D09498A456BAEACC574DB8C5D725463B73597"
+  },
+  {
+    "path": "Content/LevelPrototyping/Textures/T_GridChecker_A.uasset",
+    "sha256": "BB8334767064B107EC4F4407EF1365E8B9E2DFEFF5984E66D4A6232254DDD02A"
+  },
+  {
+    "path": "Content/Variant_Horror/Blueprints/BP_HorrorCharacter.uasset",
+    "sha256": "DB0C52665F0DB348D15898CEC4A7B9F136A729ECA84947343E413DAB47A771CD"
+  },
+  {
+    "path": "Content/Variant_Horror/Blueprints/BP_HorrorGameMode.uasset",
+    "sha256": "1A6DBC18EEB049190D0B2974FF3DA358CB817067862AB7992AB958F6727A82C0"
+  },
+  {
+    "path": "Content/Variant_Horror/Blueprints/BP_HorrorPlayerController.uasset",
+    "sha256": "339A0A3D692D9F8DFD70B9AB23FD2B885C4ABA7E2C19478ACFB30270B89A3E66"
+  },
+  {
+    "path": "Content/Variant_Horror/Blueprints/Light/Assets/Materials/LF_Flicker.uasset",
+    "sha256": "AF8D070AD043C2E70115D005EFE610810E5C4A8F980AFCA9040081785A8B0C19"
+  },
+  {
+    "path": "Content/Variant_Horror/Blueprints/Light/Assets/Materials/M_DustMote.uasset",
+    "sha256": "738B039438F2AF76B81C7EB8724AC433B116886D6F32412280208F752E79825A"
+  },
+  {
+    "path": "Content/Variant_Horror/Blueprints/Light/Assets/Materials/M_Light.uasset",
+    "sha256": "EF5582C134B273C069FD2921BC3FCE869B4977AA9E0F88D83997738139A81111"
+  },
+  {
+    "path": "Content/Variant_Horror/Blueprints/Light/Assets/Materials/MF_LightFlicker.uasset",
+    "sha256": "437499A8EABA7EFFB9AE7A43C41FA5B43849E9BAE29EE51CABFC32D774FBA979"
+  },
+  {
+    "path": "Content/Variant_Horror/Blueprints/Light/Assets/Materials/MI_FlickeringLight.uasset",
+    "sha256": "5E27049DEB2852884A51CEC5484CA0EB3A87012C8F463B5BEC69E367083D61E9"
+  },
+  {
+    "path": "Content/Variant_Horror/Blueprints/Light/Assets/NS_DustMote.uasset",
+    "sha256": "B5C39696AAB3CE979B4DF4F0BD4160B8A1E403A8C76B67EAF9D064D128ABC856"
+  },
+  {
+    "path": "Content/Variant_Horror/Blueprints/Light/Light.uasset",
+    "sha256": "CC885AA73A0128A5D611A6866A02D4E67B4946440761799486532FAC65187897"
+  },
+  {
+    "path": "Content/Variant_Horror/Input/IA_Sprint.uasset",
+    "sha256": "AF8D5D7708A374B58BB00068A15EB05E4EB73504C12D03ECE67BFFBEF668F77F"
+  },
+  {
+    "path": "Content/Variant_Horror/Input/IMC_Horror.uasset",
+    "sha256": "05265996E05371E685D36CAA04D94761020D76F7D434A154CC7ADDF6A9530E51"
+  },
+  {
+    "path": "Content/Variant_Horror/Lvl_Horror.umap",
+    "sha256": "DF75DF2AB361E2381A78EDBD7594EAFF872F6FC1C2EBA414163EE9C94394ADD3"
+  },
+  {
+    "path": "Content/Variant_Horror/UI/M_FillBackground.uasset",
+    "sha256": "A3C50BD1BE77589AF348444A3D0DBB1CC30F77DAB5DF47163DCDA259DDBB2009"
+  },
+  {
+    "path": "Content/Variant_Horror/UI/UI_Horror.uasset",
+    "sha256": "16B15961F7EC30645BF8F2977BB67EEE30BBAFD008F9335247E49D50E0857904"
+  },
+  {
+    "path": "Content/Variant_Shooter/Anims/ABP_FP_Pistol.uasset",
+    "sha256": "D770A3E84DB5E55891938D27BF8DA1E60B96275E5FF8E4412C6A3244F435C246"
+  },
+  {
+    "path": "Content/Variant_Shooter/Anims/ABP_FP_Weapon.uasset",
+    "sha256": "5E339A89D16434921E048385B7ADC07754CEA76554D57C904498D8990BA20878"
+  },
+  {
+    "path": "Content/Variant_Shooter/Anims/ABP_TP_Pistol.uasset",
+    "sha256": "61B971649F25C99CB7D962E8805C36AF7ED332BE492D45E8D4A52F6336540A14"
+  },
+  {
+    "path": "Content/Variant_Shooter/Anims/ABP_TP_Rifle.uasset",
+    "sha256": "ECB0819ED236C8C7854539DC0F7F753ED13C4BCA4531ED4E2D817EE31E2B431F"
+  },
+  {
+    "path": "Content/Variant_Shooter/Anims/Ctrl_HandAdjusment.uasset",
+    "sha256": "4A7BA77935DC0E3B83A40788F9F7385655BBCFB95B0A85851B4EBE95B59238CC"
+  },
+  {
+    "path": "Content/Variant_Shooter/Anims/Ctrl_HandAdjusment_Pistol.uasset",
+    "sha256": "51C33BAD01C55BB9DB49598C3154EFFB6F0900B14F53BD52ADEDF39C0AFD516A"
+  },
+  {
+    "path": "Content/Variant_Shooter/Anims/FP_Rifle_Shoot_Montage.uasset",
+    "sha256": "81C6018E2E811754FC8D2083B239723F2AB2A51C132929A7468D3DBDFAB5F314"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/AI/BP_ShooterAIController.uasset",
+    "sha256": "55F9ABB69B1D8B314B8E44F38EB46BA7612D87C4AD2ECC61AFEF8D9B08742015"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/AI/BP_ShooterNPC.uasset",
+    "sha256": "98E92216B7DB2A7096C9B2A6276727E9B82751635154D5012067CA1162E25951"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/AI/BP_ShooterNPCSpawner.uasset",
+    "sha256": "7023525086742CB4BE9CCB8B60019C2C1377684822206F0F915D2719F560C4CC"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/AI/EQS_FindRoamLocation.uasset",
+    "sha256": "20B9FFCE2A8C299484B83B914263341CE6088F06D0415468C00F66F168ACAFB3"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/AI/EQS_FindSnipingLocation.uasset",
+    "sha256": "66CC51991B5333C57701D4406293056736ACB0E186D6FF473CDACA239B256564"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/AI/ST_Shooter.uasset",
+    "sha256": "095FC3A8C219D44B4393465E2B12AB88DC98593A67D9E31CFC3067345ACEA41B"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/AI/ST_Shooter_ShootAtTarget.uasset",
+    "sha256": "A7CC27825B286E833F3A1D8A54B747AA6277E18C3839B12B0D646668ECE6E248"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/BP_ShooterCharacter.uasset",
+    "sha256": "6638B7B1DDBE8D39B4C68AAAD4C4E83834CD2D6F2E824D34EBF0FEEEA770F1F7"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/BP_ShooterGameMode.uasset",
+    "sha256": "E82AB78728C3C6A2C705369CA8E4F88489BDE4A8622E1C33AE2766520B8ACA43"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/BP_ShooterPlayerController.uasset",
+    "sha256": "DCA666B678BEBF997DF2B225CA49DDD6DFBD84FCCFC9BACF7BBE270A7E3289C1"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/Pickups/BP_ShooterPickup.uasset",
+    "sha256": "81ED478F7C927BE3221E4D1E8F441D540F520765B340EABA8DE452DB1E2CA4FD"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/Pickups/BP_ShooterWeaponBase.uasset",
+    "sha256": "BBEA4771FAFC30F02F7E09236B5D8D8209BA68625D584DC8C27477E4B9CCDA31"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/Pickups/DT_WeaponData.uasset",
+    "sha256": "197DD282FF35FB7E022F7C0785FD2ABA2B9C06FE692CA010F3732517C1F964DA"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/Pickups/Projectiles/BP_ShooterGrenadeExplosion.uasset",
+    "sha256": "D91050B1740F1B80E03815C8BAA31BCAA72F363EB592AFDA28C8419ED1A134E0"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/Pickups/Projectiles/BP_ShooterProjectile_Bullet.uasset",
+    "sha256": "6E82F5CF6D56978A2ED8E3574A9E5921A924AECCD973C8F4E5DBB82FC4AFCEDD"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/Pickups/Projectiles/BP_ShooterProjectile_Grenade.uasset",
+    "sha256": "54A0182F97957E1313B373A2716A7F832039833BCB76C41AF56604F289E75CED"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/Pickups/Projectiles/Materials/M_Explosion.uasset",
+    "sha256": "8CEC6D2DA28BE464D0482467A42E40D3031098A4D0F2C5CEE2B1D2E5D66FC6A0"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/Pickups/Projectiles/Meshes/SM_FoamBullet.uasset",
+    "sha256": "636539DBAC619AC17D8F15A4046FD36B62FA417E648E6F8F082109B1D4A2768D"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/Pickups/Weapons/BP_ShooterWeapon_GrenadeLauncher.uasset",
+    "sha256": "6D70606DCDA9DAD841E95A26CA3A914A46E82649315B064BE1465B408DA712F1"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/Pickups/Weapons/BP_ShooterWeapon_Pistol.uasset",
+    "sha256": "265C1E451F571F2E413DD29BD6C92A34FD3C579EF9BAECA5222E567D3A3E5069"
+  },
+  {
+    "path": "Content/Variant_Shooter/Blueprints/Pickups/Weapons/BP_ShooterWeapon_Rifle.uasset",
+    "sha256": "5C5B81A4A251948313ABC8C4177D4134BE325B8DE8B847C243C5EB146D058AF6"
+  },
+  {
+    "path": "Content/Variant_Shooter/Input/Actions/IA_Shoot.uasset",
+    "sha256": "D3A3AB965908D858BDB38D7C19C0F236EB338CEDC099EA1E3AC32BEEEB8E2CE1"
+  },
+  {
+    "path": "Content/Variant_Shooter/Input/Actions/IA_SwapWeapon.uasset",
+    "sha256": "16349B7B0547FAA23641033D365E0BAC1DF2787D196CE8E357DB26845BE128BB"
+  },
+  {
+    "path": "Content/Variant_Shooter/Input/BPI_Touch_Shooter.uasset",
+    "sha256": "E3D9E8021420F65F06E1813C11991C509A15B48D31390AA7DCC585E08FD30932"
+  },
+  {
+    "path": "Content/Variant_Shooter/Input/IMC_Weapons.uasset",
+    "sha256": "02CC3371D6E3686008F850CDB743A625C3ACAAADD51A0A6B4DF4784F07EAF057"
+  },
+  {
+    "path": "Content/Variant_Shooter/Input/UI_TouchInterface_Shooter.uasset",
+    "sha256": "4A7FB6668DAD0C8D1B876EAF08981552F2FA522F39FE1BED7CDA3F6F1BECBCAD"
+  },
+  {
+    "path": "Content/Variant_Shooter/Lvl_Shooter.umap",
+    "sha256": "E344D04D2B1B8ADC4842313CE36EAF16163245C8620AEB39874A10D9A26DB6EE"
+  },
+  {
+    "path": "Content/Variant_Shooter/Materials/M_Ridgefire_ArenaSand.uasset",
+    "sha256": "1F03E0577A50368C8E27A69E5900C17E6AAD2991BD9D87E1971FB202C02E49CB"
+  },
+  {
+    "path": "Content/Variant_Shooter/Materials/M_Ridgefire_ObsidianPanel.uasset",
+    "sha256": "EAF8BA1344E8CAD18EECAF322D0FBF6E9FF240999B0C7771DB3A75F5F458BCDB"
+  },
+  {
+    "path": "Content/Variant_Shooter/Materials/M_Ridgefire_RouteSurface.uasset",
+    "sha256": "95F14648ADB1784262C302BE1B0D9E3D9180F9385720DE086C8E1C89ABD3278D"
+  },
+  {
+    "path": "Content/Variant_Shooter/Materials/M_Ridgefire_Sentinel.uasset",
+    "sha256": "5F79388929BE37FAF366A903F147E88158B142A89776A31462A4562212E39B5E"
+  },
+  {
+    "path": "Content/Variant_Shooter/Materials/M_Ridgefire_Weapon.uasset",
+    "sha256": "041FB39A44EBC5993F4A8347D524C4EB2D479F4FED8327AC5F383838A860E14B"
+  },
+  {
+    "path": "Content/Variant_Shooter/Materials/MI_Ridgefire_ObsidianGrid.uasset",
+    "sha256": "5600891EB38EF2F1218E8D190844BC72BE32635B0FF40E1A428B9375F9FB02B5"
+  },
+  {
+    "path": "Content/Variant_Shooter/Materials/MI_Ridgefire_SandGrid.uasset",
+    "sha256": "8BAF0C208EE5E5D4A35B480FA6A4419DC377CD04242C847B50FC082BF756ED01"
+  },
+  {
+    "path": "Content/Variant_Shooter/Materials/T_Ridgefire_ArenaSand.uasset",
+    "sha256": "42B2AA29AAACD89D758F7F5C174548888582014632315C6B04D7C21498D4F8D2"
+  },
+  {
+    "path": "Content/Variant_Shooter/Materials/T_Ridgefire_ObsidianPanel.uasset",
+    "sha256": "05C5F66C9AEDE8C35C6F0F457A5E6F2D9761495B51D7C5067125634E8B6DEFCF"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Defender_BasaltFace.uasset",
+    "sha256": "622A7F08521717FAADF4B89622EBB4757820EF4F50A27E6009C397882E6C3C80"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Defender_FlexJoint.uasset",
+    "sha256": "608081F06276E8A2EDCCBFE19C2DB773F14C53A37551D8705DD25FF2C282E00A"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Defender_ForestComposite.uasset",
+    "sha256": "578A34C8A4E46AFE0CC13E273920199495DEF0622A7B5CE11E3DBBF654829801"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Defender_SlateComposite.uasset",
+    "sha256": "1DCA49D9599C0EDAAE09A8490F5FCB48E586A2E4E74C4D7F0DCA7B3500F454A9"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Defender_VisorAmber.uasset",
+    "sha256": "A438A73BEFA17800763685F186B2106F4E1CD12059331ADCDFA1DBB7DB47C801"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Defender_Calf.uasset",
+    "sha256": "949759354932402B21D64600551EC80FDE664DB9011AAFB7D197BC1BF2EDA507"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Defender_Foot.uasset",
+    "sha256": "DD3C634A3092485199A74C91A67985C6B016AC650057C9925F11397D30D87C82"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Defender_Forearm.uasset",
+    "sha256": "689288AE5C5D74A6354D05CD961D4378EF07CB6C88F0397DC501CAD889671A98"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Defender_Hand.uasset",
+    "sha256": "B3FF4D1F84590D9B971BE0BACB9DFDF7DC40BCCDE115CA12B519AFF800CAEB96"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Defender_Head.uasset",
+    "sha256": "070CE502B92412A984AE39FE1E917400EF38FA62919F3FB7E0062BC142EC245D"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Defender_Helmet.uasset",
+    "sha256": "7CB47573AA2A25300828B9969871656237B5F2ABF302294DA928AE9F93CC5F77"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Defender_Pelvis.uasset",
+    "sha256": "D92565045D333876130C1345B82724B8D4590A0BE4D4892A8A57483AFB8A95D5"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Defender_Thigh.uasset",
+    "sha256": "7C23CF558AF481A2C50283969F1E7BE00CE4A8B99AB79BE65EEBDAFA90297C9F"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Defender_Torso.uasset",
+    "sha256": "67F3ED51742F8F3CAFEC250AAC2044667F54D4D72A6D7C185E9D435E5B679DC7"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Defender_UpperArm.uasset",
+    "sha256": "D0BD99A7296BC100DDBC21E252A36C6AC0DFE945138CC395785CDA18D59D0CCA"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veteran_Calf.uasset",
+    "sha256": "F9AEF425482840607B04D03EAAE22460E377928AC74D8E499EB7A61E40611A9B"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veteran_Foot.uasset",
+    "sha256": "5C629DD8DE8633B7E04597C5D88F900C7D8058D6731717BE03CDCA343E08974C"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veteran_Forearm.uasset",
+    "sha256": "F396AC0174CD0EB222DF6749D02364C12176BC40D41E20C29CC606D7C8097DDE"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veteran_Hand.uasset",
+    "sha256": "9C5CC7C665425B21B39B56521CF41F2FDA3635056F02FDF033B5E75E16B390F4"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veteran_Head.uasset",
+    "sha256": "CC2C5491DB4638FCE438B89BAE635A972B434592B786828E10C5234CD13705B0"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veteran_Pelvis.uasset",
+    "sha256": "D2B38BBAEF7030A80307A70EE351BF0823E4C6F96FA0E8A57FD22C04EA5719DA"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veteran_Thigh.uasset",
+    "sha256": "257CED16F29BE1E5082928EFF51726603DBFF4D4C68E2D702AFEF81D34DFC335"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veteran_Torso.uasset",
+    "sha256": "11E4047649F168A25B74ED6DCB595638C880B0BE1DB093A58A8E07709487CAC0"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veteran_UpperArm.uasset",
+    "sha256": "6E7CDCE3DF3BA3975738843C46588CDE0ED5EE5893C48BF3E797994655CA0B4E"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veyran_Calf.uasset",
+    "sha256": "5769C7AE0125BB66748C738F2073B461995D082F1694BCBA33068ED23409A24D"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veyran_Foot.uasset",
+    "sha256": "23D814E5CE831EED9476E864C809E29616CF2DFBF933B7E3A7C991BE99318637"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veyran_Forearm.uasset",
+    "sha256": "6F2D540C13EA387EA2DC48FC95E972243A45F288D508FA88988EBABFE2B97101"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veyran_Hand.uasset",
+    "sha256": "8914E67CCA69F01C022296B1586D7525F29350C599ABF9EAA735A818F59EA75F"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veyran_Head.uasset",
+    "sha256": "8677C1AEAC4D0CF9E270408BED4E4A5642891FFDCC1ABF8A8DCD8FD5C261E008"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veyran_Pelvis.uasset",
+    "sha256": "011A2FCD53E68BF8F75CCF74ECC9815CFE4A0B8ABB40D9F3BC7E9B32B503A2E6"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veyran_Thigh.uasset",
+    "sha256": "FC6D4313C4F84864DC6029E61D70211724DCA5873B32FBE2C9A7C72589060633"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veyran_Torso.uasset",
+    "sha256": "D96D13560E4696FCAB8DF0031AE00FA6CD40151790190E3CFA6F52F3DBCB8D3A"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/SM_IS_Veyran_UpperArm.uasset",
+    "sha256": "6F3CF5C38E54A3C51A5897B273B1B712DBD1EF8DDEEC4AB37402821E106507C8"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Veteran_AgedBronze.uasset",
+    "sha256": "991AD7AEEA541FEF7BB6F068F3F7AA60840C43CB54BFA947DC60AD5400DAFADA"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Veteran_AmberSight.uasset",
+    "sha256": "3F251E8B06BE1B21FE2262EFD53F5DECA6D8E2C1D4263F2A75F6015B13024EB6"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Veteran_DarkPressureSuit.uasset",
+    "sha256": "AC6997F9EE380F512EFAD1ED1B27C6FAE3A84ADA2BFFE07CF44FA88992C2B6C8"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Veteran_WornArmor.uasset",
+    "sha256": "B08B82162B176D2B49971BE50D29F9B5B767BCCA4023F5639C643F0F62602BC0"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Veyran_CyanSeam.uasset",
+    "sha256": "FD8162274B1B835EA087D6953C2F1722B5B77B24C7E7B1643752199C572E58EB"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Veyran_IridescentNacre.uasset",
+    "sha256": "8D6ECE3154B6E048069F64C1C82CF4E8A2E107272C5ECF0A6B3A7872CDAC603B"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Veyran_LivingBiofiber.uasset",
+    "sha256": "C6516F280FECAC8C0D2CAA6FEE51203E9E63E05C152ACE1BD1D26BF2B5C69A78"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Players/Veyran_VioletSkin.uasset",
+    "sha256": "37057851FC09E7B8ECABE2EEF95FF44C5C96C487AF3A3DEA58F318EFC8A14B6E"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Ridgefire_Alloy.uasset",
+    "sha256": "F53A8F339E8A432C491B1333AABE278C9401A7C83FCC997523149DBFCD504927"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Ridgefire_Ember.uasset",
+    "sha256": "183F33BE67B6CFC7C7D163671F240E6310CB49C5557BEF96FB0B5FB46800E335"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Ridgefire_Ion.uasset",
+    "sha256": "D89E0F61B5BE7E1A06D624D91530D1E64D185C72E432891D8C2EFE7FA5E70876"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/Ridgefire_Trim.uasset",
+    "sha256": "DDA1DAF2DC670A1837E79A1357601E5424284D0F651B6DF074360CBEAA762F7F"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/SM_Ridgefire_Obelisk.uasset",
+    "sha256": "24064C96A245B1B37DBFEE48F4D5B5C8D8F6D92CF57D9F8ECC5BB5B10A19C2FB"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/SM_Ridgefire_Sentinel.uasset",
+    "sha256": "7BDD83C88B90B34FFA1BD9D09CE5D311E3E804749E4CD88E84F59CDA80EC2028"
+  },
+  {
+    "path": "Content/Variant_Shooter/Meshes/SM_Ridgefire_ViewModel.uasset",
+    "sha256": "DA6E025C3D144CE393D0C2E9DF65267DCDAD557BA17B5A416F058CCEC43152FC"
+  },
+  {
+    "path": "Content/Variant_Shooter/UI/M_BulletCounter.uasset",
+    "sha256": "341A8FA765E3CB156D63B57565F38FADCEB3424CB92AD5EE129989881E031EF6"
+  },
+  {
+    "path": "Content/Variant_Shooter/UI/UI_Shooter.uasset",
+    "sha256": "FF219CC7A4752F201B6E020DED377237DA7A46C21C769177AC6074E728001A55"
+  },
+  {
+    "path": "Content/Variant_Shooter/UI/UI_ShooterBulletCounter.uasset",
+    "sha256": "942172DC83A874E58431E8CB1D2A66B7539176A8E3972E8F2D838C58A616CB47"
+  }
+]

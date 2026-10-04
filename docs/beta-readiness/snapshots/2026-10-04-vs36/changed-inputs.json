@@ -1,0 +1,7 @@
+[
+  "Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp",
+  "Source/TP_FirstPerson/Tests/RidgefireLoadoutInteractionTests.cpp",
+  "Source/TP_FirstPerson/TP_FirstPerson.Build.cs",
+  "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.cpp",
+  "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp"
+]

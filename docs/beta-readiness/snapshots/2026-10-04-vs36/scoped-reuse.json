@@ -1,0 +1,16 @@
+{
+  "previous_snapshot": "2026-10-04-vs35",
+  "implementation_snapshot": "2026-10-03-vs33",
+  "unchanged_previous_inputs": 546,
+  "changed_inputs": [
+    "Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireLoadoutInteractionTests.cpp",
+    "Source/TP_FirstPerson/TP_FirstPerson.Build.cs",
+    "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp"
+  ],
+  "policy": "Fresh affected combat/input/arsenal/co-op/build/package evidence supersedes prior claims in those scopes. Unchanged route model/progression/recovery evidence remains dated and limited to the relevant matching files; no new full-route, four-peer restart, disconnect, human-fun or Internet pass is claimed.",
+  "human_evidence": "VS35 remains the most recent owner recording/fun analysis. No new human playtest.",
+  "score_estimated_on": "2026-10-03",
+  "recorded_gameplay_percent": 62
+}

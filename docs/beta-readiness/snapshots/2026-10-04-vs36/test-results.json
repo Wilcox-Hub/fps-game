@@ -1,0 +1,207 @@
+[
+  {
+    "gate": "Ridgefire.Regressions.Combat.ActualShotClearSelectedPrimary",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Normal slot-2 choice, full-magazine firing/reload, actual ammo pickup overlap and combat actions, then real Phasma kills through four reinforcement groups and one encounter transition. AI frozen and targets repositioned for deterministic shots.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-150526-656.log",
+      "sha256": "F669CA8AD47726519CF0EAFE926AC14C23ECC35D34431693528426771F686EF3"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual arsenal acquisition and bound slot-2 selection; firing, empty-magazine reload, pickup/damage/patch/surge/sprint/C actions; selected weapon retained through three production encounter transitions. Frozen NPCs defeated through damage APIs.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-150526-656.log",
+      "sha256": "F669CA8AD47726519CF0EAFE926AC14C23ECC35D34431693528426771F686EF3"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual Blueprint mesh/visibility-ray differential scan and normal Gale shot into the original empty-space point; normal Phasma aimed/exposed/covered/distant recipients and the same covered lane with only the divider disabled; four roles with three manual visual tick poses and preserved movement collision.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-150526-656.log",
+      "sha256": "F669CA8AD47726519CF0EAFE926AC14C23ECC35D34431693528426771F686EF3"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Engine CreateSimulated/InputKey events processed on ordinary frames: slot 2, six shots, reload, C, held sprint, surge, patch, aiming and movement keys. Checks identity and actual sprint-speed increase. Simulated input, not OS/hardware input.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-151026-042.log",
+      "sha256": "501F9505614EEDACDBE6D6713B419D6FB944D7FAA8DC07A549BDBFEE24F5D84D"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Minimized previously failing feedback loop: actual processed slot-2 input followed only by a held sprint press/release. Selected Phasma retained and actual movement speed increases.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-151026-042.log",
+      "sha256": "501F9505614EEDACDBE6D6713B419D6FB944D7FAA8DC07A549BDBFEE24F5D84D"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.CombatPIE.ActualShotClearSelectedPrimary",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Controlled rendered D3D12 Play in Editor real-shot encounter clear. Same frozen/repositioned targets, setup, firing/reload/actions and selection-retention checks; no human-input, frame-rate or full-run acceptance.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-151207-597.log",
+      "sha256": "96F9DDE3EBC4CE1434EFB725BB49B0787229C825CB239AF9279F7163D07B8CB0"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.CombatPIE.SelectedPrimaryThroughInputProcessing",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Full simulated input-processing sequence in rendered D3D12 Play in Editor, including held sprint and identity/speed assertions. No OS/hardware, audio or human-fun acceptance.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-151207-597.log",
+      "sha256": "96F9DDE3EBC4CE1434EFB725BB49B0787229C825CB239AF9279F7163D07B8CB0"
+    }
+  },
+  {
+    "gate": "Ridgefire.Weapons.Fire.AuthoritativePierceDamage",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual Blueprint weapon fire/damage/cadence/release for Auto, Pierce, Echo and Burst, including cover. Standalone NullRHI constructed scene.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Weapon-Fire-20261004-150142-017-59b88ea6.log",
+      "sha256": "B260DA11CFE9917FD8E2C1D963E5C9CBC56C30A8048C097614D517559E63D41A"
+    }
+  },
+  {
+    "gate": "Ridgefire.Weapons.PiercingTrace.RealSentryCollision",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual NPC/cover collision and unique piercing recipients in a standalone constructed scene; no hardware input.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Piercing-Trace-20261004-150141.log",
+      "sha256": "F27B43DB20FEE92C5B0A64560F409D411B68AD2DAC64B7436B72DA3D46F8263B"
+    }
+  },
+  {
+    "gate": "Ridgefire.Weapons.Loadout.NormalInteractions",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Normal bound-key arsenal/fire-blocking/secondary-return, repeated primary selection and independent ammo snapshots. Fixture explicitly reserves wildcard secondary and asserts Phasma identity before snapshot. Three D3D12 frames inspected separately.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Loadout-20261004-151022-337.log",
+      "sha256": "CFF889EC8181AF1174C74D443157ECDB38FAD7BE1A9C0F240170A02A85499FBF"
+    }
+  },
+  {
+    "gate": "Two-peer co-op combat Host",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual local listen host and owned client, controlled legacy combat fixture under NullRHI: state parity in Iron Sun/Brassfall, distinct pawns, acknowledged remote aim and authoritative hit/damage, one reward, replicated health/ammo/score and remote reload start/completion. Not Internet, packaged peers, real keyboards or four-human acceptance.",
+    "log": {
+      "path": "Saved/Logs/RIDGEFIRE-COOP-20261004-145840-Host.log",
+      "sha256": "535C7EDF77A7359A356EF65DA15628DC6D85C2F94EEDE6547D90E741AE973BA4"
+    }
+  },
+  {
+    "gate": "Two-peer co-op combat Client",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual local listen host and owned client, controlled legacy combat fixture under NullRHI: state parity in Iron Sun/Brassfall, distinct pawns, acknowledged remote aim and authoritative hit/damage, one reward, replicated health/ammo/score and remote reload start/completion. Not Internet, packaged peers, real keyboards or four-human acceptance.",
+    "log": {
+      "path": "Saved/Logs/RIDGEFIRE-COOP-20261004-145840-Client.log",
+      "sha256": "D5C73704A85726562E6FE51B80BCA4638678C500A7C5DAA8E0CAA61E9B2666A9"
+    }
+  },
+  {
+    "gate": "Empty-space body baseline",
+    "status": "BASELINE_REPRODUCED",
+    "tested_on": "2026-10-04",
+    "scope": "Expected failing diagnostic evidence, not a successful gate. See diagnosis.md for isolation and fixture corrections.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-141551-792.log",
+      "sha256": "0806C681095BC0E9C288D1B032EDD622F6BC3B49FFE04A815BC980EF26B998CF"
+    }
+  },
+  {
+    "gate": "Repeated empty-space body baseline",
+    "status": "BASELINE_REPRODUCED",
+    "tested_on": "2026-10-04",
+    "scope": "Expected failing diagnostic evidence, not a successful gate. See diagnosis.md for isolation and fixture corrections.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-141841-851.log",
+      "sha256": "0E0CAD0D6F67AEEC1D316353D212329FB14ADC539A747413CB53FA6739067B70"
+    }
+  },
+  {
+    "gate": "Single-variable capsule-ignore probe",
+    "status": "BASELINE_REPRODUCED",
+    "tested_on": "2026-10-04",
+    "scope": "Expected failing diagnostic evidence, not a successful gate. See diagnosis.md for isolation and fixture corrections.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-142111-333.log",
+      "sha256": "186BB2D2681F03117A6DCA1921AA823AC80C64821891E6C6F8F928DE6401547C"
+    }
+  },
+  {
+    "gate": "Full normal-input unwanted-switch baseline",
+    "status": "BASELINE_REPRODUCED",
+    "tested_on": "2026-10-04",
+    "scope": "Expected failing diagnostic evidence, not a successful gate. See diagnosis.md for isolation and fixture corrections.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-144528-059.log",
+      "sha256": "0D2CED20F97385FA5D1CAC221F7BC8BE0DEF35C7AAC61B88991529A7033A35B2"
+    }
+  },
+  {
+    "gate": "Minimized single-sprint baseline",
+    "status": "BASELINE_REPRODUCED",
+    "tested_on": "2026-10-04",
+    "scope": "Expected failing diagnostic evidence, not a successful gate. See diagnosis.md for isolation and fixture corrections.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-144719-077.log",
+      "sha256": "FA48E8F989C6B34DF3B279DE84D744E69DD43B621778460CFBC583AD63F93F5C"
+    }
+  },
+  {
+    "gate": "Repeated single-sprint swap-action probe",
+    "status": "BASELINE_REPRODUCED",
+    "tested_on": "2026-10-04",
+    "scope": "Expected failing diagnostic evidence, not a successful gate. See diagnosis.md for isolation and fixture corrections.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-144950-552.log",
+      "sha256": "E5543C8D4604B752BB1AED3F1E7CCC9E27D98B26F5619BCF0FC0B1093749E0ED"
+    }
+  },
+  {
+    "gate": "Development Editor build",
+    "status": "PASS",
+    "scope": "UE 5.8.3 final fixtures and fixes compile. Existing engine/toolchain warnings remain.",
+    "log_sha256": "E4194ABC2F47C5FD765AAA29FC787E620B6EBED39585FC2DD7A82C3F86C8130E"
+  },
+  {
+    "gate": "Windows Shipping BuildCookRun",
+    "status": "PASS",
+    "scope": "Fresh build/cook/stage/archive; COMPLETE Prototype. See package-fixture-difference.json for the subsequent Shipping-excluded test-only correction.",
+    "log_sha256": "0577BFAB86225B476969D3A015754B2EBD7B3A21E395637BB3FB9436FF76A089",
+    "package_id": "20261004-145908-821",
+    "runtime_sha256": "722A755BAC432A13144B7DAB067A54EC33A47E2B03407A15F81487945D027FC8"
+  },
+  {
+    "gate": "Shipping startup",
+    "status": "PASS",
+    "scope": "Owned offscreen Shipping process startup survival/module-load check only; no rendered-frame inspection, menu input, normal play, audio, remote peers, performance or beta acceptance.",
+    "details": "packaged-startup.json"
+  },
+  {
+    "gate": "Latest package selector",
+    "status": "PASS",
+    "scope": "Play-Latest-WindowsPackage.ps1 -ListOnly selected and validated package 20261004-145908-821; no packaged input/session acceptance."
+  }
+]

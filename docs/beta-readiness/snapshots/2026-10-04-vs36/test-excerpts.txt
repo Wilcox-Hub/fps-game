@@ -1,0 +1,174 @@
+## Ridgefire.Regressions.Combat.ActualShotClearSelectedPrimary / IRON-SUN-Reliability-20261004-150526-656.log
+[2026.10.04-22.05.41:046][455]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=1 offer=1 weapon=Phasma Rifle
+[2026.10.04-22.06.14:735][475]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=1 actual_shot_clear=1; no selection input after first choice
+[2026.10.04-22.06.14:741][476]LogAutomationController: Display: Test Completed. Result={Success} Name={ActualShotClearSelectedPrimary} Path={Ridgefire.Regressions.Combat.ActualShotClearSelectedPrimary}
+[2026.10.04-22.06.14:773][478]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=2 offer=1 weapon=Phasma Rifle
+[2026.10.04-22.06.52:837][756]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=3 actual_shot_clear=0; no selection input after first choice
+[2026.10.04-22.06.52:843][757]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryAcrossEncounters} Path={Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters}
+[2026.10.04-22.06.52:904][759]LogTemp: Display: RIDGEFIRE RELIABILITY GEOMETRY CHECK COMPLETE
+[2026.10.04-22.06.52:907][760]LogAutomationController: Display: Test Completed. Result={Success} Name={VisibleBodyAndPhasmaCover} Path={Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover}
+[2026.10.04-22.06.52:907][760]LogAutomationController: Visible silhouette scan: registered_parts=32 visible_hits=34 invisible_hits=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Empty-space actual normal Gale shot: hp=100.000->100.000 point=X=200000.000 Y=199971.100 Z=49930.400
+[2026.10.04-22.06.52:907][760]LogAutomationController: Normal Phasma damage recipients: aimed=383.600 exposed=266.000 covered=0.000 far=0.000
+[2026.10.04-22.06.52:907][760]LogAutomationController: Phasma same hidden-neighbor lane with divider disabled: damage=266.000
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=0 pose=0 visible=61 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=0 pose=1 visible=49 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=0 pose=2 visible=57 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=1 pose=0 visible=59 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=1 pose=1 visible=48 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=1 pose=2 visible=57 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=2 pose=0 visible=99 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=2 pose=1 visible=74 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=2 pose=2 visible=86 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=3 pose=0 visible=59 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=3 pose=1 visible=48 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=3 pose=2 visible=55 invisible=0
+
+## Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters / IRON-SUN-Reliability-20261004-150526-656.log
+[2026.10.04-22.05.41:046][455]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=1 offer=1 weapon=Phasma Rifle
+[2026.10.04-22.06.14:735][475]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=1 actual_shot_clear=1; no selection input after first choice
+[2026.10.04-22.06.14:741][476]LogAutomationController: Display: Test Completed. Result={Success} Name={ActualShotClearSelectedPrimary} Path={Ridgefire.Regressions.Combat.ActualShotClearSelectedPrimary}
+[2026.10.04-22.06.14:773][478]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=2 offer=1 weapon=Phasma Rifle
+[2026.10.04-22.06.52:837][756]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=3 actual_shot_clear=0; no selection input after first choice
+[2026.10.04-22.06.52:843][757]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryAcrossEncounters} Path={Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters}
+[2026.10.04-22.06.52:904][759]LogTemp: Display: RIDGEFIRE RELIABILITY GEOMETRY CHECK COMPLETE
+[2026.10.04-22.06.52:907][760]LogAutomationController: Display: Test Completed. Result={Success} Name={VisibleBodyAndPhasmaCover} Path={Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover}
+[2026.10.04-22.06.52:907][760]LogAutomationController: Visible silhouette scan: registered_parts=32 visible_hits=34 invisible_hits=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Empty-space actual normal Gale shot: hp=100.000->100.000 point=X=200000.000 Y=199971.100 Z=49930.400
+[2026.10.04-22.06.52:907][760]LogAutomationController: Normal Phasma damage recipients: aimed=383.600 exposed=266.000 covered=0.000 far=0.000
+[2026.10.04-22.06.52:907][760]LogAutomationController: Phasma same hidden-neighbor lane with divider disabled: damage=266.000
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=0 pose=0 visible=61 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=0 pose=1 visible=49 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=0 pose=2 visible=57 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=1 pose=0 visible=59 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=1 pose=1 visible=48 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=1 pose=2 visible=57 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=2 pose=0 visible=99 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=2 pose=1 visible=74 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=2 pose=2 visible=86 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=3 pose=0 visible=59 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=3 pose=1 visible=48 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=3 pose=2 visible=55 invisible=0
+
+## Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover / IRON-SUN-Reliability-20261004-150526-656.log
+[2026.10.04-22.05.41:046][455]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=1 offer=1 weapon=Phasma Rifle
+[2026.10.04-22.06.14:735][475]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=1 actual_shot_clear=1; no selection input after first choice
+[2026.10.04-22.06.14:741][476]LogAutomationController: Display: Test Completed. Result={Success} Name={ActualShotClearSelectedPrimary} Path={Ridgefire.Regressions.Combat.ActualShotClearSelectedPrimary}
+[2026.10.04-22.06.14:773][478]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=2 offer=1 weapon=Phasma Rifle
+[2026.10.04-22.06.52:837][756]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=3 actual_shot_clear=0; no selection input after first choice
+[2026.10.04-22.06.52:843][757]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryAcrossEncounters} Path={Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters}
+[2026.10.04-22.06.52:904][759]LogTemp: Display: RIDGEFIRE RELIABILITY GEOMETRY CHECK COMPLETE
+[2026.10.04-22.06.52:907][760]LogAutomationController: Display: Test Completed. Result={Success} Name={VisibleBodyAndPhasmaCover} Path={Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover}
+[2026.10.04-22.06.52:907][760]LogAutomationController: Visible silhouette scan: registered_parts=32 visible_hits=34 invisible_hits=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Empty-space actual normal Gale shot: hp=100.000->100.000 point=X=200000.000 Y=199971.100 Z=49930.400
+[2026.10.04-22.06.52:907][760]LogAutomationController: Normal Phasma damage recipients: aimed=383.600 exposed=266.000 covered=0.000 far=0.000
+[2026.10.04-22.06.52:907][760]LogAutomationController: Phasma same hidden-neighbor lane with divider disabled: damage=266.000
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=0 pose=0 visible=61 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=0 pose=1 visible=49 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=0 pose=2 visible=57 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=1 pose=0 visible=59 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=1 pose=1 visible=48 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=1 pose=2 visible=57 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=2 pose=0 visible=99 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=2 pose=1 visible=74 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=2 pose=2 visible=86 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=3 pose=0 visible=59 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=3 pose=1 visible=48 invisible=0
+[2026.10.04-22.06.52:907][760]LogAutomationController: Role silhouette: role=3 pose=2 visible=55 invisible=0
+
+## Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing / IRON-SUN-Reliability-20261004-151026-042.log
+[2026.10.04-22.10.57:088][477]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=0 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.04-22.10.57:121][479]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryThroughInputProcessing} Path={Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing}
+[2026.10.04-22.11.00:088][657]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=1 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.04-22.11.00:121][659]LogAutomationController: Display: Test Completed. Result={Success} Name={SprintRetainsSelectedPrimary} Path={Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary}
+
+## Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary / IRON-SUN-Reliability-20261004-151026-042.log
+[2026.10.04-22.10.57:088][477]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=0 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.04-22.10.57:121][479]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryThroughInputProcessing} Path={Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing}
+[2026.10.04-22.11.00:088][657]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=1 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.04-22.11.00:121][659]LogAutomationController: Display: Test Completed. Result={Success} Name={SprintRetainsSelectedPrimary} Path={Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary}
+
+## Ridgefire.Regressions.CombatPIE.ActualShotClearSelectedPrimary / IRON-SUN-Reliability-20261004-151207-597.log
+[2026.10.04-22.12.26:180][478]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=1 offer=1 weapon=Phasma Rifle
+[2026.10.04-22.12.59:978][500]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=1 actual_shot_clear=1; no selection input after first choice
+[2026.10.04-22.13.00:061][501]LogAutomationController: Display: Test Completed. Result={Success} Name={ActualShotClearSelectedPrimary} Path={Ridgefire.Regressions.CombatPIE.ActualShotClearSelectedPrimary}
+[2026.10.04-22.13.20:009][680]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=0 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.04-22.13.20:087][681]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryThroughInputProcessing} Path={Ridgefire.Regressions.CombatPIE.SelectedPrimaryThroughInputProcessing}
+
+## Ridgefire.Regressions.CombatPIE.SelectedPrimaryThroughInputProcessing / IRON-SUN-Reliability-20261004-151207-597.log
+[2026.10.04-22.12.26:180][478]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=1 offer=1 weapon=Phasma Rifle
+[2026.10.04-22.12.59:978][500]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=1 actual_shot_clear=1; no selection input after first choice
+[2026.10.04-22.13.00:061][501]LogAutomationController: Display: Test Completed. Result={Success} Name={ActualShotClearSelectedPrimary} Path={Ridgefire.Regressions.CombatPIE.ActualShotClearSelectedPrimary}
+[2026.10.04-22.13.20:009][680]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=0 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.04-22.13.20:087][681]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryThroughInputProcessing} Path={Ridgefire.Regressions.CombatPIE.SelectedPrimaryThroughInputProcessing}
+
+## Ridgefire.Weapons.Fire.AuthoritativePierceDamage / IRON-SUN-Weapon-Fire-20261004-150142-017-59b88ea6.log
+[2026.10.04-22.02.41:684][276]LogTemp: Display: RIDGEFIRE WEAPON FIRE TEST PASS modes=Auto,Pierce,Echo,Burst auth_damage=verified cover=verified cadence=verified release=verified
+[2026.10.04-22.02.41:691][278]LogAutomationController: Display: Test Completed. Result={Success} Name={AuthoritativePierceDamage} Path={Ridgefire.Weapons.Fire.AuthoritativePierceDamage}
+
+## Ridgefire.Weapons.PiercingTrace.RealSentryCollision / IRON-SUN-Piercing-Trace-20261004-150141.log
+[2026.10.04-22.01.53:228][407]LogAutomationController: Display: Test Completed. Result={Success} Name={RealSentryCollision} Path={Ridgefire.Weapons.PiercingTrace.RealSentryCollision}
+
+## Ridgefire.Weapons.Loadout.NormalInteractions / IRON-SUN-Loadout-20261004-151022-337.log
+[2026.10.04-22.11.25:632][268]LogTemp: Display: RIDGEFIRE LOADOUT CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Loadout-74909117189/ArsenalOpen.png
+[2026.10.04-22.11.27:278][362]LogTemp: Display: RIDGEFIRE LOADOUT CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Loadout-74909117189/PrimaryAfterSecondary.png
+[2026.10.04-22.11.27:381][363]LogTemp: Display: RIDGEFIRE LOADOUT CAPTURE C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/VisualCaptures/Loadout-74909117189/SamePrimaryReturn.png
+[2026.10.04-22.11.27:849][392]LogTemp: Display: RIDGEFIRE LOADOUT PASS bindings=normal arsenal_fire=blocked close_trigger=cleared secondary_return=correct ammo=independent repeated=stable
+[2026.10.04-22.11.27:882][394]LogAutomationController: Display: Test Completed. Result={Success} Name={NormalInteractions} Path={Ridgefire.Weapons.Loadout.NormalInteractions}
+
+## Two-peer co-op combat Host / RIDGEFIRE-COOP-20261004-145840-Host.log
+[2026.10.04-21.58.54:145][209]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS opening armory stays open for both clients until each selects a starting primary
+[2026.10.04-21.58.54:157][209]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS exactly one sentry warning cue dispatch for living target; RPC dispatch only, audio playback/client delivery unverified
+[2026.10.04-21.58.54:157][209]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS sentry target handoff to living player after current target marked unavailable
+[2026.10.04-21.58.54:157][209]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS sole eligible player remains sentry fallback despite temporary path deprioritization
+[2026.10.04-21.58.54:158][209]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS personal arsenal range-gated and per-player; host/remote open/close independent, out-of-range denied
+[2026.10.04-21.58.54:158][209]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS independent secondary offers host=1 remote=0; invalid and primary-owned offers rejected
+[2026.10.04-21.58.54:158][209]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS station offer selection stayed per-player; each panel closed after selection and global armory stayed unchanged
+[2026.10.04-21.58.54:158][209]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS independent primary loadouts host=Gale Repeater ammo=24 remote=Phasma Rifle ammo=6
+[2026.10.04-21.58.54:158][209]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS unique possessed pawns: BP_ShooterCharacter_C_0 and BP_ShooterCharacter_C_1
+[2026.10.04-21.58.56:649][593]LogTemp: Display: RIDGEFIRE COOP SMOKE LOS_PASS target=BP_ShooterNPC_C_1 aimHit=BP_ShooterNPC_C_1 muzzleHit=BP_ShooterNPC_C_1
+[2026.10.04-21.58.58:722][667]LogTemp: Display: RIDGEFIRE COOP PROGRESSION PASS equal_base=10 host_xp=10 remote_xp=10 duplicate_callbacks=no_extra_xp
+[2026.10.04-21.58.58:723][667]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS: secondary shot consumed ammo and damaged a living sentry; primary and spent secondary ammo/reserve both restored.
+[2026.10.04-21.58.58:723][667]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS server-authoritative remote fire consumed ammo only on remote, killed replicated target, score=110 and ion=14 once despite repeated death callbacks
+[2026.10.04-21.58.58:723][667]LogTemp: Display: RIDGEFIRE COOP TEAM PERK PASS both teammates receive momentum once
+[2026.10.04-21.58.58:724][667]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS transitioned host arena to Brassfall for client replication
+[2026.10.04-21.58.58:724][667]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS host completion acknowledged to remote reload smoke with authoritative ammo=4 reserve=30
+
+## Two-peer co-op combat Client / RIDGEFIRE-COOP-20261004-145840-Client.log
+[2026.10.04-21.58.56:735][930]LogTemp: Display: RIDGEFIRE COOP SMOKE PASS client received replicated health field drop actor.
+[2026.10.04-21.58.58:809][409]LogTemp: Display: RIDGEFIRE COOP CLIENT SMOKE PASS replicated ammo=4 target_hp=0 score=110 after host completion
+[2026.10.04-21.58.58:809][409]LogTemp: Display: RIDGEFIRE COOP PROGRESSION OWNER PASS xp=10 replicated to owning client; team_momentum=true
+[2026.10.04-21.58.59:909][314]LogTemp: Display: RIDGEFIRE COOP CLIENT SMOKE RELOAD PASS replicated_reload=true->false magazine=4->6 reserve=30->28 transferred=2
+
+## Empty-space body baseline / IRON-SUN-Reliability-20261004-141551-792.log
+[2026.10.04-21.16.52:310][959]LogAutomationController: Error: Test Completed. Result={Fail} Name={SelectedPrimaryAcrossEncounters} Path={Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters}
+[2026.10.04-21.16.52:346][961]LogAutomationController: Error: Test Completed. Result={Fail} Name={VisibleBodyAndPhasmaCover} Path={Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover}
+[2026.10.04-21.16.52:346][961]LogAutomationController: Visible silhouette scan: registered_parts=32 visible_hits=34 invisible_hits=35
+[2026.10.04-21.16.52:346][961]LogAutomationController: Empty-space actual normal Gale shot: hp=100.000->58.000 point=X=200000.000 Y=199971.100 Z=49930.400
+
+## Repeated empty-space body baseline / IRON-SUN-Reliability-20261004-141841-851.log
+[2026.10.04-21.18.55:139][457]LogAutomationController: Error: Test Completed. Result={Fail} Name={SelectedPrimaryAcrossEncounters} Path={Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters}
+[2026.10.04-21.18.55:191][460]LogAutomationController: Error: Test Completed. Result={Fail} Name={VisibleBodyAndPhasmaCover} Path={Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover}
+[2026.10.04-21.18.55:191][460]LogAutomationController: Visible silhouette scan: registered_parts=32 visible_hits=34 invisible_hits=35
+[2026.10.04-21.18.55:191][460]LogAutomationController: Empty-space actual normal Gale shot: hp=100.000->58.000 point=X=200000.000 Y=199971.100 Z=49930.400
+
+## Single-variable capsule-ignore probe / IRON-SUN-Reliability-20261004-142111-333.log
+[2026.10.04-21.21.57:689][437]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryAcrossEncounters} Path={Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters}
+[2026.10.04-21.21.57:831][440]LogAutomationController: Error: Test Completed. Result={Fail} Name={VisibleBodyAndPhasmaCover} Path={Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover}
+[2026.10.04-21.21.57:832][440]LogAutomationController: Visible silhouette scan: registered_parts=32 visible_hits=34 invisible_hits=35
+[2026.10.04-21.21.57:832][440]LogAutomationController: [DEBUG-vs36] invisible hits after ignoring only movement capsule=0
+[2026.10.04-21.21.57:832][440]LogAutomationController: Empty-space actual normal Gale shot: hp=100.000->58.000 point=X=200000.000 Y=199971.100 Z=49930.400
+
+## Full normal-input unwanted-switch baseline / IRON-SUN-Reliability-20261004-144528-059.log
+[2026.10.04-21.45.50:065][783]LogAutomationController: Error: Test Completed. Result={Fail} Name={SelectedPrimaryThroughInputProcessing} Path={Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing}
+[2026.10.04-21.45.50:066][783]LogAutomationController: Error: Unrequested switch through input processing: action=9 held=LeftShift expected=Phasma Rifle actual=Gale Repeater offer=0 [[local workspace]\unreal\Ridgefire\Source\TP_FirstPerson\Tests\RidgefireCombatReliabilityTests.cpp(456)]
+
+## Minimized single-sprint baseline / IRON-SUN-Reliability-20261004-144719-077.log
+[2026.10.04-21.47.33:563][422]LogAutomationController: Error: Test Completed. Result={Fail} Name={SprintRetainsSelectedPrimary} Path={Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary}
+[2026.10.04-21.47.33:563][422]LogAutomationController: Error: Unrequested switch through input processing: action=1 held=LeftShift expected=Phasma Rifle actual=Gale Repeater offer=0 [[local workspace]\unreal\Ridgefire\Source\TP_FirstPerson\Tests\RidgefireCombatReliabilityTests.cpp(464)]
+
+## Repeated single-sprint swap-action probe / IRON-SUN-Reliability-20261004-144950-552.log
+[2026.10.04-21.50.05:037][422]LogTemp: Display: [DEBUG-vs36] template swap action fired active=1 weapon=Phasma Rifle
+[2026.10.04-21.50.05:162][424]LogAutomationController: Error: Test Completed. Result={Fail} Name={SprintRetainsSelectedPrimary} Path={Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary}
+[2026.10.04-21.50.05:163][424]LogAutomationController: LogTemp: [DEBUG-vs36] template swap action fired active=1 weapon=Phasma Rifle [log] 
+[2026.10.04-21.50.05:163][424]LogAutomationController: Error: Unrequested switch through input processing: action=1 held=LeftShift expected=Phasma Rifle actual=Gale Repeater offer=0 [[local workspace]\unreal\Ridgefire\Source\TP_FirstPerson\Tests\RidgefireCombatReliabilityTests.cpp(464)]

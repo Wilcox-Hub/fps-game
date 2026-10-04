@@ -1,8 +1,8 @@
 # IRON SUN beta readiness
 
-Latest gameplay planning estimate: **62%** (weighted 61.5), low confidence, estimated October 3, reviewed October 4, 2026 with open owner-reported defects. **NOT_BETA_READY.** The target is **75%; it remains in progress**. Overall beta completion remains unmeasured. These percentages are planning judgments, not test pass rates.
+Latest gameplay planning estimate: **62%** (weighted 61.5), low confidence, estimated October 3, reviewed October 4, 2026; reproduced control/collision fixes are validated, human post-fix acceptance remains open. **NOT_BETA_READY.** The target is **75%; it remains in progress**. Overall beta completion remains unmeasured. These percentages are planning judgments, not test pass rates.
 
-Start with [latest.json](latest.json), the [owner gameplay review](snapshots/2026-10-04-vs35/report.md), [detailed fun/defect analysis](snapshots/2026-10-04-vs35/video-review.md), [measurements](snapshots/2026-10-04-vs35/log-metrics.json), [scores](snapshots/2026-10-04-vs35/scores.json), [evidence/reuse](snapshots/2026-10-04-vs35/test-results.json), [VS33 implementation results](snapshots/2026-10-03-vs33/test-results.json), and [remaining milestones](snapshots/2026-10-03-vs33/target-75.md). Older snapshots remain history.
+Start with [latest.json](latest.json), [VS36 fixes and validation](snapshots/2026-10-04-vs36/report.md), [diagnosis](snapshots/2026-10-04-vs36/diagnosis.md), [test results](snapshots/2026-10-04-vs36/test-results.json), [scores](snapshots/2026-10-04-vs36/scores.json), and the [owner gameplay/fun review](snapshots/2026-10-04-vs35/video-review.md). Older snapshots remain dated history.
 
 | Area | Weight | Readiness | Points |
 | --- | ---: | ---: | ---: |
@@ -13,6 +13,8 @@ Start with [latest.json](latest.json), the [owner gameplay review](snapshots/202
 | Perks and progression | 10% | 75% | 7.5 |
 
 Consult this folder before test selection or readiness answers. Run `powershell -NoProfile -File docs/beta-readiness/Check-Readiness.ps1` to compare input hashes. Reuse saved evidence only at its recorded date and validation level; changed inputs and environment/package/network differences require affected checks.
+
+VS36 fixes sprint invoking the inherited template weapon swap and removes invisible movement-capsule bullet hits. Seven new controlled combat/input/PIE tests, weapon/piercing/arsenal checks, two-peer local combat, inspected arsenal frames and a fresh Shipping Prototype build/startup pass. Normal Phasma blast damages exposed nearby bots; cover and range controls pass. Its visual blast feedback and human feel/fun acceptance remain open. Current inputs: 551, with five changes/additions versus VS35. Keep 62% dated planning credit and NOT_BETA_READY; controlled correctness is not human-fun approval.
 
 VS35 reviews an 8:28 solo owner Editor recording in two sampled visual passes plus closer sequences. A matching log measures the first arena at 4:31.8, but the owner still finds play boring. Later tougher enemies are liked; unwanted slot-1 weapon switches and confusing clustered kills are open. Causes/fixes are unvalidated, no game source changed, all 550 inputs match, and no engine tests/build/package were rerun. The dated 62% planning estimate receives no new credit. See the new review before treating historical passes as human acceptance.
 

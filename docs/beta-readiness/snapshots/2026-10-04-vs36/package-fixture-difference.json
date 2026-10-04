@@ -1,0 +1,7 @@
+{
+  "path": "Source/TP_FirstPerson/Tests/RidgefireLoadoutInteractionTests.cpp",
+  "pre_package_test_hash": "8C985D1E94E11323BF1D24AE7B1D3DEC59EED4624C02944E02A78EA98BF66567",
+  "shipping_excluded_body": true,
+  "current_hash": "AE2BE99FD4D0F82017AF0B55752BCCD0BD496E8BC32059FF9453DBB79871537F",
+  "note": "Package precedes only the old arsenal fixture correction. Its changed test body is inside WITH_DEV_AUTOMATION_TESTS and excluded from Shipping. Production code/config/content and the new reliability test source match the package build inputs; no gameplay delta is inferred from this fixture-only change."
+}

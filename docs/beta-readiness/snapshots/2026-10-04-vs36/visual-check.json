@@ -1,0 +1,29 @@
+{
+  "status": "INSPECTED",
+  "reviewed_on": "2026-10-04",
+  "resolution": [
+    1280,
+    720
+  ],
+  "scope": "Three rendered D3D12 frames from the controlled loadout automation fixture. Human visual inspection verifies displayed menu and weapon/ammunition states. Frozen AI and fixture camera placement; no normal gameplay, hit-feel, performance or fun acceptance.",
+  "observations": [
+    "ArsenalOpen: complete menu fits the frame; weapon labels, statistics and secondary reservation note are readable. Preparing Shaders (1) and a small console hint remain visible, so this is not polished visual-quality evidence.",
+    "PrimaryAfterSecondary: PRIMARY 2 / Phasma Rifle, ammunition 06/030 and the Phasma viewmodel agree with the asserted return state.",
+    "SamePrimaryReturn: PRIMARY 1 / Gale Repeater, ammunition 22/144 and Gale viewmodel agree with the fixture's explicit numbered selection; this is not an automatic weapon switch.",
+    "HUD text fits, but the small dense footer, bright glare and oversized prototype geometry remain presentation limitations. Both gameplay frames use the fixture camera pointed upward near a station."
+  ],
+  "images": [
+    {
+      "path": "visuals/ArsenalOpen.png",
+      "sha256": "38299EFE5CC5632D050B30FB67C7B5D1929E8D43C4C2A0E13B3FCA0AF082DA00"
+    },
+    {
+      "path": "visuals/PrimaryAfterSecondary.png",
+      "sha256": "7FE1F26006D634F19E912C4DDEB825DE2103974BF4069835E28D521744E658AE"
+    },
+    {
+      "path": "visuals/SamePrimaryReturn.png",
+      "sha256": "B5E3250C80CDC3BF14C7861944113D7F6A523D36B9995B5068C72C03ABC3EF75"
+    }
+  ]
+}
