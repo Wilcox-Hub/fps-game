@@ -1,0 +1,19 @@
+{
+  "previous_snapshot": "2026-10-04-vs37",
+  "unchanged_previous_inputs": 549,
+  "changed_inputs": [
+    "Source/TP_FirstPerson/RidgefireBlastPresentation.cpp",
+    "Source/TP_FirstPerson/RidgefireEconomy.cpp",
+    "Source/TP_FirstPerson/RidgefireHUD.cpp",
+    "Source/TP_FirstPerson/RidgefireShopControls.cpp",
+    "Source/TP_FirstPerson/RidgefireShopHUD.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireEconomyNetworkFixture.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireEconomyTests.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h"
+  ],
+  "policy": "Changed inputs invalidate blanket reuse. Fresh affected economy/actual blast/collision/owner networking/build/package scopes supersede prior passes. Initial VS38 input/fire/loadout batch precedes only final blast-label contrast and capture-timing refinement; related production paths unchanged. Latest visible-body/local co-op checks precede only removal of a temporary normal-value diagnostic log; no behavior changed. Final rendered economy and package match final probe-free inputs. Route/layout/progression/difficulty model files and all assets/config remain hash-identical to VS37, so retain those dated narrow scopes after source-diff review. No fresh complete-route/four-peer/human/Internet/full packaged-run acceptance.",
+  "human_evidence": "VS35 remains latest human recording/fun review; revised pulse and transaction UI await human acceptance."
+}

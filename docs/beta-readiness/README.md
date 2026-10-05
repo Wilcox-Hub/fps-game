@@ -1,18 +1,20 @@
 # IRON SUN beta readiness
 
-Latest gameplay planning estimate: **62%** (weighted 61.5), low confidence, estimated October 3, reviewed October 4, 2026; reproduced control/collision fixes are validated, human post-fix acceptance remains open. **NOT_BETA_READY.** The target is **75%; it remains in progress**. Overall beta completion remains unmeasured. These percentages are planning judgments, not test pass rates.
+Latest gameplay planning estimate: **65%** (weighted 65.0), low confidence, assessed October 4, 2026. The requested 65% development milestone is reached. **NOT_BETA_READY.** The earlier 75% ambition remains in progress. Overall beta completion remains unmeasured. These percentages are planning judgments, not test pass rates or measured fun.
 
-Start with [latest.json](latest.json), [VS37 economy and progression](snapshots/2026-10-04-vs37/report.md), [test results](snapshots/2026-10-04-vs37/test-results.json), [comparison frames](snapshots/2026-10-04-vs37/visual-check.json), [scores](snapshots/2026-10-04-vs37/scores.json), and the [owner fun review](snapshots/2026-10-04-vs35/video-review.md). Older snapshots remain dated history.
+Start with [latest.json](latest.json), [VS38 feedback and arsenal](snapshots/2026-10-04-vs38/report.md), [test results](snapshots/2026-10-04-vs38/test-results.json), [rendered frames](snapshots/2026-10-04-vs38/visual-check.json), [scores](snapshots/2026-10-04-vs38/scores.json), and the [owner fun review](snapshots/2026-10-04-vs35/video-review.md). Older snapshots remain dated history.
 
 | Area | Weight | Readiness | Points |
 | --- | ---: | ---: | ---: |
-| Controls and combat | 30% | 60% | 18.0 |
-| Weapons and arsenal | 20% | 50% | 10.0 |
+| Controls and combat | 30% | 65% | 19.5 |
+| Weapons and arsenal | 20% | 60% | 12.0 |
 | Waves, routes and arenas | 20% | 60% | 12.0 |
 | Co-op and recovery | 20% | 70% | 14.0 |
 | Perks and progression | 10% | 75% | 7.5 |
 
 Consult this folder before test selection or readiness answers. Run `powershell -NoProfile -File docs/beta-readiness/Check-Readiness.ps1` to compare input hashes. Reuse saved evidence only at its recorded date and validation level; changed inputs and environment/package/network differences require affected checks.
+
+VS38 adds Shipping-compatible world-anchored blast pulses, authoritative recipient counts, private receipts/actionable arsenal rejects and confirmation waiting. Actual shots/cover, upgrade ownership/ammo across swaps and encounters, rendered 720p feedback, local two-peer owner RPC/multicast, Editor and Shipping build/startup pass. Current inputs: 560. Credit combat 60→65 and weapons 50→60 (including the VS37 loop whose credit was deferred). Human fun/feel, natural economy balance, 45–60-minute pacing and packaged friend co-op remain unvalidated.
 
 VS37 implements shared cash, paid known weapons, private upgrades and finishers, compare-before-confirm and 20-second regroup with early team start at existing arsenals. Owner feedback simplifies the main stat view; Tab/L3 reveals exact deltas/DPS/enemy estimates. Controlled economy, actual upgraded shots/cover, local two-peer transactions, final rendered summary/details, input/PIE/route and Shipping build/startup evidence is recorded. Current inputs: 559. The 45–60-minute successful run, natural cash balance and human fun/comprehension remain open. Keep the dated 62% planning estimate and NOT_BETA_READY.
 

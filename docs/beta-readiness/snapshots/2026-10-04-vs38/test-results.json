@@ -1,0 +1,117 @@
+[
+  {
+    "gate": "Ridgefire.Economy.IntegratedTransactions",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual possessed Blueprint/station transactions, bound T/U/Tab/Enter, success/duplicate/locked/cash-shortage/live rejection, cash unchanged on rejection, upgraded gun and ammunition across primary swaps/two encounter transitions, private progression, actual echo/penetrating/covered shots, finisher and default 20-second/early regroup. Rendered D3D12 1280x720 four captures. Actual blast 2 damaged/1 down, noncolliding 24-part pool, world anchoring, expiration and reuse. Explicit 2000 funding/frozen actors; blast-capture/expiration portion uses fixed 1/60 world steps restored afterward. No hardware/human fun/natural balance/performance acceptance.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Economy-20261004-192156-411.log",
+      "sha256": "3B6D9151F0275F30DB30B490FDBD47CDADFDC9C1A6B2E3BA18958E77F5700CC5"
+    }
+  },
+  {
+    "gate": "Ridgefire.Economy.RulesAndStats",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Authored upgrade/cadence/reload stats and finite modeled DPS across combinations/party sizes; modeled values, not firing every combination.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Economy-20261004-192156-411.log",
+      "sha256": "3B6D9151F0275F30DB30B490FDBD47CDADFDC9C1A6B2E3BA18958E77F5700CC5"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual Blueprint visibility/capsule scans, normal empty-space Gale shot, Phasma exposed/covered/far recipients, independent cover ray and disabled-divider positive control; actual feedback counts 2 versus 3 exposed recipients and 24 noncolliding world-anchored parts. Four roles/three sampled visual poses. NullRHI; no human acceptance.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Economy-20261004-191951-679.log",
+      "sha256": "F683EED72D006BE60807AA1DFF51D1EFA974EB87F4E359E3F8B30A1006F3E83B"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Processed simulated PlayerController InputKey/per-frame movement and fire/reload/selection actions; sprint increases speed and selected gun retained. NullRHI. Performed before final blast-label contrast/capture-timing refinement; input/combat selection paths unchanged. No hardware input.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-191305-638.log",
+      "sha256": "840CB74A1BFA283079DF474C1A4A554011345F8A60C34DAB2D91AF5954F33BD2"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Processed simulated PlayerController InputKey/per-frame movement and fire/reload/selection actions; sprint increases speed and selected gun retained. NullRHI. Performed before final blast-label contrast/capture-timing refinement; input/combat selection paths unchanged. No hardware input.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-191305-638.log",
+      "sha256": "840CB74A1BFA283079DF474C1A4A554011345F8A60C34DAB2D91AF5954F33BD2"
+    }
+  },
+  {
+    "gate": "Ridgefire.Weapons.Fire.AuthoritativePierceDamage",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual Blueprint Auto/Pierce/Echo/Burst damage/cadence/release in constructed NullRHI world. Before final blast-label contrast/capture-timing refinement; damage and cadence unchanged. No rendering/network/hardware acceptance.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Weapon-Fire-20261004-191341-269-52fe252b.log",
+      "sha256": "4561A56CFD92C19E252E066D7A98B6A88BC043A0EF003EC1997CE0EFDB0DD48F"
+    }
+  },
+  {
+    "gate": "Ridgefire.Weapons.Loadout.NormalInteractions",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual funded arsenal purchase, bound slot/secondary/menu/firing interactions and independent ammo. Constructed NullRHI fixture before only final blast-label contrast/capture-timing refinement; loadout logic unchanged.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Loadout-20261004-191441-312.log",
+      "sha256": "679BA1B944D913CAC74A009156FCD6CEBAEE5308869566397C0CCEE64D5EEB68"
+    }
+  },
+  {
+    "gate": "Two-peer economy/blast Host",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Two actual local Editor processes, listen host/client, owner reliable notices and blast counts, cosmetic multicast creates 24-part pool, blocked double confirmation pending server reply, private cash/upgrade and stale/live rejection, unanimous early regroup. Controlled funding/placement/frozen damage-API clear and direct test Phasma equip. NullRHI; no remote rendered pixels, packaged/Internet/hardware or human acceptance.",
+    "log": {
+      "path": "Saved/Automation/EconomyNetwork/checks-20261004-192005-479/Host.log",
+      "sha256": "C625B15C0088AF046931974D2C9998656498AB34A0055D0247C47B0950AB7E50"
+    }
+  },
+  {
+    "gate": "Two-peer economy/blast Client",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Two actual local Editor processes, listen host/client, owner reliable notices and blast counts, cosmetic multicast creates 24-part pool, blocked double confirmation pending server reply, private cash/upgrade and stale/live rejection, unanimous early regroup. Controlled funding/placement/frozen damage-API clear and direct test Phasma equip. NullRHI; no remote rendered pixels, packaged/Internet/hardware or human acceptance.",
+    "log": {
+      "path": "Saved/Automation/EconomyNetwork/checks-20261004-192005-479/Client.log",
+      "sha256": "0E4F8AB3EC406C22523AC9B282CA1FC4FEBE5DE0C6DABF4DE6EC8FA844A10F7E"
+    }
+  },
+  {
+    "gate": "Rendered feedback/comparison inspection",
+    "status": "INSPECTED",
+    "scope": "Actual Editor game D3D12 1280x720 frames from possessed Blueprint transaction/shot fixture. Simple summary, exact Details, private upgrade receipt, exact 50-cash rejection and visible expanding pulse with 2-hit/1-down dark-backed owner feedback inspected. No overlap/clipped receipt; six summary rows and detailed assumptions readable. Blast capture uses fixed 1/60 world steps, not performance or hardware-input acceptance. Frozen/repositioned actors; not human fun approval.",
+    "details": "visual-check.json"
+  },
+  {
+    "gate": "Final Development Editor build",
+    "status": "PASS",
+    "log_sha256": "A263C1F1B7BAF2FC37D38ED3A9969493EF26EB758062887F07E694FEFBD6DCE2",
+    "scope": "UE 5.8.3 compilation; existing engine/toolchain warnings."
+  },
+  {
+    "gate": "Windows Shipping BuildCookRun",
+    "status": "PASS",
+    "log_sha256": "8BA60D456F5B674E8C831EB972B9C60DAEE75067681A66344C72DE6A028283EC",
+    "package_id": "20261004-192234-939",
+    "scope": "Matching final source/config/content built, cooked, staged and archived as Shipping Prototype."
+  },
+  {
+    "gate": "Shipping startup",
+    "status": "PASS",
+    "scope": "Owned offscreen Shipping process startup survival/module-load check only; no rendered-frame inspection, menu input, normal play, audio, remote peers, performance or beta acceptance.",
+    "details": "packaged-startup.json"
+  }
+]

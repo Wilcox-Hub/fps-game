@@ -1,0 +1,13 @@
+[
+  "Source/TP_FirstPerson/RidgefireBlastPresentation.cpp",
+  "Source/TP_FirstPerson/RidgefireEconomy.cpp",
+  "Source/TP_FirstPerson/RidgefireHUD.cpp",
+  "Source/TP_FirstPerson/RidgefireShopControls.cpp",
+  "Source/TP_FirstPerson/RidgefireShopHUD.cpp",
+  "Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp",
+  "Source/TP_FirstPerson/Tests/RidgefireEconomyNetworkFixture.cpp",
+  "Source/TP_FirstPerson/Tests/RidgefireEconomyTests.cpp",
+  "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+  "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h",
+  "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h"
+]

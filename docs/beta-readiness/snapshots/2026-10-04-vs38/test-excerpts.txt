@@ -1,0 +1,57 @@
+## Ridgefire.Economy.IntegratedTransactions
+[2026.10.05-02.22.12:463][383]LogTemp: Display: IRON SUN ECONOMY CAPTURE [local workspace]/unreal/Ridgefire/Saved/VisualCaptures/Economy-225378284236/Comparison.png
+[2026.10.05-02.22.12:508][384]LogTemp: Display: IRON SUN ECONOMY CAPTURE [local workspace]/unreal/Ridgefire/Saved/VisualCaptures/Economy-225378284236/Details.png
+[2026.10.05-02.22.12:551][385]LogTemp: Display: IRON SUN ECONOMY CAPTURE [local workspace]/unreal/Ridgefire/Saved/VisualCaptures/Economy-225378284236/Rejection.png
+[2026.10.05-02.22.12:807][398]LogTemp: Display: IRON SUN ECONOMY actual upgraded damage=85.050 model=85.050
+[2026.10.05-02.22.33:208][355]LogTemp: Display: IRON SUN ECONOMY default regroup elapsed=20.004 seconds
+[2026.10.05-02.22.33:213][355]LogTemp: Display: IRON SUN ECONOMY actual through first=115.668 second=26.775 expected_second=26.775
+[2026.10.05-02.22.33:622][375]LogTemp: Display: IRON SUN ECONOMY cover control front damage=115.668 second damage=0.000
+[2026.10.05-02.22.33:794][382]LogTemp: Display: IRON SUN ECONOMY CAPTURE [local workspace]/unreal/Ridgefire/Saved/VisualCaptures/Economy-225378284236/Blast.png
+[2026.10.05-02.22.34:272][447]LogTemp: Display: IRON SUN ECONOMY integration fixture completed; assertions determine verdict: transactions/owner receipts/upgrade lifecycle/actual blast recipients/pool anchoring and expiration; controlled funding/frozen targets, not hardware or human input
+[2026.10.05-02.22.34:280][448]LogAutomationController: Display: Test Completed. Result={Success} Name={IntegratedTransactions} Path={Ridgefire.Economy.IntegratedTransactions}
+[2026.10.05-02.22.34:325][451]LogAutomationController: Display: Test Completed. Result={Success} Name={RulesAndStats} Path={Ridgefire.Economy.RulesAndStats}
+
+## Ridgefire.Economy.RulesAndStats
+[2026.10.05-02.22.12:463][383]LogTemp: Display: IRON SUN ECONOMY CAPTURE [local workspace]/unreal/Ridgefire/Saved/VisualCaptures/Economy-225378284236/Comparison.png
+[2026.10.05-02.22.12:508][384]LogTemp: Display: IRON SUN ECONOMY CAPTURE [local workspace]/unreal/Ridgefire/Saved/VisualCaptures/Economy-225378284236/Details.png
+[2026.10.05-02.22.12:551][385]LogTemp: Display: IRON SUN ECONOMY CAPTURE [local workspace]/unreal/Ridgefire/Saved/VisualCaptures/Economy-225378284236/Rejection.png
+[2026.10.05-02.22.12:807][398]LogTemp: Display: IRON SUN ECONOMY actual upgraded damage=85.050 model=85.050
+[2026.10.05-02.22.33:208][355]LogTemp: Display: IRON SUN ECONOMY default regroup elapsed=20.004 seconds
+[2026.10.05-02.22.33:213][355]LogTemp: Display: IRON SUN ECONOMY actual through first=115.668 second=26.775 expected_second=26.775
+[2026.10.05-02.22.33:622][375]LogTemp: Display: IRON SUN ECONOMY cover control front damage=115.668 second damage=0.000
+[2026.10.05-02.22.33:794][382]LogTemp: Display: IRON SUN ECONOMY CAPTURE [local workspace]/unreal/Ridgefire/Saved/VisualCaptures/Economy-225378284236/Blast.png
+[2026.10.05-02.22.34:272][447]LogTemp: Display: IRON SUN ECONOMY integration fixture completed; assertions determine verdict: transactions/owner receipts/upgrade lifecycle/actual blast recipients/pool anchoring and expiration; controlled funding/frozen targets, not hardware or human input
+[2026.10.05-02.22.34:280][448]LogAutomationController: Display: Test Completed. Result={Success} Name={IntegratedTransactions} Path={Ridgefire.Economy.IntegratedTransactions}
+[2026.10.05-02.22.34:325][451]LogAutomationController: Display: Test Completed. Result={Success} Name={RulesAndStats} Path={Ridgefire.Economy.RulesAndStats}
+
+## Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover
+[2026.10.05-02.20.05:099][368]LogTemp: Display: RIDGEFIRE RELIABILITY GEOMETRY CHECK COMPLETE
+[2026.10.05-02.20.05:106][369]LogAutomationController: Display: Test Completed. Result={Success} Name={VisibleBodyAndPhasmaCover} Path={Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover}
+
+## Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary
+[2026.10.05-02.13.37:786][156]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=0 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.05-02.13.37:830][158]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryThroughInputProcessing} Path={Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing}
+[2026.10.05-02.13.40:816][298]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=1 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.05-02.13.40:862][300]LogAutomationController: Display: Test Completed. Result={Success} Name={SprintRetainsSelectedPrimary} Path={Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary}
+
+## Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing
+[2026.10.05-02.13.37:786][156]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=0 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.05-02.13.37:830][158]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryThroughInputProcessing} Path={Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing}
+[2026.10.05-02.13.40:816][298]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=1 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.05-02.13.40:862][300]LogAutomationController: Display: Test Completed. Result={Success} Name={SprintRetainsSelectedPrimary} Path={Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary}
+
+## Ridgefire.Weapons.Fire.AuthoritativePierceDamage
+[2026.10.05-02.14.41:133][211]LogTemp: Display: RIDGEFIRE WEAPON FIRE TEST PASS modes=Auto,Pierce,Echo,Burst auth_damage=verified cover=verified cadence=verified release=verified
+[2026.10.05-02.14.41:144][213]LogAutomationController: Display: Test Completed. Result={Success} Name={AuthoritativePierceDamage} Path={Ridgefire.Weapons.Fire.AuthoritativePierceDamage}
+
+## Ridgefire.Weapons.Loadout.NormalInteractions
+[2026.10.05-02.15.45:991][762]LogTemp: Display: RIDGEFIRE LOADOUT PASS bindings=normal arsenal_fire=blocked close_trigger=cleared secondary_return=correct ammo=independent repeated=stable
+[2026.10.05-02.15.46:038][764]LogAutomationController: Display: Test Completed. Result={Success} Name={NormalInteractions} Path={Ridgefire.Weapons.Loadout.NormalInteractions}
+
+## Two-peer economy/blast Host
+[2026.10.05-02.21.11:765][616]LogTemp: Display: IRON SUN ECONOMY NETWORK HOST funding=2120 each; controlled station placement
+[2026.10.05-02.21.12:426][ 72]LogTemp: Display: IRON SUN ECONOMY NETWORK HOST PASS shared=120 remote_purchase=650 remote_upgrade=450 private_host_cash=2120 remote_cash=1020 stale_upgrade_rejected=true one_vote_did_not_start=true
+[2026.10.05-02.21.15:959][ 73]LogTemp: Display: IRON SUN ECONOMY NETWORK PASS host: two owned peers, private transactions/unanimous early start/actual blast; controlled funding and direct test equip
+
+## Two-peer economy/blast Client
+[2026.10.05-02.21.14:466][907]LogTemp: Display: IRON SUN ECONOMY NETWORK PASS client: private cash=1020 upgrade=1; reliable owner rejection and blast recipients=1; multicast pulse=24

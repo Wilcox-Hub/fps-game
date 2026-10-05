@@ -1,0 +1,18 @@
+[
+  {
+    "path": "supporting/Verify.ps1",
+    "sha256": "0DCBE04C2E131532C815928481F4E934820F3348916DFADA26EE46316531941F"
+  },
+  {
+    "path": "supporting/Build-Editor.ps1",
+    "sha256": "E5DC97F200FAB1DB30AC40B1B8F54DD3B929963A76B0A582D891A19349D9DFE9"
+  },
+  {
+    "path": "supporting/Build-Package.ps1",
+    "sha256": "480AA58BE341C26138E3D74967C63768A78BDCAF150BA0A7C5472F3F4877BE91"
+  },
+  {
+    "path": "supporting/Invoke-PackagedStartup.ps1",
+    "sha256": "05164BFEAA98333A0B398B62754DAAA24BB1DBE1631B90A7D49869A114EDB7FA"
+  }
+]

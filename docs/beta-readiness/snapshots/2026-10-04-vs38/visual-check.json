@@ -1,0 +1,23 @@
+{
+  "status": "INSPECTED",
+  "inspected_on": "2026-10-04",
+  "scope": "Actual Editor game D3D12 1280x720 frames from possessed Blueprint transaction/shot fixture. Simple summary, exact Details, private upgrade receipt, exact 50-cash rejection and visible expanding pulse with 2-hit/1-down dark-backed owner feedback inspected. No overlap/clipped receipt; six summary rows and detailed assumptions readable. Blast capture uses fixed 1/60 world steps, not performance or hardware-input acceptance. Frozen/repositioned actors; not human fun approval.",
+  "images": [
+    {
+      "path": "visuals/Blast.png",
+      "sha256": "32FF7724A018340BC533492E5D0B3B8AA4041B684D4D55CE4FA01C3B6573085E"
+    },
+    {
+      "path": "visuals/Comparison.png",
+      "sha256": "A61020E67C741A13966B3ADB5760EA98F0EA653475916E5712281B829C1D6468"
+    },
+    {
+      "path": "visuals/Details.png",
+      "sha256": "D393FF239BF0E3B5F53D06E5ABE3ABDFF67B53E8629C87EC67B2D84607409A0C"
+    },
+    {
+      "path": "visuals/Rejection.png",
+      "sha256": "48A4D7790FA6101983AAECA38269F20ADD4F05BE99A4AC132C3AB4FA7A8C316A"
+    }
+  ]
+}
