@@ -1,0 +1,31 @@
+{
+  "previous_snapshot": "2026-10-04-vs36",
+  "unchanged_previous_inputs": 536,
+  "changed_inputs": [
+    "Source/TP_FirstPerson/RidgefireCombatProgression.cpp",
+    "Source/TP_FirstPerson/RidgefireEconomy.cpp",
+    "Source/TP_FirstPerson/RidgefireEncounters.cpp",
+    "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+    "Source/TP_FirstPerson/RidgefireGameMode.h",
+    "Source/TP_FirstPerson/RidgefireHUD.cpp",
+    "Source/TP_FirstPerson/RidgefireHUD.h",
+    "Source/TP_FirstPerson/RidgefireRun.cpp",
+    "Source/TP_FirstPerson/RidgefireShopControls.cpp",
+    "Source/TP_FirstPerson/RidgefireShopHUD.cpp",
+    "Source/TP_FirstPerson/RidgefireWeaponProgression.cpp",
+    "Source/TP_FirstPerson/RidgefireWeaponProgression.h",
+    "Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireEconomyNetworkFixture.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireEconomyTests.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireLoadoutInteractionTests.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireRunTests.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.h",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h"
+  ],
+  "policy": "Fresh economy/replication/input/PIE/route/package checks supersede affected scopes. Earlier combat/fire/collision/loadout batch is expressly before only the subsequent summary/details presentation revision; final input/PIE/economy checks cover that revision. Other older evidence stays dated at its exact scope; no Internet/four-human/package-full-run/human-fun approval.",
+  "human_evidence": "VS35 remains the most recent human recording/fun review; new owner stat-comprehension feedback is incorporated, human acceptance of the revised screen remains open."
+}

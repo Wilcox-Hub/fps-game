@@ -1,0 +1,63 @@
+{
+  "scope": "Gameplay-only planning estimate; not overall beta completion or a test pass rate",
+  "estimated_on": "2026-10-03",
+  "confidence": "low",
+  "judgment_range_percent": [
+    43,
+    72
+  ],
+  "rubric": [
+    {
+      "category": "Controls and combat",
+      "weight_percent": 30,
+      "readiness_percent": 60,
+      "contribution": 18.0,
+      "rationale": "VS36 reproduces the sprint-triggered Phasma-to-Gale switch through engine InputKey processing and false empty-space hits through actual normal Gale shots. Both fixes pass; held sprint still increases speed and four sampled roles retain visible query hits/movement collision. Retain 60% pending normal-input packaged human feel, readability, content and performance acceptance."
+    },
+    {
+      "category": "Weapons and arsenal",
+      "weight_percent": 20,
+      "readiness_percent": 50,
+      "contribution": 10.0,
+      "rationale": "VS37 adds known paid weapons, compare-before-confirm, private upgrade choices and exact modeled stats behind a simple summary. Controlled shot damage/transactions and two rendered panels checked. Retain prior planning percentage pending natural-play balance, player comprehension and production weapon/animation/audio acceptance."
+    },
+    {
+      "category": "Waves, routes and arenas",
+      "weight_percent": 20,
+      "readiness_percent": 60,
+      "contribution": 12.0,
+      "rationale": "Six encounters per regular arena, four bounded reinforcement groups, two finale approach encounters and a stronger champion replace the short two-wave levels. Connected party size scales numbers, role HP and damage, including downed members. Final solo and four-peer route fixtures exercise 21 encounters, caps and finite victory. Owner video reports the prior build too short/easy; fresh human pacing/balance acceptance and finished content remain open. Retain 60% planning credit."
+    },
+    {
+      "category": "Co-op and recovery",
+      "weight_percent": 20,
+      "readiness_percent": 70,
+      "contribution": 14.0,
+      "rationale": "Final four-peer route checks replicated encounter counters and actual role HP/damage multipliers. Final two-peer hosted test repeats two wipes/restarts, fresh pending state, retained XP, actual movement/fire/reload, upward owner recoil and late-join rejection. Historical four-peer restart and host-loss evidence stays dated; packaged Internet/human co-op remains open. Retain 70% planning credit."
+    },
+    {
+      "category": "Perks and progression",
+      "weight_percent": 10,
+      "readiness_percent": 75,
+      "contribution": 7.5,
+      "rationale": "Grounded combat/medic/movement direction and existing perk planning credit retained. Pending reinforcements cannot award premature wave-clear XP or advance the arena. No new perk-content credit; 75% in this category is not overall beta completion."
+    }
+  ],
+  "weighted_score": 61.5,
+  "displayed_gameplay_readiness_percent": 62,
+  "overall_beta_readiness_percent": null,
+  "beta_ready": false,
+  "target_gameplay_readiness_percent": 75,
+  "target_status": "IN_PROGRESS; 75% has not been substantiated",
+  "assessment_note": "VS37 implements the approved first economy/progression loop, then simplifies its stat display following owner feedback. Controlled transactions, actual upgraded shots, local two-peer RPC/replication, rendered summary/details, input/combat/route checks and Shipping build/startup are recorded. Retain the dated 61.5 weighted / 62 displayed low-confidence planning estimate. Natural cash balance, human fun and the 45-60-minute run target remain unvalidated.",
+  "reviewed_on": "2026-10-04",
+  "new_completion_credit": 0,
+  "open_owner_reported_defects": [
+    "Post-fix human control/hit-feel acceptance remains open",
+    "Phasma blast feedback/readability remains incomplete; legitimate exposed-neighbor splash is confirmed"
+  ],
+  "corrected_defects": [
+    "Sprint triggering inherited template swap action",
+    "Invisible movement capsule accepting shots outside visible NPC armor"
+  ]
+}

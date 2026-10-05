@@ -1,0 +1,13 @@
+{
+  "package_id": "20261004-183219-201",
+  "runtime_sha256": "FD907AC16633A8F8EAE38A5661F73EE664F295BD68A7B4E1A32BB909081ABFCD",
+  "started_at_utc": "2026-10-05T01:34:29.6133746Z",
+  "observed_seconds": 22.17,
+  "process_survived": true,
+  "graphics_modules": [
+    "dxgi.dll",
+    "d3d12.dll",
+    "D3D12Core.dll"
+  ],
+  "scope": "Owned offscreen Shipping process startup survival/module-load check only; no rendered-frame inspection, menu input, normal play, audio, remote peers, performance or beta acceptance."
+}

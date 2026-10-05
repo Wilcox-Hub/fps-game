@@ -1,0 +1,23 @@
+{
+  "status": "INSPECTED",
+  "tested_on": "2026-10-04",
+  "scope": "Two actual offscreen D3D12 1280x720 arsenal frames; inspected final compact six-row comparison and bound-Tab exact-details view, upgrade preview, costs, cash, inventory, deltas, DPS, party/solo estimates and control labels. No hardware-input, animation, audio, frame-rate or normal-play acceptance.",
+  "findings": [
+    "Cash and cost status readable at top without overlap",
+    "Summary separates current/selected columns and makes +50% damage, +9% rate and +7 rounds easy to scan",
+    "Accuracy/recoil use plain categories; chosen behavior has a short description",
+    "Exact details and enemy rows readable without clipping",
+    "Controls and model assumptions fit within both frames",
+    "Prototype presentation retained; player comprehension acceptance pending"
+  ],
+  "images": [
+    {
+      "path": "visuals/Comparison.png",
+      "sha256": "199D1A5EEE93FDF896EFBAD6BE360147E5EC4BB2AFF1BBD9131ACB959B0CDB48"
+    },
+    {
+      "path": "visuals/Details.png",
+      "sha256": "C43FF9A2ABCB85614E53E3374FD1E579A3AF938B90E52DB731E7082E718D126E"
+    }
+  ]
+}

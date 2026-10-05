@@ -1,0 +1,118 @@
+## Ridgefire.Economy.IntegratedTransactions / IRON-SUN-Economy-20261004-182252-799.log
+[2026.10.05-01.23.10:841][374]LogTemp: Display: IRON SUN ECONOMY CAPTURE [local workspace]/unreal/Ridgefire/Saved/VisualCaptures/Economy-189962148432/Comparison.png
+[2026.10.05-01.23.10:886][375]LogTemp: Display: IRON SUN ECONOMY CAPTURE [local workspace]/unreal/Ridgefire/Saved/VisualCaptures/Economy-189962148432/Details.png
+[2026.10.05-01.23.11:146][387]LogTemp: Display: IRON SUN ECONOMY actual upgraded damage=85.050 model=85.050
+[2026.10.05-01.23.31:537][332]LogTemp: Display: IRON SUN ECONOMY default regroup elapsed=20.001 seconds
+[2026.10.05-01.23.31:544][332]LogTemp: Display: IRON SUN ECONOMY actual through first=115.668 second=26.775 expected_second=26.775
+[2026.10.05-01.23.31:949][352]LogTemp: Display: IRON SUN ECONOMY cover control front damage=115.668 second damage=0.000
+[2026.10.05-01.23.31:956][352]LogTemp: Display: IRON SUN ECONOMY integration fixture completed; assertions determine verdict: controlled shared cash/transactions/private upgrades/actual pulse/through/cover/finisher/20-second default and early regroup; not hardware or network input
+[2026.10.05-01.23.31:980][353]LogAutomationController: Display: Test Completed. Result={Success} Name={IntegratedTransactions} Path={Ridgefire.Economy.IntegratedTransactions}
+[2026.10.05-01.23.32:025][356]LogAutomationController: Display: Test Completed. Result={Success} Name={RulesAndStats} Path={Ridgefire.Economy.RulesAndStats}
+
+## Ridgefire.Economy.RulesAndStats / IRON-SUN-Economy-20261004-182252-799.log
+[2026.10.05-01.23.10:841][374]LogTemp: Display: IRON SUN ECONOMY CAPTURE [local workspace]/unreal/Ridgefire/Saved/VisualCaptures/Economy-189962148432/Comparison.png
+[2026.10.05-01.23.10:886][375]LogTemp: Display: IRON SUN ECONOMY CAPTURE [local workspace]/unreal/Ridgefire/Saved/VisualCaptures/Economy-189962148432/Details.png
+[2026.10.05-01.23.11:146][387]LogTemp: Display: IRON SUN ECONOMY actual upgraded damage=85.050 model=85.050
+[2026.10.05-01.23.31:537][332]LogTemp: Display: IRON SUN ECONOMY default regroup elapsed=20.001 seconds
+[2026.10.05-01.23.31:544][332]LogTemp: Display: IRON SUN ECONOMY actual through first=115.668 second=26.775 expected_second=26.775
+[2026.10.05-01.23.31:949][352]LogTemp: Display: IRON SUN ECONOMY cover control front damage=115.668 second damage=0.000
+[2026.10.05-01.23.31:956][352]LogTemp: Display: IRON SUN ECONOMY integration fixture completed; assertions determine verdict: controlled shared cash/transactions/private upgrades/actual pulse/through/cover/finisher/20-second default and early regroup; not hardware or network input
+[2026.10.05-01.23.31:980][353]LogAutomationController: Display: Test Completed. Result={Success} Name={IntegratedTransactions} Path={Ridgefire.Economy.IntegratedTransactions}
+[2026.10.05-01.23.32:025][356]LogAutomationController: Display: Test Completed. Result={Success} Name={RulesAndStats} Path={Ridgefire.Economy.RulesAndStats}
+
+## Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters / IRON-SUN-Reliability-20261004-162312-542.log
+[2026.10.04-23.23.25:629][455]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=1 offer=1 weapon=Phasma Rifle
+[2026.10.04-23.24.14:563][880]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=1 actual_shot_clear=1; no selection input after first choice
+[2026.10.04-23.24.14:568][881]LogAutomationController: Display: Test Completed. Result={Success} Name={ActualShotClearSelectedPrimary} Path={Ridgefire.Regressions.Combat.ActualShotClearSelectedPrimary}
+[2026.10.04-23.24.14:610][883]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=2 offer=1 weapon=Phasma Rifle
+[2026.10.04-23.25.37:704][517]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=3 actual_shot_clear=0; no selection input after first choice
+[2026.10.04-23.25.37:709][518]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryAcrossEncounters} Path={Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters}
+[2026.10.04-23.25.37:766][520]LogTemp: Display: RIDGEFIRE RELIABILITY GEOMETRY CHECK COMPLETE
+[2026.10.04-23.25.37:769][521]LogAutomationController: Display: Test Completed. Result={Success} Name={VisibleBodyAndPhasmaCover} Path={Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover}
+
+## Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover / IRON-SUN-Reliability-20261004-162312-542.log
+[2026.10.04-23.23.25:629][455]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=1 offer=1 weapon=Phasma Rifle
+[2026.10.04-23.24.14:563][880]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=1 actual_shot_clear=1; no selection input after first choice
+[2026.10.04-23.24.14:568][881]LogAutomationController: Display: Test Completed. Result={Success} Name={ActualShotClearSelectedPrimary} Path={Ridgefire.Regressions.Combat.ActualShotClearSelectedPrimary}
+[2026.10.04-23.24.14:610][883]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=2 offer=1 weapon=Phasma Rifle
+[2026.10.04-23.25.37:704][517]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=3 actual_shot_clear=0; no selection input after first choice
+[2026.10.04-23.25.37:709][518]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryAcrossEncounters} Path={Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters}
+[2026.10.04-23.25.37:766][520]LogTemp: Display: RIDGEFIRE RELIABILITY GEOMETRY CHECK COMPLETE
+[2026.10.04-23.25.37:769][521]LogAutomationController: Display: Test Completed. Result={Success} Name={VisibleBodyAndPhasmaCover} Path={Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover}
+
+## Ridgefire.Regressions.Combat.ActualShotClearSelectedPrimary / IRON-SUN-Reliability-20261004-162312-542.log
+[2026.10.04-23.23.25:629][455]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=1 offer=1 weapon=Phasma Rifle
+[2026.10.04-23.24.14:563][880]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=1 actual_shot_clear=1; no selection input after first choice
+[2026.10.04-23.24.14:568][881]LogAutomationController: Display: Test Completed. Result={Success} Name={ActualShotClearSelectedPrimary} Path={Ridgefire.Regressions.Combat.ActualShotClearSelectedPrimary}
+[2026.10.04-23.24.14:610][883]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=2 offer=1 weapon=Phasma Rifle
+[2026.10.04-23.25.37:704][517]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=3 actual_shot_clear=0; no selection input after first choice
+[2026.10.04-23.25.37:709][518]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryAcrossEncounters} Path={Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters}
+[2026.10.04-23.25.37:766][520]LogTemp: Display: RIDGEFIRE RELIABILITY GEOMETRY CHECK COMPLETE
+[2026.10.04-23.25.37:769][521]LogAutomationController: Display: Test Completed. Result={Success} Name={VisibleBodyAndPhasmaCover} Path={Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover}
+
+## Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary / IRON-SUN-Reliability-20261004-182442-116.log
+[2026.10.05-01.25.12:765][273]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=0 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.05-01.25.12:798][275]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryThroughInputProcessing} Path={Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing}
+[2026.10.05-01.25.15:799][455]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=1 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.05-01.25.15:832][457]LogAutomationController: Display: Test Completed. Result={Success} Name={SprintRetainsSelectedPrimary} Path={Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary}
+
+## Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing / IRON-SUN-Reliability-20261004-182442-116.log
+[2026.10.05-01.25.12:765][273]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=0 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.05-01.25.12:798][275]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryThroughInputProcessing} Path={Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing}
+[2026.10.05-01.25.15:799][455]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=1 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.05-01.25.15:832][457]LogAutomationController: Display: Test Completed. Result={Success} Name={SprintRetainsSelectedPrimary} Path={Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary}
+
+## Ridgefire.Regressions.CombatPIE.ActualShotClearSelectedPrimary / IRON-SUN-Reliability-20261004-182516-100.log
+[2026.10.05-01.25.35:550][396]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=1 offer=1 weapon=Phasma Rifle
+[2026.10.05-01.26.24:515][741]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=1 actual_shot_clear=1; no selection input after first choice
+[2026.10.05-01.26.24:590][742]LogAutomationController: Display: Test Completed. Result={Success} Name={ActualShotClearSelectedPrimary} Path={Ridgefire.Regressions.CombatPIE.ActualShotClearSelectedPrimary}
+[2026.10.05-01.26.44:599][679]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=0 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.05-01.26.44:686][680]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryThroughInputProcessing} Path={Ridgefire.Regressions.CombatPIE.SelectedPrimaryThroughInputProcessing}
+
+## Ridgefire.Regressions.CombatPIE.SelectedPrimaryThroughInputProcessing / IRON-SUN-Reliability-20261004-182516-100.log
+[2026.10.05-01.25.35:550][396]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTED wave=1 offer=1 weapon=Phasma Rifle
+[2026.10.05-01.26.24:515][741]LogTemp: Display: RIDGEFIRE RELIABILITY SELECTION PASS actual slot-2 binding, firing, empty-magazine reload, kill rewards, four reinforcement groups; transitions=1 actual_shot_clear=1; no selection input after first choice
+[2026.10.05-01.26.24:590][742]LogAutomationController: Display: Test Completed. Result={Success} Name={ActualShotClearSelectedPrimary} Path={Ridgefire.Regressions.CombatPIE.ActualShotClearSelectedPrimary}
+[2026.10.05-01.26.44:599][679]LogTemp: Display: RIDGEFIRE RELIABILITY INPUT PASS sprint_only=0 real PlayerController InputKey and normal per-frame processing; selected primary retained, actual sprint speed increased
+[2026.10.05-01.26.44:686][680]LogAutomationController: Display: Test Completed. Result={Success} Name={SelectedPrimaryThroughInputProcessing} Path={Ridgefire.Regressions.CombatPIE.SelectedPrimaryThroughInputProcessing}
+
+## Ridgefire.Weapons.Fire.AuthoritativePierceDamage / IRON-SUN-Weapon-Fire-20261004-162741-319-d2c45d13.log
+[2026.10.04-23.29.16:269][173]LogTemp: Display: RIDGEFIRE WEAPON FIRE TEST PASS modes=Auto,Pierce,Echo,Burst auth_damage=verified cover=verified cadence=verified release=verified
+[2026.10.04-23.29.16:279][175]LogAutomationController: Display: Test Completed. Result={Success} Name={AuthoritativePierceDamage} Path={Ridgefire.Weapons.Fire.AuthoritativePierceDamage}
+
+## Ridgefire.Weapons.PiercingTrace.RealSentryCollision / IRON-SUN-Piercing-Trace-20261004-162916.log
+[2026.10.04-23.29.28:400][169]LogAutomationController: Display: Test Completed. Result={Success} Name={RealSentryCollision} Path={Ridgefire.Weapons.PiercingTrace.RealSentryCollision}
+
+## Ridgefire.Weapons.Loadout.NormalInteractions / IRON-SUN-Loadout-20261004-162928-593.log
+[2026.10.04-23.30.32:784][753]LogTemp: Display: RIDGEFIRE LOADOUT PASS bindings=normal arsenal_fire=blocked close_trigger=cleared secondary_return=correct ammo=independent repeated=stable
+[2026.10.04-23.30.32:831][755]LogAutomationController: Display: Test Completed. Result={Success} Name={NormalInteractions} Path={Ridgefire.Weapons.Loadout.NormalInteractions}
+
+## Two-peer economy Host / Host.log
+[2026.10.05-01.24.39:089][260]LogTemp: Display: IRON SUN ECONOMY NETWORK HOST funding=2120 each; controlled station placement
+[2026.10.05-01.24.39:731][681]LogTemp: Display: IRON SUN ECONOMY NETWORK HOST PASS shared=120 remote_purchase=650 remote_upgrade=450 private_host_cash=2120 remote_cash=1020 stale_upgrade_rejected=true one_vote_did_not_start=true
+[2026.10.05-01.24.41:759][755]LogTemp: Display: IRON SUN ECONOMY NETWORK PASS host: two owned peers, private purchases/upgrades and unanimous early start
+
+## Two-peer economy Client / Client.log
+[2026.10.05-01.24.40:789][622]LogTemp: Display: IRON SUN ECONOMY NETWORK PASS client: owner-replicated cash=1020 upgrade=1 active=Helix; purchase/upgrade/ready RPCs and live upgrade rejection
+
+## Ridgefire.Run.IntegratedRoute / Automation.log
+[2026.10.05-01.29.34:200][369]LogTemp: Display: RIDGEFIRE RUN OBSERVED arena=0 wave=0
+[2026.10.05-01.29.43:755][828]LogTemp: Display: RIDGEFIRE RUN arena_cleared=0 visited=1 seed=11381
+[2026.10.05-01.29.43:817][831]LogTemp: Display: RIDGEFIRE RUN route_locked=2 left=0 right=1 eligible=1 epoch=1
+[2026.10.05-01.29.43:866][833]LogTemp: Display: RIDGEFIRE RUN entered=2 visited=2 relays=3 tube=RidgefireHealingTube_1
+[2026.10.05-01.29.43:866][833]LogTemp: Display: RIDGEFIRE RUN OBSERVED arena=2 wave=6
+[2026.10.05-01.29.52:100][228]LogTemp: Display: RIDGEFIRE RUN arena_cleared=2 visited=2 seed=11381
+[2026.10.05-01.29.52:161][231]LogTemp: Display: RIDGEFIRE RUN route_locked=1 left=0 right=1 eligible=1 epoch=2
+[2026.10.05-01.29.52:193][232]LogTemp: Display: RIDGEFIRE RUN entered=1 visited=3 relays=0 tube=RidgefireHealingTube_2
+[2026.10.05-01.29.52:193][232]LogTemp: Display: RIDGEFIRE RUN OBSERVED arena=1 wave=12
+[2026.10.05-01.30.00:415][625]LogTemp: Display: RIDGEFIRE RUN arena_cleared=1 visited=3 seed=11381
+[2026.10.05-01.30.00:415][625]LogTemp: Display: RIDGEFIRE RUN route_locked=3 left=0 right=0 eligible=1 epoch=3
+[2026.10.05-01.30.00:463][627]LogTemp: Display: RIDGEFIRE RUN entered=3 visited=4 relays=3 tube=RidgefireHealingTube_3
+[2026.10.05-01.30.00:463][627]LogTemp: Display: RIDGEFIRE RUN OBSERVED arena=3 wave=18
+[2026.10.05-01.30.04:694][831]LogTemp: Display: RIDGEFIRE RUN arena_cleared=3 visited=4 seed=11381
+[2026.10.05-01.30.04:694][831]LogTemp: Display: RIDGEFIRE RUN victory arenas=4 waves=21 seed=11381 score=321970
+[2026.10.05-01.30.05:004][846]LogTemp: Display: RIDGEFIRE RUN fixture completed; assertions determine verdict: four unique prototypes, normal setup, twenty-one reinforced encounters, interactive relays, champion guard/phase, bounded victory and reward idempotence; combat accelerated by fixture
+[2026.10.05-01.30.05:021][847]LogAutomationController: Display: Test Completed. Result={Success} Name={IntegratedRoute} Path={Ridgefire.Run.IntegratedRoute}
+
+## Ridgefire.Run.EncounterPlan / Automation.log
+[2026.10.05-01.30.17:136][325]LogAutomationController: Display: Test Completed. Result={Success} Name={EncounterPlan} Path={Ridgefire.Run.EncounterPlan}

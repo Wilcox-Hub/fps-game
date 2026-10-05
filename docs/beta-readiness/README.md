@@ -2,7 +2,7 @@
 
 Latest gameplay planning estimate: **62%** (weighted 61.5), low confidence, estimated October 3, reviewed October 4, 2026; reproduced control/collision fixes are validated, human post-fix acceptance remains open. **NOT_BETA_READY.** The target is **75%; it remains in progress**. Overall beta completion remains unmeasured. These percentages are planning judgments, not test pass rates.
 
-Start with [latest.json](latest.json), [VS36 fixes and validation](snapshots/2026-10-04-vs36/report.md), [diagnosis](snapshots/2026-10-04-vs36/diagnosis.md), [test results](snapshots/2026-10-04-vs36/test-results.json), [scores](snapshots/2026-10-04-vs36/scores.json), and the [owner gameplay/fun review](snapshots/2026-10-04-vs35/video-review.md). Older snapshots remain dated history.
+Start with [latest.json](latest.json), [VS37 economy and progression](snapshots/2026-10-04-vs37/report.md), [test results](snapshots/2026-10-04-vs37/test-results.json), [comparison frames](snapshots/2026-10-04-vs37/visual-check.json), [scores](snapshots/2026-10-04-vs37/scores.json), and the [owner fun review](snapshots/2026-10-04-vs35/video-review.md). Older snapshots remain dated history.
 
 | Area | Weight | Readiness | Points |
 | --- | ---: | ---: | ---: |
@@ -13,6 +13,8 @@ Start with [latest.json](latest.json), [VS36 fixes and validation](snapshots/202
 | Perks and progression | 10% | 75% | 7.5 |
 
 Consult this folder before test selection or readiness answers. Run `powershell -NoProfile -File docs/beta-readiness/Check-Readiness.ps1` to compare input hashes. Reuse saved evidence only at its recorded date and validation level; changed inputs and environment/package/network differences require affected checks.
+
+VS37 implements shared cash, paid known weapons, private upgrades and finishers, compare-before-confirm and 20-second regroup with early team start at existing arsenals. Owner feedback simplifies the main stat view; Tab/L3 reveals exact deltas/DPS/enemy estimates. Controlled economy, actual upgraded shots/cover, local two-peer transactions, final rendered summary/details, input/PIE/route and Shipping build/startup evidence is recorded. Current inputs: 559. The 45–60-minute successful run, natural cash balance and human fun/comprehension remain open. Keep the dated 62% planning estimate and NOT_BETA_READY.
 
 VS36 fixes sprint invoking the inherited template weapon swap and removes invisible movement-capsule bullet hits. Seven new controlled combat/input/PIE tests, weapon/piercing/arsenal checks, two-peer local combat, inspected arsenal frames and a fresh Shipping Prototype build/startup pass. Normal Phasma blast damages exposed nearby bots; cover and range controls pass. Its visual blast feedback and human feel/fun acceptance remain open. Current inputs: 551, with five changes/additions versus VS35. Keep 62% dated planning credit and NOT_BETA_READY; controlled correctness is not human-fun approval.
 

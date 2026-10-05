@@ -1,0 +1,187 @@
+[
+  {
+    "gate": "Ridgefire.Economy.IntegratedTransactions",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Rendered D3D12 actual possessed Blueprints and bound T/U/Tab controls: dependable starter, unpaid/duplicate/invalid rejection, actual station purchase, private upgrades preserving ammo, shared encounter/objective cash including a downed peer, private one-time finisher reward, real 85.05 HP pulse shot, aligned 26.775 HP second-target penetration, actual cover with independent/positive controls, 20 normal-world-second deadline and living-team early start. Targets frozen/repositioned; 2000 cash is explicit controlled funding. No hardware input, natural balance or human acceptance.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Economy-20261004-182252-799.log",
+      "sha256": "C25B927F302E10670BD57348B0400AAB9B09F99B7D46DEFDBD0BE20F7036114B"
+    }
+  },
+  {
+    "gate": "Ridgefire.Economy.RulesAndStats",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Upgrade rules and exact baseline/cadence/reload math; finite modeled damage/DPS and three enemy rows for all 9 modes x 10 payloads x 10 conditions and party sizes 1-4. Not actual firing of every combination; random effects use expected damage.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Economy-20261004-182252-799.log",
+      "sha256": "C25B927F302E10670BD57348B0400AAB9B09F99B7D46DEFDBD0BE20F7036114B"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Combat.SelectedPrimaryAcrossEncounters",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Paid acquisition at a real arsenal, bound slot-2 selection and firing/reload/pickup/combat actions; identity retained through three production encounter transitions. Frozen damage-API clears. Performed before only the subsequent simple/details presentation revision; transaction and encounter logic is unchanged.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-162312-542.log",
+      "sha256": "91A3F590C96981A112C6977B0C8E451E5FE5EBE7863B89C93DC6A0FAFAE4103A"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual visible Blueprint body/capsule differential scans, empty-space normal Gale shot, actual exposed/covered/distant Phasma shots and disabled-divider control; four roles across manual visual poses. Prior presentation-only changes do not affect these collision paths.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-162312-542.log",
+      "sha256": "91A3F590C96981A112C6977B0C8E451E5FE5EBE7863B89C93DC6A0FAFAE4103A"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Combat.ActualShotClearSelectedPrimary",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual Phasma fire/reload/pickup/actions and shot-based encounter clear. Frozen and repositioned targets. Performed before the subsequent presentation-only revision; final rendered PIE equivalent below is fresh.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-162312-542.log",
+      "sha256": "91A3F590C96981A112C6977B0C8E451E5FE5EBE7863B89C93DC6A0FAFAE4103A"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Input.SprintRetainsSelectedPrimary",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Final simple/details module: processed simulated slot-2 and held sprint press/release; selected gun and actual movement speed retained. No OS/hardware input.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-182442-116.log",
+      "sha256": "E139E1178E5A26EA58C4EEDFFDB4C2E542CC0B868333C02CC52589CE1B684A9F"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Input.SelectedPrimaryThroughInputProcessing",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Final module: processed simulated slot-2/fire/reload/C/held sprint/surge/patch/aim/movement sequence. Selection retained; sprint increases movement speed. No hardware or human input.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-182442-116.log",
+      "sha256": "E139E1178E5A26EA58C4EEDFFDB4C2E542CC0B868333C02CC52589CE1B684A9F"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.CombatPIE.ActualShotClearSelectedPrimary",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Final module in rendered D3D12 Play in Editor: normal paid slot-2 acquisition and actual shot/reload/action encounter clear, selected gun retained. Frozen/repositioned targets; no human/full-run acceptance.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-182516-100.log",
+      "sha256": "A2EA3C260B52D70AA46A25230141BF250ADA7DF348E721352C02FAB20F3EBF56"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.CombatPIE.SelectedPrimaryThroughInputProcessing",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Final module in rendered D3D12 Play in Editor: full processed simulated input sequence, selected gun retained and sprint speed increases. No OS/hardware input.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Reliability-20261004-182516-100.log",
+      "sha256": "A2EA3C260B52D70AA46A25230141BF250ADA7DF348E721352C02FAB20F3EBF56"
+    }
+  },
+  {
+    "gate": "Ridgefire.Weapons.Fire.AuthoritativePierceDamage",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Authoritative Auto/Pierce/Echo/Burst damage/cadence/release in constructed actual Blueprint scene. Same firing logic after presentation revision; NullRHI, no network/hardware acceptance.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Weapon-Fire-20261004-162741-319-d2c45d13.log",
+      "sha256": "92DE0B72BD6A7C5BA22772857DC418D44F53DE34224B3315242BE5C82BAD2EFE"
+    }
+  },
+  {
+    "gate": "Ridgefire.Weapons.PiercingTrace.RealSentryCollision",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Real NPC/cover collision, unique ordered recipients and misses; same trace logic after presentation revision. Constructed NullRHI scene.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Piercing-Trace-20261004-162916.log",
+      "sha256": "80691D0F5C6097D1EF84B37C48D344D3361DB6B0D628F229A11A0C443D830E62"
+    }
+  },
+  {
+    "gate": "Ridgefire.Weapons.Loadout.NormalInteractions",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Explicit controlled cash purchase at actual arsenal; bound input, firing blocked in menu, close clears held trigger, independent ammo and correct primary/secondary return. Before only the later simple/details presentation revision; final economy render checks both final panels.",
+    "log": {
+      "path": "Saved/Logs/IRON-SUN-Loadout-20261004-162928-593.log",
+      "sha256": "DFB98C1951863C93F091380ADD44BF95DCE54BB49734D056FEF21859ED5AC7C5"
+    }
+  },
+  {
+    "gate": "Two-peer economy Host",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual local Editor listen host/client and owned RPC/replication. Controlled cash funding/station placement and frozen enemy damage-API clear. No Internet, packaged, hardware-input, performance or human acceptance.",
+    "log": {
+      "path": "Saved/Automation/EconomyNetwork/checks-20261004-182332-513/Host.log",
+      "sha256": "0121C282D01E7E504DA893B3D00AA5F6C252C4C3F1FB4D61C2956CD75077DF08"
+    }
+  },
+  {
+    "gate": "Two-peer economy Client",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual local Editor listen host/client and owned RPC/replication. Controlled cash funding/station placement and frozen enemy damage-API clear. No Internet, packaged, hardware-input, performance or human acceptance.",
+    "log": {
+      "path": "Saved/Automation/EconomyNetwork/checks-20261004-182332-513/Client.log",
+      "sha256": "5691108BC34F441A8E7D2F16B9C58051044302A2C7A40CD5613EE68E2A98257C"
+    }
+  },
+  {
+    "gate": "Ridgefire.Run.IntegratedRoute",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Unattended local engine route fixture at 20x world time; normal setup, reinforcements, regroup and route/lens paths. No human/hardware/Internet acceptance. The real-time 20-second regroup was separately checked in the economy test.",
+    "log": {
+      "path": "Saved/Automation/Run/checks-20261004-182920-792/Automation.log",
+      "sha256": "A236FE6196D79D45E14A704B3F959A38A16C6F3C3BEC301656DEB592B6486EE1"
+    }
+  },
+  {
+    "gate": "Ridgefire.Run.EncounterPlan",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+    "log": {
+      "path": "Saved/Automation/Run/checks-20261004-183005-338/Automation.log",
+      "sha256": "0A7CE69DEE016DACFBB33DC3EE8F4A33A12A1344F994EE4FB88E914F0A05D736"
+    }
+  },
+  {
+    "gate": "Final comparison visual inspection",
+    "status": "INSPECTED",
+    "scope": "Two actual offscreen D3D12 1280x720 arsenal frames; inspected final compact six-row comparison and bound-Tab exact-details view, upgrade preview, costs, cash, inventory, deltas, DPS, party/solo estimates and control labels. No hardware-input, animation, audio, frame-rate or normal-play acceptance.",
+    "details": "visual-check.json"
+  },
+  {
+    "gate": "Development Editor build",
+    "status": "PASS",
+    "scope": "Final code compiles in UE 5.8.3. Existing engine/toolchain warnings remain.",
+    "log_sha256": "A5EF7CACC737885EE8C911C08A8D8D90E3280A32CDBA101AFB86683F4E2B4EE3"
+  },
+  {
+    "gate": "Windows Shipping BuildCookRun",
+    "status": "PASS",
+    "scope": "Final matching source/config/content built, cooked, staged and archived as COMPLETE Shipping Prototype.",
+    "package_id": "20261004-183219-201",
+    "log_sha256": "2C75FFBE4F9D332B2707C022129703BD72953CB46C1048980B87AC90442D3DAC"
+  },
+  {
+    "gate": "Shipping startup",
+    "status": "PASS",
+    "scope": "Owned offscreen Shipping process startup survival/module-load check only; no rendered-frame inspection, menu input, normal play, audio, remote peers, performance or beta acceptance.",
+    "details": "packaged-startup.json"
+  }
+]

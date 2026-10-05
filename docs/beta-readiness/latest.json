@@ -3,10 +3,10 @@
   "recorded_on": "2026-10-04",
   "tested_on": "2026-10-04",
   "timezone": "America/Los_Angeles",
-  "snapshot_id": "2026-10-04-vs36",
+  "snapshot_id": "2026-10-04-vs37",
   "source_baseline_commit": "a3d2d1ca109764962493722f5859b3013b1cf058",
   "tested_source_includes_unpublished_changes": true,
-  "tested_input_count": 551,
+  "tested_input_count": 559,
   "engine": "Unreal Engine 5.8.3",
   "project": "unreal/Ridgefire",
   "verdict": "NOT_BETA_READY",
@@ -14,37 +14,37 @@
   "gameplay_weighted_score": 61.5,
   "overall_beta_readiness_percent": null,
   "confidence": "low",
-  "score": "snapshots/2026-10-04-vs36/scores.json",
-  "report": "snapshots/2026-10-04-vs36/report.md",
-  "input_manifest": "snapshots/2026-10-04-vs36/input-manifest.json",
-  "test_results": "snapshots/2026-10-04-vs36/test-results.json",
+  "score": "snapshots/2026-10-04-vs37/scores.json",
+  "report": "snapshots/2026-10-04-vs37/report.md",
+  "input_manifest": "snapshots/2026-10-04-vs37/input-manifest.json",
+  "test_results": "snapshots/2026-10-04-vs37/test-results.json",
   "cache_policy": "Reuse matching-input evidence at its recorded validation level. Changed, missing or added inputs require affected checks; historical scores remain dated until a new assessment.",
   "remaining_gates": [
     "Post-fix human control/hit-feel acceptance and Phasma blast readability",
-    "Human fun/pacing acceptance after the owner pacing interview",
     "Post-fix normal-input packaged full runs and human pacing/balance testing",
     "Ten finished arenas, intended final-run pacing, survival and original champions",
     "Character preselection/shared reveal, host checkpoints and packaged hosted-session acceptance",
     "Steam/Internet/invites/Quick Play, multi-device four-human runs and disconnect AI/reclaim",
-    "Production art/animation/audio and minimum-PC profiling/soaks"
+    "Production art/animation/audio and minimum-PC profiling/soaks",
+    "Human acceptance of readable comparison, cash balance and upgrade value; enemy attack rhythm still open"
   ],
   "project_descriptor": {
     "path": "Ridgefire.uproject",
     "sha256": "065A1AB7AF0B97F9C813738343DCC20B66CE016D144DC7FAC6799DCC2692F331"
   },
-  "previous_test_snapshot": "2026-10-04-vs35",
+  "previous_test_snapshot": "2026-10-04-vs36",
   "beta_readiness_approved": false,
   "testing_recommendation": "Supervised internal alpha on refreshed Prototype package; external beta conditional on packaged normal-input full runs and friend co-op acceptance",
-  "assessment_kind": "Reproduced sprint/swap and empty-space-hit defects fixed; controlled engine input/combat, Editor render, local co-op and Shipping build/startup evidence",
+  "assessment_kind": "Approved first economy/progression implementation and readable stat comparison; controlled actual shots, local co-op transactions, rendered summary/details, route and Shipping build/startup",
   "target_gameplay_readiness_percent": 75,
   "target_status": "IN_PROGRESS; not reached",
-  "last_automated_implementation_snapshot": "2026-10-04-vs36",
+  "last_automated_implementation_snapshot": "2026-10-04-vs37",
   "gameplay_score_estimated_on": "2026-10-03",
   "human_recording_reviewed_on": "2026-10-04",
-  "owner_feedback_acceptance": "Post-fix owner playtest pending; previous fun/pacing rejection remains open",
+  "owner_feedback_acceptance": "Stat display confusion addressed with simple summary/details; natural-play comprehension, balance and fun acceptance pending",
   "next_gameplay_checks": [
-    "Post-fix normal-input packaged full-run control/hit-feel acceptance",
-    "Owner pacing interview and fun acceptance",
-    "Clear Phasma blast feedback and normal multi-device packaged co-op"
+    "Owner normal-input packaged comparison/economy/finisher playtest",
+    "Natural cash/weapon/upgrade balance and satisfying pacing",
+    "Packaged friend co-op and four-human acceptance"
   ]
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "path": "Tools/Invoke-EconomyNetworkChecks.ps1",
+    "sha256": "B8FDD755A6F33A50C562CA48CC0F381E260F117EF156B3C33A6089971A5A2C5A"
+  },
+  {
+    "path": "Tools/Invoke-EconomyChecks.ps1",
+    "sha256": "5675E19C3E7566FF9D5D33F4F742D011DBBE134A946F5EB64ACF9CFF0CAAF4A6"
+  },
+  {
+    "path": "supporting/Invoke-AcceleratedRoute.ps1",
+    "sha256": "405ACCC46752529DDB19839DBA76AA304F576ECD23D1CD8D0D4CB1C807E558D9"
+  },
+  {
+    "path": "supporting/Invoke-PackagedStartup.ps1",
+    "sha256": "05164BFEAA98333A0B398B62754DAAA24BB1DBE1631B90A7D49869A114EDB7FA"
+  }
+]
