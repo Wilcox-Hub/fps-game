@@ -1,0 +1,43 @@
+{
+  "baseline": "2026-10-04-vs39 saved input hashes",
+  "current": "2026-10-04-vs41 saved input hashes and matching live source",
+  "commits": "none; unpublished working changes",
+  "files": [
+    {
+      "path": "Source/TP_FirstPerson/RidgefireShopHUD.cpp",
+      "baseline_sha256": "06C1E64737899C31C06008C05831F0839DECD0A7D5A3C9EB3F9C0ACA87006EFF",
+      "current_sha256": "9DF358C3AEA81616ABA494DBD9ADD3A1FBF031DE0ACE584C93BA6F4F3D9FC4E6",
+      "baseline_source": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs39\\Source\\TP_FirstPerson\\RidgefireShopHUD.cpp"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireWeaponProgression.cpp",
+      "baseline_sha256": "0F2A5E971C34DF13B09234A65686A0AF4355A23F31BA9087CFEBDF92D15853F5",
+      "current_sha256": "FFF410F9BD4707380FA834021D62136A0DE9008BDD42A9B735AEEB4D4A8E8488",
+      "baseline_source": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs37\\Source\\TP_FirstPerson\\RidgefireWeaponProgression.cpp"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp",
+      "baseline_sha256": "D68395EB994547FA9833C099F1D59E4922CA8787F7F622FCC470558643F3E8A4",
+      "current_sha256": "1C5545B16DB1A75EDEC854B551DC9BE29F9165C8D647E0D961DBBF54819E5F8E",
+      "baseline_source": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs38\\Source\\TP_FirstPerson\\Tests\\RidgefireCombatReliabilityTests.cpp"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireEconomyTests.cpp",
+      "baseline_sha256": "7AB9904C1C5E48327BA21A4DDEC487AE40C2796F0C41F636B6BA70042660EF02",
+      "current_sha256": "3A5500801A54365ECFCC6FCF0172FFD2DD35C4CC0FA489A14742DD0BBF0764E5",
+      "baseline_source": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs38\\Source\\TP_FirstPerson\\Tests\\RidgefireEconomyTests.cpp"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+      "baseline_sha256": "D715BC28AA43576C3AD799E9D2B452D25AE718C2EF1DBB1E0557F996C0BDA27A",
+      "current_sha256": "EA8205FB6173B31C0EBE56738BD42E91743D73B2CC5E7979B16783B7D6C35FEC",
+      "baseline_source": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs38\\Source\\TP_FirstPerson\\Variant_Shooter\\ShooterCharacter.cpp"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h",
+      "baseline_sha256": "F92B35B04C877FC2C4C3AC0C9C5696EF54A43820F311C62C39408968161611FA",
+      "current_sha256": "04DB75C827CF634F21452A03B184061A4D0AB0BA06F6677A122AF4C0776D4404",
+      "baseline_source": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs38\\Source\\TP_FirstPerson\\Variant_Shooter\\ShooterCharacter.h"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+[2026.10.11-19.15.37:372][163]LogNet: NotifyAcceptingConnection accepted from: 172.18.0.1:57230
+[2026.10.11-19.15.37:373][163]LogNetVersion: Ridgefire 1.0.0.0, NetCL: 55116800, EngineNetworkVersion: 44, GameNetworkVersion: 58 (Checksum: 666998307)
+[2026.10.11-19.15.37:373][163]LogHandshake: SendConnectChallenge. Timestamp: 2.756330, Cookie: 199254205035014065197057180101067249134186121143076167187165
+[2026.10.11-19.15.37:373][163]LogNet: NotifyAcceptingConnection accepted from: 172.18.0.1:48642
+[2026.10.11-19.15.37:373][163]LogHandshake: SendConnectChallenge. Timestamp: 2.756330, Cookie: 010075052219094219026026098198036233051087000235251250115196
+[2026.10.11-19.15.37:406][165]LogNet: NotifyAcceptingConnection accepted from: 172.18.0.1:57230
+[2026.10.11-19.15.37:406][165]LogHandshake: SendChallengeAck. InCookie: 199254205035014065197057180101067249134186121143076167187165
+[2026.10.11-19.15.37:406][165]LogNet: Server accepting post-challenge connection from: 172.18.0.1:57230
+[2026.10.11-19.15.37:406][165]LogNet: IpConnection_2147481953 setting maximum channels to: 32767
+[2026.10.11-19.15.37:408][165]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.10.11-19.15.37:408][165]LogNet: NotifyAcceptedConnection: Name: Lvl_Shooter, TimeStamp: 10/11/26 19:15:37, [UNetConnection] RemoteAddr: 172.18.0.1:57230, Name: IpConnection_2147481953, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.11-19.15.37:408][165]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 172.18.0.1:57230, Name: IpConnection_2147481953, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.11-19.15.37:409][165]LogNet: NotifyAcceptingConnection accepted from: 172.18.0.1:48642
+[2026.10.11-19.15.37:409][165]LogHandshake: SendChallengeAck. InCookie: 010075052219094219026026098198036233051087000235251250115196
+[2026.10.11-19.15.37:409][165]LogNet: Server accepting post-challenge connection from: 172.18.0.1:48642
+[2026.10.11-19.15.37:409][165]LogNet: IpConnection_2147481949 setting maximum channels to: 32767
+[2026.10.11-19.15.37:410][165]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.10.11-19.15.37:411][165]LogNet: NotifyAcceptedConnection: Name: Lvl_Shooter, TimeStamp: 10/11/26 19:15:37, [UNetConnection] RemoteAddr: 172.18.0.1:48642, Name: IpConnection_2147481949, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.11-19.15.37:411][165]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 172.18.0.1:48642, Name: IpConnection_2147481949, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.11-19.15.37:456][168]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter: Accepted
+[2026.10.11-19.15.37:456][168]LogNet: Remote platform little endian=1
+[2026.10.11-19.15.37:456][168]LogNet: This platform little endian=1
+[2026.10.11-19.15.37:456][168]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter: Accepted
+[2026.10.11-19.15.37:456][168]LogNet: Remote platform little endian=1
+[2026.10.11-19.15.37:456][168]LogNet: This platform little endian=1
+[2026.10.11-19.15.37:490][170]LogNet: Login URL: REDACTED
+[2026.10.11-19.15.37:490][170]LogNet: Login URL: REDACTED
+[2026.10.11-19.15.37:540][173]LogNet: Client netspeed is 100000
+[2026.10.11-19.15.37:540][173]LogNet: Join URL: REDACTED
+[2026.10.11-19.15.37:554][173]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=1759851914 players=1
+[2026.10.11-19.15.37:554][173]LogNet: Join succeeded: DESKTOP-9I0RDNT-BCE5
+[2026.10.11-19.15.37:555][173]LogNet: Client netspeed is 100000
+[2026.10.11-19.15.37:555][173]LogNet: Join URL: REDACTED
+[2026.10.11-19.15.37:568][173]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=1759851915 players=2
+[2026.10.11-19.15.37:568][173]LogNet: Join succeeded: DESKTOP-9I0RDNT-7C4F
+[2026.10.11-19.15.37:680][180]LogNet: Server connection received: ActorChannelFailure 17 [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.18.0.1:57230, Name: IpConnection_2147481953, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481943, Owner: BP_ShooterPlayerController_C_2147481943, UniqueId: NULL:DESKTOP-9I0RDNT-BCE53DDD4ABEEF417AFD0586847E1A72
+[2026.10.11-19.15.37:680][180]LogNet: Actor channel failed: [UActorChannel] Actor: GameplayDebuggerCategoryReplicator /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter:PersistentLevel.GameplayDebuggerCategoryReplicator_2147481891, Role: 3, RemoteRole: 1 [UChannel] ChIndex: 17, Closing: 0 [UNetConnection] RemoteAddr: 172.18.0.1:57230, Name: IpConnection_2147481953, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481943, Owner: BP_ShooterPlayerController_C_2147481943, UniqueId: NULL:DESKTOP-9I0RDNT-BCE53DDD4ABEEF417AFD0586847E1A72
+[2026.10.11-19.15.37:680][180]LogNet: Server connection received: ActorChannelFailure 17 [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.18.0.1:48642, Name: IpConnection_2147481949, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481930, Owner: BP_ShooterPlayerController_C_2147481930, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064
+[2026.10.11-19.15.37:680][180]LogNet: Actor channel failed: [UActorChannel] Actor: GameplayDebuggerCategoryReplicator /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter:PersistentLevel.GameplayDebuggerCategoryReplicator_2147481890, Role: 3, RemoteRole: 1 [UChannel] ChIndex: 17, Closing: 0 [UNetConnection] RemoteAddr: 172.18.0.1:48642, Name: IpConnection_2147481949, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481930, Owner: BP_ShooterPlayerController_C_2147481930, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064

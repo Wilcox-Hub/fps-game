@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "logs": [
+    "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer-1.log",
+    "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer0.log",
+    "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer1.log"
+  ],
+  "peers": 2,
+  "scope": "Actual Windows Editor dedicated-server process and two remote-client processes over loopback UDP; private invite rejection/retry, leader-only launch, normal timed setup and primary/secondary LMB ammo, leader departure, clear-boundary checkpoint, both clients leaving, empty-server lobby return and original-squad resume. Fixture disables combat damage/AI and completes a controlled first encounter; no balance claim. Not a Linux package, physical-device, internet or performance test.",
+  "time_utc": "2026-10-11T16:01:10.9192229Z"
+}

@@ -1,0 +1,8 @@
+{
+  "corrected_on": "2026-10-05",
+  "source_record": "snapshots/2026-10-04-vs41/test-results.json",
+  "before_sha256": "0BDED3AEB45FCF4A6C67F3236D5DBB995FF8E7FE0AE74E9A9052554D04B82A86",
+  "after_sha256": "52DA5E688DED7BB54A7AD7E5CFC551836400701A908346A23B492E0C3167015B",
+  "engine_evidence_changed": false,
+  "audit_note": "VS42 reused-evidence.json records the metadata hash before this explicitly dated annotation. Its historical review remains valid; logs/images and their hashes are unchanged."
+}

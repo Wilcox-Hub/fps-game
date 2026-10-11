@@ -1,0 +1,7 @@
+Shipping initialization marker missing
+At C:\Users\YaYa\Documents\ChatGPT\FPS-1\research\vs52\verify-package.ps1:25 char:20
++  if(!$initialized){throw 'Shipping initialization marker missing'}
++                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Shipping initialization marker missing:String) [], RuntimeException
+    + FullyQualifiedErrorId : Shipping initialization marker missing
+ 

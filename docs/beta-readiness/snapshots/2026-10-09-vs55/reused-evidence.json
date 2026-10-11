@@ -1,0 +1,18 @@
+{
+  "previous_snapshot": "2026-10-09-vs54",
+  "verified_unchanged_inputs": [
+    {
+      "path": "Source/TP_FirstPerson/RidgefireEncounterPlan.h",
+      "sha256": "4822B7BE6A8F7754405D2C0AA919F5DAF76636F3742BD7A6FC5429CBFC2ADE41"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireEncounterPlanTests.cpp",
+      "sha256": "BDE2977B595E34B54BD1BF9275945822C0B3FD74DB606A013D452E0D4A3B3078"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.cpp",
+      "sha256": "7AB0577C0C5C6A8765316968A79311977AE59CACE37C47EC4B52CC77951A100D"
+    }
+  ],
+  "policy": "Retain VS54 arithmetic/shape evidence at its original date and narrower seam. NPC header adds only entrance phase fields/method parameters; no whole NPC-header or broad old encounter pass is reused. Body-shape geometry/collision and plan arithmetic were not rerun. Current network body queries separately pass. UI/shards/90-second historical evidence keeps original scopes."
+}

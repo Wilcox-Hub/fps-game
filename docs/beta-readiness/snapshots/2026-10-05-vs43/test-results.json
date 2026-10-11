@@ -1,0 +1,45 @@
+[
+  {
+    "gate": "TP_FirstPersonEditor Development incremental build",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "scope": "Final ShooterCharacter.cpp compiled and linked; the unchanged regression compiled in the earlier red build. Existing deprecated engine API warnings remain.",
+    "log": {
+      "path": "logs/Editor-green-build.log",
+      "sha256": "5D430FDFD362461EEDDCF466660DCB245AC826BDCB3E701CB91833615D908AF1"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "scope": "Actual Blueprint firing/collision under NullRHI. New cover-impact/shared-owner negative control and exposed positive control pass. Existing silhouette, direct hit, one-death 100HP cluster, distance falloff, range, sentry-aimed cover, no-divider and blast-feedback checks pass. Not rendered/human/network acceptance.",
+    "log": {
+      "path": "logs/Combat-green.log",
+      "sha256": "4B25779FFDCC061D6877B566BEA0FE5D1B48F86C909FF9628F9790E5ADB2D18C"
+    }
+  },
+  {
+    "gate": "Windows Shipping Prototype BuildCookRun",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "scope": "Fresh build/cook/stage/archive with current fix. Complete executable and cooked content hashes saved. Package not launched or played.",
+    "log": {
+      "path": "logs/Shipping-package-build.log",
+      "sha256": "9B727A5F55919EA4E1DFD7CE40B78C2E7F0E3F3FD7CEFA2BB399E8A112FC78F3"
+    },
+    "evidence": {
+      "path": "package/PackageInfo.json",
+      "sha256": "2DDAD1B7E2A6820CBE0156EB88A9CBA8DCBA255F038063681C794F3F0B8AB6F8"
+    },
+    "artifacts": "package-artifacts.json"
+  },
+  {
+    "gate": "VS41 loadout scope correction",
+    "status": "CORRECTED_METADATA_ONLY",
+    "corrected_on": "2026-10-05",
+    "original_tested_on": "2026-10-04",
+    "scope": "Original bound-key evidence covers arsenal open, carried primary/secondary selection, fire blocking and same-primary return. Phasma was provisioned with a direct PurchaseWeapon call; Enter-key purchase and wildcard keep confirmation were not exercised. No loadout test was rerun and no new current-source pass is claimed.",
+    "corrected_record": "../2026-10-04-vs41/test-results.json"
+  }
+]

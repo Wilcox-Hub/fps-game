@@ -1,0 +1,16 @@
+[
+  {
+    "gate": "Ridgefire.Weapons.Arsenal.PurchaseConfirmations",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "log": {
+      "path": "logs/IRON-SUN-Arsenal-20261005-121006-891.log",
+      "sha256": "B487ED70B2655613734C67F5072B431FDB0271F6703EABD9A3D4D32230DA7E23"
+    },
+    "scope": "Actual controller key delegates verify Enter purchase/keep/upgrade, insufficient-cash and duplicate rejection, preview cancellation, Tab details, G reroll, J destination and 3 secondary equip. Controlled fixture funding, accelerated encounter clears and 0.1 capture-window time dilation. Rendered D3D12 offscreen; not physical keyboard/gamepad, human balance/fun or packaged/network acceptance."
+  }
+]

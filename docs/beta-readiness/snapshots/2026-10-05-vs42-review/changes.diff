@@ -1,0 +1,260 @@
+--- VS39/Source/TP_FirstPerson/RidgefireShopHUD.cpp
++++ VS41/Source/TP_FirstPerson/RidgefireShopHUD.cpp
+@@ -67,7 +67,9 @@
+     FRidgefireWeaponRoll Candidate=Gun;
+     const auto Current=Preview!=INDEX_NONE?Candidate:S.WeaponOffers.IsValidIndex(Base)?S.WeaponOffers[Base]:Pawn->GetRidgefireWeaponStatsSource();
+     if(Preview!=INDEX_NONE) Candidate=RidgefireWeaponProgression::Upgrade(Candidate,Preview);
+-    Text(Preview==INDEX_NONE?FString::Printf(TEXT("COMPARE  %s  ->  %s"),*Current.Name,*Candidate.Name):FString::Printf(TEXT("UPGRADE PREVIEW  %s  ->  %s"),*Current.Name,*Candidate.Name),W*.045f,H*.50f,W*.91f,Ice);
++    const bool bNoChange=Preview==INDEX_NONE && Base==Cursor;
++    const FString ComparisonTitle=bNoChange?TEXT("ALREADY IN SELECTED SLOT"):Preview==INDEX_NONE?FString::Printf(TEXT("COMPARE  %s  ->  %s"),*Current.Name,*Candidate.Name):FString::Printf(TEXT("UPGRADE PREVIEW  %s  ->  %s"),*Current.Name,*Candidate.Name);
++    Text(ComparisonTitle,W*.045f,H*.50f,W*.91f,Ice);
+     const auto Mod=Pawn->GetPersonalPerkModifiers();
+     const auto A=RidgefireWeaponProgression::Stats(Current,Mod.OutgoingDamage,Mod.ReloadTime,Pawn->GetRidgefireRecoilScale());
+     const auto B=RidgefireWeaponProgression::Stats(Candidate,Mod.OutgoingDamage,Mod.ReloadTime,Pawn->GetRidgefireRecoilScale());
+@@ -91,6 +93,8 @@
+             Text(TEXT("CURRENT  ")+OldEnemies[Index],W*.62f,H*(.57f+.058f*Index),W*.34f,Paper);
+             Text(TEXT("SELECTED  ")+NewEnemies[Index],W*.62f,H*(.599f+.058f*Index),W*.34f,Ice);
+         }
++    } else if(bNoChange) {
++        Text(TEXT("This gun is already carried. Browse to another weapon to compare it."),W*.075f,H*.575f,W*.84f,Paper);
+     } else {
+         Text(TEXT("STAT"),W*.075f,H*.575f,W*.24f,Ice);Text(TEXT("CURRENT"),W*.39f,H*.575f,W*.2f,Paper);Text(TEXT("SELECTED"),W*.67f,H*.575f,W*.25f,Ice);
+         auto Row=[&](const FString& Label,const FString& Old,const FString& Next,int32 Index) {
+@@ -114,7 +118,7 @@
+     else if(Preview!=INDEX_NONE&&Gun.UpgradeLevel>0&&static_cast<int32>(Gun.UpgradeBehavior)!=Preview+1) Status=TEXT("UPGRADE BEHAVIOR IS LOCKED");
+     else if(Preview!=INDEX_NONE&&!S.bRegroupOpen) Status=TEXT("UPGRADES AVAILABLE DURING REGROUP");
+     else Status=FString::Printf(TEXT("%s  /  %d CASH  /  %s"),Preview==INDEX_NONE?(bOwned?TEXT("ALREADY CARRIED"):Gun.bWildcard?TEXT("KEEP FOUND WEAPON"):TEXT("BUY KNOWN WEAPON")):TEXT("APPLY UPGRADE"),ActionPrice,S.Cash>=ActionPrice?TEXT("READY"):TEXT("NOT ENOUGH CASH"));
+-    Text(Receipt.IsEmpty()?Status:Receipt,W*.045f,H*.455f,W*.91f,Receipt.IsEmpty()?Ember:(PC->WasShopResultSuccessful()?Ice:Ember));
++    if(!bNoChange || !Receipt.IsEmpty()) Text(Receipt.IsEmpty()?Status:Receipt,W*.045f,H*.455f,W*.91f,Receipt.IsEmpty()?Ember:(PC->WasShopResultSuccessful()?Ice:Ember));
+     if(PC->IsUsingGamepad()) {
+         Text(TEXT("B / X BROWSE          A BUY / KEEP"),W*.045f,H*.84f,W*.91f,Ice);
+         Text(TEXT("Y BUY FOR SECONDARY     UP / DOWN PICK PRIMARY SLOT"),W*.045f,H*.89f,W*.91f,Paper);
+--- VS39/Source/TP_FirstPerson/RidgefireWeaponProgression.cpp
++++ VS41/Source/TP_FirstPerson/RidgefireWeaponProgression.cpp
+@@ -41,7 +41,8 @@
+     float Payload=W.Payload==ERidgefirePayload::Burn ? 1.28f : W.Payload==ERidgefirePayload::Leaden ? 0.38f : W.Payload==ERidgefirePayload::Glass ? (0.12f+0.3f+0.65f+1.4f+3+8)/6 : 1;
+     float Direct=42*W.DamageScale*Mode*Payload*ConditionMultiplier(W,750,false,1,Ammo,0,bReload)*Outgoing;
+     if(W.UpgradeBehavior==ERidgefireUpgradeBehavior::EchoPulse) Direct*=1.35f;
+-    return Direct+((W.Mode==ERidgefireFireMode::Phasma || W.Mode==ERidgefireFireMode::Mortar) ? 95*W.DamageScale : 0);
++    // Arsenal damage is per direct impact; splash is reduced, distance-scaled, and can hit multiple targets.
++    return Direct+(W.Mode==ERidgefireFireMode::Mortar ? 95*W.DamageScale : 0);
+ }
+ FRidgefireWeaponStats Stats(const FRidgefireWeaponRoll& W,float Outgoing,float ReloadModifier,float RecoilModifier)
+ {
+--- VS39/Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp
++++ VS41/Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp
+@@ -363,8 +363,91 @@
+         Test->TestTrue(TEXT("normal Phasma has a real exposed-neighbor splash positive control"),Exposed->CurrentHP<1000);
+         Test->TestEqual(TEXT("solid divider prevents Phasma damage to hidden neighbor"),Covered->CurrentHP,1000.0f);
+         Test->TestEqual(TEXT("distant control remains unharmed"),Far->CurrentHP,1000.0f);
+-        Test->TestEqual(TEXT("blast feedback counts exposed recipients only"),PlasmaShooter->GetRidgefireBlastHits(),2);
++        Test->TestEqual(TEXT("blast feedback counts exposed splash recipients only"),PlasmaShooter->GetRidgefireBlastHits(),1);
+         Test->TestEqual(TEXT("surviving blast recipients are not labeled down"),PlasmaShooter->GetRidgefireBlastKills(),0);
++
++        // Reproduce the owner's clustered-death report using one real Phasma shot
++        // and three full-health production sentries inside ordinary arena spacing.
++        const FVector ClusterOrigin=Origin+FVector(0,10000,0);
++        auto* ClusterTarget=SpawnNPC(ClusterOrigin);
++        auto* ClusterLeft=SpawnNPC(ClusterOrigin+FVector(-260,180,0));
++        auto* ClusterEdge=SpawnNPC(ClusterOrigin+FVector(300,250,0));
++        auto* ClusterShooter=World->SpawnActor<AShooterCharacter>(PlayerClass,ClusterOrigin-FVector(3000,0,0),FRotator::ZeroRotator);
++        if (!Test->TestNotNull(TEXT("spawn clustered direct target"),ClusterTarget)
++            || !Test->TestNotNull(TEXT("spawn clustered exposed left sentry"),ClusterLeft)
++            || !Test->TestNotNull(TEXT("spawn farther exposed splash sentry"),ClusterEdge)
++            || !Test->TestNotNull(TEXT("spawn clustered-shot player"),ClusterShooter)) return true;
++        Owned.Add(ClusterShooter);
++        const float ClusterTargetHP=ClusterTarget->CurrentHP;
++        const float ClusterLeftHP=ClusterLeft->CurrentHP;
++        const float ClusterEdgeHP=ClusterEdge->CurrentHP;
++        UStaticMeshComponent* ClusterShoulder=VisibleShoulder(ClusterTarget);
++        if (!Test->TestNotNull(TEXT("cluster target has an actual visible aim point"),ClusterShoulder)) return true;
++
++        const FVector GaleOrigin=Origin+FVector(0,20000,0);
++        auto* GaleTarget=SpawnNPC(GaleOrigin);
++        auto* GaleNeighbor=SpawnNPC(GaleOrigin+FVector(-260,180,0));
++        auto* GaleShooter=World->SpawnActor<AShooterCharacter>(PlayerClass,GaleOrigin-FVector(3000,0,0),FRotator::ZeroRotator);
++        if (!Test->TestNotNull(TEXT("spawn Gale single-target control"),GaleTarget)
++            || !Test->TestNotNull(TEXT("spawn same-spacing Gale neighbor"),GaleNeighbor)
++            || !Test->TestNotNull(TEXT("spawn Gale control shooter"),GaleShooter)) return true;
++        Owned.Add(GaleShooter);
++        const float GaleTargetHP=GaleTarget->CurrentHP;
++        const float GaleNeighborHP=GaleNeighbor->CurrentHP;
++        UStaticMeshComponent* GaleShoulder=VisibleShoulder(GaleTarget);
++        if (!Test->TestNotNull(TEXT("Gale control target has an actual visible aim point"),GaleShoulder)) return true;
++        AimAt(GaleShooter,GaleShoulder->GetComponentLocation());
++        const auto* Gale=Mode->GetOffer(0);
++        if (!Test->TestNotNull(TEXT("normal single-target Gale offer"),Gale)) return true;
++        GaleShooter->EquipRidgefireWeapon(*Gale);
++        const FVector CameraStart=GaleShooter->GetFirstPersonCameraComponent()->GetComponentLocation();
++        const FVector AimEnd=CameraStart+GaleShooter->GetFirstPersonCameraComponent()->GetForwardVector()*10000.0f;
++        FCollisionQueryParams GaleTraceParams(SCENE_QUERY_STAT(RidgefireSingleTargetControl),true,GaleShooter);
++        GaleTraceParams.AddIgnoredActor(GaleShooter);
++        FHitResult CameraHit;
++        const bool bCameraHit=World->LineTraceSingleByChannel(CameraHit,CameraStart,AimEnd,ECC_Visibility,GaleTraceParams);
++        const FVector MuzzleStart=GaleShooter->GetRidgefireMuzzleWorldLocation();
++        const FVector GaleDirection=((bCameraHit?CameraHit.ImpactPoint:AimEnd)-MuzzleStart).GetSafeNormal();
++        FHitResult MuzzleHit;
++        const bool bMuzzleHit=World->LineTraceSingleByChannel(MuzzleHit,MuzzleStart,MuzzleStart+GaleDirection*10000.0f,ECC_Visibility,GaleTraceParams);
++        Test->AddInfo(FString::Printf(TEXT("Same-spacing Gale control trace: camera_actor=%s muzzle_actor=%s component=%s"),
++            *GetNameSafe(bCameraHit?CameraHit.GetActor():nullptr),*GetNameSafe(bMuzzleHit?MuzzleHit.GetActor():nullptr),*GetNameSafe(bMuzzleHit?MuzzleHit.GetComponent():nullptr)));
++        Test->TestTrue(TEXT("actual muzzle trace selects the visible directly aimed Gale target"),bMuzzleHit && MuzzleHit.GetActor()==GaleTarget);
++        GaleShooter->DoStartFiring();
++        GaleShooter->DoStopFiring();
++        Test->AddInfo(FString::Printf(TEXT("One normal Gale shot at the same spacing: target_damage=%.1f neighbor_damage=%.1f"),
++            GaleTargetHP-GaleTarget->CurrentHP,GaleNeighborHP-GaleNeighbor->CurrentHP));
++        Test->TestTrue(TEXT("same-spacing Gale shot damages its direct target"),GaleTarget->CurrentHP<GaleTargetHP);
++        Test->TestEqual(TEXT("same-spacing non-splash Gale shot leaves exposed neighbor untouched"),GaleNeighbor->CurrentHP,GaleNeighborHP);
++
++        AimAt(ClusterShooter,ClusterShoulder->GetComponentLocation());
++        const FVector ClusterCameraStart=ClusterShooter->GetFirstPersonCameraComponent()->GetComponentLocation();
++        const FVector ClusterAimEnd=ClusterCameraStart+ClusterShooter->GetFirstPersonCameraComponent()->GetForwardVector()*10000.0f;
++        FCollisionQueryParams ClusterTraceParams(SCENE_QUERY_STAT(RidgefirePhasmaClusterProbe),true,ClusterShooter);
++        ClusterTraceParams.AddIgnoredActor(ClusterShooter);
++        FHitResult ClusterCameraHit,ClusterMuzzleHit;
++        const bool bClusterCameraHit=World->LineTraceSingleByChannel(ClusterCameraHit,ClusterCameraStart,ClusterAimEnd,ECC_Visibility,ClusterTraceParams);
++        const FVector ClusterMuzzleStart=ClusterShooter->GetRidgefireMuzzleWorldLocation();
++        const FVector ClusterShotDirection=((bClusterCameraHit?ClusterCameraHit.ImpactPoint:ClusterAimEnd)-ClusterMuzzleStart).GetSafeNormal();
++        const bool bClusterMuzzleHit=World->LineTraceSingleByChannel(ClusterMuzzleHit,ClusterMuzzleStart,ClusterMuzzleStart+ClusterShotDirection*10000.0f,ECC_Visibility,ClusterTraceParams);
++        const float LeftBlastDistance=bClusterMuzzleHit?FVector::Distance(ClusterMuzzleHit.ImpactPoint,ClusterLeft->GetActorLocation()):0.0f;
++        const float EdgeBlastDistance=bClusterMuzzleHit?FVector::Distance(ClusterMuzzleHit.ImpactPoint,ClusterEdge->GetActorLocation()):0.0f;
++        Test->AddInfo(FString::Printf(TEXT("Phasma cluster trace: camera=%s muzzle=%s near_distance=%.1f edge_distance=%.1f"),
++            *GetNameSafe(bClusterCameraHit?ClusterCameraHit.GetActor():nullptr),*GetNameSafe(bClusterMuzzleHit?ClusterMuzzleHit.GetActor():nullptr),LeftBlastDistance,EdgeBlastDistance));
++        Test->TestTrue(TEXT("Phasma muzzle trace selects the visible directly aimed target"),bClusterMuzzleHit && ClusterMuzzleHit.GetActor()==ClusterTarget);
++        Test->TestTrue(TEXT("Phasma distance controls are separated"),LeftBlastDistance<EdgeBlastDistance);
++        ClusterShooter->EquipRidgefireWeapon(*Phasma);
++        ClusterShooter->DoStartFiring();
++        ClusterShooter->DoStopFiring();
++        const int32 ClusterDeaths=(ClusterTarget->CurrentHP<=0?1:0)+(ClusterLeft->CurrentHP<=0?1:0)+(ClusterEdge->CurrentHP<=0?1:0);
++        Test->AddInfo(FString::Printf(TEXT("One normal Phasma shot at a full-health cluster: start_hp=%.1f/%.1f/%.1f end_hp=%.1f/%.1f/%.1f deaths=%d"),
++            ClusterTargetHP,ClusterLeftHP,ClusterEdgeHP,ClusterTarget->CurrentHP,ClusterLeft->CurrentHP,ClusterEdge->CurrentHP,ClusterDeaths));
++        Test->TestTrue(TEXT("one normal Phasma shot reaches its directly aimed sentry"),ClusterTarget->CurrentHP<ClusterTargetHP);
++        Test->TestEqual(TEXT("one normal Phasma shot kills only its directly aimed full-health sentry"),ClusterDeaths,1);
++        Test->TestTrue(TEXT("Phasma falloff still damages but does not kill a full-health neighbor"),ClusterLeft->CurrentHP>0 && ClusterLeft->CurrentHP<ClusterLeftHP);
++        Test->TestTrue(TEXT("Phasma splash damage fades for a farther exposed neighbor"),ClusterLeftHP-ClusterLeft->CurrentHP>ClusterEdgeHP-ClusterEdge->CurrentHP);
++        Test->TestEqual(TEXT("directly hit sentry is excluded from splash kill feedback"),ClusterShooter->GetRidgefireBlastKills(),0);
++
+         TInlineComponentArray<UStaticMeshComponent*> BlastParts(PlasmaShooter);int32 PulseParts=0;
+         for(auto* Part:BlastParts) if(Part->GetName().StartsWith(TEXT("RidgefireBlast_"))) {
+             ++PulseParts;Test->TestTrue(TEXT("runtime blast is visible, world anchored and noncolliding"),!Part->bHiddenInGame && Part->IsUsingAbsoluteLocation() && Part->GetCollisionEnabled()==ECollisionEnabled::NoCollision);
+@@ -379,7 +462,7 @@
+         UncoveredShooter->DoStartFiring();UncoveredShooter->DoStopFiring();
+         Test->AddInfo(FString::Printf(TEXT("Phasma same hidden-neighbor lane with divider disabled: damage=%.3f"),1000-Covered->CurrentHP));
+         Test->TestTrue(TEXT("removing only the divider permits damage to the same neighbor"),Covered->CurrentHP<1000);
+-        Test->TestEqual(TEXT("feedback follows changed exposure instead of overlap count"),UncoveredShooter->GetRidgefireBlastHits(),3);
++        Test->TestEqual(TEXT("feedback follows changed exposure instead of overlap count"),UncoveredShooter->GetRidgefireBlastHits(),2);
+         Cover->GetStaticMeshComponent()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+         for (int32 Role=0;Role<4;++Role)
+         {
+--- VS39/Source/TP_FirstPerson/Tests/RidgefireEconomyTests.cpp
++++ VS41/Source/TP_FirstPerson/Tests/RidgefireEconomyTests.cpp
+@@ -29,6 +29,8 @@
+     FRidgefireWeaponRoll Gale;
+     const auto A=Stats(Gale);
+     TestEqual(TEXT("actual Gale direct damage"),A.Damage,42.0f);
++    FRidgefireWeaponRoll Phasma=Gale;Phasma.Mode=ERidgefireFireMode::Phasma;
++    TestEqual(TEXT("Phasma comparison reports direct impact damage, not additive splash"),Stats(Phasma).Damage,42.0f);
+     TestTrue(TEXT("loaded-magazine DPS follows cadence"),FMath::IsNearlyEqual(A.BurstDPS,262.5f));
+     TestTrue(TEXT("reload cycle includes final shot's immediate reload"),FMath::IsNearlyEqual(A.SustainedDPS,1008.0f/(23*.16f+1.05f)));
+     const auto Echo=Upgrade(Gale,0),Through=Upgrade(Gale,1);
+@@ -263,12 +265,12 @@
+             bOriginalFixed=FApp::UseFixedTimeStep();OriginalFixedDelta=FApp::GetFixedDeltaTime();bFixedCapture=true;
+             FApp::SetFixedDeltaTime(1.0/60);FApp::SetUseFixedTimeStep(true);BlastWorldAt=World->GetTimeSeconds();
+             // Actual Phasma shot with a surviving front sentry and one exposed low-HP neighbor.
+-            Target->CurrentHP=1000;ThroughTarget->CurrentHP=40;
++            Target->CurrentHP=1000;ThroughTarget->CurrentHP=20;
+             ThroughTarget->SetActorLocation(Target->GetActorLocation()+FVector(-180,200,0));
+             Pawn->EquipRidgefireWeapon(*Mode->GetOffer(1));
+             PC->SetControlRotation(FRotator::ZeroRotator);Pawn->GetFirstPersonCameraComponent()->SetWorldRotation(FRotator::ZeroRotator);
+             Pawn->DoStartFiring();Pawn->DoStopFiring();
+-            Test->TestEqual(TEXT("actual blast labels two damaged recipients"),Pawn->GetRidgefireBlastHits(),2);
++            Test->TestEqual(TEXT("actual blast labels the exposed splash recipient"),Pawn->GetRidgefireBlastHits(),1);
+             Test->TestEqual(TEXT("actual blast labels only the killed neighbor down"),Pawn->GetRidgefireBlastKills(),1);
+             At=FPlatformTime::Seconds();Stage=7;return false;
+         }
+--- VS39/Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp
++++ VS41/Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp
+@@ -1346,10 +1346,15 @@
+ 	{
+ 		if (RidgefireWeapon.Mode == ERidgefireFireMode::Mortar || RidgefireWeapon.Mode == ERidgefireFireMode::Phasma)
+ 		{
+-			const float Radius = RidgefireWeapon.Mode == ERidgefireFireMode::Phasma ? 460.0f : 280.0f;
+-			const float Damage = 95.0f * RidgefireWeapon.DamageScale;
++			const bool bPhasmaBlast = RidgefireWeapon.Mode == ERidgefireFireMode::Phasma;
++			const float Radius = bPhasmaBlast ? 460.0f : 280.0f;
++			const float Damage = bPhasmaBlast ? FMath::Min(75.0f, 95.0f * RidgefireWeapon.DamageScale) : 95.0f * RidgefireWeapon.DamageScale;
+ 			TArray<AActor*> IgnoredActors = {this};
+-			ApplyRidgefireRadialDamage(Damage, ImpactPoint, Radius, IgnoredActors, MainHit.ImpactNormal);
++			if (bPhasmaBlast)
++			{
++				IgnoredActors.Add(MainHit.GetActor());
++			}
++			ApplyRidgefireRadialDamage(Damage, ImpactPoint, Radius, IgnoredActors, MainHit.ImpactNormal, bPhasmaBlast);
+ 			ApplyRidgefireHit(MainHit.GetActor(), ImpactPoint, Distance, 1.0f, &MainHit, ShotDirection);
+ 		}
+ 		else if (RidgefireWeapon.Mode == ERidgefireFireMode::Burst)
+@@ -1641,7 +1646,7 @@
+ 	RecordRidgefireHitFeedback(Sentinel, HealthBeforeHit);
+ }
+ 
+-void AShooterCharacter::ApplyRidgefireRadialDamage(float Damage, const FVector& Origin, float Radius, const TArray<AActor*>& IgnoredActors, FVector Normal)
++void AShooterCharacter::ApplyRidgefireRadialDamage(float Damage, const FVector& Origin, float Radius, const TArray<AActor*>& IgnoredActors, FVector Normal, bool bUseFalloff)
+ {
+ 	if (!HasAuthority() || !FMath::IsFinite(Damage) || Damage <= 0.0f || !FMath::IsFinite(Radius) || Radius <= 0.0f)
+ 	{
+@@ -1659,7 +1664,44 @@
+ 	}
+ 
+     MulticastRidgefireBlast(Origin,Radius,Normal);
+-    UGameplayStatics::ApplyRadialDamage(this, Damage, Origin, Radius, UDamageType::StaticClass(), IgnoredActors, this, GetController(), false);
++	if (bUseFalloff)
++	{
++		for (const TPair<TWeakObjectPtr<AShooterNPC>, float>& HealthBeforeHit : HealthBeforeHits)
++		{
++			AShooterNPC* Sentinel = HealthBeforeHit.Key.Get();
++			if (!Sentinel || Sentinel->CurrentHP <= 0.0f || IgnoredActors.Contains(Sentinel))
++			{
++				continue;
++			}
++			const float Distance = FVector::Distance(Origin, Sentinel->GetActorLocation());
++			const float DistanceScale = FMath::Clamp(1.0f - Distance / Radius, 0.0f, 1.0f);
++			const float DamageAtDistance = Damage * DistanceScale;
++			if (DamageAtDistance <= KINDA_SMALL_NUMBER)
++			{
++				continue;
++			}
++
++			FCollisionQueryParams VisibilityParams(SCENE_QUERY_STAT(RidgefirePhasmaBlast), false, this);
++			for (AActor* IgnoredActor : IgnoredActors)
++			{
++				if (IsValid(IgnoredActor))
++				{
++					VisibilityParams.AddIgnoredActor(IgnoredActor);
++				}
++			}
++			VisibilityParams.AddIgnoredActor(Sentinel);
++			FHitResult Blocker;
++			if (GetWorld()->LineTraceSingleByChannel(Blocker, Origin, Sentinel->GetActorLocation(), ECC_Visibility, VisibilityParams))
++			{
++				continue;
++			}
++			UGameplayStatics::ApplyDamage(Sentinel, DamageAtDistance, GetController(), this, UDamageType::StaticClass());
++		}
++	}
++	else
++	{
++		UGameplayStatics::ApplyRadialDamage(this, Damage, Origin, Radius, UDamageType::StaticClass(), IgnoredActors, this, GetController(), false);
++	}
+     int32 Hits=0,Kills=0;
+ 	for (const TPair<TWeakObjectPtr<AShooterNPC>, float>& HealthBeforeHit : HealthBeforeHits)
+ 	{
+--- VS39/Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h
++++ VS41/Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h
+@@ -421,7 +421,7 @@
+ 	void FireRidgefireWeapon();
+ 	void ApplyRidgefireHit(AActor* HitActor, const FVector& HitLocation, float Distance, float DamageMultiplier = 1.0f, const FHitResult* HitResult = nullptr, FVector ShotDirection = FVector::ZeroVector);
+ 	void ApplyRidgefireDamageToSentinel(AShooterNPC* Sentinel, float Damage);
+-	void ApplyRidgefireRadialDamage(float Damage, const FVector& Origin, float Radius, const TArray<AActor*>& IgnoredActors, FVector Normal=FVector::UpVector);
++	void ApplyRidgefireRadialDamage(float Damage, const FVector& Origin, float Radius, const TArray<AActor*>& IgnoredActors, FVector Normal=FVector::UpVector, bool bUseFalloff=false);
+ 	void RecordRidgefireHitFeedback(AShooterNPC* Sentinel, float HealthBeforeHit);
+ 	void BuildRidgefireWeaponModel();
+ 	UStaticMeshComponent* GetOrCreateRidgefireWeaponPart(FName PartName);

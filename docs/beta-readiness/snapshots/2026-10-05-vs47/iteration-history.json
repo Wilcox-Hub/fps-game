@@ -1,0 +1,8 @@
+{
+  "setup": "Initial relative OutputRoot caused missing Automation.log discovery; no test pass claimed. Absolute output paths used for recorded final runs.",
+  "input": "One old second-class fixture still purchased retired primary slot 1 and selected key 2; both input checks failed. Updated fixture to replacement slot 0/key 1, then both final checks passed.",
+  "network_splash": "Old network fixture expected positive splash recipient count from its sole directly hit target. VS40 excludes direct targets from splash. Added a separate exposed neighbor and damage assertions; production damage code unchanged.",
+  "network_delivery": "Immediate multicast-pool sampling raced reliable owner feedback. Added bounded five-second wait and capped unattended runner at 60 FPS. Final two-peer pass does not guarantee unreliable packet delivery.",
+  "visual": "Initial rendered combat frame still showed P2 EMPTY. Final HUD names only primary/secondary; final default startup capture inspected. Arsenal implementation unchanged between captures.",
+  "package": "Intermediate package predates final HUD/input/fixture repairs. Next attempt hit UBT conflicting-instance mutex (wrapper exits 10); no SDK changes or other process termination. Retried after independent checks; final archive 20261005-134833-568 succeeds. Only final archive is current."
+}

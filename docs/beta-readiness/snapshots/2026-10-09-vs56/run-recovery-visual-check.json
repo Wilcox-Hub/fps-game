@@ -1,0 +1,11 @@
+{
+  "snapshot_id": "2026-10-09-vs56",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "frame": "evidence/checkpoint-disk-and-world/20261009-230745-991-continue-run-1080p.png",
+  "inspection": "Native Slate Continue action readable, one emphasized Continue choice, next-encounter/squad summary and replacement notice visible; no overlap or clipping seen. Scene image is the existing concept backdrop, not a newly rendered playable map.",
+  "human_acceptance": false,
+  "shipping_render": false
+}

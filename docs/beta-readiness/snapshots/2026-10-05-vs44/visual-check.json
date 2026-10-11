@@ -1,0 +1,224 @@
+{
+  "inspected_on": "2026-10-05",
+  "status": "PASS_WITH_LIMITATIONS",
+  "frame_count": 19,
+  "images": [
+    {
+      "path": "visuals/1280x720/KnownComparison.png",
+      "sha256": "DCECF070AF8FFB9BDFE2616D16AF9B15A00F20892952574019E2680175AD30D3",
+      "resolution": [
+        1280,
+        720
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/1280x720/PurchaseRejected.png",
+      "sha256": "372D9C503D0EDDB4415BEE00FE80EC1AFDDE1517FA049EDD2DA48DC19F7EBDC2",
+      "resolution": [
+        1280,
+        720
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/1280x720/PurchaseReceipt.png",
+      "sha256": "A19514C2808319D7C8B0096CC679D463C2BBB998D4726B83B372CE7FB8B54430",
+      "resolution": [
+        1280,
+        720
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/1280x720/UpgradePreview.png",
+      "sha256": "0AA0117E203DB886CCB0676ED805BF287E9E978D4CCA0460E5E51A5436E9A2B2",
+      "resolution": [
+        1280,
+        720
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/1280x720/UpgradeDetails.png",
+      "sha256": "B355784A4B22AA8AD4A97EDD4D66F1848D048678658E113A731CCB7068C1F26B",
+      "resolution": [
+        1280,
+        720
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/1280x720/UpgradeReceipt.png",
+      "sha256": "718A53707F4C6F810870C209457E1E96B28DB8BAC4FACD1EBC723B039CB07E16",
+      "resolution": [
+        1280,
+        720
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/1280x720/WildcardComparison.png",
+      "sha256": "792196D473F8E563D46A989FBE3DAA4CF065C88CB31024E9CD62A5364B9A9C15",
+      "resolution": [
+        1280,
+        720
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/1280x720/WildcardKept.png",
+      "sha256": "D4710AD4178DFABD6BC0498CFDC24A696A250D55B93A4CEF3ADA0361351EA1F1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/800x600/KnownComparison.png",
+      "sha256": "C3D7CAF4D64551DC86FA72F96C3F5AB262B890F8C2E47D56D0091A86FC45F610",
+      "resolution": [
+        800,
+        600
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/800x600/PurchaseRejected.png",
+      "sha256": "287ADD978FAE7D3FE1ED7BC320CFCCA60A5EE48399C42B28C52B47923E0EE08D",
+      "resolution": [
+        800,
+        600
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/800x600/PurchaseReceipt.png",
+      "sha256": "30E0BA5907B0B669BA102C901F7FB192472B239FFA26E4FF8B9FC1C3586E183B",
+      "resolution": [
+        800,
+        600
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/800x600/UpgradePreview.png",
+      "sha256": "03DAEE8BA40D66FB35CD87D2CA1753C07729D8ABF4D2F433D1B3029C1180683B",
+      "resolution": [
+        800,
+        600
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/800x600/UpgradeDetails.png",
+      "sha256": "AD494B958EC96F2B0D3F93354BA43F2C1F5601522BA74421BA696366E9142A26",
+      "resolution": [
+        800,
+        600
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/800x600/UpgradeReceipt.png",
+      "sha256": "A011C32D7466899680E3E400126332EED14FA6D375C9EE55F864F7F30F6D599D",
+      "resolution": [
+        800,
+        600
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/800x600/WildcardComparison.png",
+      "sha256": "0D27F440E05EC73A67271A63C5C3CE146911E85C1E56A995FD411D0AFF6EEB3A",
+      "resolution": [
+        800,
+        600
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/800x600/WildcardKept.png",
+      "sha256": "419DD5F69C430ED7730558DCB623C1AC2E8479A763A0D9377B592E345CC5ABA5",
+      "resolution": [
+        800,
+        600
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/loadout-1280x720/ArsenalOpen.png",
+      "sha256": "675025BE758001344446A0AD0BABD7632DD921FCD09D9838F3B2937530267914",
+      "resolution": [
+        1280,
+        720
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": true
+    },
+    {
+      "path": "visuals/loadout-1280x720/PrimaryAfterSecondary.png",
+      "sha256": "A3401821160E5AE6FF81B92DF0515FF4643AA2058F8DA8D2938A58EAFEF6EEEE",
+      "resolution": [
+        1280,
+        720
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    },
+    {
+      "path": "visuals/loadout-1280x720/SamePrimaryReturn.png",
+      "sha256": "B112791B640E7E1DCADA4DE22171FF477C46BD2C915C48C5246F6FF88A388AFA",
+      "resolution": [
+        1280,
+        720
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected",
+      "engine_notice": false
+    }
+  ],
+  "observations": [
+    "All eight purchase/upgrade/wildcard states inspected at 1280x720 and 800x600; prices, selected slots, equip markers, action prompts and comparison columns fit without overlap.",
+    "Exact stats include damage/accuracy/rate/DPS/magazine/reload/numerical labeled recoil and current-party/solo enemy estimates on their own page. Values/units are visible in the inspected upgrade view.",
+    "Three existing loadout frames inspected. The live-encounter ArsenalOpen frame has an engine Preparing Shaders (1) notice over its top-left area; it is not used as a clean hero screenshot.",
+    "Short ellipses preserve label size for unusually long names. Not exhaustive localization, extreme aspect ratios, all wildcard combinations or owner readability/fun approval.",
+    "Confirmation fixture uses accelerated clear and slowed capture window; screenshots are not natural pacing evidence."
+  ],
+  "human_acceptance": false
+}

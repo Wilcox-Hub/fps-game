@@ -1,0 +1,25 @@
+{
+  "recorded_on": "2026-10-11",
+  "compose_valid": true,
+  "entrypoint_syntax_valid": true,
+  "missing_native_start_rejected": true,
+  "missing_native_entrypoint_exit": 22,
+  "unsafe_archive_rejected": true,
+  "unsafe_path_not_created": true,
+  "status": {
+    "root": "/home/caiden/iron-sun-server",
+    "native_release": false,
+    "release": null,
+    "invite_configured": true,
+    "relay_claimed": false,
+    "containers": ""
+  },
+  "image_id": "sha256:7d01455f4b64b5bf0aff9af2184da8c1f43de6c70717da053576bf89d865df7b",
+  "existing_containers": [
+    "minecraft-crafty Up 2 weeks",
+    "portainer Up 3 weeks"
+  ],
+  "join_key_mode": "0o600",
+  "scope": "Live SSH/Docker layout, official image build, non-root runtime, no native package/no service start, unsafe path rejection. No Linux game, public tunnel, internet or performance acceptance.",
+  "passed": true
+}

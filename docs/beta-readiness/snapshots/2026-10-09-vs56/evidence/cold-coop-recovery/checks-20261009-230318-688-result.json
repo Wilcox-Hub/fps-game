@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "cold_host_restart": true,
+  "cold_client_restart": true,
+  "missing_teammate_blocks_launch": true,
+  "wrong_squad_rejected": true,
+  "restored_players": 2,
+  "native_fire_both_guns": true,
+  "checkpoint_files": [
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\checkpoint0.sav",
+      "sha256": "8F3EBD1B5D1A08AEF8478F390EE16B9CDDA299972D8AE26A61D605998BCA1F51"
+    }
+  ],
+  "logs": [
+    "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\SaveHost.log",
+    "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\SaveClient.log",
+    "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\ResumeHost.log",
+    "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\ResumeClient.log",
+    "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\WrongSquad.log"
+  ],
+  "scope": "Controlled real local Editor processes, isolated disk slots, host process stopped and recreated, same saved guest identity, lobby ready RPCs and native controller input. No physical second-PC, Internet, human fun or Shipping combat acceptance.",
+  "time_utc": "2026-10-10T06:03:49.1434284Z"
+}

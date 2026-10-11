@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "filter": "Ridgefire.Waves.ArenasPartiesAndQueue",
+  "log": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\arenas-final-20261009-115952-231\\Automation.log",
+  "render_requested": false,
+  "scope": "Controlled same-PC Unreal Editor test, real geometry/actors and production module interfaces; no human fun, physical LAN or whole-run duration acceptance.",
+  "exit_code": 0,
+  "time_utc": "2026-10-09T19:00:24.0014062Z"
+}

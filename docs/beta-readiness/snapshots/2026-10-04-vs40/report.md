@@ -1,0 +1,11 @@
+# VS40 — Phasma hit attribution and splash tuning
+
+**Result:** the reported multi-kills came from Phasma's area damage, not the ordinary bullet hitbox. In the controlled pre-fix repro, one Phasma shot hit two full-health 100-HP sentries; the same-spacing Gale shot hit only the aimed sentry and left its neighbor unharmed. The old blast applied 266 damage to the exposed neighbor and 383.6 to the aimed target because it added full blast and direct damage.
+
+Phasma now excludes its directly hit sentry from the splash pass. Splash is capped at 75 damage and falls linearly to zero at the 460-unit boundary, with a visibility trace preserving cover. In the final production-Blueprint test, one shot killed only its aimed 100-HP target; an exposed neighbor took 18.5 at 346.5 units, a clear-line neighbor took 0.1 at 459.5, and cover/distant controls remained unharmed. A weakened nearby enemy can still be finished by splash. Gale's same-spacing single-target control still damages only its direct target.
+
+Arsenal damage-per-shot now reports direct impact damage for Phasma instead of adding splash to the target value. The stats test, paid weapon/upgrades flow, combat selection across three encounter transitions and actual bound-key loadout interaction pass. The current 1280×720 loadout render was inspected. A fresh Unreal Engine 5.8.3 Editor build and Windows Shipping Prototype package also pass.
+
+See [test results](test-results.json), [red-to-green combat logs](logs/IRON-SUN-Reliability-20261004-214343-421.log), [economy/stat results](logs/IRON-SUN-Economy-20261004-214459-418.log), [current arsenal frames](visual-check.json) and [package metadata](package-artifacts.json). The pre-fix log is retained as an expected reproduction, not a current test failure.
+
+The **68% low-confidence gameplay planning estimate** gives limited credit to combat trust and weapon-stat clarity. The weighted score is 67.5; the 75% development target remains open. Overall beta readiness is unmeasured and the verdict remains **NOT_BETA_READY**. The package was built but not launched or human-tested. Owner hit-feel/arsenal acceptance, human fun, natural economy balance, full-run pacing, multiplayer/friend acceptance, finished arenas and production assets remain open.

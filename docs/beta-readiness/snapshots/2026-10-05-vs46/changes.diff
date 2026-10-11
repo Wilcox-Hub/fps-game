@@ -1,0 +1,420 @@
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/RidgefireHUD.cpp
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/RidgefireHUD.cpp
+@@ -20,6 +20,7 @@
+ 	}
+ 
+     if (DrawSessionScreen()) return;
++    if (DrawSetupScreen()) return;
+ 	const float Width = Canvas->ClipX;
+ 	const float Height = Canvas->ClipY;
+ 	const FLinearColor Ember(1.0f, 0.46f, 0.20f, 1.0f);
+@@ -743,7 +744,7 @@
+ 	else
+ 	{
+ 		ControlsHints.Add(TEXT("WASD MOVE / LMB FIRE / SHIFT SPRINT / C CROUCH / R RELOAD / ESC PAUSE"));
+-		ControlsHints.Add(TEXT("1-2-3 SELECT / 4-5 REPLACE PRIMARY / T ARSENAL / G REROLL"));
++		ControlsHints.Add(TEXT("1 PRIMARY / 2 SECONDARY / 3 EXTRA / T ARSENAL / G REROLL"));
+ 		ControlsHints.Add(TEXT("B SECONDARY / F PATCH / E SURGE"));
+ 	}
+ 	const bool bReplacingPrimary = ShooterController && ShooterController->GetPendingPrimaryReplacementSlot() != INDEX_NONE;
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/RidgefireHUD.h
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/RidgefireHUD.h
+@@ -92,4 +92,5 @@
+ 	virtual void DrawHUD() override;
+     bool DrawSessionScreen();
+     bool DrawWeaponShop();
++    bool DrawSetupScreen();
+ };
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/RidgefireSetupHUD.cpp
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/RidgefireSetupHUD.cpp
+@@ -0,0 +1,112 @@
++#include "RidgefireHUD.h"
++#include "RidgefireWeaponProgression.h"
++#include "Variant_Shooter/ShooterPlayerController.h"
++#include "Engine/Canvas.h"
++#include "Engine/Engine.h"
++
++bool ARidgefireHUD::DrawSetupScreen()
++{
++    auto* PC = Cast<AShooterPlayerController>(PlayerOwner);
++    UFont* Font = GEngine ? GEngine->GetMediumFont() : nullptr;
++    if (!PC || !Canvas || !Font || PlayerOwner->IsPaused()) return false;
++    const auto& S = PC->GetRidgefireRunState();
++    const bool bPerks = PC->IsPersonalPerksOpen() || (S.bArmoryOpen && S.SetupStage == ERidgefireSetupStage::PersonalPerks);
++    const bool bWeapons = S.bArmoryOpen && (S.SetupStage == ERidgefireSetupStage::Secondary || S.SetupStage == ERidgefireSetupStage::Weapons);
++    const float W = Canvas->ClipX, H = Canvas->ClipY;
++    // Preserve the compact/portrait layout outside this landscape presentation.
++    if ((!bPerks && !bWeapons) || W < 900 || H < 500) return false;
++    const FLinearColor Paper(.98f,.94f,.85f), Ice(.48f,.92f,.84f), Ember(1,.55f,.28f);
++    const FLinearColor Muted(.68f,.73f,.77f), Panel(.045f,.065f,.08f,1);
++    DrawRect(FLinearColor(.012f,.019f,.028f,1),0,0,W,H);
++    auto Line = [&](FString Value,float X,float Y,float Width,float Size,FLinearColor Color) {
++        const float Scale=Size*H/720.f;
++        float TW,TH;
++        Canvas->StrLen(Font,Value,TW,TH);
++        if (TW*Scale>W*Width) {
++            while(Value.Len()>1) {
++                Value.LeftChopInline(1);
++                Canvas->StrLen(Font,Value+TEXT("..."),TW,TH);
++                if(TW*Scale<=W*Width) break;
++            }
++            Value+=TEXT("...");
++        }
++        DrawText(Value,Color,W*X,H*Y,Font,Scale);
++    };
++    auto Wrapped = [&](const FString& Value,float X,float Y,float Width,float Size,int32 MaxLines,FLinearColor Color) {
++        TArray<FString> Words; Value.ParseIntoArray(Words,TEXT(" "),true);
++        FString Row; int32 Index=0;
++        const float Step=Size/720.f*22.f;
++        for(const FString& Word:Words) {
++            const FString Next=Row.IsEmpty()?Word:Row+TEXT(" ")+Word;
++            float TW,TH; Canvas->StrLen(Font,Next,TW,TH);
++            if(!Row.IsEmpty() && TW*Size*H/720.f>W*Width) {
++                if(Index==MaxLines-1) {Line(Row+TEXT("..."),X,Y+Index*Step,Width,Size,Color);return;}
++                Line(Row,X,Y+Index++*Step,Width,Size,Color); Row=Word;
++            } else Row=Next;
++        }
++        if(!Row.IsEmpty()) Line(Row,X,Y+Index*Step,Width,Size,Color);
++    };
++    const bool bGamepad=PC->IsUsingGamepad();
++    if(bPerks) {
++        const auto& Profile=PC->GetPersonalProgression();
++        Line(TEXT("PERSONAL PERKS"),.04f,.045f,.68f,2.4f,Paper);
++        Line(S.bArmoryOpen?FString::Printf(TEXT("LOCKS IN %02d s"),S.SetupSeconds):TEXT("YOUR LOADOUT"),.74f,.055f,.22f,1.5f,Ice);
++        for(int32 Slot=0;Slot<2;++Slot) {
++            const float X=.04f+Slot*.47f;
++            const auto* Perk=RidgefireProgression::GetPerk(Slot==0?Profile.FirstPerk:Profile.SecondPerk);
++            DrawRect(Panel,W*X,H*.125f,W*.45f,H*.1f);
++            Line(FString::Printf(TEXT("SLOT %d"),Slot+1),X+.015f,.137f,.42f,1.0f,Muted);
++            Line(Perk?Perk->Name:TEXT("Empty"),X+.015f,.168f,.42f,1.6f,Ice);
++        }
++        for(int32 Node=0;Node<RidgefireProgression::PerkCount;++Node) {
++            const auto* Perk=RidgefireProgression::GetPerk(Node);
++            const bool bSelected=Node==PC->GetPersonalPerkCursor();
++            const bool bUnlocked=Profile.XP>=Perk->UnlockXP;
++            const float Y=.265f+Node*.053f;
++            if(bSelected) DrawRect(FLinearColor(.1f,.16f,.19f,1),W*.04f,H*(Y-.006f),W*.43f,H*.05f);
++            Line(Perk->Name,.055f,Y,.30f,1.3f,bSelected?Ice:bUnlocked?Paper:Muted);
++            Line(Node==Profile.FirstPerk?TEXT("SLOT 1"):Node==Profile.SecondPerk?TEXT("SLOT 2"):bUnlocked?TEXT("READY"):TEXT("LOCKED"),.37f,Y,.085f,1.0f,bUnlocked?Ice:Muted);
++        }
++        const auto* Selected=RidgefireProgression::GetPerk(PC->GetPersonalPerkCursor());
++        if(Selected) {
++            DrawRect(Panel,W*.50f,H*.26f,W*.46f,H*.53f);
++            Line(Selected->Category,.525f,.286f,.41f,1.15f,Muted);
++            Wrapped(Selected->Name,.525f,.345f,.41f,2.0f,2,Paper);
++            Wrapped(Selected->Description,.525f,.47f,.41f,1.75f,4,Ice);
++            Line(Profile.XP>=Selected->UnlockXP?TEXT("AVAILABLE TO EQUIP"):FString::Printf(TEXT("UNLOCKS AT %d XP  /  YOU HAVE %d"),Selected->UnlockXP,Profile.XP),.525f,.7f,.41f,1.2f,Muted);
++        }
++        Line(bGamepad?TEXT("D-PAD: browse    A: slot 1    X: slot 2"):TEXT("UP / DOWN: browse    1: slot 1    2: slot 2"),.04f,.845f,.92f,1.5f,Ice);
++        Line(S.bArmoryOpen?TEXT("Saved choices stay equipped when the timer ends."):bGamepad?TEXT("L3: return to the game"):TEXT("K: return to the game"),.04f,.905f,.92f,1.15f,Muted);
++        return true;
++    }
++    const bool bSecondary=S.SetupStage==ERidgefireSetupStage::Secondary;
++    const int32 Secondary=S.WeaponOffers.IsValidIndex(S.SecondaryWeaponOfferIndex)?S.SecondaryWeaponOfferIndex:1;
++    Line(bSecondary?TEXT("CHOOSE YOUR SECONDARY"):TEXT("CHOOSE YOUR PRIMARY"),.04f,.045f,.70f,2.4f,Paper);
++    Line(FString::Printf(TEXT("%02d s REMAINING"),bSecondary?S.SetupSeconds:S.ArmorySecondsRemaining),.77f,.055f,.19f,1.4f,Ice);
++    Line(bSecondary?TEXT("You start with two guns: one primary + this secondary."):TEXT("Your secondary is reserved. Choose the primary you will deploy with."),.04f,.12f,.92f,1.5f,Ice);
++    for(int32 Index=0;Index<FMath::Min(3,S.WeaponOffers.Num());++Index) {
++        const auto& Gun=S.WeaponOffers[Index];
++        const bool bReserved=!bSecondary && Index==Secondary;
++        const bool bSelectable=bSecondary || (!bReserved && !Gun.bWildcard);
++        const bool bChosen=bSecondary && Index==Secondary;
++        const float X=.04f+Index*.315f;
++        DrawRect(Panel,W*X,H*.215f,W*.29f,H*.515f);
++        DrawRect(bChosen?Ice:bReserved||!bSelectable?Muted:Ember,W*X,H*.215f,W*.29f,H*.004f);
++        Line(bReserved?TEXT("RESERVED SECONDARY"):!bSelectable?TEXT("FIND DURING THE RUN"):FString::Printf(TEXT("%d  /  %s"),Index+1,bChosen?TEXT("SELECTED"):TEXT("CHOOSE")),X+.015f,.242f,.26f,1.15f,bChosen?Ice:Muted);
++        Wrapped(Gun.Name,X+.015f,.3f,.26f,1.85f,2,Paper);
++        Line(Gun.ModeName,X+.015f,.412f,.26f,1.1f,Muted);
++        const auto Stats=RidgefireWeaponProgression::Stats(Gun);
++        Line(FString::Printf(TEXT("Damage / shot     %.0f"),Stats.Damage),X+.015f,.47f,.26f,1.3f,Paper);
++        Line(FString::Printf(TEXT("Fire rate              %.0f /min"),Stats.RPM),X+.015f,.516f,.26f,1.3f,Paper);
++        Line(FString::Printf(TEXT("Magazine             %d rounds"),Gun.MagazineSize),X+.015f,.562f,.26f,1.3f,Paper);
++        Line(FString::Printf(TEXT("Recoil                  %s"),RidgefireWeaponProgression::RecoilLabel(Stats.RecoilDegrees)),X+.015f,.608f,.26f,1.3f,Paper);
++        Wrapped(Gun.Description,X+.015f,.655f,.26f,1.05f,2,Muted);
++    }
++    const FString SecondaryName=S.WeaponOffers.IsValidIndex(Secondary)?S.WeaponOffers[Secondary].Name:TEXT("Phasma Rifle");
++    Line(TEXT("YOUR STARTING LOADOUT"),.04f,.755f,.92f,1.1f,Muted);
++    Line(bSecondary?TEXT("PRIMARY: choose after the team vote"):TEXT("PRIMARY: choose an available gun above"),.04f,.8f,.44f,1.4f,Paper);
++    Line(TEXT("SECONDARY: ")+SecondaryName,.51f,.8f,.45f,1.4f,Ice);
++    Line(bGamepad?TEXT("A: weapon 1    B: weapon 2    X: weapon 3"):bSecondary?TEXT("1 / 2 / 3: choose secondary    Change until the timer ends"):TEXT("1 / 2: choose an available primary    Deploys when selected"),.04f,.86f,.92f,1.5f,Ice);
++    Line(TEXT("In combat and the arsenal: 1 = primary    2 = secondary    3 = extra weapon"),.04f,.92f,.92f,1.2f,Muted);
++    return true;
++}
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/RidgefireShopHUD.cpp
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/RidgefireShopHUD.cpp
+@@ -111,8 +111,8 @@
+         Line(S.WeaponOffers.IsValidIndex(Offer)?S.WeaponOffers[Offer].Name:TEXT("Empty slot"),.055f,Y+.035f,.27f,1.5f,Paper);
+     };
+     Slot(S.PrimaryWeaponSlots.IsValidIndex(0)?S.PrimaryWeaponSlots[0]:INDEX_NONE,TEXT("1  PRIMARY"),.228f,!bSecondaryEquipped&&S.PrimaryWeaponSlots.IsValidIndex(0)&&S.ActiveWeaponIndex==S.PrimaryWeaponSlots[0]);
+-    Slot(S.PrimaryWeaponSlots.IsValidIndex(1)?S.PrimaryWeaponSlots[1]:INDEX_NONE,TEXT("2  PRIMARY"),.321f,!bSecondaryEquipped&&S.PrimaryWeaponSlots.IsValidIndex(1)&&S.ActiveWeaponIndex==S.PrimaryWeaponSlots[1]);
+-    Slot(S.SecondaryWeaponOfferIndex,TEXT("3  SECONDARY"),.414f,bSecondaryEquipped);
++    Slot(S.SecondaryWeaponOfferIndex,TEXT("2  SECONDARY"),.321f,bSecondaryEquipped);
++    Slot(S.PrimaryWeaponSlots.IsValidIndex(1)?S.PrimaryWeaponSlots[1]:INDEX_NONE,TEXT("3  EXTRA PRIMARY"),.414f,!bSecondaryEquipped&&S.PrimaryWeaponSlots.IsValidIndex(1)&&S.ActiveWeaponIndex==S.PrimaryWeaponSlots[1]);
+     Line(bGamepad?TEXT("Carried guns shown above"):TEXT("Equip with keys 1 / 2 / 3"),.055f,.488f,.27f,1.05f,Ice);
+ 
+     DrawRect(Panel,W*.37f,H*.155f,W*.595f,H*.365f);
+@@ -122,8 +122,8 @@
+     Line(Gun.ModeName+TEXT(" / ")+Gun.PayloadName+TEXT(" / ")+Gun.ConditionName,.39f,.324f,.555f,1.0f,Muted);
+     FString DestinationLabel = PC->IsShopSecondary()?TEXT("Destination: Secondary")
+         : bNeedsSlot?TEXT("Destination: Choose a primary slot")
+-        : FString::Printf(TEXT("Destination: Primary %d%s"),Destination+1,bEmptyDestination?TEXT(" (empty)"):TEXT(""));
+-    const FString CarriedLabel=OwnedPrimarySlot!=INDEX_NONE?FString::Printf(TEXT("Carried in Primary %d"),OwnedPrimarySlot+1):TEXT("Carried as Secondary");
++        : FString(Destination==0?TEXT("Destination: Primary (1)"):TEXT("Destination: Extra weapon (3)"))+(bEmptyDestination?TEXT(" (empty)"):TEXT(""));
++    const FString CarriedLabel=OwnedPrimarySlot==0?FString(TEXT("Carried as Primary (1)")):OwnedPrimarySlot==1?FString(TEXT("Carried as Extra weapon (3)")):FString(TEXT("Carried as Secondary (2)"));
+     Line(Preview!=INDEX_NONE?TEXT("Upgrade this carried weapon"):bOwned?CarriedLabel:DestinationLabel,.39f,.345f,.555f,1.2f,Paper);
+     if (Preview!=INDEX_NONE) {
+         Line(Preview==0?TEXT("ECHO PULSE  /  Delayed follow-up hit"):TEXT("THROUGH SHOT  /  Hits the next sentry"),.39f,.395f,.555f,1.25f,Ice);
+@@ -169,7 +169,7 @@
+     else if (Preview!=INDEX_NONE&&!S.bRegroupOpen) Action=TEXT("Wait for regroup to apply this upgrade");
+     else if (Preview==INDEX_NONE&&bOwned) Action=EquippedOffer==Cursor?TEXT("Equipped  /  Preview an upgrade during regroup")
+         : bGamepad?TEXT("Carried  /  Close the arsenal to equip it")
+-        : FString::Printf(TEXT("%d  EQUIP THIS GUN"),OwnedPrimarySlot!=INDEX_NONE?OwnedPrimarySlot+1:3);
++        : FString::Printf(TEXT("%d  EQUIP THIS GUN"),OwnedPrimarySlot==INDEX_NONE?2:OwnedPrimarySlot==0?1:3);
+     else if (Preview==INDEX_NONE&&bNeedsSlot) Action=bGamepad?TEXT("Choose a replacement slot with UP / DOWN"):TEXT("Choose a replacement slot with 4 / 5");
+     else if (S.Cash<Cost) Action=FString::Printf(TEXT("Need %d more cash  /  Price: %d"),Cost-S.Cash,Cost);
+     else Action=FString::Printf(TEXT("%s  %s%s"),Confirm,Preview!=INDEX_NONE?TEXT("APPLY UPGRADE"):Gun.bWildcard?TEXT("KEEP WEAPON"):TEXT("BUY WEAPON"),Cost>0?*FString::Printf(TEXT("  /  %d CASH"),Cost):TEXT("  /  FREE"));
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/Tests/RidgefireArsenalConfirmationTests.cpp
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/Tests/RidgefireArsenalConfirmationTests.cpp
+@@ -132,6 +132,11 @@
+             Capture(TEXT("PurchaseReceipt.png")); Stage=4; return false;
+         }
+         if (Stage==4) {
++            Press(EKeys::One);
++            Test->TestEqual(TEXT("1 equips original primary after extra purchase"),Pawn->GetActiveWeaponName(),Owner->GetRidgefireRunState().WeaponOffers[0].Name);
++            Press(EKeys::Three);
++            Press(EKeys::Three);
++            Test->TestEqual(TEXT("3 equips purchased extra gun repeatedly"),Pawn->GetActiveWeaponName(),Owner->GetRidgefireRunState().WeaponOffers[3].Name);
+             const int32 Ammo=Pawn->GetRidgefireAmmo();
+             Press(EKeys::Enter);
+             Test->TestFalse(TEXT("repeated Enter cannot buy a carried weapon again"),Owner->WasShopResultSuccessful());
+@@ -182,8 +187,8 @@
+             Test->TestEqual(TEXT("free wildcard keep does not charge cash"),Owner->GetRidgefireRunState().Cash,Cash);
+             Test->TestEqual(TEXT("confirmed wildcard replaces the chosen secondary only"),Owner->GetRidgefireRunState().SecondaryWeaponOfferIndex,2);
+             Test->TestEqual(TEXT("wildcard keep preserves upgraded primary 2"),Owner->GetRidgefireRunState().PrimaryWeaponSlots[1],3);
+-            Press(EKeys::Three);
+-            Test->TestTrue(TEXT("3 equips newly confirmed secondary"),Pawn->IsRidgefireSecondaryEquipped());
++            Press(EKeys::Two);
++            Test->TestTrue(TEXT("2 equips newly confirmed secondary"),Pawn->IsRidgefireSecondaryEquipped());
+             Test->TestEqual(TEXT("actual secondary matches the inspected rerolled wildcard"),Pawn->GetActiveWeaponName(),WildcardName);
+             Test->TestFalse(TEXT("wildcard confirmation clears pending state"),Owner->IsShopRequestPending());
+             Capture(TEXT("WildcardKept.png")); Stage=9; return false;
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/Tests/RidgefireLoadoutInteractionTests.cpp
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/Tests/RidgefireLoadoutInteractionTests.cpp
+@@ -137,7 +137,7 @@
+ 				if(!Test->TestTrue(TEXT("paid loadout fixture opens actual arsenal"),Mode->SetPlayerArsenalOpen(LocalController,true))) return true;
+ 				if(!Test->TestTrue(TEXT("paid loadout fixture acquires Phasma"),Mode->PurchaseWeapon(LocalController,1,1))) return true;
+ 				Mode->SetPlayerArsenalOpen(LocalController,false);
+-				Press(EKeys::Two);
++				Press(EKeys::Three);
+ 				if (!Test->TestEqual(TEXT("Phasma is actually equipped before its ammo snapshot"),
+ 					LocalPlayer->GetActiveWeaponName(), LocalController->GetRidgefireRunState().WeaponOffers[1].Name)) return true;
+ 				PhasmaAmmo = LocalPlayer->GetRidgefireAmmo();
+@@ -145,10 +145,10 @@
+ 				Press(EKeys::One);
+ 				Press(EKeys::T);
+ 				bPassed &= Test->TestTrue(TEXT("T opens the real personal arsenal"), LocalController->GetRidgefireRunState().bPersonalArsenalOpen);
++				Press(EKeys::Three);
++				bPassed &= Test->TestEqual(TEXT("number 3 equips the carried extra primary without closing arsenal"), LocalPlayer->GetActiveWeaponName(), LocalController->GetRidgefireRunState().WeaponOffers[1].Name);
+ 				Press(EKeys::Two);
+-				bPassed &= Test->TestEqual(TEXT("number 2 equips the carried second primary without closing arsenal"), LocalPlayer->GetActiveWeaponName(), LocalController->GetRidgefireRunState().WeaponOffers[1].Name);
+-				Press(EKeys::Three);
+-				bPassed &= Test->TestTrue(TEXT("number 3 equips the carried secondary without closing arsenal"), LocalPlayer->IsRidgefireSecondaryEquipped());
++				bPassed &= Test->TestTrue(TEXT("number 2 equips the carried secondary without closing arsenal"), LocalPlayer->IsRidgefireSecondaryEquipped());
+ 				Press(EKeys::One);
+ 				bPassed &= Test->TestFalse(TEXT("number 1 returns to the first carried primary"), LocalPlayer->IsRidgefireSecondaryEquipped());
+ 				Press(EKeys::Left);
+@@ -207,7 +207,7 @@
+ 				bPassed &= Test->TestEqual(TEXT("actual secondary consumes one shot"), LocalPlayer->GetRidgefireAmmo(), BeforeSecondaryShot - 1);
+ 				SecondaryAmmo = LocalPlayer->GetRidgefireAmmo();
+ 				SecondaryReserve = LocalPlayer->GetRidgefireReserveAmmo();
+-				Press(EKeys::Two);
++				Press(EKeys::Three);
+ 				CheckPrimary(LocalPlayer, LocalController, 1, PhasmaAmmo, PhasmaReserve);
+ 				Capture(TEXT("PrimaryAfterSecondary.png"));
+ 				Stage = 4;
+@@ -215,8 +215,8 @@
+ 			}
+ 			if (Stage == 4)
+ 			{
+-				Press(EKeys::Two);
+-				Press(EKeys::Two);
++				Press(EKeys::Three);
++				Press(EKeys::Three);
+ 				CheckPrimary(LocalPlayer, LocalController, 1, PhasmaAmmo, PhasmaReserve);
+ 				Press(EKeys::B);
+ 				CheckSecondary(LocalPlayer);
+@@ -224,7 +224,7 @@
+ 				CheckPrimary(LocalPlayer, LocalController, 0, GaleAmmo, GaleReserve);
+ 				Press(EKeys::B);
+ 				CheckSecondary(LocalPlayer);
+-				Press(EKeys::Three);
++				Press(EKeys::Two);
+ 				CheckSecondary(LocalPlayer);
+ 				Press(EKeys::One);
+ 				CheckPrimary(LocalPlayer, LocalController, 0, GaleAmmo, GaleReserve);
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/Tests/RidgefireSetupTests.cpp
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/Tests/RidgefireSetupTests.cpp
+@@ -4,6 +4,10 @@
+ #include "Variant_Shooter/ShooterCharacter.h"
+ #include "Engine/Engine.h"
+ #include "Engine/World.h"
++#include "EngineUtils.h"
++#include "Components/InputComponent.h"
++#include "RidgefireArenaDressing.h"
++#include "Variant_Shooter/AI/ShooterNPC.h"
+ #include "InputKeyEventArgs.h"
+ #include "Misc/AutomationTest.h"
+ #include "Misc/CommandLine.h"
+@@ -25,6 +29,8 @@
+     int32 FirstPerk = -1, SecondPerk = -1;
+     float LastTransition = 0;
+     FString CaptureDirectory, PendingCapture;
++    int32 LoadoutPhase = 0, SecondaryAmmo = 0;
++    float FireStarted = 0;
+ public:
+     explicit FTimedSetup(FAutomationTestBase* InTest) : Test(InTest) {}
+     virtual bool Update() override
+@@ -130,12 +136,86 @@
+         if (Stage == 3 && !bDefaults && !bGale && PendingCapture.IsEmpty()) Mode->SelectWeaponOffer(PC,0);
+         if (Stage == 4 && State.Wave >= 1)
+         {
+-            Test->TestTrue(TEXT("actual pawn has entry weapon"), Pawn->GetActiveWeaponName()==State.WeaponOffers[ExpectedPrimary].Name);
+-            Pawn->ToggleRidgefireSecondaryWeapon();
+-            Test->TestTrue(TEXT("selected secondary can be drawn in actual combat"), Pawn->IsRidgefireSecondaryEquipped());
+-            Test->TestTrue(TEXT("drawn weapon matches selected offer"), Pawn->GetActiveWeaponName()==State.WeaponOffers[State.SecondaryWeaponOfferIndex].Name);
+-            Pawn->ToggleRidgefireSecondaryWeapon();
++            auto Bound = [&](UInputComponent* Input, const FKey& Key, EInputEvent Event=IE_Pressed) {
++                // This fixture previously used gamepad setup input. A mouse-axis
++                // event establishes keyboard/mouse mode before keyboard delegates.
++                FInputKeyEventArgs Source; Source.Key=EKeys::MouseX; Source.Event=IE_Axis; Source.AmountDepressed=1.0; PC->InputKey(Source);
++                if(Input) for(const FInputKeyBinding& Binding:Input->KeyBindings)
++                    if(Binding.Chord.Key==Key && Binding.KeyEvent==Event) {Binding.KeyDelegate.Execute(Key);return true;}
++                Test->AddError(FString::Printf(TEXT("Missing actual bound key: %s"),*Key.ToString()));return false;
++            };
++            auto Capture = [&](const TCHAR* Name) {
++                if(!FParse::Param(FCommandLine::Get(),TEXT("RidgefireSetupRender"))) return;
++                PendingCapture=CaptureDirectory/FString(Name)+TEXT(".png");
++                FScreenshotRequest::RequestScreenshot(PendingCapture,true,false);
++            };
++            if(LoadoutPhase==0) {
++                Test->TestTrue(TEXT("actual pawn has entry weapon"),Pawn->GetActiveWeaponName()==State.WeaponOffers[ExpectedPrimary].Name);
++                Test->TestEqual(TEXT("starting primary 1 is entry weapon"),State.PrimaryWeaponSlots[0],ExpectedPrimary);
++                Test->TestEqual(TEXT("second primary starts empty"),State.PrimaryWeaponSlots[1],INDEX_NONE);
++                for(TActorIterator<AShooterNPC> It(World);It;++It) It->SetActorTickEnabled(false);
++                FVector Arsenal;
++                bool bFound=false;
++                for(TActorIterator<ARidgefireArenaDressing> It(World);It;++It) if(It->GetArsenalStationWorldLocation(Arsenal)) {bFound=true;break;}
++                if(!Test->TestTrue(TEXT("real deployment arsenal exists"),bFound)) return true;
++                Pawn->SetActorLocation(Arsenal+FVector(-360,0,96));
++                PC->SetControlRotation(FRotator(45,90,0));
++                Bound(PC->InputComponent,EKeys::T);
++                if(!Test->TestTrue(TEXT("T opens deployment arsenal"),State.bPersonalArsenalOpen)) return true;
++                Bound(PC->InputComponent,EKeys::One);
++                Test->TestFalse(TEXT("key 1 draws primary in arsenal"),Pawn->IsRidgefireSecondaryEquipped());
++                Test->TestEqual(TEXT("key 1 displays entry gun"),Pawn->GetActiveWeaponName(),State.WeaponOffers[ExpectedPrimary].Name);
++                Capture(TEXT("ArsenalPrimary"));LoadoutPhase=1;return false;
++            }
++            if(LoadoutPhase==1) {
++                Bound(PC->InputComponent,EKeys::Three);
++                Test->TestEqual(TEXT("empty extra primary does not replace entry gun"),Pawn->GetActiveWeaponName(),State.WeaponOffers[ExpectedPrimary].Name);
++                Bound(PC->InputComponent,EKeys::Two);
++                Test->TestTrue(TEXT("key 2 draws starting secondary in arsenal"),Pawn->IsRidgefireSecondaryEquipped());
++                Test->TestEqual(TEXT("key 2 displays selected gun"),Pawn->GetActiveWeaponName(),State.WeaponOffers[ExpectedSecondary].Name);
++                Bound(PC->InputComponent,EKeys::Two);
++                Test->TestTrue(TEXT("repeated key 2 keeps secondary equipped"),Pawn->IsRidgefireSecondaryEquipped());
++                Capture(TEXT("ArsenalSecondary"));LoadoutPhase=2;return false;
++            }
++            if(LoadoutPhase==2) {
++                Bound(PC->InputComponent,EKeys::T);
++                Test->TestFalse(TEXT("T closes deployment arsenal"),State.bPersonalArsenalOpen);
++                SecondaryAmmo=Pawn->GetRidgefireAmmo();
++                Bound(Pawn->InputComponent,EKeys::LeftMouseButton);
++                FireStarted=World->GetTimeSeconds();LoadoutPhase=3;return false;
++            }
++            if(LoadoutPhase==3) {
++                if(World->GetTimeSeconds()-FireStarted<.25f) return false;
++                Bound(Pawn->InputComponent,EKeys::LeftMouseButton,IE_Released);
++                Test->TestTrue(TEXT("starting secondary actually fires after arsenal close"),Pawn->GetRidgefireAmmo()<SecondaryAmmo);
++                Bound(PC->InputComponent,EKeys::One);
++                Test->TestFalse(TEXT("key 1 returns from secondary in combat"),Pawn->IsRidgefireSecondaryEquipped());
++                Test->TestEqual(TEXT("combat primary remains entry gun"),Pawn->GetActiveWeaponName(),State.WeaponOffers[ExpectedPrimary].Name);
++                SecondaryAmmo=Pawn->GetRidgefireAmmo();
++                FireStarted=World->GetTimeSeconds();LoadoutPhase=4;return false;
++            }
++            if(LoadoutPhase==4) {
++                // Allow the prior gun's refire cooldown to finish before this shot.
++                if(World->GetTimeSeconds()-FireStarted<1.0f) return false;
++                Bound(Pawn->InputComponent,EKeys::LeftMouseButton);
++                FireStarted=World->GetTimeSeconds();LoadoutPhase=5;return false;
++            }
++            if(LoadoutPhase==5) {
++                if(World->GetTimeSeconds()-FireStarted<1.0f) return false;
++                Bound(Pawn->InputComponent,EKeys::LeftMouseButton,IE_Released);
++                Test->TestTrue(TEXT("starting primary actually fires"),Pawn->GetRidgefireAmmo()<SecondaryAmmo);
++                Bound(PC->InputComponent,EKeys::Two);
++                Bound(PC->InputComponent,EKeys::Two);
++                Test->TestTrue(TEXT("key 2 selects secondary idempotently in combat"),Pawn->IsRidgefireSecondaryEquipped());
++                Test->TestEqual(TEXT("combat secondary is the selected gun"),Pawn->GetActiveWeaponName(),State.WeaponOffers[ExpectedSecondary].Name);
++                Bound(PC->InputComponent,EKeys::Three);
++                Test->TestTrue(TEXT("empty extra slot keeps secondary equipped"),Pawn->IsRidgefireSecondaryEquipped());
++                Bound(PC->InputComponent,EKeys::One);
++                Test->TestEqual(TEXT("slot 1 selects primary regardless of offer index"),Pawn->GetActiveWeaponName(),State.WeaponOffers[ExpectedPrimary].Name);
++                Capture(TEXT("CombatPrimary"));LoadoutPhase=6;return false;
++            }
+             UE_LOG(LogTemp, Display, TEXT("RIDGEFIRE SETUP PASS normal 20/10/10 timers; input selections/defaults, stage locks, reserved offer, deploy and actual secondary draw; defaults=%d"), bDefaults);
++            UE_LOG(LogTemp, Display, TEXT("RIDGEFIRE STARTING LOADOUT PASS keys=T/1/2/3 primary=%d secondary=%d both_visible=true both_fire=true empty_slot_safe=true"),ExpectedPrimary,ExpectedSecondary);
+             return true;
+         }
+         return false;
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp
+@@ -923,7 +923,7 @@
+ void AShooterPlayerController::ChooseOfferOne()
+ {
+     if(bUsingGamepad && RidgefireRunState.bPersonalArsenalOpen && RidgefireRunState.bEconomyEnabled) {ShopConfirm();return;}
+-    if(!bUsingGamepad && RidgefireRunState.bPersonalArsenalOpen && RidgefireRunState.bEconomyEnabled) {SelectCarriedPrimarySlot(0);return;}
++    if(!bUsingGamepad && !RidgefireRunState.bArmoryOpen) {SelectCarriedPrimarySlot(0);return;}
+     SelectWeaponOffer(0);
+ }
+ 
+@@ -931,15 +931,27 @@
+ {
+     if(bUsingGamepad && RidgefireRunState.bPersonalArsenalOpen && RidgefireRunState.bEconomyEnabled) {ShopNext();return;}
+     if(bUsingGamepad && RidgefireRunState.bRegroupOpen && !RidgefireRunState.bPersonalArsenalOpen) {ReadyForEncounter();return;}
+-    if(!bUsingGamepad && RidgefireRunState.bPersonalArsenalOpen && RidgefireRunState.bEconomyEnabled) {SelectCarriedPrimarySlot(1);return;}
++    if(!bUsingGamepad && !RidgefireRunState.bArmoryOpen) {SelectCarriedSecondary();return;}
+     SelectWeaponOffer(1);
+ }
+ 
+ void AShooterPlayerController::ChooseOfferThree()
+ {
+     if(bUsingGamepad && RidgefireRunState.bPersonalArsenalOpen && RidgefireRunState.bEconomyEnabled) {ShopPrevious();return;}
+-    if(!bUsingGamepad && RidgefireRunState.bPersonalArsenalOpen && RidgefireRunState.bEconomyEnabled) {ToggleRidgefireSecondaryWeapon();return;}
++    if(!bUsingGamepad && !RidgefireRunState.bArmoryOpen) {SelectCarriedPrimarySlot(1);return;}
+     SelectWeaponOffer(2);
++}
++
++void AShooterPlayerController::SelectCarriedSecondary()
++{
++    if (!HasAuthority()) { ServerEquipCarriedSecondary(); return; }
++    if (AShooterCharacter* ShooterPawn = Cast<AShooterCharacter>(GetPawn()); ShooterPawn && !ShooterPawn->IsRidgefireSecondaryEquipped())
++        ShooterPawn->ToggleRidgefireSecondaryWeapon();
++}
++
++void AShooterPlayerController::ServerEquipCarriedSecondary_Implementation()
++{
++    SelectCarriedSecondary();
+ }
+ 
+ void AShooterPlayerController::SelectCarriedPrimarySlot(int32 Slot)
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h
+@@ -204,6 +204,8 @@
+ 	void ChooseOfferTwo();
+ 	void ChooseOfferThree();
+ 	void SelectCarriedPrimarySlot(int32 Slot);
++    void SelectCarriedSecondary();
++    UFUNCTION(Server, Reliable) void ServerEquipCarriedSecondary();
+ 	void ChoosePrimaryReplacementOne();
+ 	void ChoosePrimaryReplacementTwo();
+ 	void SelectWeaponOffer(int32 Index);

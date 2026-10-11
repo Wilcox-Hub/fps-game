@@ -1,0 +1,67 @@
+[
+  {
+    "path": "Source/TP_FirstPerson/RidgefireCharacterMovement.cpp",
+    "sha256": "FF89DA27A04F302051F2836D5105E2299CBBB30A9E58D33548C327D17A8BCC1A",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireCharacterMovement.h",
+    "sha256": "2A686FC082537CECA26B95D8C302B30AA7BFF7DD2D9705F3F1FA57555EF8B3D0",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireEncounters.cpp",
+    "sha256": "3597042EE7D469AA9744E4D7D4C7159348B026F44AF7944022C01AF1A008EB64",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireHUD.cpp",
+    "sha256": "6140F4F6F5FBAA4196D634C8F6DE9F57874F5D13E89DD4CDD482BEDEEA6AF440",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireWeaponProgression.cpp",
+    "sha256": "602C5FC195298B056ADF378AF7D4D392C0C084A515370D48463CAF4AC9E00BC3",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp",
+    "sha256": "242A5EFB150233D9D110BAD2EE6C6E1DBB26DA6FB19FE65D9903F0449C92F800",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefirePressureNetworkFixture.cpp",
+    "sha256": "DAF8BFF870F92405D9A0D1151AFBDC84517FEC3942A5896D5DC6EC0477D017E5",
+    "change": "added"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefirePressurePassTests.cpp",
+    "sha256": "9BDE8D119EC74C8E8126080D1E7E886D6C2F4E4E3F6FEF4BC93A99CA31AAA04A",
+    "change": "added"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.cpp",
+    "sha256": "16C178C4C4F80463293D6292074F1C57CC41A324D036C908B039B48485B704E8",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.h",
+    "sha256": "7C4D1A2178A3D26037CEBA75C61A53B27E8D326858CFD64E3C5F0142D8745606",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+    "sha256": "FF1A94E9BFD5EDC88C30B0778C10417C3E5F665225159F3E283EE1F8F79FE2FF",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h",
+    "sha256": "5FD11340D2C7CF5B6C8B1A688097AC7947BFD031540315CD5C09B570AB3CE986",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+    "sha256": "362CB187DD856B59231A1B9701CB6998CAB24AF745EC0A3235EFA08778517037",
+    "change": "modified"
+  }
+]

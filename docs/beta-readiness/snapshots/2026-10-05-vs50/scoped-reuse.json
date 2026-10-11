@@ -1,0 +1,8 @@
+{
+  "previous_snapshot": "2026-10-05-vs49",
+  "game_inputs_unchanged": 562,
+  "fresh": "Updater disk/ZIP integration and guarded failure cases, actual fixed install and controller hashes, local publisher/full payload hashes, share activation preview.",
+  "historical": "VS48 packaged host/local Editor discovery and VS47 gameplay/UI keep their original scopes/dates. Owner two-PC LAN and friend testing remain open.",
+  "readiness_credit": 0,
+  "publication": "LOCAL_UNPUBLISHED"
+}

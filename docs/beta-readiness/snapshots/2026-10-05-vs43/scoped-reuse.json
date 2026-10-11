@@ -1,0 +1,20 @@
+{
+  "assessed_on": "2026-10-05",
+  "changed_inputs": [
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp",
+      "before_sha256": "1C5545B16DB1A75EDEC854B551DC9BE29F9165C8D647E0D961DBBF54819E5F8E",
+      "after_sha256": "07DDD4F9EC360ED850CB7823B8E36064BD6133E3572F8FA82D93A486007E86CA"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+      "before_sha256": "EA8205FB6173B31C0EBE56738BD42E91743D73B2CC5E7979B16783B7D6C35FEC",
+      "after_sha256": "4BA18574869C0568791860A6BC6C92469CB8F732AB66E344E5BE9BACE829F865"
+    }
+  ],
+  "policy": "No blanket cached PASS for changed character/tests. Relevant actual-shot regression and Editor/Shipping builds were rerun. Prior loadout/render/network/economy evidence retains October 4 dates and original scope; not represented as new passes.",
+  "loadout_confirmation": "Enter-key purchase/keep remains unvalidated by the VS41 bound-key fixture.",
+  "scores": "Preserve October 4 VS41 low-confidence 69% planning estimate with no new credit.",
+  "visuals": "No new rendered frames; prior visual_check is explicitly historical.",
+  "network": "No new multiplayer validation."
+}

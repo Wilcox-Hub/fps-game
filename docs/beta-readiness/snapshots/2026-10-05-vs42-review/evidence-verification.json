@@ -1,0 +1,113 @@
+{
+  "verified_on": "2026-10-05",
+  "status": "PASS",
+  "scope": "Saved evidence integrity and recorded log-result checks only; no game builds or engine tests rerun.",
+  "verified_unique_artifact_count": 26,
+  "artifacts": {
+    "2026-10-04-vs40/logs/IRON-SUN-Reliability-20261004-211612-017.log": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs40\\logs\\IRON-SUN-Reliability-20261004-211612-017.log",
+      "sha256": "E380B448AE283B7E0911B840DFDCD2266B968E63E0094CDE7FA2A91428A0D5D7"
+    },
+    "2026-10-04-vs40/logs/Editor-phasma-inside-ring-build.log": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs40\\logs\\Editor-phasma-inside-ring-build.log",
+      "sha256": "BF7013C93CC2BFFEB021DC2E58F57843CD103CA5FB9B75E4B375CF92DA6A3117"
+    },
+    "2026-10-04-vs40/logs/IRON-SUN-Reliability-20261004-214343-421.log": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs40\\logs\\IRON-SUN-Reliability-20261004-214343-421.log",
+      "sha256": "9BE2057B957E688D3EDC553A1881009E9D61547D34741A188A2AC7C9F18DD86E"
+    },
+    "2026-10-04-vs40/logs/IRON-SUN-Economy-20261004-214459-418.log": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs40\\logs\\IRON-SUN-Economy-20261004-214459-418.log",
+      "sha256": "3DAD9E64B6FD254BAACD9249D7B942CFC4E819609464A214B77EF6B8004FE940"
+    },
+    "2026-10-04-vs40/logs/IRON-SUN-Reliability-20261004-214555-334.log": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs40\\logs\\IRON-SUN-Reliability-20261004-214555-334.log",
+      "sha256": "7C8013C4C859417A7A3368A08F6C10CEA303C5089A86624148260B845E0ACB42"
+    },
+    "2026-10-04-vs40/logs/IRON-SUN-Loadout-20261004-215354-340.log": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs40\\logs\\IRON-SUN-Loadout-20261004-215354-340.log",
+      "sha256": "463E3100C93EC53FA62E6CD8533D6669235C82131D7F54C051A148167029011C"
+    },
+    "2026-10-04-vs40/visuals/ArsenalOpen.png": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs40\\visuals\\ArsenalOpen.png",
+      "sha256": "5178691C9A5F299A7A169D081BF3578B9D2563AA8CA1318A96CF879C1DD0A9F6"
+    },
+    "2026-10-04-vs40/visuals/PrimaryAfterSecondary.png": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs40\\visuals\\PrimaryAfterSecondary.png",
+      "sha256": "6F4DF7462D2B5CE217A219665F879DF686D0EF91455F9EA926548859DAEC33C7"
+    },
+    "2026-10-04-vs40/visuals/SamePrimaryReturn.png": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs40\\visuals\\SamePrimaryReturn.png",
+      "sha256": "E5CEAA8F31925508F63DF8C24BD514661435C2F93D9AF4C1C8988DCF53AEDEA6"
+    },
+    "2026-10-04-vs40/package/PackageInfo.json": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs40\\package\\PackageInfo.json",
+      "sha256": "423F3670F2DB92F00918C4CDDD743430D2DB81898417A21446A05E3E3D20C250"
+    },
+    "2026-10-04-vs40/TP_FirstPerson.exe": {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs40\\packages\\20261004-214956-456\\Windows\\TP_FirstPerson.exe",
+      "sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4"
+    },
+    "2026-10-04-vs40/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe": {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs40\\packages\\20261004-214956-456\\Windows\\Ridgefire\\Binaries\\Win64\\TP_FirstPerson-Win64-Shipping.exe",
+      "sha256": "31F1F8C044B6C1F3BEE2C0D529FE7BF1C801DCCDA74D265D11CE06E1D4C33EF7"
+    },
+    "2026-10-04-vs40/Ridgefire/Content/Paks/Ridgefire-Windows.pak": {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs40\\packages\\20261004-214956-456\\Windows\\Ridgefire\\Content\\Paks\\Ridgefire-Windows.pak",
+      "sha256": "BD1B4582860841EFF622CBF94322658FA72DFBD68053A7199BC1899B8396CEE6"
+    },
+    "2026-10-04-vs40/Ridgefire/Content/Paks/Ridgefire-Windows.ucas": {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs40\\packages\\20261004-214956-456\\Windows\\Ridgefire\\Content\\Paks\\Ridgefire-Windows.ucas",
+      "sha256": "2FC89FF3CE1D7E3042A73F35423EF36A169B178806F6E8C3A2E792D014598C7D"
+    },
+    "2026-10-04-vs40/Ridgefire/Content/Paks/Ridgefire-Windows.utoc": {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs40\\packages\\20261004-214956-456\\Windows\\Ridgefire\\Content\\Paks\\Ridgefire-Windows.utoc",
+      "sha256": "4C047E15FDF3F0E901B4E069AE56FB2211A0D000BEDA815B3B1B8BB92CBACDEE"
+    },
+    "2026-10-04-vs41/logs/Editor-HUD-build-incremental.log": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs41\\logs\\Editor-HUD-build-incremental.log",
+      "sha256": "AED1A82586319355E0076C42DACC75BAD36EE4C530FF3AD1E7661DE728427202"
+    },
+    "2026-10-04-vs41/logs/IRON-SUN-Loadout-20261004-221731-389.log": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs41\\logs\\IRON-SUN-Loadout-20261004-221731-389.log",
+      "sha256": "0575BAB79CFFEC16E2C470C6D1C89E4934D9B949D45915B6CD10143478651E27"
+    },
+    "2026-10-04-vs41/visuals/ArsenalOpen.png": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs41\\visuals\\ArsenalOpen.png",
+      "sha256": "A2871CB9FCD415225AA950BCAA370C457B625BFC19E5830D3FDD6B02628E491A"
+    },
+    "2026-10-04-vs41/visuals/PrimaryAfterSecondary.png": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs41\\visuals\\PrimaryAfterSecondary.png",
+      "sha256": "FE28506645FF488BF179D5C1850ACF993D57655F40C4908C68B857E8121EB3C7"
+    },
+    "2026-10-04-vs41/visuals/SamePrimaryReturn.png": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs41\\visuals\\SamePrimaryReturn.png",
+      "sha256": "3E1D57183DB7ED69BECF0C132CE193BECAD14786830AD18F91B131BE42C40B86"
+    },
+    "2026-10-04-vs41/package/PackageInfo.json": {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\docs\\beta-readiness\\snapshots\\2026-10-04-vs41\\package\\PackageInfo.json",
+      "sha256": "CD8A5558CFF0440E9FDDFFDE84DD8BF2D67C535009AB37EA08DA15246FFFD549"
+    },
+    "2026-10-04-vs41/TP_FirstPerson.exe": {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs41\\packages\\20261004-222028-881\\Windows\\TP_FirstPerson.exe",
+      "sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4"
+    },
+    "2026-10-04-vs41/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe": {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs41\\packages\\20261004-222028-881\\Windows\\Ridgefire\\Binaries\\Win64\\TP_FirstPerson-Win64-Shipping.exe",
+      "sha256": "100B4D4B34FCE6E179B9E93E753C85510C1312FE676206FC4BD7B40CFCFA54AD"
+    },
+    "2026-10-04-vs41/Ridgefire/Content/Paks/Ridgefire-Windows.pak": {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs41\\packages\\20261004-222028-881\\Windows\\Ridgefire\\Content\\Paks\\Ridgefire-Windows.pak",
+      "sha256": "BD1B4582860841EFF622CBF94322658FA72DFBD68053A7199BC1899B8396CEE6"
+    },
+    "2026-10-04-vs41/Ridgefire/Content/Paks/Ridgefire-Windows.ucas": {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs41\\packages\\20261004-222028-881\\Windows\\Ridgefire\\Content\\Paks\\Ridgefire-Windows.ucas",
+      "sha256": "2FC89FF3CE1D7E3042A73F35423EF36A169B178806F6E8C3A2E792D014598C7D"
+    },
+    "2026-10-04-vs41/Ridgefire/Content/Paks/Ridgefire-Windows.utoc": {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs41\\packages\\20261004-222028-881\\Windows\\Ridgefire\\Content\\Paks\\Ridgefire-Windows.utoc",
+      "sha256": "4C047E15FDF3F0E901B4E069AE56FB2211A0D000BEDA815B3B1B8BB92CBACDEE"
+    }
+  },
+  "known_coverage_gap": "Saved Phasma cover case aims at a sentry and uses a separate blocker; no impact-on-cover negative control."
+}

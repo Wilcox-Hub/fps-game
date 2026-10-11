@@ -1,0 +1,10 @@
+[
+  {
+    "path": "Tools/Invoke-PressureChecks.ps1",
+    "sha256": "826C2F2CE58809EEE38AA127C27208D2E7AA3D5B652FB8FCAAAE54665581A9B8"
+  },
+  {
+    "path": "Tools/Invoke-PressureNetworkChecks.ps1",
+    "sha256": "6E5B6D428AAB0709E7B31DC4E79122621E6D2FEEF846D58F685EE71C150C1159"
+  }
+]

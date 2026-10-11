@@ -1,0 +1,20 @@
+PASS: First install from verified feed
+PASS: Already-current launch does not reinstall
+PASS: Update preserves previous version and fixed runtime path
+PASS: Offline launch retains verified installed version
+PASS: Offline first install cannot fabricate success
+PASS: Concurrent launcher cannot mutate installation
+PASS: Corrupt download is rejected before replacing game
+PASS: Failed update leaves current and previous intact
+PASS: Archive path traversal is rejected
+PASS: Traversal writes no escaped file
+PASS: Running installed game blocks replacement
+PASS: Update succeeds after game closes
+PASS: Rollback restores previous complete version
+PASS: Rollback is not undone at next launch
+PASS: Interrupted directory swap recovers old game offline
+PASS: Foreign install directory is preserved
+PASS: Foreign file remains unchanged
+PASS: Publisher rejects build that differs from tested evidence
+PASS: Installer creates configured updater and launch/rollback entries
+ALL PASS / 19 checks / C:\Users\YaYa\Documents\ChatGPT\FPS-1\research\vs50\checks-20261005-232737-612

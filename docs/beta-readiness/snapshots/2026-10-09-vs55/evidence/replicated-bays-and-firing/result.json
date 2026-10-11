@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "peers": 2,
+  "host_project": "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Ridgefire.uproject",
+  "client_project": "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Ridgefire.uproject",
+  "logs": [
+    "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\entrance-network\\checks-20261009-120615-239\\Host.log",
+    "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\entrance-network\\checks-20261009-120615-239\\Client.log"
+  ],
+  "scope": "Actual two-process Editor host/client replicated first-map deep bays, warned opening and party snapshot; independent bot body queries and controller LeftMouseButton primary/secondary shots retain weapon and spend ammo. Frozen enemies and accelerated setup. No Internet, packaged, hardware-input, latency/fun or second-PC acceptance.",
+  "time_utc": "2026-10-09T19:06:48.3021607Z"
+}

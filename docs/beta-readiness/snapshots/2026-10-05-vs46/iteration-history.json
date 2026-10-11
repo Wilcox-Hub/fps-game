@@ -1,0 +1,6 @@
+{
+  "note": "Intermediate Gale check failed: the fixture retained gamepad mode after its gamepad setup selection and sampled the slow primary shot before cooldown. Keyboard source is now established through a mouse-axis event, and the shot check waits for refire cooldown. This failure is not claimed as proof of a production Gale bug.",
+  "compile": "The new controller local Pawn variable shadowed the engine member and failed compilation; renamed ShooterPawn. Only the final compilation establishes a current pass.",
+  "keyboard_change": "User requested 1 primary / 2 secondary / 3 extra. Added explicit carried-slot mapping both in combat and arsenal, idempotent secondary equip and corresponding tests/prompts.",
+  "package": "The first VS46 package predates the late hotkey request. Only the final Shipping-hotkeys archive is current."
+}

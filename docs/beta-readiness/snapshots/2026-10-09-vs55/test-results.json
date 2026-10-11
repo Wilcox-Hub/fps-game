@@ -1,0 +1,686 @@
+{
+  "snapshot_id": "2026-10-09-vs55",
+  "recorded_at": "2026-10-09T12:17:33.862195-07:00",
+  "verdict": "NOT_BETA_READY",
+  "source_input_count": 589,
+  "cases": [
+    {
+      "id": "distribution-and-world",
+      "outcome": "PASS",
+      "validation_level": "HEADLESS_EDITOR",
+      "scope": "Four actual layouts and one-to-four-player fixtures; 16 initial cohorts spread across multiple valid gates. Successful-use history rotates a complete controlled 40-bot first-arena scenario across all three gates, and an 86-bot final-arena scenario across all eight. Floor/scaled clearance, player-distance/watch/blocked-slot/reservation controls, warning lead, live count/cost/flanker caps, pending guard, reward-once, ninety-second regroup and early readiness pass.",
+      "limitations": "Frozen bots and 10× timers for full-budget scenarios. Fixture plans use local encounter three and route-depth controls; 40 is not a claim about the natural opening-wave enemy count. Not four human players, natural difficulty/full-run economy or human fun.",
+      "tested_at": "2026-10-09T19:00:24.010670+00:00",
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "manifest": "input-manifest.json"
+      },
+      "human_acceptance_credit": false,
+      "evidence": [
+        {
+          "path": "evidence/distribution-and-world/result.json",
+          "sha256": "D2613F770E36C5695D73F0D99141A179FA65EBA47C8ACCD43301F829B2820EF4",
+          "size_bytes": 466,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\arenas-final-20261009-115952-231\\result.json"
+        },
+        {
+          "path": "evidence/distribution-and-world/Automation.log",
+          "sha256": "BA0DCEEAE70F8AB0D1737325594C2857700E0D055AB719FB86545DB2F38F013B",
+          "size_bytes": 328285,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\arenas-final-20261009-115952-231\\Automation.log"
+        }
+      ]
+    },
+    {
+      "id": "native-walkout-and-images",
+      "outcome": "PASS",
+      "validation_level": "RENDERED_EDITOR",
+      "scope": "Normal-time production deployment in the native first-map world: four actual Blueprint bots spawn behind shutters in two deep bays and emerge through native movement. Three 1920×1080 DX12 offscreen frames inspected: inside bay, walk-out and overhead after arrival. Bots move 2108.0–3325.1 cm in 8.42 s. No enemy teleport into the court.",
+      "limitations": "Controlled scenario, one group, boosted player health and next arrival paused; HUD hidden and camera moved for capture. Not a normal human run, universal no-stall proof, physical LAN, final enemy animation/art or Shipping rendering.",
+      "tested_at": "2026-10-09T19:00:23.233319+00:00",
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "manifest": "input-manifest.json"
+      },
+      "human_acceptance_credit": false,
+      "evidence": [
+        {
+          "path": "evidence/native-walkout-and-images/result.json",
+          "sha256": "5D6D7EB9807D52079CDB6CCF99C5012F563F313605701D6BBD98C5C811BDFADE",
+          "size_bytes": 468,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\walkout-final-20261009-115952-821\\result.json"
+        },
+        {
+          "path": "evidence/native-walkout-and-images/Automation.log",
+          "sha256": "DA3B9B7C29FD677F36AD982F16F5C42E410B0C25EDF42C5EDC749A8BF0E50ED5",
+          "size_bytes": 199384,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\walkout-final-20261009-115952-821\\Automation.log"
+        },
+        {
+          "path": "evidence/native-walkout-and-images/arrival-bay.png",
+          "sha256": "DB8E61A2675082EB67D82FF26EC366175BE3023EB58499B37AB2B442732ECFDA",
+          "size_bytes": 2269027,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\walkout-final-20261009-115952-821\\arrival-bay.png"
+        },
+        {
+          "path": "evidence/native-walkout-and-images/arrival-overhead.png",
+          "sha256": "6ADB92D3F5754C1916599027C895188BEB194B701E999C16EEAE297860397BC7",
+          "size_bytes": 1969732,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\walkout-final-20261009-115952-821\\arrival-overhead.png"
+        },
+        {
+          "path": "evidence/native-walkout-and-images/arrival-walkout.png",
+          "sha256": "60AA1C04EFA79D05767DDD3681407ABC7C6957A25DAAD2B124440230A5C434FC",
+          "size_bytes": 2276369,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\walkout-final-20261009-115952-821\\arrival-walkout.png"
+        }
+      ],
+      "measurements": {
+        "bots": 4,
+        "distinct_source_gates": 2,
+        "elapsed_seconds": 8.42,
+        "movement": [
+          {
+            "moved_cm": 2133.6,
+            "forward_from_gate_cm": 1565.4
+          },
+          {
+            "moved_cm": 2108.0,
+            "forward_from_gate_cm": 1518.8
+          },
+          {
+            "moved_cm": 2445.7,
+            "forward_from_gate_cm": 1895.6
+          },
+          {
+            "moved_cm": 3325.1,
+            "forward_from_gate_cm": 2137.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "cover-route-and-memory",
+      "outcome": "PASS",
+      "validation_level": "HEADLESS_EDITOR",
+      "scope": "Bot routes around actual cover with native movement, moves 1581.3cm in 7.12s, reaches a useful destination and emits attack telegraph/ShotFired. An independently occluded target relocation leaves remembered position unchanged.",
+      "limitations": "One controlled bot/path and short sample; no stall-rate, coordination/fun, delivered player damage or minimum-PC cost acceptance.",
+      "tested_at": "2026-10-09T19:00:13.681496+00:00",
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "manifest": "input-manifest.json"
+      },
+      "human_acceptance_credit": false,
+      "evidence": [
+        {
+          "path": "evidence/cover-route-and-memory/result.json",
+          "sha256": "E209E17DFF99D085D151F8E2ADDAA4389B1B44002ADE84E1528A9B8E04198470",
+          "size_bytes": 465,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\tactics-final-20261009-115953-649\\result.json"
+        },
+        {
+          "path": "evidence/cover-route-and-memory/Automation.log",
+          "sha256": "841136DEA6AD8ED4B8A41AF4CDFC93D113E1709BED1105F17C131CA6EB70056A",
+          "size_bytes": 183601,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\tactics-final-20261009-115953-649\\Automation.log"
+        }
+      ]
+    },
+    {
+      "id": "refined-map-static-frames",
+      "outcome": "PASS",
+      "validation_level": "RENDERED_EDITOR",
+      "scope": "Refined 96m octagon, eight larger original rock/low-wall islands, nonmetal ground/rock treatment, clear central/flank floor bands, ribbed perimeter and outside tiers. Capsule checks cover the 9m north/south lane, center, both outer routes, both tube approaches and NW exit approach. Four 1080p static layout/gate images inspected.",
+      "limitations": "Retained at original map1 test time. Geometry/assets/material parameters are unchanged since this capture; later edits add gate-use/exit-lane logic and unrelated fixture corrections. Static photography used a four-second warning; production two-second warning has separate checks. Refined blockout, not finished concept-art fidelity, full terrain/rock texture/LOD, human sightline acceptance or Shipping rendering.",
+      "tested_at": "2026-10-09T18:41:44.540433+00:00",
+      "input_validation": {
+        "scope": "SCOPED_UNCHANGED_GEOMETRY",
+        "manifest": "input-manifest.json"
+      },
+      "human_acceptance_credit": false,
+      "evidence": [
+        {
+          "path": "evidence/refined-map-static-frames/result.json",
+          "sha256": "D1F40F9D033F47DE4F699F0362EE02738DD4FA3C30D2C73A81DF409EC2EE18C4",
+          "size_bytes": 459,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\map1-20261009-114111-259\\result.json"
+        },
+        {
+          "path": "evidence/refined-map-static-frames/Automation.log",
+          "sha256": "FC6EDFF0DEBAC3AA3CF8517EFDC29FDCF200025A744F89209722673ADDC06304",
+          "size_bytes": 196365,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\map1-20261009-114111-259\\Automation.log"
+        },
+        {
+          "path": "evidence/refined-map-static-frames/entrance-open.png",
+          "sha256": "B43D62BD4A79B809C20C2F643DA67EC3885B71D93F68D2EA3D74720B5FD445AC",
+          "size_bytes": 2079329,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\map1-20261009-114111-259\\entrance-open.png"
+        },
+        {
+          "path": "evidence/refined-map-static-frames/entrance-warning.png",
+          "sha256": "176DD20F0C203F4E3AE0F6877166424B086469CB91D0905F316D890FA438628B",
+          "size_bytes": 2082831,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\map1-20261009-114111-259\\entrance-warning.png"
+        },
+        {
+          "path": "evidence/refined-map-static-frames/first-map-overhead.png",
+          "sha256": "F37B8A8048A3A317A2C1AA24ECA7C22372BCA060517DA82361F7470981AAEC6C",
+          "size_bytes": 1786035,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\map1-20261009-114111-259\\first-map-overhead.png"
+        },
+        {
+          "path": "evidence/refined-map-static-frames/first-map-player-height.png",
+          "sha256": "7137B1AD585E73BCE7B3A4C4093559AD1ACC6AF8D57CAE9EF18971B998A0A661",
+          "size_bytes": 2144307,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\map1-20261009-114111-259\\first-map-player-height.png"
+        }
+      ]
+    },
+    {
+      "id": "replicated-bays-and-firing",
+      "outcome": "PASS",
+      "validation_level": "LOCAL_TWO_PROCESS_EDITOR",
+      "scope": "Actual two-process Editor host/client replicated first-map deep bays, warned opening and party snapshot; independent bot body queries and controller LeftMouseButton primary/secondary shots retain weapon and spend ammo. Frozen enemies and accelerated setup. No Internet, packaged, hardware-input, latency/fun or second-PC acceptance.",
+      "limitations": "Actual same-PC Editor peers. Independent local standard-bot body queries and controller LMB input; frozen bots/accelerated setup. No synchronized all-role remote damage, latency, physical two-PC, Internet or packaged gameplay acceptance.",
+      "tested_at": "2026-10-09T19:06:48.313528+00:00",
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "manifest": "input-manifest.json"
+      },
+      "human_acceptance_credit": false,
+      "evidence": [
+        {
+          "path": "evidence/replicated-bays-and-firing/result.json",
+          "sha256": "321C0F54C220BAD6A74B0FE02500DB190C4653F455BAD8F5F03A26C62DF938A4",
+          "size_bytes": 960,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\entrance-network\\checks-20261009-120615-239\\result.json"
+        },
+        {
+          "path": "evidence/replicated-bays-and-firing/Host.log",
+          "sha256": "A4D9C695C89BD91C4C5434C4780CB7314002A18738744D15252C9A61BFEE4F7F",
+          "size_bytes": 188945,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\entrance-network\\checks-20261009-120615-239\\Host.log"
+        },
+        {
+          "path": "evidence/replicated-bays-and-firing/Client.log",
+          "sha256": "045528BCEDBC98A681429278B3619F8EAFF8834354ABF90B9F223EA4D39961C9",
+          "size_bytes": 180108,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\entrance-network\\checks-20261009-120615-239\\Client.log"
+        },
+        {
+          "path": "evidence/replicated-bays-and-firing/run-entrance-network.ps1",
+          "sha256": "17A683404124BA0A359F0372871484A3CAA305F08214C78368CC13830E9B8774",
+          "size_bytes": 3327,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\run-entrance-network.ps1"
+        }
+      ]
+    },
+    {
+      "id": "incompatible-builds",
+      "outcome": "PASS",
+      "validation_level": "LOCAL_TWO_PROCESS_EDITOR",
+      "scope": "Real local Editor network handshake, VS50 legacy versus VS55 both directions. Rejected before login/actor RPCs. New client gets update message; old client retains its older generic message. No packaged/second-PC acceptance.",
+      "limitations": "Known legacy VS50 control versus VS55. The exact other PC version is unconfirmed; this is not a measured VS54 Shipping/VS55 physical-PC handshake.",
+      "tested_at": "2026-10-09T19:11:27.748562+00:00",
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "manifest": "input-manifest.json"
+      },
+      "human_acceptance_credit": false,
+      "evidence": [
+        {
+          "path": "evidence/incompatible-builds/result.json",
+          "sha256": "BCBAB026BDDF87B1A846BA4E3F607F4D4EDA08A26ED17FF8126C30B2EFDDB2C8",
+          "size_bytes": 1112,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\compatibility-20261009-121101-899\\result.json"
+        },
+        {
+          "path": "evidence/incompatible-builds/new-host-client.log",
+          "sha256": "A8D3E54402CBFF8C9354213796171EC0C9A753E9CEC4DC80C6E02753D250B855",
+          "size_bytes": 180956,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\compatibility-20261009-121101-899\\new-host-client.log"
+        },
+        {
+          "path": "evidence/incompatible-builds/new-host-host.log",
+          "sha256": "72AF3262CFAE0D7E945D4E2DD2BE84D4B437168E395485A7D4A3A2DCF5CAE71B",
+          "size_bytes": 184024,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\compatibility-20261009-121101-899\\new-host-host.log"
+        },
+        {
+          "path": "evidence/incompatible-builds/old-host-client.log",
+          "sha256": "74B8EA3A083CDCB8D41C3A2E63D38D395E18F5446B6457CC87CC4813FEFB832F",
+          "size_bytes": 190588,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\compatibility-20261009-121101-899\\old-host-client.log"
+        },
+        {
+          "path": "evidence/incompatible-builds/old-host-host.log",
+          "sha256": "E79923FEE59D4D7C818DFB97FA29EAB6E6D131E59FC6FDF397D23C0F130BAC49",
+          "size_bytes": 181844,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\compatibility-20261009-121101-899\\old-host-host.log"
+        }
+      ]
+    },
+    {
+      "id": "shipping-lan-startup",
+      "outcome": "PASS",
+      "validation_level": "SHIPPING_STARTUP",
+      "scope": "Shipping runtime host versus actual Editor Null/LAN client using existing session subsystem smoke flags; localhost only, headless, no two-device or human acceptance; no firewall changes",
+      "limitations": "Final Shipping host discovered/joined by a current same-PC Editor client, headless. No final Shipping gameplay/render, fixed install launch or physical second-PC acceptance.",
+      "tested_at": "2026-10-09T19:08:03.498691+00:00",
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "manifest": "input-manifest.json"
+      },
+      "human_acceptance_credit": false,
+      "evidence": [
+        {
+          "path": "evidence/shipping-lan-startup/result.json",
+          "sha256": "1ECB380BBA099246B6B54B3A66D8A34355B9F6EDA9FB62352ABEF714BBDBA7AB",
+          "size_bytes": 594,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\Shipping-20261009-120749-821\\result.json"
+        },
+        {
+          "path": "evidence/shipping-lan-startup/Client.log",
+          "sha256": "CF420D639D9197F505F20BB18A4C93E9E8189443A2E0DBD07C4DA2C4EA872A73",
+          "size_bytes": 191774,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\Shipping-20261009-120749-821\\Client.log"
+        },
+        {
+          "path": "evidence/shipping-lan-startup/Host-sockets.json",
+          "sha256": "FC3CFDC1A350726266B29DB2B37DF4B59A6E6B99B99F4B45F93E93E28E0F6530",
+          "size_bytes": 84,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\Shipping-20261009-120749-821\\Host-sockets.json"
+        }
+      ]
+    },
+    {
+      "id": "asset-export-import",
+      "outcome": "PASS",
+      "validation_level": "ASSET_IMPORT",
+      "scope": "Original Blender 5.2.2 forms exported at metric scale; saved UE 5.8.3 imports measure 200×200×100cm, each with one engine-generated convex hull. Source .blend/FBX/recipe retained in SourceArt/Environment/FirstArenaVS55; both assets explicitly cooked.",
+      "limitations": "Interchange initially omitted UCX; accepted normal Editor import uses convex decomposition. Hulls are approximations, not an independent exact-surface ray oracle; production textures, LODs and human art/performance acceptance pending.",
+      "tested_at": "2026-10-09T18:33:09.941521+00:00",
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "manifest": "input-manifest.json"
+      },
+      "human_acceptance_credit": false,
+      "evidence": [
+        {
+          "path": "evidence/asset-export-import/blender-build.log",
+          "sha256": "FDA1080F359BCA47A934BC224D746728F6D58DFDD5EE5EE406915419D2D3A5DE",
+          "size_bytes": 474,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\blender-build.log"
+        },
+        {
+          "path": "evidence/asset-export-import/unreal-import-editor.log",
+          "sha256": "6F9CC2DCD948C6341C8AA2E351BF6C3A00146088E594E0FC6410ED7837179EBC",
+          "size_bytes": 262312,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\unreal-import-editor.log"
+        },
+        {
+          "path": "evidence/asset-export-import/blender-result.json",
+          "sha256": "B67B5B447915ED8E52EDAD0EF1DE1223C2C587DD8C589F7D0D6503C844FE4EB8",
+          "size_bytes": 1033,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\assets\\blender-result.json"
+        },
+        {
+          "path": "evidence/asset-export-import/unreal-result.json",
+          "sha256": "772B7E785BA955A85A7DAD52E2FEBE4B1ADA88F457DB786E77182514A03C2BD0",
+          "size_bytes": 901,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\assets\\unreal-result.json"
+        }
+      ]
+    },
+    {
+      "id": "builds-and-delivery",
+      "outcome": "PASS",
+      "validation_level": "BUILD",
+      "scope": "Editor and complete Shipping pass; all 589 game inputs match final test capture and Shipping before/after. Five required package artifacts, complete ZIP and every one of 32 installed payloads hash-match. Updater UPDATED then CURRENT, NoLaunch.",
+      "limitations": "Local unpublished prototype/feed; wife PC unupdated, fixed install unlaunched. Sharing and stable-path firewall activation remain pending.",
+      "tested_at": "2026-10-09T19:08:08.728664+00:00",
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "manifest": "input-manifest.json"
+      },
+      "human_acceptance_credit": false,
+      "evidence": [
+        {
+          "path": "evidence/builds-and-delivery/editor-final.log",
+          "sha256": "8C9299E930507AAC4AC173FD6AF430033416FD76A2D94A82379CC659AA2F4844",
+          "size_bytes": 5520,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\editor-final.log"
+        },
+        {
+          "path": "evidence/builds-and-delivery/shipping-final.log",
+          "sha256": "73BC1FE9C6AC66659C5A9C553F9B14F2699E643DA870E066B8E6134178764A42",
+          "size_bytes": 98909,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\shipping-final.log"
+        },
+        {
+          "path": "evidence/builds-and-delivery/release-tests-final.json",
+          "sha256": "F9E459087B2128E1CC09F1FD13269C63E51C7E4C0AA55219A4B58935F4A5874B",
+          "size_bytes": 109883,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\release-tests-final.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/shipping-before.json",
+          "sha256": "F9E459087B2128E1CC09F1FD13269C63E51C7E4C0AA55219A4B58935F4A5874B",
+          "size_bytes": 109883,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\shipping-before.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/shipping-after.json",
+          "sha256": "F9E459087B2128E1CC09F1FD13269C63E51C7E4C0AA55219A4B58935F4A5874B",
+          "size_bytes": 109883,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\shipping-after.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/package-artifacts.json",
+          "sha256": "320D04E097F5C01789CD4C77D48448DF6A9F8CD03E7050ED621F5B4EB4F7CAF6",
+          "size_bytes": 1291,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\package-artifacts.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/publisher-result.json",
+          "sha256": "61822CF49FF8A51F6239C5D80AAFCC8997CB71F2EBEF5A05CA93AD19E58E2479",
+          "size_bytes": 429,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\publisher-result.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/updater-result.json",
+          "sha256": "A7DFDA37AB63272723F65FE58D6C02CFC47B4D21D79B0E3D140BBDB1B73035B8",
+          "size_bytes": 236,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\updater-result.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/updater-recheck.json",
+          "sha256": "09FCD614190A76EF3FDD0D5981529CDCC3AE6BAEE37BD75E09882569AC171220",
+          "size_bytes": 236,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\updater-recheck.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/delivery-proof.json",
+          "sha256": "01472C8BBF75A3D4D147E12F3D1B53251B039CE5E71411E9469D37DE256922E1",
+          "size_bytes": 6746,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\delivery-proof.json"
+        }
+      ]
+    },
+    {
+      "id": "walkout-before-entry-phase",
+      "outcome": "FAIL",
+      "validation_level": "HEADLESS_EDITOR",
+      "scope": "Four actual bots remained in two bays: moved 0cm in eight seconds. Probes show a clear route to the local doorway exit and valid routes from that exit to the court/search area, but no reachable distant combat choice directly from the bay. Explicit native exit phase fixes the original scenario.",
+      "limitations": "Historical red and minimal route probe, superseded by current rendered walk-out. Temporary DEBUG-vs55-walk instrumentation removed.",
+      "tested_at": "2026-10-09T18:48:07.586877+00:00",
+      "input_validation": {
+        "scope": "HISTORICAL_DIAGNOSTIC",
+        "manifest": "input-manifest.json"
+      },
+      "human_acceptance_credit": false,
+      "evidence": [
+        {
+          "path": "evidence/walkout-before-entry-phase/result.json",
+          "sha256": "E5637F0969C3B3A7107B8A0B629F4A88F3DAF20C56D09DFDFB161028AC9FB6DA",
+          "size_bytes": 465,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\walkout1-20261009-114112-795\\result.json"
+        },
+        {
+          "path": "evidence/walkout-before-entry-phase/walkout1-20261009-114112-795-Automation.log",
+          "sha256": "3C61DF279E82D53E65FA67E9E1EED12AA067EC4BF6FF7EFC590C6AADF861F2FA",
+          "size_bytes": 189785,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\walkout1-20261009-114112-795\\Automation.log"
+        },
+        {
+          "path": "evidence/walkout-before-entry-phase/walkout-probe2-20261009-114746-641-Automation.log",
+          "sha256": "42190A5DFCAB100D502DF9294D22BA9223BBE399A4BFEB2FC762450DF9EDCE2B",
+          "size_bytes": 193705,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\walkout-probe2-20261009-114746-641\\Automation.log"
+        }
+      ]
+    },
+    {
+      "id": "import-and-fixture-diagnostics",
+      "outcome": "PARTIAL",
+      "validation_level": "SOURCE",
+      "scope": "Initial FBX import had no convex hull; a commandlet collision repair lacked the required Editor subsystem. Accepted normal Editor import resolves both. Initial watch control expected visibility behind a closed shutter; scoring now uses the visible opening. Reservation control assumed gate zero was always valid; it now selects a validated heavy slot. Test-only auto pointer deduction/private-access build errors were repaired before accepted runs.",
+      "limitations": "Historical diagnostics, not current acceptance. No claim all original fixture assumptions were production defects.",
+      "tested_at": "2026-10-09T18:41:40.784850+00:00",
+      "input_validation": {
+        "scope": "HISTORICAL_DIAGNOSTIC",
+        "manifest": "input-manifest.json"
+      },
+      "human_acceptance_credit": false,
+      "evidence": [
+        {
+          "path": "evidence/import-and-fixture-diagnostics/unreal-import-output.log",
+          "sha256": "6BEAC93C3EF3C0044E9DEF231F7D08F8FE529EAB9043AA306AC72E8686D8E9E2",
+          "size_bytes": 22444,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\unreal-import-output.log"
+        },
+        {
+          "path": "evidence/import-and-fixture-diagnostics/unreal-import-final-output.log",
+          "sha256": "8C305AA81529A6D4D87131D328A472257340610AD715D8D3D175B35BA946CB2C",
+          "size_bytes": 21519,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\unreal-import-final-output.log"
+        },
+        {
+          "path": "evidence/import-and-fixture-diagnostics/editor-1.log",
+          "sha256": "1733E94E600BE4D202AD042782513CA1EC09907509FD6DD08B1D5526710FA188",
+          "size_bytes": 38481,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\editor-1.log"
+        },
+        {
+          "path": "evidence/import-and-fixture-diagnostics/result.json",
+          "sha256": "F349AFE29353F2351F0859DE022967560F1BA3C153CC9AF29253A74E103A964F",
+          "size_bytes": 462,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\arenas1-20261009-114111-572\\result.json"
+        },
+        {
+          "path": "evidence/import-and-fixture-diagnostics/Automation.log",
+          "sha256": "5E7BEF87425B617ABBA20785FA0A3C923B3AD657F7BDA041AD6ACC501EF60A4B",
+          "size_bytes": 434557,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\arenas1-20261009-114111-572\\Automation.log"
+        }
+      ]
+    }
+  ],
+  "delivery": {
+    "passed": true,
+    "version": "20261009-115952-897",
+    "archive": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\IRON-SUN-LAN\\iron-sun-20261009-115952-897.zip",
+    "archive_sha256": "94AF10D75D27FDE848BB42340654886AC913EB44A5A1EFC9D8FF21E658558E61",
+    "fixed_install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+    "file_count": 32,
+    "installed_files": [
+      {
+        "path": "Windows/Manifest_DebugFiles_Win64.txt",
+        "size": 231,
+        "sha256": "C047D3B0F86E9E38F2D4AC6ACB3291029F31E00F15EA72FD3642143A8FB2324A"
+      },
+      {
+        "path": "Windows/Manifest_NonUFSFiles_Win64.txt",
+        "size": 1608,
+        "sha256": "D8335D88BB53D16AE7CC3057F871A1E2556DCD51F462281165AA6A50941AC5BC"
+      },
+      {
+        "path": "Windows/Manifest_UFSFiles_Win64.txt",
+        "size": 313069,
+        "sha256": "0652EB84EC1FCF69F62524FF579750F0109348839F7B24CCC9C6E0226BB7E23D"
+      },
+      {
+        "path": "Windows/NOTICES.txt",
+        "size": 111,
+        "sha256": "BA49AE5586F817B36A2772269F71F899CB1F54B5F2720FAD951319EDD5E140B8"
+      },
+      {
+        "path": "Windows/TP_FirstPerson.exe",
+        "size": 171520,
+        "sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+        "size": 2232688,
+        "sha256": "6C1484085A1F4223880C059FD093A468702D0ECB224981918336FE847F5AF92F"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
+        "size": 2547080,
+        "sha256": "780959F289E380A21FDAB0DBA7AC468C8DD0606EA43B755865A7989F3C7221E9"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+        "size": 5799024,
+        "sha256": "E3E777A9644452C2772336C4B35C39ED4D8ABEB9B9C0C1DCEB9E10BDB378E5A2"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+        "size": 59832,
+        "sha256": "CF34407EC00248C208AA4B156126A725B79A4BCE9F5C8034550C798A9B7A1407"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+        "size": 1724856,
+        "sha256": "1CD0EBA3DF4915CA6498917B91B78DC1DFDA1C9155F2FD5B98DEDD5B5BA918F3"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+        "size": 48568,
+        "sha256": "A00E6B073CEC241D85D590EE138906EF9FDF9EFEF8D0D4989813359CD048A6F9"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+        "size": 858144,
+        "sha256": "9D996BA84395C1E56604792A77775B0A7FA957D7B51B4D8B985040BCD80A6FD5"
+      },
+      {
+        "path": "Windows/Engine/Config/StagedBuild_Ridgefire.ini",
+        "size": 3,
+        "sha256": "F1945CD6C19E56B3C1C78943EF5EC18116907A4CA1EFC40A57D48AB1DB7ADFC5"
+      },
+      {
+        "path": "Windows/Engine/Content/Renderer/TessellationTable.bin",
+        "size": 259568,
+        "sha256": "EDC4F3B628A139C5E185BBAECA661C95C1F427368D3B92892C5CFF36C56DD941"
+      },
+      {
+        "path": "Windows/Engine/Content/Slate/Cursor/invisible.cur",
+        "size": 326,
+        "sha256": "FEF3980FA567E9C45D5D8DCAA432A2C1A3F3BB17FE67D7AB198164F56C142AA1"
+      },
+      {
+        "path": "Windows/Engine/Content/SlateDebug/Fonts/LastResort.tps",
+        "size": 930,
+        "sha256": "0F775FA99D05E21D43D2D06D55982B23DCDCCDB512A9A5A07AFF674F212C41B8"
+      },
+      {
+        "path": "Windows/Engine/Content/SlateDebug/Fonts/LastResort.ttf",
+        "size": 5395052,
+        "sha256": "FFF0F8DE0B868B964950FE97C9B60F893E9BC85A4F90B3629C5693DB058B97B9"
+      },
+      {
+        "path": "Windows/Engine/Extras/Redist/en-us/vc_redist.arm64.exe",
+        "size": 11751688,
+        "sha256": "BA660394E40765C80B70178A33F07DF81AEFAC2B6CB1F017B13880DE88456DE3"
+      },
+      {
+        "path": "Windows/Engine/Extras/Redist/en-us/vc_redist.x64.exe",
+        "size": 18569648,
+        "sha256": "1CF8E061174C320C8E125F1B09996EE0555EF450E515B06AB0FD99CB4C8DB6EF"
+      },
+      {
+        "path": "Windows/Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll",
+        "size": 17339384,
+        "sha256": "9FC1CA0E75480C7805B6D3C4653864EAAEE2FCA5DAA609B5347ADF0B4185791A"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/tbb12.dll",
+        "size": 342456,
+        "sha256": "7E58AE38FD5D47C72B750DBDCF2978A1F36719663A0A4500A9CC857316612C34"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/tbbmalloc.dll",
+        "size": 117176,
+        "sha256": "075BA2869E082AB5F1F159AD06614CE63C31AE51099E18B540822CC758697E56"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+        "size": 166690816,
+        "sha256": "E5E09EE174E8C2D75E9940D4B879111D7F59674A2447E3450BA61947C18E810F"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.pdb",
+        "size": 232828928,
+        "sha256": "922732A68029D6C25778734609EE7E43040DD115384FC28C232341FE1563896F"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/D3D12/x64/D3D12Core.dll",
+        "size": 4831768,
+        "sha256": "5D262C97239E1AFF8B03A7150ABCAA84CC7983D311946708F982227D146FBB37"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/D3D12/x64/d3d12SDKLayers.dll",
+        "size": 4943344,
+        "sha256": "66AFC2D2918191F9B97026E3C630AC6E93F5F83E3BD0EAB34349EC2F66A0B4AF"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/DML/x64/DirectML.dll",
+        "size": 18538488,
+        "sha256": "579DD89146322EA2567DE7DB16B8E10F350EB0CF147ECAAFE5B129D9FE175A84"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/global.ucas",
+        "size": 3225504,
+        "sha256": "EAEFEF3A57599536BAB529FDDAFC6DCDB6FC7334FB4A341529C291C51B23CBBE"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/global.utoc",
+        "size": 794,
+        "sha256": "CBA75A4BDA9ECF07780CF0A663BD68709FC0DF7DB89DB119D98EC092D78C9A11"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/Ridgefire-Windows.pak",
+        "size": 18012554,
+        "sha256": "3EB6468530D251695ECD3B05CA7CADED62B695EFEA571ED35CDB21D5A169BBA5"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/Ridgefire-Windows.ucas",
+        "size": 237153216,
+        "sha256": "A2DE71C836D55F7E42DBFEC8317D4A5C8F6DA5D613CF22B82F04A3727BEF18C3"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/Ridgefire-Windows.utoc",
+        "size": 238162,
+        "sha256": "776A38AC5290A9F0BC94B95DCA854BE6386F02C64512FA2BBB22F48525028FAF"
+      }
+    ],
+    "network_shared": false,
+    "wife_pc_updated": false,
+    "fixed_install_launched": false,
+    "scope": "Full ZIP and every installed payload match; UPDATED then CURRENT at the owner fixed launcher, with NoLaunch. Local feed only; wife PC and two-device play remain pending."
+  },
+  "reuse": {
+    "previous_snapshot": "2026-10-09-vs54",
+    "verified_unchanged_inputs": [
+      {
+        "path": "Source/TP_FirstPerson/RidgefireEncounterPlan.h",
+        "sha256": "4822B7BE6A8F7754405D2C0AA919F5DAF76636F3742BD7A6FC5429CBFC2ADE41"
+      },
+      {
+        "path": "Source/TP_FirstPerson/Tests/RidgefireEncounterPlanTests.cpp",
+        "sha256": "BDE2977B595E34B54BD1BF9275945822C0B3FD74DB606A013D452E0D4A3B3078"
+      },
+      {
+        "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.cpp",
+        "sha256": "7AB0577C0C5C6A8765316968A79311977AE59CACE37C47EC4B52CC77951A100D"
+      }
+    ],
+    "policy": "Retain VS54 arithmetic/shape evidence at its original date and narrower seam. NPC header adds only entrance phase fields/method parameters; no whole NPC-header or broad old encounter pass is reused. Body-shape geometry/collision and plan arithmetic were not rerun. Current network body queries separately pass. UI/shards/90-second historical evidence keeps original scopes."
+  },
+  "publication_status": "LOCAL_UNPUBLISHED",
+  "new_human_acceptance": false,
+  "owner_request": "Multiple spawn locations and refine the first map to fit the planned layout.",
+  "limitations": "No new whole-game percentage, natural economy/run length, human fun/scale, physical two-PC, final Shipping combat/render, minimum-PC performance or production-art credit."
+}

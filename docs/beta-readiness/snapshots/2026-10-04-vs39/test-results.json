@@ -1,0 +1,22 @@
+[
+  {
+    "gate": "Unreal Editor module compilation",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "UE 5.8.3 TP_FirstPersonEditor Development build; final VS39 source compiled and linked. Existing inherited UE deprecated-API/toolchain warnings are outside this change. Not a Shipping or package build.",
+    "log": {
+      "path": "logs/Editor-arsenal-release.log",
+      "sha256": "87CE5797F62FFF4409C9814246633C134B126A7EF29EF45FF7C64433C3090F3E"
+    }
+  },
+  {
+    "gate": "Ridgefire.Weapons.Loadout.NormalInteractions",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual standalone possessed Blueprint and production key bindings at 1280x720: while arsenal remains open, 2 equips carried primary slot 2, 3 equips carried secondary, 1 returns to primary slot 1; arrows browse offers without replacing carried secondary. Captures cover arsenal and both primary-return states. Sentries are frozen for the focused interaction fixture. Not hardware input, controller-hardware, packaged, human-comprehension or fun acceptance.",
+    "log": {
+      "path": "logs/IRON-SUN-Loadout-20261004-202838-203.log",
+      "sha256": "78D67D9E72BCC70564BBEF4D141C107EDF1057975B701C811155540F02037B36"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "approved_on": "2026-10-05",
+  "owner_direction": "Two weapons for core game; remove the third slot, no unlock planned; pressure and higher stakes through loadout commitment. Owner asks for our own design judgment, not another game as a reference.",
+  "normal_carry_limit": 2,
+  "primary_slots": 1,
+  "secondary_slots": 1,
+  "future_third_slot_unlock": false,
+  "implementation": "Purchases/finds replace selected carried gun, compare-before-confirm; keyboard 1/2 equip; 3 is only an opening offer choice. Server rejects retired-slot purchase/equip requests.",
+  "limits": "Historical opt-in isolated legacy combat fixtures retain old two-primary setup. Normal play, normal setup, economy and new co-op checks use the one-primary limit. No new gun balance, ammo rewards or upgrade-loss policy."
+}

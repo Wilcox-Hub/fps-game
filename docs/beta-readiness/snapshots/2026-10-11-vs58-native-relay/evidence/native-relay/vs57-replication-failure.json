@@ -1,0 +1,12 @@
+{
+  "protocol": 57,
+  "passed": false,
+  "scope": "Pre-fix Windows/native Linux collision reference mismatch; actual captured warning signatures only. Earlier roster test also had stale killed smoke connections. Raw 42 MB log excluded.",
+  "warnings": [
+    "[2026.10.11-18.54.36:331][206]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Unable to resolve default guid from client: ObjectName: StaticMeshComponent_2147481809, ObjOuter: /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter:PersistentLevel.RidgefireArenaDressing_2147482342 \n",
+    "[2026.10.11-18.54.36:332][206]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Unable to resolve default guid from client: ObjectName: StaticMeshComponent_2147481808, ObjOuter: /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter:PersistentLevel.RidgefireArenaDressing_2147482342 \n",
+    "[2026.10.11-18.54.36:332][206]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Unable to resolve default guid from client: ObjectName: StaticMeshComponent_2147481808, ObjOuter: /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter:PersistentLevel.RidgefireArenaDressing_2147482342 \n"
+  ],
+  "raw_log_bytes": 42184408,
+  "repair": "Explicit physical component ordinal and replicated revision names; cosmetics cannot shift physical names. VS58 matching packages required."
+}

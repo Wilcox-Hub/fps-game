@@ -1,0 +1,126 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" TP_FirstPersonEditor Win64 Development -Project=C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Ridgefire.uproject -WaitMutex -MaxParallelActions=2 -NoUBA
+Log file: C:\Users\YaYa\AppData\Local\UnrealBuildTool\Log.txt
+Executing up to 2 actions based on MaxProcessorCount override
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Invalidating makefile for TP_FirstPersonEditor (TP_FirstPerson.Build.cs modified)
+Available x64 toolchains (1):
+ * C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.51.36231
+    (Family=14.51.36231, FamilyRank=2, Version=14.51.36260, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64)
+Visual Studio compiler version 14.51.36260 is newer than latest preferred version 14.50.35717. Please use caution as this compiler has not been heavily tested
+WARNING: Unable to find Visual Studio SDK. Editor integration will be disabled
+UHT compiled-in object format Default
+Building TP_FirstPersonEditor...
+===== Toolchain Information =====
+Using ISPC compiler (G:\Unreal Engine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.51.36260 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.51.36231) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Warning: Visual Studio compiler 14.51.36260 is not a preferred version
+[Adaptive Build] Excluded from TP_FirstPerson unity file: RidgefireArenaDressing.cpp, RidgefireArenaNavigation.cpp, RidgefireArenaTactics.cpp, RidgefireBlastPresentation.cpp, RidgefireCharacterMovement.cpp, RidgefireCheckpoint.cpp, RidgefireCombatProgression.cpp, RidgefireEconomy.cpp, RidgefireEncounters.cpp, RidgefireEnemyEntrance.cpp, RidgefireFirstArenaGeometry.cpp, RidgefireFirstArenaPlayers.cpp, RidgefireGameMode.cpp, RidgefireHealingTube.cpp, RidgefireHUD.cpp, RidgefireLobby.cpp, RidgefireMenuActions.cpp, RidgefireMenus.cpp, RidgefirePickup.cpp, RidgefireProgression.cpp, RidgefireRelay.cpp, RidgefireRouteGeometry.cpp, RidgefireRun.cpp, RidgefireRunCheckpoint.cpp, RidgefireRunPlan.cpp, RidgefireSessionHUD.cpp, RidgefireSessionSubsystem.cpp, RidgefireSetupHUD.cpp, RidgefireShopControls.cpp, RidgefireShopHUD.cpp, RidgefireSynthWave.cpp, RidgefireWeaponProgression.cpp, RidgefireWildcardFactory.cpp, TP_FirstPerson.cpp, TP_FirstPersonCameraManager.cpp, TP_FirstPersonCharacter.cpp, TP_FirstPersonGameMode.cpp, TP_FirstPersonPlayerController.cpp, RidgefireArsenalConfirmationTests.cpp, RidgefireArsenalPresentationTests.cpp, RidgefireBotShapeTests.cpp, RidgefireCarryPresentationTests.cpp, RidgefireCarryTests.cpp, RidgefireCheckpointNetworkFixture.cpp, RidgefireCheckpointTests.cpp, RidgefireCombatReliabilityTests.cpp, RidgefireEconomyNetworkFixture.cpp, RidgefireEconomyTests.cpp, RidgefireEncounterIntegrationTests.cpp, RidgefireEncounterPlanTests.cpp, RidgefireEntranceNetworkFixture.cpp, RidgefireFireNetworkFixture.cpp, RidgefireHealingTubeNetworkTests.cpp, RidgefireHealingTubeTests.cpp, RidgefireHUDLayoutTests.cpp, RidgefireLoadoutInteractionTests.cpp, RidgefireLobbyNetworkFixture.cpp, RidgefireMenuInteractionFixture.cpp, RidgefireMenuReviewFixture.cpp, RidgefirePiercingTraceTests.cpp, RidgefirePressureNetworkFixture.cpp, RidgefirePressurePassTests.cpp, RidgefirePrivateMenuFixture.cpp, RidgefirePrivateServerFixture.cpp, RidgefirePrivateServerTests.cpp, RidgefireProgressionInteractionTests.cpp, RidgefireProgressionTests.cpp, RidgefireRecoilTests.cpp, RidgefireRecoveryTests.cpp, RidgefireRescueClockTests.cpp, RidgefireRescueContentionTests.cpp, RidgefireRescueLifecycleTests.cpp, RidgefireRunNetworkFixture.cpp, RidgefireRunTests.cpp, RidgefireScatterVisualTests.cpp, RidgefireSentryClearanceTests.cpp, RidgefireSetupTests.cpp, RidgefireWaveBaselineTests.cpp, RidgefireWeaponCadenceTests.cpp, RidgefireWeaponFireTests.cpp, RidgefireWeaponPresentationTests.cpp, RidgefireWildcardCombatTests.cpp, HorrorCharacter.cpp, HorrorGameMode.cpp, HorrorPlayerController.cpp, HorrorUI.cpp, ShooterCharacter.cpp, ShooterCheckpoint.cpp, ShooterGameMode.cpp, ShooterPlayerController.cpp, EnvQueryContext_Target.cpp, ShooterAIController.cpp, ShooterNPC.cpp, ShooterNPCSpawner.cpp, ShooterStateTreeUtility.cpp, ShooterBulletCounterUI.cpp, ShooterUI.cpp, ShooterPickup.cpp, ShooterProjectile.cpp, ShooterWeapon.cpp, ShooterWeaponHolder.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 29 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 31.16 GB physical, 20.22 GB/33.16 GB committed
+  UBA Storage capacity 40 GB
+[1/29] Compile [x64] RidgefireArenaDressing.cpp [NoUba]
+[2/29] Compile [x64] Module.TP_FirstPerson.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\Sound\SoundWaveProcedural.h(65,26): warning C4996: 'USoundWave::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	ENGINE_API virtual void GetAssetRegistryTags(TArray<FAssetRegistryTag>& OutTags) const override;
+	                        ^
+[3/29] Compile [x64] RidgefireArsenalPresentationTests.cpp [NoUba]
+[4/29] Compile [x64] RidgefireArsenalConfirmationTests.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[5/29] Compile [x64] RidgefireCheckpointTests.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[6/29] Compile [x64] RidgefireCombatReliabilityTests.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[7/29] Compile [x64] RidgefireEconomyNetworkFixture.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[8/29] Compile [x64] RidgefireEconomyTests.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[9/29] Compile [x64] RidgefireFirstArenaGeometry.cpp [NoUba]
+[10/29] Compile [x64] RidgefireEncounterIntegrationTests.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[11/29] Compile [x64] RidgefireHUD.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[12/29] Compile [x64] RidgefireGameMode.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[13/29] Compile [x64] RidgefireLoadoutInteractionTests.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[14/29] Compile [x64] RidgefireLobby.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[15/29] Compile [x64] RidgefireMenuInteractionFixture.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[16/29] Compile [x64] RidgefireMenus.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[17/29] Compile [x64] RidgefirePrivateServerTests.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[18/29] Compile [x64] RidgefireProgressionInteractionTests.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[19/29] Compile [x64] RidgefireRouteGeometry.cpp [NoUba]
+[20/29] Compile [x64] RidgefireRun.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[21/29] Compile [x64] RidgefireRunCheckpoint.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[22/29] Compile [x64] RidgefireRunTests.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[23/29] Compile [x64] RidgefireSetupTests.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[24/29] Compile [x64] RidgefireSessionSubsystem.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[25/29] Compile [x64] TP_FirstPerson.cpp [NoUba]
+[26/29] Compile [x64] RidgefireWaveBaselineTests.cpp [NoUba]
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+[27/29] Link [x64] UnrealEditor-TP_FirstPerson.lib [NoUba]
+[28/29] Link [x64] UnrealEditor-TP_FirstPerson.dll [NoUba]
+[29/29] WriteMetadata TP_FirstPersonEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 75.23 seconds
+Output binary: G:\Unreal Engine\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 81.57 seconds
+Trace written to file C:\Users\YaYa\AppData\Local\UnrealBuildTool\Trace.uba with size 14.1kb

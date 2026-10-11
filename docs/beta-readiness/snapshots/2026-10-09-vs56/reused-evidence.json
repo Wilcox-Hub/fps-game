@@ -1,0 +1,40 @@
+{
+  "previous_snapshot": "2026-10-09-vs55",
+  "input_hashes_verified": [
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.cpp",
+      "sha256": "7AB0577C0C5C6A8765316968A79311977AE59CACE37C47EC4B52CC77951A100D"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.h",
+      "sha256": "530AEA1325C41A0A37BDA9F8422D9673D15FCF3A5E5DE1009597A39C6ED57842"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireEncounterPlan.h",
+      "sha256": "4822B7BE6A8F7754405D2C0AA919F5DAF76636F3742BD7A6FC5429CBFC2ADE41"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireEncounterPlanTests.cpp",
+      "sha256": "BDE2977B595E34B54BD1BF9275945822C0B3FD74DB606A013D452E0D4A3B3078"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireFirstArenaGeometry.cpp",
+      "sha256": "07ACF071F8861E0437F01FF1F1972E25BB9B1824B63090EF595FC44BFBB0442B"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireFirstArenaLayout.h",
+      "sha256": "77EFB17282021425F819CE4C68427FB83299F7EDD58C4975F6A41348B5851CB4"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArenaTactics.cpp",
+      "sha256": "16E2D07F86AB9DD08A4921162BF8ABBFF38C3E70CEA847B5D88301726C7A0459"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArenaNavigation.cpp",
+      "sha256": "D8774525898105ADF536C25C0FEBA4C3CE65BC02C270D3F1B843439397486E1C"
+    }
+  ],
+  "retained_dates": true,
+  "retained_scopes": "Earlier body/plan arithmetic and VS55 static map/native walk-out are retained only for unchanged inputs; current broader wave/firing checks rerun. Not human, hardware or Shipping combat evidence.",
+  "ui_note": "Older perk/arsenal frames remain at their dates, with human acceptance pending. VS56 Continue frame does not approve all menus."
+}

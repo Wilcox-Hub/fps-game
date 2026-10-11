@@ -1,0 +1,58 @@
+[
+  {
+    "path": "Tools/Build-LinuxServer.ps1",
+    "sha256": "BEB87C823D378E1C1ADC9CED37DD4CE61C349BE7AAE919B3FC7BBA8E99E34D78"
+  },
+  {
+    "path": "Tools/Invoke-PrivateServerChecks.ps1",
+    "sha256": "1503D77B4F43FBF0AF5322DFDD68C765F2912C1ED48DF92FE049459D25F0818F"
+  },
+  {
+    "path": "Tools/Invoke-PrivateMenuChecks.ps1",
+    "sha256": "CE06E8E6CEEBD0479AD12F36297C45759408B1B6240F99CF2659E74A9984A13A"
+  },
+  {
+    "path": "Tools/Invoke-PrivateUnitChecks.ps1",
+    "sha256": "40E85E034F307B4C5F9EB4D09F370168FA3A4D483E3E1756B940E544E07A8C02"
+  },
+  {
+    "path": "Tools/Invoke-PackagedPrivateJoin.ps1",
+    "sha256": "E4F2F5FA7705293FAD1ECCFF6D64705A08F86B9A985D0867195041412356AB46"
+  },
+  {
+    "path": "Tools/Invoke-LobbyNetworkChecks.ps1",
+    "sha256": "43EC1FA3E1B211AC83E2DD317073F95204A6433F3623BB0DD4AEED656E8D4F76"
+  },
+  {
+    "path": "Tools/PrivateServer/Linux/claim-playit.py",
+    "sha256": "C0C24D031EDE0CD1C44E4BCDA5FB5846F847BC99D4EF8EE88F9227C713A91506"
+  },
+  {
+    "path": "Tools/PrivateServer/Linux/compose.yaml",
+    "sha256": "E9E300AE283F6F987DA0105340EEC7C8A0FFB802348E6AE0FFC7E79EFB36BBC7"
+  },
+  {
+    "path": "Tools/PrivateServer/Linux/Dockerfile.runtime",
+    "sha256": "BE1536FFC5262394E6A3BA21E497AF0C78C389E0B5320F42727E30AABD3E786B"
+  },
+  {
+    "path": "Tools/PrivateServer/Linux/install-layout.py",
+    "sha256": "A8EAEEC34A8D5216293622EB653BE50D28620B90D3D16EE0BDA9D2379C21A2D3"
+  },
+  {
+    "path": "Tools/PrivateServer/Linux/manage.py",
+    "sha256": "72D417D35AEA0289B6FF6DA5A8E2A6FF2715788EB913699644D71A9B0D2318B8"
+  },
+  {
+    "path": "Tools/PrivateServer/Linux/probe.py",
+    "sha256": "679F2EB781C9B770B77DB099C1FBC8E8C64FFAF7A3FA8D2CAA2F1DD7C9FEBA63"
+  },
+  {
+    "path": "Tools/PrivateServer/Linux/publish-release.py",
+    "sha256": "1F9B38D5B985407F7E292E3DFE72ED119FC2890F5DB209D0D713CE30CAF801C1"
+  },
+  {
+    "path": "Tools/PrivateServer/Linux/server-entrypoint.sh",
+    "sha256": "709D853E5B374C9408EC5368FDFEB2E022C53079E364DE078A2290FDEA0A869D"
+  }
+]

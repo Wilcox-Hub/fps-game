@@ -1,0 +1,10 @@
+{
+  "owner_report": "LAN party never appeared between two PCs. Owner confirms same home network, same extracted full ZIP, host reached lobby, other PC refreshed, and no Windows firewall prompt appeared.",
+  "feedback_loop": "Invoke-PackagedLanProbe.ps1 -HostKind Shipping",
+  "observed_result": "PASS: current Shipping bootstrap hosted and actual local Editor Null/LAN peer discovered the party and reached replicated lobby. Advertised Wi-Fi endpoint verified from client Browse log.",
+  "limitations": "This is not the two-device failure environment. Owner symptom cannot be reproduced using only this PC; no game-code root cause or cross-device fix is claimed.",
+  "firewall_observations": "Read-only host audit finds no runtime UDP exception and disabled listen notifications.",
+  "planned_change": "One runtime-specific inbound UDP allow rule on Private networks from LocalSubnet, ports 7777 (default gameplay) and 14001 (LAN discovery). Preview by default; Apply needs administrator; exact scoped rule can be removed. No other firewall/network/VPN/router settings changed by helper.",
+  "current_status": "Scoped exception prepared and previewed; administrator authorization/application and two-PC retry pending.",
+  "next_probe": "After applying on host, create a fresh lobby and refresh on second PC. If still absent, inspect second-PC profile/firewall and router guest/client isolation before changing game code."
+}

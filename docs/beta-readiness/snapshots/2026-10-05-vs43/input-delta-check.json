@@ -1,0 +1,20 @@
+{
+  "snapshot": "2026-10-05-vs42-review",
+  "tested_on": "2026-10-04",
+  "gameplay_readiness_percent": 69,
+  "verdict": "NOT_BETA_READY",
+  "reusable_input_evidence": false,
+  "observed_input_count": 560,
+  "expected_input_count": 560,
+  "differences": [
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+      "change": "modified"
+    }
+  ],
+  "validation_scope": "Input hash comparison only; no gameplay tests executed. Build/package/environment changes need separate validation."
+}

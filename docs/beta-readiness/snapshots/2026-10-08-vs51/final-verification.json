@@ -1,0 +1,7 @@
+{
+  "input_hashes": "564/564 match",
+  "fixed_launcher": "C:/Users/YaYa/AppData/Local/IRON SUN/Play-IRON-SUN.cmd",
+  "installed_version": "20261008-175321-489",
+  "git_diff_check": "Three cosmetic extra blank lines at EOF remain in RidgefireHUD.cpp, ShooterCharacter.cpp, ShooterPlayerController.cpp; no functional validation credit from whitespace check.",
+  "rendered_acceptance": "Final visual/performance acceptance pending; earlier successful frames explicitly dated/scoped."
+}

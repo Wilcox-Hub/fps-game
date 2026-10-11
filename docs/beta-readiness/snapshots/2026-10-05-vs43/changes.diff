@@ -1,0 +1,78 @@
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp
+@@ -366,6 +366,59 @@
+         Test->TestEqual(TEXT("blast feedback counts exposed splash recipients only"),PlasmaShooter->GetRidgefireBlastHits(),1);
+         Test->TestEqual(TEXT("surviving blast recipients are not labeled down"),PlasmaShooter->GetRidgefireBlastKills(),0);
+ 
++        // Actual impact on world cover: both panels share one owner, as arena
++        // dressing does. Ignoring the struck owner must not bypass either panel.
++        const FVector WallOrigin=Origin+FVector(0,30000,0);
++        auto* Wall=World->SpawnActor<AStaticMeshActor>(WallOrigin,FRotator::ZeroRotator);
++        if (!Test->TestNotNull(TEXT("spawn wall-impact cover owner"),Wall)) return true;
++        Owned.Add(Wall);
++        auto ConfigurePanel = [&](UStaticMeshComponent* Panel,const FVector& Position)
++        {
++            Panel->SetMobility(EComponentMobility::Movable);
++            Panel->SetStaticMesh(Cube);
++            Panel->SetWorldLocation(Position);
++            Panel->SetWorldScale3D(FVector(0.3f,6,7));
++            Panel->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
++            Panel->SetCollisionResponseToChannel(ECC_Visibility,ECR_Block);
++        };
++        ConfigurePanel(Wall->GetStaticMeshComponent(),WallOrigin);
++        auto* BackPanel=NewObject<UStaticMeshComponent>(Wall,TEXT("SharedOwnerBackPanel"));
++        Wall->AddInstanceComponent(BackPanel);
++        BackPanel->SetupAttachment(Wall->GetRootComponent());
++        BackPanel->RegisterComponent();
++        ConfigurePanel(BackPanel,WallOrigin+FVector(80,0,0));
++        auto* WallProtected=SpawnNPC(WallOrigin+FVector(200,0,0));
++        auto* WallExposed=SpawnNPC(WallOrigin+FVector(-180,180,0));
++        auto* WallShooter=World->SpawnActor<AShooterCharacter>(PlayerClass,WallOrigin-FVector(3000,0,0),FRotator::ZeroRotator);
++        if (!Test->TestNotNull(TEXT("spawn wall-protected sentry"),WallProtected)
++            || !Test->TestNotNull(TEXT("spawn wall-side exposed control"),WallExposed)
++            || !Test->TestNotNull(TEXT("spawn actual wall-impact shooter"),WallShooter)) return true;
++        Owned.Add(WallShooter);
++        WallProtected->CurrentHP=WallExposed->CurrentHP=1000;
++        AimAt(WallShooter,WallOrigin);
++        WallShooter->EquipRidgefireWeapon(*Phasma);
++        const FVector WallCameraStart=WallShooter->GetFirstPersonCameraComponent()->GetComponentLocation();
++        const FVector WallAimEnd=WallCameraStart+WallShooter->GetFirstPersonCameraComponent()->GetForwardVector()*10000.0f;
++        FCollisionQueryParams WallQuery(SCENE_QUERY_STAT(RidgefireWallImpactProbe),true,WallShooter);
++        FHitResult WallCameraHit,WallMuzzleHit;
++        const bool bWallCameraHit=World->LineTraceSingleByChannel(WallCameraHit,WallCameraStart,WallAimEnd,ECC_Visibility,WallQuery);
++        const FVector WallMuzzleStart=WallShooter->GetRidgefireMuzzleWorldLocation();
++        const FVector WallDirection=((bWallCameraHit?WallCameraHit.ImpactPoint:WallAimEnd)-WallMuzzleStart).GetSafeNormal();
++        const bool bWallMuzzleHit=World->LineTraceSingleByChannel(WallMuzzleHit,WallMuzzleStart,WallMuzzleStart+WallDirection*10000.0f,ECC_Visibility,WallQuery);
++        Test->TestTrue(TEXT("camera aims at cover itself, not a sentry"),bWallCameraHit && WallCameraHit.GetActor()==Wall);
++        Test->TestTrue(TEXT("actual muzzle trace impacts the cover owner"),bWallMuzzleHit && WallMuzzleHit.GetActor()==Wall);
++        const float ProtectedDistance=FVector::Distance(WallMuzzleHit.ImpactPoint,WallProtected->GetActorLocation());
++        Test->TestTrue(TEXT("protected sentry is inside normal Phasma splash radius"),bWallMuzzleHit && ProtectedDistance<460.f);
++        FHitResult BackPanelHit;
++        Test->TestTrue(TEXT("another component of the struck actor also blocks the protected lane"),
++            bWallMuzzleHit && BackPanel->LineTraceComponent(BackPanelHit,WallMuzzleHit.ImpactPoint,WallProtected->GetActorLocation(),WallQuery));
++        WallShooter->DoStartFiring(); WallShooter->DoStopFiring();
++        Test->AddInfo(FString::Printf(TEXT("Actual Phasma wall impact: owner=%s protected_distance=%.1f protected_damage=%.3f exposed_damage=%.3f"),
++            *GetNameSafe(WallMuzzleHit.GetActor()),ProtectedDistance,1000-WallProtected->CurrentHP,1000-WallExposed->CurrentHP));
++        Test->TestEqual(TEXT("impacting cover preserves all shared-owner panels as splash blockers"),WallProtected->CurrentHP,1000.f);
++        Test->TestTrue(TEXT("wall-impact splash still damages an exposed same-side neighbor"),WallExposed->CurrentHP<1000);
++        Test->TestEqual(TEXT("wall-impact feedback counts only the exposed recipient"),WallShooter->GetRidgefireBlastHits(),1);
++
+         // Reproduce the owner's clustered-death report using one real Phasma shot
+         // and three full-health production sentries inside ordinary arena spacing.
+         const FVector ClusterOrigin=Origin+FVector(0,10000,0);
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp
+@@ -1352,7 +1352,12 @@
+ 			TArray<AActor*> IgnoredActors = {this};
+ 			if (bPhasmaBlast)
+ 			{
+-				IgnoredActors.Add(MainHit.GetActor());
++				// Exclude the direct recipient from splash, but preserve world cover
++				// (including other components owned by the struck arena actor).
++				if (AShooterNPC* DirectSentinel = Cast<AShooterNPC>(MainHit.GetActor()))
++				{
++					IgnoredActors.Add(DirectSentinel);
++				}
+ 			}
+ 			ApplyRidgefireRadialDamage(Damage, ImpactPoint, Radius, IgnoredActors, MainHit.ImpactNormal, bPhasmaBlast);
+ 			ApplyRidgefireHit(MainHit.GetActor(), ImpactPoint, Distance, 1.0f, &MainHit, ShotDirection);

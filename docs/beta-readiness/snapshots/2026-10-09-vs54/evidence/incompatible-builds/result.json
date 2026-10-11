@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "directions": [
+    {
+      "direction": "old-host",
+      "passed": true,
+      "current_client_update_message": true,
+      "host_log": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs54\\compatibility-20261009-103323-133\\old-host-host.log",
+      "client_log": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs54\\compatibility-20261009-103323-133\\old-host-client.log"
+    },
+    {
+      "direction": "new-host",
+      "passed": true,
+      "current_client_update_message": null,
+      "host_log": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs54\\compatibility-20261009-103323-133\\new-host-host.log",
+      "client_log": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs54\\compatibility-20261009-103323-133\\new-host-client.log"
+    }
+  ],
+  "scope": "Real local Editor network handshake, VS50 legacy versus VS54 both directions. Rejected before login/actor RPCs. New client gets update message; old client retains its older generic message. No packaged/second-PC acceptance.",
+  "time_utc": "2026-10-09T17:33:50.2301928Z"
+}

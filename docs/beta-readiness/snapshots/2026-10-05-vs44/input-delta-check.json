@@ -1,0 +1,24 @@
+{
+  "snapshot": "2026-10-05-vs43",
+  "tested_on": "2026-10-05",
+  "gameplay_readiness_percent": 69,
+  "verdict": "NOT_BETA_READY",
+  "reusable_input_evidence": false,
+  "observed_input_count": 561,
+  "expected_input_count": 560,
+  "differences": [
+    {
+      "path": "Source/TP_FirstPerson/RidgefireShopControls.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireShopHUD.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireArsenalConfirmationTests.cpp",
+      "change": "added"
+    }
+  ],
+  "validation_scope": "Input hash comparison only; no gameplay tests executed. Build/package/environment changes need separate validation."
+}

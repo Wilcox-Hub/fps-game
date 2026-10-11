@@ -1,0 +1,6 @@
+{
+  "initial_probe": "Throwaway runner initially used reserved PowerShell Host variable; failed before launching. Renamed to probeHostProcess; recorded successful loop is the corrected invocation.",
+  "network_reads": "Sandbox blocked WMI/network reads; read-only scoped escalations succeeded.",
+  "game_source_changes": 0,
+  "firewall_apply": "Scoped exception prepared and previewed; administrator authorization/application and two-PC retry pending."
+}

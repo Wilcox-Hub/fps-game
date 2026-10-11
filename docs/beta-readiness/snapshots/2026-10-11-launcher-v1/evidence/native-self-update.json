@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "from": "1.0.1",
+  "to": "1.0.2",
+  "signed_metadata": true,
+  "old_process_exited": true,
+  "new_binary_activated": true,
+  "previous_binary_retained": true,
+  "new_window_rendered": true,
+  "run": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\test-output\\self-update-20261011-161722-118",
+  "scope": "Actual compiled WPF launcher and native post-exit update helper with a production-key-signed local fixture; no hosted launcher promotion."
+}
+

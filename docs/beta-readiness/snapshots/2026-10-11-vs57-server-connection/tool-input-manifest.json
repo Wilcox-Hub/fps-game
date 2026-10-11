@@ -1,0 +1,14 @@
+[
+  {
+    "path": "Tools/Build-LinuxServer.ps1",
+    "sha256": "88E73182D9FF55C40F2177A1EBCF214A3A60591365EFB545640DFB9675896320"
+  },
+  {
+    "path": "Tools/PrivateServer/Linux/compose.yaml",
+    "sha256": "53FC8F08149A2FEDC4FD10D4C1F5753EB8AB7F7B0F832866CB289263EE8FCCE8"
+  },
+  {
+    "path": "Tools/PrivateServer/Linux/publish-release.py",
+    "sha256": "0C5EDA0A9D9A7AEE12CB29BCC2423BD35797C1B77CAC40C327B41ECE4E9FA7A0"
+  }
+]

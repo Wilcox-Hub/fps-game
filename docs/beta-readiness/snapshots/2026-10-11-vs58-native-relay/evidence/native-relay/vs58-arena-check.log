@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests": [
+    "Ridgefire.Waves.ArenasPartiesAndQueue"
+  ],
+  "filter": "Ridgefire.Waves.ArenasPartiesAndQueue",
+  "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Pressure\\checks-20261011-120746-436\\Automation.log",
+  "rendered": false,
+  "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance",
+  "exit_code": 0
+}
+

@@ -1,0 +1,17 @@
+{
+  "previous_snapshot": "2026-10-11-vs57-server-connection",
+  "unchanged_inputs": 598,
+  "changed_inputs": [
+    {
+      "path": "Source/TP_FirstPerson/TP_FirstPerson.Build.cs",
+      "previous_sha256": "BEE3FBFF576E2C70232A04E8EB313C6371A537355469288F0792B04583DC3CEC",
+      "sha256": "108BB95B0821BCF78239B776EF4DA977DDEC3976419F14EEABB59958D1E70C67"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireEncounterIntegrationTests.cpp",
+      "previous_sha256": "BECDC3A126E052EE60464B800E2CF2F4EF311970479C11D75A1AAD2EF5E1668B",
+      "sha256": "7E5944121859EB5FBCEA47237AB7F73836A972288690FB686DCE2B1660B588E1"
+    }
+  ],
+  "scope": "Server-only unity build setting and editor-only test guard. No runtime bodies, network fields/RPCs or protocol changes."
+}

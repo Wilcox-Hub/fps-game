@@ -1,0 +1,22 @@
+{
+  "owner_report": "Packaged Play-IRON-SUN batch launch shows unchanged opening perks/weapons and 2 guns owned but only one usable/visible in the arsenal. Owner confirms expecting primary plus secondary.",
+  "red_command": "research/vs46/Check-PlayerBuild.ps1 (before packaging)",
+  "observed_failure": "Player launcher selects an older/different build: Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe; latest tested VS44 artifact hash does not match",
+  "before_selected_archive": "unreal/Ridgefire/Saved/Packages/20261004-192234-939",
+  "cause": "VS43/44 test packages were archived outside the player launcher default Saved/Packages folder. The batch kept selecting the older complete archive. Opening personal-perk and weapon UI was also outside the prior arsenal redesign.",
+  "before_log": {
+    "path": "logs/PlayerBuild-before.log",
+    "sha256": "2B3412F08E0443C6307FEB3EDAA2EC89AB389271FD09CE6142E90E854995AA73"
+  },
+  "source_startup_baseline": {
+    "path": "logs/normal-startup-before.log",
+    "sha256": "03672B7E7FEE86C048DE91A70E016122E439784663AEA1492E74B1B4D84F571A"
+  },
+  "fix": "New readable opening screens plus fresh default-folder Shipping archive. User also requested 1=primary, 2=secondary and 3=extra. Number keys now use carried slots in combat/arsenal, with an explicit idempotent server secondary equip. Opening offer selection remains unchanged. Prior loadout fixes are now included in the launched package.",
+  "green_command": "research/vs46/Check-PlayerBuild.ps1 -ExpectedArtifacts research/vs46/package-artifacts.json",
+  "green_log": {
+    "path": "logs/PlayerBuild-final.log",
+    "sha256": "9B82949F1E4702BE2D58B357B9309EDBFC094B9589D72D012BC45C0231476E0F"
+  },
+  "future_delivery_rule": "Acceptance builds intended for the owner must land in the default Saved/Packages folder (or explicitly change the launch root), then verify the default launcher artifact hashes. An external test archive alone does not refresh Play-IRON-SUN."
+}

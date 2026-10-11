@@ -1,0 +1,35 @@
+{
+  "assets": [
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Cooked\\Windows\\Ridgefire\\Content\\IRON_SUN\\Environment\\FirstArenaVS55\\SM_IronSunCoverRock_A.uasset",
+      "size_bytes": 1758,
+      "sha256": "10D6095F170A861A4C249F4AB0B38B7E108742621A31C5A2973717B1E57560FF"
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Cooked\\Windows\\Ridgefire\\Content\\IRON_SUN\\Environment\\FirstArenaVS55\\SM_IronSunCoverRock_A.ubulk",
+      "size_bytes": 65016,
+      "sha256": "CACD9FB719372E35598D752CD8734646989B1F472A6D38473749DBDDC2B87B5D"
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Cooked\\Windows\\Ridgefire\\Content\\IRON_SUN\\Environment\\FirstArenaVS55\\SM_IronSunCoverRock_A.uexp",
+      "size_bytes": 16103,
+      "sha256": "27C945F20934A08B87AF263C5CA668375627794CF296AF154261A7A9D854334F"
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Cooked\\Windows\\Ridgefire\\Content\\IRON_SUN\\Environment\\FirstArenaVS55\\SM_IronSunCoverRock_B.uasset",
+      "size_bytes": 1758,
+      "sha256": "A2C9217F45D35AAD9AF58FBFF6D6FE88C18B3B4FEE34FD1427B26A5A876B73DA"
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Cooked\\Windows\\Ridgefire\\Content\\IRON_SUN\\Environment\\FirstArenaVS55\\SM_IronSunCoverRock_B.ubulk",
+      "size_bytes": 65016,
+      "sha256": "853BC4B1964ADF8E9D911338D221EB3D1E2FB88B77F1660D2AD6EC65210CA575"
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Cooked\\Windows\\Ridgefire\\Content\\IRON_SUN\\Environment\\FirstArenaVS55\\SM_IronSunCoverRock_B.uexp",
+      "size_bytes": 16649,
+      "sha256": "60690FC85BFD05001EE7291BBD2E6AF9E4518C51805F9E4D7F3A7E6F094158F6"
+    }
+  ],
+  "scope": "Cooked files exist with recorded hashes after this Shipping cook. Container/build and actual startup have separate evidence; no packaged rendering claim."
+}

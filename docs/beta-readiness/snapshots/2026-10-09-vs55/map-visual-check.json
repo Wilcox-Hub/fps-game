@@ -1,0 +1,24 @@
+{
+  "snapshot_id": "2026-10-09-vs55",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "validation_level": "RENDERED_EDITOR",
+  "inspected": true,
+  "static_run": "map1-20261009-114111-259",
+  "moving_run": "walkout-final-20261009-115952-821",
+  "static_frames": 4,
+  "moving_frames": 3,
+  "geometry_reference": "unreal/Ridgefire/SourceArt/Concepts/IronSun_ScaledCombatPlan_v1.png",
+  "observations": [
+    "Eight faceted larger islands and exposed low edges, open central court and marked central/flank floor bands",
+    "Wall ribs and external tiers add perimeter massing without center clutter",
+    "First-map bays show bots behind the shutter and then outside through native movement",
+    "Existing blockout sentries and their bright placeholder attack indicators remain visually rough",
+    "Overhead shadows remain strong; signature eclipse/exposure and textures are unfinished"
+  ],
+  "human_acceptance": false,
+  "shipping_render_acceptance": false,
+  "limits": "Controlled cameras/HUD hidden, no human art/scale/pressure approval. Static frame date/scope predates later entry logic; actual arrival frames use final source."
+}

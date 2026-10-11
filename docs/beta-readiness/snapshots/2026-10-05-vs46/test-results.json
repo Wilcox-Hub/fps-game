@@ -1,0 +1,93 @@
+[
+  {
+    "gate": "Final Unreal Editor Development build",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "logs": [
+      {
+        "path": "logs/Editor-source-discovery-build.log",
+        "sha256": "B82C0F57A9A7AEE52F7F347C4A0B9D191BC08E9D601CC6923B68277D7C2A553E"
+      },
+      {
+        "path": "logs/Editor-final-build.log",
+        "sha256": "E37D9A207CE16D813099132CDA19A09B1A601986D90D7922DA44E91AE7D879B1"
+      }
+    ],
+    "scope": "Final opening HUD and extended fixture compiled and linked; existing engine API deprecation warnings remain."
+  },
+  {
+    "gate": "Ridgefire.Setup.TimedStages / default-1080p",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "log": {
+      "path": "logs/default-1080p.log",
+      "sha256": "EBFA4AE8CDB64CF1CA5A3ED2D97F61500AA9FDBA9B8DDF15B24E14ECDDC7BD5E"
+    },
+    "scope": "Normal timed opening stages, stage locks, defaults/secondary choices, actual possessed Blueprint, arsenal T/1/2/3 key delegates, empty-primary safety, both weapon names and both mouse-fire ammo decreases. No direct fixture gun grant or purchase. Sentries frozen and player repositioned near actual arsenal after deploy for isolation. Not OS/hardware input or human acceptance."
+  },
+  {
+    "gate": "Ridgefire.Setup.TimedStages / gale-secondary-headless",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "resolution": null,
+    "log": {
+      "path": "logs/gale-secondary-headless.log",
+      "sha256": "F8CF551C7B03F7CD4E2177C2471DBB320C312CDC5B5914824DA8B179FB5F7227"
+    },
+    "scope": "Normal timed opening stages, stage locks, defaults/secondary choices, actual possessed Blueprint, arsenal T/1/2/3 key delegates, empty-primary safety, both weapon names and both mouse-fire ammo decreases. No direct fixture gun grant or purchase. Sentries frozen and player repositioned near actual arsenal after deploy for isolation. Not OS/hardware input or human acceptance."
+  },
+  {
+    "gate": "Ridgefire.Setup.TimedStages / wildcard-secondary-headless",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "resolution": null,
+    "log": {
+      "path": "logs/wildcard-secondary-headless.log",
+      "sha256": "9E925F7461F359A9006BACBA8AAC28FA25B286E49559FAD37EC8BE3145454160"
+    },
+    "scope": "Normal timed opening stages, stage locks, defaults/secondary choices, actual possessed Blueprint, arsenal T/1/2/3 key delegates, empty-primary safety, both weapon names and both mouse-fire ammo decreases. No direct fixture gun grant or purchase. Sentries frozen and player repositioned near actual arsenal after deploy for isolation. Not OS/hardware input or human acceptance."
+  },
+  {
+    "gate": "arsenal-confirmations",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "log": {
+      "path": "logs/IRON-SUN-Arsenal-20261005-124449-228.log",
+      "sha256": "C177C4A690D01694B6278B830E3511456944B19A92A66DC2CFFFC0391BFF565B"
+    },
+    "scope": "Updated 1-primary/2-secondary/3-extra actual controller delegates. Enter purchase/upgrade/keep plus repeated 3 equipping the purchased extra weapon; controlled cash and accelerated clears; eight inspected 1080p offscreen frames. Not hardware input or natural balance."
+  },
+  {
+    "gate": "loadout-interactions",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "log": {
+      "path": "logs/IRON-SUN-Loadout-20261005-124519-734.log",
+      "sha256": "89639B231EDE2B75A3A85B538C00E483C01AF6CCB4A52CC9600F8C6D1F46EEAE"
+    },
+    "scope": "Updated 1-primary/2-secondary/3-extra actual controller delegates. Three carried guns, ammo independence, trigger blocking/reset and repeated selection; direct fixture provisioning retained; NullRHI/headless. Not hardware input or natural balance."
+  },
+  {
+    "gate": "Windows Shipping BuildCookRun / player delivery",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "log": {
+      "path": "logs/Shipping-build.log",
+      "sha256": "9C018048E5F54B4801BBA019FFC91B2FF3A3E002A738D54C0CC4EE4360404990"
+    },
+    "scope": "Compiled/cooked/staged/archived into default Saved/Packages. Play-IRON-SUN default launcher selects this exact archive; bootstrap, runtime and all three content containers match recorded hashes. Package not launched or played.",
+    "launcher_check": {
+      "path": "logs/PlayerBuild-final.log",
+      "sha256": "9B82949F1E4702BE2D58B357B9309EDBFC094B9589D72D012BC45C0231476E0F"
+    },
+    "package": {
+      "path": "package/PackageInfo.json",
+      "sha256": "AAD232360C26DE1BC5EA9BAF80D90FD4563F6B8DBD39A9179A8944A6282A68F4"
+    },
+    "artifacts": "package-artifacts.json"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "snapshot_id": "2026-10-08-vs52",
+  "primary_resolution": [
+    1920,
+    1080
+  ],
+  "final_editor_frames_inspected": true,
+  "frames": [
+    {
+      "path": "evidence/1080p-menu-render/01-FrontEnd.png",
+      "sha256": "FB5479648E4E030B3070423BD4DB82308A870D1BADF9424F9E2806E68ED9A63A",
+      "size_bytes": 2427653,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-230113\\01-FrontEnd.png"
+    },
+    {
+      "path": "evidence/1080p-menu-render/02-Perks.png",
+      "sha256": "7EFDA8F8C7308E6E07AE8BCBF024168AA12CF002E215F84D3B648285A446501B",
+      "size_bytes": 2460598,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-230113\\02-Perks.png"
+    },
+    {
+      "path": "evidence/1080p-menu-render/03-Secondary.png",
+      "sha256": "1CECE734FABF98A8FBC7A681D02AD43FF312F85945EC553135CDC63E67CAC2C9",
+      "size_bytes": 2506149,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-230113\\03-Secondary.png"
+    },
+    {
+      "path": "evidence/1080p-menu-render/04-TeamVote.png",
+      "sha256": "E23B9617400806C2B677858A992B3FE8247EBB6EDE53FDB204EBAF5ED3715446",
+      "size_bytes": 2451409,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-230113\\04-TeamVote.png"
+    },
+    {
+      "path": "evidence/1080p-menu-render/05-Primary.png",
+      "sha256": "8A310F3CBF014F905A51F56F6997BBD5BC4489675F8E6A8DEB2CB554640A83CE",
+      "size_bytes": 2438721,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-230113\\05-Primary.png"
+    },
+    {
+      "path": "evidence/1080p-menu-render/06-Arsenal.png",
+      "sha256": "9855D06CB052E4EF0B4719C72C90EE35CCA4227C7BD5E68524F9627CAAB777B9",
+      "size_bytes": 2514578,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-230113\\06-Arsenal.png"
+    },
+    {
+      "path": "evidence/1080p-menu-render/07-ExactStats.png",
+      "sha256": "49948DAB5A4B2448053DD0FAD4D461316FAAB77A9EE578F1825F66DDCCBB9C54",
+      "size_bytes": 2504936,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-230113\\07-ExactStats.png"
+    }
+  ],
+  "shipping_render_accepted": false,
+  "owner_new_layout_accepted": false,
+  "notes": "The final perk frame is stable after explicit text wrapping replaced zero-width auto-wrap layout. Basic screens hide stats. Optional comparison top is captured; scroll content below the fold is not claimed inspected."
+}

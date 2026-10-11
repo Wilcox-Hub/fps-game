@@ -1,0 +1,12 @@
+{
+  "previous_snapshot": "2026-10-04-vs38",
+  "current_input_count": 560,
+  "unchanged_previous_inputs": 556,
+  "changed_inputs": [
+    "Source/TP_FirstPerson/RidgefireShopHUD.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireLoadoutInteractionTests.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h"
+  ],
+  "policy": "The four listed input hashes changed, so VS38 blanket reuse does not apply. VS39 newly verifies only final Editor module compilation and the focused carried-slot/offer-navigation scenario. All other prior test scopes remain dated history; package, route, Internet, full-run, performance and human playtest gates were not rerun. The 65% planning score remains the last whole-game scored estimate from VS38 and is not a VS39 reassessment. Beta approval stays false."
+}

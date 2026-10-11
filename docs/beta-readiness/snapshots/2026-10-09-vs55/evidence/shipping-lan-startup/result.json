@@ -1,0 +1,17 @@
+{
+  "host_kind": "Shipping",
+  "port": 7917,
+  "host_listening": true,
+  "host_sockets": [
+    {
+      "LocalAddress": "0.0.0.0",
+      "LocalPort": 7917,
+      "OwningProcess": 20096
+    }
+  ],
+  "discovered": true,
+  "connected": true,
+  "passed": true,
+  "client_log": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\Shipping-20261009-120749-821\\Client.log",
+  "scope": "Shipping runtime host versus actual Editor Null/LAN client using existing session subsystem smoke flags; localhost only, headless, no two-device or human acceptance; no firewall changes"
+}

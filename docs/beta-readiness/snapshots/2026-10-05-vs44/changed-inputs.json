@@ -1,0 +1,20 @@
+[
+  {
+    "path": "Source/TP_FirstPerson/RidgefireShopControls.cpp",
+    "change": "modified",
+    "before_sha256": "1C1EE109EDB4872741C3107D0101F98A52EDE5A919B237C778E8C08B1BFB35FA",
+    "after_sha256": "CB8DF4728EA6E09221ED0B1FFF5160375ACFCB988FAD56FA86EB032BEBB9A110"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireShopHUD.cpp",
+    "change": "modified",
+    "before_sha256": "9DF358C3AEA81616ABA494DBD9ADD3A1FBF031DE0ACE584C93BA6F4F3D9FC4E6",
+    "after_sha256": "9EB8042A52D90105A3DF017C2D6AACA756D8CAA3D531682583CC719CD998F993"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireArsenalConfirmationTests.cpp",
+    "change": "added",
+    "before_sha256": null,
+    "after_sha256": "99F2E30A90E10CDF034B727267EEBDB6E03D2DC8B3F2F9AF327EE123BC2C719B"
+  }
+]

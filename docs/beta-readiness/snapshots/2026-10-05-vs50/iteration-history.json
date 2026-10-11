@@ -1,0 +1,5 @@
+{
+  "windows_powershell_5": "First run lacked explicit System.IO.Compression assembly. Added it alongside FileSystem. Second run revealed File.Replace null-backup binding produces an invalid path on PS5. Changed atomic replacement to use a unique local backup and cleanup. Final 19 checks pass.",
+  "self_review": "Rollback hold originally pinned the prior version instead of the rejected version; corrected before first completed full suite. Existing owned shortcut can be reused safely; another install shortcut is not overwritten.",
+  "delivery": "Full game ZIP unchanged. Final setup ZIP is 11 KB and contains updater scripts plus one-time setup instructions, with no credentials. Host feed remains local until approved sharing activation."
+}

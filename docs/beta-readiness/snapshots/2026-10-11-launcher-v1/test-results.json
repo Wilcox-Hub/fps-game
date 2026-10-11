@@ -1,0 +1,834 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "2026-10-11-launcher-v1",
+  "tested_on": "2026-10-11",
+  "validation_groups": [
+    {
+      "name": "private-unit",
+      "result": {
+        "passed": true,
+        "tests": 3,
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateUnit\\20261011-085352-941\\Automation.log",
+        "scope": "Actual Editor automation: address rejection/normalization, protocol/time-bound HMAC invite proof and isolated server checkpoint slots. No internet/device/performance acceptance.",
+        "time_utc": "2026-10-11T15:54:54.4213461Z"
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/private-unit/result.json",
+          "sha256": "28B359B1FF547458983CC27BBB7834832523D7E87D8A41E03A3AB7028DA35C86",
+          "size_bytes": 457,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateUnit\\20261011-085352-941\\result.json"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-unit/Automation.log",
+          "sha256": "B6AABB85FDEE59089280C014D5A1FEEC618DA6757D8A7D282C442973A253CDA7",
+          "size_bytes": 184005,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateUnit\\20261011-085352-941\\Automation.log"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57",
+      "current_game_inputs_exact_match": false,
+      "evidence_status": "Historical VS57 evidence; six current game inputs differ, not rerun"
+    },
+    {
+      "name": "checkpoint-regression",
+      "result": {
+        "passed": true,
+        "tests": 2,
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Checkpoints\\20261011-085454-876\\Automation.log",
+        "render_requested": false,
+        "scope": "Controlled actual standalone Editor world and isolated disk slots; not physical LAN, Shipping combat, human fun or performance acceptance.",
+        "time_utc": "2026-10-11T15:55:07.0907654Z"
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/checkpoint-regression/result.json",
+          "sha256": "BF402F8709A82AF9F5E1D43D50BDA4EF5C83C69E4351E4414A0DD9A6C2E7A97C",
+          "size_bytes": 448,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Checkpoints\\20261011-085454-876\\result.json"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/checkpoint-regression/Automation.log",
+          "sha256": "0A9A111F8DCB033D97B0D23BCFE23E68B17DCA8189BCAB1F71A5B38F8C566FF6",
+          "size_bytes": 192925,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Checkpoints\\20261011-085454-876\\Automation.log"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57",
+      "current_game_inputs_exact_match": false,
+      "evidence_status": "Historical VS57 evidence; six current game inputs differ, not rerun"
+    },
+    {
+      "name": "private-server",
+      "result": {
+        "passed": true,
+        "logs": [
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer-1.log",
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer0.log",
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer1.log"
+        ],
+        "peers": 2,
+        "scope": "Actual Windows Editor dedicated process plus two local clients: bad invite rejection/retry, leader-only launch, timed setup, both guns firing, leader departure held across autosave ticks, full original-roster preservation, cleared-boundary save, all clients leaving, original-squad continuation and client-requested exit reaching world/net-driver teardown. Final OS exit not asserted. Frozen AI/invulnerable players/fixture-completed encounter. No Linux, internet, physical-device, normal balance or performance claim.",
+        "time_utc": "2026-10-11T16:01:10.9192229Z"
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/private-server/result.json",
+          "sha256": "59A3AD1B3B32167858ED994ABA8AB7B64F67A983601424D606DB74E93CC59255",
+          "size_bytes": 1115,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\result.json"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-server/Peer-1.log",
+          "sha256": "711A133A887D98BF527C7F4D22A0A3C511C5DAC7AC1A25154C575BE4F506C804",
+          "size_bytes": 240689,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer-1.log"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-server/Peer0.log",
+          "sha256": "B870E91681D47671E8B20867BDBB73287ED6CF3DA3CD293B8F4251497B02E0C9",
+          "size_bytes": 210097,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer0.log"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-server/Peer1.log",
+          "sha256": "2D17B0FB3324A24B984700940BB73D569B47B047741F24395340EDDD662D77F1",
+          "size_bytes": 229407,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer1.log"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57",
+      "current_game_inputs_exact_match": false,
+      "evidence_status": "Historical VS57 evidence; six current game inputs differ, not rerun"
+    },
+    {
+      "name": "lan-regression",
+      "result": {
+        "passed": true,
+        "peers": 2,
+        "host_loss": false,
+        "hosted_restart": false,
+        "late_join_rejected": false,
+        "late_join_log": "",
+        "cycles": 2,
+        "rendered_host": false,
+        "logs": [
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261011-085901-728\\Peer0.log",
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261011-085901-728\\Peer1.log"
+        ],
+        "time_utc": "2026-10-11T16:00:39.5341420Z",
+        "scope": "Actual two local Editor processes, Null/LAN discovery/join, ready/unready gates, ordinary timed setup, client leave, host end, clean menus, rehost and second launch. No hosted-restart/late-join scenario selected in this run; no physical-device/internet/performance acceptance."
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/lan-regression/result.json",
+          "sha256": "430B54E852FC36AEA0F70754B24FCA5AB5C566D14805319943125EB443046C76",
+          "size_bytes": 1073,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261011-085901-728\\result.json"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/lan-regression/Peer0.log",
+          "sha256": "BB646CE356A114660B8EF0E33D6B9A27EADFBF8C63AB18CB4C58D85CABCD4C81",
+          "size_bytes": 225331,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261011-085901-728\\Peer0.log"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/lan-regression/Peer1.log",
+          "sha256": "B2E4CA66705C2292B9FABD2AC01BDB04A659B54CA8426F6E9F888F8CF7D18332",
+          "size_bytes": 223424,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261011-085901-728\\Peer1.log"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57",
+      "current_game_inputs_exact_match": false,
+      "evidence_status": "Historical VS57 evidence; six current game inputs differ, not rerun"
+    },
+    {
+      "name": "private-menu",
+      "result": {
+        "passed": true,
+        "resolution": [
+          1920,
+          1080
+        ],
+        "frames": 3,
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261011-021046-867\\Menu.log",
+        "scope": "Actual rendered Windows Editor Slate pointer clicks, masked fields, controlled text delegate validation and Back. No human usability, packaged client or internet claim.",
+        "time_utc": "2026-10-11T09:11:05.1583048Z"
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/private-menu/result.json",
+          "sha256": "24994FB0C285ECD3F0898E9AE74E4D87D13568AE57285922AEA5BE36BD2A3A50",
+          "size_bytes": 489,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261011-021046-867\\result.json"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-menu/Menu.log",
+          "sha256": "B121B57B000429DD51F2A25880589251AA035A2A71AA0B2393B693FB2AF2DC4C",
+          "size_bytes": 197717,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261011-021046-867\\Menu.log"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-menu/private-server-form-1080p.png",
+          "sha256": "315CACD7B9AAD25FCCE0A4C3EFF6DE77A7599D2E7346B080F6E0DF13B5678180",
+          "size_bytes": 2408579,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261011-021046-867\\private-server-form-1080p.png"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-menu/private-server-home-1080p.png",
+          "sha256": "6A8748A4435915D6F58937EFB5718F0C32AEAFD2EFC06280A69CC8185CF80DA7",
+          "size_bytes": 2425965,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261011-021046-867\\private-server-home-1080p.png"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-menu/private-server-validation-1080p.png",
+          "sha256": "0B3CBCDE904C1E32E1E447C0079F59FF9E9FA1012F9693645B1EA9725DF16DDE",
+          "size_bytes": 2384136,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261011-021046-867\\private-server-validation-1080p.png"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57",
+      "current_game_inputs_exact_match": false,
+      "evidence_status": "Historical VS57 evidence; six current game inputs differ, not rerun"
+    },
+    {
+      "name": "packaged-private-join",
+      "result": {
+        "passed": true,
+        "protocol": 57,
+        "server_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PackagedPrivate\\20261011-085727-255\\Server.log",
+        "client_log": null,
+        "windows_root": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261011-085109-773\\Windows",
+        "scope": "Actual Windows Shipping runtime accepted by Windows Editor dedicated process over loopback with a short-lived invite proof. Lobby startup only; opt-in existing session-smoke harness calls production JoinServer, no packaged UI/firing, Linux server, internet, physical device or performance claim.",
+        "time_utc": "2026-10-11T15:57:37.9169865Z",
+        "client_logging_available": false
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/packaged-private-join/result.json",
+          "sha256": "6F0A645ADC25DC891BEDECB02759FAB10EDE3418EF54A7B6E71D866957450FBF",
+          "size_bytes": 944,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PackagedPrivate\\20261011-085727-255\\result.json"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/packaged-private-join/Server.log",
+          "sha256": "B520D217137B1AC90C9B6640EC6FBBA031D55CA52DC88D4303E437784B04E358",
+          "size_bytes": 1399584,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PackagedPrivate\\20261011-085727-255\\Server.log"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57",
+      "current_game_inputs_exact_match": false,
+      "evidence_status": "Historical VS57 evidence; six current game inputs differ, not rerun"
+    },
+    {
+      "name": "builds",
+      "result": {
+        "editor": "PASS",
+        "windows_shipping": "PASS",
+        "linux_native": "BLOCKED_EPIC_SOURCE_ACCESS"
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/builds/editor-build-original-squad.log",
+          "sha256": "687F38EF15A3192279A52C8EB7862D01ED9C753E80FA38A099068DBAF95EF420",
+          "size_bytes": 37364,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\lenovo-specs\\server-access\\editor-build-original-squad.log"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/builds/windows-package-final-vs57.log",
+          "sha256": "F289BE9F1BDD144DA2D15CCC3500ECBB89AA7D7E95C69DAD2EB402FCA44F1050",
+          "size_bytes": 95012,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\lenovo-specs\\server-access\\windows-package-final-vs57.log"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57",
+      "current_game_inputs_exact_match": false,
+      "evidence_status": "Historical VS57 evidence; six current game inputs differ, not rerun"
+    },
+    {
+      "name": "lenovo-setup",
+      "result": {
+        "recorded_on": "2026-10-11",
+        "compose_valid": true,
+        "entrypoint_syntax_valid": true,
+        "missing_native_start_rejected": true,
+        "missing_native_entrypoint_exit": 22,
+        "unsafe_archive_rejected": true,
+        "unsafe_path_not_created": true,
+        "status": {
+          "root": "/home/caiden/iron-sun-server",
+          "native_release": false,
+          "release": null,
+          "invite_configured": true,
+          "relay_claimed": false,
+          "containers": ""
+        },
+        "image_id": "sha256:7d01455f4b64b5bf0aff9af2184da8c1f43de6c70717da053576bf89d865df7b",
+        "existing_containers": [
+          "minecraft-crafty Up 2 weeks",
+          "portainer Up 3 weeks"
+        ],
+        "join_key_mode": "0o600",
+        "scope": "Live SSH/Docker layout, official image build, non-root runtime, no native package/no service start, unsafe path rejection. No Linux game, public tunnel, internet or performance acceptance.",
+        "passed": true
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/lenovo-setup/host-setup-result.json",
+          "sha256": "FC6443E0D7CC5DF1816B868A117AB3D4536A0600B485E4B28308610E8040DAE6",
+          "size_bytes": 895,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\lenovo-specs\\server-access\\host-setup-result.json"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57",
+      "current_game_inputs_exact_match": false,
+      "evidence_status": "Historical VS57 evidence; six current game inputs differ, not rerun"
+    },
+    {
+      "name": "delivery",
+      "result": {
+        "passed": true,
+        "version": "20261011-085109-773",
+        "installed_files_verified": 32,
+        "updated_then_current": true,
+        "launched_fixed_install": false,
+        "scope": "VS57 local feed published; UPDATED then CURRENT, with NoLaunch. All 32 installed files match package hashes; previous VS56 retained. No remote-PC, public download or gameplay acceptance."
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/builds-and-delivery/current-result-vs57.json",
+          "sha256": "E352BD616124BCC2E172BB59AF65C1895EC2FFC20DA04BDE5F2239824F420335",
+          "size_bytes": 236
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/builds-and-delivery/delivery-verification.json",
+          "sha256": "28308938D1B4D0E856A9A24E38A522F9EEF28C627CF22E4C51DB50BB050A710C",
+          "size_bytes": 367
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/builds-and-delivery/install-result-vs57.json",
+          "sha256": "DEAB15C6CC507C9383F5F1E180E2B8045063F88C2C0F6271DBE1EF8395300CA5",
+          "size_bytes": 236
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/builds-and-delivery/publish-result-vs57.json",
+          "sha256": "55EDDD08BC5523EAC727D0189152CBCBA2AA700203FF85A5FA1813B07AD91DCC",
+          "size_bytes": 429
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/builds-and-delivery/vs57-package-artifacts.json",
+          "sha256": "E428E501E18486E4AD0902B8A795B5182EB39F33B0A567DB097B785C4FCD0449",
+          "size_bytes": 6645
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57",
+      "current_game_inputs_exact_match": false,
+      "evidence_status": "Historical VS57 evidence; six current game inputs differ, not rerun"
+    },
+    {
+      "name": "vs58-builds",
+      "result": {
+        "passed": true,
+        "protocol": 58,
+        "engine": "5.8.3",
+        "scope": "Actual Editor compile, Windows Shipping build/cook/package, official-source native Linux Server build/cook/package."
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/vs58-editor-build.log",
+          "sha256": "5DCEB47AEF2522497923629CADE13664160C85CE589F15DAFEB3DFCC3098AED4",
+          "size_bytes": 18494
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/vs58-windows-package.log",
+          "sha256": "10C44E06A794EDE5C5FCAA875FC50C52A11CA5E96975DE8BAB054C034B900C7F",
+          "size_bytes": 87425
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/vs58-linux-package.log",
+          "sha256": "4FC96E9A883A9D007FDBBBA87B58CC0D925570F22A431008DF1D633DEA8E7EAD",
+          "size_bytes": 66680
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/native-archive-result.json",
+          "sha256": "0EFB43F9CCA6C25AF5574A0590CF0AA36BC4B1805B14582110F9773FBB9300E2",
+          "size_bytes": 688
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/IronSunServer.json",
+          "sha256": "B51C6800FEB516033CFECA8F8C18E1C80E1941C2B3DDAA9D3400BC3AAA30A398",
+          "size_bytes": 295
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/IronSunInputs.json",
+          "sha256": "8862794AFADAE981C6FD63D13BDBBEE6D4D85CEE6039943E00F6982BCFE2D92C",
+          "size_bytes": 109299
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs58-native-relay"
+    },
+    {
+      "name": "vs58-arenas",
+      "result": {
+        "passed": true,
+        "tests": [
+          "Ridgefire.Waves.ArenasPartiesAndQueue"
+        ],
+        "filter": "Ridgefire.Waves.ArenasPartiesAndQueue",
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Pressure\\checks-20261011-120746-436\\Automation.log",
+        "rendered": false,
+        "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance",
+        "exit_code": 0
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/vs58-arena-check.log",
+          "sha256": "D3F6A13F44A2B1E70E3875616A68D30674E77312BBD1E62CC9C8D2A8C240CE1E",
+          "size_bytes": 464
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/arena-Automation.log",
+          "sha256": "257866CB0606D800C37A9FAFF6F3A7F97B325E576C19D48193060EA378E4AA2A",
+          "size_bytes": 329994
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs58-native-relay"
+    },
+    {
+      "name": "vs58-private-auth-and-save-slots",
+      "result": {
+        "passed": true,
+        "tests": 3,
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateUnit\\20261011-120830-015\\Automation.log",
+        "scope": "Actual Editor automation: address rejection/normalization, protocol/time-bound HMAC invite proof and isolated server checkpoint slots. No internet/device/performance acceptance.",
+        "time_utc": "2026-10-11T19:09:15.4606917Z"
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/vs58-private-unit-check.log",
+          "sha256": "FD7D1C936561FB29A6CAD0B45DCC3DFD3BAF0A2949841B0B5A7450E79660A70E",
+          "size_bytes": 459
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/private-Automation.log",
+          "sha256": "75930DF9206CC66DBCAC3791DA888FEF133A7402648FF1EF3068C043BFF718CA",
+          "size_bytes": 185032
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs58-native-relay"
+    },
+    {
+      "name": "vs58-owner-delivery",
+      "result": {
+        "passed": true,
+        "installed_files_verified": 32,
+        "updated_then_current": true,
+        "protocol": 58,
+        "scope": "Owner fixed launcher install and local feed; other PC/update share not accepted."
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/vs58-package-artifacts.json",
+          "sha256": "B5D9130FB36B5EEA44717990F995C6D57BE9CA6E0590AC7EFE38C2EC1E2FF570",
+          "size_bytes": 6611
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/publish-result-vs58.json",
+          "sha256": "9C01A50B3AFBA7A8BEF9B4D303DCB26A335DCA06C3E04863933380C93E7D9E1B",
+          "size_bytes": 429
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/install-result-vs58.json",
+          "sha256": "CA1DD121E09267012DF370BFAE9F5C98D235407F87E64C9E0ED1978443186DD3",
+          "size_bytes": 236
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/current-result-vs58.json",
+          "sha256": "73688625FA0A8640E6F0576CCCC63935835F767E3CF9F72C3D49B60FE3F76E80",
+          "size_bytes": 236
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs58-native-relay"
+    },
+    {
+      "name": "vs58-live-native-deployment",
+      "result": {
+        "installed": true,
+        "booted": true,
+        "time_utc": "2026-10-11T19:16:24.253321+00:00",
+        "fatal_logged": false,
+        "container_restarts": 0,
+        "relay_running": true,
+        "metadata": {
+          "engine": "5.8.3",
+          "protocol": 58,
+          "platform": "Linux",
+          "target": "Server",
+          "configuration": "Development",
+          "built_utc": "2026-10-11T19:13:39.9022402Z",
+          "input_count": 600,
+          "input_manifest_sha256": "8862794AFADAE981C6FD63D13BDBBEE6D4D85CEE6039943E00F6982BCFE2D92C"
+        },
+        "release": {
+          "release": "d49510c39311e56c",
+          "sha256": "d49510c39311e56c1c6de3c4b5b88b4585fc6cdb7175ff4e3708e468a5236222",
+          "previous_release": "releases/07e6e407e93a82c6",
+          "activated_files": true,
+          "process_restarted": false
+        },
+        "read_only_root": true,
+        "user": "1000:1000",
+        "cpu_limit": 3.0,
+        "memory_limit_bytes": 6442450944,
+        "port_bindings": {
+          "7777/udp": [
+            {
+              "HostIp": "127.0.0.1",
+              "HostPort": "7777"
+            },
+            {
+              "HostIp": "192.168.4.36",
+              "HostPort": "7777"
+            }
+          ]
+        },
+        "key_mode": "0o600",
+        "relay_key_mode": "0o600",
+        "scope": "Actual native Linux Server installation and listening boot on Lenovo. Container/config checks only; no normal combat, recovery, external-Wi-Fi or capacity acceptance."
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/native-deployment-result.json",
+          "sha256": "C45CC61C01F550F8C6FAD88C8257C15905E45430F6F849EDB2F193A6CB0965B7",
+          "size_bytes": 1321
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs58-native-relay"
+    },
+    {
+      "name": "vs58-join-20261011-121444",
+      "result": {
+        "passed": true,
+        "protocol": 58,
+        "address": "cairo-ferry.tun.ply.gg:42527",
+        "wrong_invite_control": true,
+        "time_utc": "2026-10-11T19:14:46.471288+00:00",
+        "clients": 1,
+        "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+        "wrong_invite_rejected": true,
+        "client_logging_available": false,
+        "run_directory": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\lenovo-specs\\server-access\\native-join-checks\\20261011-121444"
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/20261011-121444-result.json",
+          "sha256": "291DE7945BEAA44D18D02D3C7C606B48C620F0DF891F8F45E3CF8880A186D169",
+          "size_bytes": 637
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/20261011-121444-ServerDelta.log",
+          "sha256": "843D31FB68076A29D7501940A162265C8BF9309B596A0B28F1FF77D30D63C6EF",
+          "size_bytes": 4029
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs58-native-relay"
+    },
+    {
+      "name": "vs58-join-20261011-121458",
+      "result": {
+        "passed": true,
+        "protocol": 58,
+        "address": "192.168.4.36:7777",
+        "wrong_invite_control": false,
+        "time_utc": "2026-10-11T19:14:59.432244+00:00",
+        "clients": 2,
+        "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+        "lobby_join_accepted": true,
+        "held_seconds": 12,
+        "unresolved_network_references": 0,
+        "client_logging_available": false,
+        "run_directory": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\lenovo-specs\\server-access\\native-join-checks\\20261011-121458"
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/20261011-121458-result.json",
+          "sha256": "15E9B74984A208BF2FC19841EDA99B0DE53C7204E751F773980437E4E67CFC58",
+          "size_bytes": 687
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/20261011-121458-ServerDelta.log",
+          "sha256": "F787749F8D34B0D7E288CCD72EA1A4D610E1232859F78E57D1BD78D02663056A",
+          "size_bytes": 6306
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs58-native-relay"
+    },
+    {
+      "name": "vs58-join-20261011-121535",
+      "result": {
+        "passed": true,
+        "protocol": 58,
+        "address": "cairo-ferry.tun.ply.gg:42527",
+        "wrong_invite_control": false,
+        "time_utc": "2026-10-11T19:15:36.417541+00:00",
+        "clients": 2,
+        "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+        "lobby_join_accepted": true,
+        "held_seconds": 12,
+        "unresolved_network_references": 0,
+        "client_logging_available": false,
+        "run_directory": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\lenovo-specs\\server-access\\native-join-checks\\20261011-121535"
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/20261011-121535-result.json",
+          "sha256": "4FBFF2B5F049A9400D46D718F17DE5E5A0678A7EB317CBFF3F6190F51E5B16AB",
+          "size_bytes": 698
+        },
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/20261011-121535-ServerDelta.log",
+          "sha256": "57B5F146AC3CEBB7F1A7C12808769466836709E6421F1D8960BE6548D0E42E72",
+          "size_bytes": 6433
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs58-native-relay"
+    },
+    {
+      "name": "vs57-failure-diagnosis",
+      "result": {
+        "protocol": 57,
+        "passed": false,
+        "scope": "Pre-fix Windows/native Linux collision reference mismatch; actual captured warning signatures only. Earlier roster test also had stale killed smoke connections. Raw 42 MB log excluded.",
+        "warnings": [
+          "[2026.10.11-18.54.36:331][206]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Unable to resolve default guid from client: ObjectName: StaticMeshComponent_2147481809, ObjOuter: /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter:PersistentLevel.RidgefireArenaDressing_2147482342 \n",
+          "[2026.10.11-18.54.36:332][206]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Unable to resolve default guid from client: ObjectName: StaticMeshComponent_2147481808, ObjOuter: /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter:PersistentLevel.RidgefireArenaDressing_2147482342 \n",
+          "[2026.10.11-18.54.36:332][206]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Unable to resolve default guid from client: ObjectName: StaticMeshComponent_2147481808, ObjOuter: /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter:PersistentLevel.RidgefireArenaDressing_2147482342 \n"
+        ],
+        "raw_log_bytes": 42184408,
+        "repair": "Explicit physical component ordinal and replicated revision names; cosmetics cannot shift physical names. VS58 matching packages required."
+      },
+      "current_game_inputs_exact_match": false,
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs58-native-relay/evidence/native-relay/vs57-replication-failure.json",
+          "sha256": "5AD1D3337B110C78C60F880DEA12AE43D36FD5CEAD7B416C06F738782C1247EE"
+        }
+      ],
+      "evidence_status": "Historical pre-fix VS57 failure; diagnosis only",
+      "inherited_from_snapshot": "2026-10-11-vs58-native-relay"
+    },
+    {
+      "name": "native-launcher-integration",
+      "result": {
+        "passed": true,
+        "scope": "Actual compiled native C# production internet updater with RSA-signed local fixtures. No live HTTPS or game execution.",
+        "run": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\test-output\\checks-20261011-161719-414",
+        "checks": [
+          {
+            "name": "Check announces signed release without installing game",
+            "passed": true
+          },
+          {
+            "name": "Fresh signed release installs complete payload",
+            "passed": true
+          },
+          {
+            "name": "Repeated check stays CURRENT",
+            "passed": true
+          },
+          {
+            "name": "New build updates and retains previous",
+            "passed": true
+          },
+          {
+            "name": "Rollback restores previous build",
+            "passed": true
+          },
+          {
+            "name": "Rolled-back build holds against same rejected release",
+            "passed": true
+          },
+          {
+            "name": "Newer release clears rollback hold",
+            "passed": true
+          },
+          {
+            "name": "Repair replaces corrupt same-version game",
+            "passed": true
+          },
+          {
+            "name": "Player saves survive update, rollback, and repair",
+            "passed": true
+          },
+          {
+            "name": "Unsigned metadata mutation rejected; installed game preserved",
+            "passed": true
+          },
+          {
+            "name": "Signed path traversal rejected before extraction",
+            "passed": true
+          },
+          {
+            "name": "Corrupt archive rejected; previous installation intact",
+            "passed": true
+          },
+          {
+            "name": "Foreign nonempty folder refused",
+            "passed": true
+          },
+          {
+            "name": "Interrupted directory swap recovers verified install",
+            "passed": true
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "evidence/native-build.json",
+          "sha256": "4BF78999506806284E142EA4812F1C5ED2985DA178E14EF382E833551CD54E10",
+          "size_bytes": 279
+        },
+        {
+          "path": "evidence/native-integration.json",
+          "sha256": "1ABFBD9AE05069A76BE75E3D48866C8BA2B325BB1658A86FA654B54C0D2B0F38",
+          "size_bytes": 1713
+        }
+      ]
+    },
+    {
+      "name": "native-launcher-self-update",
+      "result": {
+        "passed": true,
+        "from": "1.0.1",
+        "to": "1.0.2",
+        "signed_metadata": true,
+        "old_process_exited": true,
+        "new_binary_activated": true,
+        "previous_binary_retained": true,
+        "new_window_rendered": true,
+        "run": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\test-output\\self-update-20261011-161722-118",
+        "scope": "Actual compiled WPF launcher and native post-exit update helper with a production-key-signed local fixture; no hosted launcher promotion."
+      },
+      "evidence": [
+        {
+          "path": "evidence/native-self-update.json",
+          "sha256": "4DBDC3931BAB503CB85C57155DA3246CFA98FAD335F436C328684B814D6146B1",
+          "size_bytes": 513
+        },
+        {
+          "path": "evidence/launcher-fixture-1.0.2.png",
+          "sha256": "4AB6AE022C9EA1E160B70576F4538315DCA5983A5A3EF2A5E6A911092BE8F959",
+          "size_bytes": 310186
+        }
+      ]
+    },
+    {
+      "name": "launcher-protected-website-download",
+      "result": {
+        "passed": false,
+        "status": "BLOCKED_BY_DEFENDER",
+        "launcher_version": "1.0.1",
+        "sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+        "threat": "Trojan:Win32/Sabsik.TE.A!ml",
+        "scope": "Browser download and authenticated exact GitHub draft-asset retrieval blocked. Both launcher releases withdrawn to draft. Native live install, downloaded launcher startup and owner shortcut migration NOT accepted. No security bypass.",
+        "microsoft_review": "OWNER_APPROVAL_PENDING; not submitted"
+      },
+      "evidence": [
+        {
+          "path": "evidence/security-detections.json",
+          "sha256": "EDAF0D0F4EF90B0C347B087A4E27FD0EE882EE475BC779462F8ACB2ED0313D9E",
+          "size_bytes": 785
+        },
+        {
+          "path": "evidence/MICROSOFT_REVIEW_DRAFT.md",
+          "sha256": "B19D5F641E4058319BC1760B42CF97189D5A903FE3EC4B89BC20C4480E1007B6",
+          "size_bytes": 2635
+        }
+      ]
+    },
+    {
+      "name": "manual-game-publication",
+      "result": {
+        "passed": true,
+        "protocol": 58,
+        "game_version": "20261011-120705-452",
+        "metadata_signature_verified": true,
+        "public_archive_http_status": 200,
+        "archive_size": 440541545,
+        "archive_sha256": "A933B4056D44CF99B736802B55812BC924B2EAEFD23A4DC71FB6BBF530E773AC",
+        "verified_local_archive_identity": true,
+        "scope": "Unauthenticated public HTTPS metadata/signature and ZIP HEAD response; local verified archive hash matches the signed published identity. No new ZIP body download or game execution."
+      },
+      "evidence": [
+        {
+          "path": "evidence/public-game-feed.json",
+          "sha256": "C751363271A3CE1A6F5498380B8F0D037F485AB59CA164F5202D4B1DB4732DF9",
+          "size_bytes": 523
+        },
+        {
+          "path": "evidence/game-only-publication.json",
+          "sha256": "77DE9247BE4B3468E8BD1E62251F7C6FE99F02A295FB6627369988C71EEFDA86",
+          "size_bytes": 1373
+        }
+      ]
+    },
+    {
+      "name": "website-publication-and-layout",
+      "result": {
+        "passed": true,
+        "url": "https://iron-sun-playtest.wilcoxwarrior4577.chatgpt.site",
+        "audience": "public",
+        "mobile_viewport": "390x844",
+        "purpose": "Full-game manual ZIP download and explicit launcher hold notice",
+        "scope": "Actual published page inspected in desktop/mobile browser. No physical phone or friend-device acceptance."
+      },
+      "evidence": [
+        {
+          "path": "evidence/website-deployment.json",
+          "sha256": "E223E5710C50732B91117E15CD1B662CC955D18080B2750BD5AC3A9531562624",
+          "size_bytes": 599
+        },
+        {
+          "path": "evidence/website-desktop.png",
+          "sha256": "45CC8AC68797941E84B8CA157859BBF08A4BF4F05B3CA88966ADFDA9F84A0EC4",
+          "size_bytes": 74101
+        },
+        {
+          "path": "evidence/website-mobile.png",
+          "sha256": "7622833F86A30016A06D317CBAB71DF31DC0D32552BDF993BACAC9CE96095727",
+          "size_bytes": 35006
+        }
+      ]
+    },
+    {
+      "name": "historical-script-driver-live-https-install",
+      "result": {
+        "passed": true,
+        "scope": "Earlier direct Windows PowerShell driver fetched signed HTTPS game metadata and installed the complete same VS58 ZIP into an isolated folder. This removed script driver does NOT validate current native launcher delivery; game execution was not requested."
+      },
+      "evidence": [
+        {
+          "path": "evidence/live-install.log",
+          "sha256": "793AEF124B7FFA5671C55926D1F76FF8C8186B4869C3C50FFADB4C276C233880",
+          "size_bytes": 7333
+        }
+      ]
+    }
+  ],
+  "internet_accepted": false,
+  "native_linux_accepted": false,
+  "physical_device_accepted": false,
+  "human_fun_accepted": false,
+  "score_changed": false,
+  "assessment_scope": "Launcher implementation and distribution block; unchanged game evidence reused at its original date and validation scope."
+}

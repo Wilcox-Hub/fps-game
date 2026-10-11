@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "blender_version": "5.2.2 LTS",
+  "assets": [
+    {
+      "name": "SM_IronSunCoverRock_A",
+      "fbx": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\assets\\SM_IronSunCoverRock_A.fbx",
+      "dimensions_cm": [
+        200,
+        200,
+        100
+      ],
+      "render_triangles": 44,
+      "convex_hull": "UCX_SM_IronSunCoverRock_A_00",
+      "sha256": "AE21A1028E15CF8ACB436F9CA9CE22EB9FFA42DF4204AC93445BBEFA7CA2AC3D"
+    },
+    {
+      "name": "SM_IronSunCoverRock_B",
+      "fbx": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs55\\assets\\SM_IronSunCoverRock_B.fbx",
+      "dimensions_cm": [
+        200,
+        200,
+        100
+      ],
+      "render_triangles": 44,
+      "convex_hull": "UCX_SM_IronSunCoverRock_B_00",
+      "sha256": "C116A6A4A1C024FC4103DD545FFC7F9F3D968E71C3C2A30AFE36533DD141C2CE"
+    }
+  ],
+  "scope": "Original low-poly metric cover blockout meshes and matching convex hulls; not production texturing/art acceptance."
+}

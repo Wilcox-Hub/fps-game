@@ -1,0 +1,168 @@
+{
+  "archive_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261011-120705-452\\Windows",
+  "protocol": 58,
+  "build_status": "COMPLETE_PROTOTYPE",
+  "artifacts": [
+    {
+      "path": "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+      "size_bytes": 2232688,
+      "sha256": "6C1484085A1F4223880C059FD093A468702D0ECB224981918336FE847F5AF92F"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
+      "size_bytes": 2547080,
+      "sha256": "780959F289E380A21FDAB0DBA7AC468C8DD0606EA43B755865A7989F3C7221E9"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+      "size_bytes": 5799024,
+      "sha256": "E3E777A9644452C2772336C4B35C39ED4D8ABEB9B9C0C1DCEB9E10BDB378E5A2"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+      "size_bytes": 59832,
+      "sha256": "CF34407EC00248C208AA4B156126A725B79A4BCE9F5C8034550C798A9B7A1407"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+      "size_bytes": 1724856,
+      "sha256": "1CD0EBA3DF4915CA6498917B91B78DC1DFDA1C9155F2FD5B98DEDD5B5BA918F3"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+      "size_bytes": 48568,
+      "sha256": "A00E6B073CEC241D85D590EE138906EF9FDF9EFEF8D0D4989813359CD048A6F9"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+      "size_bytes": 858144,
+      "sha256": "9D996BA84395C1E56604792A77775B0A7FA957D7B51B4D8B985040BCD80A6FD5"
+    },
+    {
+      "path": "Engine/Config/StagedBuild_Ridgefire.ini",
+      "size_bytes": 3,
+      "sha256": "F1945CD6C19E56B3C1C78943EF5EC18116907A4CA1EFC40A57D48AB1DB7ADFC5"
+    },
+    {
+      "path": "Engine/Content/Renderer/TessellationTable.bin",
+      "size_bytes": 259568,
+      "sha256": "EDC4F3B628A139C5E185BBAECA661C95C1F427368D3B92892C5CFF36C56DD941"
+    },
+    {
+      "path": "Engine/Content/Slate/Cursor/invisible.cur",
+      "size_bytes": 326,
+      "sha256": "FEF3980FA567E9C45D5D8DCAA432A2C1A3F3BB17FE67D7AB198164F56C142AA1"
+    },
+    {
+      "path": "Engine/Content/SlateDebug/Fonts/LastResort.tps",
+      "size_bytes": 930,
+      "sha256": "0F775FA99D05E21D43D2D06D55982B23DCDCCDB512A9A5A07AFF674F212C41B8"
+    },
+    {
+      "path": "Engine/Content/SlateDebug/Fonts/LastResort.ttf",
+      "size_bytes": 5395052,
+      "sha256": "FFF0F8DE0B868B964950FE97C9B60F893E9BC85A4F90B3629C5693DB058B97B9"
+    },
+    {
+      "path": "Engine/Extras/Redist/en-us/vc_redist.arm64.exe",
+      "size_bytes": 11751688,
+      "sha256": "BA660394E40765C80B70178A33F07DF81AEFAC2B6CB1F017B13880DE88456DE3"
+    },
+    {
+      "path": "Engine/Extras/Redist/en-us/vc_redist.x64.exe",
+      "size_bytes": 18569648,
+      "sha256": "1CF8E061174C320C8E125F1B09996EE0555EF450E515B06AB0FD99CB4C8DB6EF"
+    },
+    {
+      "path": "Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll",
+      "size_bytes": 17339384,
+      "sha256": "9FC1CA0E75480C7805B6D3C4653864EAAEE2FCA5DAA609B5347ADF0B4185791A"
+    },
+    {
+      "path": "Manifest_DebugFiles_Win64.txt",
+      "size_bytes": 231,
+      "sha256": "E8CC08379209C826E499F9E59D8DEB0AF5BA94C7960779B584947F9200074A1A"
+    },
+    {
+      "path": "Manifest_NonUFSFiles_Win64.txt",
+      "size_bytes": 1608,
+      "sha256": "D46E4561C87FB4B912A7C79CF5E78715AC02ECE581EFCA681952B3784897EE47"
+    },
+    {
+      "path": "Manifest_UFSFiles_Win64.txt",
+      "size_bytes": 312819,
+      "sha256": "52D1E2D711611F2FD1DEDCAC9930CCF2AB23D78A94A15FFCF6507DC036845E21"
+    },
+    {
+      "path": "NOTICES.txt",
+      "size_bytes": 111,
+      "sha256": "BA49AE5586F817B36A2772269F71F899CB1F54B5F2720FAD951319EDD5E140B8"
+    },
+    {
+      "path": "Ridgefire/Binaries/Win64/D3D12/x64/D3D12Core.dll",
+      "size_bytes": 4831768,
+      "sha256": "5D262C97239E1AFF8B03A7150ABCAA84CC7983D311946708F982227D146FBB37"
+    },
+    {
+      "path": "Ridgefire/Binaries/Win64/D3D12/x64/d3d12SDKLayers.dll",
+      "size_bytes": 4943344,
+      "sha256": "66AFC2D2918191F9B97026E3C630AC6E93F5F83E3BD0EAB34349EC2F66A0B4AF"
+    },
+    {
+      "path": "Ridgefire/Binaries/Win64/DML/x64/DirectML.dll",
+      "size_bytes": 18538488,
+      "sha256": "579DD89146322EA2567DE7DB16B8E10F350EB0CF147ECAAFE5B129D9FE175A84"
+    },
+    {
+      "path": "Ridgefire/Binaries/Win64/tbb12.dll",
+      "size_bytes": 342456,
+      "sha256": "7E58AE38FD5D47C72B750DBDCF2978A1F36719663A0A4500A9CC857316612C34"
+    },
+    {
+      "path": "Ridgefire/Binaries/Win64/tbbmalloc.dll",
+      "size_bytes": 117176,
+      "sha256": "075BA2869E082AB5F1F159AD06614CE63C31AE51099E18B540822CC758697E56"
+    },
+    {
+      "path": "Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+      "size_bytes": 166750208,
+      "sha256": "9EFA45AE2F4CF6C9E0BD6D813A646B710A50E69C13DADC22662B1E2B2292E51C"
+    },
+    {
+      "path": "Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.pdb",
+      "size_bytes": 233369600,
+      "sha256": "97CE2971D79B19FE17402C23E6799AF6769F794B41E1CEAB7819456F354D4B05"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/global.ucas",
+      "size_bytes": 3226144,
+      "sha256": "1878E09988871A8DEA3705A5981C849F995E3F9C9F9AD1BAE3DEC426B82AE019"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/global.utoc",
+      "size_bytes": 794,
+      "sha256": "888AB92BA34F13E185A612B84908C07A58488C4F2C7512CAF501403E1F6B4926"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/Ridgefire-Windows.pak",
+      "size_bytes": 18012554,
+      "sha256": "5897BC24D40D8A712E8649007B4E907EC123708C9AEBECE31F16E655F1C9F1FE"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/Ridgefire-Windows.ucas",
+      "size_bytes": 237151104,
+      "sha256": "48C089B045F97E829D64548F79169F134082B54C062849BC104CF723DE92FCCA"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/Ridgefire-Windows.utoc",
+      "size_bytes": 237951,
+      "sha256": "27CF7684E6CCD2254DD65E9AB4A8DCE44ED6720596479FE113EDD6C9D40EB0DD"
+    },
+    {
+      "path": "TP_FirstPerson.exe",
+      "size_bytes": 171520,
+      "sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4"
+    }
+  ],
+  "validation_scope": "Actual Windows Shipping build/cook/package. Packaged native-server joins are recorded separately. No rendered/human/full-run acceptance."
+}

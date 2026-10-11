@@ -1,0 +1,2 @@
+# Keep captured evidence bytes exact for recorded SHA256 checks.
+snapshots/** -text

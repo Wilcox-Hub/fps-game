@@ -1,0 +1,10 @@
+Economy check IntegratedTransactions did not pass: C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to
+-a\unreal\Ridgefire\Saved\Logs\IRON-SUN-Economy-20261008-224832-315.log
+At C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Tools\Invoke-EconomyChecks.p
+s1:24 char:85
++ ...  Name={'+$name+'}')){throw "Economy check $name did not pass: $log"}}
++                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Economy check I...-224832-315.log:String) [], RuntimeException
+    + FullyQualifiedErrorId : Economy check IntegratedTransactions did not pass: C:\Users\YaYa\Documents\Codex\2026-09 
+   -22\connect-this-github-repo-to-a\unreal\Ridgefire\Saved\Logs\IRON-SUN-Economy-20261008-224832-315.log
+ 

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "peers": 2,
+  "host_project": "C:/Users/YaYa/Documents/ChatGPT/FPS-1/research/vs52/legacy/Ridgefire.uproject",
+  "client_project": "C:/Users/YaYa/Documents/ChatGPT/FPS-1/research/vs52/legacy/Ridgefire.uproject",
+  "logs": [
+    "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs52\\fire-network\\checks-20261008-202610-376\\Host.log",
+    "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs52\\fire-network\\checks-20261008-202610-376\\Client.log"
+  ],
+  "scope": "Actual two-process Editor host/client controller LeftMouseButton presses and releases, primary then secondary selection; both peers must retain equipped weapon and spend ammo. Frozen enemies and accelerated setup. No Internet, packaged, hardware-input, latency/fun or second-PC acceptance.",
+  "time_utc": "2026-10-09T03:26:42.0444933Z"
+}

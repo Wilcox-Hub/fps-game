@@ -1,0 +1,263 @@
+{
+  "snapshot_id": "2026-10-09-vs56",
+  "artifacts": [
+    {
+      "path": "evidence/checkpoint-disk-and-world/20261009-230745-991-result.json",
+      "sha256": "266BEAD046CF5C8C7DAEA2DC4A2204F407A04ACDBA26CE45C8DCF733EB96D2AA",
+      "size_bytes": 447,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Checkpoints\\20261009-230745-991\\result.json"
+    },
+    {
+      "path": "evidence/checkpoint-disk-and-world/20261009-230745-991-Automation.log",
+      "sha256": "69CCB3B10F489CF480037E40DFD16F3A1F507C7CCF3A6D3BE5AF5D53B5F2ACEB",
+      "size_bytes": 206796,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Checkpoints\\20261009-230745-991\\Automation.log"
+    },
+    {
+      "path": "evidence/checkpoint-disk-and-world/20261009-230745-991-continue-run-1080p.png",
+      "sha256": "9C40245A27984F8ED9927A5E9DB8948B82AF97C6BD5747E1D66CC072EF45DB8F",
+      "size_bytes": 2433158,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Checkpoints\\20261009-230745-991\\continue-run-1080p.png"
+    },
+    {
+      "path": "evidence/checkpoint-disk-and-world/Tools-Invoke-CheckpointChecks.ps1",
+      "sha256": "58C99344086D915788B92DE3538368C2CC9B9F06000CCFC13EAE411828AD9311",
+      "size_bytes": 2294,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Tools\\Invoke-CheckpointChecks.ps1"
+    },
+    {
+      "path": "evidence/cold-coop-recovery/checks-20261009-230318-688-result.json",
+      "sha256": "D789BBD66C423B3ECF7C5BA2E114B2499E3C5A55B7A0DD681676EC6AA4A30F32",
+      "size_bytes": 1436,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\result.json"
+    },
+    {
+      "path": "evidence/cold-coop-recovery/checks-20261009-230318-688-ResumeClient.log",
+      "sha256": "825C562D1997DED19B0856121C8786203EF811A0BD6C30CA2CD6C519C61989AB",
+      "size_bytes": 180616,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\ResumeClient.log"
+    },
+    {
+      "path": "evidence/cold-coop-recovery/checks-20261009-230318-688-ResumeHost.log",
+      "sha256": "602B72AC3E6C32E4AC981A19312F48285926158079C4A7D120AF1A816BEC374C",
+      "size_bytes": 189363,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\ResumeHost.log"
+    },
+    {
+      "path": "evidence/cold-coop-recovery/checks-20261009-230318-688-SaveClient.log",
+      "sha256": "E6B2BDD456C96E794787AE1DBA2576D91C2CDB3B9380AEDA45958D596179E5BA",
+      "size_bytes": 179307,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\SaveClient.log"
+    },
+    {
+      "path": "evidence/cold-coop-recovery/checks-20261009-230318-688-SaveHost.log",
+      "sha256": "15930825CF5CCE90AB30B95FBACAE6DD7897BB617C1148E0E65AF908636C1BC0",
+      "size_bytes": 182928,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\SaveHost.log"
+    },
+    {
+      "path": "evidence/cold-coop-recovery/checks-20261009-230318-688-WrongSquad.log",
+      "sha256": "6AF2BD105E5B0AB0D5C68D158BBB7641367D2017ED97380F2C1A12C16CF0CD74",
+      "size_bytes": 176199,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\WrongSquad.log"
+    },
+    {
+      "path": "evidence/cold-coop-recovery/checks-20261009-230318-688-checkpoint0.sav",
+      "sha256": "8F3EBD1B5D1A08AEF8478F390EE16B9CDDA299972D8AE26A61D605998BCA1F51",
+      "size_bytes": 23457,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-230318-688\\checkpoint0.sav"
+    },
+    {
+      "path": "evidence/cold-coop-recovery/Tools-Invoke-CheckpointNetworkChecks.ps1",
+      "sha256": "DBC4069409329D155538DE1B9D29627575ACFA3422E8B9A4B4BE0B3AF7B75F3B",
+      "size_bytes": 4666,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Tools\\Invoke-CheckpointNetworkChecks.ps1"
+    },
+    {
+      "path": "evidence/waves-and-party-regression/arenas-final-20261009-230839-354-result.json",
+      "sha256": "A08A8E006990AF0580A1A8D5F3941C0098CFDD46A176D174115A985862AA5FDB",
+      "size_bytes": 466,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\arenas-final-20261009-230839-354\\result.json"
+    },
+    {
+      "path": "evidence/waves-and-party-regression/arenas-final-20261009-230839-354-Automation.log",
+      "sha256": "A5EB9B4058DA5FCE0242C6463313C444A134FF93000E57E2173221D5C9F1DE54",
+      "size_bytes": 328397,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\arenas-final-20261009-230839-354\\Automation.log"
+    },
+    {
+      "path": "evidence/fresh-party-fire-and-entrances/checks-20261009-231218-318-result.json",
+      "sha256": "2B0D58A9FD66AC61E087224D332474DBD5DC2F3C06EEDB6A8B219D4C8965773C",
+      "size_bytes": 960,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\entrance-network\\checks-20261009-231218-318\\result.json"
+    },
+    {
+      "path": "evidence/fresh-party-fire-and-entrances/checks-20261009-231218-318-Host.log",
+      "sha256": "F40C99286F5C9308DD2A9AE8A2FC3C7F8FF044ECF6BFDA2C3C2D7B91C5CC5171",
+      "size_bytes": 188749,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\entrance-network\\checks-20261009-231218-318\\Host.log"
+    },
+    {
+      "path": "evidence/fresh-party-fire-and-entrances/checks-20261009-231218-318-Client.log",
+      "sha256": "77BE800B8CFF5B5DA743D0DC775068F91FB4C1C0DF418932CEC48B2D8346BF59",
+      "size_bytes": 180108,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\entrance-network\\checks-20261009-231218-318\\Client.log"
+    },
+    {
+      "path": "evidence/legacy-protocol-rejection/compatibility-20261009-231251-446-result.json",
+      "sha256": "AE0CA963689B2DEBEB055EC7C463E2005B5B5C673051E402E41E92D5EDE9ECB0",
+      "size_bytes": 1112,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\compatibility-20261009-231251-446\\result.json"
+    },
+    {
+      "path": "evidence/legacy-protocol-rejection/compatibility-20261009-231251-446-new-host-client.log",
+      "sha256": "0504A1BB1A3006D17E13F96F23E90D498A7D5C657825A15AB78393D104166A23",
+      "size_bytes": 180957,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\compatibility-20261009-231251-446\\new-host-client.log"
+    },
+    {
+      "path": "evidence/legacy-protocol-rejection/compatibility-20261009-231251-446-new-host-host.log",
+      "sha256": "36B738BDD2E1886B4A6188748EA23CF553053542CF680C64F113F46085CA6F9E",
+      "size_bytes": 184020,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\compatibility-20261009-231251-446\\new-host-host.log"
+    },
+    {
+      "path": "evidence/legacy-protocol-rejection/compatibility-20261009-231251-446-old-host-client.log",
+      "sha256": "A6959B6C3908D0885DE1DF374012EBDDA0EAC0E1A458A05F9B8774D51E92BA15",
+      "size_bytes": 190396,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\compatibility-20261009-231251-446\\old-host-client.log"
+    },
+    {
+      "path": "evidence/legacy-protocol-rejection/compatibility-20261009-231251-446-old-host-host.log",
+      "sha256": "5180292D4374646AFFF3DE811DEB4D295EF6E59D92D1F497A8AD2846BB2CCDC1",
+      "size_bytes": 181333,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\compatibility-20261009-231251-446\\old-host-host.log"
+    },
+    {
+      "path": "evidence/shipping-lan-startup/Shipping-20261009-231121-560-result.json",
+      "sha256": "4560CBB6B4FD739C9C640A695AE24F5EE3D7A5E3943D5A75AA9BBCCC47FC40E9",
+      "size_bytes": 594,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\Shipping-20261009-231121-560\\result.json"
+    },
+    {
+      "path": "evidence/shipping-lan-startup/Shipping-20261009-231121-560-Client.log",
+      "sha256": "987BB46F109A71666969C84EABBCD7DBC0F066CB6FDFEF23D67538E2BBD27277",
+      "size_bytes": 193500,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\Shipping-20261009-231121-560\\Client.log"
+    },
+    {
+      "path": "evidence/shipping-lan-startup/Shipping-20261009-231121-560-Host-sockets.json",
+      "sha256": "665F307D3F250B4A64BC0B11587A81BCFDEA71BB902C382FA8CE944C2CF3ED53",
+      "size_bytes": 84,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\Shipping-20261009-231121-560\\Host-sockets.json"
+    },
+    {
+      "path": "evidence/builds-and-delivery/vs56-editor-final.log",
+      "sha256": "11042FA098BF850C7E388D7B013EC67A3D6B459B9378C89B754E1F950FBDA570",
+      "size_bytes": 5645,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\editor-final.log"
+    },
+    {
+      "path": "evidence/builds-and-delivery/vs56-shipping-final.log",
+      "sha256": "B472E93D936A1F6D2E79578370A2194B0C32257B3A3DA8834D7600A607937BA8",
+      "size_bytes": 108489,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\shipping-final.log"
+    },
+    {
+      "path": "evidence/builds-and-delivery/vs56-release-tests-final.json",
+      "sha256": "910B6AE3307C273D057386783795D20B20EE9E245A79B16BD91369B2DD63E7D8",
+      "size_bytes": 110883,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\release-tests-final.json"
+    },
+    {
+      "path": "evidence/builds-and-delivery/vs56-post-affected-tests.json",
+      "sha256": "910B6AE3307C273D057386783795D20B20EE9E245A79B16BD91369B2DD63E7D8",
+      "size_bytes": 110883,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\post-affected-tests.json"
+    },
+    {
+      "path": "evidence/builds-and-delivery/vs56-shipping-before.json",
+      "sha256": "910B6AE3307C273D057386783795D20B20EE9E245A79B16BD91369B2DD63E7D8",
+      "size_bytes": 110883,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\shipping-before.json"
+    },
+    {
+      "path": "evidence/builds-and-delivery/vs56-shipping-after.json",
+      "sha256": "910B6AE3307C273D057386783795D20B20EE9E245A79B16BD91369B2DD63E7D8",
+      "size_bytes": 110883,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\shipping-after.json"
+    },
+    {
+      "path": "evidence/builds-and-delivery/vs56-package-artifacts.json",
+      "sha256": "936CFFEA352A4FC8E92A41EF76A2355F1B0B892C7C563121C1F46D8182CC5DA4",
+      "size_bytes": 1291,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\package-artifacts.json"
+    },
+    {
+      "path": "evidence/builds-and-delivery/vs56-publisher-result.json",
+      "sha256": "5760DF269634884C22B0E78B3AF4B1B4915894317A5C320872670F2083AE6B79",
+      "size_bytes": 429,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\publisher-result.json"
+    },
+    {
+      "path": "evidence/builds-and-delivery/vs56-updater-result.json",
+      "sha256": "738CDE8F6CB411A790596E25C1016796404E04C8831B82D10499AFF5A7C75B48",
+      "size_bytes": 236,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\updater-result.json"
+    },
+    {
+      "path": "evidence/builds-and-delivery/vs56-updater-recheck.json",
+      "sha256": "9412BD58563D52C03673C40C7D7F441EFFB927617DD1849E34652121FE45392C",
+      "size_bytes": 236,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\updater-recheck.json"
+    },
+    {
+      "path": "evidence/builds-and-delivery/vs56-delivery-proof.json",
+      "sha256": "23D3A7AF3CC3B39ADE036E1C042D81990D11F1A92A2C33A90101FC526C19E603",
+      "size_bytes": 6746,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\delivery-proof.json"
+    },
+    {
+      "path": "evidence/input-readiness-diagnosis/checks-20261009-225432-983-ResumeClient.log",
+      "sha256": "140C656990D37DF9B127F98277DD484CC1A52E40B3EB3657CB2892FEF31816A3",
+      "size_bytes": 180571,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-225432-983\\ResumeClient.log"
+    },
+    {
+      "path": "evidence/input-readiness-diagnosis/checks-20261009-225432-983-ResumeHost.log",
+      "sha256": "70024936AF9CFD543EC6786AD578251A778169483D2029190F89A306271F8971",
+      "size_bytes": 188924,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-225432-983\\ResumeHost.log"
+    },
+    {
+      "path": "evidence/input-readiness-diagnosis/checks-20261009-225730-979-ResumeClient.log",
+      "sha256": "E3ADA284C594FA664C31679B58D90790D6BEC9FCA1106D10DC809CF373E054D1",
+      "size_bytes": 180990,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-225730-979\\ResumeClient.log"
+    },
+    {
+      "path": "evidence/input-readiness-diagnosis/checks-20261009-225730-979-ResumeHost.log",
+      "sha256": "CE970DF0028AB2175324CE995E28058AB5B462E36CCFF1FF01B947D3E2B71E6D",
+      "size_bytes": 189341,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\cold-network\\checks-20261009-225730-979\\ResumeHost.log"
+    },
+    {
+      "path": "evidence/input-readiness-diagnosis/disk1-20261009-224637-726-Automation.log",
+      "sha256": "7650C8AFEBB482E80E0F34E5A9F4F25E2DCC99E9172309126072D8918402680F",
+      "size_bytes": 185680,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\disk1-20261009-224637-726\\Automation.log"
+    },
+    {
+      "path": "evidence/input-readiness-diagnosis/disk2-20261009-225055-254-Automation.log",
+      "sha256": "9672D5196B848C1AE947731F31F8FAABCBB190DC2CA37DE25085330715E77CE4",
+      "size_bytes": 185586,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\disk2-20261009-225055-254\\Automation.log"
+    },
+    {
+      "path": "evidence/input-readiness-diagnosis/world1-20261009-224638-823-Automation.log",
+      "sha256": "92BA83454FC0834749B8EBC8D0FC683E88B840C8CAB7B668CCEE1D8C5343D96F",
+      "size_bytes": 197671,
+      "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs56\\world1-20261009-224638-823\\Automation.log"
+    }
+  ]
+}

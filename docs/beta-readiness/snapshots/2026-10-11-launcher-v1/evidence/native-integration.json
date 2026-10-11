@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "scope": "Actual compiled native C# production internet updater with RSA-signed local fixtures. No live HTTPS or game execution.",
+  "run": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\test-output\\checks-20261011-161719-414",
+  "checks": [
+    {
+      "name": "Check announces signed release without installing game",
+      "passed": true
+    },
+    {
+      "name": "Fresh signed release installs complete payload",
+      "passed": true
+    },
+    {
+      "name": "Repeated check stays CURRENT",
+      "passed": true
+    },
+    {
+      "name": "New build updates and retains previous",
+      "passed": true
+    },
+    {
+      "name": "Rollback restores previous build",
+      "passed": true
+    },
+    {
+      "name": "Rolled-back build holds against same rejected release",
+      "passed": true
+    },
+    {
+      "name": "Newer release clears rollback hold",
+      "passed": true
+    },
+    {
+      "name": "Repair replaces corrupt same-version game",
+      "passed": true
+    },
+    {
+      "name": "Player saves survive update, rollback, and repair",
+      "passed": true
+    },
+    {
+      "name": "Unsigned metadata mutation rejected; installed game preserved",
+      "passed": true
+    },
+    {
+      "name": "Signed path traversal rejected before extraction",
+      "passed": true
+    },
+    {
+      "name": "Corrupt archive rejected; previous installation intact",
+      "passed": true
+    },
+    {
+      "name": "Foreign nonempty folder refused",
+      "passed": true
+    },
+    {
+      "name": "Interrupted directory swap recovers verified install",
+      "passed": true
+    }
+  ]
+}

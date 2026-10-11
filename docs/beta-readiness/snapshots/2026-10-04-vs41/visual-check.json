@@ -1,0 +1,22 @@
+{
+  "status": "INSPECTED",
+  "inspected_on": "2026-10-04",
+  "scope": "Compared fresh 1280x720 normal-interaction frames. When the highlighted offer is already in the selected slot, the menu now states that and asks the player to browse another weapon instead of repeating a same-to-same comparison and four identical stats. The visible shader-preparation notice and transient acquisition receipt limit this capture as a final readability judgment; human comprehension remains untested.",
+  "images": [
+    {
+      "path": "visuals/ArsenalOpen.png",
+      "sha256": "A2871CB9FCD415225AA950BCAA370C457B625BFC19E5830D3FDD6B02628E491A",
+      "resolution": "1280x720"
+    },
+    {
+      "path": "visuals/PrimaryAfterSecondary.png",
+      "sha256": "FE28506645FF488BF179D5C1850ACF993D57655F40C4908C68B857E8121EB3C7",
+      "resolution": "1280x720"
+    },
+    {
+      "path": "visuals/SamePrimaryReturn.png",
+      "sha256": "3E1D57183DB7ED69BECF0C132CE193BECAD14786830AD18F91B131BE42C40B86",
+      "resolution": "1280x720"
+    }
+  ]
+}

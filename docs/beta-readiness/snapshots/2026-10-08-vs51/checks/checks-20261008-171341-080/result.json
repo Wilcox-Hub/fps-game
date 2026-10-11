@@ -1,0 +1,11 @@
+﻿{
+    "passed":  true,
+    "tests":  [
+                  "Ridgefire.Pressure.MovementAimAndCombat"
+              ],
+    "filter":  "Ridgefire.Pressure.",
+    "log":  "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs51\\checks-20261008-171341-080\\Automation.log",
+    "rendered":  false,
+    "scope":  "Controlled local Editor production-path checks; no human or second-PC acceptance",
+    "exit_code":  0
+}

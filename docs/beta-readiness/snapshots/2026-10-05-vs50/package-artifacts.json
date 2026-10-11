@@ -1,0 +1,34 @@
+{
+  "archive_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261005-134833-568\\Windows",
+  "artifacts": [
+    {
+      "path": "TP_FirstPerson.exe",
+      "size_bytes": 171520,
+      "sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4"
+    },
+    {
+      "path": "Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+      "size_bytes": 166556160,
+      "sha256": "4EC2C7520039C8C1CE1BE3B697288E9F5561EAB3474AF1448720B5E69E056277"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/Ridgefire-Windows.pak",
+      "size_bytes": 11247371,
+      "sha256": "BD1B4582860841EFF622CBF94322658FA72DFBD68053A7199BC1899B8396CEE6"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/Ridgefire-Windows.ucas",
+      "size_bytes": 237085568,
+      "sha256": "2FC89FF3CE1D7E3042A73F35423EF36A169B178806F6E8C3A2E792D014598C7D"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/Ridgefire-Windows.utoc",
+      "size_bytes": 237648,
+      "sha256": "4C047E15FDF3F0E901B4E069AE56FB2211A0D000BEDA815B3B1B8BB92CBACDEE"
+    }
+  ],
+  "launched": true,
+  "launch_scope": "Hidden NullRHI automated host; current package remains unvalidated for two-PC human play.",
+  "fixed_install_windows_absolute_path": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN\\Game\\Windows",
+  "fixed_install_launched": false
+}

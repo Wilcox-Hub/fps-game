@@ -1,0 +1,16 @@
+{
+  "assessed_on": "2026-10-05",
+  "previous_snapshot": "2026-10-05-vs44",
+  "input_count": 561,
+  "changed_game_inputs": [],
+  "additional_inputs_verified": [
+    {
+      "path": "Tools/Invoke-ArsenalConfirmationChecks.ps1",
+      "sha256": "97F15D7DA3D25938FE453F84A6D30C695F1845078140E161923BA6E88C78977B"
+    }
+  ],
+  "fresh_check": "Arsenal confirmations and eight rendered screens at 1920x1080",
+  "historical_reference": "VS44 October 5 Editor/Shipping builds, loadout/fire/ammo and 1280x720/800x600 checks retain their original dates and scopes; not rerun here. Earlier evidence remains historical.",
+  "score_policy": "Keep October 4 VS41 low-confidence 69% planning estimate; no new whole-game credit.",
+  "publication": "LOCAL_UNPUBLISHED"
+}

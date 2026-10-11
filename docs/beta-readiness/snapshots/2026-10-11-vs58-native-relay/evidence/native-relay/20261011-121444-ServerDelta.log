@@ -1,0 +1,25 @@
+[2026.10.11-19.14.48:348][ 82]LogNet: NotifyAcceptingConnection accepted from: 172.18.0.1:57706
+[2026.10.11-19.14.48:348][ 82]LogNetVersion: Ridgefire 1.0.0.0, NetCL: 55116800, EngineNetworkVersion: 44, GameNetworkVersion: 58 (Checksum: 666998307)
+[2026.10.11-19.14.48:348][ 82]LogHandshake: SendConnectChallenge. Timestamp: 18.224540, Cookie: 241083112022067231058176048190205126004120007050129067126047
+[2026.10.11-19.14.48:381][ 84]LogNet: NotifyAcceptingConnection accepted from: 172.18.0.1:57706
+[2026.10.11-19.14.48:382][ 84]LogHandshake: SendChallengeAck. InCookie: 241083112022067231058176048190205126004120007050129067126047
+[2026.10.11-19.14.48:382][ 84]LogNet: Server accepting post-challenge connection from: 172.18.0.1:57706
+[2026.10.11-19.14.48:382][ 84]LogNet: IpConnection_2147481953 setting maximum channels to: 32767
+[2026.10.11-19.14.48:383][ 84]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.10.11-19.14.48:384][ 84]LogNet: NotifyAcceptedConnection: Name: Lvl_Shooter, TimeStamp: 10/11/26 19:14:48, [UNetConnection] RemoteAddr: 172.18.0.1:57706, Name: IpConnection_2147481953, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.11-19.14.48:384][ 84]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 172.18.0.1:57706, Name: IpConnection_2147481953, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.11-19.14.48:415][ 86]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter: Accepted
+[2026.10.11-19.14.48:415][ 86]LogNet: Remote platform little endian=1
+[2026.10.11-19.14.48:415][ 86]LogNet: This platform little endian=1
+[2026.10.11-19.14.48:449][ 88]LogNet: Login URL: REDACTED
+[2026.10.11-19.14.48:449][ 88]LogNet: PreLogin failure: Private server invite rejected.
+[2026.10.11-19.14.48:449][ 88]LogNet: UNetConnection::SendCloseReason:
+[2026.10.11-19.14.48:449][ 88]LogNet:  - Result=PreLoginFailure, ErrorContext="PreLoginFailure"
+[2026.10.11-19.14.48:449][ 88]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 172.18.0.1:57706, Name: IpConnection_2147481953, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064, Channels: 3, Time: 2026.10.11-19.14.48
+[2026.10.11-19.14.48:449][ 88]LogNet: UNetConnection::SendCloseReason:
+[2026.10.11-19.14.48:449][ 88]LogNet:  - Result=PreLoginFailure, ErrorContext="PreLoginFailure"
+[2026.10.11-19.14.48:450][ 88]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.18.0.1:57706, Name: IpConnection_2147481953, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064
+[2026.10.11-19.14.48:466][ 89]LogNet: UNetDriver::RemoveClientConnection - Removed address 172.18.0.1:57706 from MappedClientConnections for: [UNetConnection] RemoteAddr: 172.18.0.1:57706, Name: IpConnection_2147481953, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064
+[2026.10.11-19.14.48:466][ 89]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 172.18.0.1:57706, Name: IpConnection_2147481953, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064 bPendingDestroy=0 
+[2026.10.11-19.14.48:482][ 90]LogNet: NotifyAcceptingConnection accepted from: 172.18.0.1:57706
+[2026.10.11-19.14.48:482][ 90]LogNet: NotifyAcceptingConnection accepted from: 172.18.0.1:57706

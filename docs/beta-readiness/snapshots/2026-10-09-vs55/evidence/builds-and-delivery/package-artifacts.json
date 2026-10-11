@@ -1,0 +1,32 @@
+{
+  "archive_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261009-115952-897\\Windows",
+  "artifacts": [
+    {
+      "path": "TP_FirstPerson.exe",
+      "size_bytes": 171520,
+      "sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4"
+    },
+    {
+      "path": "Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+      "size_bytes": 166690816,
+      "sha256": "E5E09EE174E8C2D75E9940D4B879111D7F59674A2447E3450BA61947C18E810F"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/Ridgefire-Windows.pak",
+      "size_bytes": 18012554,
+      "sha256": "3EB6468530D251695ECD3B05CA7CADED62B695EFEA571ED35CDB21D5A169BBA5"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/Ridgefire-Windows.ucas",
+      "size_bytes": 237153216,
+      "sha256": "A2DE71C836D55F7E42DBFEC8317D4A5C8F6DA5D613CF22B82F04A3727BEF18C3"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/Ridgefire-Windows.utoc",
+      "size_bytes": 238162,
+      "sha256": "776A38AC5290A9F0BC94B95DCA854BE6386F02C64512FA2BBB22F48525028FAF"
+    }
+  ],
+  "launched": false,
+  "launch_scope": "Final Shipping runtime initialization assessed by the separate local LAN probe; no Shipping rendering or combat acceptance."
+}

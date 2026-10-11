@@ -1,0 +1,178 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "inspected_on": "2026-10-05",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "frame_count": 16,
+  "images": [
+    {
+      "path": "visuals/default-1080p/Stage0.png",
+      "sha256": "87239A06ECF524BAB1DADAD22C515F21A0D44376F2ADF091ED2E2867A4B07A9A",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/Stage1.png",
+      "sha256": "2ECEFAA220C56A8DB506ED7CFAF56B76D567297F8E109E8853C2E271E1A4186C",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/Stage2.png",
+      "sha256": "25D4A084D3BAAFAC0D38E112A23E7B97B4573004672010022CB9BE190D3525C0",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/Stage3.png",
+      "sha256": "99B6383BB9BAAB86CC5D85DC871F7C04003C462FCEABA4B784FE1BD0202021B4",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/Stage4.png",
+      "sha256": "24C0BFA172C1512DC8A47B18DD84C5CD266DBA388814009D6ADB1733ECEB6203",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/ArsenalPrimary.png",
+      "sha256": "BFBD9D26F5D7D86E532E9AE676F09630116EDF943DA16D97993E7D79B13FE7CB",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/ArsenalSecondary.png",
+      "sha256": "56975E099001C4C201AA69EE7A4434369039F622CD9AC9067506B8918F1D9E83",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/CombatPrimary.png",
+      "sha256": "6A6DDD275A29FF10439764D1A3DCA71B220199769EFBB767975BA8B1E132EE90",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/KnownComparison.png",
+      "sha256": "EC9A8515A9A9B390B2E5D56C14E89DABCB0A0EB94C2AF61E1A3B8ADF0B7ADEBB",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/PurchaseRejected.png",
+      "sha256": "63B4AF2424D78D4FC934F6361B972FAA943CDDFFEFA8713CCF44B33E0A9FD5C3",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/PurchaseReceipt.png",
+      "sha256": "3438C78F0B14C5B770718FD6FD4114A5D61DB5E5B0F4984935E7D63272E145D1",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/UpgradePreview.png",
+      "sha256": "B6A852C00ABEB2147EDAEA08497B5CCB107C440518A8EF9E23E7F5877979BF04",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/UpgradeDetails.png",
+      "sha256": "20DA97E4F4D728EAF485E2476E2ED21DB793243264EF605BADA14F1688C21668",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/UpgradeReceipt.png",
+      "sha256": "3AD987848C0D9F30624ED6C1B701BB677475ED572287983C7B5C20F051D7C8C3",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/WildcardComparison.png",
+      "sha256": "21307339CFDC7DE241DA8E1E84614869E3B47603B5765070A92EE41C72149B31",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/WildcardKept.png",
+      "sha256": "F5D3C3EC579667C15AF730A0EBF2ABE987CE71090F64931EBD85BD26E8B8F8B2",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    }
+  ],
+  "observations": [
+    "Arsenal lists exactly two carried guns, with 1/2 equipped states and named replacement destinations; purchase/upgrade/keep receipts inspected. No third carry row or overlapping/clipped arsenal content in these frames.",
+    "Final combat loadout names only primary and secondary; opening footer states two-weapon limit. Third opening offer choice remains an offer, not a carried slot.",
+    "Main combat and team-vote layout remains largely unchanged; shader-preparation notices appear on some startup/deployment/arsenal frames. No clean-frame or whole-HUD-polish claim.",
+    "Default startup/arsenal rendered at 1080p; Gale/wildcard secondary startup headless. Extreme names, localization, other aspect ratios and owner fun/readability acceptance remain open."
+  ],
+  "human_acceptance": false
+}

@@ -1,0 +1,28 @@
+[2026.10.09-07.01.50:572][457]LogAutomationController: Display: Test Completed. Result={Success} Name={AddedArmorShot} Path={Ridgefire.Regressions.Hitboxes.AddedArmorShot}
+[2026.10.09-07.01.50:572][457]LogAutomationController: Added armor actual Gale shot: hp=1000.000->958.000 ammo=24->23 point=X=199967.430 Y=199938.177 Z=49924.050 collision=1
+[2026.10.09-07.01.52:192][459]LogAutomationController: Display: Test Completed. Result={Success} Name={RenderedShape} Path={Ridgefire.Regressions.Hitboxes.RenderedShape}
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=0 pose=0 parts=30 matched=1328 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=0 pose=1 parts=30 matched=1322 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=0 pose=2 parts=30 matched=1307 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=1 pose=0 parts=34 matched=1342 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=1 pose=1 parts=34 matched=1329 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=1 pose=2 parts=34 matched=1325 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=2 pose=0 parts=34 matched=2542 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=2 pose=1 parts=34 matched=2543 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=2 pose=2 parts=34 matched=2537 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=3 pose=0 parts=30 matched=1334 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=3 pose=1 parts=30 matched=1308 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=3 pose=2 parts=30 matched=1306 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=4 pose=0 parts=8 matched=949 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=4 pose=1 parts=8 matched=922 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Shape scan role=4 pose=2 parts=8 matched=900 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-07.01.52:192][459]LogAutomationController: Bot shape complete rays=73011 matched=22294 missed=0 ghosts=0 seconds=1.595
+{
+  "passed": true,
+  "log": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\physics-probe2-20261009-000137-304\\Automation.log",
+  "rendered": false,
+  "scope": "Actual Blueprint bots, LOD0 render-triangle oracle versus complex weapon-channel rays; standard, sprinter, brute, champion, turret; three poses and three views. Controlled same-PC Editor, no human or remote acceptance.",
+  "exit_code": 0,
+  "time_utc": "2026-10-09T07:01:52.5063473Z"
+}
+

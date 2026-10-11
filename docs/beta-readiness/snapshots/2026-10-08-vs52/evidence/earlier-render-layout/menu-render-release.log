@@ -1,0 +1,18 @@
+{
+    "passed":  true,
+    "width":  1920,
+    "height":  1080,
+    "folder":  "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/Automation/MenuReview/20261008-225514/",
+    "frames":  [
+                   "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-225514\\01-FrontEnd.png",
+                   "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-225514\\02-Perks.png",
+                   "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-225514\\03-Secondary.png",
+                   "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-225514\\04-TeamVote.png",
+                   "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-225514\\05-Primary.png",
+                   "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-225514\\06-Arsenal.png",
+                   "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\MenuReview\\20261008-225514\\07-ExactStats.png"
+               ],
+    "scope":  "Actual native Slate offscreen Editor render; controlled state fixture, no human or normal-startup acceptance",
+    "log":  "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs52\\menus-20261008-225440-352\\Editor.log"
+}
+

@@ -1,0 +1,673 @@
+{
+  "snapshot_id": "2026-10-09-vs53",
+  "recorded_at": "2026-10-09T00:34:38.459266-07:00",
+  "verdict": "NOT_BETA_READY",
+  "cases": [
+    {
+      "id": "shape-and-actual-armor-shot",
+      "outcome": "PASS",
+      "validation_level": "HEADLESS_EDITOR",
+      "scope": "Independent LOD0 render triangles against actual complex weapon-channel world rays at production encounter scales; 136,435 samples, three views and poses for all five roles. Normal Gale shot into added brute armor now damages 1000->958 and spends 24->23 ammo. Actual deaths disable visible body/capsule collision; corpse rays do not block. Pawn movement collision properties retained.",
+      "limitations": "Controlled Blueprint actors, 6cm sample grid, exact-ray accuracy seam, manual real-pose ticks and no human/terrain/latency acceptance. LOD0 triangle measurements are not a rendered pixel inspection or exhaustive collision proof.",
+      "evidence": [
+        {
+          "path": "evidence/shape-and-actual-armor-shot/result.json",
+          "sha256": "DFECAA726C29BE7C5ADF51B00C2E053DEA094CE55F6FE52FFF3EA1BC0A9428F3",
+          "size_bytes": 470,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\accepted-shape-20261009-002014-226\\result.json"
+        },
+        {
+          "path": "evidence/shape-and-actual-armor-shot/Automation.log",
+          "sha256": "240866CCCBC332AB4D865EC3A6508DC562D47A1E392A57DA0D60BA01FB7CD09B",
+          "size_bytes": 191315,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\accepted-shape-20261009-002014-226\\Automation.log"
+        },
+        {
+          "path": "evidence/shape-and-actual-armor-shot/accepted-shape-rays.csv.gz",
+          "sha256": "FB9EE37CD15D0351B4C92D6C5C90538B8326BC83D28AC17B6CB1CABBDDD16631",
+          "size_bytes": 430458,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\accepted-shape-rays.csv.gz"
+        }
+      ],
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "matches_current": true,
+        "manifest": "input-manifest.json"
+      },
+      "tested_at": "2026-10-09T07:34:39.363691+00:00",
+      "human_acceptance_credit": false,
+      "measurements": {
+        "sampled_rays": 136435,
+        "matched_body_hits": 44879,
+        "missed_body_samples": 0,
+        "empty_space_hits": 0,
+        "surface_errors_over_1_cm": 0,
+        "sampling_step_cm": 6,
+        "view_yaws_degrees": [
+          0,
+          90,
+          38
+        ],
+        "roles": [
+          "standard",
+          "sprinter",
+          "brute",
+          "champion",
+          "turret"
+        ],
+        "poses_per_role": 3
+      },
+      "compressed_measurements": {
+        "uncompressed_sha256": "8D3013E6865011235FAD3053ED0B0E825D217EBDAC10183F5820EBB24B740F9C",
+        "uncompressed_size_bytes": 7279635,
+        "format": "gzip compressed UTF-8 CSV; lossless measurements"
+      }
+    },
+    {
+      "id": "gale-and-phasma-cover",
+      "outcome": "PASS",
+      "validation_level": "HEADLESS_EDITOR",
+      "scope": "Current VisibleBodyAndPhasmaCover production-path regression: empty-space Gale shot, visible armor, isolated direct/splash/falloff, opaque cover and shared-owner wall panels; local role silhouettes.",
+      "limitations": "Frozen, exact-ray controlled actors. No normal random spread, physical input or human splash/readability acceptance.",
+      "evidence": [
+        {
+          "path": "evidence/gale-and-phasma-cover/cover-accepted.log",
+          "sha256": "E69E12687B8DFF14E4E89C80FC353D02CE847D46A7A39DCB9BF0E71163228EA5",
+          "size_bytes": 351,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\cover-accepted.log"
+        },
+        {
+          "path": "evidence/gale-and-phasma-cover/IRON-SUN-Reliability-20261009-002014-437.log",
+          "sha256": "5A915D9AFFE7C2BE849167FAC856C2A2A5152F605C59CABB993E75E906F3CD4B",
+          "size_bytes": 192664,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Logs\\IRON-SUN-Reliability-20261009-002014-437.log"
+        }
+      ],
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "matches_current": true,
+        "manifest": "input-manifest.json"
+      },
+      "tested_at": "2026-10-09T07:20:30.184420+00:00",
+      "human_acceptance_credit": false
+    },
+    {
+      "id": "replica-geometry-and-firing",
+      "outcome": "PASS",
+      "validation_level": "LOCAL_TWO_PROCESS_EDITOR",
+      "scope": "Current normal encounter standard-bot size (1.35) must match on both peers; one live standard body per peer compares independent LOD0 render triangles against its component physics across three views. Actual two-process Editor host/client controller LeftMouseButton presses and releases, primary then secondary selection; both peers must retain equipped weapon and spend ammo. Frozen enemies and accelerated setup. No Internet, packaged, hardware-input, latency/fun or second-PC acceptance.",
+      "limitations": "Normal encounter cohort scale 1.35 matches on both peers. One live standard body per peer has zero measured misses/ghosts/surface errors. Client/host body queries are local; no synchronized pose/latency test, remote damage into every role or physical second-PC acceptance.",
+      "evidence": [
+        {
+          "path": "evidence/replica-geometry-and-firing/result.json",
+          "sha256": "4D989AE5F550171717664B7721814FE473FF21C40662AC11A62A2B4ADB3DEFE5",
+          "size_bytes": 1108,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\bot-network\\checks-20261009-002014-937\\result.json"
+        },
+        {
+          "path": "evidence/replica-geometry-and-firing/Host.log",
+          "sha256": "D8CC490A7B97837498867FDA990C7AF3A3072A8E46C49532004EA55A0B652576",
+          "size_bytes": 186702,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\bot-network\\checks-20261009-002014-937\\Host.log"
+        },
+        {
+          "path": "evidence/replica-geometry-and-firing/Client.log",
+          "sha256": "EA8AD2891F9AD7E10A3ADFD6639157273A0CAF9BE8F785E3F83E126B419164C7",
+          "size_bytes": 179653,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\bot-network\\checks-20261009-002014-937\\Client.log"
+        },
+        {
+          "path": "evidence/replica-geometry-and-firing/run-bot-network.ps1",
+          "sha256": "A666B85D442482F8AC18A68358649C95B6857B84C2005C78ABE97EEC16B281AB",
+          "size_bytes": 3512,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\run-bot-network.ps1"
+        }
+      ],
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "matches_current": true,
+        "manifest": "input-manifest.json"
+      },
+      "tested_at": "2026-10-09T07:20:48.486709+00:00",
+      "human_acceptance_credit": false
+    },
+    {
+      "id": "incompatible-builds",
+      "outcome": "PASS",
+      "validation_level": "LOCAL_TWO_PROCESS_EDITOR",
+      "scope": "Real local Editor network handshake, VS50 legacy versus VS53 both directions. Rejected before login/actor RPCs. New client gets update message; old client retains its older generic message. No packaged/second-PC acceptance.",
+      "limitations": "Known VS50 versus VS53 control; exact owner PC versions remain unconfirmed. No current VS52/VS53 physical-PC retry.",
+      "evidence": [
+        {
+          "path": "evidence/incompatible-builds/result.json",
+          "sha256": "E2E18A40BC3C73359BD9D5385628C6CB918477E79A8C8247B6B1FB0B2900332B",
+          "size_bytes": 1112,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\compatibility-20261009-002447-642\\result.json"
+        },
+        {
+          "path": "evidence/incompatible-builds/new-host-client.log",
+          "sha256": "B90C73AEB05714E3897EA9DA5319E03F01017A3AAA634CBF4418FCA828DD83FA",
+          "size_bytes": 181149,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\compatibility-20261009-002447-642\\new-host-client.log"
+        },
+        {
+          "path": "evidence/incompatible-builds/new-host-host.log",
+          "sha256": "D077BC8796E1C868D28D431D08967D6EB03BA3C061619789E1EF0E85D991B92E",
+          "size_bytes": 182452,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\compatibility-20261009-002447-642\\new-host-host.log"
+        },
+        {
+          "path": "evidence/incompatible-builds/old-host-client.log",
+          "sha256": "6EEB6E4FCD5B6C2A01CA9C23147E247DE7053619A6F2ACD87BB77C71C0395448",
+          "size_bytes": 189330,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\compatibility-20261009-002447-642\\old-host-client.log"
+        },
+        {
+          "path": "evidence/incompatible-builds/old-host-host.log",
+          "sha256": "89163894C045FF6B3F48B712594E4A46A623E19F9F69D311B6C2E2EE7A929916",
+          "size_bytes": 181847,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\compatibility-20261009-002447-642\\old-host-host.log"
+        }
+      ],
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "matches_current": true,
+        "manifest": "input-manifest.json"
+      },
+      "tested_at": "2026-10-09T07:25:14.599872+00:00",
+      "human_acceptance_credit": false
+    },
+    {
+      "id": "shipping-lan-startup",
+      "outcome": "PASS",
+      "validation_level": "SHIPPING_STARTUP",
+      "scope": "Shipping runtime host versus actual Editor Null/LAN client using existing session subsystem smoke flags; localhost only, headless, no two-device or human acceptance; no firewall changes",
+      "limitations": "Shipping runtime/local Editor client, same PC and headless. No final Shipping hitbox/weapon combat, rendering, audio, hardware input or packaged full-run acceptance.",
+      "evidence": [
+        {
+          "path": "evidence/shipping-lan-startup/result.json",
+          "sha256": "82008BECD8FEAE04A392FBB16F3595E3EC375EC39867751271240A962AEB57D0",
+          "size_bytes": 594,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\Shipping-20261009-002448-003\\result.json"
+        },
+        {
+          "path": "evidence/shipping-lan-startup/Client.log",
+          "sha256": "7DA07F85B6ACE39BB7391BB9AD025BB36D2DA21E5E2FE3523C15BD55492CD35C",
+          "size_bytes": 188989,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\Shipping-20261009-002448-003\\Client.log"
+        },
+        {
+          "path": "evidence/shipping-lan-startup/Host-sockets.json",
+          "sha256": "7F9814844633917E471B5BAF3219E9C100016C21CC7B052E2D887E31AD8AFDBB",
+          "size_bytes": 84,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\Shipping-20261009-002448-003\\Host-sockets.json"
+        }
+      ],
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "matches_current": true,
+        "manifest": "input-manifest.json"
+      },
+      "tested_at": "2026-10-09T07:25:01.246453+00:00",
+      "human_acceptance_credit": false
+    },
+    {
+      "id": "builds-and-delivery",
+      "outcome": "PASS",
+      "validation_level": "BUILD",
+      "scope": "Editor and complete Windows Shipping builds pass; final source/content hashes unchanged before/after. All five package artifacts, full update ZIP and all 32 installed payloads match; updater reports UPDATED then CURRENT, NoLaunch.",
+      "limitations": "Local unpublished prototype and feed. Wife PC remains unupdated; fixed install not launched; network share and fixed-path firewall activation remain pending.",
+      "evidence": [
+        {
+          "path": "evidence/builds-and-delivery/editor-general-final.log",
+          "sha256": "029CDEF139EC8625668C8CCC078D6C67C19F942E6746122E6237439333C82903",
+          "size_bytes": 30395,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\editor-general-final.log"
+        },
+        {
+          "path": "evidence/builds-and-delivery/shipping-final.log",
+          "sha256": "1F124BE4611FBCD8DC71CC0C96B9FF3AC7D241B1A63C8107AC0AC0A40A46A44A",
+          "size_bytes": 94817,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\shipping-final.log"
+        },
+        {
+          "path": "evidence/builds-and-delivery/shipping-before.json",
+          "sha256": "C87EB39391FD512032145E0B1C6A637FA281F2B88A9DAB2DEACA1ECC87F63794",
+          "size_bytes": 107677,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\shipping-before.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/shipping-after.json",
+          "sha256": "C87EB39391FD512032145E0B1C6A637FA281F2B88A9DAB2DEACA1ECC87F63794",
+          "size_bytes": 107677,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\shipping-after.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/package-artifacts.json",
+          "sha256": "632357761132EFB001E09DB0CFC2C57F63C2CBA1D2151A252A53525410868629",
+          "size_bytes": 1370,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\package-artifacts.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/publisher-result.json",
+          "sha256": "F94958D32B832D7CFC2429878EE88171F615A96889B5E5C5BF8F03BC19E13347",
+          "size_bytes": 429,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\publisher-result.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/updater-result.json",
+          "sha256": "A415B72685FBEC37D8EB8B08FAE946AB9F2724DEC1FAF09CE36C40DFECD903C7",
+          "size_bytes": 236,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\updater-result.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/updater-recheck.json",
+          "sha256": "1AF12146D90A1B52715E7508AF70C3856C9AEBDF2F7CD4B82A4E75CF2198669C",
+          "size_bytes": 236,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\updater-recheck.json"
+        },
+        {
+          "path": "evidence/builds-and-delivery/delivery-proof.json",
+          "sha256": "C80139384ABE02E205A8352BEF28EB4B11FE59D5D5CF1192A9E83A2C9CED1250",
+          "size_bytes": 6746,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\delivery-proof.json"
+        }
+      ],
+      "input_validation": {
+        "scope": "FINAL_GAME_MANIFEST",
+        "matches_current": true,
+        "manifest": "input-manifest.json"
+      },
+      "tested_at": "2026-10-09T07:34:38.380905+00:00",
+      "human_acceptance_credit": false
+    },
+    {
+      "id": "original-shape-failure",
+      "outcome": "FAIL",
+      "validation_level": "HEADLESS_EDITOR",
+      "scope": "Original independent scan at initial fixture role sizes: visible sprinter/brute additions and most of the turret body were not hittable; brute head also had stale scaled physics.",
+      "limitations": "Historical red diagnostic, not current validation; initial champion was not enlarged like the production champion. Superseded by full production-scale controls.",
+      "evidence": [
+        {
+          "path": "evidence/original-shape-failure/Automation.log",
+          "sha256": "E0DBA2B09F2CE0535E77628BBC3480AB33E19D0094C8FD42E7029193A84B758C",
+          "size_bytes": 200170,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\baseline-20261008-234940-377\\Automation.log"
+        },
+        {
+          "path": "evidence/original-shape-failure/result.json",
+          "sha256": "DD389AB98BB91470D3E1B54FF29B4269C4566B3FA7552665AB15107304579B39",
+          "size_bytes": 465,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\baseline-20261008-234940-377\\result.json"
+        }
+      ],
+      "input_validation": {
+        "scope": "HISTORICAL_DIAGNOSTIC",
+        "matches_current": false,
+        "manifest": null
+      },
+      "tested_at": "2026-10-09T06:49:55.592860+00:00",
+      "human_acceptance_credit": false
+    },
+    {
+      "id": "original-real-armor-shot",
+      "outcome": "FAIL",
+      "validation_level": "HEADLESS_EDITOR",
+      "scope": "One actual Gale shot into independently proven visible added brute armor: ammo 24->23, health 1000->1000, collision disabled. This is the minimal reproduction.",
+      "limitations": "Historical diagnostic; fixed shot now spends a round and causes damage.",
+      "evidence": [
+        {
+          "path": "evidence/original-real-armor-shot/Automation.log",
+          "sha256": "C8F461701C87E5E8D285F0040E65106A0407EDB1D4F99CA4F3FDC82FC3D3C152",
+          "size_bytes": 189645,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\armor-red-20261008-235416-956\\Automation.log"
+        },
+        {
+          "path": "evidence/original-real-armor-shot/result.json",
+          "sha256": "9EB8A76D8458C4A12FEEB9C7D636178B255D2BC95B20441F98DBBC489B3CFFA8",
+          "size_bytes": 466,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\armor-red-20261008-235416-956\\result.json"
+        }
+      ],
+      "input_validation": {
+        "scope": "HISTORICAL_DIAGNOSTIC",
+        "matches_current": false,
+        "manifest": null
+      },
+      "tested_at": "2026-10-09T06:54:30.674567+00:00",
+      "human_acceptance_credit": false
+    },
+    {
+      "id": "production-scale-failure",
+      "outcome": "FAIL",
+      "validation_level": "HEADLESS_EDITOR",
+      "scope": "After body coverage and brute-only refresh, replaying real encounter scale ordering still produced 91 missed body samples and additional surface errors; general encounter resizing required the same physics refresh.",
+      "limitations": "Historical intermediate build, superseded by SetRidgefireBodyScale and client scale refresh.",
+      "evidence": [
+        {
+          "path": "evidence/production-scale-failure/Automation.log",
+          "sha256": "1CAFA51A5E106F1BFCC52A401818F63B523D0E9B454B873009025DCD25693A6E",
+          "size_bytes": 197389,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\encounter-red-20261009-001021-696\\Automation.log"
+        },
+        {
+          "path": "evidence/production-scale-failure/result.json",
+          "sha256": "E3CFEA7FD3D0863F6EA8C47D6FBC37CC97051D7716A0531E35C864B1583D36BA",
+          "size_bytes": 470,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\encounter-red-20261009-001021-696\\result.json"
+        }
+      ],
+      "input_validation": {
+        "scope": "HISTORICAL_DIAGNOSTIC",
+        "matches_current": false,
+        "manifest": null
+      },
+      "tested_at": "2026-10-09T07:10:39.470626+00:00",
+      "human_acceptance_credit": false,
+      "measurements": {
+        "sampled_rays": 136435,
+        "matched_body_hits": 44788,
+        "missed_body_samples": 91,
+        "empty_space_hits": 0,
+        "surface_errors_over_1_cm": 254,
+        "sampling_step_cm": 6,
+        "view_yaws_degrees": [
+          0,
+          90,
+          38
+        ],
+        "roles": [
+          "standard",
+          "sprinter",
+          "brute",
+          "champion",
+          "turret"
+        ],
+        "poses_per_role": 3
+      }
+    },
+    {
+      "id": "valid-network-geometry-red",
+      "outcome": "FAIL",
+      "validation_level": "LOCAL_TWO_PROCESS_EDITOR",
+      "scope": "Corrected independent per-component render/physics oracle observes host standard-bot misses=16 and surface_errors=50 before the general resize fix.",
+      "limitations": "Historical intermediate build; runner stopped after failure, so no client acceptance or claim about unsynchronized size. Earlier size-only check passed, disproving that hypothesis.",
+      "evidence": [
+        {
+          "path": "evidence/valid-network-geometry-red/Host.log",
+          "sha256": "A9522AA65AE78A18D5197FF406C904D8A82B0BE73EE389A93AD5FC26E614AA0A",
+          "size_bytes": 185353,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\bot-network\\checks-20261009-001556-500\\Host.log"
+        },
+        {
+          "path": "evidence/valid-network-geometry-red/Client.log",
+          "sha256": "48189CEE0AE8AAA1AB2722499F3ABCF46117CDE9EB4A3D0A28A9E0911E257538",
+          "size_bytes": 178948,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\bot-network\\checks-20261009-001556-500\\Client.log"
+        },
+        {
+          "path": "evidence/valid-network-geometry-red/replica-valid-red.log",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "size_bytes": 0,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\replica-valid-red.log"
+        }
+      ],
+      "input_validation": {
+        "scope": "HISTORICAL_DIAGNOSTIC",
+        "matches_current": false,
+        "manifest": null
+      },
+      "tested_at": "2026-10-09T07:16:17.705940+00:00",
+      "human_acceptance_credit": false
+    },
+    {
+      "id": "discarded-harness-probes",
+      "outcome": "PARTIAL",
+      "validation_level": "SOURCE",
+      "scope": "Retained diagnosis: first new C++ test needed a public Actor Tick call; debug accessor caused a linker error, so the first physics probe ran the old binary and is invalid. The corrected rebuild-only probe passed. An initial component oracle wrongly required bBlockingHit rather than its true hit-return value; that run is invalid. All probe switches/debug logs removed from final game source.",
+      "limitations": "These outputs are diagnostic history, not acceptance or current gameplay failures.",
+      "evidence": [
+        {
+          "path": "evidence/discarded-harness-probes/editor-test-gather.log",
+          "sha256": "5F78D67F837BAF1832BC38C2C06BCA8A9955F1B5D40C2BE8D8AAB8A7C9ABEFC9",
+          "size_bytes": 6086,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\editor-test-gather.log"
+        },
+        {
+          "path": "evidence/discarded-harness-probes/editor-physics-probe.log",
+          "sha256": "DEAB51ADCF29C5B0596670FB2328AC70AB1A6A28BCC2F7540F75314245F40534",
+          "size_bytes": 9138,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\editor-physics-probe.log"
+        },
+        {
+          "path": "evidence/discarded-harness-probes/physics-probe.log",
+          "sha256": "09F0984776CC72F49E4B023D3FC2BA679E6B6C8600CEFB5D01E0AA9C89A6A720",
+          "size_bytes": 4554,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\physics-probe.log"
+        },
+        {
+          "path": "evidence/discarded-harness-probes/physics-probe2.log",
+          "sha256": "8549BE9243570231900334411B9EDBFDDFF925BDF2EFDDB352995DBA43C3761F",
+          "size_bytes": 3187,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\physics-probe2.log"
+        },
+        {
+          "path": "evidence/discarded-harness-probes/replica-red.log",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "size_bytes": 0,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\replica-red.log"
+        }
+      ],
+      "input_validation": {
+        "scope": "HISTORICAL_DIAGNOSTIC",
+        "matches_current": false,
+        "manifest": null
+      },
+      "tested_at": "2026-10-09T07:14:01.332229+00:00",
+      "human_acceptance_credit": false
+    }
+  ],
+  "measured_shape_result": {
+    "sampled_rays": 136435,
+    "matched_body_hits": 44879,
+    "missed_body_samples": 0,
+    "empty_space_hits": 0,
+    "surface_errors_over_1_cm": 0,
+    "sampling_step_cm": 6,
+    "view_yaws_degrees": [
+      0,
+      90,
+      38
+    ],
+    "roles": [
+      "standard",
+      "sprinter",
+      "brute",
+      "champion",
+      "turret"
+    ],
+    "poses_per_role": 3
+  },
+  "source_input_count": 576,
+  "owner_report": {
+    "reported_on": "2026-10-09",
+    "request": "Hitboxes should fit the bots visible shape more closely",
+    "new_build_hit_feel_accepted": false
+  },
+  "delivery": {
+    "passed": true,
+    "version": "20261009-002224-817",
+    "archive": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\IRON-SUN-LAN\\iron-sun-20261009-002224-817.zip",
+    "archive_sha256": "0C29FF7BC3F2C8FFF499D53FB3090ECD9D0DC40E2096386422BFEA78783611F2",
+    "fixed_install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+    "file_count": 32,
+    "installed_files": [
+      {
+        "path": "Windows/Manifest_DebugFiles_Win64.txt",
+        "size": 231,
+        "sha256": "15E965EECFBEAC07531F5A4AD556FA0E1829FD8F6ED4B212F32DC06594FAB846"
+      },
+      {
+        "path": "Windows/Manifest_NonUFSFiles_Win64.txt",
+        "size": 1608,
+        "sha256": "DC7D971ED0E64DE88D9E68D9851C50A9AF52F75D3946D4E8CE2705C003ED199E"
+      },
+      {
+        "path": "Windows/Manifest_UFSFiles_Win64.txt",
+        "size": 312421,
+        "sha256": "E0FBF01668F4320FB85BAB74099B0D889D4FC95A747D85A48DCE8C8833D9285B"
+      },
+      {
+        "path": "Windows/NOTICES.txt",
+        "size": 111,
+        "sha256": "BA49AE5586F817B36A2772269F71F899CB1F54B5F2720FAD951319EDD5E140B8"
+      },
+      {
+        "path": "Windows/TP_FirstPerson.exe",
+        "size": 171520,
+        "sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+        "size": 2232688,
+        "sha256": "6C1484085A1F4223880C059FD093A468702D0ECB224981918336FE847F5AF92F"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
+        "size": 2547080,
+        "sha256": "780959F289E380A21FDAB0DBA7AC468C8DD0606EA43B755865A7989F3C7221E9"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+        "size": 5799024,
+        "sha256": "E3E777A9644452C2772336C4B35C39ED4D8ABEB9B9C0C1DCEB9E10BDB378E5A2"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+        "size": 59832,
+        "sha256": "CF34407EC00248C208AA4B156126A725B79A4BCE9F5C8034550C798A9B7A1407"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+        "size": 1724856,
+        "sha256": "1CD0EBA3DF4915CA6498917B91B78DC1DFDA1C9155F2FD5B98DEDD5B5BA918F3"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+        "size": 48568,
+        "sha256": "A00E6B073CEC241D85D590EE138906EF9FDF9EFEF8D0D4989813359CD048A6F9"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+        "size": 858144,
+        "sha256": "9D996BA84395C1E56604792A77775B0A7FA957D7B51B4D8B985040BCD80A6FD5"
+      },
+      {
+        "path": "Windows/Engine/Config/StagedBuild_Ridgefire.ini",
+        "size": 3,
+        "sha256": "F1945CD6C19E56B3C1C78943EF5EC18116907A4CA1EFC40A57D48AB1DB7ADFC5"
+      },
+      {
+        "path": "Windows/Engine/Content/Renderer/TessellationTable.bin",
+        "size": 259568,
+        "sha256": "EDC4F3B628A139C5E185BBAECA661C95C1F427368D3B92892C5CFF36C56DD941"
+      },
+      {
+        "path": "Windows/Engine/Content/Slate/Cursor/invisible.cur",
+        "size": 326,
+        "sha256": "FEF3980FA567E9C45D5D8DCAA432A2C1A3F3BB17FE67D7AB198164F56C142AA1"
+      },
+      {
+        "path": "Windows/Engine/Content/SlateDebug/Fonts/LastResort.tps",
+        "size": 930,
+        "sha256": "0F775FA99D05E21D43D2D06D55982B23DCDCCDB512A9A5A07AFF674F212C41B8"
+      },
+      {
+        "path": "Windows/Engine/Content/SlateDebug/Fonts/LastResort.ttf",
+        "size": 5395052,
+        "sha256": "FFF0F8DE0B868B964950FE97C9B60F893E9BC85A4F90B3629C5693DB058B97B9"
+      },
+      {
+        "path": "Windows/Engine/Extras/Redist/en-us/vc_redist.arm64.exe",
+        "size": 11751688,
+        "sha256": "BA660394E40765C80B70178A33F07DF81AEFAC2B6CB1F017B13880DE88456DE3"
+      },
+      {
+        "path": "Windows/Engine/Extras/Redist/en-us/vc_redist.x64.exe",
+        "size": 18569648,
+        "sha256": "1CF8E061174C320C8E125F1B09996EE0555EF450E515B06AB0FD99CB4C8DB6EF"
+      },
+      {
+        "path": "Windows/Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll",
+        "size": 17339384,
+        "sha256": "9FC1CA0E75480C7805B6D3C4653864EAAEE2FCA5DAA609B5347ADF0B4185791A"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/tbb12.dll",
+        "size": 342456,
+        "sha256": "7E58AE38FD5D47C72B750DBDCF2978A1F36719663A0A4500A9CC857316612C34"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/tbbmalloc.dll",
+        "size": 117176,
+        "sha256": "075BA2869E082AB5F1F159AD06614CE63C31AE51099E18B540822CC758697E56"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+        "size": 166636544,
+        "sha256": "2797D1339C0A4C32C71A7885ED2CE8FF6A28180E430CB304607920CCEB45B3F0"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.pdb",
+        "size": 232288256,
+        "sha256": "20A53DF14D69DF95B75189241F0DF20AB00B84DDE4C6866BBAEE87FCCBAC78DD"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/D3D12/x64/D3D12Core.dll",
+        "size": 4831768,
+        "sha256": "5D262C97239E1AFF8B03A7150ABCAA84CC7983D311946708F982227D146FBB37"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/D3D12/x64/d3d12SDKLayers.dll",
+        "size": 4943344,
+        "sha256": "66AFC2D2918191F9B97026E3C630AC6E93F5F83E3BD0EAB34349EC2F66A0B4AF"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/DML/x64/DirectML.dll",
+        "size": 18538488,
+        "sha256": "579DD89146322EA2567DE7DB16B8E10F350EB0CF147ECAAFE5B129D9FE175A84"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/global.ucas",
+        "size": 3224752,
+        "sha256": "C4458AD3A8E26C1AD70852A3C56EAF85638F39951225EFCB62E0E410AD81A651"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/global.utoc",
+        "size": 794,
+        "sha256": "8B8DBA41C0134C1FBCE73EEB5A009A58EC03F8B20FBE2DBF0634A87FF58B4344"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/Ridgefire-Windows.pak",
+        "size": 18012554,
+        "sha256": "DC6D47F5873183CDC35810D920AB68C1E15EC975937D8CD11860F8D39232874F"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/Ridgefire-Windows.ucas",
+        "size": 237085568,
+        "sha256": "2FC89FF3CE1D7E3042A73F35423EF36A169B178806F6E8C3A2E792D014598C7D"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/Ridgefire-Windows.utoc",
+        "size": 237648,
+        "sha256": "4C047E15FDF3F0E901B4E069AE56FB2211A0D000BEDA815B3B1B8BB92CBACDEE"
+      }
+    ],
+    "network_shared": false,
+    "wife_pc_updated": false,
+    "fixed_install_launched": false,
+    "scope": "Full ZIP and every installed payload match; UPDATED then CURRENT at the owner fixed launcher, with NoLaunch. Local feed only; wife PC and two-device play remain pending."
+  },
+  "publication_status": "LOCAL_UNPUBLISHED",
+  "limitations": "No new whole-game percentage, 75% acceptance, final Shipping combat/render, real two-PC retry, human fun or minimum-PC performance credit."
+}

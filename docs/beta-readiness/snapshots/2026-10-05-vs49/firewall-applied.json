@@ -1,0 +1,30 @@
+﻿{
+    "mode":  "Apply",
+    "rule_name":  "IRON-SUN-LAN-00E622EFF373539A",
+    "program":  "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261005-134833-568\\Windows\\Ridgefire\\Binaries\\Win64\\TP_FirstPerson-Win64-Shipping.exe",
+    "program_sha256":  "4EC2C7520039C8C1CE1BE3B697288E9F5561EAB3474AF1448720B5E69E056277",
+    "direction":  "Inbound",
+    "protocol":  "UDP",
+    "local_ports":  [
+                        "7777",
+                        "14001"
+                    ],
+    "profile":  "Private",
+    "remote_address":  "LocalSubnet",
+    "existing_matching_rule":  false,
+    "network_profiles":  [
+                             {
+                                 "InterfaceAlias":  "Tailscale",
+                                 "Category":  "Private",
+                                 "Connectivity":  "LocalNetwork"
+                             },
+                             {
+                                 "InterfaceAlias":  "Wi-Fi 12",
+                                 "Category":  "Private",
+                                 "Connectivity":  "Internet"
+                             }
+                         ],
+    "notes":  "7777 is the default gameplay port; 14001 is LAN discovery. This helper never changes network categories, VPN/adapters, router settings, global firewall defaults, or other application rules. Custom gameplay ports require an explicitly scoped separate rule.",
+    "result":  "ACTIVE",
+    "verification":  "Exact local firewall rule present and active; discovery across two PCs still needs a real refresh/join test. Explicit block rules and router isolation can still prevent traffic."
+}

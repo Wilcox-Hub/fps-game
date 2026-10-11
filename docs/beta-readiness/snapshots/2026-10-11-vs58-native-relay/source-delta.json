@@ -1,0 +1,37 @@
+{
+  "previous_snapshot": "2026-10-11-vs57",
+  "unchanged_inputs": 594,
+  "changed_inputs": [
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArenaDressing.cpp",
+      "previous_sha256": "B6294C65FE16511DCD9A0FA6A18F63D451E6A3D8A20A593188CFFA9F347BA914",
+      "sha256": "0609CD91DA7CECFFB50C5C58A877EA06A31E7D24CC498A41F4DC41EDBF9278D7"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArenaDressing.h",
+      "previous_sha256": "8C8659A6EE5948F4C483F5310C25A195733F18A463B1A3FF4E5C8E696DA07298",
+      "sha256": "1AE551ABE8E80BEC9D6331C5B0190298A49B7FA4418CD03AAA5FEC561BF8FAE0"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireNetworkCompatibility.h",
+      "previous_sha256": "F23DF3E04AA355DB9A7A0606FDABE72C49D748382286497B20D566020C92557C",
+      "sha256": "B10AEFB2A2B3BCC47499B0689B53F8CAE5C293EF3FC7BA13412AA6B7FB58F7E7"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireRouteGeometry.cpp",
+      "previous_sha256": "354409CAB5B3B1D69663D5D386EB9A03A9075D39758AB50C0AE8E0FAEC4551A0",
+      "sha256": "0F316C4CDF00E9552A99EE7589B8083FE7E185A648E5DFAADB24A2BC25936873"
+    },
+    {
+      "path": "Source/TP_FirstPerson/TP_FirstPerson.Build.cs",
+      "previous_sha256": "BEE3FBFF576E2C70232A04E8EB313C6371A537355469288F0792B04583DC3CEC",
+      "sha256": "108BB95B0821BCF78239B776EF4DA977DDEC3976419F14EEABB59958D1E70C67"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireEncounterIntegrationTests.cpp",
+      "previous_sha256": "BECDC3A126E052EE60464B800E2CF2F4EF311970479C11D75A1AAD2EF5E1668B",
+      "sha256": "7E5944121859EB5FBCEA47237AB7F73836A972288690FB686DCE2B1660B588E1"
+    }
+  ],
+  "scope": "Server compilation boundaries; deterministic arena movement-base component names independent of cosmetics/materials; VS58 compatibility boundary."
+}

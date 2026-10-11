@@ -1,0 +1,8 @@
+{
+  "previous_snapshot": "2026-10-05-vs48",
+  "reused": "Original VS48 packaged Shipping host / same-PC Editor discovery/join probe keeps its original date and scope; it preceded firewall application. Five original VS47 package artifacts remain unchanged.",
+  "fresh": "Administrator application and independent exact ActiveStore firewall-rule verification only.",
+  "readiness_credit": 0,
+  "human_two_pc_success": false,
+  "publication": "LOCAL_UNPUBLISHED"
+}

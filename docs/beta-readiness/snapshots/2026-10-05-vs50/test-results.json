@@ -1,0 +1,27 @@
+[
+  {
+    "gate": "Updater production-script integration",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "checks": 19,
+    "evidence": "logs/updater-tests.json",
+    "scope": "Production PowerShell updater and publisher with small synthetic ZIP fixtures; copied Microsoft cmd executable only for the running-process guard. Real disk moves, archive hashes, corruption/traversal/locking, offline recovery, rollback hold and installer tested. No game play, network share or second-PC acceptance. Windows built-in PowerShell 5.1 used."
+  },
+  {
+    "gate": "Real current game publication and fixed installation",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "scope": "Original VS47/VS49 artifact hashes checked before local feed publication. Existing full ZIP reused; 32 actual files extracted and hashed. Per-user stable installation and desktop shortcut created. Installed updater detects CURRENT with NoLaunch, and installed controller scripts match repository hashes. No game launched from fixed folder, remote transfer or human acceptance."
+  },
+  {
+    "gate": "Authenticated SMB share and stable firewall",
+    "status": "PREVIEW_ONLY_PENDING_APPROVAL",
+    "evidence": "Share-plan.json",
+    "scope": "PREPARED; network-share and stable-path firewall activation await owner approval; encrypted SMB, named account Read-only, System TCP 445 Private/LocalSubnet plus exact stable game UDP 7777/14001. No other-PC installation or device linking claimed."
+  },
+  {
+    "gate": "Source/cache reuse",
+    "status": "PASS",
+    "scope": "562/562 Source/Config/Content inputs unchanged. Five added delivery tools and existing firewall helper hashed separately. No Editor/Shipping builds, gameplay tests or readiness credit repeated."
+  }
+]

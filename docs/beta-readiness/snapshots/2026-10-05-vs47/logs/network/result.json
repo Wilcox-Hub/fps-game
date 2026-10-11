@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "peers": 2,
+  "logs": [
+    "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\EconomyNetwork\\checks-20261005-134603-465\\Host.log",
+    "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\EconomyNetwork\\checks-20261005-134603-465\\Client.log"
+  ],
+  "scope": "Actual local Editor listen host/client and owned RPC/replication. Controlled cash funding/station placement and frozen enemy damage-API clear. No Internet, packaged, hardware-input, performance or human acceptance.",
+  "time_utc": "2026-10-05T20:47:15.6045025Z"
+}

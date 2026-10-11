@@ -1,0 +1,22 @@
+{
+  "status": "INSPECTED",
+  "inspected_on": "2026-10-04",
+  "scope": "Fresh offscreen 1280x720 normal-interaction capture after the direct-damage stat change. Inspected carried slots, equipped state, compact comparison rows, weapon identity and keyboard hints; no row/control overlap. The shader-preparation overlay remains visible in ArsenalOpen.png. The numeric Phasma direct-hit stat is separately asserted in RulesAndStats.",
+  "images": [
+    {
+      "path": "visuals/ArsenalOpen.png",
+      "sha256": "5178691C9A5F299A7A169D081BF3578B9D2563AA8CA1318A96CF879C1DD0A9F6",
+      "resolution": "1280x720"
+    },
+    {
+      "path": "visuals/PrimaryAfterSecondary.png",
+      "sha256": "6F4DF7462D2B5CE217A219665F879DF686D0EF91455F9EA926548859DAEC33C7",
+      "resolution": "1280x720"
+    },
+    {
+      "path": "visuals/SamePrimaryReturn.png",
+      "sha256": "E5CEAA8F31925508F63DF8C24BD514661435C2F93D9AF4C1C8988DCF53AEDEA6",
+      "resolution": "1280x720"
+    }
+  ]
+}

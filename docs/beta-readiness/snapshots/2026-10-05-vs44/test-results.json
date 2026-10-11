@@ -1,0 +1,70 @@
+[
+  {
+    "gate": "Final TP_FirstPersonEditor Development build",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "scope": "Final HUD/control code compiled and linked. New fixture compiled with source discovery refreshed. Existing deprecated engine API warnings remain.",
+    "logs": [
+      {
+        "path": "logs/Editor-final-HUD.log",
+        "sha256": "31F4C6C38991C07B7D9D3E8EE595A14566655F7799EB83D9E3F307D5ACD39B0B"
+      },
+      {
+        "path": "logs/Editor-final-controls.log",
+        "sha256": "21126E2A4F52DAF24EE90BFF55140861B5E0B95B49341AD9A19AF233BEF18E1B"
+      },
+      {
+        "path": "logs/Editor-test-build-gather.log",
+        "sha256": "BE60C6D2E0145134007B1CBE9BBA3E9F3BADFB4A8630BADD20DCE0964EF2FDA6"
+      }
+    ]
+  },
+  {
+    "gate": "Ridgefire.Weapons.Arsenal.PurchaseConfirmations",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "resolution": "1280x720",
+    "scope": "Actual controller key delegates including Enter: insufficient-cash rejection, paid Helix purchase, empty-primary precedence, duplicate protection, preview cancellation, Through upgrade confirmation, Tab exact view, G wildcard reroll, J destination, free keep and 3 secondary equip. No direct PurchaseWeapon/UpgradeWeapon fixture acquisition. Controlled funding and accelerated clears; 0.1 time dilation only for capture/confirmation window. Not human balance/pacing or hardware input.",
+    "log": {
+      "path": "logs/IRON-SUN-Arsenal-20261005-120137-556.log",
+      "sha256": "B9B52485A2CB22EB1FE77AF27BC6E27195E4F12283D8DB4D093B2CFC90871C00"
+    }
+  },
+  {
+    "gate": "Ridgefire.Weapons.Arsenal.PurchaseConfirmations",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "resolution": "800x600",
+    "scope": "Actual controller key delegates including Enter: insufficient-cash rejection, paid Helix purchase, empty-primary precedence, duplicate protection, preview cancellation, Through upgrade confirmation, Tab exact view, G wildcard reroll, J destination, free keep and 3 secondary equip. No direct PurchaseWeapon/UpgradeWeapon fixture acquisition. Controlled funding and accelerated clears; 0.1 time dilation only for capture/confirmation window. Not human balance/pacing or hardware input.",
+    "log": {
+      "path": "logs/IRON-SUN-Arsenal-20261005-120153-332.log",
+      "sha256": "41C923D31B65DD8F343745930CF37B6B1074741028362230A912E3C3C067F241"
+    }
+  },
+  {
+    "gate": "Ridgefire.Weapons.Loadout.NormalInteractions",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "resolution": "loadout-1280x720",
+    "scope": "Existing key delegates T/1/2/3/Left/B and mouse fire on actual possessed Blueprint. Carried switching, independent ammo, repeated selection, fire blocking and trigger reset pass. Phasma acquisition remains direct fixture provisioning; purchase/keep input evidence comes from the separate new test.",
+    "log": {
+      "path": "logs/IRON-SUN-Loadout-20261005-120209-028.log",
+      "sha256": "792EA39FC9BAA4E9B97BF6C0F810B02947A9FFD6977A7F649A2953EB4B5C62CE"
+    }
+  },
+  {
+    "gate": "Fresh Windows Shipping Prototype BuildCookRun",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "scope": "Current game compiled, cooked, staged and archived with executable/content hashes. Not launched or played, no packaged multiplayer acceptance.",
+    "log": {
+      "path": "logs/Shipping-build.log",
+      "sha256": "282A021C7F08CCD97A452B24C01AB162AAABDF5B34F6989E4AFE594BBBC23159"
+    },
+    "evidence": {
+      "path": "package/PackageInfo.json",
+      "sha256": "958D1DA2948A08F6E8B6ABC00698A0B1F7BB1D98FDF12823C631741F8E0598E8"
+    },
+    "artifacts": "package-artifacts.json"
+  }
+]

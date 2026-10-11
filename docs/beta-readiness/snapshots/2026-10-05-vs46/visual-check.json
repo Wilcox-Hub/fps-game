@@ -1,0 +1,179 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "inspected_on": "2026-10-05",
+  "primary_ui_resolution": [
+    1920,
+    1080
+  ],
+  "frame_count": 16,
+  "images": [
+    {
+      "path": "visuals/default-1080p/Stage0.png",
+      "sha256": "87239A06ECF524BAB1DADAD22C515F21A0D44376F2ADF091ED2E2867A4B07A9A",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/Stage1.png",
+      "sha256": "F40F9EAF07D846A7165F9F7130673EB09159391CFBB91A78D791BAE11B716AB5",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/Stage2.png",
+      "sha256": "B1C1C9D504FD73C079211AC44189EF0E75E5F2DA604C591A5A6D1AB9A7F42243",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/Stage3.png",
+      "sha256": "BFEF240980FC5702365256C453181C3F2CEC2E2D77F576F9E644C75A920CBABC",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/Stage4.png",
+      "sha256": "BC87C4E97F952D512C48D8114152FBAED4F04F970DB1578CFA7AA38830822E19",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/ArsenalPrimary.png",
+      "sha256": "B75EF36B782E7CC8AC39A4EA756203F6115CC2F1DA987B0850B4D4C50ACDB713",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/ArsenalSecondary.png",
+      "sha256": "EFE060653D909496DF6AE8654528FC0A381A7242AEE54918B0BD8677B9C642F8",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/default-1080p/CombatPrimary.png",
+      "sha256": "68F51CC3BE7B5FF603DFB543958EDB0E63D67FDFC2EB9A5AD7BC57C92275F57C",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/KnownComparison.png",
+      "sha256": "C3565E168ABEA7732563CFF05DE2521D2AF18A85851F41840EF93F4D1D037B77",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/PurchaseRejected.png",
+      "sha256": "9FF8777CEA33875B1FA2A569D4C9D780B426F7032BE37B04A4BB1D549A75830F",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/PurchaseReceipt.png",
+      "sha256": "425E8BA67A5A2F6EA6BFB2668A6C2224EA3F09B8475844179092E1DE53A6AAE0",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/UpgradePreview.png",
+      "sha256": "641EB9D87B6D7565F9AC6F6ECE4C6A36C886C6A7FD56B73E2A8C8EB6C0298A62",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/UpgradeDetails.png",
+      "sha256": "20DA97E4F4D728EAF485E2476E2ED21DB793243264EF605BADA14F1688C21668",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/UpgradeReceipt.png",
+      "sha256": "9F552FEFC81CB896CD047A5EC7C6798D8B6D8F9F35DDF6E07298B4E014FF16A0",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/WildcardComparison.png",
+      "sha256": "C809702A140C19DA219E83333ADC7E0CAFB7BD9ADC777F55E5F518F63174DB6E",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/arsenal-1080p/WildcardKept.png",
+      "sha256": "F84C3098FC1B55FFF34075C6A9EEFC85A81CCF1F71891314BEACF63AE71851A0",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    }
+  ],
+  "observations": [
+    "Opening personal perks now show two equipped slots, a readable name/lock list and separate selected effect. Secondary/primary cards show four familiar stats, brief behavior, selection/reserved state and starting loadout.",
+    "Default Phasma-secondary screens inspected at 1080p; Gale and wildcard secondary flows are checked headlessly. Both arsenal frames list both guns and switch the equipped marker from primary to secondary.",
+    "Main combat layout and starting team-vote layout remain unchanged; the combat weapon-key hint is updated. Shader-preparation notices appear in some deployment/arsenal frames; no clean-frame claim for those.",
+    "Brief weapon descriptions use at most two lines; longer text is truncated with an ellipsis. Full extreme-name/localization/aspect-ratio coverage and owner readability/fun acceptance remain open.",
+    "Compact/portrait screens retain their existing fallback layout."
+  ],
+  "human_acceptance": false
+}

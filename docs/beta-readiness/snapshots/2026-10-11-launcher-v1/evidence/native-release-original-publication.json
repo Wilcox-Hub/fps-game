@@ -1,0 +1,48 @@
+{
+  "prepared": true,
+  "published": true,
+  "repository": "Wilcox-Hub/iron-sun-releases",
+  "tag": "playtest-vs58-20261011-120705-452-launcher-1.0.1",
+  "protocol": 58,
+  "game_version": "20261011-120705-452",
+  "launcher_version": "1.0.1",
+  "assets": [
+    {
+      "size_bytes": 440541545,
+      "name": "iron-sun-20261011-120705-452.zip",
+      "sha256": "A933B4056D44CF99B736802B55812BC924B2EAEFD23A4DC71FB6BBF530E773AC",
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\IRON-SUN-LAN\\iron-sun-20261011-120705-452.zip"
+    },
+    {
+      "size_bytes": 1785344,
+      "name": "IronSunLauncher.exe",
+      "sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\build\\IronSunLauncher.exe"
+    },
+    {
+      "size_bytes": 7069,
+      "name": "game-manifest.json",
+      "sha256": "CD637A1A274E6842E868A3C4C204A96F33171997838C1FBABA9DBC08AC5D48CE",
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\build\\releases\\playtest-vs58-20261011-120705-452-launcher-1.0.1\\game-manifest.json"
+    },
+    {
+      "size_bytes": 384,
+      "name": "game-manifest.sig",
+      "sha256": "7088DC5B5004AF60E98E43704A503EA66446E123202A24DCC645323A56E24C8D",
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\build\\releases\\playtest-vs58-20261011-120705-452-launcher-1.0.1\\game-manifest.sig"
+    },
+    {
+      "size_bytes": 339,
+      "name": "launcher-manifest.json",
+      "sha256": "06B5A8FAAA50052C5DA446F52203AA7162899BB735EDA1FFAC32025341B226E1",
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\build\\releases\\playtest-vs58-20261011-120705-452-launcher-1.0.1\\launcher-manifest.json"
+    },
+    {
+      "size_bytes": 384,
+      "name": "launcher-manifest.sig",
+      "sha256": "1F1031ACD75442E10C89A276BD141EA7729D4628E30065867E428A80E3695B88",
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\build\\releases\\playtest-vs58-20261011-120705-452-launcher-1.0.1\\launcher-manifest.sig"
+    }
+  ],
+  "url": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs58-20261011-120705-452-launcher-1.0.1"
+}

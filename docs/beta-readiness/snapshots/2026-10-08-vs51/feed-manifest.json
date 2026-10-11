@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "app_id": "IRON-SUN-LAN",
+  "version": "20261008-175321-489",
+  "build_time_utc": "2026-10-09T00:53:52.4608509Z",
+  "published_at_utc": "2026-10-09T01:00:15.1095508Z",
+  "archive": "iron-sun-20261008-175321-489.zip",
+  "archive_size": 429352063,
+  "archive_sha256": "612291252E0BF19755A1441D435BE72029429F1862861864495CAD97A8F8ECB9",
+  "files": [
+    {
+      "path": "Windows/Manifest_DebugFiles_Win64.txt",
+      "size": 231,
+      "sha256": "80B696B62C52746B29056C79E3B5CA257E5CFA980F68057E5281081165792280"
+    },
+    {
+      "path": "Windows/Manifest_NonUFSFiles_Win64.txt",
+      "size": 1608,
+      "sha256": "8F0385D49DC0EDCC190C93597EECC4872618D1C05623C9970068B924BCA2DEFB"
+    },
+    {
+      "path": "Windows/Manifest_UFSFiles_Win64.txt",
+      "size": 312232,
+      "sha256": "374A3FB674B171844BB67CA760BAE3D39025CEE29A151A594509FA85C0770FAE"
+    },
+    {
+      "path": "Windows/NOTICES.txt",
+      "size": 111,
+      "sha256": "BA49AE5586F817B36A2772269F71F899CB1F54B5F2720FAD951319EDD5E140B8"
+    },
+    {
+      "path": "Windows/TP_FirstPerson.exe",
+      "size": 171520,
+      "sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+      "size": 2232688,
+      "sha256": "6C1484085A1F4223880C059FD093A468702D0ECB224981918336FE847F5AF92F"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
+      "size": 2547080,
+      "sha256": "780959F289E380A21FDAB0DBA7AC468C8DD0606EA43B755865A7989F3C7221E9"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+      "size": 5799024,
+      "sha256": "E3E777A9644452C2772336C4B35C39ED4D8ABEB9B9C0C1DCEB9E10BDB378E5A2"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+      "size": 59832,
+      "sha256": "CF34407EC00248C208AA4B156126A725B79A4BCE9F5C8034550C798A9B7A1407"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+      "size": 48568,
+      "sha256": "A00E6B073CEC241D85D590EE138906EF9FDF9EFEF8D0D4989813359CD048A6F9"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+      "size": 1724856,
+      "sha256": "1CD0EBA3DF4915CA6498917B91B78DC1DFDA1C9155F2FD5B98DEDD5B5BA918F3"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+      "size": 858144,
+      "sha256": "9D996BA84395C1E56604792A77775B0A7FA957D7B51B4D8B985040BCD80A6FD5"
+    },
+    {
+      "path": "Windows/Engine/Config/StagedBuild_Ridgefire.ini",
+      "size": 3,
+      "sha256": "F1945CD6C19E56B3C1C78943EF5EC18116907A4CA1EFC40A57D48AB1DB7ADFC5"
+    },
+    {
+      "path": "Windows/Engine/Content/Renderer/TessellationTable.bin",
+      "size": 259568,
+      "sha256": "EDC4F3B628A139C5E185BBAECA661C95C1F427368D3B92892C5CFF36C56DD941"
+    },
+    {
+      "path": "Windows/Engine/Content/Slate/Cursor/invisible.cur",
+      "size": 326,
+      "sha256": "FEF3980FA567E9C45D5D8DCAA432A2C1A3F3BB17FE67D7AB198164F56C142AA1"
+    },
+    {
+      "path": "Windows/Engine/Content/SlateDebug/Fonts/LastResort.tps",
+      "size": 930,
+      "sha256": "0F775FA99D05E21D43D2D06D55982B23DCDCCDB512A9A5A07AFF674F212C41B8"
+    },
+    {
+      "path": "Windows/Engine/Content/SlateDebug/Fonts/LastResort.ttf",
+      "size": 5395052,
+      "sha256": "FFF0F8DE0B868B964950FE97C9B60F893E9BC85A4F90B3629C5693DB058B97B9"
+    },
+    {
+      "path": "Windows/Engine/Extras/Redist/en-us/vc_redist.arm64.exe",
+      "size": 11751688,
+      "sha256": "BA660394E40765C80B70178A33F07DF81AEFAC2B6CB1F017B13880DE88456DE3"
+    },
+    {
+      "path": "Windows/Engine/Extras/Redist/en-us/vc_redist.x64.exe",
+      "size": 18569648,
+      "sha256": "1CF8E061174C320C8E125F1B09996EE0555EF450E515B06AB0FD99CB4C8DB6EF"
+    },
+    {
+      "path": "Windows/Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll",
+      "size": 17339384,
+      "sha256": "9FC1CA0E75480C7805B6D3C4653864EAAEE2FCA5DAA609B5347ADF0B4185791A"
+    },
+    {
+      "path": "Windows/Ridgefire/Binaries/Win64/tbb12.dll",
+      "size": 342456,
+      "sha256": "7E58AE38FD5D47C72B750DBDCF2978A1F36719663A0A4500A9CC857316612C34"
+    },
+    {
+      "path": "Windows/Ridgefire/Binaries/Win64/tbbmalloc.dll",
+      "size": 117176,
+      "sha256": "075BA2869E082AB5F1F159AD06614CE63C31AE51099E18B540822CC758697E56"
+    },
+    {
+      "path": "Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+      "size": 166564864,
+      "sha256": "3D60460E8EC63A91CC4C02C6AB40A200A6B9A2B3121F17A3B2CB9EB0A2005ED2"
+    },
+    {
+      "path": "Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.pdb",
+      "size": 231673856,
+      "sha256": "5BC884FFA5C8C063B0C6F65E6F1A20BF066C101D214DA240B2F69731F857147F"
+    },
+    {
+      "path": "Windows/Ridgefire/Binaries/Win64/D3D12/x64/D3D12Core.dll",
+      "size": 4831768,
+      "sha256": "5D262C97239E1AFF8B03A7150ABCAA84CC7983D311946708F982227D146FBB37"
+    },
+    {
+      "path": "Windows/Ridgefire/Binaries/Win64/D3D12/x64/d3d12SDKLayers.dll",
+      "size": 4943344,
+      "sha256": "66AFC2D2918191F9B97026E3C630AC6E93F5F83E3BD0EAB34349EC2F66A0B4AF"
+    },
+    {
+      "path": "Windows/Ridgefire/Binaries/Win64/DML/x64/DirectML.dll",
+      "size": 18538488,
+      "sha256": "579DD89146322EA2567DE7DB16B8E10F350EB0CF147ECAAFE5B129D9FE175A84"
+    },
+    {
+      "path": "Windows/Ridgefire/Content/Paks/global.ucas",
+      "size": 3224752,
+      "sha256": "C4458AD3A8E26C1AD70852A3C56EAF85638F39951225EFCB62E0E410AD81A651"
+    },
+    {
+      "path": "Windows/Ridgefire/Content/Paks/global.utoc",
+      "size": 794,
+      "sha256": "8B8DBA41C0134C1FBCE73EEB5A009A58EC03F8B20FBE2DBF0634A87FF58B4344"
+    },
+    {
+      "path": "Windows/Ridgefire/Content/Paks/Ridgefire-Windows.pak",
+      "size": 11247371,
+      "sha256": "BD1B4582860841EFF622CBF94322658FA72DFBD68053A7199BC1899B8396CEE6"
+    },
+    {
+      "path": "Windows/Ridgefire/Content/Paks/Ridgefire-Windows.ucas",
+      "size": 237085568,
+      "sha256": "2FC89FF3CE1D7E3042A73F35423EF36A169B178806F6E8C3A2E792D014598C7D"
+    },
+    {
+      "path": "Windows/Ridgefire/Content/Paks/Ridgefire-Windows.utoc",
+      "size": 237648,
+      "sha256": "4C047E15FDF3F0E901B4E069AE56FB2211A0D000BEDA815B3B1B8BB92CBACDEE"
+    }
+  ],
+  "validation": "Original executable/content hashes match the explicitly supplied dated package evidence; this is an internal prototype, not beta approval."
+}

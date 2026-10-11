@@ -1,0 +1,44 @@
+{
+  "installed": true,
+  "booted": true,
+  "time_utc": "2026-10-11T19:16:24.253321+00:00",
+  "fatal_logged": false,
+  "container_restarts": 0,
+  "relay_running": true,
+  "metadata": {
+    "engine": "5.8.3",
+    "protocol": 58,
+    "platform": "Linux",
+    "target": "Server",
+    "configuration": "Development",
+    "built_utc": "2026-10-11T19:13:39.9022402Z",
+    "input_count": 600,
+    "input_manifest_sha256": "8862794AFADAE981C6FD63D13BDBBEE6D4D85CEE6039943E00F6982BCFE2D92C"
+  },
+  "release": {
+    "release": "d49510c39311e56c",
+    "sha256": "d49510c39311e56c1c6de3c4b5b88b4585fc6cdb7175ff4e3708e468a5236222",
+    "previous_release": "releases/07e6e407e93a82c6",
+    "activated_files": true,
+    "process_restarted": false
+  },
+  "read_only_root": true,
+  "user": "1000:1000",
+  "cpu_limit": 3.0,
+  "memory_limit_bytes": 6442450944,
+  "port_bindings": {
+    "7777/udp": [
+      {
+        "HostIp": "127.0.0.1",
+        "HostPort": "7777"
+      },
+      {
+        "HostIp": "192.168.4.36",
+        "HostPort": "7777"
+      }
+    ]
+  },
+  "key_mode": "0o600",
+  "relay_key_mode": "0o600",
+  "scope": "Actual native Linux Server installation and listening boot on Lenovo. Container/config checks only; no normal combat, recovery, external-Wi-Fi or capacity acceptance."
+}

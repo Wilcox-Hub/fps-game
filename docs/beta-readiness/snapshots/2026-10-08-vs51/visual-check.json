@@ -1,0 +1,19 @@
+{
+  "tested_on": "2026-10-08",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "frames": [
+    {
+      "path": "visual/Hip.png",
+      "sha256": "2771588A2831DD9360B831E2A561A5EEBBCCBF448048FD03919B45001E3CE1A9"
+    },
+    {
+      "path": "visual/ADS.png",
+      "sha256": "BBA9E1808AC52980BDA6959C21D1C4132C8A489C5AE4C890739D757D6E7868EA"
+    }
+  ],
+  "inspected": true,
+  "scope": "Earlier same-pass offscreen D3D12 Editor hip/aim frames before final hold-input fix; final rendered reruns stalled at 3-4 FPS; control hints fit, aim pose/zoom visible and reticle unobstructed. Prototype model/optics/HUD/enemy art; no human, hardware, animation, audio-listening or slide-in-motion visual acceptance."
+}

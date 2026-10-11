@@ -1,0 +1,27 @@
+[
+  {
+    "path": "Tools/RidgefireUpdate.psm1",
+    "before_sha256": null,
+    "after_sha256": "B545AC6F8CD4A7EA284E83FE0563224B47791AB359BE014E6102D8C5BD4ADE78"
+  },
+  {
+    "path": "Tools/Update-IRON-SUN.ps1",
+    "before_sha256": null,
+    "after_sha256": "B47FC722AD98FBB09C10E124B38CF32378076136EF2703053DFEA43A732F48D7"
+  },
+  {
+    "path": "Tools/Publish-LANUpdate.ps1",
+    "before_sha256": null,
+    "after_sha256": "3C4D43B4443FB22A70CDE80608094238BDD239A77FDA28DD97CEC4C191E61394"
+  },
+  {
+    "path": "Tools/Install-LANLauncher.ps1",
+    "before_sha256": null,
+    "after_sha256": "B160B43BD1004D61D95E71924EDDB677CD7F470A39745014009F9F001D30C9F5"
+  },
+  {
+    "path": "Tools/Enable-LANUpdateShare.ps1",
+    "before_sha256": null,
+    "after_sha256": "40CCAFDF6E9F8C4E6182DC5E6D695EEAD0298419AE866ADEFC09C86E4E161939"
+  }
+]

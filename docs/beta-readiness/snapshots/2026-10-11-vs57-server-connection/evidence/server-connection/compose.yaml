@@ -1,0 +1,51 @@
+name: iron-sun
+services:
+  game:
+    image: iron-sun-runtime:ubuntu24-v1
+    build:
+      context: .
+      dockerfile: Dockerfile.runtime
+    container_name: iron-sun-game
+    user: "1000:1000"
+    init: true
+    restart: unless-stopped
+    cpus: 3.0
+    mem_limit: 6g
+    pids_limit: 512
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    tmpfs: ["/tmp:size=256m,mode=1777"]
+    ports:
+      - "127.0.0.1:7777:7777/udp"
+      - "${IRON_SUN_LAN_ADDRESS:?Set the verified Lenovo LAN address}:7777:7777/udp"
+    volumes:
+      - ./current:/game:ro
+      - ./data:/data
+    secrets: [join_key]
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+  relay:
+    profiles: [relay]
+    image: ghcr.io/playit-cloud/playit-agent@sha256:5b7748d3e8564f1cac3d3a295a23640136fbf774c76a9509bd262d16b324b06b
+    container_name: iron-sun-relay
+    user: "1000:1000"
+    network_mode: host
+    entrypoint: [playitd]
+    command: [--secret-path, /config/playit_secret, --socket-path, /config/playit.sock, --platform-docker]
+    restart: unless-stopped
+    cpus: 0.5
+    mem_limit: 128m
+    pids_limit: 64
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    tmpfs: ["/tmp:size=32m,mode=1777"]
+    volumes: [./config:/config]
+    logging:
+      driver: json-file
+      options: {max-size: "5m", max-file: "3"}
+secrets:
+  join_key:
+    file: ./config/join_key

@@ -1,0 +1,20 @@
+[
+  {
+    "gate": "Current input-cache validation",
+    "status": "PASS",
+    "scope": "562/562 VS47 Source/Config/Content hashes identical; no C++ or content edits, builds or gameplay suite repeated."
+  },
+  {
+    "gate": "Current Shipping host / local Editor LAN client",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "evidence": "logs/packaged-host/result.json",
+    "scope": "Shipping bootstrap host versus actual Editor Null/LAN client using existing session subsystem smoke flags; localhost only, headless, no two-device or human acceptance; no firewall changes Actual advertised Wi-Fi endpoint and replicated lobby acceptance checked. Host port 7855 isolated the probe; production default remains 7777. Package host launched headlessly, not human-played."
+  },
+  {
+    "gate": "Firewall helper",
+    "status": "PREVIEW_PASS_APPLY_PENDING",
+    "evidence": "firewall-plan.json",
+    "scope": "Parsed, previewed against actual package runtime and missing exact rule. Administrator token initially false. Scoped exception prepared and previewed; administrator authorization/application and two-PC retry pending. No two-device success inferred."
+  }
+]

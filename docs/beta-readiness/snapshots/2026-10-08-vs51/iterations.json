@@ -1,0 +1,165 @@
+{
+  "checks": [
+    {
+      "passed": false,
+      "tests": [],
+      "filter": "Ridgefire.Pressure.",
+      "log": "checks/checks-20261008-171045-061/Automation.log",
+      "rendered": false,
+      "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance",
+      "exit_code": 0,
+      "result": "checks/checks-20261008-171045-061/result.json"
+    },
+    {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Pressure.MovementAimAndCombat"
+      ],
+      "filter": "Ridgefire.Pressure.",
+      "log": "checks/checks-20261008-171341-080/Automation.log",
+      "rendered": false,
+      "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance",
+      "exit_code": 0,
+      "result": "checks/checks-20261008-171341-080/result.json"
+    },
+    {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Weapon.Recoil.PhysicalDirection"
+      ],
+      "filter": "Ridgefire.Weapon.Recoil.",
+      "log": "checks/checks-20261008-171553-772/Automation.log",
+      "rendered": false,
+      "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance",
+      "exit_code": 0,
+      "result": "checks/checks-20261008-171553-772/result.json"
+    },
+    {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Economy.RulesAndStats"
+      ],
+      "filter": "Ridgefire.Economy.RulesAndStats",
+      "log": "checks/checks-20261008-171604-754/Automation.log",
+      "rendered": false,
+      "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance",
+      "exit_code": 0,
+      "result": "checks/checks-20261008-171604-754/result.json"
+    },
+    {
+      "passed": false,
+      "tests": [
+        "Ridgefire.Pressure.MovementAimAndCombat"
+      ],
+      "filter": "Ridgefire.Pressure.",
+      "log": "checks/checks-20261008-172253-899/Automation.log",
+      "rendered": true,
+      "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance",
+      "exit_code": 0,
+      "result": "checks/checks-20261008-172253-899/result.json"
+    },
+    {
+      "passed": false,
+      "tests": [
+        "Ridgefire.Pressure.MovementAimAndCombat"
+      ],
+      "filter": "Ridgefire.Pressure.",
+      "log": "checks/checks-20261008-172628-486/Automation.log",
+      "rendered": false,
+      "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance",
+      "exit_code": 0,
+      "result": "checks/checks-20261008-172628-486/result.json"
+    },
+    {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Pressure.VisualAimAndTimedBurst"
+      ],
+      "filter": "Ridgefire.Pressure.VisualAimAndTimedBurst",
+      "log": "checks/checks-20261008-173038-442/Automation.log",
+      "rendered": false,
+      "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance",
+      "exit_code": 0,
+      "result": "checks/checks-20261008-173038-442/result.json"
+    },
+    {
+      "passed": false,
+      "tests": [
+        "Ridgefire.Pressure.MovementAimAndCombat"
+      ],
+      "filter": "Ridgefire.Pressure.",
+      "log": "checks/checks-20261008-173728-857/Automation.log",
+      "rendered": true,
+      "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance",
+      "exit_code": 0,
+      "result": "checks/checks-20261008-173728-857/result.json"
+    },
+    {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Pressure.MovementAimAndCombat",
+        "Ridgefire.Pressure.VisualAimAndTimedBurst"
+      ],
+      "filter": "Ridgefire.Pressure.",
+      "log": "checks/checks-20261008-173958-960/Automation.log",
+      "rendered": true,
+      "scope": "Earlier same-pass 1080p inspection before final controller repeat/double-click hold-input fix; no final-build rendered/performance acceptance.",
+      "exit_code": 0,
+      "result": "checks/checks-20261008-173958-960/result.json"
+    },
+    {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Pressure.MovementAimAndCombat"
+      ],
+      "filter": "Ridgefire.Pressure.MovementAimAndCombat",
+      "log": "checks/checks-20261008-175307-367/Automation.log",
+      "rendered": false,
+      "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance",
+      "exit_code": 0,
+      "result": "checks/checks-20261008-175307-367/result.json"
+    },
+    {
+      "passed": false,
+      "tests": [],
+      "rendered": true,
+      "filter": "Ridgefire.Pressure.",
+      "scope": "Runner timeout waiting for interactive frame rate at 3-4 FPS; tests did not complete.",
+      "exit_code": null,
+      "result": "checks/checks-20261008-175648-630/result.json",
+      "log": "checks/checks-20261008-175648-630/Automation.log"
+    },
+    {
+      "passed": false,
+      "tests": [],
+      "rendered": true,
+      "filter": "Ridgefire.Pressure.",
+      "scope": "Stopped only owned test Editor after persistent 3 FPS frame-rate wait; user game left open. Background-throttle command did not resolve performance.",
+      "exit_code": null,
+      "result": "checks/checks-20261008-180345-596/result.json",
+      "log": "checks/checks-20261008-180345-596/Automation.log"
+    },
+    {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Pressure.MovementAimAndCombat",
+        "Ridgefire.Pressure.VisualAimAndTimedBurst"
+      ],
+      "filter": "Ridgefire.Pressure.",
+      "log": "checks/checks-20261008-180500-398/Automation.log",
+      "rendered": false,
+      "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance",
+      "exit_code": 0,
+      "result": "checks/checks-20261008-180500-398/result.json"
+    }
+  ],
+  "notes": [
+    "Initial saved-move superclass alias and test access/abstract NPC spawn compile issues were corrected.",
+    "Initial network platform name/base delivery setup was corrected with replicated geometry detection and one-time client placement; final native moves/server slide/ADS/release pass. One initial unresolved test-base correction warning precedes settlement; no latency/packet-loss claim.",
+    "Burst probe first targeted a mesh origin/bounds gap; solid registered armor is used for actual timed pulse damage.",
+    "New stochastic accuracy invalidates exact narrow-gap/impact-recipient assertions. Exact collision/cover shooters explicitly disable spread in a DEV_AUTOMATION-only seam absent from Shipping; ordinary pressure/ADS accuracy checks do not enable it.",
+    "Combined camera fixture now waits for normal/aim FOV settling; final 1080p pair and both tests pass.",
+    "Final rendered reruns stalled waiting for interactive frame rate at 3-4 FPS with a packaged game also open; earlier rendered success predates final input-repeat fix. Final headless pair passes. No performance acceptance.",
+    "One Editor relink overlapped the cook and was blocked by its loaded DLL; packaging completed and the later serialized link passes."
+  ]
+}

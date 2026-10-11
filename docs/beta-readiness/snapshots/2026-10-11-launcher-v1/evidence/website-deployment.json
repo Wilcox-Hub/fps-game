@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "project_id": "appgprj_6acc0c9c3c9081918e14d60ab166d94c",
+  "version_id": "appgprj_6acc0c9c3c9081918e14d60ab166d94c~appgver_69d88a59ae348191bf7d9d9ea17c7405",
+  "deployment_id": "appgdep_6acc1fe46cec819190d8af228375e843",
+  "commit_sha": "8690c54bab360cb05077de8c2709948485cb2da9",
+  "url": "https://iron-sun-playtest.wilcoxwarrior4577.chatgpt.site",
+  "access": "public",
+  "purpose": "Manual full-game download while custom launcher distribution is withheld",
+  "packaging": "Supported remote build fallback after bundled Windows helper cannot launch /bin/bash"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "Tools/Invoke-SetupChecks.ps1",
+    "sha256": "BDA92CE292A46EDB3FA6817297CB4088AF741B06D205EAD19DAE96252864D029"
+  },
+  {
+    "path": "Tools/Invoke-ArsenalConfirmationChecks.ps1",
+    "sha256": "97F15D7DA3D25938FE453F84A6D30C695F1845078140E161923BA6E88C78977B"
+  },
+  {
+    "path": "Tools/Invoke-LoadoutInteractionSmoke.ps1",
+    "sha256": "75E4E8A0FE99480A566F01A5907440DF99490193058BA70CFFB0E73AA199A2BC"
+  },
+  {
+    "path": "Tools/Build-WindowsShipping.ps1",
+    "sha256": "6E3EEBEC56263D6B7B6CB9D1C4D872AE927C1E040616944C6A75AD95029A1E84"
+  },
+  {
+    "path": "Tools/Play-Latest-WindowsPackage.ps1",
+    "sha256": "8B72577D232DD8224BFD7BA8D3A051EF63D68F9F02FF60A39A4EE040264E0CEF"
+  }
+]

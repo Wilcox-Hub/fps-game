@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "2026-10-11-vs57-server-connection",
+  "tested_on": "2026-10-11",
+  "validation_groups": [
+    {
+      "name": "private-unit",
+      "result": {
+        "passed": true,
+        "tests": 3,
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateUnit\\20261011-085352-941\\Automation.log",
+        "scope": "Actual Editor automation: address rejection/normalization, protocol/time-bound HMAC invite proof and isolated server checkpoint slots. No internet/device/performance acceptance.",
+        "time_utc": "2026-10-11T15:54:54.4213461Z"
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/private-unit/result.json",
+          "sha256": "28B359B1FF547458983CC27BBB7834832523D7E87D8A41E03A3AB7028DA35C86",
+          "size_bytes": 457,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateUnit\\20261011-085352-941\\result.json"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-unit/Automation.log",
+          "sha256": "B6AABB85FDEE59089280C014D5A1FEEC618DA6757D8A7D282C442973A253CDA7",
+          "size_bytes": 184005,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateUnit\\20261011-085352-941\\Automation.log"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57"
+    },
+    {
+      "name": "checkpoint-regression",
+      "result": {
+        "passed": true,
+        "tests": 2,
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Checkpoints\\20261011-085454-876\\Automation.log",
+        "render_requested": false,
+        "scope": "Controlled actual standalone Editor world and isolated disk slots; not physical LAN, Shipping combat, human fun or performance acceptance.",
+        "time_utc": "2026-10-11T15:55:07.0907654Z"
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/checkpoint-regression/result.json",
+          "sha256": "BF402F8709A82AF9F5E1D43D50BDA4EF5C83C69E4351E4414A0DD9A6C2E7A97C",
+          "size_bytes": 448,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Checkpoints\\20261011-085454-876\\result.json"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/checkpoint-regression/Automation.log",
+          "sha256": "0A9A111F8DCB033D97B0D23BCFE23E68B17DCA8189BCAB1F71A5B38F8C566FF6",
+          "size_bytes": 192925,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Checkpoints\\20261011-085454-876\\Automation.log"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57"
+    },
+    {
+      "name": "private-server",
+      "result": {
+        "passed": true,
+        "logs": [
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer-1.log",
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer0.log",
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer1.log"
+        ],
+        "peers": 2,
+        "scope": "Actual Windows Editor dedicated process plus two local clients: bad invite rejection/retry, leader-only launch, timed setup, both guns firing, leader departure held across autosave ticks, full original-roster preservation, cleared-boundary save, all clients leaving, original-squad continuation and client-requested exit reaching world/net-driver teardown. Final OS exit not asserted. Frozen AI/invulnerable players/fixture-completed encounter. No Linux, internet, physical-device, normal balance or performance claim.",
+        "time_utc": "2026-10-11T16:01:10.9192229Z"
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/private-server/result.json",
+          "sha256": "59A3AD1B3B32167858ED994ABA8AB7B64F67A983601424D606DB74E93CC59255",
+          "size_bytes": 1115,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\result.json"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-server/Peer-1.log",
+          "sha256": "711A133A887D98BF527C7F4D22A0A3C511C5DAC7AC1A25154C575BE4F506C804",
+          "size_bytes": 240689,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer-1.log"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-server/Peer0.log",
+          "sha256": "B870E91681D47671E8B20867BDBB73287ED6CF3DA3CD293B8F4251497B02E0C9",
+          "size_bytes": 210097,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer0.log"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-server/Peer1.log",
+          "sha256": "2D17B0FB3324A24B984700940BB73D569B47B047741F24395340EDDD662D77F1",
+          "size_bytes": 229407,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-085901-729\\Peer1.log"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57"
+    },
+    {
+      "name": "lan-regression",
+      "result": {
+        "passed": true,
+        "peers": 2,
+        "host_loss": false,
+        "hosted_restart": false,
+        "late_join_rejected": false,
+        "late_join_log": "",
+        "cycles": 2,
+        "rendered_host": false,
+        "logs": [
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261011-085901-728\\Peer0.log",
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261011-085901-728\\Peer1.log"
+        ],
+        "time_utc": "2026-10-11T16:00:39.5341420Z",
+        "scope": "Actual two local Editor processes, Null/LAN discovery/join, ready/unready gates, ordinary timed setup, client leave, host end, clean menus, rehost and second launch. No hosted-restart/late-join scenario selected in this run; no physical-device/internet/performance acceptance."
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/lan-regression/result.json",
+          "sha256": "430B54E852FC36AEA0F70754B24FCA5AB5C566D14805319943125EB443046C76",
+          "size_bytes": 1073,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261011-085901-728\\result.json"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/lan-regression/Peer0.log",
+          "sha256": "BB646CE356A114660B8EF0E33D6B9A27EADFBF8C63AB18CB4C58D85CABCD4C81",
+          "size_bytes": 225331,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261011-085901-728\\Peer0.log"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/lan-regression/Peer1.log",
+          "sha256": "B2E4CA66705C2292B9FABD2AC01BDB04A659B54CA8426F6E9F888F8CF7D18332",
+          "size_bytes": 223424,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261011-085901-728\\Peer1.log"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57"
+    },
+    {
+      "name": "private-menu",
+      "result": {
+        "passed": true,
+        "resolution": [
+          1920,
+          1080
+        ],
+        "frames": 3,
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261011-021046-867\\Menu.log",
+        "scope": "Actual rendered Windows Editor Slate pointer clicks, masked fields, controlled text delegate validation and Back. No human usability, packaged client or internet claim.",
+        "time_utc": "2026-10-11T09:11:05.1583048Z"
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/private-menu/result.json",
+          "sha256": "24994FB0C285ECD3F0898E9AE74E4D87D13568AE57285922AEA5BE36BD2A3A50",
+          "size_bytes": 489,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261011-021046-867\\result.json"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-menu/Menu.log",
+          "sha256": "B121B57B000429DD51F2A25880589251AA035A2A71AA0B2393B693FB2AF2DC4C",
+          "size_bytes": 197717,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261011-021046-867\\Menu.log"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-menu/private-server-form-1080p.png",
+          "sha256": "315CACD7B9AAD25FCCE0A4C3EFF6DE77A7599D2E7346B080F6E0DF13B5678180",
+          "size_bytes": 2408579,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261011-021046-867\\private-server-form-1080p.png"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-menu/private-server-home-1080p.png",
+          "sha256": "6A8748A4435915D6F58937EFB5718F0C32AEAFD2EFC06280A69CC8185CF80DA7",
+          "size_bytes": 2425965,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261011-021046-867\\private-server-home-1080p.png"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/private-menu/private-server-validation-1080p.png",
+          "sha256": "0B3CBCDE904C1E32E1E447C0079F59FF9E9FA1012F9693645B1EA9725DF16DDE",
+          "size_bytes": 2384136,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261011-021046-867\\private-server-validation-1080p.png"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57"
+    },
+    {
+      "name": "packaged-private-join",
+      "result": {
+        "passed": true,
+        "protocol": 57,
+        "server_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PackagedPrivate\\20261011-085727-255\\Server.log",
+        "client_log": null,
+        "windows_root": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261011-085109-773\\Windows",
+        "scope": "Actual Windows Shipping runtime accepted by Windows Editor dedicated process over loopback with a short-lived invite proof. Lobby startup only; opt-in existing session-smoke harness calls production JoinServer, no packaged UI/firing, Linux server, internet, physical device or performance claim.",
+        "time_utc": "2026-10-11T15:57:37.9169865Z",
+        "client_logging_available": false
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/packaged-private-join/result.json",
+          "sha256": "6F0A645ADC25DC891BEDECB02759FAB10EDE3418EF54A7B6E71D866957450FBF",
+          "size_bytes": 944,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PackagedPrivate\\20261011-085727-255\\result.json"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/packaged-private-join/Server.log",
+          "sha256": "B520D217137B1AC90C9B6640EC6FBBA031D55CA52DC88D4303E437784B04E358",
+          "size_bytes": 1399584,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PackagedPrivate\\20261011-085727-255\\Server.log"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57"
+    },
+    {
+      "name": "builds",
+      "result": {
+        "editor": "PASS",
+        "windows_shipping": "PASS",
+        "linux_native": "BLOCKED_EPIC_SOURCE_ACCESS"
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/builds/editor-build-original-squad.log",
+          "sha256": "687F38EF15A3192279A52C8EB7862D01ED9C753E80FA38A099068DBAF95EF420",
+          "size_bytes": 37364,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\lenovo-specs\\server-access\\editor-build-original-squad.log"
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/builds/windows-package-final-vs57.log",
+          "sha256": "F289BE9F1BDD144DA2D15CCC3500ECBB89AA7D7E95C69DAD2EB402FCA44F1050",
+          "size_bytes": 95012,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\lenovo-specs\\server-access\\windows-package-final-vs57.log"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57"
+    },
+    {
+      "name": "lenovo-setup",
+      "result": {
+        "recorded_on": "2026-10-11",
+        "compose_valid": true,
+        "entrypoint_syntax_valid": true,
+        "missing_native_start_rejected": true,
+        "missing_native_entrypoint_exit": 22,
+        "unsafe_archive_rejected": true,
+        "unsafe_path_not_created": true,
+        "status": {
+          "root": "/home/caiden/iron-sun-server",
+          "native_release": false,
+          "release": null,
+          "invite_configured": true,
+          "relay_claimed": false,
+          "containers": ""
+        },
+        "image_id": "sha256:7d01455f4b64b5bf0aff9af2184da8c1f43de6c70717da053576bf89d865df7b",
+        "existing_containers": [
+          "minecraft-crafty Up 2 weeks",
+          "portainer Up 3 weeks"
+        ],
+        "join_key_mode": "0o600",
+        "scope": "Live SSH/Docker layout, official image build, non-root runtime, no native package/no service start, unsafe path rejection. No Linux game, public tunnel, internet or performance acceptance.",
+        "passed": true
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/lenovo-setup/host-setup-result.json",
+          "sha256": "FC6443E0D7CC5DF1816B868A117AB3D4536A0600B485E4B28308610E8040DAE6",
+          "size_bytes": 895,
+          "source_absolute_path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\lenovo-specs\\server-access\\host-setup-result.json"
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57"
+    },
+    {
+      "name": "delivery",
+      "result": {
+        "passed": true,
+        "version": "20261011-085109-773",
+        "installed_files_verified": 32,
+        "updated_then_current": true,
+        "launched_fixed_install": false,
+        "scope": "VS57 local feed published; UPDATED then CURRENT, with NoLaunch. All 32 installed files match package hashes; previous VS56 retained. No remote-PC, public download or gameplay acceptance."
+      },
+      "evidence": [
+        {
+          "path": "../2026-10-11-vs57/evidence/builds-and-delivery/current-result-vs57.json",
+          "sha256": "E352BD616124BCC2E172BB59AF65C1895EC2FFC20DA04BDE5F2239824F420335",
+          "size_bytes": 236
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/builds-and-delivery/delivery-verification.json",
+          "sha256": "28308938D1B4D0E856A9A24E38A522F9EEF28C627CF22E4C51DB50BB050A710C",
+          "size_bytes": 367
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/builds-and-delivery/install-result-vs57.json",
+          "sha256": "DEAB15C6CC507C9383F5F1E180E2B8045063F88C2C0F6271DBE1EF8395300CA5",
+          "size_bytes": 236
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/builds-and-delivery/publish-result-vs57.json",
+          "sha256": "55EDDD08BC5523EAC727D0189152CBCBA2AA700203FF85A5FA1813B07AD91DCC",
+          "size_bytes": 429
+        },
+        {
+          "path": "../2026-10-11-vs57/evidence/builds-and-delivery/vs57-package-artifacts.json",
+          "sha256": "E428E501E18486E4AD0902B8A795B5182EB39F33B0A567DB097B785C4FCD0449",
+          "size_bytes": 6645
+        }
+      ],
+      "inherited_from_snapshot": "2026-10-11-vs57"
+    },
+    {
+      "name": "server-connection-preparation",
+      "result": {
+        "time_utc": "2026-10-11T18:06:45.8522829Z",
+        "epic_github_linked": true,
+        "github_account": "Wilcox-Hub",
+        "source_repository": "EpicGames/UnrealEngine",
+        "source_tag": "5.8.3-release",
+        "source_commit": "396c9f059903aed5fec78ecd3d437a40c6415368",
+        "source_dependencies": "PASS: GitDependencies completed 130143 files, exit 0",
+        "toolchain": "v26_clang-20.1.8-rockylinux8",
+        "sdk_archive_sha256": "02DEE9F48CC65C5ABBC9CC429271115F1CCE68EBCEF632DB42BA4B5C9DBE2088",
+        "sdk_signature": "Valid / Epic Games Inc",
+        "sdk_clang": "20.1.8",
+        "relay_claimed": true,
+        "relay_running": true,
+        "relay_version": "1.0.12",
+        "tunnel_created": true,
+        "tunnel_type": "UDP",
+        "tunnel_port_count": 1,
+        "endpoint": "cairo-ferry.tun.ply.gg:42527",
+        "origin": "127.0.0.1:7777",
+        "routing": "Free Network",
+        "paid_plan_purchased": false,
+        "compose_config": "PASS",
+        "compose_relay_start": "PASS",
+        "compose_fix": "Quoted comma-separated tmpfs options as one YAML list item",
+        "private_key_mode": "600",
+        "native_linux_build": "IN_PROGRESS",
+        "native_server_installed": false,
+        "game_join_via_relay": false,
+        "external_wifi_accepted": false,
+        "scope": "Account/source/SDK preparation, actual relay startup and one-port creation only; no native Linux server or game acceptance."
+      },
+      "evidence": [
+        {
+          "path": "evidence/server-connection/account-server-preparation-result.json",
+          "sha256": "6918A810EB760D8AFED2C9EC6359494112F6BCC6C77AC1E46B55EA480468876A",
+          "size_bytes": 1321
+        },
+        {
+          "path": "evidence/server-connection/relay-roundtrip-result.json",
+          "sha256": "6EE548F15C2BAD659FBEFA2A40A3A20A1E56ABB6AEB8580035A5E14D2AFF4250",
+          "size_bytes": 441
+        },
+        {
+          "path": "evidence/server-connection/compose.yaml",
+          "sha256": "53FC8F08149A2FEDC4FD10D4C1F5753EB8AB7F7B0F832866CB289263EE8FCCE8",
+          "size_bytes": 1441
+        },
+        {
+          "path": "evidence/server-connection/publish-release.py",
+          "sha256": "0C5EDA0A9D9A7AEE12CB29BCC2423BD35797C1B77CAC40C327B41ECE4E9FA7A0",
+          "size_bytes": 2888
+        },
+        {
+          "path": "evidence/server-connection/Build-LinuxServer.ps1",
+          "sha256": "88E73182D9FF55C40F2177A1EBCF214A3A60591365EFB545640DFB9675896320",
+          "size_bytes": 4025
+        },
+        {
+          "path": "evidence/server-connection/check-relay.py",
+          "sha256": "56A7CC2104B38B4C582CD71C782BC41E2C41780930867E33A4487CAD8F0DCF75",
+          "size_bytes": 2550
+        }
+      ]
+    },
+    {
+      "name": "relay-udp-roundtrip",
+      "result": {
+        "passed": true,
+        "time_utc": "2026-10-11T18:02:10.483699+00:00",
+        "endpoint": "cairo-ferry.tun.ply.gg:42527",
+        "origin": "127.0.0.1:7777",
+        "scope": "Exact one-shot nonce UDP round trip through Playit to Lenovo. Windows test client is on the owner home network; no game, external-Wi-Fi, latency or performance acceptance.",
+        "attempt": 1,
+        "probe_roundtrip_ms": 15.0,
+        "remote_matched": true,
+        "remote_exit_code": 0
+      },
+      "evidence": []
+    }
+  ],
+  "internet_accepted": false,
+  "native_linux_accepted": false,
+  "physical_device_accepted": false,
+  "human_fun_accepted": false,
+  "score_changed": false,
+  "prior_game_validation_snapshot": "2026-10-11-vs57"
+}

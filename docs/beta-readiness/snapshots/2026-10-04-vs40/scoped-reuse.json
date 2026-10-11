@@ -1,0 +1,20 @@
+{
+  "previous_snapshot": "2026-10-04-vs39",
+  "current_input_count": 560,
+  "unchanged_previous_inputs": 555,
+  "changed_inputs": [
+    "Source/TP_FirstPerson/RidgefireWeaponProgression.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireEconomyTests.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h"
+  ],
+  "retested_scopes": [
+    "Phasma direct/radial damage and collision feedback",
+    "Phasma direct-impact comparison stats and economy transaction integration",
+    "weapon selection across actual encounters",
+    "current 720p arsenal rendering and bound-key interactions",
+    "fresh Unreal Editor Development build and Windows Shipping package"
+  ],
+  "policy": "Only matching input hashes permit reuse, and reused evidence retains its original date and scope. VS39's unaffected arsenal-key behavior, earlier route, co-op and perk evidence remain dated history. VS40 does not claim a human playtest, full-run completion, internet acceptance, performance or human fun."
+}

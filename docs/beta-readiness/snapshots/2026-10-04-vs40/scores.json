@@ -1,0 +1,64 @@
+{
+  "scope": "Gameplay-only planning estimate; not overall beta completion or a test pass rate",
+  "estimated_on": "2026-10-04",
+  "confidence": "low",
+  "judgment_range_percent": [
+    43,
+    75
+  ],
+  "rubric": [
+    {
+      "category": "Controls and combat",
+      "weight_percent": 30,
+      "readiness_percent": 70,
+      "contribution": 21.0,
+      "rationale": "VS40 isolates the reported multi-kill symptom to Phasma splash rather than ordinary hitboxes: same-spacing Gale traces only the aimed visible part, while tuned Phasma now applies capped distance falloff and honors cover. The real full-health cluster regression, selected-weapon encounter boundary tests, Editor build and Shipping package pass. Human hit feel/fun remains open."
+    },
+    {
+      "category": "Weapons and arsenal",
+      "weight_percent": 20,
+      "readiness_percent": 65,
+      "contribution": 13.0,
+      "rationale": "VS39 carried-slot controls remain validated; VS40 reports Phasma's direct impact as damage per shot instead of folding splash into the target stat. Paid purchases/upgrades and actual splash transactions pass. Natural cash balance, human comprehension, fun and live co-op remain open."
+    },
+    {
+      "category": "Waves, routes and arenas",
+      "weight_percent": 20,
+      "readiness_percent": 60,
+      "contribution": 12.0,
+      "rationale": "Carry forward dated VS33/VS37 route and encounter evidence; no route, plan or arena inputs changed. Ten finished arenas and the intended 45-60 minute run/pacing remain open."
+    },
+    {
+      "category": "Co-op and recovery",
+      "weight_percent": 20,
+      "readiness_percent": 70,
+      "contribution": 14.0,
+      "rationale": "Carry forward dated hosted restart/recovery evidence; no current co-op inputs changed. Steam/Internet, multi-device four-human acceptance and disconnect AI/reclaim remain open."
+    },
+    {
+      "category": "Perks and progression",
+      "weight_percent": 10,
+      "readiness_percent": 75,
+      "contribution": 7.5,
+      "rationale": "Carry forward the grounded combat/medic/movement direction and existing progression tests; no perk or progression inputs changed."
+    }
+  ],
+  "weighted_score": 67.5,
+  "displayed_gameplay_readiness_percent": 68,
+  "overall_beta_readiness_percent": null,
+  "beta_ready": false,
+  "target_gameplay_readiness_percent": 75,
+  "target_status": "IN_PROGRESS; 68% is the latest low-confidence planning estimate; the 75% target is not reached",
+  "assessment_note": "VS40 earns limited planning credit for resolving the reported Phasma cluster behavior with a red-to-green production-Blueprint regression and for making arsenal damage-per-shot semantics direct and testable. This does not establish human fun, pacing, natural balance or beta readiness.",
+  "reviewed_on": "2026-10-04",
+  "new_completion_credit": 2.5,
+  "open_owner_reported_defects": [
+    "Owner acceptance of hit feel, Phasma splash readability and arsenal comprehension remains open",
+    "Owner reports gameplay remains boring; human fun and 45-60 minute pacing remain untested",
+    "Enemy attack rhythm remains an open design choice"
+  ],
+  "corrected_defects": [
+    "One Phasma shot killed multiple full-health nearby sentries; splash is now capped and explicitly attenuated by actor distance, with direct target excluded",
+    "Phasma arsenal damage-per-shot included splash on the direct target; it now reports direct-impact damage"
+  ]
+}

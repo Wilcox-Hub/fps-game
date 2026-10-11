@@ -1,0 +1,26 @@
+{
+  "previous_snapshot": "2026-10-09-vs54",
+  "added": [
+    "Content/IRON_SUN/Environment/FirstArenaVS55/SM_IronSunCoverRock_A.uasset",
+    "Content/IRON_SUN/Environment/FirstArenaVS55/SM_IronSunCoverRock_B.uasset"
+  ],
+  "modified": [
+    "Source/TP_FirstPerson/RidgefireArenaDressing.cpp",
+    "Source/TP_FirstPerson/RidgefireArenaDressing.h",
+    "Source/TP_FirstPerson/RidgefireArenaNavigation.cpp",
+    "Source/TP_FirstPerson/RidgefireArenaTactics.cpp",
+    "Source/TP_FirstPerson/RidgefireEncounters.cpp",
+    "Source/TP_FirstPerson/RidgefireEnemyEntrance.cpp",
+    "Source/TP_FirstPerson/RidgefireEnemyEntrance.h",
+    "Source/TP_FirstPerson/RidgefireFirstArenaGeometry.cpp",
+    "Source/TP_FirstPerson/RidgefireFirstArenaLayout.h",
+    "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+    "Source/TP_FirstPerson/RidgefireGameMode.h",
+    "Source/TP_FirstPerson/RidgefireNetworkCompatibility.h",
+    "Source/TP_FirstPerson/Tests/RidgefireEncounterIntegrationTests.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireEntranceNetworkFixture.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.h",
+    "Config/DefaultGame.ini"
+  ],
+  "removed": []
+}

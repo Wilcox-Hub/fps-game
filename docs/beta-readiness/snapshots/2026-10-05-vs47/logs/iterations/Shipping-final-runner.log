@@ -1,0 +1,22 @@
+Running AutomationTool...
+Using bundled DotNet SDK version: 10.0 win-x64
+Starting AutomationTool...
+Parsing command line: BuildCookRun -project=C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Ridgefire.uproject -noP4 -platform=Win64 -clientconfig=Shipping -build -cook -stage -pak -archive -prereqs -archivedirectory=C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Saved\Packages\20261005-134603-281 -utf8output
+Initializing script modules...
+Total script module initialization time: 0.12 s.
+Using C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Setting up ProjectParams for C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Ridgefire.uproject
+********** BUILD COMMAND STARTED **********
+Running: G:\Unreal Engine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "G:\Unreal Engine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Target="TP_FirstPersonEditor Win64 Development -Project=C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Ridgefire.uproject" -Target="TP_FirstPerson Win64 Shipping -Project=C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Ridgefire.uproject  -remoteini=\"C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\"  " -log="C:\Users\YaYa\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Unreal+Engine+UE_5.8\UBA-TP_FirstPersonEditor-Win64-Development.txt"
+Failed to map view of trace mapping 'UnrealBuildTool_134604' (Cannot create a file when that file already exists.)
+Log file: C:\Users\YaYa\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Unreal+Engine+UE_5.8\UBA-TP_FirstPersonEditor-Win64-Development.txt
+A conflicting instance of Global\UnrealBuildTool_Mutex_26878d6eb313106b9d20548b7453dcb2d61b1526 is already running.
+
+Result: Failed (ConflictingInstance)
+Total execution time: 0.17 seconds
+Took 0.33s to run dotnet.exe, ExitCode=10
+UnrealBuildTool failed. See log for more details. (C:\Users\YaYa\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Unreal+Engine+UE_5.8\UBA-TP_FirstPersonEditor-Win64-Development.txt)
+AutomationTool executed for 0h 0m 1s
+AutomationTool exiting with ExitCode=10 (Error_SDKNotFound)
+BUILD FAILED

@@ -1,0 +1,30 @@
+{
+  "previous_snapshot": "2026-10-09-vs55",
+  "added": [
+    "Source/TP_FirstPerson/RidgefireCheckpoint.cpp",
+    "Source/TP_FirstPerson/RidgefireCheckpoint.h",
+    "Source/TP_FirstPerson/RidgefireRunCheckpoint.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireCheckpointNetworkFixture.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireCheckpointTests.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterCheckpoint.cpp"
+  ],
+  "modified": [
+    "Source/TP_FirstPerson/RidgefireEconomy.cpp",
+    "Source/TP_FirstPerson/RidgefireEncounters.cpp",
+    "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+    "Source/TP_FirstPerson/RidgefireGameMode.h",
+    "Source/TP_FirstPerson/RidgefireLobby.cpp",
+    "Source/TP_FirstPerson/RidgefireMenuActions.cpp",
+    "Source/TP_FirstPerson/RidgefireMenus.cpp",
+    "Source/TP_FirstPerson/RidgefireNetworkCompatibility.h",
+    "Source/TP_FirstPerson/RidgefireRelay.cpp",
+    "Source/TP_FirstPerson/RidgefireRelay.h",
+    "Source/TP_FirstPerson/RidgefireRun.cpp",
+    "Source/TP_FirstPerson/RidgefireSessionSubsystem.cpp",
+    "Source/TP_FirstPerson/RidgefireSessionSubsystem.h",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h"
+  ],
+  "removed": []
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "path": "Source/TP_FirstPerson/RidgefireShopHUD.cpp",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireLoadoutInteractionTests.cpp",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h",
+    "change": "modified"
+  }
+]

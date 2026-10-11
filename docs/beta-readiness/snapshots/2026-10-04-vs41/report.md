@@ -1,0 +1,9 @@
+# VS41 — Clearer arsenal no-change state
+
+The arsenal used to show a full comparison when the selected offer was already the weapon in the slot being viewed. That produced a `Gale Repeater -> Gale Repeater` header and repeated four identical stats. It now identifies the weapon as already in the selected slot and asks the player to browse to another weapon for a comparison. Actual keyboard slot switching and primary/secondary return still pass.
+
+Unreal Engine 5.8.3 Editor build passed, the `Ridgefire.Weapons.Loadout.NormalInteractions` standalone test passed, and a fresh Windows Shipping Prototype package built, cooked and archived. The three current 1280x720 interaction frames are included. The ArsenalOpen capture still contains an engine shader-preparation notice and a transient acquisition receipt; it is useful for reviewing the reduced state but does not establish final readability or human comprehension.
+
+See [test results](test-results.json), [loadout automation log](logs/IRON-SUN-Loadout-20261004-221731-389.log), [rendered frames](visual-check.json), and [package artifact metadata](package-artifacts.json). VS40's unaffected Phasma, damage-stat, economy and encounter-selection evidence is reused only at its original test date and scope; the only changed game input in VS41 is `RidgefireShopHUD.cpp`.
+
+The **69% low-confidence gameplay planning estimate** (weighted 68.5) gives a small increment for the clearer no-change state and fresh validation. The 75% development target remains open. Overall beta readiness remains unmeasured and the verdict is **NOT_BETA_READY**. The package was built but not launched or human-tested. Owner acceptance, human fun, natural economy balance, full-run pacing, multiplayer/friend acceptance, finished arenas and production assets remain open.

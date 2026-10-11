@@ -1,0 +1,98 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "inspected_on": "2026-10-05",
+  "primary_ui_resolution": [
+    1920,
+    1080
+  ],
+  "frame_count": 8,
+  "images": [
+    {
+      "path": "visuals/1920x1080/KnownComparison.png",
+      "sha256": "ACA2EE6641CA8C285FDC5438118CAD9E71D3BE4EF7AB544E0C38B5C128B42E81",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/1920x1080/PurchaseRejected.png",
+      "sha256": "FDD15A6938F1938D5DFC392C366FD14A0A6433F410D2F418EC2FB50DEBD2A229",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/1920x1080/PurchaseReceipt.png",
+      "sha256": "34F7817F362A304ABD746A47EFC40A3ABD95A93F587C97B4382FA86D522FF8B4",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/1920x1080/UpgradePreview.png",
+      "sha256": "B52EC871C249A2EB9C405D31E22C7E12BBA83FC020E375054F0127DF78E6C36B",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/1920x1080/UpgradeDetails.png",
+      "sha256": "15BFF8222EE48CE5CB275C2AF2E82969FACA12FB576FAE77A6F80CD9AFA87BDC",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/1920x1080/UpgradeReceipt.png",
+      "sha256": "1C69BA498CA6B1D55BD3F0D30A88C89C48A2AE53B86FC56B2C312F2707609B13",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/1920x1080/WildcardComparison.png",
+      "sha256": "484D45ADB32842FDB91FBF6384EF6E3B6035455E722824EC11A01857F9604969",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    },
+    {
+      "path": "visuals/1920x1080/WildcardKept.png",
+      "sha256": "4E1F6618F3ED828D66CAA07A3787A7313B5C615A3B0F01E34AE14FFBA6EF7BF3",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "inspected_on": "2026-10-05",
+      "validation": "Actual D3D12 offscreen frame, visually inspected"
+    }
+  ],
+  "observations": [
+    "Known purchase comparison, insufficient-cash rejection, purchase receipt, upgrade preview/details/receipt and wildcard comparison/keep all inspected at actual 1920x1080.",
+    "Names, prices, cash, slots, equip markers, four core comparison rows and action prompts fit without overlap or clipping; exact view stats and enemy estimates are visible.",
+    "No engine shader notice in these eight frames.",
+    "This confirms the inspected states at the owner resolution, not all names/localization/aspect ratios or owner comprehension/fun."
+  ],
+  "human_acceptance": false
+}

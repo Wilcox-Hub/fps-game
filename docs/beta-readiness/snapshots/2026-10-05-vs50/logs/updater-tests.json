@@ -1,0 +1,82 @@
+﻿{
+    "passed":  true,
+    "checks":  [
+                   {
+                       "check":  "First install from verified feed",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Already-current launch does not reinstall",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Update preserves previous version and fixed runtime path",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Offline launch retains verified installed version",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Offline first install cannot fabricate success",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Concurrent launcher cannot mutate installation",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Corrupt download is rejected before replacing game",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Failed update leaves current and previous intact",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Archive path traversal is rejected",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Traversal writes no escaped file",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Running installed game blocks replacement",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Update succeeds after game closes",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Rollback restores previous complete version",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Rollback is not undone at next launch",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Interrupted directory swap recovers old game offline",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Foreign install directory is preserved",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Foreign file remains unchanged",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Publisher rejects build that differs from tested evidence",
+                       "status":  "PASS"
+                   },
+                   {
+                       "check":  "Installer creates configured updater and launch/rollback entries",
+                       "status":  "PASS"
+                   }
+               ],
+    "scope":  "Production PowerShell updater and publisher with small synthetic ZIP fixtures; copied Microsoft cmd executable only for the running-process guard. Real disk moves, archive hashes, corruption/traversal/locking, offline recovery, rollback hold and installer tested. No game play, network share or second-PC acceptance."
+}

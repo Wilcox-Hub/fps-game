@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "protocol": 58,
+  "game_version": "20261011-120705-452",
+  "metadata_signature_verified": true,
+  "public_archive_http_status": 200,
+  "archive_size": 440541545,
+  "archive_sha256": "A933B4056D44CF99B736802B55812BC924B2EAEFD23A4DC71FB6BBF530E773AC",
+  "verified_local_archive_identity": true,
+  "scope": "Unauthenticated public HTTPS metadata/signature and ZIP HEAD response; local verified archive hash matches the signed published identity. No new ZIP body download or game execution."
+}

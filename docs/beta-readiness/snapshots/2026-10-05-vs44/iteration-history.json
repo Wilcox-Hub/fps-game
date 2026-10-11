@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "status": "EXPECTED_FAIL",
+    "log": {
+      "path": "logs/Arsenal-baseline.log",
+      "sha256": "2BA780169905D15C28B4F3879C37C52DC0DD87043C1AFCF3494C7E0EDBC6EF31"
+    },
+    "failed_assertions": [
+      "Same upgrade key cancels preview",
+      "Successful upgrade exits preview"
+    ],
+    "transaction_and_keep_assertions_passed": true
+  },
+  "compile_correction": "An initial reroll-label format string failed UE checked-format compilation; corrected to a literal format. The earlier no-gather build did not compile the new fixture and is not test-build evidence.",
+  "visual_corrections": [
+    "Clear stale receipts when browsing/choosing a new action",
+    "Show owned weapons in their actual carried slot; do not label them as a prospective replacement"
+  ],
+  "final_only_policy": "Only the final logs and frames below establish current validation; intermediate runs are iteration history."
+}

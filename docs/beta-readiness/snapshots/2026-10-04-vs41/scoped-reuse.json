@@ -1,0 +1,21 @@
+{
+  "previous_snapshot": "2026-10-04-vs40",
+  "current_input_count": 560,
+  "unchanged_previous_inputs": 559,
+  "changed_inputs": [
+    "Source/TP_FirstPerson/RidgefireShopHUD.cpp"
+  ],
+  "retested_scopes": [
+    "No-change offer-state arsenal presentation",
+    "Actual carried-gun selection and fire/loadout normal interactions",
+    "Fresh Unreal Editor module build",
+    "Fresh Windows Shipping build/cook/archive"
+  ],
+  "reused_scopes_at_original_dates": [
+    "VS40 Phasma direct/radial damage, cover and collision regressions",
+    "VS40 direct-hit stats and economy transactions",
+    "VS40 combat selection across encounter transitions",
+    "VS33/VS37 routes, co-op/recovery, perk direction and earlier progression evidence"
+  ],
+  "policy": "The single changed input is RidgefireShopHUD.cpp. Previous evidence is reused only for scopes whose tested inputs remain unchanged and at the original date/validation level. Input hashes alone are not gameplay validation."
+}

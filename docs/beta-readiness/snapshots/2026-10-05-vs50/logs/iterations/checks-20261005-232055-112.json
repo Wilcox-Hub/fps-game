@@ -1,0 +1,7 @@
+﻿{
+    "passed":  false,
+    "checks":  [
+
+               ],
+    "error":  "Unable to find type [IO.Compression.ZipArchiveMode]."
+}

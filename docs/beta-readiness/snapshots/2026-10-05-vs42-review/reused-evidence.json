@@ -1,0 +1,18 @@
+{
+  "checked_on": "2026-10-05",
+  "policy": "Keep original dates and validation levels. Matching hashes establish integrity/reuse, not completeness or gameplay correctness.",
+  "input_manifest": {
+    "path": "snapshots/2026-10-04-vs41/input-manifest.json",
+    "sha256": "2FDDC2D65F415A4BFA23F8066F5292BA08337FB531FCBABCD0153AB4919CCF3F"
+  },
+  "source_test_snapshots": [
+    "2026-10-04-vs40",
+    "2026-10-04-vs41"
+  ],
+  "test_results": {
+    "path": "snapshots/2026-10-04-vs41/test-results.json",
+    "sha256": "0BDED3AEB45FCF4A6C67F3236D5DBB995FF8E7FE0AE74E9A9052554D04B82A86"
+  },
+  "new_test_runs": 0,
+  "new_completion_credit": 0
+}

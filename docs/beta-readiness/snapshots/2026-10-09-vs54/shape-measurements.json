@@ -1,0 +1,17 @@
+{
+  "sampled_rays": 136281,
+  "matched_body_hits": 44888,
+  "missed_body_samples": 0,
+  "empty_space_hits": 0,
+  "surface_errors_over_1_cm": 0,
+  "sampling_step_cm": 6,
+  "views_per_pose": 3,
+  "poses_per_role": 3,
+  "roles": [
+    "standard",
+    "sprinter",
+    "brute",
+    "champion",
+    "turret"
+  ]
+}

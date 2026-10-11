@@ -1,0 +1,113 @@
+[
+  {
+    "gate": "Pre-fix Phasma cluster reproduction",
+    "status": "EXPECTED_REPRODUCTION_BEFORE_FIX",
+    "tested_on": "2026-10-04",
+    "scope": "Actual production sentry Blueprints at 100 HP. A single Phasma shot at the aimed sentry also killed the exposed full-health neighbor; the same-spacing Gale control hit only its directly aimed sentry. This established the red-capable minimized case.",
+    "log": {
+      "path": "logs/IRON-SUN-Reliability-20261004-211612-017.log",
+      "sha256": "E380B448AE283B7E0911B840DFDCD2266B968E63E0094CDE7FA2A91428A0D5D7"
+    }
+  },
+  {
+    "gate": "TP_FirstPersonEditor Development build",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Unreal Engine 5.8.3 editor module build after Phasma attenuation, direct-target exclusion, direct-hit stat and regression updates. Existing inherited deprecated-API warnings remain.",
+    "log": {
+      "path": "logs/Editor-phasma-inside-ring-build.log",
+      "sha256": "BF7013C93CC2BFFEB021DC2E58F57843CD103CA5FB9B75E4B375CF92DA6A3117"
+    }
+  },
+  {
+    "gate": "Ridgefire.Regressions.Combat.VisibleBodyAndPhasmaCover",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Real production characters and NPC Blueprints, real firing calls and collision traces. One Phasma shot killed only the aimed 100-HP target; an exposed neighbor took 18.5 damage at 346.5 units and a clear-line neighbor took 0.1 at 459.5; cover and distant controls remained unharmed. Same-spacing Gale left its neighbor untouched. A 20-HP weakened neighbor can still be finished by splash. Not hardware input or human feel acceptance.",
+    "log": {
+      "path": "logs/IRON-SUN-Reliability-20261004-214343-421.log",
+      "sha256": "9BE2057B957E688D3EDC553A1881009E9D61547D34741A188A2AC7C9F18DD86E"
+    }
+  },
+  {
+    "gate": "Ridgefire.Economy.RulesAndStats and IntegratedTransactions",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Phasma comparison now reports direct impact damage instead of adding splash to the target's damage-per-shot value. Existing paid purchase, upgrades, actual shots, splash receipt and transaction checks pass.",
+    "log": {
+      "path": "logs/IRON-SUN-Economy-20261004-214459-418.log",
+      "sha256": "3DAD9E64B6FD254BAACD9249D7B942CFC4E819609464A214B77EF6B8004FE940"
+    }
+  },
+  {
+    "gate": "Combat selection and boundary regressions",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "ActualShotClearSelectedPrimary, SelectedPrimaryAcrossEncounters, and VisibleBodyAndPhasmaCover all pass. Selected primary persists with no reselection across three encounter transitions.",
+    "log": {
+      "path": "logs/IRON-SUN-Reliability-20261004-214555-334.log",
+      "sha256": "7C8013C4C859417A7A3368A08F6C10CEA303C5089A86624148260B845E0ACB42"
+    }
+  },
+  {
+    "gate": "Ridgefire.Weapons.Loadout.NormalInteractions and current arsenal capture",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Actual bound keyboard interactions pass at 1280x720. The current carried-slot layout and summary rows were visually inspected; an Unreal Preparing Shaders overlay is visible in the arsenal capture. Human comprehension remains untested.",
+    "log": {
+      "path": "logs/IRON-SUN-Loadout-20261004-215354-340.log",
+      "sha256": "463E3100C93EC53FA62E6CD8533D6669235C82131D7F54C051A148167029011C"
+    },
+    "images": [
+      {
+        "path": "visuals/ArsenalOpen.png",
+        "sha256": "5178691C9A5F299A7A169D081BF3578B9D2563AA8CA1318A96CF879C1DD0A9F6"
+      },
+      {
+        "path": "visuals/PrimaryAfterSecondary.png",
+        "sha256": "6F4DF7462D2B5CE217A219665F879DF686D0EF91455F9EA926548859DAEC33C7"
+      },
+      {
+        "path": "visuals/SamePrimaryReturn.png",
+        "sha256": "E5CEAA8F31925508F63DF8C24BD514661435C2F93D9AF4C1C8988DCF53AEDEA6"
+      }
+    ]
+  },
+  {
+    "gate": "Windows Shipping Prototype BuildCookRun",
+    "status": "PASS",
+    "tested_on": "2026-10-04",
+    "scope": "Fresh Windows Shipping Prototype package. The package was built and staged; it was not launched or played by a human.",
+    "evidence": {
+      "path": "package/PackageInfo.json",
+      "sha256": "423F3670F2DB92F00918C4CDDD743430D2DB81898417A21446A05E3E3D20C250"
+    },
+    "artifacts": [
+      {
+        "path": "TP_FirstPerson.exe",
+        "size_bytes": 171520,
+        "sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4"
+      },
+      {
+        "path": "Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+        "size_bytes": 166526976,
+        "sha256": "31F1F8C044B6C1F3BEE2C0D529FE7BF1C801DCCDA74D265D11CE06E1D4C33EF7"
+      },
+      {
+        "path": "Ridgefire/Content/Paks/Ridgefire-Windows.pak",
+        "size_bytes": 11247371,
+        "sha256": "BD1B4582860841EFF622CBF94322658FA72DFBD68053A7199BC1899B8396CEE6"
+      },
+      {
+        "path": "Ridgefire/Content/Paks/Ridgefire-Windows.ucas",
+        "size_bytes": 237085568,
+        "sha256": "2FC89FF3CE1D7E3042A73F35423EF36A169B178806F6E8C3A2E792D014598C7D"
+      },
+      {
+        "path": "Ridgefire/Content/Paks/Ridgefire-Windows.utoc",
+        "size_bytes": 237648,
+        "sha256": "4C047E15FDF3F0E901B4E069AE56FB2211A0D000BEDA815B3B1B8BB92CBACDEE"
+      }
+    ]
+  }
+]

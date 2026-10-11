@@ -1,0 +1,19 @@
+[
+  {
+    "gate": "Owner-approved scoped firewall rule",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "evidence": "firewall-active-verification.json",
+    "scope": "Elevated helper applied on owner PC after explicit approval. Separate ActiveStore read verifies enabled/OK, exact runtime, inbound UDP 7777/14001, Private, LocalSubnet, edge traversal Block. No second-PC/router access or two-device discovery success."
+  },
+  {
+    "gate": "Current input cache",
+    "status": "PASS",
+    "scope": "562/562 VS48 game inputs and unchanged helper hash match. No Source/Config/Content edits, engine tests or builds repeated."
+  },
+  {
+    "gate": "Two-PC packaged LAN discovery/join",
+    "status": "PENDING_OWNER_RETRY",
+    "scope": "Owner must create a fresh lobby and refresh from second PC. Wife-PC firewall/profile and router isolation remain uninspected."
+  }
+]

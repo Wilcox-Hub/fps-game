@@ -1,0 +1,876 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+UnrealBuildTool is up-to-date
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" TP_FirstPersonServer Linux Development -Project=C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Ridgefire.uproject -WaitMutex -NoHotReload -MaxParallelActions=4 -UBARootDir=G:\UnrealToolchains\UBA -UBAStoreCapacityGb=20 -UBADisableRemote -UBAHost=127.0.0.1 -Log=G:\UnrealToolchains\linux-server-build.log
+Log file: G:\UnrealToolchains\linux-server-build.log
+Executing up to 4 actions based on MaxProcessorCount override
+Using 'git status' to determine working set for adaptive non-unity build (G:\UnrealSource\UE_5.8.3).
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Building TP_FirstPersonServer...
+===== Toolchain Information =====
+Using ISPC compiler (G:\UnrealSource\UE_5.8.3\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Clang compiler 20.1.8 (G:\UnrealToolchains\v26_clang-20.1.8-rockylinux8\x86_64-unknown-linux-gnu\bin\clang++.exe)
+  clang version 20.1.8 (github.com/llvm/llvm-project 87f0227cb60147a26a1eeb4fb06e3b505e9c7261) Target: x86_64-pc-windows-msvc Thread model: posix InstalledDir: G:\UnrealToolchains\v26_clang-20.1.8-rockylinux8\x86_64-unknown-linux-gnu\bin
+Using Clang archiver (G:\UnrealToolchains\v26_clang-20.1.8-rockylinux8\x86_64-unknown-linux-gnu\bin\llvm-ar.exe)
+  LLVM (http://llvm.org/):   LLVM version 20.1.8   Optimized build.
+Using toolchain located at 'G:\UnrealToolchains\v26_clang-20.1.8-rockylinux8\x86_64-unknown-linux-gnu'
+Using bundled libc++ standard C++ library.
+Compressing debug files
+=================================
+Using Unreal Build Accelerator local executor to run 758 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 31.16 GB physical, 21.61 GB/33.16 GB committed
+  UBA Storage capacity 20 GB
+[1/758] Compile Module.AutoRTFM.cpp
+[2/758] Compile Module.AutomationMessages.cpp
+[3/758] Compile Module.AutomationTest.cpp
+[4/758] Compile Module.AutomationController.cpp
+[5/758] Compile Module.AutomationUtils.cpp
+[6/758] Compile Module.AvfMediaFactory.cpp
+[7/758] Compile Module.AutomationWorker.cpp
+[8/758] Compile Module.AudioWidgetsCore.cpp
+[9/758] Compile Module.BackChannel.cpp
+[10/758] Compile Module.BandwidthDebugDelegates.cpp
+[11/758] Compile Module.BandwidthMeasurementTool.cpp
+[12/758] Compile Module.BinkAudioDecoder.cpp
+[13/758] Compile Module.AudioWidgets.cpp
+[14/758] Compile Module.BuildPatchServices.1.cpp
+[15/758] Compile Module.BuildSettings.cpp
+[16/758] Compile Module.BuildPatchServices.2.cpp
+[17/758] Compile Module.BuildPatchServices.3.cpp
+[18/758] Compile Module.Cbor.cpp
+[19/758] Compile Module.CableComponent.cpp
+[20/758] Compile Module.Buoyancy.cpp
+[21/758] Compile Module.ChaosCore.cpp
+[22/758] Compile Module.ChaosCaching.cpp
+[23/758] Compile Module.BuildPatchServices.4.cpp
+[24/758] Compile Module.ChaosUserDataPT.cpp
+[25/758] Compile Module.ChaosVDBlueprint.cpp
+[26/758] Compile Module.ChaosSolverEngine.cpp
+[27/758] Compile Module.ChaosVDRuntime.cpp
+[28/758] Compile Module.ChaosNiagara.cpp
+[29/758] Compile Module.ChaosCloth.cpp
+[30/758] Compile Module.Chaos.12.cpp
+[31/758] Compile Module.Chaos.11.cpp
+[32/758] Compile Module.Chaos.13.cpp
+[33/758] Compile Module.Chaos.1.cpp
+[34/758] Compile Module.Chaos.10.cpp
+[35/758] Compile Module.Chaos.17.cpp
+[36/758] Compile Module.Chaos.14.cpp
+[37/758] Compile Module.Chaos.15.cpp
+[38/758] Compile Module.Chaos.16.cpp
+[39/758] Compile Module.Chaos.2.cpp
+[40/758] Compile Module.Chaos.20.cpp
+[41/758] Compile Module.Chaos.18.cpp
+[42/758] Compile Module.Chaos.21.cpp
+[43/758] Compile Module.Chaos.23.cpp
+[44/758] Compile Module.Chaos.22.cpp
+[45/758] Compile Module.Chaos.19.cpp
+[46/758] Compile Module.Chaos.24.cpp
+[47/758] Compile Module.Chaos.28.cpp
+[48/758] Compile Module.Chaos.27.cpp
+[49/758] Compile Module.Chaos.25.cpp
+[50/758] Compile Module.Chaos.26.cpp
+[51/758] Compile Module.Chaos.29.cpp
+[52/758] Compile Module.Chaos.3.cpp
+[53/758] Compile Module.Chaos.4.cpp
+[54/758] Compile Module.Chaos.6.cpp
+[55/758] Compile Module.Chaos.5.cpp
+[56/758] Compile Module.CharacterAI.cpp
+[57/758] Compile Module.ChunkDownloader.cpp
+[58/758] Compile Module.Chaos.7.cpp
+[59/758] Compile Module.CinematicCamera.cpp
+[60/758] Compile Module.Chaos.9.cpp
+[61/758] Compile Module.Chaos.8.cpp
+[62/758] Compile Module.ClothingSystemRuntimeNv.cpp
+[63/758] Compile Module.ClothSysRuntimeIntrfc.cpp
+[64/758] Compile Module.ComputeDataInterface.cpp
+[65/758] Compile Module.CompositeCore.cpp
+[66/758] Compile Module.ConsoleVariablesEditorRuntime.cpp
+[67/758] Compile Module.ClothingSystemRuntimeCommon.cpp
+[68/758] Compile Module.ComputeFramework.cpp
+[69/758] Compile Module.ControlRigSpline.cpp
+[70/758] Compile Module.Constraints.cpp
+[71/758] Compile Module.ControlRigPhysics.cpp
+[72/758] Compile Module.ControlRig.2.cpp
+[73/758] Compile Module.ControlRig.1.cpp
+[74/758] Compile Module.CookOnTheFly.cpp
+[75/758] Compile Module.ControlRig.5.cpp
+[76/758] Compile Module.CorePreciseFP.cpp
+[77/758] Compile Module.CoreOnline.cpp
+[78/758] Compile Module.ControlRig.3.cpp
+[79/758] Compile Module.CoreUObject.10.cpp
+[80/758] Compile Module.CoreUObject.1.cpp
+[81/758] Compile Module.CoreUObject.11.cpp
+[82/758] Compile Module.CoreUObject.12.cpp
+[83/758] Compile Module.CoreUObject.15.cpp
+[84/758] Compile Module.CoreUObject.16.cpp
+[85/758] Compile Module.CoreUObject.13.cpp
+[86/758] Compile Module.CoreUObject.14.cpp
+[87/758] Compile Module.CoreUObject.17.cpp
+[88/758] Compile Module.CoreUObject.19.cpp
+[89/758] Compile Module.CoreUObject.18.cpp
+[90/758] Compile Module.CoreUObject.3.cpp
+[91/758] Compile Module.ControlRig.4.cpp
+[92/758] Compile Module.CoreUObject.2.cpp
+[93/758] Compile Module.CoreUObject.20.cpp
+[94/758] Compile Module.CoreUObject.5.cpp
+[95/758] Compile Module.CoreUObject.4.cpp
+[96/758] Compile Module.CoreUObject.7.cpp
+[97/758] Compile Module.CoreUObject.8.cpp
+[98/758] Compile MiMalloc.c
+[99/758] Compile Module.CoreUObject.9.cpp
+[100/758] Compile Module.CoreUObject.6.cpp
+[101/758] Compile Module.Core.1.cpp
+[102/758] Compile Module.Core.10.cpp
+[103/758] Compile Module.Core.11.cpp
+[104/758] Compile Module.Core.12.cpp
+[105/758] Compile Module.Core.13.cpp
+[106/758] Compile Module.Core.15.cpp
+[107/758] Compile Module.Core.14.cpp
+[108/758] Compile Module.Core.18.cpp
+[109/758] Compile Module.Core.16.cpp
+[110/758] Compile Module.Core.19.cpp
+[111/758] Compile Module.Core.17.cpp
+[112/758] Compile Module.Core.20.cpp
+[113/758] Compile Module.Core.3.cpp
+[114/758] Compile Module.Core.4.cpp
+[115/758] Compile Module.Core.5.cpp
+[116/758] Compile Module.Core.7.cpp
+[117/758] Compile Module.Core.6.cpp
+[118/758] Compile Module.CsvMetrics.cpp
+[119/758] Compile Module.Core.8.cpp
+[120/758] Compile Module.CustomMeshComponent.cpp
+[121/758] Compile Module.Core.2.cpp
+[122/758] Compile Module.DataflowEnginePlugin.cpp
+[123/758] Compile Module.DataflowMedialSkeleton.cpp
+[124/758] Compile Module.Core.9.cpp
+[125/758] Compile Module.DataflowEngine.cpp
+[126/758] Compile Module.DataflowSimulation.cpp
+[127/758] Compile Module.DatasmithContent.cpp
+[128/758] Compile Module.DeveloperSettings.cpp
+[129/758] Compile Module.DataflowCore.cpp
+[130/758] Compile Module.DesktopPlatform.cpp
+[131/758] Compile Module.DrawPrimitiveDebugger.cpp
+[132/758] Compile Module.DirectoryWatcher.cpp
+[133/758] Compile Module.DownlinkBandwidthManager.cpp
+[134/758] Compile Module.DataflowNodes.cpp
+[135/758] Compile Module.DynamicMesh.1.cpp
+[136/758] Compile Module.DynamicMesh.2.cpp
+[137/758] Compile Module.EditorAnalyticsSession.cpp
+[138/758] Compile Module.EditableComputeGraph.cpp
+[139/758] Compile Module.EngineMessages.cpp
+[140/758] Compile Module.EngineSettings.cpp
+[141/758] Compile Module.EngineCameras.cpp
+[142/758] Compile Module.DynamicMesh.3.cpp
+[143/758] Compile Module.DynamicMesh.4.cpp
+[144/758] Compile Module.Engine.1.cpp
+[145/758] Compile Module.Engine.10.cpp
+[146/758] Compile Module.Engine.12.cpp
+[147/758] Compile Module.Engine.13.cpp
+[148/758] Compile Module.Engine.11.cpp
+[149/758] Compile Module.Engine.14.cpp
+[150/758] Compile Module.Engine.16.cpp
+[151/758] Compile Module.Engine.19.cpp
+[152/758] Compile Module.Engine.18.cpp
+[153/758] Compile Module.Engine.2.cpp
+[154/758] Compile Module.Engine.17.cpp
+[155/758] Compile Module.Engine.22.cpp
+[156/758] Compile Module.Engine.15.cpp
+[157/758] Compile Module.Engine.21.cpp
+[158/758] Compile Module.Engine.20.cpp
+[159/758] Compile Module.Engine.24.cpp
+[160/758] Compile Module.Engine.25.cpp
+[161/758] Compile Module.Engine.23.cpp
+[162/758] Compile Module.Engine.26.cpp
+[163/758] Compile Module.Engine.3.cpp
+[164/758] Compile Module.Engine.28.cpp
+[165/758] Compile Module.Engine.30.cpp
+[166/758] Compile Module.Engine.29.cpp
+[167/758] Compile Module.Engine.31.cpp
+[168/758] Compile Module.Engine.32.cpp
+[169/758] Compile Module.Engine.27.cpp
+[170/758] Compile Module.Engine.33.cpp
+[171/758] Compile Module.Engine.36.cpp
+[172/758] Compile Module.Engine.37.cpp
+[173/758] Compile Module.Engine.34.cpp
+[174/758] Compile Module.Engine.35.cpp
+[175/758] Compile Module.Engine.4.cpp
+[176/758] Compile Module.Engine.38.cpp
+[177/758] Compile Module.Engine.39.cpp
+[178/758] Compile Module.Engine.41.cpp
+[179/758] Compile Module.Engine.42.cpp
+[180/758] Compile Module.Engine.40.cpp
+[181/758] Compile Module.Engine.43.cpp
+[182/758] Compile Module.Engine.44.cpp
+[183/758] Compile Module.Engine.47.cpp
+[184/758] Compile Module.Engine.45.cpp
+[185/758] Compile Module.Engine.46.cpp
+[186/758] Compile Module.Engine.48.cpp
+[187/758] Compile Module.Engine.49.cpp
+[188/758] Compile Module.Engine.50.cpp
+[189/758] Compile Module.Engine.51.cpp
+[190/758] Compile Module.Engine.5.cpp
+[191/758] Compile Module.Engine.55.cpp
+[192/758] Compile Module.Engine.52.cpp
+[193/758] Compile Module.Engine.53.cpp
+[194/758] Compile Module.Engine.54.cpp
+[195/758] Compile Module.Engine.56.cpp
+[196/758] Compile Module.Engine.59.cpp
+[197/758] Compile Module.Engine.57.cpp
+[198/758] Compile Module.Engine.6.cpp
+[199/758] Compile Module.Engine.58.cpp
+[200/758] Compile Module.Engine.63.cpp
+[201/758] Compile Module.Engine.60.cpp
+[202/758] Compile Module.Engine.61.cpp
+[203/758] Compile Module.Engine.64.cpp
+[204/758] Compile Module.Engine.62.cpp
+[205/758] Compile Module.Engine.7.cpp
+[206/758] Compile Module.Engine.9.cpp
+[207/758] Compile Module.EventLoop.cpp
+[208/758] Compile Module.ExampleDeviceProfileSelector.cpp
+[209/758] Compile Module.ExrReaderGpu.cpp
+[210/758] Compile Module.Engine.8.cpp
+[211/758] Compile Module.EyeTracker.cpp
+[212/758] Compile Module.FacialAnimation.cpp
+[213/758] Compile Module.FieldNotification.cpp
+[214/758] Compile Module.EnhancedInput.cpp
+[215/758] Compile Module.Engine.65.cpp
+[216/758] Compile Module.Foliage.cpp
+[217/758] Compile Module.FieldSystemEngine.cpp
+[218/758] Compile Module.FractureEngine.cpp
+[219/758] Compile Module.FullBodyIK.cpp
+[220/758] Compile Module.FunctionalTesting.cpp
+[221/758] Compile Module.GLTFCore.cpp
+[222/758] Compile Module.GameplayCameras.1.cpp
+[223/758] Compile Module.GameplayCameras.2.cpp
+[224/758] Compile Module.GameplayCameras.3.cpp
+[225/758] Compile Module.GLTFExporter.cpp
+[226/758] Compile Module.GameplayCameras.4.cpp
+[227/758] Compile Module.GameplayDebugger.cpp
+[228/758] Compile Module.GameplayStateTreeModule.cpp
+[229/758] Compile Module.GameplayTasks.cpp
+[230/758] Compile Module.GameplayTags.cpp
+[231/758] Compile Module.GeometryCacheTracks.cpp
+[232/758] Compile Module.GeometryAlgorithms.3.cpp
+[233/758] Compile Module.GeometryCollectionDepNodes.cpp
+[234/758] Compile Module.GeometryCache.cpp
+[235/758] Compile Module.GeometryAlgorithms.1.cpp
+[236/758] Compile Module.GeometryAlgorithms.2.cpp
+[237/758] Compile Module.GeometryCollectionEngine.2.cpp
+[238/758] Compile Module.GeometryCollectionEngine.1.cpp
+[239/758] Compile Module.GeometryCollectionTracks.cpp
+[240/758] Compile Module.GeometryCollectionNodes.3.cpp
+[241/758] Compile Module.GeometryCollectionNodes.1.cpp
+[242/758] Compile Module.GeometryCollectionNodes.2.cpp
+[243/758] Compile Module.GeometryCore.1.cpp
+[244/758] Compile Module.GeometryCore.3.cpp
+[245/758] Compile Module.GeometryDataflowNodes.cpp
+[246/758] Compile Module.GeometryCore.4.cpp
+[247/758] Compile Module.GlobalConfigurationDataCore.cpp
+[248/758] Compile Module.GlobalConfigurationData.cpp
+[249/758] Compile Module.GooglePAD.cpp
+[250/758] Compile Module.HTRun.cpp
+[251/758] Compile Module.HTAnimRun.cpp
+[252/758] Compile Module.HTTPServer.cpp
+[253/758] Compile Module.GeometryCore.2.cpp
+[254/758] Compile Module.GeometryFramework.cpp
+[255/758] Compile Module.HTTP.cpp
+[256/758] Compile Module.HairStrandsCore.3.cpp
+[257/758] Compile Module.HairStrandsCore.2.cpp
+[258/758] Compile Module.HairStrandsCore.4.cpp
+[259/758] Compile Module.HairStrandsRuntime.cpp
+[260/758] Compile Module.HairStrandsCore.1.cpp
+[261/758] Compile Module.HeadMountedDisplay.cpp
+[262/758] Compile Module.HairStrandsSolver.cpp
+[263/758] Compile Module.IESFile.cpp
+[264/758] Compile Module.HairStrandsDeformer.cpp
+[265/758] Compile Module.HairStrandsCore.5.cpp
+[266/758] Compile Module.HttpReplayStreaming.cpp
+[267/758] Compile Module.IKRigUAF.cpp
+[268/758] Compile Module.Icmp.cpp
+[269/758] Compile Module.ISMPool.cpp
+[270/758] Compile Module.ImageWriteQueue.cpp
+[271/758] Compile Module.ImgMediaEngine.cpp
+[272/758] Compile Module.ImageCore.cpp
+[273/758] Compile Module.ImgMediaFactory.cpp
+[274/758] Compile Module.IndexedCacheStorage.cpp
+[275/758] Compile Module.InputCore.cpp
+[276/758] Compile Module.InputDebugging.cpp
+[277/758] Compile Module.ImageWrapper.cpp
+[278/758] Compile Module.InputDevice.cpp
+[279/758] Compile Module.ImgMedia.cpp
+[280/758] Compile Module.InstallBundleManager.cpp
+[281/758] Compile Module.IKRig.cpp
+[282/758] Compile Module.InteractiveToolsFramework.1.cpp
+[283/758] Compile Module.InteractiveToolsFramework.3.cpp
+[284/758] Compile Module.InterchangeAxFAssets.cpp
+[285/758] Compile Module.InterchangeAssets.cpp
+[286/758] Compile Module.InterchangeCommon.cpp
+[287/758] Compile Module.InterchangeCommonParser.cpp
+[288/758] Compile Module.InterchangeAnalytics.cpp
+[289/758] Compile Module.InteractiveToolsFramework.2.cpp
+[290/758] Compile Module.InterchangeDispatcher.cpp
+[291/758] Compile Module.InterchangeExport.cpp
+[292/758] Compile Module.InterchangeEngine.cpp
+[293/758] Compile Module.InterchangeImport.1.cpp
+[294/758] Compile Module.InterchangeFactoryNodes.cpp
+[295/758] Compile Module.InterchangeImport.3.cpp
+[296/758] Compile Module.InterchangeImport.2.cpp
+[297/758] Compile Module.InterchangeMessages.cpp
+[298/758] Compile Module.InterchangeNodes.cpp
+[299/758] Compile Module.InterchangeImport.4.cpp
+[300/758] Compile Module.InterchangeCore.cpp
+[301/758] Compile Module.IoStoreHttpClient.cpp
+[302/758] Compile Module.IoStoreOnDemandCore.cpp
+[303/758] Compile Module.IrisCore.1.cpp
+[304/758] Compile Module.IrisCore.2.cpp
+[305/758] Compile Module.IoStoreOnDemand.cpp
+[306/758] Compile Module.IrisCore.3.cpp
+[307/758] Compile Module.IrisCore.4.cpp
+[308/758] Compile Module.InterchangePipelines.cpp
+[309/758] Compile Module.IrisCore.7.cpp
+[310/758] Compile Module.IrisCore.6.cpp
+[311/758] Compile Module.IrisCore.5.cpp
+[312/758] Compile Module.JsonUtilities.cpp
+[313/758] Compile Module.Landmass.cpp
+[314/758] Compile Module.Json.cpp
+[315/758] Compile Module.LFNRS.cpp
+[316/758] Compile Module.Landscape.1.cpp
+[317/758] Compile Module.Landscape.2.cpp
+[318/758] Compile Module.Landscape.3.cpp
+[319/758] Compile Module.Landscape.6.cpp
+[320/758] Compile Module.Landscape.7.cpp
+[321/758] Compile Module.Landscape.5.cpp
+[322/758] Compile Module.LauncherChunkInstaller.cpp
+[323/758] Compile Module.Landscape.4.cpp
+[324/758] Compile Module.LinuxDeviceProfileSelector.cpp
+[325/758] Compile Module.LocalizableMessageBlueprint.cpp
+[326/758] Compile Module.LocalizableMessage.cpp
+[327/758] Compile Module.LiveLinkInterface.cpp
+[328/758] Compile Module.Launch.cpp
+[329/758] Compile Module.LocationServicesBPLibrary.cpp
+[330/758] Compile Module.LocalizationService.cpp
+[331/758] Compile Module.LevelSequence.cpp
+[332/758] Compile Module.MP4Utilities.cpp
+[333/758] Compile Module.MP4Boxes.cpp
+[334/758] Compile Module.MP4Muxer.cpp
+[335/758] Compile Module.MassCore.cpp
+[336/758] Compile Module.MSQS.cpp
+[337/758] Compile Module.MRMesh.cpp
+[338/758] Compile Module.Localization.cpp
+[339/758] Compile Module.MassEntityTestSuite.3.cpp
+[340/758] Compile Module.MassEntityTestSuite.1.cpp
+[341/758] Compile Module.MassEntityTestSuite.2.cpp
+[342/758] Compile Module.MassEntity.3.cpp
+[343/758] Compile Module.MassSignals.cpp
+[344/758] Compile Module.MathCore.cpp
+[345/758] Compile Module.MassEntity.1.cpp
+[346/758] Compile Module.MediaCompositing.cpp
+[347/758] Compile Module.MediaPlate.cpp
+[348/758] Compile Module.MassEntity.2.cpp
+[349/758] Compile Module.MediaAssets.cpp
+[350/758] Compile Module.Media.cpp
+[351/758] Compile Module.MediaUtils.cpp
+[352/758] Compile Module.MeshConversionEngineTypes.cpp
+[353/758] Compile Module.MeshFileUtils.cpp
+[354/758] Compile Module.MeshConversion.cpp
+[355/758] Compile Module.MeshDescription.cpp
+[356/758] Compile Module.MeshUtilitiesCommon.cpp
+[357/758] Compile Module.MeshModelingTools.1.cpp
+[358/758] Compile Module.MessagingCommon.cpp
+[359/758] Compile Module.MeshModelingTools.3.cpp
+[360/758] Compile Module.MeshModelingTools.2.cpp
+[361/758] Compile Module.MessageLog.cpp
+[362/758] Compile Module.Messaging.cpp
+[363/758] Compile Module.MetaHumanSDKRuntime.cpp
+[364/758] Compile Module.MetasoundFrontend.2.cpp
+[365/758] Compile Module.MetasoundFrontend.3.cpp
+[366/758] Compile Module.MetasoundFrontend.1.cpp
+[367/758] Compile Module.MetasoundFrontend.4.cpp
+[368/758] Compile Module.MetasoundGenerator.cpp
+[369/758] Compile Module.MetasoundEngine.cpp
+[370/758] Compile Module.MetasoundGraphCore.cpp
+[371/758] Compile Module.MetasoundStandardNodes.1.cpp
+[372/758] Compile Module.MetasoundStandardNodes.2.cpp
+[373/758] Compile Module.MetasoundFrontend.5.cpp
+[374/758] Compile Module.MetasoundStandardNodes.3.cpp
+[375/758] Compile Module.MetasoundStandardNodes.7.cpp
+[376/758] Compile Module.MetasoundStandardNodes.5.cpp
+[377/758] Compile Module.MobilePatchingUtils.cpp
+[378/758] Compile Module.MetasoundStandardNodes.4.cpp
+[379/758] Compile Module.MetasoundStandardNodes.6.cpp
+[380/758] Compile Module.ModelViewViewModel.cpp
+[381/758] Compile Module.ModelingComponents.4.cpp
+[382/758] Compile Module.ModelingComponents.2.cpp
+[383/758] Compile Module.MoviePlayerProxy.cpp
+[384/758] Compile Module.ModelingComponents.3.cpp
+[385/758] Compile Module.ModelingComponents.1.cpp
+[386/758] Compile Module.ModelingOperators.cpp
+[387/758] Compile Module.MoviePlayer.cpp
+[388/758] Compile Module.MovieSceneCapture.cpp
+[389/758] Compile Module.MovieSceneTracks.4.cpp
+[390/758] Compile Module.MovieSceneTracks.2.cpp
+[391/758] Compile Module.MovieSceneTracks.5.cpp
+[392/758] Compile Module.MovieSceneTracks.3.cpp
+[393/758] Compile Module.MovieScene.1.cpp
+[394/758] Compile Module.MovieScene.2.cpp
+[395/758] Compile Module.MovieSceneTracks.1.cpp
+[396/758] Compile Module.MovieScene.3.cpp
+[397/758] Compile Module.MovieScene.4.cpp
+[398/758] Compile Module.MsQuicRuntime.cpp
+[399/758] Compile Module.MovieScene.6.cpp
+[400/758] Compile Module.MuCO.3.cpp
+[401/758] Compile Module.MovieScene.5.cpp
+[402/758] Compile Module.MuCO.2.cpp
+[403/758] Compile Module.MuCO.1.cpp
+[404/758] Compile Module.MuR.1.cpp
+[405/758] Compile Module.MuR.2.cpp
+[406/758] Compile Module.MuR.5.cpp
+[407/758] Compile Module.MutableAssetUserData.cpp
+[408/758] Compile Module.MuR.3.cpp
+[409/758] Compile Module.NNEDenoiserShaders.cpp
+[410/758] Compile Module.MuR.4.cpp
+[411/758] Compile Module.NNERuntimeORT.cpp
+[412/758] Compile Module.NNEDenoiser.cpp
+[413/758] Compile Module.NNE.cpp
+[414/758] Compile Module.NamingTokens.cpp
+[415/758] Compile Module.NFORDenoise.cpp
+[416/758] Compile Module.NamingTokensUI.cpp
+[417/758] Compile Module.Navmesh.1.cpp
+[418/758] Compile Module.NavigationSystem.1.cpp
+[419/758] Compile Module.Navmesh.2.cpp
+[420/758] Compile Module.NetCommon.cpp
+[421/758] Compile Module.Navmesh.3.cpp
+[422/758] Compile Module.NavigationSystem.2.cpp
+[423/758] Compile Module.NavigationSystem.3.cpp
+[424/758] Compile Module.Networking.cpp
+[425/758] Compile Module.NetworkReplayStreaming.cpp
+[426/758] Compile Module.NetworkFile.cpp
+[427/758] Compile Module.NiagaraAnimNotifies.cpp
+[428/758] Compile Module.NiagaraCore.cpp
+[429/758] Compile Module.NetCore.cpp
+[430/758] Compile Module.NiagaraVertexFactories.cpp
+[431/758] Compile Module.NiagaraSimCaching.cpp
+[432/758] Compile Module.NiagaraShader.cpp
+[433/758] Compile Module.Niagara.1.cpp
+[434/758] Compile Module.Niagara.11.cpp
+[435/758] Compile Module.Niagara.10.cpp
+[436/758] Compile Module.Niagara.15.cpp
+[437/758] Compile Module.Niagara.12.cpp
+[438/758] Compile Module.Niagara.13.cpp
+[439/758] Compile Module.Niagara.14.cpp
+[440/758] Compile Module.Niagara.2.cpp
+[441/758] Compile Module.Niagara.4.cpp
+[442/758] Compile Module.Niagara.3.cpp
+[443/758] Compile Module.Niagara.5.cpp
+[444/758] Compile Module.Niagara.6.cpp
+[445/758] Compile Module.NonRealtimeAudioRenderer.cpp
+[446/758] Compile Module.NullDrv.cpp
+[447/758] Compile Module.NullReplayStreaming.cpp
+[448/758] Compile Module.OnlineBase.cpp
+[449/758] Compile Module.Niagara.7.cpp
+[450/758] Compile Module.OnlineServicesCommonEngineUtils.cpp
+[451/758] Compile Module.Niagara.9.cpp
+[452/758] Compile Module.Niagara.8.cpp
+[453/758] Compile Module.OnlineServicesInterface.cpp
+[454/758] Compile Module.OnlineServicesCommon.3.cpp
+[455/758] Compile Module.OnlineServicesCommon.2.cpp
+[456/758] Compile Module.OnlineSubsystemNull.cpp
+[457/758] Compile Module.OnlineSubsystemUtils.2.cpp
+[458/758] Compile Module.OnlineSubsystemUtils.3.cpp
+[459/758] Compile Module.OnlineSubsystemUtils.1.cpp
+[460/758] Compile Module.OodleNetworkPlugin.cpp
+[461/758] Compile Module.OpenExrWrapper.cpp
+[462/758] Compile Module.OptimusSettings.cpp
+[463/758] Compile Module.OpusAudioDecoder.cpp
+[464/758] Compile Module.Overlay.cpp
+[465/758] Compile Module.PBIK.cpp
+[466/758] Compile Module.PCGCompute.cpp
+[467/758] Compile Module.OnlineSubsystem.cpp
+[468/758] Compile Module.OnlineServicesCommon.1.cpp
+[469/758] Compile Module.PCG.1.cpp
+[470/758] Compile Module.PCG.11.cpp
+[471/758] Compile Module.PCG.10.cpp
+[472/758] Compile Module.OptimusCore.cpp
+[473/758] Compile Module.PCG.12.cpp
+[474/758] Compile Module.PCG.15.cpp
+[475/758] Compile Module.PCG.14.cpp
+[476/758] Compile Module.PCG.17.cpp
+[477/758] Compile Module.PCG.16.cpp
+[478/758] Compile Module.PCG.18.cpp
+[479/758] Compile Module.PCG.13.cpp
+[480/758] Compile Module.PCG.20.cpp
+[481/758] Compile Module.PCG.19.cpp
+[482/758] Compile Module.PCG.2.cpp
+[483/758] Compile Module.PCG.5.cpp
+[484/758] Compile Module.PCG.3.cpp
+[485/758] Compile Module.PCG.4.cpp
+[486/758] Compile Module.PCG.6.cpp
+[487/758] Compile Module.PCG.8.cpp
+[488/758] Compile Module.PacketHandler.cpp
+[489/758] Compile Module.PCG.7.cpp
+[490/758] Compile Module.PerfCounters.cpp
+[491/758] Compile Module.Paper2D.cpp
+[492/758] Compile Module.PCG.9.cpp
+[493/758] Compile Module.PakFile.cpp
+[494/758] Compile EncryptionContextOpenSSL.cpp
+[495/758] Compile PlatformCryptoAesDecryptorsOpenSSL.cpp
+[496/758] Compile PlatformCryptoAesEncryptorsOpenSSL.cpp
+[497/758] Compile PlatformCryptoContext.cpp
+[498/758] Compile PlatformCryptoUtilsOpenSSL.cpp
+[499/758] Compile Module.PlatformCryptoTypes.cpp
+[500/758] Compile Module.PlatformCrypto.cpp
+[501/758] Compile Module.PreLoadScreen.cpp
+[502/758] Compile Module.PhysicsControl.cpp
+[503/758] Compile Module.ProceduralMeshComponent.cpp
+[504/758] Compile Module.ProfileVisualizer.cpp
+[505/758] Compile Module.Projects.cpp
+[506/758] Compile Module.PropertyBindingUtils.cpp
+[507/758] Compile Module.PlanarCut.cpp
+[508/758] Compile Module.PythonScriptPluginPreload.cpp
+[509/758] Compile Module.PropertyPath.cpp
+[510/758] Compile Module.PhysicsCore.cpp
+[511/758] Compile Module.RSA.cpp
+[512/758] Compile Module.RadAudioDecoder.cpp
+[513/758] Compile Module.RawMesh.cpp
+[514/758] Compile Module.ReliableHComp.cpp
+[515/758] Compile Module.RHI.3.cpp
+[516/758] Compile Module.RHI.2.cpp
+[517/758] Compile Module.RHI.1.cpp
+[518/758] Compile Module.RenderCore.1.cpp
+[519/758] Compile Module.RenderCore.4.cpp
+[520/758] Compile Module.RenderCore.2.cpp
+[521/758] Compile Module.RenderCore.3.cpp
+[522/758] Compile Module.RenderDocPlugin.cpp
+[523/758] Compile Module.RenderCore.6.cpp
+[524/758] Compile Module.RenderCore.5.cpp
+[525/758] Compile Module.Renderer.10.cpp
+[526/758] Compile Module.Renderer.11.cpp
+[527/758] Compile Module.Renderer.1.cpp
+[528/758] Compile Module.Renderer.12.cpp
+[529/758] Compile Module.Renderer.13.cpp
+[530/758] Compile Module.Renderer.15.cpp
+[531/758] Compile Module.Renderer.14.cpp
+[532/758] Compile Module.Renderer.16.cpp
+[533/758] Compile Module.Renderer.17.cpp
+[534/758] Compile Module.Renderer.19.cpp
+[535/758] Compile Module.Renderer.18.cpp
+[536/758] Compile Module.Renderer.20.cpp
+[537/758] Compile Module.Renderer.2.cpp
+[538/758] Compile Module.Renderer.21.cpp
+[539/758] Compile Module.Renderer.22.cpp
+[540/758] Compile Module.Renderer.25.cpp
+[541/758] Compile Module.Renderer.24.cpp
+[542/758] Compile Module.Renderer.23.cpp
+[543/758] Compile Module.Renderer.27.cpp
+[544/758] Compile Module.Renderer.28.cpp
+[545/758] Compile Module.Renderer.29.cpp
+[546/758] Compile Module.Renderer.26.cpp
+[547/758] Compile Module.Renderer.3.cpp
+[548/758] Compile Module.Renderer.30.cpp
+[549/758] Compile Module.Renderer.31.cpp
+[550/758] Compile Module.Renderer.32.cpp
+[551/758] Compile Module.Renderer.33.cpp
+[552/758] Compile Module.Renderer.34.cpp
+[553/758] Compile Module.Renderer.35.cpp
+[554/758] Compile Module.Renderer.36.cpp
+[555/758] Compile Module.Renderer.37.cpp
+[556/758] Compile Module.Renderer.38.cpp
+[557/758] Compile Module.Renderer.4.cpp
+[558/758] Compile Module.Renderer.5.cpp
+[559/758] Compile Module.Renderer.7.cpp
+[560/758] Compile Module.Renderer.6.cpp
+[561/758] Compile ambisonic_binaural_decoder.cc
+[562/758] Compile ambisonic_binaural_decoder_node.cc
+[563/758] Compile ambisonic_lookup_table.cc
+[564/758] Compile ambisonic_mixing_encoder_node.cc
+[565/758] Compile associated_legendre_polynomials_generator.cc
+[566/758] Compile audio_buffer.cc
+[567/758] Compile binaural_surround_renderer.cc
+[568/758] Compile binaural_surround_renderer_impl.cc
+[569/758] Compile biquad_filter.cc
+[570/758] Compile Module.Renderer.8.cpp
+[571/758] Compile buffer_crossfader.cc
+[572/758] Compile buffer_unpartitioner.cc
+[573/758] Compile buffer_partitioner.cc
+[574/758] Compile channel_converter.cc
+[575/758] Compile buffered_source_node.cc
+[576/758] Compile channel_view.cc
+[577/758] Compile circular_buffer.cc
+[578/758] Compile delay_filter.cc
+[579/758] Compile distance_attenuation.cc
+[580/758] Compile fft_manager.cc
+[581/758] Compile fir_filter.cc
+[582/758] Compile filter_coefficient_generators.cc
+[583/758] Compile foa_rotator_node.cc
+[584/758] Compile gain.cc
+[585/758] Compile gain_mixer.cc
+[586/758] Compile foa_rotator.cc
+[587/758] Compile gain_node.cc
+[588/758] Compile gain_mixer_node.cc
+[589/758] Compile gain_processor.cc
+[590/758] Compile graph_manager.cc
+[591/758] Compile hoa_rotator_node.cc
+[592/758] Compile hrtf_assets.cc
+[593/758] Compile lockless_task_queue.cc
+[594/758] Compile misc_math.cc
+[595/758] Compile hoa_rotator.cc
+[596/758] Compile mixer.cc
+[597/758] Compile mixer_node.cc
+[598/758] Compile mono_pole_filter.cc
+[599/758] Compile mono_from_soundfield_node.cc
+[600/758] Compile multi_channel_iir.cc
+[601/758] Compile near_field_processor.cc
+[602/758] Compile occlusion_calculator.cc
+[603/758] Compile near_field_effect_node.cc
+[604/758] Compile occlusion_node.cc
+[605/758] Compile Module.Renderer.9.cpp
+[606/758] Compile ogg_vorbis_recorder.cc
+[607/758] Compile partitioned_fft_filter.cc
+[608/758] Compile planar_interleaved_conversion.cc
+[609/758] Compile processing_node.cc
+[610/758] Compile reflections_node.cc
+[611/758] Compile resampler.cc
+[612/758] Compile reflections_processor.cc
+[613/758] Compile resonance_audio_api.cc
+[614/758] Compile Module.ResonanceAudio.cpp
+[615/758] Compile reverb_node.cc
+[616/758] Compile reverb_onset_update_processor.cc
+[617/758] Compile reverb_onset_compensator.cc
+[618/758] Compile sample_type_conversion.cc
+[619/758] Compile sh_hrir_creator.cc
+[620/758] Compile shoe_box_room.cc
+[621/758] Compile room_effects_utils.cc
+[622/758] Compile source_config.cc
+[623/758] Compile simd_utils.cc
+[624/758] Compile resonance_audio_api_impl.cc
+[625/758] Compile source_node.cc
+[626/758] Compile sink_node.cc
+[627/758] Compile source_parameters_manager.cc
+[628/758] Compile spectral_reverb.cc
+[629/758] Compile spherical_angle.cc
+[630/758] Compile stereo_from_soundfield_converter.cc
+[631/758] Compile sum_and_difference_processor.cc
+[632/758] Compile stereo_panner.cc
+[633/758] Compile utils.cc
+[634/758] Compile task_thread_pool.cc
+[635/758] Compile vorbis_stream_encoder.cc
+[636/758] Compile stereo_mixing_panner_node.cc
+[637/758] Compile wav_reader.cc
+[638/758] Compile wav.cc
+[639/758] Compile Module.RewindDebuggerRuntimeInterface.cpp
+[640/758] Compile Module.RewindDebuggerVLogRuntime.cpp
+[641/758] Compile Module.RewindDebuggerRuntime.cpp
+[642/758] Compile Module.RigLogicModule.cpp
+[643/758] Compile Module.RigVM.1.cpp
+[644/758] Compile Module.RigVM.2.cpp
+[645/758] Compile Module.RigidPhysics.cpp
+[646/758] Compile Module.RuntimeTelemetry.cpp
+[647/758] Compile Module.SSL.cpp
+[648/758] Compile Module.RigVM.4.cpp
+[649/758] Compile Module.SandboxFile.cpp
+[650/758] Compile Module.Scribble.cpp
+[651/758] Compile Module.ScreenShotComparisonTools.cpp
+[652/758] Compile Module.SequenceRuntimeRecorder.cpp
+[653/758] Compile Module.Serialization.cpp
+[654/758] Compile Module.SerializedRecorderInterface.cpp
+[655/758] Compile Module.SessionMessages.cpp
+[656/758] Compile Module.SequencerScripting.cpp
+[657/758] Compile Module.SessionServices.cpp
+[658/758] Compile Module.Settings.cpp
+[659/758] Compile Module.RigVM.3.cpp
+[660/758] Compile Module.RigLogicLib.cpp
+[661/758] Compile Module.SignalProcessing.3.cpp
+[662/758] Compile Module.SignalProcessing.2.cpp
+[663/758] Compile Module.SignificanceManager.cpp
+[664/758] Compile Module.SkeletalMerging.cpp
+[665/758] Compile Module.SignalProcessing.1.cpp
+[666/758] Compile Module.SlateCore.1.cpp
+[667/758] Compile Module.SlateCore.3.cpp
+[668/758] Compile Module.SkeletalMeshDescription.cpp
+[669/758] Compile Module.SlateCore.2.cpp
+[670/758] Compile Module.SlateCore.4.cpp
+[671/758] Compile Module.SlateFileDialogs.cpp
+[672/758] Compile Module.SlateCore.5.cpp
+[673/758] Compile Module.Slate.1.cpp
+[674/758] Compile Module.Slate.3.cpp
+[675/758] Compile Module.Slate.2.cpp
+[676/758] Compile Module.Slate.4.cpp
+[677/758] Compile Module.SlateReflector.cpp
+[678/758] Compile Module.Sockets.cpp
+[679/758] Compile Module.Slate.7.cpp
+[680/758] Compile Module.SoundFieldRendering.cpp
+[681/758] Compile Module.SoundFields.cpp
+[682/758] Compile Module.StateStream.cpp
+[683/758] Compile Module.Slate.6.cpp
+[684/758] Compile Module.StateTreeDeveloper.cpp
+[685/758] Compile Module.SourceControl.cpp
+[686/758] Compile Module.Slate.5.cpp
+[687/758] Compile Module.StateTreeModule.2.cpp
+[688/758] Compile Module.StorageServerClientDebug.cpp
+[689/758] Compile Module.StreamingFile.cpp
+[690/758] Compile Module.StateTreeModule.1.cpp
+[691/758] Compile Module.StreamingPauseRendering.cpp
+[692/758] Compile Module.StudioTelemetry.cpp
+[693/758] Compile Module.SynthBenchmark.cpp
+[694/758] Compile Module.StaticMeshDescription.cpp
+[695/758] Compile Module.TP_FirstPerson.2.cpp
+In file included from C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Intermediate\Build\Linux\x64\TP_FirstPersonServer\Development\TP_FirstPerson\Module.TP_FirstPerson.2.cpp:14:
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireSessionHUD.cpp(15,48): error: declaration shadows a variable in namespace '(anonymous)' [-Werror,-Wshadow]
+   15 |     const FLinearColor Paper(.98f,.91f,.77f,1),Ice(.48f,.92f,.84f,1),Ember(1,.46f,.2f,1);
+      |                                                ^
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireMenus.cpp(27,107): note: previous declaration is here
+   27 | const FLinearColor Ink(.025f,.028f,.030f),Panel(.065f,.073f,.077f),Muted(.58f,.64f,.65f),Sun(1,.59f,.22f),Ice(.49f,.84f,.79f);
+      |                                                                                                           ^
+In file included from C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Intermediate\Build\Linux\x64\TP_FirstPersonServer\Development\TP_FirstPerson\Module.TP_FirstPerson.2.cpp:16:
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireSetupHUD.cpp(18,47): error: declaration shadows a variable in namespace '(anonymous)' [-Werror,-Wshadow]
+   18 |     const FLinearColor Paper(.98f,.94f,.85f), Ice(.48f,.92f,.84f), Ember(1,.55f,.28f);
+      |                                               ^
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireMenus.cpp(27,107): note: previous declaration is here
+   27 | const FLinearColor Ink(.025f,.028f,.030f),Panel(.065f,.073f,.077f),Muted(.58f,.64f,.65f),Sun(1,.59f,.22f),Ice(.49f,.84f,.79f);
+      |                                                                                                           ^
+In file included from C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Intermediate\Build\Linux\x64\TP_FirstPersonServer\Development\TP_FirstPerson\Module.TP_FirstPerson.2.cpp:16:
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireSetupHUD.cpp(19,24): error: declaration shadows a variable in namespace '(anonymous)' [-Werror,-Wshadow]
+   19 |     const FLinearColor Muted(.68f,.73f,.77f), Panel(.045f,.065f,.08f,1);
+      |                        ^
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireMenus.cpp(27,68): note: previous declaration is here
+   27 | const FLinearColor Ink(.025f,.028f,.030f),Panel(.065f,.073f,.077f),Muted(.58f,.64f,.65f),Sun(1,.59f,.22f),Ice(.49f,.84f,.79f);
+      |                                                                    ^
+In file included from C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Intermediate\Build\Linux\x64\TP_FirstPersonServer\Development\TP_FirstPerson\Module.TP_FirstPerson.2.cpp:16:
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireSetupHUD.cpp(19,47): error: declaration shadows a variable in namespace '(anonymous)' [-Werror,-Wshadow]
+   19 |     const FLinearColor Muted(.68f,.73f,.77f), Panel(.045f,.065f,.08f,1);
+      |                                               ^
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireMenus.cpp(27,43): note: previous declaration is here
+   27 | const FLinearColor Ink(.025f,.028f,.030f),Panel(.065f,.073f,.077f),Muted(.58f,.64f,.65f),Sun(1,.59f,.22f),Ice(.49f,.84f,.79f);
+      |                                           ^
+In file included from C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Intermediate\Build\Linux\x64\TP_FirstPersonServer\Development\TP_FirstPerson\Module.TP_FirstPerson.2.cpp:18:
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireShopHUD.cpp(17,47): error: declaration shadows a variable in namespace '(anonymous)' [-Werror,-Wshadow]
+   17 |     const FLinearColor Paper(.98f,.94f,.85f), Ice(.48f,.92f,.84f), Ember(1,.55f,.28f);
+      |                                               ^
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireMenus.cpp(27,107): note: previous declaration is here
+   27 | const FLinearColor Ink(.025f,.028f,.030f),Panel(.065f,.073f,.077f),Muted(.58f,.64f,.65f),Sun(1,.59f,.22f),Ice(.49f,.84f,.79f);
+      |                                                                                                           ^
+In file included from C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Intermediate\Build\Linux\x64\TP_FirstPersonServer\Development\TP_FirstPerson\Module.TP_FirstPerson.2.cpp:18:
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireShopHUD.cpp(18,24): error: declaration shadows a variable in namespace '(anonymous)' [-Werror,-Wshadow]
+   18 |     const FLinearColor Muted(.68f,.73f,.77f), Panel(.045f,.065f,.08f,1);
+      |                        ^
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireMenus.cpp(27,68): note: previous declaration is here
+   27 | const FLinearColor Ink(.025f,.028f,.030f),Panel(.065f,.073f,.077f),Muted(.58f,.64f,.65f),Sun(1,.59f,.22f),Ice(.49f,.84f,.79f);
+      |                                                                    ^
+In file included from C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Intermediate\Build\Linux\x64\TP_FirstPersonServer\Development\TP_FirstPerson\Module.TP_FirstPerson.2.cpp:18:
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireShopHUD.cpp(18,47): error: declaration shadows a variable in namespace '(anonymous)' [-Werror,-Wshadow]
+   18 |     const FLinearColor Muted(.68f,.73f,.77f), Panel(.045f,.065f,.08f,1);
+      |                                               ^
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\RidgefireMenus.cpp(27,43): note: previous declaration is here
+   27 | const FLinearColor Ink(.025f,.028f,.030f),Panel(.065f,.073f,.077f),Muted(.58f,.64f,.65f),Sun(1,.59f,.22f),Ice(.49f,.84f,.79f);
+      |                                           ^
+In file included from C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Intermediate\Build\Linux\x64\TP_FirstPersonServer\Development\TP_FirstPerson\Module.TP_FirstPerson.2.cpp:29:
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\Tests\RidgefireCombatReliabilityTests.cpp(52,9): error: redefinition of 'GameWorld'
+   52 | UWorld* GameWorld()
+      |         ^
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\Tests\RidgefireCheckpointTests.cpp(37,9): note: previous definition is here
+   37 | UWorld* GameWorld()
+      |         ^
+8 errors generated.
+[696/758] Compile Module.StorageServerClient.cpp
+[697/758] Compile Module.TP_FirstPerson.3.cpp
+In file included from C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Intermediate\Build\Linux\x64\TP_FirstPersonServer\Development\TP_FirstPerson\Module.TP_FirstPerson.3.cpp:2:
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\Tests\RidgefireEncounterIntegrationTests.cpp(247,86): error: no member named 'OnSentryEditorEvent' in 'AShooterNPC'
+  247 |     static void Observe(AShooterNPC* E,TFunction<void(FName,AActor*)> Callback) { E->OnSentryEditorEvent.AddLambda(Callback); }
+      |                                                                                   ~  ^
+In file included from C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Intermediate\Build\Linux\x64\TP_FirstPersonServer\Development\TP_FirstPerson\Module.TP_FirstPerson.3.cpp:21:
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\Tests\RidgefireRecoilTests.cpp(28,36): warning: 'GetDeprecatedInputPitchScale' is deprecated: GetDeprecatedInputPitchScale is deprecated, please use the Enhanced Input plugin Scalar Modifier instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile. [-Wdeprecated-declarations]
+   28 |         const float SavedScale=PC->GetDeprecatedInputPitchScale();
+      |                                    ^
+G:\UnrealSource\UE_5.8.3\Engine\Source\Runtime\Engine\Classes\GameFramework\PlayerController.h(501,2): note: 'GetDeprecatedInputPitchScale' has been explicitly marked deprecated here
+  501 |     UE_DEPRECATED(5.0, "GetDeprecatedInputPitchScale is deprecated, please use the Enhanced Input plugin Scalar Modifier instead.")
+      |     ^
+G:\UnrealSource\UE_5.8.3\Engine\Source\Runtime\Core\Public\Misc\CoreMiscDefines.h(297,44): note: expanded from macro 'UE_DEPRECATED'
+  297 |     #define UE_DEPRECATED(Version, Message) [[deprecated(Message " - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.")]]
+      |                                               ^
+In file included from C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Intermediate\Build\Linux\x64\TP_FirstPersonServer\Development\TP_FirstPerson\Module.TP_FirstPerson.3.cpp:21:
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\Tests\RidgefireRecoilTests.cpp(33,17): warning: 'SetDeprecatedInputPitchScale' is deprecated: SetDeprecatedInputPitchScale is deprecated, please use the Enhanced Input plugin Scalar Modifier instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile. [-Wdeprecated-declarations]
+   33 |             PC->SetDeprecatedInputPitchScale(Scale);
+      |                 ^
+G:\UnrealSource\UE_5.8.3\Engine\Source\Runtime\Engine\Classes\GameFramework\PlayerController.h(516,2): note: 'SetDeprecatedInputPitchScale' has been explicitly marked deprecated here
+  516 |     UE_DEPRECATED(5.0, "SetDeprecatedInputPitchScale is deprecated, please use the Enhanced Input plugin Scalar Modifier instead.")
+      |     ^
+G:\UnrealSource\UE_5.8.3\Engine\Source\Runtime\Core\Public\Misc\CoreMiscDefines.h(297,44): note: expanded from macro 'UE_DEPRECATED'
+  297 |     #define UE_DEPRECATED(Version, Message) [[deprecated(Message " - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.")]]
+      |                                               ^
+In file included from C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Intermediate\Build\Linux\x64\TP_FirstPersonServer\Development\TP_FirstPerson\Module.TP_FirstPerson.3.cpp:21:
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Source\TP_FirstPerson\Tests\RidgefireRecoilTests.cpp(42,13): warning: 'SetDeprecatedInputPitchScale' is deprecated: SetDeprecatedInputPitchScale is deprecated, please use the Enhanced Input plugin Scalar Modifier instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile. [-Wdeprecated-declarations]
+   42 |         PC->SetDeprecatedInputPitchScale(SavedScale);Settings->bEnableLegacyInputScales=SavedLegacy;
+      |             ^
+G:\UnrealSource\UE_5.8.3\Engine\Source\Runtime\Engine\Classes\GameFramework\PlayerController.h(516,2): note: 'SetDeprecatedInputPitchScale' has been explicitly marked deprecated here
+  516 |     UE_DEPRECATED(5.0, "SetDeprecatedInputPitchScale is deprecated, please use the Enhanced Input plugin Scalar Modifier instead.")
+      |     ^
+G:\UnrealSource\UE_5.8.3\Engine\Source\Runtime\Core\Public\Misc\CoreMiscDefines.h(297,44): note: expanded from macro 'UE_DEPRECATED'
+  297 |     #define UE_DEPRECATED(Version, Message) [[deprecated(Message " - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.")]]
+      |                                               ^
+3 warnings and 1 error generated.
+[698/758] Compile Module.TakeMovieScene.cpp
+[699/758] Compile Module.TP_FirstPerson.1.cpp
+[700/758] Compile Module.TakeRecorderNamingTokens.cpp
+[701/758] Compile Module.Synthesis.cpp
+[702/758] Compile Module.TP_FirstPerson.4.cpp
+[703/758] Compile Module.TakesCore.cpp
+[704/758] Compile Module.TakeRecorderSources.cpp
+[705/758] Compile Module.TakeRecorder.cpp
+[706/758] Compile Module.TelemetryUtils.cpp
+[707/758] Compile Module.TcpMessaging.cpp
+[708/758] Compile Module.TextureUtilitiesCommon.cpp
+[709/758] Compile Module.TmvMediaShaders.cpp
+[710/758] Compile Module.TakeTrackRecorders.cpp
+[711/758] Compile Module.TimeManagement.cpp
+[712/758] Compile Module.TemplateSequence.cpp
+[713/758] Compile Module.TraceBasedDebuggers.cpp
+[714/758] Compile Module.TraceLog.cpp
+[715/758] Compile Module.ToolMenus.cpp
+[716/758] Compile Module.TraceUtilities.cpp
+[717/758] Compile Module.TweeningUtils.cpp
+[718/758] Compile Module.TmvMedia.cpp
+[719/758] Compile Module.TranslationEditor.cpp
+[720/758] Compile Module.TypedElementRuntime.cpp
+[721/758] Compile Module.ToolWidgets.cpp
+[722/758] Compile Module.UAFAnimGraph.3.cpp
+[723/758] Compile Module.UAFAnimGraph.1.cpp
+[724/758] Compile Module.UAFAnimGraph.2.cpp
+[725/758] Compile Module.TypedElementFramework.cpp
+[726/758] Compile Module.UELibSampleRate.cpp
+[727/758] Compile Module.UAF.3.cpp
+[728/758] Compile Module.UAF.2.cpp
+[729/758] Compile Module.UAF.1.cpp
+[730/758] Compile Module.UObjectPlugin.cpp
+[731/758] Compile Module.UdpMessaging.cpp
+[732/758] Compile Module.UniversalObjectLocator.cpp
+[733/758] Compile Module.UnixCommonStartup.cpp
+[734/758] Compile Module.UMG.3.cpp
+[735/758] Compile Module.VectorVM.cpp
+[736/758] Compile Module.Voice.cpp
+[737/758] Compile Module.VariantManagerContent.cpp
+[738/758] Compile Module.VorbisAudioDecoder.cpp
+[739/758] Compile c_loops.cc
+[740/758] Compile Module.Voronoi.cpp
+[741/758] Compile Module.UMG.1.cpp
+[742/758] Compile cell.cc
+[743/758] Compile pre_container.cc
+[744/758] Compile container.cc
+[745/758] Compile v_base.cc
+[746/758] Compile Module.UMG.2.cpp
+[747/758] Compile unitcell.cc
+[748/758] Compile wall.cc
+[749/758] Compile v_compute.cc
+[750/758] Compile Module.WaveTable.cpp
+[751/758] Compile Module.Water.3.cpp
+[752/758] Compile Module.WorldMetricsCore.cpp
+[753/758] Compile Module.WorldMetricsTest.cpp
+[754/758] Compile Module.XmlParser.cpp
+[755/758] Compile Module.Water.1.cpp
+[756/758] Compile Module.Water.2.cpp
+Total time in Unreal Build Accelerator local executor: 1402.98 seconds
+
+Result: Failed (OtherCompilationError)
+Total execution time: 1405.28 seconds
+Trace written to file G:\UnrealSource\UE_5.8.3\Engine\Programs\UnrealBuildTool\Trace.uba with size 303.7kb

@@ -1,0 +1,65 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" TP_FirstPersonEditor Win64 Development -Project=C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Ridgefire.uproject -WaitMutex -NoHotReloadFromIDE
+Log file: C:\Users\YaYa\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Available x64 toolchains (1):
+ * C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.51.36231
+    (Family=14.51.36231, FamilyRank=2, Version=14.51.36260, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64)
+Visual Studio compiler version 14.51.36260 is newer than latest preferred version 14.50.35717. Please use caution as this compiler has not been heavily tested
+Building TP_FirstPersonEditor...
+===== Toolchain Information =====
+Using ISPC compiler (G:\Unreal Engine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.51.36260 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.51.36231) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Warning: Visual Studio compiler 14.51.36260 is not a preferred version
+[Adaptive Build] Excluded from TP_FirstPerson unity file: RidgefireArenaDressing.cpp, RidgefireBlastPresentation.cpp, RidgefireCharacterMovement.cpp, RidgefireCombatProgression.cpp, RidgefireEconomy.cpp, RidgefireEncounters.cpp, RidgefireGameMode.cpp, RidgefireHealingTube.cpp, RidgefireHUD.cpp, RidgefireLobby.cpp, RidgefireMenuActions.cpp, RidgefireMenus.cpp, RidgefirePickup.cpp, RidgefireProgression.cpp, RidgefireRelay.cpp, RidgefireRouteGeometry.cpp, RidgefireRun.cpp, RidgefireRunPlan.cpp, RidgefireSessionHUD.cpp, RidgefireSessionSubsystem.cpp, RidgefireSetupHUD.cpp, RidgefireShopControls.cpp, RidgefireShopHUD.cpp, RidgefireSynthWave.cpp, RidgefireWeaponProgression.cpp, RidgefireWildcardFactory.cpp, TP_FirstPerson.cpp, TP_FirstPersonCameraManager.cpp, TP_FirstPersonCharacter.cpp, TP_FirstPersonGameMode.cpp, TP_FirstPersonPlayerController.cpp, RidgefireArsenalConfirmationTests.cpp, RidgefireArsenalPresentationTests.cpp, RidgefireBotShapeTests.cpp, RidgefireCarryPresentationTests.cpp, RidgefireCarryTests.cpp, RidgefireCombatReliabilityTests.cpp, RidgefireEconomyNetworkFixture.cpp, RidgefireEconomyTests.cpp, RidgefireEncounterPlanTests.cpp, RidgefireFireNetworkFixture.cpp, RidgefireHealingTubeNetworkTests.cpp, RidgefireHealingTubeTests.cpp, RidgefireHUDLayoutTests.cpp, RidgefireLoadoutInteractionTests.cpp, RidgefireLobbyNetworkFixture.cpp, RidgefireMenuInteractionFixture.cpp, RidgefireMenuReviewFixture.cpp, RidgefirePiercingTraceTests.cpp, RidgefirePressureNetworkFixture.cpp, RidgefirePressurePassTests.cpp, RidgefireProgressionInteractionTests.cpp, RidgefireProgressionTests.cpp, RidgefireRecoilTests.cpp, RidgefireRecoveryTests.cpp, RidgefireRescueClockTests.cpp, RidgefireRescueContentionTests.cpp, RidgefireRescueLifecycleTests.cpp, RidgefireRunNetworkFixture.cpp, RidgefireRunTests.cpp, RidgefireScatterVisualTests.cpp, RidgefireSentryClearanceTests.cpp, RidgefireSetupTests.cpp, RidgefireWeaponCadenceTests.cpp, RidgefireWeaponFireTests.cpp, RidgefireWeaponPresentationTests.cpp, RidgefireWildcardCombatTests.cpp, HorrorCharacter.cpp, HorrorGameMode.cpp, HorrorPlayerController.cpp, HorrorUI.cpp, ShooterCharacter.cpp, ShooterGameMode.cpp, ShooterPlayerController.cpp, EnvQueryContext_Target.cpp, ShooterAIController.cpp, ShooterNPC.cpp, ShooterNPCSpawner.cpp, ShooterStateTreeUtility.cpp, ShooterBulletCounterUI.cpp, ShooterUI.cpp, ShooterPickup.cpp, ShooterProjectile.cpp, ShooterWeapon.cpp, ShooterWeaponHolder.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 31.16 GB physical, 19.72 GB/33.16 GB committed
+  UBA Storage capacity 40 GB
+[1/4] Compile [x64] RidgefireBotShapeTests.cpp
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Engine\Classes\GameFramework\Character.h(798,31): warning C4996: 'APawn::GetMovementBase': GetMovementBase is deprecated. Use GetMovementBaseObject or GetMovementBaseInterfaceData instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual UPrimitiveComponent* GetMovementBase() const override final { return Cast<UPrimitiveComponent>(GetMovementBaseObject()); }
+	                             ^
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Sphere.h(74,17): warning C4996: 'Chaos::FImplicitObject::GetRadius': Please use GetRadiusf instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+		virtual FReal GetRadius() const override
+		              ^
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Sphere.h(74,17): note: the template instantiation context (the oldest one first) is
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Sphere.h(27,8): note: while compiling class template 'Chaos::TSphere'
+	class TSphere final : public FImplicitObject
+	      ^
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Sphere.h(337,41): note: see reference to class template instantiation 'Chaos::TSphere<Chaos::FReal,3>' being compiled
+			return Chaos::FImplicitObjectPtr(new FSphere(Center, GetRadiusf()));
+			                                     ^
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Convex.h(207,17): warning C4996: 'Chaos::FImplicitObject::GetMargin': Please use GetMarginf instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+		virtual FReal GetMargin() const override
+		              ^
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Convex.h(212,17): warning C4996: 'Chaos::FImplicitObject::GetRadius': Please use GetRadiusf instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+		virtual FReal GetRadius() const override
+		              ^
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Plane.h(42,16): warning C4996: 'Chaos::FImplicitObject::GetRadius': Please use GetRadiusf instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	virtual FReal GetRadius() const override
+	              ^
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Plane.h(42,16): note: the template instantiation context (the oldest one first) is
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Convex.h(926,5): note: see reference to class template instantiation 'Chaos::TPlane<Chaos::FConvex::FRealType,3>' being compiled
+				Ar << TmpPlanes;
+				^
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Box.h(104,17): warning C4996: 'Chaos::FImplicitObject::GetRadius': Please use GetRadiusf instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+		virtual FReal GetRadius() const override
+		              ^
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Box.h(104,17): note: the template instantiation context (the oldest one first) is
+G:\Unreal Engine\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Convex.h(966,23): note: see reference to class template instantiation 'Chaos::TBox<Chaos::FConvex::FRealType,3>' being compiled
+			TBox<FRealType,3>::SerializeAsAABB(Ar, LocalBoundingBox);
+			                   ^
+[2/4] Link [x64] UnrealEditor-TP_FirstPerson.lib
+[3/4] Link [x64] UnrealEditor-TP_FirstPerson.dll
+RidgefireBotShapeTests.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class TEnumAsByte<enum ECollisionTraceFlag> __cdecl UBodySetupCore::GetCollisionTraceFlag(void)const " (__imp_?GetCollisionTraceFlag@UBodySetupCore@@QEBA?AV?$TEnumAsByte@W4ECollisionTraceFlag@@@@XZ) referenced in function "public: virtual bool __cdecl RidgefireBotShapeTest::FScan::Update(void)" (?Update@FScan@RidgefireBotShapeTest@@UEAA_NXZ)
+C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Binaries\Win64\UnrealEditor-TP_FirstPerson.dll : fatal error LNK1120: 1 unresolved externals
+Total time in Unreal Build Accelerator local executor: 5.86 seconds
+
+Result: Failed (OtherCompilationError)
+Total execution time: 6.55 seconds
+Trace written to file C:\Users\YaYa\AppData\Local\UnrealBuildTool\Trace.uba with size 6.2kb

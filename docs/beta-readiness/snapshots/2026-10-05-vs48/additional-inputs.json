@@ -1,0 +1,7 @@
+[
+  {
+    "path": "Tools/Configure-LANFirewall.ps1",
+    "sha256": "535EC3BF6DD225E997A2866CCC4ACEC768BB8A54E2CCBF8938D8BA433886A9F8",
+    "change": "added; outside Source/Config/Content manifest"
+  }
+]

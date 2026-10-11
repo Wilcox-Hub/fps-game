@@ -1,0 +1,130 @@
+[
+  {
+    "gate": "Final Unreal Editor Development build",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "logs": [
+      {
+        "path": "logs/Editor-build.log",
+        "sha256": "FEB1D4B4C78829BDB00451E6A86CF26266C20D0CC8CFC623809B5EBECB30B734"
+      },
+      {
+        "path": "logs/Editor-final-build.log",
+        "sha256": "14038460C1489B009755F565BFAA3473FCBFFD6DB1C7722FD0F8DE6DAA70096A"
+      },
+      {
+        "path": "logs/Editor-acceptance-build.log",
+        "sha256": "A25341A167B0C4E1FD783DA5DD29EA027E5E5744499C64DA30F75734CB25E2B1"
+      }
+    ],
+    "scope": "Initial changed C++ compilation and subsequent fixture/HUD repairs compiled and linked. Existing engine API deprecation and compiler-version warnings remain."
+  },
+  {
+    "gate": "Ridgefire.Setup.TimedStages / default-1080p",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "log": {
+      "path": "logs/setup-default-1080p.log",
+      "sha256": "94CE3B9DF552CF6566F9A3BDDE2FD25DC12674E073E3C1944299F8AFB759CA76"
+    },
+    "scope": "Normal timed opening grants and actual possessed Blueprint; T/1/2/3 delegates in combat/arsenal, repeated secondary selection, retired 3 safely ignored, both guns visible and actual shots consume independent ammo. No fixture gun purchases/grants. Frozen enemies and repositioning at real arsenal isolate input. Final build with rendered 1080p frames. No OS/hardware or human acceptance."
+  },
+  {
+    "gate": "Ridgefire.Setup.TimedStages / gale-secondary-headless",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "log": {
+      "path": "logs/setup-gale-secondary-headless.log",
+      "sha256": "FA74C48971D9DEFF1256D79D26918B3C35FF4D14EA99B92D5A4B97226076A0B4"
+    },
+    "scope": "Normal timed opening grants and actual possessed Blueprint; T/1/2/3 delegates in combat/arsenal, repeated secondary selection, retired 3 safely ignored, both guns visible and actual shots consume independent ammo. No fixture gun purchases/grants. Frozen enemies and repositioning at real arsenal isolate input. NullRHI; same-day pass before final combat-HUD-only label change; affected startup/equip implementation unchanged. No OS/hardware or human acceptance."
+  },
+  {
+    "gate": "Ridgefire.Setup.TimedStages / wildcard-secondary-headless",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "log": {
+      "path": "logs/setup-wildcard-secondary-headless.log",
+      "sha256": "25B47CD8DE1CEBE25CD5E6ACA742858D9F378B09D747C67F13E70DFA7B3A8EE9"
+    },
+    "scope": "Normal timed opening grants and actual possessed Blueprint; T/1/2/3 delegates in combat/arsenal, repeated secondary selection, retired 3 safely ignored, both guns visible and actual shots consume independent ammo. No fixture gun purchases/grants. Frozen enemies and repositioning at real arsenal isolate input. NullRHI; same-day pass before final combat-HUD-only label change; affected startup/equip implementation unchanged. No OS/hardware or human acceptance."
+  },
+  {
+    "gate": "arsenal-confirmations",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "log": {
+      "path": "logs/IRON-SUN-Arsenal-20261005-133642-992.log",
+      "sha256": "4409900EC236D98B6BB3A770A4F1118344BDBBF58091803E24311D0AD792FD62"
+    },
+    "scope": "Actual Enter/delegate purchase, upgrade, preview cancellation and wildcard keep. Retired-slot purchase rejected without cash spend; purchased primary replaces previous primary, previous gun cannot equip/upgrade while uncarried; compare names destination. Controlled cash/accelerated clears; eight inspected 1080p frames. Same-day pass before final combat-HUD-only label change; arsenal implementation unchanged. No natural-balance or human-fun acceptance."
+  },
+  {
+    "gate": "loadout-interactions",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "log": {
+      "path": "logs/IRON-SUN-Loadout-20261005-134126-441.log",
+      "sha256": "8D0BF3572071383BD6396ECFF5CB7CE87EC7B1D5FC6AE8F032C457699E19D77C"
+    },
+    "scope": "Normal two-gun setup; real controller delegates and shots, repeated 1/2, retired 3 ignored, independent ammo, arsenal trigger suppression and close/reset. NullRHI. Same-day pass before final combat-HUD-only label change; affected equip/ammo/trigger implementation unchanged. No natural-balance or human-fun acceptance."
+  },
+  {
+    "gate": "economy",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "log": {
+      "path": "logs/IRON-SUN-Economy-20261005-133641-190.log",
+      "sha256": "2B897613FBEFC9042ED8F442B9AE75C2BB971FDEE47437CD804F9CD9D8CFC2D5"
+    },
+    "scope": "Actual paid primary/secondary transactions, pulse/through upgrades and shots, cover, private finishers, shared rewards and 20-second regroup/early start/transitions. NullRHI, controlled funding/frozen targets and another possessed guest rather than a network peer. Same-day pass before final combat-HUD-only label change; economy implementation unchanged. No natural-balance or human-fun acceptance."
+  },
+  {
+    "gate": "processed-input",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "log": {
+      "path": "logs/IRON-SUN-Economy-20261005-134602-974.log",
+      "sha256": "32A87B83780A2CCE438CC9881BE754825E21A6AF711B57AD024730C574EC8621"
+    },
+    "scope": "Actual PlayerController InputKey and normal per-frame input processing; bought Phasma replaces primary 0, key 1 selects it; shooting/reload/sprint retain it. Final source. NullRHI; not OS/hardware input. No natural-balance or human-fun acceptance."
+  },
+  {
+    "gate": "Economy local two-peer host/client",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "logs": [
+      {
+        "path": "logs/network/Host.log",
+        "sha256": "C77BBFB62938181D86D457FBACFDAE2279E0BD3587EA1EC2447A24B5DFB16176"
+      },
+      {
+        "path": "logs/network/Client.log",
+        "sha256": "6E8D22AE752DCB3D1EB7590012D4ECFC8E7E3DC052A021F84ED91B37D1A46CE6"
+      },
+      {
+        "path": "logs/network/result.json",
+        "sha256": "072E7444C6048C6BC7696FA997F72E633947305B9A7D08D091FC41BE6D419A5B"
+      }
+    ],
+    "scope": "Actual localhost Editor listen host/client and owned RPC/replication. Remote one-primary array, secondary purchase, repeated reliable secondary equip, retired slot reject/no cash spend, owner upgrade/private cash isolation and unanimous early start. Separate exposed splash neighbor demonstrates remote owner receipt and multicast pulse; bounded visual-RPC wait, 60 FPS unattended runner. Controlled cash/stations and frozen damage-API enemy clear. No Internet, packaged co-op, OS/hardware, performance or human acceptance."
+  },
+  {
+    "gate": "Windows Shipping BuildCookRun / player delivery",
+    "status": "PASS",
+    "tested_on": "2026-10-05",
+    "log": {
+      "path": "logs/Shipping-acceptance-build.log",
+      "sha256": "CE4BB1C80AD5F1C52DE5357065690FBD771448E1A6F5F14260C2324E822E56FC"
+    },
+    "launcher_check": {
+      "path": "logs/PlayerBuild-final.log",
+      "sha256": "268F4C94A86522243AA5C2E8D9E2F4A49131897161312A28FF4255D2E1CCBCD5"
+    },
+    "package": {
+      "path": "package/PackageInfo.json",
+      "sha256": "DD6B7B7B90C99C98C7FD0E5A6F226E17A1D2010244087AE648265F4380BF2E62"
+    },
+    "scope": "Final source compiled/cooked/staged/archived as COMPLETE Prototype under default Saved/Packages. Unchanged Play-IRON-SUN batch selects this exact archive; bootstrap/runtime/pak/ucas/utoc hashes match. Package not launched or played."
+  }
+]

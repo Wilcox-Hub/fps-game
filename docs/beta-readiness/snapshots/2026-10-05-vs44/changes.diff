@@ -1,0 +1,592 @@
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/RidgefireShopHUD.cpp
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/RidgefireShopHUD.cpp
+@@ -6,129 +6,177 @@
+ 
+ bool ARidgefireHUD::DrawWeaponShop()
+ {
+-    auto* PC=Cast<AShooterPlayerController>(PlayerOwner);
+-    auto* Pawn=PC ? Cast<AShooterCharacter>(PC->GetPawn()) : nullptr;
+-    UFont* Font=GEngine ? GEngine->GetMediumFont() : nullptr;
+-    if(!PC || !Pawn || !Font || !Canvas) return false;
+-    const auto& S=PC->GetRidgefireRunState();
+-    const int32 Cursor=PC->GetShopCursor();
+-    if(!S.WeaponOffers.IsValidIndex(Cursor)) return false;
+-    const float W=Canvas->ClipX,H=Canvas->ClipY;
+-    const FLinearColor Paper(0.98f,0.91f,0.77f),Ice(0.48f,0.92f,0.84f),Ember(1,0.46f,0.20f);
+-    DrawRect(FLinearColor(0.015f,0.022f,0.032f,0.99f),0,0,W,H);
+-    auto Text=[&](const FString& Value,float X,float Y,float Width,const FLinearColor& Color=FLinearColor(0.98f,0.91f,0.77f)) {
+-        float TW,TH;Canvas->StrLen(Font,Value,TW,TH);
+-        const float Scale=RidgefireHudLayout::FitTextScale(TW,TH,Width,H*0.043f,FMath::Max(0.75f,H/720.0f));
++    auto* PC = Cast<AShooterPlayerController>(PlayerOwner);
++    auto* Pawn = PC ? Cast<AShooterCharacter>(PC->GetPawn()) : nullptr;
++    UFont* Font = GEngine ? GEngine->GetMediumFont() : nullptr;
++    if (!PC || !Pawn || !Font || !Canvas) return false;
++    const auto& S = PC->GetRidgefireRunState();
++    const int32 Cursor = PC->GetShopCursor();
++    if (!S.WeaponOffers.IsValidIndex(Cursor)) return false;
++    const float W = Canvas->ClipX, H = Canvas->ClipY;
++    const FLinearColor Paper(.98f,.94f,.85f), Ice(.48f,.92f,.84f), Ember(1,.55f,.28f);
++    const FLinearColor Muted(.68f,.73f,.77f), Panel(.045f,.065f,.08f,1);
++    const bool bGamepad = PC->IsUsingGamepad();
++    DrawRect(FLinearColor(.012f,.019f,.028f,1),0,0,W,H);
++    // Keep a consistent readable size. Long labels end in an ellipsis rather
++    // than shrinking an entire row; the full offer name is shown in Details.
++    auto Text = [&](FString Value, float X, float Y, float Width, float Size, FLinearColor Color) {
++        const float Scale = Size * H / 720.f;
++        float TW, TH;
++        Canvas->StrLen(Font,Value,TW,TH);
++        if (TW*Scale > Width) {
++            while (Value.Len()>1) {
++                Value.LeftChopInline(1);
++                Canvas->StrLen(Font,Value+TEXT("..."),TW,TH);
++                if (TW*Scale<=Width) break;
++            }
++            Value+=TEXT("...");
++        }
+         DrawText(Value,Color,X,Y,Font,Scale);
+     };
+-    Text(TEXT("ARSENAL"),W*.045f,H*.035f,W*.42f,Ice);
+-    Text(FString::Printf(TEXT("CASH  %d"),S.Cash),W*.70f,H*.035f,W*.25f,Ice);
+-    Text(S.bRegroupOpen ? FString::Printf(TEXT("REGROUP  %d SEC"),S.RegroupSeconds) : FString(TEXT("UPGRADES DURING REGROUP")),W*.045f,H*.09f,W*.9f,Paper);
++    auto Line = [&](const FString& Value,float X,float Y,float Width,float Size,FLinearColor Color) {
++        Text(Value,W*X,H*Y,W*Width,Size,Color);
++    };
++    Line(TEXT("ARSENAL"),.04f,.03f,.5f,2.4f,Ice);
++    Line(FString::Printf(TEXT("%d CASH"),S.Cash),.72f,.035f,.24f,1.8f,Paper);
++    Line(S.bRegroupOpen ? FString::Printf(TEXT("REGROUP  /  %d seconds left"),S.RegroupSeconds)
++        : TEXT("LIVE ENCOUNTER  /  Upgrades unlock during regroup"),.04f,.092f,.92f,1.15f,Muted);
+ 
+-    DrawRect(FLinearColor(.065f,.092f,.11f,1),W*.035f,H*.16f,W*.34f,H*.29f);
+-    Text(TEXT("YOUR LOADOUT"),W*.055f,H*.18f,W*.29f,Ice);
+-    float LoadoutLineY=H*.235f;
+-    auto LoadoutLine=[&](int32 Index,const FString& Slot,const FLinearColor& Color) {
+-        FString Label=TEXT("EMPTY");
+-        if(S.WeaponOffers.IsValidIndex(Index)) Label=S.WeaponOffers[Index].Name;
+-        Text(Slot,W*.055f,LoadoutLineY,W*.12f,Color);
+-        Text(Label,W*.165f,LoadoutLineY,W*.19f,Color);
+-        LoadoutLineY+=H*.065f;
+-    };
++    const auto& Gun = S.WeaponOffers[Cursor];
++    const int32 Preview = PC->GetShopUpgradePreview();
++    const bool bOwned = S.PrimaryWeaponSlots.Contains(Cursor) || S.SecondaryWeaponOfferIndex==Cursor;
+     const bool bSecondaryEquipped=Pawn->IsRidgefireSecondaryEquipped();
+-    const FLinearColor Primary1=(!bSecondaryEquipped && S.PrimaryWeaponSlots.IsValidIndex(0) && S.ActiveWeaponIndex==S.PrimaryWeaponSlots[0])?Ice:Paper;
+-    const FLinearColor Primary2=(!bSecondaryEquipped && S.PrimaryWeaponSlots.IsValidIndex(1) && S.ActiveWeaponIndex==S.PrimaryWeaponSlots[1])?Ice:Paper;
+-    LoadoutLine(S.PrimaryWeaponSlots.IsValidIndex(0)?S.PrimaryWeaponSlots[0]:INDEX_NONE,TEXT("1  PRIMARY"),Primary1);
+-    LoadoutLine(S.PrimaryWeaponSlots.IsValidIndex(1)?S.PrimaryWeaponSlots[1]:INDEX_NONE,TEXT("2  PRIMARY"),Primary2);
+-    LoadoutLine(S.SecondaryWeaponOfferIndex,TEXT("3  SECONDARY"),bSecondaryEquipped?Ice:Paper);
+-    Text(TEXT("CYAN = EQUIPPED  /  1-3 SWITCH"),W*.055f,H*.405f,W*.29f,Ice);
++    const int32 EquippedOffer=bSecondaryEquipped?S.SecondaryWeaponOfferIndex:S.ActiveWeaponIndex;
++    const int32 OwnedPrimarySlot=S.PrimaryWeaponSlots.IndexOfByKey(Cursor);
++    // Match the transaction: an empty primary is filled before replacing an
++    // occupied slot, even when a replacement key was selected previously.
++    const int32 EmptySlot = S.PrimaryWeaponSlots.IndexOfByKey(INDEX_NONE);
++    const int32 Destination = EmptySlot!=INDEX_NONE ? EmptySlot : PC->GetShopReplacementSlot();
++    const bool bNeedsSlot = !PC->IsShopSecondary() && !S.PrimaryWeaponSlots.IsValidIndex(Destination);
++    const int32 DestinationOffer = PC->IsShopSecondary() ? S.SecondaryWeaponOfferIndex
++        : S.PrimaryWeaponSlots.IsValidIndex(Destination) ? S.PrimaryWeaponSlots[Destination] : INDEX_NONE;
++    const bool bEmptyDestination = DestinationOffer==INDEX_NONE && !bNeedsSlot;
++    const int32 Base = bOwned ? EquippedOffer : S.WeaponOffers.IsValidIndex(DestinationOffer) ? DestinationOffer : EquippedOffer;
++    FRidgefireWeaponRoll Candidate = Gun;
++    const auto Current = Preview!=INDEX_NONE ? Gun : S.WeaponOffers.IsValidIndex(Base)
++        ? S.WeaponOffers[Base] : Pawn->GetRidgefireWeaponStatsSource();
++    if (Preview!=INDEX_NONE) Candidate=RidgefireWeaponProgression::Upgrade(Gun,Preview);
++    const bool bNoChange = Preview==INDEX_NONE && Base==Cursor;
++    const auto Mod = Pawn->GetPersonalPerkModifiers();
++    const auto A = RidgefireWeaponProgression::Stats(Current,Mod.OutgoingDamage,Mod.ReloadTime,Pawn->GetRidgefireRecoilScale());
++    const auto B = RidgefireWeaponProgression::Stats(Candidate,Mod.OutgoingDamage,Mod.ReloadTime,Pawn->GetRidgefireRecoilScale());
+ 
+-    const auto& Gun=S.WeaponOffers[Cursor];
+-    const int32 Preview=PC->GetShopUpgradePreview();
+-    const bool bPrimaryOwned=S.PrimaryWeaponSlots.Contains(Cursor);
+-    const bool bSecondaryOwned=S.SecondaryWeaponOfferIndex==Cursor;
+-    const bool bOwned=bPrimaryOwned || bSecondaryOwned;
+-    const int32 Price=RidgefireWeaponProgression::Price(Cursor);
+-    DrawRect(FLinearColor(.04f,.06f,.075f,1),W*.40f,H*.16f,W*.565f,H*.29f);
+-    Text(FString::Printf(TEXT("WEAPON  %02d / %02d"),Cursor+1,S.WeaponOffers.Num()),W*.425f,H*.18f,W*.5f,Ice);
+-    Text(Gun.Name,W*.425f,H*.235f,W*.5f,Paper);
+-    FString OfferLabel=bOwned?FString::Printf(TEXT("IN LOADOUT  /  UPGRADE %d"),Gun.UpgradeLevel):Gun.bWildcard?TEXT("FOUND  /  KEEP AT NO COST"):FString::Printf(TEXT("KNOWN WEAPON  /  %d CASH"),Price);
+-    Text(OfferLabel,W*.425f,H*.30f,W*.5f,bOwned?Ice:Ember);
+-    Text(FString::Printf(TEXT("%s  /  %s"),*Gun.ModeName,*Gun.PayloadName),W*.425f,H*.36f,W*.5f,Paper);
+-    Text(PC->IsShopSecondary()?TEXT("BUYING FOR  SECONDARY"):PC->GetShopReplacementSlot()==1?TEXT("BUYING FOR  PRIMARY 2"):TEXT("BUYING FOR  PRIMARY 1"),W*.425f,H*.385f,W*.5f,Ice);
+-    if(Preview!=INDEX_NONE) {
+-        const TCHAR* Behavior=Preview==0?TEXT("ECHO PULSE  /  DELAYED FOLLOW-UP HIT"):TEXT("THROUGH SHOT  /  HITS THE NEXT SENTRY");
+-        Text(Behavior,W*.425f,H*.42f,W*.5f,Ice);
++    if (PC->IsShopDetailsOpen()) {
++        Line(TEXT("EXACT COMPARISON"),.04f,.15f,.92f,1.5f,Ice);
++        Line(TEXT("Current: ")+Current.Name+TEXT("   /   Selected: ")+Candidate.Name,.04f,.20f,.92f,1.1f,Paper);
++        Line(TEXT("Selected: ")+Candidate.ModeName+TEXT(" / ")+Candidate.PayloadName+TEXT(" / ")+Candidate.ConditionName,.04f,.226f,.92f,1.05f,Muted);
++        Line(TEXT("STAT"),.055f,.25f,.35f,1.1f,Muted);
++        Line(TEXT("CURRENT"),.43f,.25f,.2f,1.1f,Muted);
++        Line(Preview!=INDEX_NONE?TEXT("AFTER UPGRADE"):TEXT("SELECTED"),.66f,.25f,.29f,1.1f,Ice);
++        auto Row = [&](const TCHAR* Label,const FString& Old,const FString& Next,int32 Index) {
++            const float Y=.29f+.037f*Index;
++            Line(Label,.055f,Y,.35f,1.35f,Paper);
++            Line(Old,.43f,Y,.2f,1.35f,Paper);
++            Line(Next,.66f,Y,.29f,1.35f,Ice);
++        };
++        auto Number = [](float Value,const TCHAR* Unit) {return FString::Printf(TEXT("%.2f %s"),Value,Unit);};
++        auto Changed = [](float From,float To,const TCHAR* Unit) {return FString::Printf(TEXT("%.2f %s (%+.2f)"),To,Unit,To-From);};
++        Row(TEXT("Damage / trigger"),Number(A.Damage,TEXT("HP")),Changed(A.Damage,B.Damage,TEXT("HP")),0);
++        Row(TEXT("Accuracy cone"),Number(A.ConeDegrees,TEXT("deg")),Changed(A.ConeDegrees,B.ConeDegrees,TEXT("deg")),1);
++        Row(TEXT("Fire rate"),Number(A.RPM,TEXT("/min")),Changed(A.RPM,B.RPM,TEXT("/min")),2);
++        Row(TEXT("Burst DPS"),Number(A.BurstDPS,TEXT("HP/s")),Changed(A.BurstDPS,B.BurstDPS,TEXT("HP/s")),3);
++        Row(TEXT("Sustained DPS"),Number(A.SustainedDPS,TEXT("HP/s")),Changed(A.SustainedDPS,B.SustainedDPS,TEXT("HP/s")),4);
++        Row(TEXT("Magazine"),FString::FromInt(Current.MagazineSize),FString::Printf(TEXT("%d (%+d)"),Candidate.MagazineSize,Candidate.MagazineSize-Current.MagazineSize),5);
++        Row(TEXT("Reload"),Number(A.Reload,TEXT("s")),Changed(A.Reload,B.Reload,TEXT("s")),6);
++        Row(TEXT("Recoil"),FString::Printf(TEXT("%s / %.2f deg"),RidgefireWeaponProgression::RecoilLabel(A.RecoilDegrees),A.RecoilDegrees),FString::Printf(TEXT("%s / %.2f deg (%+.2f)"),RidgefireWeaponProgression::RecoilLabel(B.RecoilDegrees),B.RecoilDegrees,B.RecoilDegrees-A.RecoilDegrees),7);
++        Line(TEXT("Estimates: 7.5m, standing, full health, all pellets hit; no streak/headshot. Chance damage averaged."),.055f,.607f,.90f,1.1f,Muted);
++        Line(TEXT("First trigger after reload. DPS models magazine/reload; Phasma excludes splash."),.055f,.635f,.90f,1.1f,Muted);
++        FRidgefireEncounterPlan Plan;
++        Plan.Players=S.DifficultyPlayers; Plan.Encounter=S.ArenaWave; Plan.Threat=S.EncounterThreat;
++        Plan.HealthScale=S.EncounterHealthScale; Plan.ChampionHealth=S.ScaledChampionHealth;
++        const auto OldEnemies=RidgefireWeaponProgression::EnemyComparison(Current,Plan,Mod.OutgoingDamage);
++        const auto NewEnemies=RidgefireWeaponProgression::EnemyComparison(Candidate,Plan,Mod.OutgoingDamage);
++        for (int32 Index=0;Index<NewEnemies.Num();++Index) {
++            Line(TEXT("Current   ")+OldEnemies[Index],.055f,.683f+.068f*Index,.90f,1.2f,Paper);
++            Line(TEXT("Selected  ")+NewEnemies[Index],.055f,.710f+.068f*Index,.90f,1.2f,Ice);
++        }
++        Line(bGamepad?TEXT("L3  BACK TO ARSENAL     VIEW  CLOSE"):TEXT("TAB  BACK TO ARSENAL     T  CLOSE"),.04f,.93f,.92f,1.2f,Ice);
++        return true;
+     }
+ 
+-    int32 Base=S.ActiveWeaponIndex;
+-    if(PC->IsShopSecondary()) Base=S.SecondaryWeaponOfferIndex;
+-    else if(S.PrimaryWeaponSlots.IsValidIndex(PC->GetShopReplacementSlot())) Base=S.PrimaryWeaponSlots[PC->GetShopReplacementSlot()];
+-    FRidgefireWeaponRoll Candidate=Gun;
+-    const auto Current=Preview!=INDEX_NONE?Candidate:S.WeaponOffers.IsValidIndex(Base)?S.WeaponOffers[Base]:Pawn->GetRidgefireWeaponStatsSource();
+-    if(Preview!=INDEX_NONE) Candidate=RidgefireWeaponProgression::Upgrade(Candidate,Preview);
+-    const bool bNoChange=Preview==INDEX_NONE && Base==Cursor;
+-    const FString ComparisonTitle=bNoChange?TEXT("ALREADY IN SELECTED SLOT"):Preview==INDEX_NONE?FString::Printf(TEXT("COMPARE  %s  ->  %s"),*Current.Name,*Candidate.Name):FString::Printf(TEXT("UPGRADE PREVIEW  %s  ->  %s"),*Current.Name,*Candidate.Name);
+-    Text(ComparisonTitle,W*.045f,H*.50f,W*.91f,Ice);
+-    const auto Mod=Pawn->GetPersonalPerkModifiers();
+-    const auto A=RidgefireWeaponProgression::Stats(Current,Mod.OutgoingDamage,Mod.ReloadTime,Pawn->GetRidgefireRecoilScale());
+-    const auto B=RidgefireWeaponProgression::Stats(Candidate,Mod.OutgoingDamage,Mod.ReloadTime,Pawn->GetRidgefireRecoilScale());
+-    if(PC->IsShopDetailsOpen()) {
+-        TArray<FString> Rows;
+-        auto Value=[&](const TCHAR* Label,float From,float To,const TCHAR* Unit) {Rows.Add(FString::Printf(TEXT("%s: %.2f -> %.2f %s (%+.2f)"),Label,From,To,Unit,To-From));};
+-        Value(TEXT("Damage / trigger"),A.Damage,B.Damage,TEXT("HP"));
+-        Value(TEXT("Accuracy cone"),A.ConeDegrees,B.ConeDegrees,TEXT("degrees"));
+-        Value(TEXT("Fire rate"),A.RPM,B.RPM,TEXT("triggers/min"));
+-        Value(TEXT("Burst DPS"),A.BurstDPS,B.BurstDPS,TEXT("HP/s"));
+-        Value(TEXT("Sustained DPS"),A.SustainedDPS,B.SustainedDPS,TEXT("HP/s"));
+-        Rows.Add(FString::Printf(TEXT("Magazine: %d -> %d (%+d)"),Current.MagazineSize,Candidate.MagazineSize,Candidate.MagazineSize-Current.MagazineSize));
+-        Value(TEXT("Reload"),A.Reload,B.Reload,TEXT("s"));
+-        Rows.Add(FString::Printf(TEXT("Recoil: %s -> %s"),RidgefireWeaponProgression::RecoilLabel(A.RecoilDegrees),RidgefireWeaponProgression::RecoilLabel(B.RecoilDegrees)));
+-        for(int32 Index=0;Index<Rows.Num();++Index) Text(Rows[Index],W*.055f,H*(.56f+.038f*Index),W*.54f);
+-        FRidgefireEncounterPlan Plan;Plan.Players=S.DifficultyPlayers;Plan.Encounter=S.ArenaWave;Plan.Threat=S.EncounterThreat;
+-        Plan.HealthScale=S.EncounterHealthScale;Plan.ChampionHealth=S.ScaledChampionHealth;
+-        const auto OldEnemies=RidgefireWeaponProgression::EnemyComparison(Current,Plan,Mod.OutgoingDamage);
+-        const auto NewEnemies=RidgefireWeaponProgression::EnemyComparison(Candidate,Plan,Mod.OutgoingDamage);
+-        for(int32 Index=0;Index<NewEnemies.Num();++Index) {
+-            Text(TEXT("CURRENT  ")+OldEnemies[Index],W*.62f,H*(.57f+.058f*Index),W*.34f,Paper);
+-            Text(TEXT("SELECTED  ")+NewEnemies[Index],W*.62f,H*(.599f+.058f*Index),W*.34f,Ice);
+-        }
+-    } else if(bNoChange) {
+-        Text(TEXT("This gun is already carried. Browse to another weapon to compare it."),W*.075f,H*.575f,W*.84f,Paper);
++    DrawRect(Panel,W*.035f,H*.155f,W*.31f,H*.365f);
++    Line(TEXT("YOUR LOADOUT"),.055f,.177f,.27f,1.25f,Muted);
++    auto Slot = [&](int32 Offer,const TCHAR* Label,float Y,bool bEquipped) {
++        Line(FString(Label)+(bEquipped?TEXT("  /  EQUIPPED"):TEXT("")),.055f,Y,.27f,1.1f,bEquipped?Ice:Muted);
++        Line(S.WeaponOffers.IsValidIndex(Offer)?S.WeaponOffers[Offer].Name:TEXT("Empty slot"),.055f,Y+.035f,.27f,1.5f,Paper);
++    };
++    Slot(S.PrimaryWeaponSlots.IsValidIndex(0)?S.PrimaryWeaponSlots[0]:INDEX_NONE,TEXT("1  PRIMARY"),.228f,!bSecondaryEquipped&&S.PrimaryWeaponSlots.IsValidIndex(0)&&S.ActiveWeaponIndex==S.PrimaryWeaponSlots[0]);
++    Slot(S.PrimaryWeaponSlots.IsValidIndex(1)?S.PrimaryWeaponSlots[1]:INDEX_NONE,TEXT("2  PRIMARY"),.321f,!bSecondaryEquipped&&S.PrimaryWeaponSlots.IsValidIndex(1)&&S.ActiveWeaponIndex==S.PrimaryWeaponSlots[1]);
++    Slot(S.SecondaryWeaponOfferIndex,TEXT("3  SECONDARY"),.414f,bSecondaryEquipped);
++    Line(bGamepad?TEXT("Carried guns shown above"):TEXT("Equip with keys 1 / 2 / 3"),.055f,.488f,.27f,1.05f,Ice);
++
++    DrawRect(Panel,W*.37f,H*.155f,W*.595f,H*.365f);
++    Line(FString::Printf(TEXT("%s  /  %d OF %d"),Gun.bWildcard?TEXT("WILDCARD FIND"):TEXT("KNOWN WEAPON"),Cursor+1,S.WeaponOffers.Num()),.39f,.177f,.555f,1.1f,Muted);
++    Line(Gun.Name,.39f,.222f,.555f,2.1f,Paper);
++    Line(bOwned?FString::Printf(TEXT("CARRIED  /  UPGRADE LEVEL %d"),Gun.UpgradeLevel):Gun.bWildcard?TEXT("FREE TO KEEP"):FString::Printf(TEXT("%d CASH"),RidgefireWeaponProgression::Price(Cursor)),.39f,.287f,.555f,1.7f,bOwned?Ice:Ember);
++    Line(Gun.ModeName+TEXT(" / ")+Gun.PayloadName+TEXT(" / ")+Gun.ConditionName,.39f,.324f,.555f,1.0f,Muted);
++    FString DestinationLabel = PC->IsShopSecondary()?TEXT("Destination: Secondary")
++        : bNeedsSlot?TEXT("Destination: Choose a primary slot")
++        : FString::Printf(TEXT("Destination: Primary %d%s"),Destination+1,bEmptyDestination?TEXT(" (empty)"):TEXT(""));
++    const FString CarriedLabel=OwnedPrimarySlot!=INDEX_NONE?FString::Printf(TEXT("Carried in Primary %d"),OwnedPrimarySlot+1):TEXT("Carried as Secondary");
++    Line(Preview!=INDEX_NONE?TEXT("Upgrade this carried weapon"):bOwned?CarriedLabel:DestinationLabel,.39f,.345f,.555f,1.2f,Paper);
++    if (Preview!=INDEX_NONE) {
++        Line(Preview==0?TEXT("ECHO PULSE  /  Delayed follow-up hit"):TEXT("THROUGH SHOT  /  Hits the next sentry"),.39f,.395f,.555f,1.25f,Ice);
++        Line(bGamepad?TEXT("LB / RB: change or cancel preview"):TEXT("U / I: change or cancel preview"),.39f,.448f,.555f,1.05f,Muted);
++    } else if (bOwned) {
++        Line(S.bRegroupOpen?(bGamepad?TEXT("LB: Echo upgrade    RB: Through upgrade"):TEXT("U: Echo upgrade    I: Through upgrade")):TEXT("Upgrades unlock during regroup"),.39f,.395f,.555f,1.15f,Ice);
++        Line(bGamepad?TEXT("L3: exact stats and enemy estimates"):TEXT("TAB: exact stats and enemy estimates"),.39f,.448f,.555f,1.15f,Muted);
+     } else {
+-        Text(TEXT("STAT"),W*.075f,H*.575f,W*.24f,Ice);Text(TEXT("CURRENT"),W*.39f,H*.575f,W*.2f,Paper);Text(TEXT("SELECTED"),W*.67f,H*.575f,W*.25f,Ice);
+-        auto Row=[&](const FString& Label,const FString& Old,const FString& Next,int32 Index) {
+-            const float Y=H*(.62f+.055f*Index);
+-            Text(Label,W*.075f,Y,W*.24f,Paper);Text(Old,W*.39f,Y,W*.2f,Paper);Text(Next,W*.67f,Y,W*.25f,Ice);
+-        };
+-        auto Change=[](float From,float To) {return FMath::IsNearlyEqual(From,To)?FString():FString::Printf(TEXT("%+.0f%%"),(To/FMath::Max(.001f,From)-1)*100);};
+-        auto ShowChange=[](const FString& Value,const FString& Delta) {return Delta.IsEmpty()?Value:FString::Printf(TEXT("%s  (%s)"),*Value,*Delta);};
+-        Row(TEXT("Damage / shot"),FString::Printf(TEXT("%.0f"),A.Damage),ShowChange(FString::Printf(TEXT("%.0f"),B.Damage),Change(A.Damage,B.Damage)),0);
+-        Row(TEXT("Fire rate"),FString::Printf(TEXT("%.0f /min"),A.RPM),ShowChange(FString::Printf(TEXT("%.0f /min"),B.RPM),Change(A.RPM,B.RPM)),1);
+-        Row(TEXT("Magazine"),FString::Printf(TEXT("%d rounds"),Current.MagazineSize),ShowChange(FString::Printf(TEXT("%d rounds"),Candidate.MagazineSize),Candidate.MagazineSize==Current.MagazineSize?FString():FString::Printf(TEXT("%+d"),Candidate.MagazineSize-Current.MagazineSize)),2);
+-        const FString RecoilChange=FMath::IsNearlyEqual(A.RecoilDegrees,B.RecoilDegrees)?FString():B.RecoilDegrees<A.RecoilDegrees?FString(TEXT("Less kick")):FString(TEXT("More kick"));
+-        Row(TEXT("Recoil"),RidgefireWeaponProgression::RecoilLabel(A.RecoilDegrees),ShowChange(RidgefireWeaponProgression::RecoilLabel(B.RecoilDegrees),RecoilChange),3);
++        Line(bGamepad?TEXT("UP / DOWN: primary slot    Y: secondary"):TEXT("4 / 5: primary slot    J: secondary"),.39f,.395f,.555f,1.15f,Ice);
++        Line(bEmptyDestination?(PC->IsShopSecondary()?TEXT("Adds a secondary weapon"):TEXT("The empty primary slot is filled first"))
++            : bNeedsSlot?TEXT("Pick which carried primary to replace")
++            : FString::Printf(TEXT("Replaces: %s"),S.WeaponOffers.IsValidIndex(DestinationOffer)?*S.WeaponOffers[DestinationOffer].Name:TEXT("Empty slot")),.39f,.448f,.555f,1.15f,Muted);
++        if (Gun.bWildcard&&!bOwned) Line(FString::Printf(TEXT("%s: reroll  /  %d available"),bGamepad?TEXT("DPAD RIGHT"):TEXT("G"),S.WildcardRerollTokens),.39f,.484f,.555f,1.0f,Muted);
+     }
+ 
+-    const FString Receipt=PC->IsShopRequestPending()?TEXT("PURCHASING..."):PC->GetShopResultTitle();
+-    const int32 ActionPrice=Preview==INDEX_NONE?(bOwned?0:Price):RidgefireWeaponProgression::UpgradePrice(Gun.UpgradeLevel);
+-    FString Status;
+-    if(Preview!=INDEX_NONE&&Gun.UpgradeLevel>=3) Status=TEXT("MAX UPGRADE");
+-    else if(Preview!=INDEX_NONE&&!bOwned) Status=TEXT("BUY THE WEAPON BEFORE UPGRADING");
+-    else if(Preview!=INDEX_NONE&&Gun.UpgradeLevel>0&&static_cast<int32>(Gun.UpgradeBehavior)!=Preview+1) Status=TEXT("UPGRADE BEHAVIOR IS LOCKED");
+-    else if(Preview!=INDEX_NONE&&!S.bRegroupOpen) Status=TEXT("UPGRADES AVAILABLE DURING REGROUP");
+-    else Status=FString::Printf(TEXT("%s  /  %d CASH  /  %s"),Preview==INDEX_NONE?(bOwned?TEXT("ALREADY CARRIED"):Gun.bWildcard?TEXT("KEEP FOUND WEAPON"):TEXT("BUY KNOWN WEAPON")):TEXT("APPLY UPGRADE"),ActionPrice,S.Cash>=ActionPrice?TEXT("READY"):TEXT("NOT ENOUGH CASH"));
+-    if(!bNoChange || !Receipt.IsEmpty()) Text(Receipt.IsEmpty()?Status:Receipt,W*.045f,H*.455f,W*.91f,Receipt.IsEmpty()?Ember:(PC->WasShopResultSuccessful()?Ice:Ember));
+-    if(PC->IsUsingGamepad()) {
+-        Text(TEXT("B / X BROWSE          A BUY / KEEP"),W*.045f,H*.84f,W*.91f,Ice);
+-        Text(TEXT("Y BUY FOR SECONDARY     UP / DOWN PICK PRIMARY SLOT"),W*.045f,H*.89f,W*.91f,Paper);
+-        Text(TEXT("LB / RB UPGRADE     L3 DETAILS     VIEW CLOSE"),W*.045f,H*.94f,W*.91f,Ice);
++    Line(bNoChange?TEXT("ALREADY EQUIPPED"):Preview!=INDEX_NONE?TEXT("UPGRADE COMPARISON"):bOwned?TEXT("COMPARE CARRIED WEAPONS"):bEmptyDestination||bNeedsSlot?TEXT("COMPARE WITH EQUIPPED GUN"):TEXT("COMPARE WITH REPLACED GUN"),.04f,.552f,.92f,1.3f,Ice);
++    if (bNoChange) {
++        Line(TEXT("Browse another weapon, or preview an upgrade during regroup."),.06f,.63f,.88f,1.4f,Paper);
+     } else {
+-        Text(TEXT("LEFT / RIGHT BROWSE          1 / 2 / 3 EQUIP CARRIED GUN"),W*.045f,H*.84f,W*.91f,Ice);
+-        Text(TEXT("ENTER BUY / KEEP     4 / 5 PICK SLOT     J BUY FOR SECONDARY"),W*.045f,H*.89f,W*.91f,Paper);
+-        Text(TEXT("U / I UPGRADE     TAB EXACT STATS     T CLOSE"),W*.045f,H*.94f,W*.91f,Ice);
++        Line(TEXT("STAT"),.06f,.597f,.27f,1.05f,Muted);
++        Line(TEXT("CURRENT"),.40f,.597f,.22f,1.05f,Muted);
++        Line(Preview!=INDEX_NONE?TEXT("AFTER UPGRADE"):TEXT("SELECTED"),.67f,.597f,.27f,1.05f,Ice);
++        auto Row = [&](const TCHAR* Label,const FString& Old,const FString& Next,int32 Index) {
++            const float Y=.64f+.043f*Index;
++            Line(Label,.06f,Y,.27f,1.5f,Paper);
++            Line(Old,.40f,Y,.22f,1.5f,Paper);
++            Line(Next,.67f,Y,.27f,1.5f,Ice);
++        };
++        auto Delta = [](float From,float To) {return FMath::IsNearlyEqual(From,To)?FString():FString::Printf(TEXT(" (%+.0f%%)"),(To/FMath::Max(.001f,From)-1)*100);};
++        Row(TEXT("Damage / shot"),FString::Printf(TEXT("%.0f"),A.Damage),FString::Printf(TEXT("%.0f"),B.Damage)+Delta(A.Damage,B.Damage),0);
++        Row(TEXT("Fire rate"),FString::Printf(TEXT("%.0f /min"),A.RPM),FString::Printf(TEXT("%.0f /min"),B.RPM)+Delta(A.RPM,B.RPM),1);
++        Row(TEXT("Magazine"),FString::Printf(TEXT("%d rounds"),Current.MagazineSize),FString::Printf(TEXT("%d rounds"),Candidate.MagazineSize)+(Candidate.MagazineSize==Current.MagazineSize?FString():FString::Printf(TEXT(" (%+d)"),Candidate.MagazineSize-Current.MagazineSize)),2);
++        Row(TEXT("Recoil"),RidgefireWeaponProgression::RecoilLabel(A.RecoilDegrees),FString(RidgefireWeaponProgression::RecoilLabel(B.RecoilDegrees))+(FMath::IsNearlyEqual(A.RecoilDegrees,B.RecoilDegrees)?TEXT(""):B.RecoilDegrees<A.RecoilDegrees?TEXT(" (less kick)"):TEXT(" (more kick)")),3);
+     }
++    DrawRect(FLinearColor(.065f,.115f,.125f,1),W*.035f,H*.825f,W*.93f,H*.09f);
++    const int32 Cost=Preview!=INDEX_NONE?RidgefireWeaponProgression::UpgradePrice(Gun.UpgradeLevel):bOwned?0:RidgefireWeaponProgression::Price(Cursor);
++    const TCHAR* Confirm=bGamepad?TEXT("A"):TEXT("ENTER");
++    FString Action;
++    if (PC->IsShopRequestPending()) Action=TEXT("Waiting for confirmation...");
++    else if (Preview!=INDEX_NONE&&Gun.UpgradeLevel>=3) Action=TEXT("Fully upgraded");
++    else if (Preview!=INDEX_NONE&&!bOwned) Action=TEXT("Buy or keep this weapon before upgrading");
++    else if (Preview!=INDEX_NONE&&Gun.UpgradeLevel>0&&static_cast<int32>(Gun.UpgradeBehavior)!=Preview+1) Action=TEXT("Keep the behavior chosen with your first upgrade");
++    else if (Preview!=INDEX_NONE&&!S.bRegroupOpen) Action=TEXT("Wait for regroup to apply this upgrade");
++    else if (Preview==INDEX_NONE&&bOwned) Action=EquippedOffer==Cursor?TEXT("Equipped  /  Preview an upgrade during regroup")
++        : bGamepad?TEXT("Carried  /  Close the arsenal to equip it")
++        : FString::Printf(TEXT("%d  EQUIP THIS GUN"),OwnedPrimarySlot!=INDEX_NONE?OwnedPrimarySlot+1:3);
++    else if (Preview==INDEX_NONE&&bNeedsSlot) Action=bGamepad?TEXT("Choose a replacement slot with UP / DOWN"):TEXT("Choose a replacement slot with 4 / 5");
++    else if (S.Cash<Cost) Action=FString::Printf(TEXT("Need %d more cash  /  Price: %d"),Cost-S.Cash,Cost);
++    else Action=FString::Printf(TEXT("%s  %s%s"),Confirm,Preview!=INDEX_NONE?TEXT("APPLY UPGRADE"):Gun.bWildcard?TEXT("KEEP WEAPON"):TEXT("BUY WEAPON"),Cost>0?*FString::Printf(TEXT("  /  %d CASH"),Cost):TEXT("  /  FREE"));
++    Line(Action,.055f,.835f,.89f,1.4f,Ice);
++    const FString Receipt=PC->GetShopResultTitle();
++    if (!Receipt.IsEmpty()&&!PC->IsShopRequestPending()) Line(Receipt+TEXT("  /  ")+PC->GetShopResultDetail(),.055f,.880f,.89f,1.0f,PC->WasShopResultSuccessful()?Ice:Ember);
++    else Line(TEXT("Compare first. Your loadout changes only when you confirm."),.055f,.880f,.89f,1.0f,Muted);
++    Line(bGamepad?TEXT("B / X  BROWSE     L3  EXACT STATS     VIEW  CLOSE"):TEXT("LEFT / RIGHT  BROWSE     TAB  EXACT STATS     T  CLOSE"),.04f,.942f,.92f,1.3f,Ice);
+     return true;
+ }
+-
+-
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/RidgefireShopControls.cpp
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/RidgefireShopControls.cpp
+@@ -3,11 +3,11 @@
+ #include "Engine/World.h"
+ 
+ void AShooterPlayerController::ShopToggleDetails() {if(RidgefireRunState.bPersonalArsenalOpen) bShopDetails=!bShopDetails;}
+-void AShooterPlayerController::ShopNext() {if(RidgefireRunState.bPersonalArsenalOpen) {ShopCursor=(ShopCursor+1)%FMath::Max(1,RidgefireRunState.WeaponOffers.Num());ShopUpgradePreview=INDEX_NONE;}}
+-void AShooterPlayerController::ShopPrevious() {if(RidgefireRunState.bPersonalArsenalOpen) {ShopCursor=(ShopCursor+RidgefireRunState.WeaponOffers.Num()-1)%FMath::Max(1,RidgefireRunState.WeaponOffers.Num());ShopUpgradePreview=INDEX_NONE;}}
+-void AShooterPlayerController::ShopUpgradeEcho() {if(RidgefireRunState.bPersonalArsenalOpen) ShopUpgradePreview=0;}
+-void AShooterPlayerController::ShopUpgradeThrough() {if(RidgefireRunState.bPersonalArsenalOpen) ShopUpgradePreview=1;}
+-void AShooterPlayerController::ShopSecondary() {if(RidgefireRunState.bPersonalArsenalOpen) bShopSecondary=!bShopSecondary;}
++void AShooterPlayerController::ShopNext() {if(RidgefireRunState.bPersonalArsenalOpen) {ShopCursor=(ShopCursor+1)%FMath::Max(1,RidgefireRunState.WeaponOffers.Num());ShopUpgradePreview=INDEX_NONE;ShopResultUntil=0;}}
++void AShooterPlayerController::ShopPrevious() {if(RidgefireRunState.bPersonalArsenalOpen) {ShopCursor=(ShopCursor+RidgefireRunState.WeaponOffers.Num()-1)%FMath::Max(1,RidgefireRunState.WeaponOffers.Num());ShopUpgradePreview=INDEX_NONE;ShopResultUntil=0;}}
++void AShooterPlayerController::ShopUpgradeEcho() {if(RidgefireRunState.bPersonalArsenalOpen) {ShopUpgradePreview=ShopUpgradePreview==0?INDEX_NONE:0;ShopResultUntil=0;}}
++void AShooterPlayerController::ShopUpgradeThrough() {if(RidgefireRunState.bPersonalArsenalOpen) {ShopUpgradePreview=ShopUpgradePreview==1?INDEX_NONE:1;ShopResultUntil=0;}}
++void AShooterPlayerController::ShopSecondary() {if(RidgefireRunState.bPersonalArsenalOpen) {bShopSecondary=!bShopSecondary;ShopResultUntil=0;}}
+ void AShooterPlayerController::ShopConfirm()
+ {
+     if(IsPaused() || bShopRequestPending || !RidgefireRunState.bPersonalArsenalOpen || !RidgefireRunState.bEconomyEnabled) return;
+@@ -40,6 +40,7 @@
+ {
+     bShopRequestPending=false;
+     bShopResultSuccess=bSuccess;
++    if(bSuccess) ShopUpgradePreview=INDEX_NONE;
+     ShopResultTitle=Title.Left(64);ShopResultDetail=Detail.Left(120);
+     ShopResultUntil=GetWorld() ? GetWorld()->GetTimeSeconds()+5 : 0;
+ }
+--- a/unreal/Ridgefire/Source/TP_FirstPerson/Tests/RidgefireArsenalConfirmationTests.cpp
++++ b/unreal/Ridgefire/Source/TP_FirstPerson/Tests/RidgefireArsenalConfirmationTests.cpp
+@@ -0,0 +1,226 @@
++#include "Variant_Shooter/ShooterCharacter.h"
++
++#if WITH_DEV_AUTOMATION_TESTS
++#include "Components/InputComponent.h"
++#include "Engine/Engine.h"
++#include "Engine/World.h"
++#include "EngineUtils.h"
++#include "GameFramework/CharacterMovementComponent.h"
++#include "HAL/FileManager.h"
++#include "HAL/PlatformTime.h"
++#include "HighResScreenshot.h"
++#include "InputCoreTypes.h"
++#include "Kismet/GameplayStatics.h"
++#include "Misc/AutomationTest.h"
++#include "Misc/CommandLine.h"
++#include "Misc/Parse.h"
++#include "Misc/Paths.h"
++#include "RidgefireArenaDressing.h"
++#include "RidgefireGameMode.h"
++#include "RidgefireWeaponProgression.h"
++#include "Variant_Shooter/AI/ShooterNPC.h"
++#include "Variant_Shooter/ShooterPlayerController.h"
++
++IMPLEMENT_SIMPLE_AUTOMATION_TEST(FRidgefireArsenalConfirmationTest,
++    "Ridgefire.Weapons.Arsenal.PurchaseConfirmations",
++    EAutomationTestFlags::ClientContext | EAutomationTestFlags::EngineFilter)
++
++namespace
++{
++class FArsenalConfirmations : public IAutomationLatentCommand
++{
++public:
++    explicit FArsenalConfirmations(FAutomationTestBase* InTest) : Test(InTest) {}
++    ~FArsenalConfirmations()
++    {
++        if (World.IsValid()) UGameplayStatics::SetGlobalTimeDilation(World.Get(),1.f);
++        if (PC.IsValid()) {
++            if (auto* Mode=PC->GetWorld()->GetAuthGameMode<ARidgefireGameMode>()) Mode->SetPlayerArsenalOpen(PC.Get(),false);
++            if (auto* Pawn=Cast<AShooterCharacter>(PC->GetPawn())) Pawn->GetCharacterMovement()->SetMovementMode(MOVE_Walking);
++        }
++    }
++
++    bool Update() override
++    {
++        if (FPlatformTime::Seconds()-Started>120) {
++            Test->AddError(FString::Printf(TEXT("Arsenal confirmations timed out at stage %d"),Stage));
++            return true;
++        }
++        if (!CapturePath.IsEmpty()) {
++            if (IFileManager::Get().FileSize(*CapturePath)<=24) return false;
++            UE_LOG(LogTemp,Display,TEXT("RIDGEFIRE ARSENAL CAPTURE %s"),*CapturePath);
++            CapturePath.Empty();
++        }
++        for (const auto& Context:GEngine->GetWorldContexts())
++            if (Context.World() && Context.World()->IsGameWorld() && Context.World()->GetNetMode()==NM_Standalone) World=Context.World();
++        auto* Mode=World.IsValid()?World->GetAuthGameMode<ARidgefireGameMode>():nullptr;
++        auto* Owner=World.IsValid()?Cast<AShooterPlayerController>(World->GetFirstPlayerController()):nullptr;
++        auto* Pawn=Owner?Cast<AShooterCharacter>(Owner->GetPawn()):nullptr;
++        if (!Mode || !Pawn || !Owner->InputComponent) return false;
++        PC=Owner;
++        auto Press=[&](const FKey& Key) {
++            bool Found=false;
++            for (const auto& Binding:Owner->InputComponent->KeyBindings)
++                if (Binding.Chord.Key==Key && Binding.KeyEvent==IE_Pressed) {
++                    Binding.KeyDelegate.Execute(Key); Found=true; break;
++                }
++            Test->TestTrue(*FString::Printf(TEXT("production controller binding %s"),*Key.ToString()),Found);
++        };
++        auto Browse=[&](int32 Offer) {
++            for (int32 Count=0;Owner->GetShopCursor()!=Offer && Count<Owner->GetRidgefireRunState().WeaponOffers.Num();++Count) Press(EKeys::Right);
++            Test->TestEqual(TEXT("browse selects the intended offer"),Owner->GetShopCursor(),Offer);
++        };
++        if (Stage==0) {
++            UGameplayStatics::SetGlobalTimeDilation(World.Get(),20.f);
++            // Setup chooses Phasma as secondary, leaving the wildcard unclaimed.
++            if (Mode->GetSetupStage()==ERidgefireSetupStage::Secondary) Mode->SelectSetupSecondary(Owner,1);
++            if (Mode->GetSetupStage()==ERidgefireSetupStage::Weapons) Press(EKeys::One);
++            if (Mode->IsArmoryOpen() || Mode->GetWave()<1) return false;
++            Stage=1;
++        }
++        if (Stage==1) {
++            TArray<AShooterNPC*> Enemies;
++            for (TActorIterator<AShooterNPC> It(World.Get());It;++It) if (It->CurrentHP>0) Enemies.Add(*It);
++            for (auto* Enemy:Enemies) {
++                Enemy->SetActorTickEnabled(false);
++                Enemy->GetCharacterMovement()->DisableMovement();
++                UGameplayStatics::ApplyDamage(Enemy,100000,Owner,Pawn,UDamageType::StaticClass());
++            }
++            if (!Mode->IsRegroupOpen()) return false;
++            FVector Station;
++            bool Found=false;
++            for (TActorIterator<ARidgefireArenaDressing> It(World.Get());It;++It)
++                if (It->GetArsenalStationWorldLocation(Station)) {Found=true;break;}
++            if (!Test->TestTrue(TEXT("actual current arena arsenal exists"),Found)) return true;
++            Pawn->SetActorLocation(Station+FVector(250,0,120));
++            Pawn->GetCharacterMovement()->DisableMovement();
++            // Slow the capture/confirmation portion only, to keep the real
++            // regroup window open while screenshots are written. Not pacing evidence.
++            UGameplayStatics::SetGlobalTimeDilation(World.Get(),.1f);
++            Press(EKeys::T);
++            Test->TestTrue(TEXT("T opens the personal arsenal"),Owner->GetRidgefireRunState().bPersonalArsenalOpen);
++            Test->TestEqual(TEXT("setup leaves wildcard unowned"),Owner->GetRidgefireRunState().SecondaryWeaponOfferIndex,1);
++            Test->TestEqual(TEXT("known purchase has an empty second primary"),Owner->GetRidgefireRunState().PrimaryWeaponSlots[1],INDEX_NONE);
++            Cash=Owner->GetRidgefireRunState().Cash;
++            Browse(3);
++            Test->TestEqual(TEXT("browsing changes neither money nor owned slots"),Owner->GetRidgefireRunState().Cash,Cash);
++            Test->TestEqual(TEXT("browsing does not grant the selected weapon"),Owner->GetRidgefireRunState().PrimaryWeaponSlots[1],INDEX_NONE);
++            Capture(TEXT("KnownComparison.png")); Stage=2; return false;
++        }
++        if (Stage==2) {
++            Press(EKeys::Enter);
++            Test->TestFalse(TEXT("Enter purchase with too little cash is rejected"),Owner->WasShopResultSuccessful());
++            Test->TestEqual(TEXT("rejection identifies cash shortfall"),Owner->GetShopResultTitle(),FString(TEXT("NEED MORE CASH")));
++            Test->TestTrue(TEXT("rejection includes an actionable explanation"),Owner->GetShopResultDetail().Contains(TEXT("more cash")));
++            Test->TestEqual(TEXT("rejected purchase does not spend cash"),Owner->GetRidgefireRunState().Cash,Cash);
++            Test->TestEqual(TEXT("rejected purchase does not equip an unowned gun"),Pawn->GetActiveWeaponName(),Owner->GetRidgefireRunState().WeaponOffers[0].Name);
++            Capture(TEXT("PurchaseRejected.png")); Stage=3; return false;
++        }
++        if (Stage==3) {
++            Mode->AwardSharedCash(2000); // Explicit test funding, not natural economy acceptance.
++            Cash=Owner->GetRidgefireRunState().Cash;
++            Press(EKeys::Four); // Empty slot must win over this replacement choice.
++            Press(EKeys::Enter);
++            Test->TestTrue(TEXT("Enter actually purchases the known weapon"),Owner->WasShopResultSuccessful());
++            Test->TestFalse(TEXT("successful confirmation clears pending state"),Owner->IsShopRequestPending());
++            Test->TestEqual(TEXT("known purchase spends exactly the listed price"),Owner->GetRidgefireRunState().Cash,Cash-RidgefireWeaponProgression::Price(3));
++            Test->TestEqual(TEXT("purchase fills empty primary 2 rather than replacing primary 1"),Owner->GetRidgefireRunState().PrimaryWeaponSlots[1],3);
++            Test->TestEqual(TEXT("first carried primary survives purchase"),Owner->GetRidgefireRunState().PrimaryWeaponSlots[0],0);
++            Test->TestEqual(TEXT("purchased primary is actually equipped"),Pawn->GetActiveWeaponName(),Owner->GetRidgefireRunState().WeaponOffers[3].Name);
++            Test->TestTrue(TEXT("owner receipt includes the paid price"),Owner->GetShopResultDetail().Contains(TEXT("650 cash paid")));
++            Cash=Owner->GetRidgefireRunState().Cash;
++            Capture(TEXT("PurchaseReceipt.png")); Stage=4; return false;
++        }
++        if (Stage==4) {
++            const int32 Ammo=Pawn->GetRidgefireAmmo();
++            Press(EKeys::Enter);
++            Test->TestFalse(TEXT("repeated Enter cannot buy a carried weapon again"),Owner->WasShopResultSuccessful());
++            Test->TestEqual(TEXT("duplicate confirmation leaves cash untouched"),Owner->GetRidgefireRunState().Cash,Cash);
++            Test->TestEqual(TEXT("duplicate confirmation leaves ammo untouched"),Pawn->GetRidgefireAmmo(),Ammo);
++            Press(EKeys::U);
++            Test->TestEqual(TEXT("U opens Echo preview"),Owner->GetShopUpgradePreview(),0);
++            Press(EKeys::U);
++            Test->TestEqual(TEXT("same upgrade key cancels without spending"),Owner->GetShopUpgradePreview(),INDEX_NONE);
++            Press(EKeys::I);
++            Test->TestEqual(TEXT("I opens Through preview"),Owner->GetShopUpgradePreview(),1);
++            Test->TestEqual(TEXT("preview does not apply an upgrade"),Owner->GetRidgefireRunState().WeaponOffers[3].UpgradeLevel,0);
++            Test->TestEqual(TEXT("preview does not spend money"),Owner->GetRidgefireRunState().Cash,Cash);
++            Capture(TEXT("UpgradePreview.png")); Stage=5; return false;
++        }
++        if (Stage==5) {
++            Press(EKeys::Tab);
++            Test->TestTrue(TEXT("Tab opens exact comparison"),Owner->IsShopDetailsOpen());
++            Capture(TEXT("UpgradeDetails.png")); Stage=6; return false;
++        }
++        if (Stage==6) {
++            Press(EKeys::Tab);
++            Press(EKeys::Enter);
++            Test->TestTrue(TEXT("Enter applies the previewed upgrade"),Owner->WasShopResultSuccessful());
++            Test->TestEqual(TEXT("successful upgrade leaves the preview after confirmation"),Owner->GetShopUpgradePreview(),INDEX_NONE);
++            Test->TestEqual(TEXT("upgrade spends exactly level-zero cost"),Owner->GetRidgefireRunState().Cash,Cash-RidgefireWeaponProgression::UpgradePrice(0));
++            Test->TestEqual(TEXT("upgraded owned offer reaches level one"),Owner->GetRidgefireRunState().WeaponOffers[3].UpgradeLevel,1);
++            Test->TestTrue(TEXT("actual equipped gun retains chosen Through behavior"),Pawn->GetRidgefireWeaponStatsSource().UpgradeBehavior==ERidgefireUpgradeBehavior::ThroughShot);
++            Capture(TEXT("UpgradeReceipt.png")); Stage=7; return false;
++        }
++        if (Stage==7) {
++            Browse(2);
++            Press(EKeys::J);
++            Test->TestTrue(TEXT("J selects secondary destination"),Owner->IsShopSecondary());
++            const int32 Tokens=Owner->GetRidgefireRunState().WildcardRerollTokens;
++            Test->TestTrue(TEXT("cleared encounter supplies a reroll positive control"),Tokens>0);
++            Press(EKeys::G);
++            Test->TestEqual(TEXT("G rerolls the unclaimed wildcard through its binding"),Owner->GetRidgefireRunState().WildcardRerollTokens,Tokens-1);
++            Test->TestEqual(TEXT("wildcard browsing/rerolling preserves carried secondary"),Owner->GetRidgefireRunState().SecondaryWeaponOfferIndex,1);
++            Test->TestEqual(TEXT("wildcard browsing preserves equipped upgraded primary"),Pawn->GetRidgefireWeaponStatsSource().UpgradeLevel,1);
++            Cash=Owner->GetRidgefireRunState().Cash;
++            WildcardName=Owner->GetRidgefireRunState().WeaponOffers[2].Name;
++            Capture(TEXT("WildcardComparison.png")); Stage=8; return false;
++        }
++        if (Stage==8) {
++            Press(EKeys::Enter);
++            Test->TestTrue(TEXT("Enter confirms keeping the found wildcard"),Owner->WasShopResultSuccessful());
++            Test->TestEqual(TEXT("free wildcard keep does not charge cash"),Owner->GetRidgefireRunState().Cash,Cash);
++            Test->TestEqual(TEXT("confirmed wildcard replaces the chosen secondary only"),Owner->GetRidgefireRunState().SecondaryWeaponOfferIndex,2);
++            Test->TestEqual(TEXT("wildcard keep preserves upgraded primary 2"),Owner->GetRidgefireRunState().PrimaryWeaponSlots[1],3);
++            Press(EKeys::Three);
++            Test->TestTrue(TEXT("3 equips newly confirmed secondary"),Pawn->IsRidgefireSecondaryEquipped());
++            Test->TestEqual(TEXT("actual secondary matches the inspected rerolled wildcard"),Pawn->GetActiveWeaponName(),WildcardName);
++            Test->TestFalse(TEXT("wildcard confirmation clears pending state"),Owner->IsShopRequestPending());
++            Capture(TEXT("WildcardKept.png")); Stage=9; return false;
++        }
++        if (Stage==9) {
++            Press(EKeys::T);
++            Test->TestFalse(TEXT("T closes personal arsenal"),Owner->GetRidgefireRunState().bPersonalArsenalOpen);
++            Press(EKeys::Enter);
++            Test->TestEqual(TEXT("Enter outside arsenal cannot spend money"),Owner->GetRidgefireRunState().Cash,Cash);
++            UE_LOG(LogTemp,Display,TEXT("RIDGEFIRE ARSENAL CONFIRMATIONS COMPLETE keyboard=Enter purchase=paid keep=free upgrade=chosen preview=cancelable rejection=actionable"));
++            return true;
++        }
++        return false;
++    }
++private:
++    void Capture(const TCHAR* Name)
++    {
++        if (!FParse::Param(FCommandLine::Get(),TEXT("RidgefireArsenalRender"))) return;
++        if (CaptureDirectory.IsEmpty()) {
++            CaptureDirectory=FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()/TEXT("VisualCaptures")/FString::Printf(TEXT("Arsenal-%llu"),FPlatformTime::Cycles64()));
++            IFileManager::Get().MakeDirectory(*CaptureDirectory,true);
++        }
++        CapturePath=CaptureDirectory/Name;
++        FScreenshotRequest::RequestScreenshot(CapturePath,true,false);
++    }
++    FAutomationTestBase* Test;
++    double Started=FPlatformTime::Seconds();
++    TWeakObjectPtr<UWorld> World;
++    TWeakObjectPtr<AShooterPlayerController> PC;
++    int32 Stage=0, Cash=0;
++    FString CapturePath,CaptureDirectory,WildcardName;
++};
++}
++
++bool FRidgefireArsenalConfirmationTest::RunTest(const FString& Parameters)
++{
++    ADD_LATENT_AUTOMATION_COMMAND(FArsenalConfirmations(this));
++    return true;
++}
++#endif
+--- a/unreal/Ridgefire/Tools/Invoke-ArsenalConfirmationChecks.ps1
++++ b/unreal/Ridgefire/Tools/Invoke-ArsenalConfirmationChecks.ps1
+@@ -0,0 +1,41 @@
++param(
++    [string]$EngineRoot='G:/Unreal Engine/UE_5.8',
++    [ValidateRange(60,300)][int]$TimeoutSeconds=180,
++    [switch]$Render,
++    [ValidateRange(640,3840)][int]$ResX=1280,
++    [ValidateRange(360,2160)][int]$ResY=720
++)
++Set-StrictMode -Version Latest
++$ErrorActionPreference='Stop'
++$project=(Resolve-Path (Join-Path $PSScriptRoot '../Ridgefire.uproject')).Path
++$log=Join-Path (Split-Path $project) ('Saved/Logs/IRON-SUN-Arsenal-{0}.log' -f (Get-Date -Format 'yyyyMMdd-HHmmss-fff'))
++$arguments=@(('"'+$project+'"'),'/Game/Variant_Shooter/Lvl_Shooter','-game','-NoSound','-unattended','-nop4','-nosplash',
++    '-ExecCmds="t.MaxFPS 60,t.IdleWhenNotForeground 0,Automation RunTests Ridgefire.Weapons.Arsenal.PurchaseConfirmations;"',
++    '-TestExit="Automation Test Queue Empty"',('-abslog="'+$log+'"'))
++if($Render){
++    $arguments+=@('-RenderOffscreen','-windowed','-ForceRes',"-ResX=$ResX","-ResY=$ResY",'-d3d12','-RidgefireArsenalRender')
++    $arguments+='-ini:Engine:[/Script/Engine.AutomationTestSettings]:DefaultInteractiveFramerate=1,[/Script/Engine.AutomationTestSettings]:DefaultInteractiveFramerateDuration=0.1,[/Script/Engine.AutomationTestSettings]:DefaultInteractiveFramerateWaitTime=10'
++}else{$arguments+='-NullRHI'}
++$process=Start-Process -FilePath (Join-Path $EngineRoot 'Engine/Binaries/Win64/UnrealEditor.exe') -ArgumentList $arguments -PassThru -WindowStyle Hidden
++try{
++    $deadline=(Get-Date).AddSeconds($TimeoutSeconds)
++    while(!$process.HasExited -and (Get-Date)-lt $deadline){Start-Sleep -Milliseconds 500}
++    if(!$process.HasExited){throw "Arsenal confirmation timeout: $log"}
++    $content=Get-Content -LiteralPath $log -Raw
++    if($process.ExitCode -ne 0 -or !$content.Contains('Result={Success} Name={PurchaseConfirmations}') -or
++        !$content.Contains('RIDGEFIRE ARSENAL CONFIRMATIONS COMPLETE') -or
++        $content -match 'Result=\{Fail|Fatal error:|Assertion failed:|Ensure condition failed'){
++        throw "Arsenal confirmations failed or did not execute: $log"
++    }
++    if($Render){
++        $captures=[regex]::Matches($content,'(?m)^.*LogTemp: Display: RIDGEFIRE ARSENAL CAPTURE (.+\.png)\s*$')
++        if($captures.Count -ne 8){throw "Expected eight confirmation/comparison frames: $log"}
++        foreach($capture in $captures){
++            $path=$capture.Groups[1].Value.Trim()
++            if(!(Test-Path -LiteralPath $path) -or (Get-Item -LiteralPath $path).Length -le 24){throw "Missing frame: $path"}
++            Write-Output "Capture for inspection: $path"
++        }
++    }
++    Write-Output "Arsenal confirmation checks passed: $log"
++    Write-Output 'Scope: real possessed Blueprint and existing key delegates including Enter; controlled funding, accelerated encounter clear and slowed capture window. Not hardware input, human economy/fun, network or packaged play acceptance.'
++}finally{if(!$process.HasExited){Stop-Process -InputObject $process}}

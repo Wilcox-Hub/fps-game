@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "protocol": 58,
+  "address": "192.168.4.36:7777",
+  "wrong_invite_control": false,
+  "time_utc": "2026-10-11T19:14:59.432244+00:00",
+  "clients": 2,
+  "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+  "lobby_join_accepted": true,
+  "held_seconds": 12,
+  "unresolved_network_references": 0,
+  "client_logging_available": false,
+  "run_directory": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\lenovo-specs\\server-access\\native-join-checks\\20261011-121458"
+}

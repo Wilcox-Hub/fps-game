@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "build_cook_run": "BUILD SUCCESSFUL; BuildCookRun time 81.38 seconds; exit code 0",
+  "package_info": {
+    "Status": "COMPLETE",
+    "BuildTimeUtc": "2026-10-05T04:51:20.9404427Z",
+    "Configuration": "Shipping",
+    "Executable": "Windows/TP_FirstPerson.exe",
+    "ProductStatus": "Prototype",
+    "sha256": "423F3670F2DB92F00918C4CDDD743430D2DB81898417A21446A05E3E3D20C250"
+  },
+  "archive_in_supporting_workspace": "research/vs40/packages/20261004-214956-456/Windows",
+  "artifacts": [
+    {
+      "path": "TP_FirstPerson.exe",
+      "size_bytes": 171520,
+      "sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4"
+    },
+    {
+      "path": "Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+      "size_bytes": 166526976,
+      "sha256": "31F1F8C044B6C1F3BEE2C0D529FE7BF1C801DCCDA74D265D11CE06E1D4C33EF7"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/Ridgefire-Windows.pak",
+      "size_bytes": 11247371,
+      "sha256": "BD1B4582860841EFF622CBF94322658FA72DFBD68053A7199BC1899B8396CEE6"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/Ridgefire-Windows.ucas",
+      "size_bytes": 237085568,
+      "sha256": "2FC89FF3CE1D7E3042A73F35423EF36A169B178806F6E8C3A2E792D014598C7D"
+    },
+    {
+      "path": "Ridgefire/Content/Paks/Ridgefire-Windows.utoc",
+      "size_bytes": 237648,
+      "sha256": "4C047E15FDF3F0E901B4E069AE56FB2211A0D000BEDA815B3B1B8BB92CBACDEE"
+    }
+  ],
+  "scope": "Fresh Windows Shipping Prototype package. The package was built and staged; it was not launched or played by a human."
+}

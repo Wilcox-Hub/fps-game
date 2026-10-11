@@ -1,0 +1,64 @@
+{
+  "scope": "Gameplay-only planning estimate; not overall beta completion or a test pass rate",
+  "estimated_on": "2026-10-04",
+  "confidence": "low",
+  "judgment_range_percent": [
+    43,
+    75
+  ],
+  "rubric": [
+    {
+      "category": "Controls and combat",
+      "weight_percent": 30,
+      "readiness_percent": 70,
+      "contribution": 21.0,
+      "rationale": "Carry forward VS40's scoped Phasma attribution/falloff, visible collision trace, encounter selection, Editor build and Shipping package evidence. VS41 changes only the arsenal HUD; human hit feel remains open."
+    },
+    {
+      "category": "Weapons and arsenal",
+      "weight_percent": 20,
+      "readiness_percent": 70,
+      "contribution": 14.0,
+      "rationale": "The carried weapon controls still pass, the no-change offer state no longer repeats the same weapon comparison and stats, actual keyboard interactions pass, and the current Shipping package builds. The capture still has a shader notice/temporary receipt; human readability, natural economy, balance and fun remain unaccepted."
+    },
+    {
+      "category": "Waves, routes and arenas",
+      "weight_percent": 20,
+      "readiness_percent": 60,
+      "contribution": 12.0,
+      "rationale": "Carry forward dated VS33/VS37 route and encounter evidence; no route or arena inputs changed. Ten finished arenas and the intended 45-60 minute run remain open."
+    },
+    {
+      "category": "Co-op and recovery",
+      "weight_percent": 20,
+      "readiness_percent": 70,
+      "contribution": 14.0,
+      "rationale": "Carry forward dated hosted restart/recovery evidence; no current co-op inputs changed. Steam/Internet and four-human acceptance remain open."
+    },
+    {
+      "category": "Perks and progression",
+      "weight_percent": 10,
+      "readiness_percent": 75,
+      "contribution": 7.5,
+      "rationale": "Carry forward the existing grounded combat/medic/movement direction and progression tests; no perk inputs changed."
+    }
+  ],
+  "weighted_score": 68.5,
+  "displayed_gameplay_readiness_percent": 69,
+  "overall_beta_readiness_percent": null,
+  "beta_ready": false,
+  "target_gameplay_readiness_percent": 75,
+  "target_status": "IN_PROGRESS; 69% is the latest low-confidence planning estimate; the 75% target is not reached",
+  "assessment_note": "VS41 earns one point of weighted planning credit for removing a redundant self-comparison state while preserving the useful choice stats for real comparisons, then rerunning the actual bound-key test and refreshing the Shipping package. The screenshot has transient engine/UI notices; owner comprehension and final readability remain open.",
+  "reviewed_on": "2026-10-04",
+  "new_completion_credit": 1.0,
+  "open_owner_reported_defects": [
+    "Owner acceptance of hit feel, Phasma splash readability and arsenal comprehension remains open",
+    "Owner reports gameplay remains boring; human fun and 45-60 minute pacing remain untested",
+    "Enemy attack rhythm remains an open design choice"
+  ],
+  "corrected_defects": [
+    "The arsenal no longer presents an identical weapon-to-itself comparison with duplicate stats when that weapon is already in the selected slot",
+    "Carried weapons remain selectable through slots 1-3 in the actual interaction test"
+  ]
+}

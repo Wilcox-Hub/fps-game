@@ -1,0 +1,11 @@
+{
+    "status":  "INSTALLED",
+    "version":  "20261005-134833-568",
+    "install_root":  "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+    "launcher":  "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN\\Play-IRON-SUN.cmd",
+    "shortcut":  "C:\\Users\\YaYa\\Desktop\\IRON SUN.lnk",
+    "stable_runtime":  "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN\\Game\\Windows\\Ridgefire\\Binaries\\Win64\\TP_FirstPerson-Win64-Shipping.exe",
+    "feed_root":  "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\IRON-SUN-LAN",
+    "game_launched":  false,
+    "firewall_changed":  false
+}

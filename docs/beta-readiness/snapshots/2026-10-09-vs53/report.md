@@ -1,0 +1,23 @@
+# VS53 — bot shapes and hit registration
+
+Recorded 2026-10-09T00:34:38.459266-07:00. Local unpublished changes. **NOT_BETA_READY.** Retain the low-confidence **69%** gameplay planning estimate from October 4 (VS41, weighted 68.5); the 75% target remains open. This repair adds correctness evidence, not measured whole-game readiness or human fun.
+
+The owner reported that hitboxes did not fit the bot shapes. A new independent render-triangle oracle reproduced unhittable visible sprinter/brute attachments, most of the turret body, and stale collision after enlargement. A minimal actual Gale shot into added brute armor consumed ammunition (24→23) while causing no damage (1000→1000).
+
+All visible body parts now share one weapon-only collision lifecycle. Hidden/replaced parts and dead bots do not block shots. Weapon rays continue to ignore the broad movement capsule, while its Pawn/movement collision stays intact. The turret's body and rotating barrels can be hit; existing weak-point damage handling is unchanged.
+
+Existing physics bodies are refreshed when the bot's actor scale changes. Actual encounter spawns and brute enlargement use `SetRidgefireBodyScale` to complete the resize before shots; the client also refreshes after receiving scale changes. Rebuilding only a brute fixed its head but missed the normal arena resize path, which the expanded regression caught. Bot sizes already matched on both network peers before this fix; the unsynchronized-size hypothesis was disproved and no new scale replication field was added. Existing cosmetic hover/reaction and real latency remain outside acceptance.
+
+The final production-scale scan checks **136,435 rays** at a **6cm grid**, across standard/sprinter/brute/champion/turret bodies, three real pose updates and three views. It finds **44,879 matched body samples, zero missed body samples, zero empty-space hits and zero surface errors over 1cm**. Each role is killed through actual damage and its visible corpse stops blocking weapon queries. The same real Gale armor shot now damages health **1000→958** while consuming one round. Current Gale/Phasma cover, world-panel and splash controls pass. These are controlled headless Editor measurements, not rendered pixels, exhaustive geometry or human hit-feel acceptance.
+
+Matching local host/client checks pass: normal standard-bot scale 1.35 matches; one live body per peer independently matches its rendered triangles; actual controller LMB primary and secondary shots retain the chosen weapon and spend ammunition. VS53 rejects the known legacy VS50 in both handshake directions before gameplay RPCs. Exact owner device versions and the next physical two-PC retry remain unconfirmed.
+
+Editor and complete Shipping builds pass. All **576** Source/Config/Content inputs match the test and Shipping before/after captures. The actual Shipping runtime is discovered/joined by a local current Editor client. This proves startup/LAN lobby at that scope; final Shipping rendering, hitbox combat, physical controls and full runs remain open.
+
+Prototype **20261009-002224-817** is published to the existing local update feed and installed through the owner's fixed IRON SUN launcher. All 32 installed payloads and the full ZIP are independently hash-verified; updater reports UPDATED then CURRENT, NoLaunch. The previous build is retained for rollback. Wife's PC needs VS53 too. Network sharing and fixed-path firewall activation remain pending. No game Git commit/push, remote-PC update or public beta approval is claimed.
+
+Prior VS52 menu/shards/90-second records retain their original dates and scopes. No old broad pass involving changed bot/encounter inputs is reused, and no unrelated 90-second pacing test was repeated. Consult [test-results.json](test-results.json), [shape-measurements.json](shape-measurements.json), [input-manifest.json](input-manifest.json) and [artifact-manifest.json](artifact-manifest.json). The gzip CSV preserves every final ray without loss.
+
+Focused rerun from the repository: `powershell -NoProfile -File unreal/Ridgefire/Tools/Invoke-CombatReliabilityChecks.ps1 -Filter Ridgefire.Regressions.Hitboxes.RenderedShape`; use `Ridgefire.Regressions.Hitboxes.AddedArmorShot` for the minimal actual-weapon regression. Check input hashes before reusing this evidence.
+
+Next human acceptance: update both PCs to VS53, test primary/secondary shots on visible limbs/armor/head and gaps during a normal run, check moving/covered bots and Phasma splash readability, and report LAN hit feel. Retain human fun, 45–60-minute pacing, finished arenas/assets, network recovery and minimum-PC profiling gates before revising the historical score.

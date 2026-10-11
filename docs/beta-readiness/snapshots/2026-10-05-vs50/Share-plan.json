@@ -1,0 +1,17 @@
+{
+  "mode": "Preview",
+  "share_name": "IRON-SUN-Updates",
+  "folder": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\IRON-SUN-LAN",
+  "unc_path": "\\\\DESKTOP-9I0RDNT\\IRON-SUN-Updates",
+  "read_account": "DESKTOP-9I0RDNT\\YaYa",
+  "read_sid": "S-1-5-21-2960859410-3713138836-2024262111-1001",
+  "share_permission": "Read",
+  "encrypted_smb": true,
+  "firewall_rule": "IRON-SUN-LAN-UPDATES-SMB",
+  "firewall_scope": "System / inbound TCP 445 / Private / LocalSubnet / edge traversal Block",
+  "build": "20261005-134833-568",
+  "stable_game_windows": "C:/Users/YaYa/AppData/Local/IRON SUN/Game/Windows",
+  "existing_share": false,
+  "existing_firewall_rule": false,
+  "notes": "A named authenticated read-only share for the dedicated game-update folder. Windows credentials stay with Windows; none are embedded in the launcher. Other PCs need one-time setup. No guest/public share, router forwarding, account creation, or global firewall changes."
+}

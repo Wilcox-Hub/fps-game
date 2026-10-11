@@ -1,0 +1,15 @@
+{
+  "previous_snapshot": "2026-10-08-vs52",
+  "added": [
+    "Source/TP_FirstPerson/Tests/RidgefireBotShapeOracle.h",
+    "Source/TP_FirstPerson/Tests/RidgefireBotShapeTests.cpp"
+  ],
+  "modified": [
+    "Source/TP_FirstPerson/RidgefireEncounters.cpp",
+    "Source/TP_FirstPerson/RidgefireNetworkCompatibility.h",
+    "Source/TP_FirstPerson/Tests/RidgefireFireNetworkFixture.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.cpp",
+    "Source/TP_FirstPerson/Variant_Shooter/AI/ShooterNPC.h"
+  ],
+  "removed": []
+}

@@ -1,0 +1,37 @@
+[2026.10.09-06.59.58:305][457]LogAutomationController: Display: Test Completed. Result={Success} Name={AddedArmorShot} Path={Ridgefire.Regressions.Hitboxes.AddedArmorShot}
+[2026.10.09-06.59.58:305][457]LogAutomationController: Added armor actual Gale shot: hp=1000.000->958.000 ammo=24->23 point=X=199967.430 Y=199938.177 Z=49924.050 collision=1
+[2026.10.09-06.59.59:969][460]LogAutomationController: Error: Test Completed. Result={Fail} Name={RenderedShape} Path={Ridgefire.Regressions.Hitboxes.RenderedShape}
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=0 pose=0 parts=30 matched=1330 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=0 pose=1 parts=30 matched=1290 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=0 pose=2 parts=30 matched=1300 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=1 pose=0 parts=34 matched=1336 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=1 pose=1 parts=34 matched=1323 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=1 pose=2 parts=34 matched=1324 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-06.59.59:969][460]LogAutomationController: First missing body: role=2 pose=0 view=0 point=X=199963.421 Y=199947.521 Z=50089.930 part=StaticMeshComponent_4 collision=1
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=2 pose=0 parts=34 matched=2544 missed=21 ghosts=0 surface_errors=45
+[2026.10.09-06.59.59:969][460]LogAutomationController: Error: Expected 'visible body pixels register hits' to be 0, but it was 21.
+[2026.10.09-06.59.59:969][460]LogAutomationController: Error: Expected 'hits land on the rendered surface within 1cm' to be 0, but it was 45.
+[2026.10.09-06.59.59:969][460]LogAutomationController: First missing body: role=2 pose=1 view=0 point=X=199938.845 Y=199907.261 Z=50089.715 part=StaticMeshComponent_4 collision=1
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=2 pose=1 parts=34 matched=2512 missed=21 ghosts=0 surface_errors=48
+[2026.10.09-06.59.59:969][460]LogAutomationController: Error: Expected 'visible body pixels register hits' to be 0, but it was 21.
+[2026.10.09-06.59.59:969][460]LogAutomationController: Error: Expected 'hits land on the rendered surface within 1cm' to be 0, but it was 48.
+[2026.10.09-06.59.59:969][460]LogAutomationController: First missing body: role=2 pose=2 view=0 point=X=199910.005 Y=199877.440 Z=50059.827 part=StaticMeshComponent_4 collision=1
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=2 pose=2 parts=34 matched=2487 missed=15 ghosts=0 surface_errors=52
+[2026.10.09-06.59.59:969][460]LogAutomationController: Error: Expected 'visible body pixels register hits' to be 0, but it was 15.
+[2026.10.09-06.59.59:969][460]LogAutomationController: Error: Expected 'hits land on the rendered surface within 1cm' to be 0, but it was 52.
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=3 pose=0 parts=30 matched=1332 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=3 pose=1 parts=30 matched=1284 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=3 pose=2 parts=30 matched=1301 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=4 pose=0 parts=8 matched=921 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=4 pose=1 parts=8 matched=917 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-06.59.59:969][460]LogAutomationController: Shape scan role=4 pose=2 parts=8 matched=914 missed=0 ghosts=0 surface_errors=0
+[2026.10.09-06.59.59:969][460]LogAutomationController: Bot shape complete rays=73096 matched=22115 missed=57 ghosts=0 seconds=1.624
+{
+  "passed": false,
+  "log": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs53\\physics-probe-20261008-235945-044\\Automation.log",
+  "rendered": false,
+  "scope": "Actual Blueprint bots, LOD0 render-triangle oracle versus complex weapon-channel rays; standard, sprinter, brute, champion, turret; three poses and three views. Controlled same-PC Editor, no human or remote acceptance.",
+  "exit_code": 0,
+  "time_utc": "2026-10-09T07:00:00.2432880Z"
+}
+

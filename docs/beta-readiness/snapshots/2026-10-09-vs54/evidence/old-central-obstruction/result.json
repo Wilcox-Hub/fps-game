@@ -1,0 +1,9 @@
+{
+  "passed": false,
+  "filter": "Ridgefire.Waves.FirstMapLayoutAndFrames",
+  "log": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs54\\map-diagnostic-20261009-095439-189\\Automation.log",
+  "render_requested": true,
+  "scope": "Controlled same-PC Unreal Editor test, real geometry/actors and production module interfaces; no human fun, physical LAN or whole-run duration acceptance.",
+  "exit_code": 0,
+  "time_utc": "2026-10-09T16:55:08.0702942Z"
+}

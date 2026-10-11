@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "time_utc": "2026-10-11T18:02:10.483699+00:00",
+  "endpoint": "cairo-ferry.tun.ply.gg:42527",
+  "origin": "127.0.0.1:7777",
+  "scope": "Exact one-shot nonce UDP round trip through Playit to Lenovo. Windows test client is on the owner home network; no game, external-Wi-Fi, latency or performance acceptance.",
+  "attempt": 1,
+  "probe_roundtrip_ms": 15.0,
+  "remote_matched": true,
+  "remote_exit_code": 0
+}

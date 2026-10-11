@@ -1,0 +1,28 @@
+{
+  "snapshot_id": "2026-10-09-vs54",
+  "tested_on": "2026-10-09",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "validation_level": "RENDERED_EDITOR",
+  "source_run": "map-frames-final-20261009-102521-939",
+  "inspected": true,
+  "frames": [
+    "entrance-open.png",
+    "entrance-warning.png",
+    "first-map-overhead.png",
+    "first-map-player-height.png"
+  ],
+  "layout_reference": "unreal/Ridgefire/SourceArt/Concepts/IronSun_ScaledCombatPlan_v1.png",
+  "observations": [
+    "96m octagonal footprint, eight cover islands and open central lane",
+    "Three recognizable perimeter gate frames; amber warning and visibly raised shutter",
+    "Station corners and NW route-exit massing follow metric plan",
+    "Prototype flat ground, cubes/ellipsoids and plain walls; no finished arena fidelity",
+    "Overhead is a camera view; +Y is map north, image is not annotated compass north"
+  ],
+  "human_acceptance": false,
+  "shipping_render_acceptance": false,
+  "limits": "Controlled cameras, HUD hidden, static warning capture. Natural gameplay exposure, finished art, entry walk-out and human pressure/scale remain open."
+}

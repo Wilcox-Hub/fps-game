@@ -1,0 +1,10 @@
+﻿{
+    "passed":  false,
+    "checks":  [
+                   {
+                       "check":  "First install from verified feed",
+                       "status":  "PASS"
+                   }
+               ],
+    "error":  "Exception calling \"Replace\" with \"3\" argument(s): \"The path is not of a legal form.\""
+}

@@ -1,0 +1,10 @@
+﻿{
+    "passed":  true,
+    "peers":  2,
+    "logs":  [
+                 "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PressureNetwork\\checks-20261008-175824-528\\Host.log",
+                 "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PressureNetwork\\checks-20261008-175824-528\\Client.log"
+             ],
+    "scope":  "Actual local Editor host/client character moves, slide/ADS/release and server displacement on a replicated test platform with frozen enemies. No Internet, packaged, hardware-input, latency/fun or second-PC acceptance.",
+    "time_utc":  "2026-10-09T00:58:46.7068458Z"
+}

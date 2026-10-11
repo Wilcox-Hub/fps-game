@@ -1,0 +1,22 @@
+[
+  {
+    "path": "Source/TP_FirstPerson/RidgefireWeaponProgression.cpp",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireCombatReliabilityTests.cpp",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireEconomyTests.cpp",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h",
+    "change": "modified"
+  }
+]

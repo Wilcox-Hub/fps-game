@@ -1,0 +1,37 @@
+{
+  "tested_on": "2026-10-05",
+  "profiles": [
+    {
+      "Name": "Domain",
+      "Enabled": 1,
+      "DefaultInboundAction": 4,
+      "NotifyOnListen": 0,
+      "AllowInboundRules": 1,
+      "AllowLocalFirewallRules": 1
+    },
+    {
+      "Name": "Private",
+      "Enabled": 1,
+      "DefaultInboundAction": 4,
+      "NotifyOnListen": 0,
+      "AllowInboundRules": 1,
+      "AllowLocalFirewallRules": 1
+    },
+    {
+      "Name": "Public",
+      "Enabled": 1,
+      "DefaultInboundAction": 4,
+      "NotifyOnListen": 0,
+      "AllowInboundRules": 1,
+      "AllowLocalFirewallRules": 1
+    }
+  ],
+  "matching_game_or_unrestricted_udp_allow_rules": [],
+  "observations": [
+    "Wi-Fi 12 is Private.",
+    "Effective NotifyOnListen is disabled, explaining the absent Windows prompt.",
+    "No game-specific application firewall entries and no matching unrestricted inbound UDP rules were found.",
+    "Packaged host advertisement reached the same-PC probe at the actual Wi-Fi address, not the Tailscale adapter."
+  ],
+  "scope": "Read-only inspection of owner PC; no wife-PC or router inspection. Missing exception is a candidate blocker, not a reproduced two-device root cause."
+}

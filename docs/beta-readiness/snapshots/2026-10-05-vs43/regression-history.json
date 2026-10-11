@@ -1,0 +1,25 @@
+{
+  "tested_on": "2026-10-05",
+  "reproduction": "Actual Phasma shot into a two-component world-cover actor; both production camera and muzzle traces hit cover. Frozen real Blueprint sentries inside radius.",
+  "before_fix": {
+    "status": "EXPECTED_FAIL",
+    "protected_damage": 39.946,
+    "exposed_damage": 35.188,
+    "feedback_recipients": 2,
+    "log": {
+      "path": "logs/Combat-red.log",
+      "sha256": "6A18CDCEE453D0068B94222692DE2CB91E93CEB446242FCCB807557CB2981B51"
+    }
+  },
+  "after_fix": {
+    "status": "PASS",
+    "protected_damage": 0.0,
+    "exposed_damage": 35.188,
+    "feedback_recipients": 1,
+    "log": {
+      "path": "logs/Combat-green.log",
+      "sha256": "4B25779FFDCC061D6877B566BEA0FE5D1B48F86C909FF9628F9790E5ADB2D18C"
+    }
+  },
+  "validation_level": "Standalone Editor -game / NullRHI; production collision and firing APIs, no hardware input or human feel."
+}

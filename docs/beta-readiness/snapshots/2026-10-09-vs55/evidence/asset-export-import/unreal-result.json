@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "engine_version": "5.8.3-58210709+++UE5+Release-5.8",
+  "assets": [
+    {
+      "asset_path": "/Game/IRON_SUN/Environment/FirstArenaVS55/SM_IronSunCoverRock_A",
+      "dimensions_cm": [
+        200.0,
+        200.0,
+        100.0
+      ],
+      "convex_hulls": 1,
+      "collision_source": "engine decomposition of convex render mesh if FBX UCX absent",
+      "saved": true
+    },
+    {
+      "asset_path": "/Game/IRON_SUN/Environment/FirstArenaVS55/SM_IronSunCoverRock_B",
+      "dimensions_cm": [
+        200.0,
+        200.00000762939453,
+        100.0
+      ],
+      "convex_hulls": 1,
+      "collision_source": "engine decomposition of convex render mesh if FBX UCX absent",
+      "saved": true
+    }
+  ],
+  "scope": "Saved engine import with measured bounds and validated single convex hulls; in-world gameplay/render checks still required."
+}

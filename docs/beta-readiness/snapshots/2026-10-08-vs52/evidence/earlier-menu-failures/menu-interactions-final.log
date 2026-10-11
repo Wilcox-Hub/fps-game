@@ -1,0 +1,7 @@
+Interaction fixture failed
+At C:\Users\YaYa\Documents\ChatGPT\FPS-1\research\vs52\run-menu-interactions.ps1:8 char:262
++ ... |Ensure condition failed'){throw 'Interaction fixture failed'};if($p. ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Interaction fixture failed:String) [], RuntimeException
+    + FullyQualifiedErrorId : Interaction fixture failed
+ 
