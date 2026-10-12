@@ -1,0 +1,29 @@
+{
+  "recorded_on": "2026-10-12",
+  "game_inputs_exact_match": true,
+  "game_input_count": 607,
+  "game_tests_repeated": false,
+  "publication": {
+    "passed": true,
+    "project_id": "appgprj_6acc0c9c3c9081918e14d60ab166d94c",
+    "commit_sha": "3c79c4998cc4249f140bdb2da71a1b4a1b036502",
+    "version_id": "appgprj_6acc0c9c3c9081918e14d60ab166d94c~appgver_3bbaad7cd4148191b8d844b627529be0",
+    "version_number": 8,
+    "deployment_id": "appgdep_6acd376727508191809741642b533aa4",
+    "status": "succeeded",
+    "url": "https://iron-sun-playtest.wilcoxwarrior4577.chatgpt.site",
+    "observed_at_utc": "2026-10-12T19:39:25.685257+00:00",
+    "local_browser_dom_inspected": true,
+    "website_source_sync_approved_by_owner": true,
+    "prior_site_credential_block_resolved": true,
+    "launcher_app_control_still_denied": true,
+    "launcher_public_download_enabled": false,
+    "scope": "Official source sync and successful public Site version8, local and live DOM inspection, corrected security/install status. Normal launcher buttons/browser installer delivery remain gated.",
+    "live_browser_dom_inspected": true
+  },
+  "source_syntax_check_passed": true,
+  "gameplay_score_unchanged": true,
+  "prior_production_setup_evidence": "snapshots/2026-10-12-launcher-setup-production/test-results.json",
+  "normal_launcher_button_accepted": false,
+  "scope": "Sites credential blocker resolved after explicit owner approval; app-control tool still denies IRON SUN Launcher. No installer promotion, signed setup-feed activation or friend-PC acceptance."
+}

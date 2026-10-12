@@ -1,0 +1,51 @@
+{
+  "source_commit": "3c79c4998cc4249f140bdb2da71a1b4a1b036502",
+  "saved_version": 8,
+  "files": [
+    {
+      "path": ".openai/hosting.json",
+      "sha256": "6B2BDBDF4395C00D63B6DFC0FA02D1CA729E036E38B57DF1CDF64BBCA0A377F1",
+      "size_bytes": 112
+    },
+    {
+      "path": "dist/app.js",
+      "sha256": "241CA32846B207DB7FFDF18FE5D6CFADB1C833660E2E54C02FB83CAE5572432D",
+      "size_bytes": 5810
+    },
+    {
+      "path": "dist/assets/arena-preview.png",
+      "sha256": "AEBEA0DDDE2073631F88605FB9C7F2BD5EB54172C86EA01FB15631C6077E36FA",
+      "size_bytes": 1722085
+    },
+    {
+      "path": "dist/assets/gameplay.png",
+      "sha256": "7137B1AD585E73BCE7B3A4C4093559AD1ACC6AF8D57CAE9EF18971B998A0A661",
+      "size_bytes": 2144307
+    },
+    {
+      "path": "dist/assets/sun.svg",
+      "sha256": "644B3D92FE565BC6DE3169C72222B46AD1993A2C99DBB87C4CEC5A26ABBC951F",
+      "size_bytes": 198
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "1E5C73A0F4D4E4B50D5E29FBEC7EBF4091D1D9A5408C5530E676A9B176073B72",
+      "size_bytes": 9532
+    },
+    {
+      "path": "dist/release-gate.js",
+      "sha256": "E7E691B9CB9E57C2B47A4B468ACF1202FEE017CAA2971F218EF8EAECD9FC3C8D",
+      "size_bytes": 1895
+    },
+    {
+      "path": "dist/release-public-key.xml",
+      "sha256": "742767A540EB1A17AF1B0A2B133A49C62D41C293AB10D483727955928A9D699A",
+      "size_bytes": 583
+    },
+    {
+      "path": "dist/style.css",
+      "sha256": "7FB26323124B1F298EB9792757BD5BD8AAC7F918CA4E39E744EBC49720DC2E47",
+      "size_bytes": 10365
+    }
+  ]
+}

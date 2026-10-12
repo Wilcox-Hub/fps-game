@@ -1,5 +1,7 @@
 # IRON SUN beta readiness
 
+October12 Sites sync: owner-approved retry succeeded; public download page version8 accurately reflects the removed Defender detection and passed production installer checks. Normal launcher-button app control is still denied, and setup remains private/gated. All 607 game inputs match; no new gameplay score or beta approval. See [site sync](snapshots/2026-10-12-launcher-site-sync/report.md).
+
 October 12 launcher delivery: Microsoft analyst reports detection removed, while the portal final field remains Pending. The exact reviewed binary and production setup pass protected CLI downloads/scans, real installation/uninstall/reinstall, shortcut/app registration and current VS60 HTTPS backend download with all 32 file hashes. All 607 game and 18 launcher inputs match their retained evidence. Normal launcher buttons/browser delivery remain open after app-control denial; Sites credential handoff was rejected by automatic approval review. The setup remains private/gated; no beta or score credit. See [production setup](snapshots/2026-10-12-launcher-setup-production/report.md).
 
 Latest whole-game gameplay planning estimate: **69%** (weighted 68.5), low confidence, scored in VS41 on October 4, 2026. The 75% development target remains in progress. **NOT_BETA_READY.** Overall beta completion remains unmeasured. These percentages are planning judgments, not test pass rates or measured fun.
