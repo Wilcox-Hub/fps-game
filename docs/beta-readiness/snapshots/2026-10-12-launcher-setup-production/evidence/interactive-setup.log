@@ -1,0 +1,63 @@
+﻿2026-10-12 12:05:01.454   Log opened. (Time zone: UTC-07:00)
+2026-10-12 12:05:01.454   Setup version: Inno Setup version 7.1.0 (32-bit)
+2026-10-12 12:05:01.454   Original Setup EXE: C:\Users\YaYa\Documents\ChatGPT\FPS-1\distribution\iron-sun-launcher\build\setup\IRON-SUN-Setup.exe
+2026-10-12 12:05:01.455   Setup command line: /SL5="$A7070A,2590636,839680,C:\Users\YaYa\Documents\ChatGPT\FPS-1\distribution\iron-sun-launcher\build\setup\IRON-SUN-Setup.exe" /LOG="C:/Users/YaYa/Documents/ChatGPT/FPS-1/research/launcher-delivery-20261012/interactive-setup.log"
+2026-10-12 12:05:01.455   Windows version: 10.0.26300
+2026-10-12 12:05:01.455   Windows architecture: x64 (64-bit)
+2026-10-12 12:05:01.455   Machine types supported by system: x86 x64
+2026-10-12 12:05:01.455   User privileges: None
+2026-10-12 12:05:01.455   Administrative install mode: No
+2026-10-12 12:05:01.455   Install mode root key: HKEY_CURRENT_USER
+2026-10-12 12:05:01.455   64-bit install mode: Yes
+2026-10-12 12:05:01.455   RedirectionGuard status for current process: Enabled in enforcing mode
+2026-10-12 12:05:01.456   Created temporary directory: C:\Users\YaYa\AppData\Local\Temp\is-SCZF7LH6M4.tmp
+2026-10-12 12:05:01.458   -- DLL function import --
+2026-10-12 12:05:01.458   Function and DLL name: GetFileAttributesW@kernel32.dll
+2026-10-12 12:05:01.458   Importing the DLL function. Dest DLL name: kernel32.dll
+2026-10-12 12:05:01.458   Successfully imported the DLL function. Delay loaded? No
+2026-10-12 12:08:01.072   Found 1 files to register with RestartManager.
+2026-10-12 12:08:01.072   Calling RestartManager's RmGetList.
+2026-10-12 12:08:01.076   RmGetList finished successfully.
+2026-10-12 12:08:01.076   RestartManager found no applications using one of our files.
+2026-10-12 12:08:01.094   Starting the installation process.
+2026-10-12 12:08:01.100   Creating directory: \\?\C:\Users\YaYa\AppData\Local\IRON SUN\Launcher
+2026-10-12 12:08:01.100   Directory for uninstall files: C:\Users\YaYa\AppData\Local\IRON SUN\Launcher
+2026-10-12 12:08:01.100   Creating new uninstall log: C:\Users\YaYa\AppData\Local\IRON SUN\Launcher\unins000.dat
+2026-10-12 12:08:01.117   -- File entry --
+2026-10-12 12:08:01.117   Dest filename: C:\Users\YaYa\AppData\Local\IRON SUN\Launcher\unins000.exe
+2026-10-12 12:08:01.117   Non-default bitness: 32-bit
+2026-10-12 12:08:01.129   Time stamp of our file: 2026-10-12T19:05:01.281Z
+2026-10-12 12:08:01.129   Installing the file.
+2026-10-12 12:08:01.146   Successfully installed the file.
+2026-10-12 12:08:01.146   -- File entry --
+2026-10-12 12:08:01.146   Dest filename: \\?\C:\Users\YaYa\AppData\Local\IRON SUN\Launcher\IronSunLauncher.exe
+2026-10-12 12:08:01.146   Time stamp of our file: 2026-10-12T19:02:06.000Z
+2026-10-12 12:08:01.146   Installing the file.
+2026-10-12 12:08:01.165   Successfully installed the file.
+2026-10-12 12:08:01.165   -- File entry --
+2026-10-12 12:08:01.165   Dest filename: \\?\C:\Users\YaYa\AppData\Local\IRON SUN\Launcher\iron-sun.ico
+2026-10-12 12:08:01.166   Time stamp of our file: 2026-10-12T00:52:00.000Z
+2026-10-12 12:08:01.166   Installing the file.
+2026-10-12 12:08:01.167   Successfully installed the file.
+2026-10-12 12:08:01.168   -- Icon entry --
+2026-10-12 12:08:01.168   Dest filename: C:\Users\YaYa\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\IRON SUN Launcher.lnk
+2026-10-12 12:08:01.169   Creating the icon.
+2026-10-12 12:08:01.270   Successfully created the icon.
+2026-10-12 12:08:01.277   -- Icon entry --
+2026-10-12 12:08:01.277   Dest filename: C:\Users\YaYa\Desktop\IRON SUN Launcher.lnk
+2026-10-12 12:08:01.277   Creating the icon.
+2026-10-12 12:08:01.282   Successfully created the icon.
+2026-10-12 12:08:01.306   Saving uninstall information.
+2026-10-12 12:08:01.306   Creating new uninstall key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\{47F9B5B4-36A4-46F6-B87C-1AC30C5CE690}_is1
+2026-10-12 12:08:01.306   Writing uninstall key values.
+2026-10-12 12:08:01.306   Detected previous administrative 64-bit install? No
+2026-10-12 12:08:01.306   Detected previous administrative 32-bit install? No
+2026-10-12 12:08:01.307   Installation process succeeded.
+2026-10-12 12:08:01.309   Need to restart Windows? No
+2026-10-12 12:08:25.906   -- Run entry --
+2026-10-12 12:08:25.906   Run as: Original user
+2026-10-12 12:08:25.906   Type: Exec
+2026-10-12 12:08:25.906   Filename: C:\Users\YaYa\AppData\Local\IRON SUN\Launcher\IronSunLauncher.exe
+2026-10-12 12:08:25.906   Parameters: --no-shortcut
+2026-10-12 12:08:26.587   Deinitializing Setup.
+2026-10-12 12:08:26.592   Log closed.

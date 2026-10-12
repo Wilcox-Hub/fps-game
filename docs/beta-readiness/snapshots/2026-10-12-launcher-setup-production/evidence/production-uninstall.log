@@ -1,0 +1,37 @@
+﻿2026-10-12 12:13:50.697   Log opened. (Time zone: UTC-07:00)
+2026-10-12 12:13:50.697   Setup version: Inno Setup version 7.1.0 (32-bit)
+2026-10-12 12:13:50.697   Original Uninstall EXE: C:\Users\YaYa\AppData\Local\IRON SUN\Launcher\unins000.exe
+2026-10-12 12:13:50.697   Uninstall DAT: C:\Users\YaYa\AppData\Local\IRON SUN\Launcher\unins000.dat
+2026-10-12 12:13:50.697   Current Uninstall EXE: C:\Users\YaYa\AppData\Local\Temp\is-M1VR70G9A9-uninstall.tmp\_unins.tmp
+2026-10-12 12:13:50.697   Uninstall command line: /SECONDPHASE="C:\Users\YaYa\AppData\Local\IRON SUN\Launcher\unins000.exe" /FIRSTPHASEWND=$400CE /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="C:\Users\YaYa\Documents\ChatGPT\FPS-1\research\launcher-delivery-20261012\production-uninstall.log"
+2026-10-12 12:13:50.697   Windows version: 10.0.26300
+2026-10-12 12:13:50.697   Windows architecture: x64 (64-bit)
+2026-10-12 12:13:50.697   Machine types supported by system: x86 x64
+2026-10-12 12:13:50.697   User privileges: None
+2026-10-12 12:13:50.698   Administrative install mode: No
+2026-10-12 12:13:50.698   Install mode root key: HKEY_CURRENT_USER
+2026-10-12 12:13:50.698   RedirectionGuard status for current process: Enabled in enforcing mode
+2026-10-12 12:13:50.698   Cleaning up any residual temporary files from previous Uninstall runs.
+2026-10-12 12:13:50.699   Deleted file: C:\Users\YaYa\AppData\Local\Temp\is-VBDJZHV0P8-uninstall.tmp\_unins.tmp
+2026-10-12 12:13:50.699   Cleanup finished (2 directories found, 2 directories checked, 1 files deleted).
+2026-10-12 12:13:50.700   Created temporary directory: C:\Users\YaYa\AppData\Local\Temp\is-0TMBLLIZ77.tmp
+2026-10-12 12:13:50.700   -- DLL function import --
+2026-10-12 12:13:50.700   Function and DLL name: GetFileAttributesW@kernel32.dll
+2026-10-12 12:13:50.700   Importing the DLL function. Dest DLL name: kernel32.dll
+2026-10-12 12:13:50.700   Successfully imported the DLL function. Delay loaded? No
+2026-10-12 12:13:50.715   Starting the uninstallation process.
+2026-10-12 12:13:50.715   Deleting registry key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\{47F9B5B4-36A4-46F6-B87C-1AC30C5CE690}_is1
+2026-10-12 12:13:50.894   Deleting file: \\?\C:\Users\YaYa\Desktop\IRON SUN Launcher.lnk
+2026-10-12 12:13:50.938   Deleting file: \\?\C:\Users\YaYa\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\IRON SUN Launcher.lnk
+2026-10-12 12:13:50.938   Deleting file: \\?\C:\Users\YaYa\AppData\Local\IRON SUN\Launcher\iron-sun.ico
+2026-10-12 12:13:50.939   Deleting file: \\?\C:\Users\YaYa\AppData\Local\IRON SUN\Launcher\IronSunLauncher.exe
+2026-10-12 12:13:50.939   Deleting directory: \\?\C:\Users\YaYa\AppData\Local\IRON SUN\Launcher
+2026-10-12 12:13:50.939   Failed to delete directory (145). Will retry later.
+2026-10-12 12:13:50.939   Deleting Uninstall data files.
+2026-10-12 12:13:50.940   Creating "_unins-done.tmp" file.
+2026-10-12 12:13:51.451   Deleting directory: \\?\C:\Users\YaYa\AppData\Local\IRON SUN\Launcher
+2026-10-12 12:13:51.451   Failed to delete directory (145).
+2026-10-12 12:13:51.494   Uninstallation process succeeded.
+2026-10-12 12:13:51.494   Removed all? Yes
+2026-10-12 12:13:51.494   Need to restart Windows? No
+2026-10-12 12:13:51.495   Log closed.

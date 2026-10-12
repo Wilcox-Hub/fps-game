@@ -1,0 +1,107 @@
+{
+  "recorded_on": "2026-10-12",
+  "assessment_kind": "Production setup/security and real HTTPS updater; distribution remains gated",
+  "game_inputs_exact_match": true,
+  "game_input_count": 607,
+  "game_tests_repeated": false,
+  "launcher_inputs_exact_match": true,
+  "launcher_input_count": 18,
+  "reused_fixture_evidence": {
+    "recorded_on": "2026-10-11",
+    "native_update_checks": 14,
+    "native_self_update_fixture": true,
+    "setup_fixture_assertions": 14,
+    "scope": "Source hashes match; only original fixture scope/date retained."
+  },
+  "live_backend": {
+    "passed": true,
+    "observed_at_utc": "2026-10-12T19:11:04.9514927Z",
+    "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+    "installed_file_count": 32,
+    "fresh_check": {
+      "status": "AVAILABLE",
+      "version": "20261012-034847-088",
+      "protocol": 60,
+      "archive_size": 440665808,
+      "release_notes": "Q/E grounded lean with hold/toggle settings. Ion Blaster purchase and gun-owned charged attack. V melee, Z charged shot. Corrected server handling retains the party when a remote peer times out. Matching VS60 required. Internal prototype; human combat/balance still pending."
+    },
+    "fresh_install": {
+      "status": "UPDATED",
+      "version": "20261012-034847-088",
+      "install_root": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\launcher-delivery-20261012\\fresh-live-install",
+      "warning": null,
+      "feed_available": true,
+      "release_notes": "Q/E grounded lean with hold/toggle settings. Ion Blaster purchase and gun-owned charged attack. V melee, Z charged shot. Corrected server handling retains the party when a remote peer times out. Matching VS60 required. Internal prototype; human combat/balance still pending.",
+      "protocol": 60
+    },
+    "repeat_update": {
+      "status": "CURRENT",
+      "version": "20261012-034847-088",
+      "install_root": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\launcher-delivery-20261012\\fresh-live-install",
+      "warning": null,
+      "feed_available": true,
+      "release_notes": "Q/E grounded lean with hold/toggle settings. Ion Blaster purchase and gun-owned charged attack. V melee, Z charged shot. Corrected server handling retains the party when a remote peer times out. Matching VS60 required. Internal prototype; human combat/balance still pending.",
+      "protocol": 60
+    },
+    "scope": "Exact reviewed production binary installed by real setup; actual HTTPS latest feed, RSA signature validation, full VS60 download and all installed file hashes. Backend commands, not normal GUI Install/Play button acceptance."
+  },
+  "production_setup": {
+    "passed": true,
+    "observed_at_utc": "2026-10-12T19:13:54.0914481Z",
+    "setup_sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+    "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+    "retained_file_count": 76,
+    "uninstall_accepted": true,
+    "reinstall_accepted": true,
+    "app_registered": true,
+    "start_menu_shortcut": true,
+    "desktop_shortcut": true,
+    "owner_lan_shortcut_retained": true,
+    "scope": "Real production uninstall and reinstallation of GitHub CLI-downloaded setup with protection enabled. All existing non-launcher files and owner shortcut preserved by hash; setup GUI completion/open observed separately. Browser/SmartScreen, normal launcher buttons and second PC pending."
+  },
+  "delivery_acceptance": {
+    "schema_version": 1,
+    "observed_on": "2026-10-12",
+    "security_review_status": "ANALYST_DETECTION_REMOVED_PORTAL_PENDING",
+    "microsoft_submission_id": "a42bd1fa-88a6-4c46-b7ef-d3cd5e020541",
+    "setup_sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+    "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+    "protected_download_install_accepted": true,
+    "protected_download_scope": "Authenticated GitHub CLI download of exact private draft asset, Defender custom scan, production install and reinstallation. Browser/SmartScreen download acceptance remains open.",
+    "launcher_opened": true,
+    "launcher_open_scope": "Real interactive setup completion launched the installed executable, recorded in setup log and native window inventory. Window controls were denied by Computer Use.",
+    "game_install_play_accepted": false,
+    "live_backend_game_install_accepted": true,
+    "live_backend_current_accepted": true,
+    "installed_game_files_verified": 32,
+    "uninstall_accepted": true,
+    "owner_files_preserved": 76,
+    "distribution_approved": false,
+    "public_release_promoted": false,
+    "private_setup_draft_tag": "launcher-validation-1.0.1-20261012",
+    "evidence": [
+      "live-delivery.json",
+      "production-setup.json",
+      "interactive-setup.log",
+      "production-uninstall.log",
+      "downloaded-setup-install.log",
+      "defender-final.json",
+      "setup-complete.jpg"
+    ],
+    "remaining": [
+      "Microsoft portal final field still Pending despite analyst detection-removal comment",
+      "Normal launcher Install/Play control verification and protected browser delivery",
+      "Public production release/feed promotion and live download-page activation",
+      "Friend PC acceptance"
+    ],
+    "blockers": [
+      "Computer Use denies IRON SUN Launcher even after explicit owner permission; no alternate UI automation used",
+      "Automatic approval review rejected sending the Sites source credential through the official helper's existing escalated terminal; retry after repository/helper validation also rejected. Credential cleared, terminal stopped, no site edit or deployment"
+    ],
+    "note": "This record intentionally does not satisfy the production publisher gate. Fixture evidence and live backend checks are not relabeled as normal launcher-button or browser acceptance. Windows protection remained enabled; no exclusions, quarantine restoration or security-warning bypass."
+  },
+  "gameplay_readiness_percent": 69,
+  "gameplay_score_estimated_on": "2026-10-04",
+  "overall_beta_readiness_percent": null,
+  "beta_readiness_approved": false
+}

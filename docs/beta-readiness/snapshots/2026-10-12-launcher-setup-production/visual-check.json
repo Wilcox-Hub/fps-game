@@ -1,0 +1,9 @@
+{
+  "recorded_on": "2026-10-12",
+  "setup_completion_observed": true,
+  "image": "evidence/setup-complete.jpg",
+  "launcher_window_open_observed": true,
+  "launcher_normal_buttons_accepted": false,
+  "website_updated": false,
+  "scope": "Real production setup completion screenshot and launch log/inventory; launcher window control denied. No fresh website rendering or friend-PC acceptance."
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "observed_at_utc": "2026-10-12T19:11:04.9514927Z",
+  "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+  "installed_file_count": 32,
+  "fresh_check": {
+    "status": "AVAILABLE",
+    "version": "20261012-034847-088",
+    "protocol": 60,
+    "archive_size": 440665808,
+    "release_notes": "Q/E grounded lean with hold/toggle settings. Ion Blaster purchase and gun-owned charged attack. V melee, Z charged shot. Corrected server handling retains the party when a remote peer times out. Matching VS60 required. Internal prototype; human combat/balance still pending."
+  },
+  "fresh_install": {
+    "status": "UPDATED",
+    "version": "20261012-034847-088",
+    "install_root": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\launcher-delivery-20261012\\fresh-live-install",
+    "warning": null,
+    "feed_available": true,
+    "release_notes": "Q/E grounded lean with hold/toggle settings. Ion Blaster purchase and gun-owned charged attack. V melee, Z charged shot. Corrected server handling retains the party when a remote peer times out. Matching VS60 required. Internal prototype; human combat/balance still pending.",
+    "protocol": 60
+  },
+  "repeat_update": {
+    "status": "CURRENT",
+    "version": "20261012-034847-088",
+    "install_root": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\launcher-delivery-20261012\\fresh-live-install",
+    "warning": null,
+    "feed_available": true,
+    "release_notes": "Q/E grounded lean with hold/toggle settings. Ion Blaster purchase and gun-owned charged attack. V melee, Z charged shot. Corrected server handling retains the party when a remote peer times out. Matching VS60 required. Internal prototype; human combat/balance still pending.",
+    "protocol": 60
+  },
+  "scope": "Exact reviewed production binary installed by real setup; actual HTTPS latest feed, RSA signature validation, full VS60 download and all installed file hashes. Backend commands, not normal GUI Install/Play button acceptance."
+}

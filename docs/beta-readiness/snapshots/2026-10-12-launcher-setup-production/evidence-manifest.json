@@ -1,0 +1,99 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "8B9C3028D6467FF3BE7C793141927841D70F47F52D0590677438F488CA154992",
+      "size_bytes": 9
+    },
+    {
+      "path": "evidence/defender-final.json",
+      "sha256": "5BBE65887BE3DE315F943D61CFD6D6EE8C5B0D77077DD5F2C619F941488A7917",
+      "size_bytes": 160
+    },
+    {
+      "path": "evidence/delivery-acceptance.json",
+      "sha256": "36E214816E23627B34C0DA9640B04AF9B42EFAB2D95E3565D273252574E9B0EB",
+      "size_bytes": 2378
+    },
+    {
+      "path": "evidence/downloaded-setup-install.log",
+      "sha256": "64CEA226C00DF058C66DD3CC5ABB20F4987FA1B5DB89372769B3B1BE5D59BF7A",
+      "size_bytes": 4370
+    },
+    {
+      "path": "evidence/game-input-check.json",
+      "sha256": "D41C2FF4DD76FCBC42D7BB7007B5BA6D57009FB9E9A3C94A93B8F663C3E935A9",
+      "size_bytes": 411
+    },
+    {
+      "path": "evidence/interactive-setup.log",
+      "sha256": "C86C6A45C44DF8D43BD6F00A11C5C7C0177301D799ADA36EDDC35BBFD744920E",
+      "size_bytes": 4651
+    },
+    {
+      "path": "evidence/live-delivery.json",
+      "sha256": "AD217B354BFF1B63860266D3748CEEA20265D8E476C890F5112D65140A735442",
+      "size_bytes": 2062
+    },
+    {
+      "path": "evidence/microsoft-review-status.json",
+      "sha256": "7F82F93B0C06F1D61FE95789FC3FE589C9A140776E5FCB036DF88A73BE8402D2",
+      "size_bytes": 1129
+    },
+    {
+      "path": "evidence/prior-latest.json",
+      "sha256": "12DEF7A1BDF85E60EA31ECEA8E7CE4769C6CE724DDDEFAFD85C262680491A175",
+      "size_bytes": 13948
+    },
+    {
+      "path": "evidence/production-setup.json",
+      "sha256": "8C22D9FFD330501C7CE97B8C6D9D3CA3C8487AA789565F8ECF3CB771FCBA14D5",
+      "size_bytes": 776
+    },
+    {
+      "path": "evidence/production-uninstall.log",
+      "sha256": "2A1813641E950E976A8EF7B5A7C98F27C2EE48C15852E5A36D9A6A7A7DF07202",
+      "size_bytes": 3277
+    },
+    {
+      "path": "evidence/setup-complete.jpg",
+      "sha256": "FBC9FF6D437F9B2EB0F1B523ACA1EC1A6FA82F861577E9A8A19705679AEDEBE5",
+      "size_bytes": 27486
+    },
+    {
+      "path": "evidence/Test-LiveDelivery.ps1",
+      "sha256": "5A71EE8101007A5147810B55708B586A3F67204B49D61A850F1856061B01DAE8",
+      "size_bytes": 2408
+    },
+    {
+      "path": "evidence/Test-ProductionSetup.ps1",
+      "sha256": "A3047CFCD41D58278B255DF8ED2EE910D2B237FAF8DB171CE21EB93F9FC2551E",
+      "size_bytes": 4433
+    },
+    {
+      "path": "input-manifest.json",
+      "sha256": "6F9762CD7220448550D5D0E0AC11B1CD858966FBFBA4EFC953EC13B52FCD56DC",
+      "size_bytes": 110406
+    },
+    {
+      "path": "launcher-input-manifest.json",
+      "sha256": "954CA60E38220D90F5BEB593849E0AD531F73A8388C827EB596925EA4E690094",
+      "size_bytes": 3327
+    },
+    {
+      "path": "report.md",
+      "sha256": "E69CDEEF44E26F2602E25ABE62AF79B0051C1C9F03BFC36FD717A5DD39EB95C4",
+      "size_bytes": 3043
+    },
+    {
+      "path": "test-results.json",
+      "sha256": "23586232EB552EB31E61C2430B0AD8D2CAC324F3EBF5A3565E9F5EE6457586B5",
+      "size_bytes": 6292
+    },
+    {
+      "path": "visual-check.json",
+      "sha256": "421E1C86883501D83FBA6854D3773DBF914239376A0493D4C5F5F3479F237047",
+      "size_bytes": 404
+    }
+  ]
+}

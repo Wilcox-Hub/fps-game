@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "observed_at_utc": "2026-10-12T19:13:54.0914481Z",
+  "setup_sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+  "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+  "retained_file_count": 76,
+  "uninstall_accepted": true,
+  "reinstall_accepted": true,
+  "app_registered": true,
+  "start_menu_shortcut": true,
+  "desktop_shortcut": true,
+  "owner_lan_shortcut_retained": true,
+  "scope": "Real production uninstall and reinstallation of GitHub CLI-downloaded setup with protection enabled. All existing non-launcher files and owner shortcut preserved by hash; setup GUI completion/open observed separately. Browser/SmartScreen, normal launcher buttons and second PC pending."
+}

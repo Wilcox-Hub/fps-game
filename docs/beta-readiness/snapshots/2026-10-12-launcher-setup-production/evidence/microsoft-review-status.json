@@ -1,0 +1,15 @@
+{
+  "observed_at_utc": "2026-10-12T18:58:54Z",
+  "submission_id": "a42bd1fa-88a6-4c46-b7ef-d3cd5e020541",
+  "submission_url": "https://www.microsoft.com/en-us/wdsi/submission/a42bd1fa-88a6-4c46-b7ef-d3cd5e020541",
+  "validation": "Authenticated Microsoft portal refreshed and analyst comments read via browser UI",
+  "portal_status": "In progress",
+  "archive_final_determination": "Pending",
+  "current_cloud_detection": "No malware detected",
+  "current_client_detection": "No malware detected",
+  "client_definition_version": "1.459.678.0",
+  "analyst_summary": "Submitted files do not meet Microsoft's malware or potentially unwanted application criteria; detection removed. Analyst recommends clearing cached detections and obtaining latest definitions.",
+  "distribution_approved": false,
+  "remaining": "Validate the exact launcher with updated Defender protection and verify protected download/install before public launcher release. Portal final-determination field still Pending.",
+  "actions": "Read-only status check. No quarantine restoration, executable execution, Defender configuration change, or publication."
+}
