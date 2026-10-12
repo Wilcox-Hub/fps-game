@@ -1,0 +1,15 @@
+{
+  "scope": "Exact current test runner and executed game module; fixture source is in the 600-file game manifest.",
+  "files": [
+    {
+      "path": "Tools/Invoke-PrivateServerChecks.ps1",
+      "sha256": "1503D77B4F43FBF0AF5322DFDD68C765F2912C1ED48DF92FE049459D25F0818F",
+      "size_bytes": 3193
+    },
+    {
+      "path": "Binaries/Win64/UnrealEditor-TP_FirstPerson.dll",
+      "sha256": "52B903BA17AA511AA02D6DD80C15812904573AC8DD8E2D08250B3A6E83F44753",
+      "size_bytes": 3208192
+    }
+  ]
+}

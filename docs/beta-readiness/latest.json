@@ -3,7 +3,7 @@
   "recorded_on": "2026-10-11",
   "tested_on": "2026-10-11",
   "timezone": "America/Los_Angeles",
-  "snapshot_id": "2026-10-11-launcher-setup",
+  "snapshot_id": "2026-10-11-vs59-coop-current",
   "source_baseline_commit": "a3d2d1ca109764962493722f5859b3013b1cf058",
   "tested_source_includes_unpublished_changes": true,
   "tested_input_count": 600,
@@ -15,19 +15,19 @@
   "overall_beta_readiness_percent": null,
   "confidence": "low",
   "score": "snapshots/2026-10-04-vs41/scores.json",
-  "report": "snapshots/2026-10-11-launcher-setup/report.md",
-  "input_manifest": "snapshots/2026-10-11-launcher-setup/input-manifest.json",
-  "test_results": "snapshots/2026-10-11-launcher-setup/test-results.json",
+  "report": "snapshots/2026-10-11-vs59-coop-current/report.md",
+  "input_manifest": "snapshots/2026-10-11-vs59-coop-current/input-manifest.json",
+  "test_results": "snapshots/2026-10-11-vs59-coop-current/test-results.json",
   "visual_check": "snapshots/2026-10-08-vs52/visual-check.json",
   "cache_policy": "All 600 VS58 game input hashes match. Inherited game evidence retains its original date/scope; native launcher evidence is separate and distribution remains blocked.",
   "project_descriptor": {
     "path": "Ridgefire.uproject",
     "sha256": "065A1AB7AF0B97F9C813738343DCC20B66CE016D144DC7FAC6799DCC2692F331"
   },
-  "previous_test_snapshot": "2026-10-11-launcher-v1",
+  "previous_test_snapshot": "2026-10-11-launcher-setup",
   "beta_readiness_approved": false,
   "testing_recommendation": "Supervised internal alpha on the refreshed Prototype package; external beta stays conditional on packaged full-run and friend co-op acceptance.",
-  "assessment_kind": "Windows setup fixture and clear download flow; production distribution still blocked",
+  "assessment_kind": "Current-source isolated Editor dedicated co-op verification and lean design frontier; no new gameplay score",
   "gameplay_score_estimated_on": "2026-10-04",
   "gameplay_score_source": "2026-10-04-vs41",
   "human_recording_reviewed_on": "2026-10-04",
@@ -76,8 +76,8 @@
     1080
   ],
   "primary_ui_resolution_source": "Owner reports playing at 1080p, October 5, 2026",
-  "last_validation_snapshot": "2026-10-11-vs58-native-relay",
-  "last_validation_scope": "Actual native Lenovo server and two same-home-network Windows Shipping clients through LAN and Playit, held 12 seconds without unresolved network references. Wrong invite rejected. Fresh empty lobby left running. No external-Wi-Fi, combat, checkpoint recovery, four-human capacity or human acceptance.",
+  "last_validation_snapshot": "2026-10-11-vs59-coop-current",
+  "last_validation_scope": "Actual Windows Editor dedicated-server process and two remote-client processes over loopback UDP; private invite rejection/retry, leader-only launch, normal timed setup and primary/secondary LMB ammo, leader departure, clear-boundary checkpoint, both clients leaving, empty-server lobby return and original-squad resume. Fixture disables combat damage/AI and completes a controlled first encounter; no balance claim. Not a Linux package, physical-device, internet or performance test.",
   "prior_implementation_test_results": "snapshots/2026-10-05-vs44/test-results.json",
   "last_verified_player_package": {
     "archive_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261011-120705-452\\Windows",
@@ -148,7 +148,7 @@
     "normal_combat_accepted": false,
     "checkpoint_restart_accepted": false
   },
-  "tool_input_manifest": "snapshots/2026-10-11-vs57-server-connection/tool-input-manifest.json",
+  "tool_input_manifest": "snapshots/2026-10-11-vs59-coop-current/tool-input-manifest.json",
   "launcher_input_manifest": "snapshots/2026-10-11-launcher-setup/launcher-input-manifest.json",
   "internet_launcher": {
     "version": "1.0.1",
@@ -174,5 +174,24 @@
     "setup_entry_filename": "IRON-SUN-Setup.exe"
   },
   "website_input_manifest": "snapshots/2026-10-11-launcher-setup/website-input-manifest.json",
-  "record_publication_status": "CANONICAL_METADATA_ONLY; game source publication unchanged"
+  "record_publication_status": "CANONICAL_METADATA_ONLY; game source publication unchanged",
+  "dedicated_coop_verification": {
+    "snapshot": "2026-10-11-vs59-coop-current",
+    "platform": "Windows Editor",
+    "peers": 2,
+    "primary_secondary_lmb_checks_passed": true,
+    "leader_departure_and_original_squad_resume_passed": true,
+    "normal_combat_accepted": false,
+    "packaged_combat_accepted": false,
+    "physical_device_accepted": false
+  },
+  "lean_direction": {
+    "implemented": false,
+    "status": "GRILLING_IN_PROGRESS; no shared design confirmed",
+    "open_frontier": [
+      "Manual or contextual control",
+      "Grounded deliberate or freely moving peeks"
+    ],
+    "companion_decision": "If Q/E manual leaning is chosen, move the existing E Ion Surge binding before implementation."
+  }
 }

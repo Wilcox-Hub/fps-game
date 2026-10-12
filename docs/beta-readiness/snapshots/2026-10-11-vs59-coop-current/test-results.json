@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "2026-10-11-vs59-coop-current",
+  "recorded_on": "2026-10-11",
+  "time_utc": "2026-10-12T05:01:27.5648295Z",
+  "passed": true,
+  "private_server_check": {
+    "passed": true,
+    "logs": [
+      "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-215900-719\\Peer-1.log",
+      "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-215900-719\\Peer0.log",
+      "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261011-215900-719\\Peer1.log"
+    ],
+    "peers": 2,
+    "scope": "Actual Windows Editor dedicated-server process and two remote-client processes over loopback UDP; private invite rejection/retry, leader-only launch, normal timed setup and primary/secondary LMB ammo, leader departure, clear-boundary checkpoint, both clients leaving, empty-server lobby return and original-squad resume. Fixture disables combat damage/AI and completes a controlled first encounter; no balance claim. Not a Linux package, physical-device, internet or performance test.",
+    "time_utc": "2026-10-12T05:01:27.5648295Z"
+  },
+  "reused_game_input_count": 600,
+  "new_game_build": false,
+  "new_packaged_combat_test": false,
+  "production_game_code_changed": false,
+  "live_lenovo_server_changed": false,
+  "human_acceptance": false,
+  "evidence": [
+    {
+      "path": "evidence/Peer-1-markers.log",
+      "sha256": "C04FACBCB913D69EED1D30C2E994F3CB13C4D4AA7170E19867E8DC3FE78D1281",
+      "size_bytes": 596
+    },
+    {
+      "path": "evidence/Peer0-markers.log",
+      "sha256": "6973867EA8E231AC96523794BE5367D4A9E65EAD67EE93FC7A93BFFF3B714510",
+      "size_bytes": 1292
+    },
+    {
+      "path": "evidence/Peer1-markers.log",
+      "sha256": "068FAF00A2689F87FFAC41FF10B6CFAC365D0E3E48648D984F3060CC8CCCCFF7",
+      "size_bytes": 1758
+    },
+    {
+      "path": "evidence/prior-latest.json",
+      "sha256": "FFF141DAA63575A25567CEF2CF7AF12F5BEC35D6313A6FE606B90903C5AF72EB",
+      "size_bytes": 11978
+    },
+    {
+      "path": "evidence/private-server-result.json",
+      "sha256": "EE785D3DF8A42E49E1E5B86015D0326727B938379DE88945384BB412AA8C663D",
+      "size_bytes": 1115
+    },
+    {
+      "path": "evidence/PROGRESSION.md",
+      "sha256": "15B28B84D72233E9C4195BA055A073231503219A4787D70A6D11678A6B273085",
+      "size_bytes": 5720
+    },
+    {
+      "path": "evidence/raw-log-identities.json",
+      "sha256": "BB1717363D9789C0766CEF2BD229432A3E773132EBBFB7AC2F681896399CCAC2",
+      "size_bytes": 427
+    },
+    {
+      "path": "evidence/VS58_INTERNET_COOP_TEST_CARD.md",
+      "sha256": "149EF7FB61822CB700E3DB7340B1500D3B57F0A62232898FD732D2B72FCED4F9",
+      "size_bytes": 1800
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "file": "Peer-1.log",
+    "sha256": "8837ECAD29BE038D0325526A254BE863882BFA774BA00D225F14D3D2BBC18C80",
+    "size_bytes": 240791
+  },
+  {
+    "file": "Peer0.log",
+    "sha256": "F9C1D27465AA3777C688592686CD371898F93D62E8FC29054BD36ABB7A4D845A",
+    "size_bytes": 212007
+  },
+  {
+    "file": "Peer1.log",
+    "sha256": "46D2DC840E4A83327CA3A20C4A311B2BC84BEA3D5429BA6F9F5399F4A2A4539E",
+    "size_bytes": 232357
+  }
+]

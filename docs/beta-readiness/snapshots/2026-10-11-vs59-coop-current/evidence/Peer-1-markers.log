@@ -1,0 +1,5 @@
+[2026.10.12-04.59.27:055][  0]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17859
+[2026.10.12-05.00.06:869][349]LogTemp: Display: IRON SUN PRIVATE SERVER AUTHORITY PASS dedicated=true remote_players=2
+[2026.10.12-05.01.01:366][595]LogTemp: Display: RIDGEFIRE: Wave 1 cleared. Regroup 90 seconds; shared shards 120.
+[2026.10.12-05.01.01:373][595]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=1 active=1 wave=1 party=2
+[2026.10.12-05.01.27:032][111]LogTemp: Display: RIDGEFIRE CHECKPOINT restored arena=0 wave=1 party=2 seed=9939 regroup=90
