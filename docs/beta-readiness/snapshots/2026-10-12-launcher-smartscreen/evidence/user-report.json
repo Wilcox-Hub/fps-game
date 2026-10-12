@@ -1,0 +1,11 @@
+{
+  "recorded_on": "2026-10-12",
+  "source": "Owner's message in the launcher delivery chat",
+  "filename": "IRON-SUN-Setup (2).exe",
+  "message": "Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.",
+  "publisher_displayed": "Unknown publisher",
+  "first_run_accepted": false,
+  "validation_level": "OWNER_REPORTED_WINDOWS_FIRST_RUN",
+  "agent_reproduced_security_ui": false,
+  "scope": "User-reported initial installer warning. No conclusion about all Windows PCs or malware safety; no security UI automation or protection changes."
+}

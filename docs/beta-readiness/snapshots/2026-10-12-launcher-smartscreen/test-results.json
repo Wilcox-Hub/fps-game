@@ -1,0 +1,61 @@
+{
+  "recorded_on": "2026-10-12",
+  "assessment_kind": "Owner-reported first-run failure with exact artifact identity and signature inspection",
+  "game_inputs_exact_match": true,
+  "game_input_count": 607,
+  "game_tests_repeated": false,
+  "artifact_identity_and_signature_inspection": {
+    "recorded_at": "2026-10-12T13:39:59.8295370-07:00",
+    "scope": "Exact-file identity and Windows Authenticode inspection. Does not reproduce or clear SmartScreen reputation.",
+    "setup": {
+      "sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+      "published_sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+      "bytes": 4025552,
+      "signature_status": "NotSigned",
+      "matches_published": true,
+      "publisher": null,
+      "filename": "IRON-SUN-Setup (2).exe"
+    },
+    "installed_launcher": {
+      "publisher": null,
+      "signature_status": "NotSigned",
+      "filename": "IronSunLauncher.exe",
+      "sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4"
+    },
+    "windows_protection_changed": false
+  },
+  "owner_windows_first_run": {
+    "recorded_on": "2026-10-12",
+    "source": "Owner's message in the launcher delivery chat",
+    "filename": "IRON-SUN-Setup (2).exe",
+    "message": "Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.",
+    "publisher_displayed": "Unknown publisher",
+    "first_run_accepted": false,
+    "validation_level": "OWNER_REPORTED_WINDOWS_FIRST_RUN",
+    "agent_reproduced_security_ui": false,
+    "scope": "User-reported initial installer warning. No conclusion about all Windows PCs or malware safety; no security UI automation or protection changes."
+  },
+  "smartscreen_first_run_accepted": false,
+  "public_trusted_publisher_accepted": false,
+  "previous_defender_scan_reused": {
+    "snapshot": "2026-10-12-launcher-public-alpha",
+    "recorded_on": "2026-10-12",
+    "scope": "Same setup/native byte identities; historical clean scan only. Does not prove safety or SmartScreen reputation."
+  },
+  "fix_implemented": false,
+  "code_signing_account_created": false,
+  "paid_code_signing_approved": false,
+  "windows_protection_changed": false,
+  "scope": "No automated security UI repro, new installer build, gameplay tests or measured score credit. Owner declined further costs; unsigned alpha stays available with manual first-run choice and honest warning disclosure. No Windows protection changes.",
+  "owner_distribution_choice": {
+    "recorded_on": "2026-10-12",
+    "source": "Owner's direct response to paid signing approval request",
+    "answer": "keep unsigned, no approval for further costs",
+    "distribution_choice": "KEEP_UNSIGNED_INTERNAL_ALPHA",
+    "paid_signing_approved": false,
+    "further_costs_approved": false,
+    "identity_onboarding_approved": false,
+    "scope": "Keep current unsigned delivery. No signing subscription, certificate purchase, cloud billing resource or identity onboarding is authorized."
+  },
+  "paid_signing_deferred_by_owner": true
+}

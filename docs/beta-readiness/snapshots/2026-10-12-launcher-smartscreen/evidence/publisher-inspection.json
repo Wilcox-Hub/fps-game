@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-10-12T13:39:59.8295370-07:00",
+  "scope": "Exact-file identity and Windows Authenticode inspection. Does not reproduce or clear SmartScreen reputation.",
+  "setup": {
+    "sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+    "published_sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+    "bytes": 4025552,
+    "signature_status": "NotSigned",
+    "matches_published": true,
+    "publisher": null,
+    "filename": "IRON-SUN-Setup (2).exe"
+  },
+  "installed_launcher": {
+    "publisher": null,
+    "signature_status": "NotSigned",
+    "filename": "IronSunLauncher.exe",
+    "sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4"
+  },
+  "windows_protection_changed": false
+}

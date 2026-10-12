@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "8B9C3028D6467FF3BE7C793141927841D70F47F52D0590677438F488CA154992",
+      "size_bytes": 9
+    },
+    {
+      "path": "evidence/AUTHENTICODE_PLAN.md",
+      "sha256": "EE01034A893F3AB45FECEB0E9B8DDF843B3DC8E98884D1764076C6B0B723864D",
+      "size_bytes": 11415
+    },
+    {
+      "path": "evidence/game-input-check.json",
+      "sha256": "B3410CFFB21A750739E582DC33FEE95E323EDD53A04A8C28F7E5B968E227CD33",
+      "size_bytes": 419
+    },
+    {
+      "path": "evidence/owner-distribution-choice.json",
+      "sha256": "658C234B2276EA539CB5FCE3B8A9D850A3C2828BD7C063E91A24DDE40275EB88",
+      "size_bytes": 487
+    },
+    {
+      "path": "evidence/prior-latest.json",
+      "sha256": "47405B8DCB8C08547B0E88BB10C37980C1A1E16F6AC69F4484C67B2FA3A90E06",
+      "size_bytes": 15680
+    },
+    {
+      "path": "evidence/publisher-inspection.json",
+      "sha256": "FA349750422343A9B907C9CEADACE8FE5EF8C1801E2DE6C2C4834511FF3C5EA5",
+      "size_bytes": 796
+    },
+    {
+      "path": "evidence/Record-Smartscreen.py",
+      "sha256": "79B3E9FFCEF641613A2B4E862D747A420E6AF7DCCED9AAD1238C95A7EAB43636",
+      "size_bytes": 9819
+    },
+    {
+      "path": "evidence/signing-options.md",
+      "sha256": "192FC4E6A0361B29516A282C0D40295D99C1E3E561CBDDE3399E5B7042007187",
+      "size_bytes": 9389
+    },
+    {
+      "path": "evidence/user-report.json",
+      "sha256": "B02ABE17B604C00A437FE781191B57AD543B829DD077D60E753322075D9836F4",
+      "size_bytes": 606
+    },
+    {
+      "path": "input-manifest.json",
+      "sha256": "6F9762CD7220448550D5D0E0AC11B1CD858966FBFBA4EFC953EC13B52FCD56DC",
+      "size_bytes": 110406
+    },
+    {
+      "path": "report.md",
+      "sha256": "7EC95496B99122D3582A57EC704FD290D451C5F5350AA587E83399FD0905D35D",
+      "size_bytes": 4074
+    },
+    {
+      "path": "test-results.json",
+      "sha256": "45160D5D941D5F3D0C92E61B453A32DC2DDA715249C216726CC4ABE91FA931AA",
+      "size_bytes": 3148
+    },
+    {
+      "path": "visual-check.json",
+      "sha256": "9D42A5B3AB5046D7D9298A654584023BDA30EF69EE074BFA74FBCF4E976D298F",
+      "size_bytes": 338
+    }
+  ]
+}

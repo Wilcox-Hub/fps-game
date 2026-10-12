@@ -1,0 +1,10 @@
+{
+  "recorded_on": "2026-10-12",
+  "source": "Owner's direct response to paid signing approval request",
+  "answer": "keep unsigned, no approval for further costs",
+  "distribution_choice": "KEEP_UNSIGNED_INTERNAL_ALPHA",
+  "paid_signing_approved": false,
+  "further_costs_approved": false,
+  "identity_onboarding_approved": false,
+  "scope": "Keep current unsigned delivery. No signing subscription, certificate purchase, cloud billing resource or identity onboarding is authorized."
+}
