@@ -1,0 +1,166 @@
+{
+  "recorded_on": "2026-10-12",
+  "game_inputs_exact_match": true,
+  "game_input_count": 607,
+  "game_tests_repeated": false,
+  "delivery_policy": {
+    "checks": [
+      {
+        "passed": true,
+        "name": "Explicit protected alpha accepts backend/startup while preserving unverified GUI field"
+      },
+      {
+        "passed": true,
+        "name": "Missing alpha_distribution_requested rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Missing protected_download_install_accepted rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Missing launcher_opened rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Missing uninstall_accepted rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Missing live_backend_game_install_accepted rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Missing live_backend_current_accepted rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Missing installed_game_startup_accepted rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Missing defender_scan_accepted rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Missing defender_protection_enabled rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Invalid security_review_status rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Invalid delivery_scope rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Invalid installed_game_files_verified rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Invalid setup_sha256 rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Invalid launcher_sha256 rejects alpha"
+      },
+      {
+        "passed": true,
+        "name": "Review alone cannot fabricate full Install/Play acceptance"
+      },
+      {
+        "passed": true,
+        "name": "Original full delivery remains compatible"
+      }
+    ],
+    "scope": "Actual production delivery-policy helper with inert file fixtures; no installation, keys, network or publication.",
+    "passed": true
+  },
+  "defender_scans": {
+    "passed": true,
+    "exit_code": 0,
+    "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+    "setup_sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+    "scope": "Vendor scan with resolved Windows paths; Defender enabled; both exact production binaries report no threats."
+  },
+  "installed_startup": {
+    "passed": true,
+    "process_alive_after_12_seconds": true,
+    "process_id": 9144,
+    "window_title_observed": "IRON SUN",
+    "bootstrap_sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4",
+    "game_sha256": "69D673478C0E1B757FECE3B8A6FDA8814EA6DB28BF53B5DB1AE0C2BDC0FAF436",
+    "normal_launcher_button_accepted": false,
+    "rendered_menu_accepted": false,
+    "scope": "Exact live-downloaded Shipping game starts from the production launch map/arguments and retains a live process/window. Startup only; native screenshot approval timed out, no window interaction or gameplay acceptance."
+  },
+  "public_browser_download": {
+    "passed": true,
+    "browser_downloaded": true,
+    "filename": "IRON-SUN-Setup.exe",
+    "size_bytes": 4025552,
+    "sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+    "defender_scan_accepted": true,
+    "scope": "Live published page enabled via signed setup feed; its actual download click saved the exact tested installer, followed by a vendor Defender custom scan. No normal launcher-button, SmartScreen installer-opening or friend-PC acceptance."
+  },
+  "public_current": {
+    "status": "CURRENT",
+    "version": "20261012-034847-088",
+    "install_root": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\launcher-delivery-20261012\\fresh-live-install",
+    "warning": null,
+    "feed_available": true,
+    "release_notes": "Windows launcher setup with automatic published game updates. Current VS60 game: grounded Q/E lean, Ion Blaster, shards arsenals and private co-op. Human gameplay acceptance remains open.",
+    "protocol": 60
+  },
+  "delivery_acceptance": {
+    "schema_version": 1,
+    "observed_on": "2026-10-12",
+    "security_review_status": "ANALYST_DETECTION_REMOVED",
+    "microsoft_submission_id": "a42bd1fa-88a6-4c46-b7ef-d3cd5e020541",
+    "setup_sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+    "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+    "protected_download_install_accepted": true,
+    "protected_download_scope": "Authenticated GitHub CLI download of exact private draft asset, Defender custom scan, production install and reinstallation. Browser/SmartScreen download acceptance remains open.",
+    "launcher_opened": true,
+    "launcher_open_scope": "Real interactive setup completion launched the installed executable, recorded in setup log and native window inventory. Window controls were denied by Computer Use.",
+    "game_install_play_accepted": false,
+    "live_backend_game_install_accepted": true,
+    "live_backend_current_accepted": true,
+    "installed_game_files_verified": 32,
+    "uninstall_accepted": true,
+    "owner_files_preserved": 76,
+    "distribution_approved": true,
+    "public_release_promoted": false,
+    "private_setup_draft_tag": "launcher-validation-1.0.1-20261012",
+    "evidence": [
+      "../launcher-delivery-20261012/live-delivery.json",
+      "../launcher-delivery-20261012/production-setup.json",
+      "defender-accepted.json",
+      "defender-resolved-scan.json",
+      "installed-game-startup.json",
+      "delivery-policy-tests.json"
+    ],
+    "remaining": [
+      "Normal launcher button interaction",
+      "Fresh friend-PC acceptance",
+      "Human gameplay/co-op acceptance"
+    ],
+    "blockers": [
+      "Normal launcher-window control still denied; public alpha scope explicitly retains unverified button interaction"
+    ],
+    "note": "Internal-alpha delivery accepted after explicit owner requests for launcher download, exact clean Defender scans, real setup/open/uninstall/reinstall, real signed HTTPS game download/current, 32 current file hashes and bounded installed Shipping startup. No normal button, rendered-menu, full-run or completed Microsoft portal determination is claimed.",
+    "defender_protection_enabled": true,
+    "defender_scan_accepted": true,
+    "defender_definitions": "1.459.688.0",
+    "normal_launcher_button_accepted": false,
+    "alpha_distribution_requested": true,
+    "security_review_portal_final": "Pending",
+    "installed_game_startup_accepted": true,
+    "normal_launcher_window_control": "DENIED_BY_TOOL",
+    "delivery_scope": "INTERNAL_ALPHA_BACKEND_AND_STARTUP"
+  },
+  "public_assets_verified": 9,
+  "prior_real_setup_and_live_backend_evidence": "snapshots/2026-10-12-launcher-setup-production/evidence/delivery-acceptance.json",
+  "scope": "Scoped internal-alpha launcher delivery; real protected scans/install/backend/startup and browser download. No normal launcher-button, rendered-menu, SmartScreen installer-opening, friend-PC or gameplay-beta acceptance."
+}

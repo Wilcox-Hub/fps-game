@@ -1,0 +1,129 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "8B9C3028D6467FF3BE7C793141927841D70F47F52D0590677438F488CA154992",
+      "size_bytes": 9
+    },
+    {
+      "path": "evidence/browser-download.json",
+      "sha256": "42D837F74B1FB0F9FB500B38015E43F50945B7505F03062F659CFFE1EC6F717E",
+      "size_bytes": 485
+    },
+    {
+      "path": "evidence/browser-setup-scan.log",
+      "sha256": "A305E1C01C399D5AB4E5830C75DD1C9F61BAE946E80078263739EED4803A3EA8",
+      "size_bytes": 105
+    },
+    {
+      "path": "evidence/defender-accepted.json",
+      "sha256": "217CAFD18D912ACE182BB6F433C76A15D60FADC8ADF5BE7597D6BA5E776F2E4B",
+      "size_bytes": 344
+    },
+    {
+      "path": "evidence/defender-launcher-scan.log",
+      "sha256": "F5401E004E51FD375998ABF01DA3C862338E4E3CBE3FA98905B3C0D3BF53CBFD",
+      "size_bytes": 157
+    },
+    {
+      "path": "evidence/defender-protection.json",
+      "sha256": "5BBE65887BE3DE315F943D61CFD6D6EE8C5B0D77077DD5F2C619F941488A7917",
+      "size_bytes": 160
+    },
+    {
+      "path": "evidence/defender-resolved-scan.json",
+      "sha256": "A2700639520B5CCB20E3EB5A1E666FD992BB5D681064EACE6ADFBBC476C865E9",
+      "size_bytes": 239
+    },
+    {
+      "path": "evidence/defender-resolved-scan.log",
+      "sha256": "DC13F6962073B476BCDBC3D7E5E6CB1A10914B033660408A151F36B2312AC319",
+      "size_bytes": 162
+    },
+    {
+      "path": "evidence/defender-setup-scan.json",
+      "sha256": "72866A105513DC09E40D4105D7DA4C4816EAF88E2D9D5E66F699B5CFC76F563F",
+      "size_bytes": 110
+    },
+    {
+      "path": "evidence/defender-setup-scan.log",
+      "sha256": "DCC07C66111B330187A0F3876F2604C14788F01B07F9C4FC426259B20D450510",
+      "size_bytes": 130
+    },
+    {
+      "path": "evidence/delivery-acceptance.json",
+      "sha256": "24E746F2CC668AFCA6479586DF86569432352CFB64916295BBDD64CFC52D72A3",
+      "size_bytes": 2555
+    },
+    {
+      "path": "evidence/delivery-policy-tests.json",
+      "sha256": "315DA1FC7585018DCBD7713E980B2E22B0026C862C2ECB04581DFF43D19F1086",
+      "size_bytes": 1949
+    },
+    {
+      "path": "evidence/Delivery-Policy.ps1",
+      "sha256": "6A9830D7A027D53969B4F14CF80C86687799A01EC2A69652D160010F0CAEA6E6",
+      "size_bytes": 3140
+    },
+    {
+      "path": "evidence/game-input-check.json",
+      "sha256": "3FFB2ADD095599A12B611E4B7914BD40699000EF635D5ECBE61A1BBD3E9D077C",
+      "size_bytes": 416
+    },
+    {
+      "path": "evidence/installed-game-startup.json",
+      "sha256": "994AD3DD54143C84F543E180CD26709CD1E200E5C2A56725DCFA7F3324E630B0",
+      "size_bytes": 620
+    },
+    {
+      "path": "evidence/prior-latest.json",
+      "sha256": "2DE39CD27C25721943D6ADD384524C4C846DC25E2BC85A58C193C0F0837A139A",
+      "size_bytes": 14622
+    },
+    {
+      "path": "evidence/public-current.json",
+      "sha256": "05D5CB6EAB7F002F2419BE70843DE110D393A0BE29F29D1E5E74CCCFF7FD614B",
+      "size_bytes": 466
+    },
+    {
+      "path": "evidence/public-release-assets.json",
+      "sha256": "3C22FFA9931DF3E73863A8967471352A6548BD7A7D57998365DFC06CAF2CB85C",
+      "size_bytes": 1246
+    },
+    {
+      "path": "evidence/publication.json",
+      "sha256": "5DB56C14EEE59D57EBCEE6743584B33FEA6CD15350AAF2D18A95FE8CE545D879",
+      "size_bytes": 3795
+    },
+    {
+      "path": "evidence/Publish-InternetRelease.ps1",
+      "sha256": "99565857166998949E0D9AF53F8EEBD19665F2D2CDE25502C1C1366F9B5EB619",
+      "size_bytes": 12284
+    },
+    {
+      "path": "input-manifest.json",
+      "sha256": "6F9762CD7220448550D5D0E0AC11B1CD858966FBFBA4EFC953EC13B52FCD56DC",
+      "size_bytes": 110406
+    },
+    {
+      "path": "launcher-input-manifest.json",
+      "sha256": "F636DA85ABB7C774346C6EF3BEA374B4B44698A7B5AC362CDFB6C75E62F2E457",
+      "size_bytes": 3875
+    },
+    {
+      "path": "report.md",
+      "sha256": "2F66DC8C99820131D850A6AAB106E4FA25158CD5E5C0A834F28EBAE7A44D45C9",
+      "size_bytes": 3521
+    },
+    {
+      "path": "test-results.json",
+      "sha256": "CC170A262A4A0862737C547F52526F9E30E12A52CA22FE2E645CED8E4821E04E",
+      "size_bytes": 7399
+    },
+    {
+      "path": "visual-check.json",
+      "sha256": "E85FD0EAAEFEAE6AA897ED16FC8FC2296B4E4C5CFA7D34134B45C2C22890078B",
+      "size_bytes": 571
+    }
+  ]
+}

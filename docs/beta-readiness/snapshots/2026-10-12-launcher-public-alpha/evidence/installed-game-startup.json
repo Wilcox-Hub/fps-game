@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "process_alive_after_12_seconds": true,
+  "process_id": 9144,
+  "window_title_observed": "IRON SUN",
+  "bootstrap_sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4",
+  "game_sha256": "69D673478C0E1B757FECE3B8A6FDA8814EA6DB28BF53B5DB1AE0C2BDC0FAF436",
+  "normal_launcher_button_accepted": false,
+  "rendered_menu_accepted": false,
+  "scope": "Exact live-downloaded Shipping game starts from the production launch map/arguments and retains a live process/window. Startup only; native screenshot approval timed out, no window interaction or gameplay acceptance."
+}

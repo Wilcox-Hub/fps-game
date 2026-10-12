@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+  "setup_sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+  "scope": "Vendor scan with resolved Windows paths; Defender enabled; both exact production binaries report no threats."
+}

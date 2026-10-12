@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "browser_downloaded": true,
+  "filename": "IRON-SUN-Setup.exe",
+  "size_bytes": 4025552,
+  "sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+  "defender_scan_accepted": true,
+  "scope": "Live published page enabled via signed setup feed; its actual download click saved the exact tested installer, followed by a vendor Defender custom scan. No normal launcher-button, SmartScreen installer-opening or friend-PC acceptance."
+}

@@ -1,0 +1,12 @@
+{
+  "recorded_on": "2026-10-12",
+  "live_page_dom_inspected": true,
+  "launcher_download_links_enabled": 2,
+  "setup_filename": "IRON-SUN-Setup.exe",
+  "actual_browser_download_passed": true,
+  "normal_launcher_button_accepted": false,
+  "rendered_game_menu_accepted": false,
+  "website_source_commit": "3c79c4998cc4249f140bdb2da71a1b4a1b036502",
+  "website_version": 8,
+  "scope": "Existing signed-feed client enabled header/footer downloads and updated instructions/FAQ/share message. No new layout/screenshot review or native window-control acceptance."
+}

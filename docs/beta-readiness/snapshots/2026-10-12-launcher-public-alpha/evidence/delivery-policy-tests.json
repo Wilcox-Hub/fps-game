@@ -1,0 +1,74 @@
+{
+  "checks": [
+    {
+      "passed": true,
+      "name": "Explicit protected alpha accepts backend/startup while preserving unverified GUI field"
+    },
+    {
+      "passed": true,
+      "name": "Missing alpha_distribution_requested rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Missing protected_download_install_accepted rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Missing launcher_opened rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Missing uninstall_accepted rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Missing live_backend_game_install_accepted rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Missing live_backend_current_accepted rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Missing installed_game_startup_accepted rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Missing defender_scan_accepted rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Missing defender_protection_enabled rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Invalid security_review_status rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Invalid delivery_scope rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Invalid installed_game_files_verified rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Invalid setup_sha256 rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Invalid launcher_sha256 rejects alpha"
+    },
+    {
+      "passed": true,
+      "name": "Review alone cannot fabricate full Install/Play acceptance"
+    },
+    {
+      "passed": true,
+      "name": "Original full delivery remains compatible"
+    }
+  ],
+  "scope": "Actual production delivery-policy helper with inert file fixtures; no installation, keys, network or publication.",
+  "passed": true
+}
