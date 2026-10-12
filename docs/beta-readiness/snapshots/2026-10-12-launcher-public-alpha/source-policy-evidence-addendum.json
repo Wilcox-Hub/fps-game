@@ -1,0 +1,8 @@
+{
+  "recorded_on": "2026-10-12",
+  "note": "The originally captured evidence/Delivery-Policy.ps1 contains the regression test. This addendum separately captures the actual production helper with an unambiguous filename; original evidence hashes remain unchanged.",
+  "helper_path": "evidence/Delivery-Policy-helper.ps1",
+  "helper_sha256": "03AA98F2766859D9344797F21A578DD55CD3F24263B374BB50604F80B4AD945F",
+  "test_path": "evidence/Delivery-Policy.ps1",
+  "test_sha256": "6A9830D7A027D53969B4F14CF80C86687799A01EC2A69652D160010F0CAEA6E6"
+}
