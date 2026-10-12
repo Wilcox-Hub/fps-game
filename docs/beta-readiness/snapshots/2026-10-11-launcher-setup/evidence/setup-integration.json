@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "recorded_on": "2026-10-11",
+  "run": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\test-output\\setup-20261011-175428-270",
+  "setup_sha256": "668C8D2544E2759DAAC3FE5CB09EF27C49A5970E2029ACC80D1252192B488B45",
+  "checks": [
+    {
+      "name": "Foreign nonempty root rejected without changing its data",
+      "passed": true
+    },
+    {
+      "name": "Fresh per-user fixture setup succeeds",
+      "passed": true
+    },
+    {
+      "name": "Ownership marker identifies the exact installation root",
+      "passed": true
+    },
+    {
+      "name": "Valid launcher shortcut: Start",
+      "passed": true
+    },
+    {
+      "name": "Valid launcher shortcut: Desktop",
+      "passed": true
+    },
+    {
+      "name": "Setup registers a removable app for the current user",
+      "passed": true
+    },
+    {
+      "name": "Desktop shortcut opens the actual installed inert fixture app",
+      "passed": true
+    },
+    {
+      "name": "Setup repair accepts its owned folder and preserves game saves",
+      "passed": true
+    },
+    {
+      "name": "Older setup preserves a newer self-updated launcher",
+      "passed": true
+    },
+    {
+      "name": "Owned fixture uninstall succeeds",
+      "passed": true
+    },
+    {
+      "name": "Uninstall removes app registration and shortcuts while retaining game saves",
+      "passed": true
+    },
+    {
+      "name": "Desktop shortcut is optional; Start menu app remains available",
+      "passed": true
+    },
+    {
+      "name": "Owned fixture uninstall succeeds",
+      "passed": true
+    },
+    {
+      "name": "Mismatched ownership rejected before any installation changes",
+      "passed": true
+    }
+  ],
+  "scope": "Actual compiled Inno installer and uninstaller with inert fixture executable. Production payload remains Windows-blocked; no production setup, live download, game execution or post-install launcher-window acceptance."
+}

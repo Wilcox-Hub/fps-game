@@ -1,0 +1,10 @@
+{
+  "prepared": true,
+  "submitted": true,
+  "submission_id": "a42bd1fa-88a6-4c46-b7ef-d3cd5e020541",
+  "sample_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+  "sample_size_bytes": 1785344,
+  "archive": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\launcher-v1\\IronSunLauncher-1.0.1-MicrosoftReview.zip",
+  "archive_sha256": "3DDF4BF429D2AA0C537A8796BC1DCB01D1FFA019FFB76211B0B1E55A4146700B",
+  "scope": "Owner-approved Microsoft security analysis archive, password infected, exactly one unchanged executable. Never extracted, restored from quarantine, executed, or offered as a game/launcher download. Windows protection unchanged."
+}

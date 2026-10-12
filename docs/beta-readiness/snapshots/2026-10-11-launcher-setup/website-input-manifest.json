@@ -1,0 +1,39 @@
+{
+  "source_commit": "c24f12f79ebb1f1fa67f4729c24e3c481e5cc53c",
+  "saved_version": 5,
+  "deployment_id": "appgdep_6acc34af74048191a639db625dd04a31",
+  "deployment_status": "SUCCEEDED",
+  "live_url": "https://iron-sun-playtest.wilcoxwarrior4577.chatgpt.site",
+  "files": [
+    {
+      "path": "dist/app.js",
+      "sha256": "A9698DDF7A5388A15D56D475E91F4BCF4C0B98353DA281A394704B022ECF2E74",
+      "size_bytes": 5799
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "39D83A515D470066856B448880204FEBB1D736C58951B75D26E6BD3F8486FA12",
+      "size_bytes": 9464
+    },
+    {
+      "path": "dist/release-gate.js",
+      "sha256": "E7E691B9CB9E57C2B47A4B468ACF1202FEE017CAA2971F218EF8EAECD9FC3C8D",
+      "size_bytes": 1895
+    },
+    {
+      "path": "dist/release-public-key.xml",
+      "sha256": "742767A540EB1A17AF1B0A2B133A49C62D41C293AB10D483727955928A9D699A",
+      "size_bytes": 583
+    },
+    {
+      "path": "dist/style.css",
+      "sha256": "7FB26323124B1F298EB9792757BD5BD8AAC7F918CA4E39E744EBC49720DC2E47",
+      "size_bytes": 10365
+    },
+    {
+      "path": "tests/release-gate.test.mjs",
+      "sha256": "6B15D8AA0534459F60ADBFDBDA725523BAF41841A903C722FE9A37293887DDB0",
+      "size_bytes": 2311
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "2026-10-11-launcher-setup",
+  "recorded_on": "2026-10-11",
+  "scope": "Windows setup fixture, website signed-release gate and distribution hold. No new game/production launcher delivery test.",
+  "inherited_test_results": "../2026-10-11-launcher-v1/test-results.json",
+  "installer_fixture": {
+    "passed": true,
+    "recorded_on": "2026-10-11",
+    "run": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\test-output\\setup-20261011-175428-270",
+    "setup_sha256": "668C8D2544E2759DAAC3FE5CB09EF27C49A5970E2029ACC80D1252192B488B45",
+    "checks": [
+      {
+        "name": "Foreign nonempty root rejected without changing its data",
+        "passed": true
+      },
+      {
+        "name": "Fresh per-user fixture setup succeeds",
+        "passed": true
+      },
+      {
+        "name": "Ownership marker identifies the exact installation root",
+        "passed": true
+      },
+      {
+        "name": "Valid launcher shortcut: Start",
+        "passed": true
+      },
+      {
+        "name": "Valid launcher shortcut: Desktop",
+        "passed": true
+      },
+      {
+        "name": "Setup registers a removable app for the current user",
+        "passed": true
+      },
+      {
+        "name": "Desktop shortcut opens the actual installed inert fixture app",
+        "passed": true
+      },
+      {
+        "name": "Setup repair accepts its owned folder and preserves game saves",
+        "passed": true
+      },
+      {
+        "name": "Older setup preserves a newer self-updated launcher",
+        "passed": true
+      },
+      {
+        "name": "Owned fixture uninstall succeeds",
+        "passed": true
+      },
+      {
+        "name": "Uninstall removes app registration and shortcuts while retaining game saves",
+        "passed": true
+      },
+      {
+        "name": "Desktop shortcut is optional; Start menu app remains available",
+        "passed": true
+      },
+      {
+        "name": "Owned fixture uninstall succeeds",
+        "passed": true
+      },
+      {
+        "name": "Mismatched ownership rejected before any installation changes",
+        "passed": true
+      }
+    ],
+    "scope": "Actual compiled Inno installer and uninstaller with inert fixture executable. Production payload remains Windows-blocked; no production setup, live download, game execution or post-install launcher-window acceptance."
+  },
+  "website_gate_fixture": {
+    "passed": true,
+    "checks": 10,
+    "scope": "Actual website setup signature/acceptance/asset gate with ephemeral RSA fixtures; no installer download or production acceptance."
+  },
+  "game_input_hash_comparison": {
+    "snapshot": "2026-10-11-launcher-v1",
+    "tested_on": "2026-10-11",
+    "gameplay_readiness_percent": 69,
+    "verdict": "NOT_BETA_READY",
+    "reusable_input_evidence": true,
+    "observed_input_count": 600,
+    "expected_input_count": 600,
+    "differences": [],
+    "validation_scope": "Input hash comparison only; no gameplay tests executed. Build/package/environment changes need separate validation."
+  },
+  "production_setup_built": false,
+  "production_setup_download_install_accepted": false,
+  "microsoft_review_submitted": true,
+  "microsoft_review_final_determination": "Pending",
+  "distribution_approved": false,
+  "evidence": [
+    {
+      "path": "evidence/setup-integration.json",
+      "sha256": "A127561AACFE1620FF7AC7B66993726C5C11E653F600A1176D07F71B6EBBBDC3",
+      "size_bytes": 2006
+    },
+    {
+      "path": "evidence/setup-website-gate.json",
+      "sha256": "9EF588DF7FAE6AC1CB5FF002BBBE4804D9AC9A5581C66D080268C1C5836F16F5",
+      "size_bytes": 169
+    },
+    {
+      "path": "evidence/setup-game-input-check.json",
+      "sha256": "ED6E469B47F819163D911F2926DD9584B979D9F58AF91066B0A0F52FF147E179",
+      "size_bytes": 409
+    },
+    {
+      "path": "evidence/microsoft-review-archive.json",
+      "sha256": "92BA87D69E8481BF33706FDA9EF11EB0CF0C4B5F29815B08391C139F7447B2B7",
+      "size_bytes": 687
+    },
+    {
+      "path": "evidence/microsoft-review-submission.json",
+      "sha256": "ACC98835A8942A5139D3DEB2DB6735ADAD2F62A71428F8F7B2A58E387F70432B",
+      "size_bytes": 1152
+    },
+    {
+      "path": "evidence/SETUP_DELIVERY_STATUS.md",
+      "sha256": "0EB0E154D3B1D37E45D9EC91486823CA6A9B5BBE8A1CBCC36363B6112E77E970",
+      "size_bytes": 4809
+    },
+    {
+      "path": "evidence/setup-download-page-1080p.png",
+      "sha256": "78AB23C901F6F3E0902CDA821564C5CF05D5B95FB3405B4ACED7E477F382B948",
+      "size_bytes": 126586
+    }
+  ]
+}

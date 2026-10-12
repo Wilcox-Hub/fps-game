@@ -3,7 +3,7 @@
   "recorded_on": "2026-10-11",
   "tested_on": "2026-10-11",
   "timezone": "America/Los_Angeles",
-  "snapshot_id": "2026-10-11-launcher-v1",
+  "snapshot_id": "2026-10-11-launcher-setup",
   "source_baseline_commit": "a3d2d1ca109764962493722f5859b3013b1cf058",
   "tested_source_includes_unpublished_changes": true,
   "tested_input_count": 600,
@@ -15,19 +15,19 @@
   "overall_beta_readiness_percent": null,
   "confidence": "low",
   "score": "snapshots/2026-10-04-vs41/scores.json",
-  "report": "snapshots/2026-10-11-launcher-v1/report.md",
-  "input_manifest": "snapshots/2026-10-11-launcher-v1/input-manifest.json",
-  "test_results": "snapshots/2026-10-11-launcher-v1/test-results.json",
+  "report": "snapshots/2026-10-11-launcher-setup/report.md",
+  "input_manifest": "snapshots/2026-10-11-launcher-setup/input-manifest.json",
+  "test_results": "snapshots/2026-10-11-launcher-setup/test-results.json",
   "visual_check": "snapshots/2026-10-08-vs52/visual-check.json",
   "cache_policy": "All 600 VS58 game input hashes match. Inherited game evidence retains its original date/scope; native launcher evidence is separate and distribution remains blocked.",
   "project_descriptor": {
     "path": "Ridgefire.uproject",
     "sha256": "065A1AB7AF0B97F9C813738343DCC20B66CE016D144DC7FAC6799DCC2692F331"
   },
-  "previous_test_snapshot": "2026-10-11-vs58-native-relay",
+  "previous_test_snapshot": "2026-10-11-launcher-v1",
   "beta_readiness_approved": false,
   "testing_recommendation": "Supervised internal alpha on the refreshed Prototype package; external beta stays conditional on packaged full-run and friend co-op acceptance.",
-  "assessment_kind": "Native Windows launcher implementation and protected distribution block; no whole-game reassessment",
+  "assessment_kind": "Windows setup fixture and clear download flow; production distribution still blocked",
   "gameplay_score_estimated_on": "2026-10-04",
   "gameplay_score_source": "2026-10-04-vs41",
   "human_recording_reviewed_on": "2026-10-04",
@@ -149,7 +149,7 @@
     "checkpoint_restart_accepted": false
   },
   "tool_input_manifest": "snapshots/2026-10-11-vs57-server-connection/tool-input-manifest.json",
-  "launcher_input_manifest": "snapshots/2026-10-11-launcher-v1/launcher-input-manifest.json",
+  "launcher_input_manifest": "snapshots/2026-10-11-launcher-setup/launcher-input-manifest.json",
   "internet_launcher": {
     "version": "1.0.1",
     "implemented": true,
@@ -159,10 +159,20 @@
     "native_self_update_fixture_passed": true,
     "live_download_install_accepted": false,
     "owner_shortcut_migrated": false,
-    "microsoft_review_status": "OWNER_APPROVAL_PENDING; not submitted",
+    "microsoft_review_status": "SUBMITTED; final determination Pending; distribution withheld",
     "website": "https://iron-sun-playtest.wilcoxwarrior4577.chatgpt.site",
     "source_repository": "https://github.com/Wilcox-Hub/iron-sun-releases",
     "fallback": "Published complete game-only ZIP; manual updates",
-    "game_only_release": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs58-20261011-120705-452-game"
-  }
+    "game_only_release": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs58-20261011-120705-452-game",
+    "windows_setup_implemented": true,
+    "windows_setup_fixture_assertions_passed": 14,
+    "website_setup_gate_checks_passed": 10,
+    "production_setup_built": false,
+    "microsoft_review_submission_id": "a42bd1fa-88a6-4c46-b7ef-d3cd5e020541",
+    "microsoft_review_evidence": "snapshots/2026-10-11-launcher-setup/evidence/microsoft-review-submission.json",
+    "review_sample_prepared": true,
+    "setup_entry_filename": "IRON-SUN-Setup.exe"
+  },
+  "website_input_manifest": "snapshots/2026-10-11-launcher-setup/website-input-manifest.json",
+  "record_publication_status": "CANONICAL_METADATA_ONLY; game source publication unchanged"
 }
