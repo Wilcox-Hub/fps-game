@@ -1,0 +1,91 @@
+[2026.10.12-10.35.39:234][862]LogNet: NotifyAcceptingConnection accepted from: 172.18.0.1:48183
+[2026.10.12-10.35.39:234][862]LogHandshake: SendConnectChallenge. Timestamp: 149.379019, Cookie: 163032038225229073095201104067201019162152131022051035077022
+[2026.10.12-10.35.39:234][862]LogNet: NotifyAcceptingConnection accepted from: 172.18.0.1:40320
+[2026.10.12-10.35.39:234][862]LogHandshake: SendConnectChallenge. Timestamp: 149.379019, Cookie: 154023079207105135172013181174099179050034187138130191156145
+[2026.10.12-10.35.39:267][864]LogNet: NotifyAcceptingConnection accepted from: 172.18.0.1:48183
+[2026.10.12-10.35.39:267][864]LogHandshake: SendChallengeAck. InCookie: 163032038225229073095201104067201019162152131022051035077022
+[2026.10.12-10.35.39:268][864]LogNet: Server accepting post-challenge connection from: 172.18.0.1:48183
+[2026.10.12-10.35.39:268][864]LogNet: IpConnection_2147481852 setting maximum channels to: 32767
+[2026.10.12-10.35.39:269][864]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.10.12-10.35.39:270][864]LogNet: NotifyAcceptedConnection: Name: Lvl_Shooter, TimeStamp: 10/12/26 10:35:39, [UNetConnection] RemoteAddr: 172.18.0.1:48183, Name: IpConnection_2147481852, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.12-10.35.39:270][864]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 172.18.0.1:48183, Name: IpConnection_2147481852, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.12-10.35.39:270][864]LogNet: NotifyAcceptingConnection accepted from: 172.18.0.1:40320
+[2026.10.12-10.35.39:270][864]LogHandshake: SendChallengeAck. InCookie: 154023079207105135172013181174099179050034187138130191156145
+[2026.10.12-10.35.39:270][864]LogNet: Server accepting post-challenge connection from: 172.18.0.1:40320
+[2026.10.12-10.35.39:270][864]LogNet: IpConnection_2147481848 setting maximum channels to: 32767
+[2026.10.12-10.35.39:272][864]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.10.12-10.35.39:272][864]LogNet: NotifyAcceptedConnection: Name: Lvl_Shooter, TimeStamp: 10/12/26 10:35:39, [UNetConnection] RemoteAddr: 172.18.0.1:40320, Name: IpConnection_2147481848, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.12-10.35.39:272][864]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 172.18.0.1:40320, Name: IpConnection_2147481848, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.12-10.35.39:301][865]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter: Accepted
+[2026.10.12-10.35.39:301][865]LogNet: Remote platform little endian=1
+[2026.10.12-10.35.39:301][865]LogNet: This platform little endian=1
+[2026.10.12-10.35.39:301][865]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter: Accepted
+[2026.10.12-10.35.39:301][865]LogNet: Remote platform little endian=1
+[2026.10.12-10.35.39:301][865]LogNet: This platform little endian=1
+[2026.10.12-10.35.39:334][867]LogNet: Login URL: REDACTED
+[2026.10.12-10.35.39:334][867]LogNet: Login URL: REDACTED
+[2026.10.12-10.35.39:385][870]LogNet: Client netspeed is 100000
+[2026.10.12-10.35.39:385][870]LogNet: Join URL: REDACTED
+[2026.10.12-10.35.39:395][870]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=801993329 players=1
+[2026.10.12-10.35.39:396][870]LogNet: Join succeeded: DESKTOP-9I0RDNT-7C4F
+[2026.10.12-10.35.39:396][870]LogNet: Client netspeed is 100000
+[2026.10.12-10.35.39:396][870]LogNet: Join URL: REDACTED
+[2026.10.12-10.35.39:405][870]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=801993330 players=2
+[2026.10.12-10.35.39:406][870]LogNet: Join succeeded: DESKTOP-9I0RDNT-542F
+[2026.10.12-10.35.39:435][872]LogGlobalStatus: Browse Started Browse: "/Game/Variant_Shooter/Lvl_Shooter?RidgefireMenu"
+[2026.10.12-10.35.39:435][872]LogNet: Browse: /Game/Variant_Shooter/Lvl_Shooter?RidgefireMenu
+[2026.10.12-10.35.39:435][872]LogLoad: LoadMap: /Game/Variant_Shooter/Lvl_Shooter?RidgefireMenu
+[2026.10.12-10.35.39:435][872]LogWorld: BeginTearingDown for /Game/Variant_Shooter/Lvl_Shooter
+[2026.10.12-10.35.39:435][872]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.10.12-10.35.39:435][872]LogNet: World NetDriver shutdown IpNetDriver_2147482413 [GameNetDriver]
+[2026.10.12-10.35.39:435][872]LogNet: DestroyNamedNetDriver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413 
+[2026.10.12-10.35.39:435][872]LogNet: UNetConnection::SendCloseReason:
+[2026.10.12-10.35.39:435][872]LogNet:  - Result=HostClosedConnection, ErrorContext="HostClosedConnection"
+[2026.10.12-10.35.39:436][872]LogNet: UNetConnection::SendCloseReason:
+[2026.10.12-10.35.39:436][872]LogNet:  - Result=HostClosedConnection, ErrorContext="HostClosedConnection"
+[2026.10.12-10.35.39:436][872]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2026.10.12-10.35.39:436][872]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 172.18.0.1:40320, Name: IpConnection_2147481848, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481829, Owner: BP_ShooterPlayerController_C_2147481829, UniqueId: NULL:DESKTOP-9I0RDNT-542F24A1461636DAB89CC7A190DBEB7E
+[2026.10.12-10.35.39:436][872]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 172.18.0.1:40320, Name: IpConnection_2147481848, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481829, Owner: BP_ShooterPlayerController_C_2147481829, UniqueId: NULL:DESKTOP-9I0RDNT-542F24A1461636DAB89CC7A190DBEB7E, Channels: 8, Time: 2026.10.12-10.35.39
+[2026.10.12-10.35.39:436][872]LogNet: UNetConnection::SendCloseReason:
+[2026.10.12-10.35.39:436][872]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2026.10.12-10.35.39:436][872]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.18.0.1:40320, Name: IpConnection_2147481848, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481829, Owner: BP_ShooterPlayerController_C_2147481829, UniqueId: NULL:DESKTOP-9I0RDNT-542F24A1461636DAB89CC7A190DBEB7E
+[2026.10.12-10.35.39:436][872]LogNet: UNetDriver::RemoveClientConnection - Removed address 172.18.0.1:40320 from MappedClientConnections for: [UNetConnection] RemoteAddr: 172.18.0.1:40320, Name: IpConnection_2147481848, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481829, Owner: BP_ShooterPlayerController_C_2147481829, UniqueId: NULL:DESKTOP-9I0RDNT-542F24A1461636DAB89CC7A190DBEB7E
+[2026.10.12-10.35.39:436][872]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2026.10.12-10.35.39:436][872]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 172.18.0.1:48183, Name: IpConnection_2147481852, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481842, Owner: BP_ShooterPlayerController_C_2147481842, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064
+[2026.10.12-10.35.39:436][872]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 172.18.0.1:48183, Name: IpConnection_2147481852, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481842, Owner: BP_ShooterPlayerController_C_2147481842, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064, Channels: 8, Time: 2026.10.12-10.35.39
+[2026.10.12-10.35.39:436][872]LogNet: UNetConnection::SendCloseReason:
+[2026.10.12-10.35.39:436][872]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2026.10.12-10.35.39:436][872]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 172.18.0.1:48183, Name: IpConnection_2147481852, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481842, Owner: BP_ShooterPlayerController_C_2147481842, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064
+[2026.10.12-10.35.39:436][872]LogNet: UNetDriver::RemoveClientConnection - Removed address 172.18.0.1:48183 from MappedClientConnections for: [UNetConnection] RemoteAddr: 172.18.0.1:48183, Name: IpConnection_2147481852, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481842, Owner: BP_ShooterPlayerController_C_2147481842, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064
+[2026.10.12-10.35.39:437][872]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413 shut down
+[2026.10.12-10.35.39:437][872]LogWorld: UWorld::CleanupWorld for Lvl_Shooter, bSessionEnded=true, bCleanupResources=true
+[2026.10.12-10.35.39:438][872]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter
+[2026.10.12-10.35.39:456][872]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2026.10.12-10.35.39:468][872]LogWorldPartition: UWorldPartitionRuntimeSpatialHash::PostLoad : UseAlignedGridLevels = 0, SnapNonAlignedGridLevelsToLowerLevels = 0
+[2026.10.12-10.35.39:468][872]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Shooter
+[2026.10.12-10.35.39:470][872]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Shooter)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.10.12-10.35.39:470][872]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.10.12-10.35.39:470][872]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.10.12-10.35.39:470][872]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Dedicated Server, IsServer = 1, IsDedicatedServer = 1, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.10.12-10.35.39:470][872]LogWorldPartition: Display: WorldPartition initialize took 39 us (total: 91 us)
+[2026.10.12-10.35.39:470][872]LogLoad: Game class is 'RidgefireGameMode'
+[2026.10.12-10.35.39:470][872]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.10.12-10.35.39:470][872]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.10.12-10.35.39:470][872]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.10.12-10.35.39:470][872]LogInit: BSD IPv4/6: Socket queue. Rx: 524288 (config 262144) Tx: 262144 (config 131072)
+[2026.10.12-10.35.39:470][872]LogNet: Created socket for bind address: 0.0.0.0:7777
+[2026.10.12-10.35.39:470][872]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.10.12-10.35.39:470][872]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147481748 IpNetDriver listening on port 7777
+[2026.10.12-10.35.39:472][872]LogWorld: Bringing World /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter up for play (max tick rate 60) at 2026.10.12-10.35.39
+[2026.10.12-10.35.39:472][872]LogWorld: Bringing up level for play took: 0.001691
+[2026.10.12-10.35.39:472][872]LogNavigation: Warning: Recreating dtNavMesh instance (RecastNavMesh_UAID_F4A475FF15A3A64602-Default) due mismatch in number of bytes required to store serialized maxTiles (serialized: 96, 7 bits) vs calculated required (36, 6 bits)
+[2026.10.12-10.35.39:474][872]LogTemp: Display: RIDGEFIRE: Client/server arena setup suppressed 98 legacy meshes and rethemed 0 components.
+[2026.10.12-10.35.39:478][872]LogTemp: Display: RIDGEFIRE: Built central Arsenal station with three weapon display plinths and one local-view T/View sign.
+[2026.10.12-10.35.39:478][872]LogTemp: Display: RIDGEFIRE: Built 6400 cm collision arena with eight cover panels and arsenal station; suppressed 98 legacy blockout meshes, 5 template targets, 0 template weapons, and 5 template pickups; rethemed 0 remaining components; tuned 1 suns, 1 skylights, 1 atmospheres, 1 fog components, and 1 exposure volumes for sunset.
+[2026.10.12-10.35.39:478][872]LogTemp: Display: RIDGEFIRE ARENA STATE role=authority kind=iron-sun revision=1 components=206 center=V(X=-800.00, Y=-1050.00, Z=92.01) ground=2.0
+[2026.10.12-10.35.39:478][872]LogTemp: Display: RIDGEFIRE TUBE PLACEMENT arena=IRON SUN ARENA valid=true location=X=1350.000 Y=-3800.000 Z=2.013
+[2026.10.12-10.35.39:548][872]LogTemp: Display: RIDGEFIRE ENTRANCES arena=0 bays=3 route_nodes=1046 ready=1 capsule=64.8/165.9
+[2026.10.12-10.35.39:548][872]LogTemp: Display: RIDGEFIRE: Opening armory with 6 offers and 3 sentinel entrances.
+[2026.10.12-10.35.39:548][872]LogLoad: Took 0.112591 seconds to LoadMap(/Game/Variant_Shooter/Lvl_Shooter)
+[2026.10.12-10.35.39:548][872]LogGlobalStatus: LoadMap Load map complete /Game/Variant_Shooter/Lvl_Shooter
+[2026.10.12-10.35.43:959][135]LogTemp: Display: RIDGEFIRE SESSION FAILED: Return to menu timed out. Restart the game to reconnect.

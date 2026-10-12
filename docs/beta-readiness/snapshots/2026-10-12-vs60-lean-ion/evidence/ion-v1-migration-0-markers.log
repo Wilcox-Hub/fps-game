@@ -1,0 +1,2 @@
+[2026.10.12-09.05.16:317][  0]LogNetVersion: Set GameNetworkProtocolVersion to 60d. Version Checksum will be recalculated on next use.
+[2026.10.12-09.06.01:411][218]LogAutomationController: Display: Test Completed. Result={Success} Name={LegacyCheckpointMigration} Path={Ridgefire.LeanIon.LegacyCheckpointMigration}

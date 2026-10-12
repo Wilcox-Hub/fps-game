@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "peers": 2,
+  "logs": [
+    "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PressureNetwork\\checks-20261012-032313-695\\Host.log",
+    "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PressureNetwork\\checks-20261012-032313-695\\Client.log"
+  ],
+  "scope": "Actual local Editor host/client movement, slide/ADS, Q/E saved-move lean, owned Ion purchase, holster charge retention and Z windup/spend on a replicated platform with frozen enemies. Charge is injected by the fixture; no normal-hit balance, Internet, packaged, hardware-input, latency/fun or second-PC acceptance.",
+  "time_utc": "2026-10-12T10:23:40.9048169Z"
+}

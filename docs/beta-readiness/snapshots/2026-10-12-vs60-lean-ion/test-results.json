@@ -1,0 +1,1044 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "2026-10-12-vs60-lean-ion",
+  "recorded_on": "2026-10-12",
+  "protocol": 60,
+  "input_count": 607,
+  "passed": true,
+  "whole_game_acceptance": false,
+  "human_acceptance": false,
+  "validation_groups": [
+    {
+      "name": "lean-ion-final",
+      "result": {
+        "passed": true,
+        "tests": [
+          "Ridgefire.LeanIon.InputCoverChargeAndRecovery"
+        ],
+        "failures": [],
+        "filter": "Ridgefire.LeanIon.InputCoverChargeAndRecovery",
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261012-034859-817\\Automation.log",
+        "rendered": false,
+        "editor_only": false,
+        "exit_code": 0,
+        "time_utc": "2026-10-12T10:49:13.8105857Z",
+        "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+      },
+      "current_game_inputs_exact_match": true,
+      "scope_note": null,
+      "evidence": [
+        {
+          "path": "evidence/lean-ion-final-result.json",
+          "sha256": "098B288AA04B254DA4CDCE2164AB1A9DAA518A75AA9ACF970EA47B50BA1C97CF",
+          "size_bytes": 607
+        },
+        {
+          "path": "evidence/lean-ion-final-0-markers.log",
+          "sha256": "1FA1C9B5EB4BBF19FC8886CA8FD18664D9DE0E568841D1E694E96F41313D264A",
+          "size_bytes": 320
+        }
+      ]
+    },
+    {
+      "name": "private-authority-final",
+      "result": {
+        "passed": true,
+        "tests": [
+          "Ridgefire.PrivateServer.AddressValidation",
+          "Ridgefire.PrivateServer.AuthorityFailureIsolation",
+          "Ridgefire.PrivateServer.CheckpointIsolation",
+          "Ridgefire.PrivateServer.InviteProof"
+        ],
+        "failures": [],
+        "filter": "Ridgefire.PrivateServer.",
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261012-034727-337\\Automation.log",
+        "rendered": false,
+        "editor_only": false,
+        "exit_code": 0,
+        "time_utc": "2026-10-12T10:47:38.8760826Z",
+        "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+      },
+      "current_game_inputs_exact_match": true,
+      "scope_note": null,
+      "evidence": [
+        {
+          "path": "evidence/private-authority-final-result.json",
+          "sha256": "8A07DA08468E00F951E643F28CE73A8B969852D99C0F779A04560F53C45EE48B",
+          "size_bytes": 736
+        },
+        {
+          "path": "evidence/private-authority-final-0-markers.log",
+          "sha256": "0C28B1BB7B03F802DDC6C1BC690EF7DCAF7A34F6980268D84E484671496E13E9",
+          "size_bytes": 1175
+        }
+      ]
+    },
+    {
+      "name": "grounded-progression-final",
+      "result": {
+        "passed": true,
+        "tests": [
+          "Ridgefire.Progression.PossessedInteractions"
+        ],
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Progression\\checks-20261012-032312-939\\Automation.log",
+        "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+        "time_utc": "2026-10-12T10:23:32.9182954Z"
+      },
+      "current_game_inputs_exact_match": false,
+      "scope_note": "Same approved grounded behavior; later dedicated-recovery policy/header and its regression changed. No new whole-input pass claimed.",
+      "evidence": [
+        {
+          "path": "evidence/grounded-progression-final-result.json",
+          "sha256": "C89C70485948AA22EF468E52D3019A02EA98D7BEA6F64C70B5BC1FE6B9235B7C",
+          "size_bytes": 414
+        },
+        {
+          "path": "evidence/grounded-progression-final-0-markers.log",
+          "sha256": "7BA9296EFEAC5A336D5E865907A0AC2366937A9E32F07A9D6250A44DB764D992",
+          "size_bytes": 1066
+        }
+      ]
+    },
+    {
+      "name": "owned-lean-ion-network-final",
+      "result": {
+        "passed": true,
+        "peers": 2,
+        "logs": [
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PressureNetwork\\checks-20261012-032313-695\\Host.log",
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PressureNetwork\\checks-20261012-032313-695\\Client.log"
+        ],
+        "scope": "Actual local Editor host/client movement, slide/ADS, Q/E saved-move lean, owned Ion purchase, holster charge retention and Z windup/spend on a replicated platform with frozen enemies. Charge is injected by the fixture; no normal-hit balance, Internet, packaged, hardware-input, latency/fun or second-PC acceptance.",
+        "time_utc": "2026-10-12T10:23:40.9048169Z"
+      },
+      "current_game_inputs_exact_match": false,
+      "scope_note": "Lean/Ion implementation unchanged; later authoritative recovery-role fix is separately validated by final dedicated and actual native disconnect checks.",
+      "evidence": [
+        {
+          "path": "evidence/owned-lean-ion-network-final-result.json",
+          "sha256": "9057779A64D31146A69751DEEB71B34173A62D592140534057253C029B5E1D3F",
+          "size_bytes": 792
+        },
+        {
+          "path": "evidence/owned-lean-ion-network-final-0-markers.log",
+          "sha256": "617F59766922FCA1553CFC95C1B73BDD3DBD025DBC7168970C70A9963C177D03",
+          "size_bytes": 419
+        },
+        {
+          "path": "evidence/owned-lean-ion-network-final-1-markers.log",
+          "sha256": "B44C66A895C8F06702C5EFE2A7D6EAB0707C923BEFBDE47BEDFD780574A78D04",
+          "size_bytes": 310
+        }
+      ]
+    },
+    {
+      "name": "shipping-editor-lobby-final",
+      "result": {
+        "passed": true,
+        "protocol": 60,
+        "server_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PackagedPrivate\\20261012-035043-218\\Server.log",
+        "client_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PackagedPrivate\\20261012-035043-218\\ShippingClient.log",
+        "windows_root": "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/Packages/20261012-034847-088/Windows",
+        "scope": "Actual Windows Shipping runtime accepted by Windows Editor dedicated process over loopback with a short-lived invite proof. Lobby startup only; opt-in existing session-smoke harness calls production JoinServer, no packaged UI/firing, Linux server, internet, physical device or performance claim.",
+        "time_utc": "2026-10-12T10:51:01.0319171Z"
+      },
+      "current_game_inputs_exact_match": true,
+      "scope_note": null,
+      "evidence": [
+        {
+          "path": "evidence/shipping-editor-lobby-final-result.json",
+          "sha256": "08F265C95D55236A735C8C0949B29F198A62D585A4029C39A758AFF2F963E743",
+          "size_bytes": 932
+        },
+        {
+          "path": "evidence/shipping-editor-lobby-final-0-markers.log",
+          "sha256": "83E897D577019C90D7A3BBD22C6FB41AB72B3202332C8DA664A25985530384FF",
+          "size_bytes": 361
+        }
+      ]
+    },
+    {
+      "name": "ion-v1-migration",
+      "result": {
+        "passed": true,
+        "tests": [
+          "Ridgefire.LeanIon.LegacyCheckpointMigration"
+        ],
+        "failures": [],
+        "filter": "Ridgefire.LeanIon.LegacyCheckpointMigration",
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261012-020506-909\\Automation.log",
+        "rendered": false,
+        "editor_only": true,
+        "exit_code": 0,
+        "time_utc": "2026-10-12T09:06:33.2578041Z",
+        "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+      },
+      "current_game_inputs_exact_match": false,
+      "scope_note": "Earlier in this implementation; not a byte-identical final whole-game pass. Later Ion precision/head and melee viewpoint adjustments plus held-crouch fixture cleanup are separately checked. Retain only the named migration/auth/save scope.",
+      "evidence": [
+        {
+          "path": "evidence/ion-v1-migration-result.json",
+          "sha256": "D151C072326E9D5154C69AEC1DEDF0C0ACA6DEEDA759E24D7F6C4B8FB015C98E",
+          "size_bytes": 602
+        },
+        {
+          "path": "evidence/ion-v1-migration-0-markers.log",
+          "sha256": "372E1B8736F229706FF98486FF84677FD37EDC3E036863F1F5452B0498FE75A2",
+          "size_bytes": 316
+        }
+      ]
+    },
+    {
+      "name": "perk-unlocks-effects",
+      "result": {
+        "passed": true,
+        "tests": [
+          "Ridgefire.Progression.UnlocksAndEffects"
+        ],
+        "failures": [],
+        "filter": "Ridgefire.Progression.UnlocksAndEffects",
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261012-020507-418\\Automation.log",
+        "rendered": false,
+        "editor_only": true,
+        "exit_code": 0,
+        "time_utc": "2026-10-12T09:06:33.2582895Z",
+        "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+      },
+      "current_game_inputs_exact_match": false,
+      "scope_note": "Earlier in this implementation; not a byte-identical final whole-game pass. Later Ion precision/head and melee viewpoint adjustments plus held-crouch fixture cleanup are separately checked. Retain only the named migration/auth/save scope.",
+      "evidence": [
+        {
+          "path": "evidence/perk-unlocks-effects-result.json",
+          "sha256": "16EF8C09839C6C6D4DB4A82F199E35B951E7BE61D5A1C5801447A9C151AF0998",
+          "size_bytes": 594
+        },
+        {
+          "path": "evidence/perk-unlocks-effects-0-markers.log",
+          "sha256": "B21518889E260E8CC1080F037B356D114BE852BD19BA9256DD77C06D7048BE03",
+          "size_bytes": 304
+        }
+      ]
+    },
+    {
+      "name": "checkpoint-disk-world",
+      "result": {
+        "passed": true,
+        "tests": 2,
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Checkpoints\\20261012-021732-221\\Automation.log",
+        "render_requested": false,
+        "scope": "Controlled actual standalone Editor world and isolated disk slots; not physical LAN, Shipping combat, human fun or performance acceptance.",
+        "time_utc": "2026-10-12T09:17:45.0629631Z"
+      },
+      "current_game_inputs_exact_match": false,
+      "scope_note": "Earlier in this implementation; not a byte-identical final whole-game pass. Later Ion precision/head and melee viewpoint adjustments plus held-crouch fixture cleanup are separately checked. Retain only the named migration/auth/save scope.",
+      "evidence": [
+        {
+          "path": "evidence/checkpoint-disk-world-result.json",
+          "sha256": "65A3211852D6EFAD610305EB363659EB35A56463D87097EDCB35B7E56C9F4AD5",
+          "size_bytes": 448
+        },
+        {
+          "path": "evidence/checkpoint-disk-world-0-markers.log",
+          "sha256": "77769C9D9EB46470CB422506AEA76F003F0764B186CE4DC04A9FB4E366ADA811",
+          "size_bytes": 3217
+        }
+      ]
+    },
+    {
+      "name": "private-auth-save-slots",
+      "result": {
+        "passed": true,
+        "tests": 3,
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateUnit\\20261012-025714-305\\Automation.log",
+        "scope": "Actual Editor automation: address rejection/normalization, protocol/time-bound HMAC invite proof and isolated server checkpoint slots. No internet/device/performance acceptance.",
+        "time_utc": "2026-10-12T09:57:26.6427447Z"
+      },
+      "current_game_inputs_exact_match": false,
+      "scope_note": "Earlier in this implementation; not a byte-identical final whole-game pass. Later Ion precision/head and melee viewpoint adjustments plus held-crouch fixture cleanup are separately checked. Retain only the named migration/auth/save scope.",
+      "evidence": [
+        {
+          "path": "evidence/private-auth-save-slots-result.json",
+          "sha256": "5F64633951A5C195FAB3FB064F3A094872EE03C04CF185A8D367BE8EE50A4BBD",
+          "size_bytes": 457
+        },
+        {
+          "path": "evidence/private-auth-save-slots-0-markers.log",
+          "sha256": "C683B275B319980DDA3A1C0020D73BC93CCEE234FDAD693DA077DD9F2994BDD5",
+          "size_bytes": 988
+        }
+      ]
+    },
+    {
+      "name": "dedicated-coop-boundaries-final",
+      "result": {
+        "passed": true,
+        "logs": [
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261012-034913-859\\Peer-1.log",
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261012-034913-859\\Peer0.log",
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261012-034913-859\\Peer1.log"
+        ],
+        "peers": 2,
+        "scope": "Actual Windows Editor dedicated-server process and two remote-client processes over loopback UDP; private invite rejection/retry, leader-only launch, normal timed setup and primary/secondary LMB ammo, leader departure, clear-boundary checkpoint, both clients leaving, empty-server lobby return and original-squad resume. Fixture disables combat damage/AI and completes a controlled first encounter; no balance claim. Not a Linux package, physical-device, internet or performance test.",
+        "time_utc": "2026-10-12T10:51:41.5692519Z"
+      },
+      "current_game_inputs_exact_match": true,
+      "scope_note": null,
+      "evidence": [
+        {
+          "path": "evidence/dedicated-coop-boundaries-final-result.json",
+          "sha256": "5548499B8B7147BA1F767360DAB0F41416E513C8ED99AF162EE10C1A693D348B",
+          "size_bytes": 1115
+        },
+        {
+          "path": "evidence/dedicated-coop-boundaries-final-0-markers.log",
+          "sha256": "0C35C51BA515BF4EA3E12BD780DF53D9962C3FDEBE1D03F5E0D02944F5667F8B",
+          "size_bytes": 1131
+        },
+        {
+          "path": "evidence/dedicated-coop-boundaries-final-1-markers.log",
+          "sha256": "941BA3BCD519F00FB1377D97D27FF3618F32043205E732CC22224B3B4CFCF4FF",
+          "size_bytes": 1427
+        },
+        {
+          "path": "evidence/dedicated-coop-boundaries-final-2-markers.log",
+          "sha256": "EDA28C584C080AF3895EA10720261F22D3ACBECFBEA7B819100ECF91F77C72BD",
+          "size_bytes": 1893
+        }
+      ]
+    },
+    {
+      "name": "editor-build",
+      "result": {
+        "passed": true,
+        "protocol": 60,
+        "scope": "Actual build/cook/package for named target; no gameplay/performance acceptance"
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "evidence/build-authority-final.log",
+          "sha256": "29BA3079788704B868DF71E10A972E6836FB0055865C4AF06903809CD33B504B",
+          "size_bytes": 5886
+        }
+      ]
+    },
+    {
+      "name": "windows-shipping-build",
+      "result": {
+        "passed": true,
+        "protocol": 60,
+        "scope": "Actual build/cook/package for named target; no gameplay/performance acceptance"
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "evidence/windows-authority-final.log",
+          "sha256": "84BEF9EBCD6A763820C33CD2E8DE0D1E43BC81495A9A10404D0FCB1FF941ACCD",
+          "size_bytes": 85573
+        }
+      ]
+    },
+    {
+      "name": "linux-server-build",
+      "result": {
+        "passed": true,
+        "protocol": 60,
+        "scope": "Actual build/cook/package for named target; no gameplay/performance acceptance"
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "evidence/linux-authority-final.log",
+          "sha256": "16E69BA11A79680671D3913A047EA8C961429579A43BB3EAE5917337F30B112F",
+          "size_bytes": 65745
+        }
+      ]
+    },
+    {
+      "name": "owner-delivery",
+      "result": {
+        "archive_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261012-034847-088\\Windows",
+        "protocol": 60,
+        "build_status": "COMPLETE_PROTOTYPE",
+        "artifacts": [
+          {
+            "path": "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+            "size_bytes": 2232688,
+            "sha256": "6C1484085A1F4223880C059FD093A468702D0ECB224981918336FE847F5AF92F"
+          },
+          {
+            "path": "Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
+            "size_bytes": 2547080,
+            "sha256": "780959F289E380A21FDAB0DBA7AC468C8DD0606EA43B755865A7989F3C7221E9"
+          },
+          {
+            "path": "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+            "size_bytes": 5799024,
+            "sha256": "E3E777A9644452C2772336C4B35C39ED4D8ABEB9B9C0C1DCEB9E10BDB378E5A2"
+          },
+          {
+            "path": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+            "size_bytes": 59832,
+            "sha256": "CF34407EC00248C208AA4B156126A725B79A4BCE9F5C8034550C798A9B7A1407"
+          },
+          {
+            "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+            "size_bytes": 1724856,
+            "sha256": "1CD0EBA3DF4915CA6498917B91B78DC1DFDA1C9155F2FD5B98DEDD5B5BA918F3"
+          },
+          {
+            "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+            "size_bytes": 48568,
+            "sha256": "A00E6B073CEC241D85D590EE138906EF9FDF9EFEF8D0D4989813359CD048A6F9"
+          },
+          {
+            "path": "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+            "size_bytes": 858144,
+            "sha256": "9D996BA84395C1E56604792A77775B0A7FA957D7B51B4D8B985040BCD80A6FD5"
+          },
+          {
+            "path": "Engine/Config/StagedBuild_Ridgefire.ini",
+            "size_bytes": 3,
+            "sha256": "F1945CD6C19E56B3C1C78943EF5EC18116907A4CA1EFC40A57D48AB1DB7ADFC5"
+          },
+          {
+            "path": "Engine/Content/Renderer/TessellationTable.bin",
+            "size_bytes": 259568,
+            "sha256": "EDC4F3B628A139C5E185BBAECA661C95C1F427368D3B92892C5CFF36C56DD941"
+          },
+          {
+            "path": "Engine/Content/Slate/Cursor/invisible.cur",
+            "size_bytes": 326,
+            "sha256": "FEF3980FA567E9C45D5D8DCAA432A2C1A3F3BB17FE67D7AB198164F56C142AA1"
+          },
+          {
+            "path": "Engine/Content/SlateDebug/Fonts/LastResort.tps",
+            "size_bytes": 930,
+            "sha256": "0F775FA99D05E21D43D2D06D55982B23DCDCCDB512A9A5A07AFF674F212C41B8"
+          },
+          {
+            "path": "Engine/Content/SlateDebug/Fonts/LastResort.ttf",
+            "size_bytes": 5395052,
+            "sha256": "FFF0F8DE0B868B964950FE97C9B60F893E9BC85A4F90B3629C5693DB058B97B9"
+          },
+          {
+            "path": "Engine/Extras/Redist/en-us/vc_redist.arm64.exe",
+            "size_bytes": 11751688,
+            "sha256": "BA660394E40765C80B70178A33F07DF81AEFAC2B6CB1F017B13880DE88456DE3"
+          },
+          {
+            "path": "Engine/Extras/Redist/en-us/vc_redist.x64.exe",
+            "size_bytes": 18569648,
+            "sha256": "1CF8E061174C320C8E125F1B09996EE0555EF450E515B06AB0FD99CB4C8DB6EF"
+          },
+          {
+            "path": "Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll",
+            "size_bytes": 17339384,
+            "sha256": "9FC1CA0E75480C7805B6D3C4653864EAAEE2FCA5DAA609B5347ADF0B4185791A"
+          },
+          {
+            "path": "Manifest_DebugFiles_Win64.txt",
+            "size_bytes": 231,
+            "sha256": "80D2C4A111E0AA26C435752B168BFB61120D13D60C945DF4E9684E7BDD4C0049"
+          },
+          {
+            "path": "Manifest_NonUFSFiles_Win64.txt",
+            "size_bytes": 1608,
+            "sha256": "0B6C18EE79AB981DA00FC0B0FE2BA7A142E1E14372AADB2B91F26E8AE2380FB6"
+          },
+          {
+            "path": "Manifest_UFSFiles_Win64.txt",
+            "size_bytes": 312819,
+            "sha256": "670BBA64A54B9FACD723AC122C232327050C9F31228C1ABF1C9AB163B4C79FD1"
+          },
+          {
+            "path": "NOTICES.txt",
+            "size_bytes": 111,
+            "sha256": "BA49AE5586F817B36A2772269F71F899CB1F54B5F2720FAD951319EDD5E140B8"
+          },
+          {
+            "path": "Ridgefire/Binaries/Win64/D3D12/x64/D3D12Core.dll",
+            "size_bytes": 4831768,
+            "sha256": "5D262C97239E1AFF8B03A7150ABCAA84CC7983D311946708F982227D146FBB37"
+          },
+          {
+            "path": "Ridgefire/Binaries/Win64/D3D12/x64/d3d12SDKLayers.dll",
+            "size_bytes": 4943344,
+            "sha256": "66AFC2D2918191F9B97026E3C630AC6E93F5F83E3BD0EAB34349EC2F66A0B4AF"
+          },
+          {
+            "path": "Ridgefire/Binaries/Win64/DML/x64/DirectML.dll",
+            "size_bytes": 18538488,
+            "sha256": "579DD89146322EA2567DE7DB16B8E10F350EB0CF147ECAAFE5B129D9FE175A84"
+          },
+          {
+            "path": "Ridgefire/Binaries/Win64/tbb12.dll",
+            "size_bytes": 342456,
+            "sha256": "7E58AE38FD5D47C72B750DBDCF2978A1F36719663A0A4500A9CC857316612C34"
+          },
+          {
+            "path": "Ridgefire/Binaries/Win64/tbbmalloc.dll",
+            "size_bytes": 117176,
+            "sha256": "075BA2869E082AB5F1F159AD06614CE63C31AE51099E18B540822CC758697E56"
+          },
+          {
+            "path": "Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+            "size_bytes": 166772736,
+            "sha256": "69D673478C0E1B757FECE3B8A6FDA8814EA6DB28BF53B5DB1AE0C2BDC0FAF436"
+          },
+          {
+            "path": "Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.pdb",
+            "size_bytes": 233574400,
+            "sha256": "8C57751E8E5A6E0A61AF70C2A54EADAEEADB8E88C8A209F38D466CC7496EB301"
+          },
+          {
+            "path": "Ridgefire/Content/Paks/global.ucas",
+            "size_bytes": 3226496,
+            "sha256": "52BE4108C12EA342DC0C9873084ACA7B5E11741A6312EC715C1903D3AA2A6D3C"
+          },
+          {
+            "path": "Ridgefire/Content/Paks/global.utoc",
+            "size_bytes": 794,
+            "sha256": "4C4452718D961C0219EEB88D9752F15AF2FCD65C1953CA4FCD03FCA9779F51DD"
+          },
+          {
+            "path": "Ridgefire/Content/Paks/Ridgefire-Windows.pak",
+            "size_bytes": 18012554,
+            "sha256": "5FA4CF987BAC5FA2460A6A93F85271BE342ACCEE046D2CE3E816B11B81317829"
+          },
+          {
+            "path": "Ridgefire/Content/Paks/Ridgefire-Windows.ucas",
+            "size_bytes": 237151104,
+            "sha256": "15B70DC2CBFCE7284592E30D51DC50E70F86AACA47F3C8D234A695C323F63987"
+          },
+          {
+            "path": "Ridgefire/Content/Paks/Ridgefire-Windows.utoc",
+            "size_bytes": 237951,
+            "sha256": "0C1BCD85B2A14F60ACCDD7701BC3F3A2671C735FA8E138A4D365A991FA5EFAAB"
+          },
+          {
+            "path": "TP_FirstPerson.exe",
+            "size_bytes": 171520,
+            "sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4"
+          }
+        ]
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "evidence/publish-local.json",
+          "sha256": "16CC63BC65B62AB613C851873ED83BD2764D3AB5CDB17FCA4BB96F1500395CD2",
+          "size_bytes": 429
+        },
+        {
+          "path": "evidence/install-result.json",
+          "sha256": "5312FB65424636746F4D9AA096A69959CDA0399D53269DA057C040797E0CEB9E",
+          "size_bytes": 236
+        },
+        {
+          "path": "evidence/current-result.json",
+          "sha256": "31F09C1C870D39EC21F05CE4422F9A6929D75FECBCB41D8BA3EA51AC5753B24B",
+          "size_bytes": 236
+        },
+        {
+          "path": "evidence/install-hash-check.json",
+          "sha256": "4F1207F56DCCD75EEDFAAE9FCED4CE490EDB8E63D32648E0BE1A1421B98B5966",
+          "size_bytes": 323
+        },
+        {
+          "path": "evidence/package-artifacts.json",
+          "sha256": "B35954C04AF9695295CA09F2A26F21A02AACCC8C2E43B54139AF168D545D75AF",
+          "size_bytes": 6446
+        }
+      ]
+    },
+    {
+      "name": "native-deployment",
+      "result": {
+        "passed": true,
+        "last_roster": "0",
+        "running": true,
+        "restarts": 0,
+        "authority_timeouts_isolated": 4,
+        "protocol": 60,
+        "scope": "Final empty native lobby after owned LAN/relay/disconnect checks; no driver shutdown or client-menu recovery observed."
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "evidence/native-archive.json",
+          "sha256": "3C06E28235C3F14F0A207A01A21623F789F91F2F62A9E396906D5CCE15765A7F",
+          "size_bytes": 380
+        },
+        {
+          "path": "evidence/native-deployment.json",
+          "sha256": "D3F37FD2F9D4427190879CC18239E3BFC181921DB45EBED48F166DEEA332579C",
+          "size_bytes": 1123
+        },
+        {
+          "path": "evidence/native-final-status.json",
+          "sha256": "34CEF87DA730E3A61AF1A93EE1EAFE72B145982A794FF587CB27400307205BA3",
+          "size_bytes": 251
+        }
+      ]
+    },
+    {
+      "name": "public-game-release",
+      "result": {
+        "prepared": true,
+        "published": true,
+        "mode": "manual-game-only",
+        "repository": "Wilcox-Hub/iron-sun-releases",
+        "tag": "playtest-vs60-20261012-034847-088-game",
+        "protocol": 60,
+        "game_version": "20261012-034847-088",
+        "launcher_version": null,
+        "assets": [
+          {
+            "sha256": "386D00B90847AB5E6542516203DBFA070FB66FC762F217C363DA2723EEEA182F",
+            "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\IRON-SUN-LAN\\iron-sun-20261012-034847-088.zip",
+            "name": "iron-sun-20261012-034847-088.zip",
+            "size_bytes": 440665808
+          },
+          {
+            "sha256": "E708A2606AB52C89E76AFC9A16FAB068B494018AD0A530135E997353D7B66ABB",
+            "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\build\\releases\\playtest-vs60-20261012-034847-088-game\\game-manifest.json",
+            "name": "game-manifest.json",
+            "size_bytes": 7265
+          },
+          {
+            "sha256": "875DFCDF714F5FA36AB10486EA766A2C8E47A9A5F6A11A5CF517CCD050AA9C05",
+            "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\build\\releases\\playtest-vs60-20261012-034847-088-game\\game-manifest.sig",
+            "name": "game-manifest.sig",
+            "size_bytes": 384
+          }
+        ],
+        "url": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs60-20261012-034847-088-game"
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "evidence/internet-publication.json",
+          "sha256": "300075BC241F9BA45088AFE570D63073AE059370A7E9636EB04D6470718685F5",
+          "size_bytes": 1373
+        }
+      ]
+    },
+    {
+      "name": "website",
+      "result": {
+        "passed": true,
+        "status": "succeeded",
+        "project_id": "appgprj_6acc0c9c3c9081918e14d60ab166d94c",
+        "version_id": "appgprj_6acc0c9c3c9081918e14d60ab166d94c~appgver_3d287259a5ec8191a7a902ac0f813474",
+        "version_number": 7,
+        "commit_sha": "7a1de4172fc07b5f336899253e3c1b494896226e",
+        "url": "https://iron-sun-playtest.wilcoxwarrior4577.chatgpt.site",
+        "time_utc": "2026-10-12T11:11:05.328071+00:00",
+        "archive_storage": {
+          "archive_format": "tar",
+          "sediment_file_id": "file_000000008e4881f8bf09d71946ab4a39",
+          "content_hash": "sha256:ec12be515b7a91e8e5b27c104f202c1e078c0a9f84ce7724157e3e613c2bff26",
+          "size_bytes": 3911680,
+          "file_count": 9
+        },
+        "scope": "Existing public download page updated to corrected VS60 game ZIP, UTF-8 punctuation, controls and submitted-review copy. Setup remains disabled. No layout/browser QA rerun."
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "evidence/website-publication.json",
+          "sha256": "1A7445A4EF83B3DE4AE40E7F961E6228CC6AE91BAA27765EF622DC698725EE19",
+          "size_bytes": 860
+        }
+      ]
+    },
+    {
+      "name": "native-lobby-20261012-035726",
+      "result": {
+        "passed": true,
+        "protocol": 60,
+        "address": "192.168.4.36:7777",
+        "wrong_invite_control": true,
+        "time_utc": "2026-10-12T10:57:28.272673+00:00",
+        "clients": 1,
+        "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+        "wrong_invite_rejected": true,
+        "client_logging_available": false,
+        "run_directory": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs60\\native-joins\\20261012-035726"
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "evidence/20261012-035726-native-result.json",
+          "sha256": "018AAD00873E95DD00CDE2C4A42EA31E8AA4BF4C33C7DACE026FBDFE5B29BBF6",
+          "size_bytes": 597
+        },
+        {
+          "path": "evidence/20261012-035726-native-server-redacted.log",
+          "sha256": "A272E2138AFEE798BBDF8D409E199E2FA2A1F8DFA103F213857CA427A05F6D1E",
+          "size_bytes": 4053
+        }
+      ]
+    },
+    {
+      "name": "native-lobby-20261012-035731",
+      "result": {
+        "passed": true,
+        "protocol": 60,
+        "address": "192.168.4.36:7777",
+        "wrong_invite_control": false,
+        "time_utc": "2026-10-12T10:57:33.626079+00:00",
+        "clients": 2,
+        "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance. Additionally one Shipping peer forcibly terminated; actual server timeout/logout leaves the other connected and driver running. No normal combat claim.",
+        "lobby_join_accepted": true,
+        "held_seconds": 12,
+        "unresolved_network_references": 0,
+        "disconnected_peer_isolated": true,
+        "remaining_peer_connected": true,
+        "client_logging_available": false,
+        "run_directory": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs60\\native-joins\\20261012-035731"
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "evidence/20261012-035731-native-result.json",
+          "sha256": "A6A931DD92B03CC0065A527756DD43B283200BA98ACC81C04DFCBB93F153DE23",
+          "size_bytes": 886
+        },
+        {
+          "path": "evidence/20261012-035731-native-server-redacted.log",
+          "sha256": "5F36D1D965F1E1AB1571495F0350250D316243271484B939CBE8FB7F9FDE9F77",
+          "size_bytes": 9952
+        }
+      ]
+    },
+    {
+      "name": "native-lobby-20261012-035850",
+      "result": {
+        "passed": true,
+        "protocol": 60,
+        "address": "cairo-ferry.tun.ply.gg:42527",
+        "wrong_invite_control": false,
+        "time_utc": "2026-10-12T10:59:50.733463+00:00",
+        "clients": 2,
+        "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+        "lobby_join_accepted": true,
+        "held_seconds": 12,
+        "unresolved_network_references": 0,
+        "client_logging_available": false,
+        "run_directory": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs60\\native-joins\\20261012-035850"
+      },
+      "current_game_inputs_exact_match": true,
+      "evidence": [
+        {
+          "path": "evidence/20261012-035850-native-result.json",
+          "sha256": "C5F423E39078276BE785F1493110BFC95B0DEB4B69ED6E52A8DDBC3CECE96B89",
+          "size_bytes": 669
+        },
+        {
+          "path": "evidence/20261012-035850-native-server-redacted.log",
+          "sha256": "6C5A69F95DFE72F66B9D4B89F3AC8DA38506B7E843CAC23E162F21B0CCAFE2C6",
+          "size_bytes": 6280
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "evidence/1080p-01-Arsenal-Ion.png",
+      "sha256": "3F21D8A96CD9E6DC283B5C2CA6C6D0B3310577FCAA7E8BD60EF1CD6B2242A59E",
+      "size_bytes": 2464858
+    },
+    {
+      "path": "evidence/1080p-02-Ion-Ready.png",
+      "sha256": "63F5223659B9A694B11D681E11E1A39FE64B5C38C284AD9F977A102971E9FE33",
+      "size_bytes": 2113373
+    },
+    {
+      "path": "evidence/1080p-03-Ion-Lean.png",
+      "sha256": "22B6613BA92A9934183F6112D759BEAD34439A2A6519CCDF8141AF6AAAE40F2A",
+      "size_bytes": 2061006
+    },
+    {
+      "path": "evidence/1080p-04-Settings-Hold.png",
+      "sha256": "8A86C2A2D903B2DEFCFD4A67A60126B05369937B01A1054143B33689CEDA9D7D",
+      "size_bytes": 959785
+    },
+    {
+      "path": "evidence/20261012-035726-native-result.json",
+      "sha256": "018AAD00873E95DD00CDE2C4A42EA31E8AA4BF4C33C7DACE026FBDFE5B29BBF6",
+      "size_bytes": 597
+    },
+    {
+      "path": "evidence/20261012-035726-native-server-redacted.log",
+      "sha256": "A272E2138AFEE798BBDF8D409E199E2FA2A1F8DFA103F213857CA427A05F6D1E",
+      "size_bytes": 4053
+    },
+    {
+      "path": "evidence/20261012-035731-native-result.json",
+      "sha256": "A6A931DD92B03CC0065A527756DD43B283200BA98ACC81C04DFCBB93F153DE23",
+      "size_bytes": 886
+    },
+    {
+      "path": "evidence/20261012-035731-native-server-redacted.log",
+      "sha256": "5F36D1D965F1E1AB1571495F0350250D316243271484B939CBE8FB7F9FDE9F77",
+      "size_bytes": 9952
+    },
+    {
+      "path": "evidence/20261012-035850-native-result.json",
+      "sha256": "C5F423E39078276BE785F1493110BFC95B0DEB4B69ED6E52A8DDBC3CECE96B89",
+      "size_bytes": 669
+    },
+    {
+      "path": "evidence/20261012-035850-native-server-redacted.log",
+      "sha256": "6C5A69F95DFE72F66B9D4B89F3AC8DA38506B7E843CAC23E162F21B0CCAFE2C6",
+      "size_bytes": 6280
+    },
+    {
+      "path": "evidence/authority-regression-red.json",
+      "sha256": "776D989C6D2B5CFAD4BC7B84F155F16010953AE37BF65668DA2FC3D569358080",
+      "size_bytes": 616
+    },
+    {
+      "path": "evidence/build-authority-final.log",
+      "sha256": "29BA3079788704B868DF71E10A972E6836FB0055865C4AF06903809CD33B504B",
+      "size_bytes": 5886
+    },
+    {
+      "path": "evidence/checkpoint-disk-world-0-markers.log",
+      "sha256": "77769C9D9EB46470CB422506AEA76F003F0764B186CE4DC04A9FB4E366ADA811",
+      "size_bytes": 3217
+    },
+    {
+      "path": "evidence/checkpoint-disk-world-result.json",
+      "sha256": "65A3211852D6EFAD610305EB363659EB35A56463D87097EDCB35B7E56C9F4AD5",
+      "size_bytes": 448
+    },
+    {
+      "path": "evidence/current-result.json",
+      "sha256": "31F09C1C870D39EC21F05CE4422F9A6929D75FECBCB41D8BA3EA51AC5753B24B",
+      "size_bytes": 236
+    },
+    {
+      "path": "evidence/dedicated-coop-boundaries-final-0-markers.log",
+      "sha256": "0C35C51BA515BF4EA3E12BD780DF53D9962C3FDEBE1D03F5E0D02944F5667F8B",
+      "size_bytes": 1131
+    },
+    {
+      "path": "evidence/dedicated-coop-boundaries-final-1-markers.log",
+      "sha256": "941BA3BCD519F00FB1377D97D27FF3618F32043205E732CC22224B3B4CFCF4FF",
+      "size_bytes": 1427
+    },
+    {
+      "path": "evidence/dedicated-coop-boundaries-final-2-markers.log",
+      "sha256": "EDA28C584C080AF3895EA10720261F22D3ACBECFBEA7B819100ECF91F77C72BD",
+      "size_bytes": 1893
+    },
+    {
+      "path": "evidence/dedicated-coop-boundaries-final-result.json",
+      "sha256": "5548499B8B7147BA1F767360DAB0F41416E513C8ED99AF162EE10C1A693D348B",
+      "size_bytes": 1115
+    },
+    {
+      "path": "evidence/grounded-progression-final-0-markers.log",
+      "sha256": "7BA9296EFEAC5A336D5E865907A0AC2366937A9E32F07A9D6250A44DB764D992",
+      "size_bytes": 1066
+    },
+    {
+      "path": "evidence/grounded-progression-final-result.json",
+      "sha256": "C89C70485948AA22EF468E52D3019A02EA98D7BEA6F64C70B5BC1FE6B9235B7C",
+      "size_bytes": 414
+    },
+    {
+      "path": "evidence/install-hash-check.json",
+      "sha256": "4F1207F56DCCD75EEDFAAE9FCED4CE490EDB8E63D32648E0BE1A1421B98B5966",
+      "size_bytes": 323
+    },
+    {
+      "path": "evidence/install-result.json",
+      "sha256": "5312FB65424636746F4D9AA096A69959CDA0399D53269DA057C040797E0CEB9E",
+      "size_bytes": 236
+    },
+    {
+      "path": "evidence/internet-publication.json",
+      "sha256": "300075BC241F9BA45088AFE570D63073AE059370A7E9636EB04D6470718685F5",
+      "size_bytes": 1373
+    },
+    {
+      "path": "evidence/ion-v1-migration-0-markers.log",
+      "sha256": "372E1B8736F229706FF98486FF84677FD37EDC3E036863F1F5452B0498FE75A2",
+      "size_bytes": 316
+    },
+    {
+      "path": "evidence/ion-v1-migration-result.json",
+      "sha256": "D151C072326E9D5154C69AEC1DEDF0C0ACA6DEEDA759E24D7F6C4B8FB015C98E",
+      "size_bytes": 602
+    },
+    {
+      "path": "evidence/lean-ion-final-0-markers.log",
+      "sha256": "1FA1C9B5EB4BBF19FC8886CA8FD18664D9DE0E568841D1E694E96F41313D264A",
+      "size_bytes": 320
+    },
+    {
+      "path": "evidence/lean-ion-final-result.json",
+      "sha256": "098B288AA04B254DA4CDCE2164AB1A9DAA518A75AA9ACF970EA47B50BA1C97CF",
+      "size_bytes": 607
+    },
+    {
+      "path": "evidence/LEAN_AND_ION.md",
+      "sha256": "BFE9D0D7CD7B1F82AB0A48628906E11165FC7336F249EF9FC53CAD0E6CABE5C8",
+      "size_bytes": 4359
+    },
+    {
+      "path": "evidence/linux-authority-final.log",
+      "sha256": "16E69BA11A79680671D3913A047EA8C961429579A43BB3EAE5917337F30B112F",
+      "size_bytes": 65745
+    },
+    {
+      "path": "evidence/native-archive.json",
+      "sha256": "3C06E28235C3F14F0A207A01A21623F789F91F2F62A9E396906D5CCE15765A7F",
+      "size_bytes": 380
+    },
+    {
+      "path": "evidence/native-deployment.json",
+      "sha256": "D3F37FD2F9D4427190879CC18239E3BFC181921DB45EBED48F166DEEA332579C",
+      "size_bytes": 1123
+    },
+    {
+      "path": "evidence/native-final-status.json",
+      "sha256": "34CEF87DA730E3A61AF1A93EE1EAFE72B145982A794FF587CB27400307205BA3",
+      "size_bytes": 251
+    },
+    {
+      "path": "evidence/native-known-warnings.json",
+      "sha256": "936E019155A0622613EBB310E22392DA9CC43E6A6D0ED1BF41E5C8E3A1391CF5",
+      "size_bytes": 341
+    },
+    {
+      "path": "evidence/owned-lean-ion-network-final-0-markers.log",
+      "sha256": "617F59766922FCA1553CFC95C1B73BDD3DBD025DBC7168970C70A9963C177D03",
+      "size_bytes": 419
+    },
+    {
+      "path": "evidence/owned-lean-ion-network-final-1-markers.log",
+      "sha256": "B44C66A895C8F06702C5EFE2A7D6EAB0707C923BEFBDE47BEDFD780574A78D04",
+      "size_bytes": 310
+    },
+    {
+      "path": "evidence/owned-lean-ion-network-final-result.json",
+      "sha256": "9057779A64D31146A69751DEEB71B34173A62D592140534057253C029B5E1D3F",
+      "size_bytes": 792
+    },
+    {
+      "path": "evidence/package-artifacts.json",
+      "sha256": "B35954C04AF9695295CA09F2A26F21A02AACCC8C2E43B54139AF168D545D75AF",
+      "size_bytes": 6446
+    },
+    {
+      "path": "evidence/perk-unlocks-effects-0-markers.log",
+      "sha256": "B21518889E260E8CC1080F037B356D114BE852BD19BA9256DD77C06D7048BE03",
+      "size_bytes": 304
+    },
+    {
+      "path": "evidence/perk-unlocks-effects-result.json",
+      "sha256": "16EF8C09839C6C6D4DB4A82F199E35B951E7BE61D5A1C5801447A9C151AF0998",
+      "size_bytes": 594
+    },
+    {
+      "path": "evidence/PLAY_ON_PC.md",
+      "sha256": "2A93BB9368E66C044104B2031755E67954846A6EE79779A919E796F0D6F2A555",
+      "size_bytes": 5853
+    },
+    {
+      "path": "evidence/prior-latest.json",
+      "sha256": "E35978229FCA09014BF07E09A263280732422975F180644133F0E0794B2B12D8",
+      "size_bytes": 12918
+    },
+    {
+      "path": "evidence/private-auth-save-slots-0-markers.log",
+      "sha256": "C683B275B319980DDA3A1C0020D73BC93CCEE234FDAD693DA077DD9F2994BDD5",
+      "size_bytes": 988
+    },
+    {
+      "path": "evidence/private-auth-save-slots-result.json",
+      "sha256": "5F64633951A5C195FAB3FB064F3A094872EE03C04CF185A8D367BE8EE50A4BBD",
+      "size_bytes": 457
+    },
+    {
+      "path": "evidence/private-authority-final-0-markers.log",
+      "sha256": "0C28B1BB7B03F802DDC6C1BC690EF7DCAF7A34F6980268D84E484671496E13E9",
+      "size_bytes": 1175
+    },
+    {
+      "path": "evidence/private-authority-final-result.json",
+      "sha256": "8A07DA08468E00F951E643F28CE73A8B969852D99C0F779A04560F53C45EE48B",
+      "size_bytes": 736
+    },
+    {
+      "path": "evidence/PRIVATE_SERVER.md",
+      "sha256": "C2CFBA42B26896B0739B4D057E8BEC71CEA60712B2FAAC0AB046584EAF4AF11D",
+      "size_bytes": 7605
+    },
+    {
+      "path": "evidence/PROGRESSION.md",
+      "sha256": "D81384C28A41985C5376FF7B1D43F7BDFED2A0BABEC1D5FBABCCB5E86C84D7BC",
+      "size_bytes": 5740
+    },
+    {
+      "path": "evidence/publish-local.json",
+      "sha256": "16CC63BC65B62AB613C851873ED83BD2764D3AB5CDB17FCA4BB96F1500395CD2",
+      "size_bytes": 429
+    },
+    {
+      "path": "evidence/raw-log-identities.json",
+      "sha256": "636DC3E01CF54653FF832DA7934E5C0C3CB5E58270C22CBA2FDFFB7BC3F5DBBC",
+      "size_bytes": 4425
+    },
+    {
+      "path": "evidence/repaired-checks.json",
+      "sha256": "8A99E867774ADF04BE81BDE75D5D15DA6BCCDEC467A6D6635F039CC0A34ACB2E",
+      "size_bytes": 1360
+    },
+    {
+      "path": "evidence/shipping-editor-lobby-final-0-markers.log",
+      "sha256": "83E897D577019C90D7A3BBD22C6FB41AB72B3202332C8DA664A25985530384FF",
+      "size_bytes": 361
+    },
+    {
+      "path": "evidence/shipping-editor-lobby-final-result.json",
+      "sha256": "08F265C95D55236A735C8C0949B29F198A62D585A4029C39A758AFF2F963E743",
+      "size_bytes": 932
+    },
+    {
+      "path": "evidence/superseded-native-false-pass-audit.json",
+      "sha256": "083867936CEC2D76542C011A97009783B8063E0038836645EB58B45578E64FEB",
+      "size_bytes": 831
+    },
+    {
+      "path": "evidence/superseded-native-server-redacted.log",
+      "sha256": "D24A0AD3582174690B786C0A99C171095A04FBA4CA4DA09C845B3E51272D9280",
+      "size_bytes": 14056
+    },
+    {
+      "path": "evidence/VS60_COOP_TEST_CARD.md",
+      "sha256": "F18A2C574CF8C0C411D88614FE7B7BE288CB753BD259107B97860565DBA5EF2E",
+      "size_bytes": 2346
+    },
+    {
+      "path": "evidence/website-content-check.json",
+      "sha256": "225739382AA8AD7BDB602A49C227ABC83C30394EDDF3AC434B593230E12ECB64",
+      "size_bytes": 260
+    },
+    {
+      "path": "evidence/website-publication.json",
+      "sha256": "1A7445A4EF83B3DE4AE40E7F961E6228CC6AE91BAA27765EF622DC698725EE19",
+      "size_bytes": 860
+    },
+    {
+      "path": "evidence/windows-authority-final.log",
+      "sha256": "84BEF9EBCD6A763820C33CD2E8DE0D1E43BC81495A9A10404D0FCB1FF941ACCD",
+      "size_bytes": 85573
+    }
+  ]
+}

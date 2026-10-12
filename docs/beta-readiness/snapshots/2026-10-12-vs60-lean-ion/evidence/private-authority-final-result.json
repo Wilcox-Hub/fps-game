@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "tests": [
+    "Ridgefire.PrivateServer.AddressValidation",
+    "Ridgefire.PrivateServer.AuthorityFailureIsolation",
+    "Ridgefire.PrivateServer.CheckpointIsolation",
+    "Ridgefire.PrivateServer.InviteProof"
+  ],
+  "failures": [],
+  "filter": "Ridgefire.PrivateServer.",
+  "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261012-034727-337\\Automation.log",
+  "rendered": false,
+  "editor_only": false,
+  "exit_code": 0,
+  "time_utc": "2026-10-12T10:47:38.8760826Z",
+  "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+}

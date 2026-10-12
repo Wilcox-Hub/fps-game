@@ -1,0 +1,10 @@
+[2026.10.12-10.49.20:176][  0]LogNetVersion: Set GameNetworkProtocolVersion to 60d. Version Checksum will be recalculated on next use.
+[2026.10.12-10.49.22:528][  0]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17857
+[2026.10.12-10.49.23:621][ 21]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=24484 players=1
+[2026.10.12-10.49.25:011][ 71]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=24485 players=2
+[2026.10.12-10.49.29:667][238]LogTemp: Display: RIDGEFIRE LOBBY launched players=2 epoch=24485 perks_seconds=20
+[2026.10.12-10.50.02:985][368]LogTemp: Display: IRON SUN PRIVATE SERVER AUTHORITY PASS dedicated=true remote_players=2
+[2026.10.12-10.51.15:864][217]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=1 active=1 wave=1 party=2
+[2026.10.12-10.51.30:233][691]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=7537 players=1
+[2026.10.12-10.51.38:506][976]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=7538 players=2
+[2026.10.12-10.51.41:358][ 67]LogTemp: Display: RIDGEFIRE CHECKPOINT restored arena=0 wave=1 party=2 seed=6868 regroup=90

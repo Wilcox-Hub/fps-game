@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "protocol": 60,
+  "address": "192.168.4.36:7777",
+  "wrong_invite_control": true,
+  "time_utc": "2026-10-12T10:57:28.272673+00:00",
+  "clients": 1,
+  "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+  "wrong_invite_rejected": true,
+  "client_logging_available": false,
+  "run_directory": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs60\\native-joins\\20261012-035726"
+}

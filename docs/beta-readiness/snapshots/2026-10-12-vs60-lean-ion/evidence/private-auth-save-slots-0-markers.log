@@ -1,0 +1,7 @@
+[2026.10.12-09.57.18:917][  0]LogNetVersion: Set GameNetworkProtocolVersion to 60d. Version Checksum will be recalculated on next use.
+[2026.10.12-09.57.26:209][252]LogAutomationController: Display: Test Completed. Result={Success} Name={AddressValidation} Path={Ridgefire.PrivateServer.AddressValidation}
+[2026.10.12-09.57.26:230][253]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=1 active=1 wave=1 party=1
+[2026.10.12-09.57.26:234][253]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=2 active=0 wave=0 party=0
+[2026.10.12-09.57.26:238][253]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=3 active=0 wave=0 party=0
+[2026.10.12-09.57.26:242][254]LogAutomationController: Display: Test Completed. Result={Success} Name={CheckpointIsolation} Path={Ridgefire.PrivateServer.CheckpointIsolation}
+[2026.10.12-09.57.26:287][256]LogAutomationController: Display: Test Completed. Result={Success} Name={InviteProof} Path={Ridgefire.PrivateServer.InviteProof}

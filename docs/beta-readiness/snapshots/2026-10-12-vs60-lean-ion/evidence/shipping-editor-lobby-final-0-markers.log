@@ -1,0 +1,3 @@
+[2026.10.12-10.50.49:032][  0]LogNetVersion: Set GameNetworkProtocolVersion to 60d. Version Checksum will be recalculated on next use.
+[2026.10.12-10.50.51:966][  0]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17957
+[2026.10.12-10.50.57:565][175]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=31210 players=1

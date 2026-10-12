@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "status": "succeeded",
+  "project_id": "appgprj_6acc0c9c3c9081918e14d60ab166d94c",
+  "version_id": "appgprj_6acc0c9c3c9081918e14d60ab166d94c~appgver_3d287259a5ec8191a7a902ac0f813474",
+  "version_number": 7,
+  "commit_sha": "7a1de4172fc07b5f336899253e3c1b494896226e",
+  "url": "https://iron-sun-playtest.wilcoxwarrior4577.chatgpt.site",
+  "time_utc": "2026-10-12T11:11:05.328071+00:00",
+  "archive_storage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_000000008e4881f8bf09d71946ab4a39",
+    "content_hash": "sha256:ec12be515b7a91e8e5b27c104f202c1e078c0a9f84ce7724157e3e613c2bff26",
+    "size_bytes": 3911680,
+    "file_count": 9
+  },
+  "scope": "Existing public download page updated to corrected VS60 game ZIP, UTF-8 punctuation, controls and submitted-review copy. Setup remains disabled. No layout/browser QA rerun."
+}

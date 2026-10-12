@@ -1,0 +1,14 @@
+[2026.10.12-10.49.18:738][  0]LogNetVersion: Set GameNetworkProtocolVersion to 60d. Version Checksum will be recalculated on next use.
+[2026.10.12-10.49.20:981][  0]LogTemp: Display: IRON SUN PRIVATE SERVER STAGE peer=0 stage=0
+[2026.10.12-10.49.21:012][  1]LogTemp: Display: IRON SUN PRIVATE SERVER STAGE peer=0 stage=2
+[2026.10.12-10.49.29:651][405]LogTemp: Display: IRON SUN PRIVATE SERVER STAGE peer=0 stage=3
+[2026.10.12-10.50.03:467][ 36]LogTemp: Display: IRON SUN PRIVATE SERVER STAGE peer=0 stage=4
+[2026.10.12-10.50.03:995][ 61]LogTemp: Display: IRON SUN PRIVATE SERVER STAGE peer=0 stage=5
+[2026.10.12-10.50.04:304][ 76]LogTemp: Display: IRON SUN PRIVATE SERVER STAGE peer=0 stage=6
+[2026.10.12-10.50.05:006][110]LogTemp: Display: IRON SUN PRIVATE SERVER STAGE peer=0 stage=7
+[2026.10.12-10.50.05:300][123]LogTemp: Display: IRON SUN PRIVATE SERVER FIRE PASS peer=0
+[2026.10.12-10.50.05:316][124]LogTemp: Display: IRON SUN PRIVATE SERVER STAGE peer=0 stage=8
+[2026.10.12-10.51.15:878][422]LogTemp: Display: IRON SUN PRIVATE SERVER STAGE peer=0 stage=9
+[2026.10.12-10.51.37:900][466]LogTemp: Display: IRON SUN PRIVATE SERVER STAGE peer=0 stage=10
+[2026.10.12-10.51.39:174][506]LogTemp: Display: IRON SUN PRIVATE SERVER STAGE peer=0 stage=11
+[2026.10.12-10.51.41:391][611]LogTemp: Display: IRON SUN PRIVATE SERVER CLIENT PASS peer=0 timed_setup=true primary_secondary_LMB=true leave_rejoin=true empty_server_resume=true

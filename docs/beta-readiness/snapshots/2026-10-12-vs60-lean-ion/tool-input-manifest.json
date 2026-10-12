@@ -1,0 +1,45 @@
+{
+  "scope": "Exact final module/runners; generated server fixtures are in game inputs. Historical checks use their saved dates and scopes.",
+  "files": [
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Binaries\\Win64\\UnrealEditor-TP_FirstPerson.dll",
+      "sha256": "0CFBCEA10569275EAD3F9A766227E8B8B07667807D38792CA37D72D8E2DB5816",
+      "size_bytes": 3296768
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Tools\\Invoke-LeanIonChecks.ps1",
+      "sha256": "7959C36295FE372070B45B14D7B08DE329A6B3C9D9362CC1AB5AB91B27AD85C3",
+      "size_bytes": 2561
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Tools\\Invoke-ProgressionChecks.ps1",
+      "sha256": "15B9E4F553BA6CEE66EF483D32FA4FF9ABD345963B7BF1396A19E6063E6DC30A",
+      "size_bytes": 3072
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Tools\\Invoke-PressureNetworkChecks.ps1",
+      "sha256": "F25F78D51A4F148A195DC422820599AE33BB7DA97148BCC6D706000059D4DCF0",
+      "size_bytes": 2933
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Tools\\Invoke-PackagedPrivateJoin.ps1",
+      "sha256": "D9186D70023E570A66CCBEA780AC42E59038C2A44C733124C781586B8796ED3F",
+      "size_bytes": 3672
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs60\\check-native-join.py",
+      "sha256": "38CFA65A809036ED8B59C02D898C16986DA0BE0BDB1A8666C17FFA80ACED3760",
+      "size_bytes": 7663
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs60\\deploy_native.py",
+      "sha256": "768B8485EECF98039435C725095E9914B00A7C18346F619DBED55EFA91EB781C",
+      "size_bytes": 4763
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs60\\Render-Review.ps1",
+      "sha256": "D8A7A2C657FD2894DF7B120AF76E20F9924BD6E2487F3EAF1D36EB363D4FD982",
+      "size_bytes": 1627
+    }
+  ]
+}

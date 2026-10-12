@@ -1,0 +1,9 @@
+{
+  "authority_recovery": "Remote ConnectionTimeout incorrectly queued dedicated ReturnToMenu; next join opened menu and destroyed the driver. Raw logs invalidate old stale-roster relay pass. Corrected policy preserves authority; red unit regression, final dedicated fixture and actual native one-peer-timeout survivor check pass. Old candidate withdrawn from latest.",
+  "initial_input_failure": "Native Q/E/Z key bindings were queued instead of immediately routed; corrected and final real InputKey checks pass.",
+  "initial_ui_failures": "First fixture mouse event did not open settings; selected sixth offer was offscreen until post-layout scroll. Final actual-pointer and visible-row captures inspected.",
+  "progression_failure": "Initial generic invocation omitted required voting fixture. Correct invocation exposed held fixture crouch at team-speed check: standing baseline 600, crouched 315 with actual 1.05 bonus. Cleanup releases held crouch; original scenario passes. No gameplay movement change.",
+  "initial_linux_failure": "LINUX_MULTIARCH_ROOT not set in initial shell; explicit verified v26 SDK root resolves it.",
+  "old_package_result_metadata": "Earlier package wrapper hardcoded protocol57 while runtime logged60. Wrapper now reads GameProtocolVersion; final package result and runtime both60.",
+  "debug_instrumentation_removed": true
+}

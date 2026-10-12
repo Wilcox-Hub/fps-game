@@ -1,0 +1,3 @@
+{
+  "scope": "Native Development server sends optional GameplayDebuggerCategoryReplicator actors absent from Shipping clients; ActorChannelFailure warnings observed. No unresolved arena-reference warning or closed held client accepted. Normal packaged combat remains unaccepted; remove dev debug replication in a later packaging cleanup."
+}

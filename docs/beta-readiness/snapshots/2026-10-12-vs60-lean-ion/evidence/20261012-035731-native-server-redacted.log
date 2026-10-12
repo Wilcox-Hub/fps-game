@@ -1,0 +1,49 @@
+[2026.10.12-10.57.33:663][519]LogNet: NotifyAcceptingConnection accepted from: 192.168.4.88:57699
+[2026.10.12-10.57.33:663][519]LogHandshake: SendConnectChallenge. Timestamp: 8.742672, Cookie: 202042042113013104073039034016160214204248155177014132034227
+[2026.10.12-10.57.33:680][520]LogNet: NotifyAcceptingConnection accepted from: 192.168.4.88:57699
+[2026.10.12-10.57.33:680][520]LogHandshake: SendChallengeAck. InCookie: 202042042113013104073039034016160214204248155177014132034227
+[2026.10.12-10.57.33:680][520]LogNet: Server accepting post-challenge connection from: 192.168.4.88:57699
+[2026.10.12-10.57.33:680][520]LogNet: IpConnection_2147481948 setting maximum channels to: 32767
+[2026.10.12-10.57.33:681][520]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.10.12-10.57.33:682][520]LogNet: NotifyAcceptedConnection: Name: Lvl_Shooter, TimeStamp: 10/12/26 10:57:33, [UNetConnection] RemoteAddr: 192.168.4.88:57699, Name: IpConnection_2147481948, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.12-10.57.33:682][520]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.4.88:57699, Name: IpConnection_2147481948, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.12-10.57.33:697][521]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter: Accepted
+[2026.10.12-10.57.33:697][521]LogNet: Remote platform little endian=1
+[2026.10.12-10.57.33:697][521]LogNet: This platform little endian=1
+[2026.10.12-10.57.33:697][521]LogNet: NotifyAcceptingConnection accepted from: 192.168.4.88:57700
+[2026.10.12-10.57.33:697][521]LogHandshake: SendConnectChallenge. Timestamp: 8.776317, Cookie: 125160158246072207191020239105214199092108226154097158168047
+[2026.10.12-10.57.33:713][522]LogNet: Login URL: REDACTED
+[2026.10.12-10.57.33:714][522]LogNet: NotifyAcceptingConnection accepted from: 192.168.4.88:57700
+[2026.10.12-10.57.33:714][522]LogHandshake: SendChallengeAck. InCookie: 125160158246072207191020239105214199092108226154097158168047
+[2026.10.12-10.57.33:714][522]LogNet: Server accepting post-challenge connection from: 192.168.4.88:57700
+[2026.10.12-10.57.33:714][522]LogNet: IpConnection_2147481943 setting maximum channels to: 32767
+[2026.10.12-10.57.33:716][522]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.10.12-10.57.33:716][522]LogNet: NotifyAcceptedConnection: Name: Lvl_Shooter, TimeStamp: 10/12/26 10:57:33, [UNetConnection] RemoteAddr: 192.168.4.88:57700, Name: IpConnection_2147481943, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.12-10.57.33:716][522]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.4.88:57700, Name: IpConnection_2147481943, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.12-10.57.33:730][523]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter: Accepted
+[2026.10.12-10.57.33:730][523]LogNet: Remote platform little endian=1
+[2026.10.12-10.57.33:730][523]LogNet: This platform little endian=1
+[2026.10.12-10.57.33:746][524]LogNet: Client netspeed is 100000
+[2026.10.12-10.57.33:746][524]LogNet: Join URL: REDACTED
+[2026.10.12-10.57.33:750][524]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=388886427 players=1
+[2026.10.12-10.57.33:751][524]LogNet: Join succeeded: DESKTOP-9I0RDNT-7C4F
+[2026.10.12-10.57.33:751][524]LogNet: Login URL: REDACTED
+[2026.10.12-10.57.33:780][526]LogNet: Client netspeed is 100000
+[2026.10.12-10.57.33:780][526]LogNet: Join URL: REDACTED
+[2026.10.12-10.57.33:786][526]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=388886428 players=2
+[2026.10.12-10.57.33:787][526]LogNet: Join succeeded: DESKTOP-9I0RDNT-6C02
+[2026.10.12-10.57.33:966][537]LogNet: Server connection received: ActorChannelFailure 10 [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.4.88:57699, Name: IpConnection_2147481948, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481938, Owner: BP_ShooterPlayerController_C_2147481938, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064
+[2026.10.12-10.57.33:966][537]LogNet: Actor channel failed: [UActorChannel] Actor: GameplayDebuggerCategoryReplicator /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter:PersistentLevel.GameplayDebuggerCategoryReplicator_2147481881, Role: 3, RemoteRole: 1 [UChannel] ChIndex: 10, Closing: 0 [UNetConnection] RemoteAddr: 192.168.4.88:57699, Name: IpConnection_2147481948, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481938, Owner: BP_ShooterPlayerController_C_2147481938, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064
+[2026.10.12-10.57.33:967][537]LogNet: Server connection received: ActorChannelFailure 16 [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.4.88:57700, Name: IpConnection_2147481943, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481910, Owner: BP_ShooterPlayerController_C_2147481910, UniqueId: NULL:DESKTOP-9I0RDNT-6C024EF1408C3870A3282988CB871C1A
+[2026.10.12-10.57.33:967][537]LogNet: Actor channel failed: [UActorChannel] Actor: GameplayDebuggerCategoryReplicator /Game/Variant_Shooter/Lvl_Shooter.Lvl_Shooter:PersistentLevel.GameplayDebuggerCategoryReplicator_2147481880, Role: 3, RemoteRole: 1 [UChannel] ChIndex: 16, Closing: 0 [UNetConnection] RemoteAddr: 192.168.4.88:57700, Name: IpConnection_2147481943, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481910, Owner: BP_ShooterPlayerController_C_2147481910, UniqueId: NULL:DESKTOP-9I0RDNT-6C024EF1408C3870A3282988CB871C1A
+[2026.10.12-10.58.46:704][845]LogNet: Warning: UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 60.01, Real: 60.01, Good: 60.01, DriverTime: 81.78, Threshold: 60.00, [UNetConnection] RemoteAddr: 192.168.4.88:57699, Name: IpConnection_2147481948, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481938, Owner: BP_ShooterPlayerController_C_2147481938, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064
+[2026.10.12-10.58.46:704][845]LogNet: Error: UEngine::BroadcastNetworkFailure: FailureType = ConnectionTimeout, ErrorString = UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 60.01, Real: 60.01, Good: 60.01, DriverTime: 81.78, Threshold: 60.00, [UNetConnection] RemoteAddr: 192.168.4.88:57699, Name: IpConnection_2147481948, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481938, Owner: BP_ShooterPlayerController_C_2147481938, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064, Driver = Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413
+[2026.10.12-10.58.46:704][845]LogTemp: Warning: RIDGEFIRE SESSION AUTHORITY FAILURE ISOLATED type=4; remote logout/service monitoring retains authority
+[2026.10.12-10.58.46:704][845]LogNet: NetworkFailure: ConnectionTimeout, Error: 'UNetConnection::Tick: Connection TIMED OUT. Closing connection.. Elapsed: 60.01, Real: 60.01, Good: 60.01, DriverTime: 81.78, Threshold: 60.00, [UNetConnection] RemoteAddr: 192.168.4.88:57699, Name: IpConnection_2147481948, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481938, Owner: BP_ShooterPlayerController_C_2147481938, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064'
+[2026.10.12-10.58.46:704][845]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.4.88:57699, Name: IpConnection_2147481948, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481938, Owner: BP_ShooterPlayerController_C_2147481938, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064, Channels: 17, Time: 2026.10.12-10.58.46
+[2026.10.12-10.58.46:704][845]LogNet: UNetConnection::SendCloseReason:
+[2026.10.12-10.58.46:704][845]LogNet:  - Result=ConnectionTimeout, ErrorContext="ConnectionTimeout"
+[2026.10.12-10.58.46:704][845]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.4.88:57699, Name: IpConnection_2147481948, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481938, Owner: BP_ShooterPlayerController_C_2147481938, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064
+[2026.10.12-10.58.46:715][846]LogNet: UNetDriver::RemoveClientConnection - Removed address 192.168.4.88:57699 from MappedClientConnections for: [UNetConnection] RemoteAddr: 192.168.4.88:57699, Name: IpConnection_2147481948, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482413, IsServer: YES, PC: BP_ShooterPlayerController_C_2147481938, Owner: BP_ShooterPlayerController_C_2147481938, UniqueId: NULL:DESKTOP-9I0RDNT-7C4FDC094C11483B7A531CBA4C3DD064
+[2026.10.12-10.58.46:721][846]LogTemp: Display: RIDGEFIRE: Player BP_ShooterPlayerController_C_2147481938 selected starting offer 1 (Gale Repeater).
+[2026.10.12-10.58.46:736][846]LogTemp: Display: RIDGEFIRE LOBBY roster_changed epoch=388886429 players=1

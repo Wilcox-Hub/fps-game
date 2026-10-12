@@ -1,0 +1,2 @@
+[2026.10.12-10.49.04:258][  0]LogNetVersion: Set GameNetworkProtocolVersion to 60d. Version Checksum will be recalculated on next use.
+[2026.10.12-10.49.13:591][390]LogAutomationController: Display: Test Completed. Result={Success} Name={InputCoverChargeAndRecovery} Path={Ridgefire.LeanIon.InputCoverChargeAndRecovery}

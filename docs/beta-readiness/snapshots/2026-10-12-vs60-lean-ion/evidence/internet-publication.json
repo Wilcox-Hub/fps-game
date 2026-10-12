@@ -1,0 +1,31 @@
+{
+  "prepared": true,
+  "published": true,
+  "mode": "manual-game-only",
+  "repository": "Wilcox-Hub/iron-sun-releases",
+  "tag": "playtest-vs60-20261012-034847-088-game",
+  "protocol": 60,
+  "game_version": "20261012-034847-088",
+  "launcher_version": null,
+  "assets": [
+    {
+      "sha256": "386D00B90847AB5E6542516203DBFA070FB66FC762F217C363DA2723EEEA182F",
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\IRON-SUN-LAN\\iron-sun-20261012-034847-088.zip",
+      "name": "iron-sun-20261012-034847-088.zip",
+      "size_bytes": 440665808
+    },
+    {
+      "sha256": "E708A2606AB52C89E76AFC9A16FAB068B494018AD0A530135E997353D7B66ABB",
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\build\\releases\\playtest-vs60-20261012-034847-088-game\\game-manifest.json",
+      "name": "game-manifest.json",
+      "size_bytes": 7265
+    },
+    {
+      "sha256": "875DFCDF714F5FA36AB10486EA766A2C8E47A9A5F6A11A5CF517CCD050AA9C05",
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\distribution\\iron-sun-launcher\\build\\releases\\playtest-vs60-20261012-034847-088-game\\game-manifest.sig",
+      "name": "game-manifest.sig",
+      "size_bytes": 384
+    }
+  ],
+  "url": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs60-20261012-034847-088-game"
+}

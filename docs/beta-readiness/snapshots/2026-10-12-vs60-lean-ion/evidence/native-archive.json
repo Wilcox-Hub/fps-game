@@ -1,0 +1,10 @@
+{
+  "archive": "G:\\IronSunServerPackages\\VS60-20261012-authority\\iron-sun-vs60-linux-server.zip",
+  "sha256": "2A634F02AD9BBB7B616736A0B2F1B74DE546F46625A5563A5F19310631D11AC7",
+  "files": 33,
+  "bytes": 331724614,
+  "release_id": "2a634f02ad9bbb7b",
+  "protocol": 60,
+  "input_count": 607,
+  "scope": "Complete native server package only; no private keys or saves."
+}

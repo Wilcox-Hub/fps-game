@@ -1,0 +1,2 @@
+[2026.10.12-09.05.16:348][  0]LogNetVersion: Set GameNetworkProtocolVersion to 60d. Version Checksum will be recalculated on next use.
+[2026.10.12-09.06.01:139][214]LogAutomationController: Display: Test Completed. Result={Success} Name={UnlocksAndEffects} Path={Ridgefire.Progression.UnlocksAndEffects}

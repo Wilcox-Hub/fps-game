@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "tests": [
+    "Ridgefire.LeanIon.LegacyCheckpointMigration"
+  ],
+  "failures": [],
+  "filter": "Ridgefire.LeanIon.LegacyCheckpointMigration",
+  "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261012-020506-909\\Automation.log",
+  "rendered": false,
+  "editor_only": true,
+  "exit_code": 0,
+  "time_utc": "2026-10-12T09:06:33.2578041Z",
+  "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+}

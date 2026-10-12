@@ -1,0 +1,80 @@
+[
+  {
+    "group": "lean-ion-final",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261012-034859-817\\Automation.log",
+    "sha256": "50DE9A6E1B13C4B57F2578262FC13B1DCC01DA448A6B71C6BC772E04E5E55458",
+    "size_bytes": 192106
+  },
+  {
+    "group": "private-authority-final",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261012-034727-337\\Automation.log",
+    "sha256": "EE5BA8A635DB9A0D17DD6FD26D0D2C921EAA509AF92647ECB414CE4D6E107699",
+    "size_bytes": 187413
+  },
+  {
+    "group": "grounded-progression-final",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Progression\\checks-20261012-032312-939\\Automation.log",
+    "sha256": "6142C39BDE98CF5296DF9841CECAB5F6A09028438075A56FCD0F07AB71AC1F06",
+    "size_bytes": 192612
+  },
+  {
+    "group": "owned-lean-ion-network-final",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PressureNetwork\\checks-20261012-032313-695\\Host.log",
+    "sha256": "D92567C18D65A61FD203D92E288765F9304A6078F27C76854F0E09C84D84D81F",
+    "size_bytes": 187660
+  },
+  {
+    "group": "owned-lean-ion-network-final",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PressureNetwork\\checks-20261012-032313-695\\Client.log",
+    "sha256": "403D742C519F18F1A20C0DB402E4A255E97F33AD7AB5BA37726E6313BFA1C0FF",
+    "size_bytes": 181800
+  },
+  {
+    "group": "shipping-editor-lobby-final",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PackagedPrivate\\20261012-035043-218\\Server.log",
+    "sha256": "9D1119C6E7F0B1ACBF3AF758546872F5A669FAD90786A2BBD0B778AAF47A95CD",
+    "size_bytes": 179714
+  },
+  {
+    "group": "ion-v1-migration",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261012-020506-909\\Automation.log",
+    "sha256": "9A87DA5817AAA9CB0C615EAD235DED386F3CBE6251E6CDF6CE8657312D9E5CE4",
+    "size_bytes": 254262
+  },
+  {
+    "group": "perk-unlocks-effects",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261012-020507-418\\Automation.log",
+    "sha256": "B21D99F63B9D42D39EC4768EA9F4908625269E2142E7A034E33CD06B79FD39A7",
+    "size_bytes": 259845
+  },
+  {
+    "group": "checkpoint-disk-world",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Checkpoints\\20261012-021732-221\\Automation.log",
+    "sha256": "C8C827D2B2E8607A1F1E244E54466BB7B3ABB44CAE997389FA6767EFE149C45C",
+    "size_bytes": 192729
+  },
+  {
+    "group": "private-auth-save-slots",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateUnit\\20261012-025714-305\\Automation.log",
+    "sha256": "233738BDB4CBCAE18E8C2EF4E326CE09C1A739F51DD9BC3BAD6E481962256588",
+    "size_bytes": 184856
+  },
+  {
+    "group": "dedicated-coop-boundaries-final",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261012-034913-859\\Peer-1.log",
+    "sha256": "7C0B0BD362FBB2375D67C891F754F7958D2EB123519F29CD619C38FE6C570834",
+    "size_bytes": 237368
+  },
+  {
+    "group": "dedicated-coop-boundaries-final",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261012-034913-859\\Peer0.log",
+    "sha256": "E38EFC1FAF0495A5ACD400D4D492E5FAE9D8289E8214EDB504CD09B0E03C6862",
+    "size_bytes": 216808
+  },
+  {
+    "group": "dedicated-coop-boundaries-final",
+    "raw_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261012-034913-859\\Peer1.log",
+    "sha256": "FF4581A3373DF710559C0DDF72C73F1E0FAEB147BF7557A0BC2626127B033100",
+    "size_bytes": 237674
+  }
+]

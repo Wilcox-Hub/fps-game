@@ -1,0 +1,36 @@
+{
+  "result": {
+    "passed": true,
+    "log": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\research\\vs60\\render-20261012-024117.log",
+    "scope": "Actual offscreen standalone Editor renderer at 1920x1080; funded transactions, full-charge fixture and frozen enemies; no Shipping or human acceptance.",
+    "time_utc": "2026-10-12T09:41:48.0311266Z"
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "images": [
+    {
+      "path": "evidence/1080p-01-Arsenal-Ion.png",
+      "sha256": "3F21D8A96CD9E6DC283B5C2CA6C6D0B3310577FCAA7E8BD60EF1CD6B2242A59E",
+      "size_bytes": 2464858
+    },
+    {
+      "path": "evidence/1080p-02-Ion-Ready.png",
+      "sha256": "63F5223659B9A694B11D681E11E1A39FE64B5C38C284AD9F977A102971E9FE33",
+      "size_bytes": 2113373
+    },
+    {
+      "path": "evidence/1080p-03-Ion-Lean.png",
+      "sha256": "22B6613BA92A9934183F6112D759BEAD34439A2A6519CCDF8141AF6AAAE40F2A",
+      "size_bytes": 2061006
+    },
+    {
+      "path": "evidence/1080p-04-Settings-Hold.png",
+      "sha256": "8A86C2A2D903B2DEFCFD4A67A60126B05369937B01A1054143B33689CEDA9D7D",
+      "size_bytes": 959785
+    }
+  ],
+  "inspected": true,
+  "scope_note": "Selected sixth Ion offer visible, ready HUD, lean view and actual native-pointer-opened settings. Earlier same UI code; later damage/melee and unrelated fixture-only changes do not establish a new render. Prototype weapon art remains. No human/Shipping visual acceptance."
+}

@@ -1,0 +1,26 @@
+[2026.10.12-09.17.36:855][  0]LogNetVersion: Set GameNetworkProtocolVersion to 60d. Version Checksum will be recalculated on next use.
+[2026.10.12-09.17.44:219][246]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=1 active=1 wave=1 party=1
+[2026.10.12-09.17.44:222][246]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=2 active=0 wave=0 party=0
+[2026.10.12-09.17.44:226][246]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=3 active=0 wave=0 party=0
+[2026.10.12-09.17.44:231][247]LogAutomationController: Display: Test Completed. Result={Success} Name={DiskValidationAndRetirement} Path={Ridgefire.Checkpoints.DiskValidationAndRetirement}
+[2026.10.12-09.17.44:286][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=1 active=1 wave=1 party=1
+[2026.10.12-09.17.44:291][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=2 active=1 wave=1 party=2
+[2026.10.12-09.17.44:295][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=3 active=1 wave=1 party=1
+[2026.10.12-09.17.44:300][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=4 active=1 wave=2 party=1
+[2026.10.12-09.17.44:396][249]LogTemp: Display: RIDGEFIRE CHECKPOINT restored arena=0 wave=2 party=1 seed=1977 regroup=90
+[2026.10.12-09.17.44:402][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=5 active=1 wave=8 party=1
+[2026.10.12-09.17.44:438][249]LogTemp: Display: RIDGEFIRE CHECKPOINT restored arena=1 wave=8 party=1 seed=1977 regroup=90
+[2026.10.12-09.17.44:443][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=6 active=1 wave=14 party=1
+[2026.10.12-09.17.44:479][249]LogTemp: Display: RIDGEFIRE CHECKPOINT restored arena=2 wave=14 party=1 seed=1977 regroup=90
+[2026.10.12-09.17.44:485][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=7 active=1 wave=20 party=1
+[2026.10.12-09.17.44:521][249]LogTemp: Display: RIDGEFIRE CHECKPOINT restored arena=3 wave=20 party=1 seed=1977 regroup=90
+[2026.10.12-09.17.44:526][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=8 active=1 wave=0 party=1
+[2026.10.12-09.17.44:627][249]LogTemp: Display: RIDGEFIRE CHECKPOINT restored arena=0 wave=0 party=1 seed=1977 regroup=90
+[2026.10.12-09.17.44:632][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=9 active=1 wave=1 party=1
+[2026.10.12-09.17.44:635][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=10 active=0 wave=0 party=0
+[2026.10.12-09.17.44:638][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=11 active=0 wave=0 party=0
+[2026.10.12-09.17.44:643][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=12 active=1 wave=1 party=1
+[2026.10.12-09.17.44:647][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=13 active=0 wave=0 party=0
+[2026.10.12-09.17.44:651][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=14 active=0 wave=0 party=0
+[2026.10.12-09.17.44:655][249]LogTemp: Display: RIDGEFIRE CHECKPOINT committed generation=15 active=1 wave=1 party=1
+[2026.10.12-09.17.44:679][251]LogAutomationController: Display: Test Completed. Result={Success} Name={RestoreAllArenaBoundaries} Path={Ridgefire.Checkpoints.RestoreAllArenaBoundaries}

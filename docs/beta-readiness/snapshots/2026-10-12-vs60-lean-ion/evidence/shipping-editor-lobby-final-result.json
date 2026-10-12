@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "protocol": 60,
+  "server_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PackagedPrivate\\20261012-035043-218\\Server.log",
+  "client_log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PackagedPrivate\\20261012-035043-218\\ShippingClient.log",
+  "windows_root": "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/Packages/20261012-034847-088/Windows",
+  "scope": "Actual Windows Shipping runtime accepted by Windows Editor dedicated process over loopback with a short-lived invite proof. Lobby startup only; opt-in existing session-smoke harness calls production JoinServer, no packaged UI/firing, Linux server, internet, physical device or performance claim.",
+  "time_utc": "2026-10-12T10:51:01.0319171Z"
+}

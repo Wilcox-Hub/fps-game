@@ -1,0 +1,6 @@
+[2026.10.12-10.23.17:790][  0]LogNetVersion: Set GameNetworkProtocolVersion to 60d. Version Checksum will be recalculated on next use.
+[2026.10.12-10.23.24:901][258]LogTemp: Display: RIDGEFIRE GROUNDED PERKS: universal bracing, stable recovery, body/head damage and unequip paths checked
+[2026.10.12-10.23.27:417][959]LogTemp: Display: RIDGEFIRE ROLE HANDLING CHECKED: universal crouch, faster recovery, normal secondary restriction, harness primary pickup/fire/reload/toggle, baseline carry slowdown
+[2026.10.12-10.23.27:417][959]LogTemp: Display: RIDGEFIRE PROGRESSION INTERACTIONS: keyboard/gamepad equip, pawn health/jump, lock/combat guards, death XP and duplicate guard checked; session only
+[2026.10.12-10.23.32:409][981]LogTemp: Display: RIDGEFIRE TEAM PERKS PASS: actual wave transition and anchor interaction, movement/damage effects, duplicate guard, personal-profile isolation
+[2026.10.12-10.23.32:415][982]LogAutomationController: Display: Test Completed. Result={Success} Name={PossessedInteractions} Path={Ridgefire.Progression.PossessedInteractions}
