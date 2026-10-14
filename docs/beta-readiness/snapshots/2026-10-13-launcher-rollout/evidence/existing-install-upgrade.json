@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "tested_utc": "2026-10-14T03:05:46.727112+00:00",
+  "from_game": "20261012-034847-088",
+  "from_protocol": 60,
+  "to_game": "20261013-184128-652",
+  "to_protocol": 61,
+  "launcher_version": "1.0.1",
+  "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+  "isolated_install_root": "C:\\Users\\YaYa\\AppData\\Local\\Temp\\is-rollout-200208",
+  "launcher_binary_unchanged": true,
+  "installer_rerun_required": false,
+  "signed_public_feeds_verified": true,
+  "source_inputs_verified": 20,
+  "previous_install_files_verified": 32,
+  "updated_install_files_verified": 32,
+  "rollback_files_verified": 32,
+  "root_save_control_preserved": true,
+  "check": {
+    "status": "AVAILABLE",
+    "version": "20261013-184128-652",
+    "protocol": 61,
+    "archive_size": 453396809,
+    "release_notes": "New front-end lobby based on Minimal Frontline. Gather a party, select an appearance, ready up and let the leader start. Human soldier foreground, compact squad portraits and readable native controls. Only Arena Survival is featured. Matching VS61 required. Title and branding remain provisional."
+  },
+  "update": {
+    "status": "UPDATED",
+    "version": "20261013-184128-652",
+    "install_root": "C:\\Users\\YaYa\\AppData\\Local\\Temp\\is-rollout-200208",
+    "warning": null,
+    "feed_available": true,
+    "release_notes": "New front-end lobby based on Minimal Frontline. Gather a party, select an appearance, ready up and let the leader start. Human soldier foreground, compact squad portraits and readable native controls. Only Arena Survival is featured. Matching VS61 required. Title and branding remain provisional.",
+    "protocol": 61
+  },
+  "repeat_update": {
+    "status": "CURRENT",
+    "version": "20261013-184128-652",
+    "install_root": "C:\\Users\\YaYa\\AppData\\Local\\Temp\\is-rollout-200208",
+    "warning": null,
+    "feed_available": true,
+    "release_notes": "New front-end lobby based on Minimal Frontline. Gather a party, select an appearance, ready up and let the leader start. Human soldier foreground, compact squad portraits and readable native controls. Only Arena Survival is featured. Matching VS61 required. Title and branding remain provisional.",
+    "protocol": 61
+  },
+  "scope": "Unchanged production launcher backend, actual HTTPS upgrade of a copy of the earlier complete VS60 install to VS61, all 32 current and previous file hashes. Source inspection confirms automatic startup and ten-minute idle game updates. No new launcher binary, normal GUI acceptance, actual Unreal saved-run test, friend-PC acknowledgement or closed-app background service claim."
+}

@@ -1,0 +1,112 @@
+{
+  "compiled_launcher_source_commit": "8252cee924f7867ab1f1efeb15819e1e4ffcbfac",
+  "publisher_source_commit": "19641a032739cf3c09c40b84a404d4eaa3a8f7d4",
+  "files": [
+    {
+      "path": "src/app.manifest",
+      "sha256": "4ABF873AB41A9882B1F8805E692A46F30AD1204D2F241A72E570F43FAF684F67",
+      "size_bytes": 853
+    },
+    {
+      "path": "src/IronSunLauncher.cs",
+      "sha256": "DCB7042B67D8DCC4FC1AC61A65FC72E18E627E0C1D88951D5BC17C1020A38E65",
+      "size_bytes": 20830
+    },
+    {
+      "path": "src/NativeInstaller.cs",
+      "sha256": "70C31797FC864DF6FB17EFA1152F4BB644BC16E5F8A8561198D6F7F3949E2BBA",
+      "size_bytes": 17086
+    },
+    {
+      "path": "src/NativeSelfUpdate.cs",
+      "sha256": "CBBBB88E4CF9824227E382CA750943B2E753FFDAEF17B3DADB65132D5BBE608A",
+      "size_bytes": 6233
+    },
+    {
+      "path": "src/ReleasePublicKey.xml",
+      "sha256": "742767A540EB1A17AF1B0A2B133A49C62D41C293AB10D483727955928A9D699A",
+      "size_bytes": 583
+    },
+    {
+      "path": "assets/arena-preview.png",
+      "sha256": "AEBEA0DDDE2073631F88605FB9C7F2BD5EB54172C86EA01FB15631C6077E36FA",
+      "size_bytes": 1722085
+    },
+    {
+      "path": "assets/iron-sun.ico",
+      "sha256": "0C56125C4EAA35002272E23ECD01C25BBFDBF150225A96AAB61B48B427B51A9A",
+      "size_bytes": 4911
+    },
+    {
+      "path": "installer/delivery-acceptance.example.json",
+      "sha256": "D5561D930BEA4AA429632113F5A4439976B1D5689C426680CE1C0FDE37DD421C",
+      "size_bytes": 488
+    },
+    {
+      "path": "installer/IronSun.iss",
+      "sha256": "5C0D110159B0AC44065E6E5237FE247B05A25B57D9CBBE1B5FC0B489C13C3693",
+      "size_bytes": 9384
+    },
+    {
+      "path": "tests/Launcher-SelfUpdate.ps1",
+      "sha256": "D9C3CBE2DC31E3B81A1C6DDF27F3223D0E6937852A02D5415B1F1671CE23F03D",
+      "size_bytes": 4322
+    },
+    {
+      "path": "tests/Setup-Integration.ps1",
+      "sha256": "18E47A1D9949C48BF1359C70F19661A8A51482E5A9B4EBE88A7859B813F857D7",
+      "size_bytes": 6855
+    },
+    {
+      "path": "tests/Update-Integration.ps1",
+      "sha256": "6833CA7FFB1D640CCB51A94A8FF9C5413B8B4C09254E07826787373C7658B1A6",
+      "size_bytes": 7621
+    },
+    {
+      "path": "tools/Build-Launcher.ps1",
+      "sha256": "0DA9F38817EE1409D10596D4181FA2DBF11B9EE1181674031CB8955D0E441049",
+      "size_bytes": 1700
+    },
+    {
+      "path": "tools/Build-Setup.ps1",
+      "sha256": "B49ADC827EDCB3FC6FFDCADF5B0009478BB8D727FA8402151C0CBCFB35B02286",
+      "size_bytes": 1393
+    },
+    {
+      "path": "tools/New-LauncherIcon.ps1",
+      "sha256": "E813D1E7FF6A5825E93C71F83E0CCFDCB6916277B5B8ECE6A6F9599D1B32C439",
+      "size_bytes": 1244
+    },
+    {
+      "path": "tools/New-ReleaseSigningKey.ps1",
+      "sha256": "F53755236183C096F2F8B60FE0745BDED2EC9247B94CC42A763DE5BFEDFB2949",
+      "size_bytes": 1324
+    },
+    {
+      "path": "tools/Publish-InternetRelease.ps1",
+      "sha256": "99565857166998949E0D9AF53F8EEBD19665F2D2CDE25502C1C1366F9B5EB619",
+      "size_bytes": 12284
+    },
+    {
+      "path": "tools/Publish-SetupFeed.ps1",
+      "sha256": "FE9095EE844FD08BABBC3A7A16DD038DA503D7C1589DFFD445553283E9C2A842",
+      "size_bytes": 2852
+    },
+    {
+      "path": "tools/Delivery-Policy.ps1",
+      "sha256": "03AA98F2766859D9344797F21A578DD55CD3F24263B374BB50604F80B4AD945F",
+      "size_bytes": 1943
+    },
+    {
+      "path": "tests/Delivery-Policy.ps1",
+      "sha256": "6A9830D7A027D53969B4F14CF80C86687799A01EC2A69652D160010F0CAEA6E6",
+      "size_bytes": 3140
+    }
+  ],
+  "changed_or_added": [
+    "tools/Publish-InternetRelease.ps1",
+    "tools/Delivery-Policy.ps1",
+    "tests/Delivery-Policy.ps1"
+  ],
+  "scope": "Reviewed executable unchanged. Publisher policy/docs changed; cached updater/setup fixtures retain only unchanged source scope."
+}

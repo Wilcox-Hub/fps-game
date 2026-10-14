@@ -1,0 +1,6 @@
+{
+  "status": "RESOLVED_FOR_TEST",
+  "initial_attempt": "Deeply nested visualization test install exceeded classic .NET Framework Windows path limits before applying the update.",
+  "resolution": "Reran the unchanged production launcher with a short isolated per-user temporary install path.",
+  "scope": "The standard installed launcher path is unchanged. This does not claim support for arbitrarily long custom install paths."
+}

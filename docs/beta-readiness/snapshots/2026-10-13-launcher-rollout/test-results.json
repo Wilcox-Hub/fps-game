@@ -1,0 +1,37 @@
+{
+  "snapshot": "2026-10-13-launcher-rollout",
+  "recorded_on": "2026-10-13",
+  "validation_level": "Production native HTTPS backend upgrade of an existing isolated install; automatic startup/idle behavior verified in unchanged compiled source.",
+  "passed": true,
+  "checks": {
+    "signed_game_launcher_setup_feeds": true,
+    "public_asset_digests_match": 3,
+    "existing_vs60_upgrade_to_vs61": true,
+    "current_game_files_verified": 32,
+    "retained_previous_game_files_verified": 32,
+    "repeat_update_current": true,
+    "launcher_binary_unchanged": true,
+    "installer_rerun_required": false,
+    "compiled_launcher_inputs_match": 20,
+    "game_inputs_match": 619
+  },
+  "delivery": {
+    "release": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs61-20261013-184128-652-launcher-1.0.1-setup-1",
+    "game_version": "20261013-184128-652",
+    "protocol": 61,
+    "launcher_version": "1.0.1",
+    "new_release_needed": false,
+    "existing_feed_already_published": true,
+    "automatic_game_update": "On launcher opening and every ten minutes while idle; running games are not replaced.",
+    "automatic_launcher_binary_update": "Production launcher checks signed launcher metadata when opened; current 1.0.1 app is unchanged. A newer launcher binary is not published in this task.",
+    "closed_launcher_background_updates": false,
+    "friend_pc_acknowledged": false
+  },
+  "limits": [
+    "No normal GUI-button or fresh physical friend-PC acceptance.",
+    "The root save control is synthetic; no actual Unreal saved-run upgrade or recovery test.",
+    "Earlier game/build/lobby evidence remains at its original date, hashes and platform scope.",
+    "Unsigned setup/launcher and the owner-reported SmartScreen warning remain unchanged; no new cost.",
+    "No game source change, rebuild, new launcher binary, private device access, or gameplay readiness credit."
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "passed": true,
+  "checked_utc": "2026-10-14T03:02:10.6741975Z",
+  "release": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs61-20261013-184128-652-launcher-1.0.1-setup-1",
+  "game": {
+    "schema_version": 1,
+    "app_id": "IRON-SUN-LAN",
+    "version": "20261013-184128-652",
+    "build_time_utc": "10/14/2026 01:43:44",
+    "published_at_utc": "2026-10-14T01:47:24.8872642Z",
+    "archive": "iron-sun-20261013-184128-652.zip",
+    "archive_size": 453396809,
+    "archive_sha256": "6EF03CC8906AD86FA18BC20813953F5EC611E8D055D0484E5FC211AC7060090E",
+    "files": [
+      {
+        "path": "Windows/Manifest_DebugFiles_Win64.txt",
+        "size": 231,
+        "sha256": "1A764C78BC8A13DF488B08BE100064846548813108B094D52ECC30BBAC51ABFF"
+      },
+      {
+        "path": "Windows/Manifest_NonUFSFiles_Win64.txt",
+        "size": 1608,
+        "sha256": "C9A6D84251265BF1465DDCF188FED5A683292BBB21920F5D18E840C76F890F1C"
+      },
+      {
+        "path": "Windows/Manifest_UFSFiles_Win64.txt",
+        "size": 313479,
+        "sha256": "80DB3A38A02B2DD857016610AE3FB3301AE374172D6F4A98BABBDC3447124F4F"
+      },
+      {
+        "path": "Windows/NOTICES.txt",
+        "size": 111,
+        "sha256": "BA49AE5586F817B36A2772269F71F899CB1F54B5F2720FAD951319EDD5E140B8"
+      },
+      {
+        "path": "Windows/TP_FirstPerson.exe",
+        "size": 171520,
+        "sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+        "size": 2232688,
+        "sha256": "6C1484085A1F4223880C059FD093A468702D0ECB224981918336FE847F5AF92F"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
+        "size": 2547080,
+        "sha256": "780959F289E380A21FDAB0DBA7AC468C8DD0606EA43B755865A7989F3C7221E9"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+        "size": 5799024,
+        "sha256": "E3E777A9644452C2772336C4B35C39ED4D8ABEB9B9C0C1DCEB9E10BDB378E5A2"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+        "size": 59832,
+        "sha256": "CF34407EC00248C208AA4B156126A725B79A4BCE9F5C8034550C798A9B7A1407"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+        "size": 1724856,
+        "sha256": "1CD0EBA3DF4915CA6498917B91B78DC1DFDA1C9155F2FD5B98DEDD5B5BA918F3"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+        "size": 48568,
+        "sha256": "A00E6B073CEC241D85D590EE138906EF9FDF9EFEF8D0D4989813359CD048A6F9"
+      },
+      {
+        "path": "Windows/Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+        "size": 858144,
+        "sha256": "9D996BA84395C1E56604792A77775B0A7FA957D7B51B4D8B985040BCD80A6FD5"
+      },
+      {
+        "path": "Windows/Engine/Config/StagedBuild_Ridgefire.ini",
+        "size": 3,
+        "sha256": "F1945CD6C19E56B3C1C78943EF5EC18116907A4CA1EFC40A57D48AB1DB7ADFC5"
+      },
+      {
+        "path": "Windows/Engine/Content/Renderer/TessellationTable.bin",
+        "size": 259568,
+        "sha256": "EDC4F3B628A139C5E185BBAECA661C95C1F427368D3B92892C5CFF36C56DD941"
+      },
+      {
+        "path": "Windows/Engine/Content/Slate/Cursor/invisible.cur",
+        "size": 326,
+        "sha256": "FEF3980FA567E9C45D5D8DCAA432A2C1A3F3BB17FE67D7AB198164F56C142AA1"
+      },
+      {
+        "path": "Windows/Engine/Content/SlateDebug/Fonts/LastResort.tps",
+        "size": 930,
+        "sha256": "0F775FA99D05E21D43D2D06D55982B23DCDCCDB512A9A5A07AFF674F212C41B8"
+      },
+      {
+        "path": "Windows/Engine/Content/SlateDebug/Fonts/LastResort.ttf",
+        "size": 5395052,
+        "sha256": "FFF0F8DE0B868B964950FE97C9B60F893E9BC85A4F90B3629C5693DB058B97B9"
+      },
+      {
+        "path": "Windows/Engine/Extras/Redist/en-us/vc_redist.arm64.exe",
+        "size": 11751688,
+        "sha256": "BA660394E40765C80B70178A33F07DF81AEFAC2B6CB1F017B13880DE88456DE3"
+      },
+      {
+        "path": "Windows/Engine/Extras/Redist/en-us/vc_redist.x64.exe",
+        "size": 18569648,
+        "sha256": "1CF8E061174C320C8E125F1B09996EE0555EF450E515B06AB0FD99CB4C8DB6EF"
+      },
+      {
+        "path": "Windows/Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll",
+        "size": 17339384,
+        "sha256": "9FC1CA0E75480C7805B6D3C4653864EAAEE2FCA5DAA609B5347ADF0B4185791A"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/tbb12.dll",
+        "size": 342456,
+        "sha256": "7E58AE38FD5D47C72B750DBDCF2978A1F36719663A0A4500A9CC857316612C34"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/tbbmalloc.dll",
+        "size": 117176,
+        "sha256": "075BA2869E082AB5F1F159AD06614CE63C31AE51099E18B540822CC758697E56"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+        "size": 166818304,
+        "sha256": "BE3AECAD964303F28EDD2569A881E154AE12472EF679E040FF1C27820CEDCD11"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.pdb",
+        "size": 233943040,
+        "sha256": "98F0403DE9B46AB027E54F25CE817E42F5966810BE1CED82049325BCB2650682"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/D3D12/x64/D3D12Core.dll",
+        "size": 4831768,
+        "sha256": "5D262C97239E1AFF8B03A7150ABCAA84CC7983D311946708F982227D146FBB37"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/D3D12/x64/d3d12SDKLayers.dll",
+        "size": 4943344,
+        "sha256": "66AFC2D2918191F9B97026E3C630AC6E93F5F83E3BD0EAB34349EC2F66A0B4AF"
+      },
+      {
+        "path": "Windows/Ridgefire/Binaries/Win64/DML/x64/DirectML.dll",
+        "size": 18538488,
+        "sha256": "579DD89146322EA2567DE7DB16B8E10F350EB0CF147ECAAFE5B129D9FE175A84"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/global.ucas",
+        "size": 3226496,
+        "sha256": "52BE4108C12EA342DC0C9873084ACA7B5E11741A6312EC715C1903D3AA2A6D3C"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/global.utoc",
+        "size": 794,
+        "sha256": "4C4452718D961C0219EEB88D9752F15AF2FCD65C1953CA4FCD03FCA9779F51DD"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/Ridgefire-Windows.pak",
+        "size": 30707384,
+        "sha256": "3F3EDABC90ECB0EE1C03F52693A2E7828FA0588838C63EB688F188959BD92D4F"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/Ridgefire-Windows.ucas",
+        "size": 237151104,
+        "sha256": "15B70DC2CBFCE7284592E30D51DC50E70F86AACA47F3C8D234A695C323F63987"
+      },
+      {
+        "path": "Windows/Ridgefire/Content/Paks/Ridgefire-Windows.utoc",
+        "size": 237951,
+        "sha256": "0C1BCD85B2A14F60ACCDD7701BC3F3A2671C735FA8E138A4D365A991FA5EFAAB"
+      }
+    ],
+    "validation": "Original executable/content hashes match the explicitly supplied dated package evidence; this is an internal prototype, not beta approval.",
+    "protocol": 61,
+    "archive_url": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/download/playtest-vs61-20261013-184128-652-launcher-1.0.1-setup-1/iron-sun-20261013-184128-652.zip",
+    "release_notes": "New front-end lobby based on Minimal Frontline. Gather a party, select an appearance, ready up and let the leader start. Human soldier foreground, compact squad portraits and readable native controls. Only Arena Survival is featured. Matching VS61 required. Title and branding remain provisional."
+  },
+  "launcher": {
+    "schema_version": 1,
+    "app_id": "IRON-SUN-LAUNCHER",
+    "version": "1.0.1",
+    "url": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/download/playtest-vs61-20261013-184128-652-launcher-1.0.1-setup-1/IronSunLauncher.exe",
+    "size_bytes": 1785344,
+    "sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4"
+  },
+  "setup": {
+    "schema_version": 1,
+    "app_id": "IRON-SUN-SETUP",
+    "version": "1.0.1",
+    "filename": "IRON-SUN-Setup.exe",
+    "url": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/download/playtest-vs61-20261013-184128-652-launcher-1.0.1-setup-1/IRON-SUN-Setup.exe",
+    "size_bytes": 4025552,
+    "sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+    "security_review_status": "ACCEPTED",
+    "security_review_basis": "ANALYST_DETECTION_REMOVED",
+    "microsoft_submission_id": "a42bd1fa-88a6-4c46-b7ef-d3cd5e020541",
+    "delivery_verified": true,
+    "delivery_scope": "INTERNAL_ALPHA_BACKEND_AND_STARTUP",
+    "normal_launcher_button_accepted": false
+  },
+  "game_launcher_setup_signatures_verified": true,
+  "published_asset_digests_verified": 3,
+  "scope": "Public HTTPS latest release, production-key-signed manifests and exact release asset digests; no private credentials or friend-PC access."
+}
