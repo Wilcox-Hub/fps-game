@@ -1,0 +1,6 @@
+{"observations":[
+{"case":"GaleHip","shots_or_charges":7,"peak_aim_degrees":2.165800,"peak_weapon_rotation_degrees":0.000000,"peak_weapon_travel_cm":0.605091,"remaining_aim_degrees_after_pause":2.165800,"samples":176},
+{"case":"GaleADS","shots_or_charges":9,"peak_aim_degrees":2.872800,"peak_weapon_rotation_degrees":0.000000,"peak_weapon_travel_cm":0.605091,"remaining_aim_degrees_after_pause":2.872800,"samples":189},
+{"case":"LanceHip","shots_or_charges":3,"peak_aim_degrees":2.817446,"peak_weapon_rotation_degrees":0.000000,"peak_weapon_travel_cm":1.972210,"remaining_aim_degrees_after_pause":2.817446,"samples":189},
+{"case":"HelixHip","shots_or_charges":5,"peak_aim_degrees":5.277702,"peak_weapon_rotation_degrees":0.000000,"peak_weapon_travel_cm":1.059433,"remaining_aim_degrees_after_pause":5.277702,"samples":189}
+],"scope":"Actual locally owned Editor production fire/ticks; controlled stationary invulnerable fixture with inactive AI. Mechanical temporal evidence, no human feel or network acceptance."}

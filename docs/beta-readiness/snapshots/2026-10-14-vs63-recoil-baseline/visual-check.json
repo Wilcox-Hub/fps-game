@@ -1,0 +1,14 @@
+{
+  "accepted": false,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "scope": "Actual rendered controlled Editor fixture. Temporal component CSVs establish measured gun motion; still-frame labels/HUD are not production weapon-selection acceptance.",
+  "limitations": [
+    "Fixture equips rolls directly, so the run-state HUD can retain the normal Gale name.",
+    "Early stills are asynchronous and are not exact shot-onset proof.",
+    "No human feel or visual-production acceptance."
+  ],
+  "public_payload": "No media published in this assessment. Local controlled1080p frames retained for comparison."
+}

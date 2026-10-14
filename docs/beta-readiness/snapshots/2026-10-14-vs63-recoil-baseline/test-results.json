@@ -1,0 +1,49 @@
+{
+  "snapshot": "2026-10-14-vs63-recoil-baseline",
+  "tested_on": "2026-10-14",
+  "protocol": 63,
+  "assessment_complete": true,
+  "shooting_fix_complete": false,
+  "passed": false,
+  "expected_red_reproduced": true,
+  "input_count": 622,
+  "limits": [
+    "The red check is a newly requested weapon-motion criterion; it is not a new runtime crash/regression.",
+    "Pre-fixture physical-direction pass belongs to the original published621-input source state; retain that date and manifest.",
+    "No production recoil tuning, Shipping/native delivery, human feel, network latency or unassisted server aim acceptance occurred."
+  ],
+  "checks": {
+    "owned-burst-recording": {
+      "passed": false,
+      "expected_red_reproduced": true,
+      "criterion": "Actual camera-owned viewmodel has angular firing kick.",
+      "observed_rotation_degrees": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cases": [
+        "Gale hipfire",
+        "Gale ADS",
+        "Vector Lance hipfire",
+        "Helix hipfire"
+      ],
+      "production_firing_executed": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "build_succeeded": true,
+      "scope": "Controlled real owned Editor fire/timers/ticks; mechanical motion baseline only."
+    },
+    "pre-fixture-physical-direction": {
+      "passed": true,
+      "tested_on": "2026-10-14",
+      "input_count": 621,
+      "input_manifest": "../2026-10-14-vs63-lean-removed/input-manifest.json",
+      "scope": "Real possessed owner; physical upward kick survives positive/negative pitch inversion. Before the diagnostic fixture; original dated/hash scope retained."
+    }
+  },
+  "public_payload": "Readiness summaries and input path/hash metadata only. Full recordings, logs, source and screenshots are retained locally and not uploaded."
+}

@@ -1,0 +1,15 @@
+{
+  "current_count": 622,
+  "published_count": 621,
+  "changes": [
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireRecoilCapture.cpp",
+      "change": "added"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h",
+      "change": "modified"
+    }
+  ],
+  "scope": "Only an Editor-only recording fixture and its guarded friend declaration were added. Published VS63 gameplay/launcher/server remain unchanged."
+}
