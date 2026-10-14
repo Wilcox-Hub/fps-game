@@ -1,0 +1,10 @@
+{
+  "archive": "G:\\IronSunServerPackages\\VS61-20261013-frontline\\iron-sun-vs61-linux-server.zip",
+  "sha256": "5232BF37994B378E1689A377DA3132438335B392F727D16F0617E780D6F85BD2",
+  "files": 33,
+  "bytes": 344261278,
+  "release_id": "5232bf37994b378e",
+  "protocol": 61,
+  "input_count": 619,
+  "scope": "Complete native server package only; no private keys or saves."
+}

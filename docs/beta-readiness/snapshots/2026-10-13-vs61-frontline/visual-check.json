@@ -1,0 +1,52 @@
+{
+  "recorded_on": "2026-10-13",
+  "inspected": true,
+  "frames": [
+    {
+      "path": "evidence/home-1080p.png",
+      "sha256": "B3BEFC3EEBAF5139E1F0397F2D49D73CC9F169CBCDECD7D75C74166A9F6B3910",
+      "bytes": 3107320,
+      "resolution": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "evidence/characters-1080p.png",
+      "sha256": "B4CE85A7F706A4D2824DD6C88C86FD64DDC74ADBB83FE1DB8AA6058AE675FE39",
+      "bytes": 2682415,
+      "resolution": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "evidence/settings-1080p.png",
+      "sha256": "5ADF3FC48CE12AC70255FD4771AE6F610BA9E966537B86A3BCEAB365578EE310",
+      "bytes": 2521908,
+      "resolution": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "evidence/home-720p.png",
+      "sha256": "F4AA6E4BFCBD25609C1B28586C463887EB3FEDC2B0085FAFCF800D16ED50CDD1",
+      "bytes": 1597785,
+      "resolution": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "evidence/private-form-1080p.png",
+      "sha256": "66F0A455EF313D489EE770DC233FC5C3918381BC3A95E308A828592024EDEAEA",
+      "bytes": 2450695,
+      "resolution": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "scope": "Final actual Shipping main menu/character/settings and smaller-window home; rendered Editor private form. Human foreground and lizard behind, compact portraits and native text. Background/portraits are 2D concept art; player models remain existing prototypes. No human usability, production-3D or fun acceptance."
+}

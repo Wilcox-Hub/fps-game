@@ -1,0 +1,341 @@
+{
+  "recorded_on": "2026-10-13",
+  "game_input_count": 619,
+  "protocol": 61,
+  "builds": [
+    {
+      "name": "editor-build-fixture.log",
+      "original_sha256": "5E74FB4354B164FC9DD42772048C9A0D9CF10BF2AE5DCD1A50AD1E429EA06BB7",
+      "markers": "evidence/editor-build-fixture.log.markers.txt",
+      "markers_sha256": "7EAB02431FF1B4E72BFFF4E5630D07D5448464758E595A978F9A07A88F925B56"
+    },
+    {
+      "name": "windows-build-final.log",
+      "original_sha256": "AACA11EC913B076047B2C98AF1197CB73466934BA0D6DA1CFA3DB27B7F1FB3FD",
+      "markers": "evidence/windows-build-final.log.markers.txt",
+      "markers_sha256": "5CEB607CABDEF577767B11A15AD5485D03B1A6E0284C359CE9418F01BBD48A64"
+    },
+    {
+      "name": "linux-build.log",
+      "original_sha256": "E1B1B8CAA1547F44345D4E7AA601E78869CF1401B22DD12CA2D41EE205A3D2B7",
+      "markers": "evidence/linux-build.log.markers.txt",
+      "markers_sha256": "573BDAFB9706B35BD2B422DA3FB47484084E76A4E360F72EC10974E263B54000"
+    }
+  ],
+  "validation_groups": [
+    {
+      "name": "shipping-1080p",
+      "result": {
+        "passed": true,
+        "packaged": true,
+        "runtime": "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/Packages/20261013-184128-652/Windows/TP_FirstPerson.exe",
+        "resolution": [
+          1920,
+          1080
+        ],
+        "output": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\checks\\20261013-184427-251",
+        "exit_code": 0,
+        "receipt": "clean Shipping exit and five success-gated screenshots; Shipping logging stripped",
+        "scope": "Actual native Slate pointer input, held front end, character meshes/selection, settings, solo travel and authority lock. Generated backdrop and concept portraits are presentation art, not production 3D acceptance.",
+        "time_utc": "2026-10-14T01:44:48.3259301Z"
+      },
+      "current_game_input_manifest_exact_match": true,
+      "scope_note": "",
+      "evidence": {
+        "path": "evidence/shipping-1080p.json",
+        "sha256": "E84866495B3E8D9761C4792215BFC90EE0410FB72D28251B32E92B46AFB3D750",
+        "bytes": 773
+      }
+    },
+    {
+      "name": "shipping-720p",
+      "result": {
+        "passed": true,
+        "packaged": true,
+        "runtime": "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/Packages/20261013-184128-652/Windows/TP_FirstPerson.exe",
+        "resolution": [
+          1280,
+          720
+        ],
+        "output": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\checks\\20261013-184428-309",
+        "exit_code": 0,
+        "receipt": "clean Shipping exit and five success-gated screenshots; Shipping logging stripped",
+        "scope": "Actual native Slate pointer input, held front end, character meshes/selection, settings, solo travel and authority lock. Generated backdrop and concept portraits are presentation art, not production 3D acceptance.",
+        "time_utc": "2026-10-14T01:44:48.2016965Z"
+      },
+      "current_game_input_manifest_exact_match": true,
+      "scope_note": "",
+      "evidence": {
+        "path": "evidence/shipping-720p.json",
+        "sha256": "9BF51A35AC989C16542CF3433FDCC66BB34D30C5862B34BE44CB2C1C671EA376",
+        "bytes": 772
+      }
+    },
+    {
+      "name": "private-menu",
+      "result": {
+        "passed": true,
+        "resolution": [
+          1920,
+          1080
+        ],
+        "frames": 3,
+        "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateMenu\\20261013-183802-504\\Menu.log",
+        "scope": "Actual rendered Windows Editor Slate pointer clicks, masked fields, controlled text delegate validation and Back. No human usability, packaged client or internet claim.",
+        "time_utc": "2026-10-14T01:38:25.3177248Z"
+      },
+      "current_game_input_manifest_exact_match": true,
+      "scope_note": "",
+      "evidence": {
+        "path": "evidence/private-menu.json",
+        "sha256": "DE998BCBE51FF01A4406DF5080AD2776BBA9FA4F0E90AB3B0204A5075844CC84",
+        "bytes": 489
+      }
+    },
+    {
+      "name": "four-peer-lobby",
+      "result": {
+        "passed": true,
+        "peers": 4,
+        "host_loss": false,
+        "hosted_restart": false,
+        "late_join_rejected": false,
+        "late_join_log": "",
+        "cycles": 2,
+        "rendered_host": true,
+        "logs": [
+          "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\lobby-checks\\checks-20261013-183519-563\\Peer0.log",
+          "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\lobby-checks\\checks-20261013-183519-563\\Peer1.log",
+          "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\lobby-checks\\checks-20261013-183519-563\\Peer2.log",
+          "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\lobby-checks\\checks-20261013-183519-563\\Peer3.log"
+        ],
+        "time_utc": "2026-10-14T01:37:07.8975494Z",
+        "scope": "Actual local Editor processes; Null/LAN provider discovery and join, owned input/RPCs, ready/unready, timed setup, leave/end/rehost. HostedRestart checks two full team wipes, remote then host restart, retained XP, normal timed setup, owned movement/fire/reload and gamepad key events. VerifyLateJoin uses a separate direct-connection process after restart and requires an explicit launched-party rejection. No Internet/Steam or human-input acceptance."
+      },
+      "current_game_input_manifest_exact_match": false,
+      "scope_note": "Four actual local Editor peers and two lobby cycles. Only the unrelated private-menu test timing/failure exit changed afterward; production lobby/appearance code unchanged. HighResShot captured the world rather than Slate, so no multiplayer-UI screenshot acceptance is claimed.",
+      "evidence": {
+        "path": "evidence/four-peer-lobby.json",
+        "sha256": "E53938B77A942B3EB7CE378681B901D3E367BCB8E78C56335E73CB8A2C1CEE45",
+        "bytes": 1268
+      }
+    },
+    {
+      "name": "dedicated-authority-and-both-guns",
+      "result": {
+        "passed": true,
+        "logs": [
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261012-191450-489\\Peer-1.log",
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261012-191450-489\\Peer0.log",
+          "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261012-191450-489\\Peer1.log"
+        ],
+        "peers": 2,
+        "scope": "Actual Windows Editor dedicated-server process and two remote-client processes over loopback UDP; private invite rejection/retry, leader-only launch, normal timed setup and primary/secondary LMB ammo, leader departure, clear-boundary checkpoint, both clients leaving, empty-server lobby return and original-squad resume. Fixture disables combat damage/AI and completes a controlled first encounter; no balance claim. Not a Linux package, physical-device, internet or performance test.",
+        "time_utc": "2026-10-13T02:17:07.8160117Z"
+      },
+      "current_game_input_manifest_exact_match": false,
+      "scope_note": "October 12 controlled dedicated Editor/server and two clients. Later October 13 changes affect front-end presentation/default appearance and private-menu harness only. Keep original scope and date; no final whole-input or native combat claim.",
+      "evidence": {
+        "path": "evidence/dedicated-authority-and-both-guns.json",
+        "sha256": "87C5E0F2AC0CA20C12FA9CC18F7AA4132683D28AFE77DE51E212E03ADD472577",
+        "bytes": 1115
+      }
+    },
+    {
+      "name": "owner-verification",
+      "result": {
+        "passed": true,
+        "time_utc": "2026-10-14T02:03:47.684367+00:00",
+        "version": "20261013-184128-652",
+        "protocol": 61,
+        "verified_files": 32,
+        "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+        "native_current": {
+          "status": "CURRENT",
+          "version": "20261013-184128-652",
+          "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+          "warning": null,
+          "feed_available": true,
+          "release_notes": "New front-end lobby based on Minimal Frontline. Gather a party, select an appearance, ready up and let the leader start. Human soldier foreground, compact squad portraits and readable native controls. Only Arena Survival is featured. Matching VS61 required. Title and branding remain provisional.",
+          "protocol": 61
+        },
+        "scope": "Actual reviewed production launcher, embedded production RSA key, local signed candidate feed and all installed file hashes. No HTTPS or launcher GUI button claim yet. Legacy PowerShell staging attempt rejected; old install remained intact, native launcher update completed normally. Shell GUI-process exit observation was unreliable; completion is captured with subprocess."
+      },
+      "current_game_input_manifest_exact_match": true,
+      "scope_note": "",
+      "evidence": {
+        "path": "evidence/owner-verification.json",
+        "sha256": "CD4247E77A89084EBB95FBC54AAA01B3C744B8FAE3700216B42E6161F31C169F",
+        "bytes": 1187
+      }
+    },
+    {
+      "name": "native-deployment",
+      "result": {
+        "passed": true,
+        "protocol": 61,
+        "release": {
+          "release": "5232bf37994b378e",
+          "sha256": "5232bf37994b378e1689a377da3132438335b392f727d16f0617e780d6f85bd2",
+          "previous_release": "releases/2a634f02ad9bbb7b",
+          "activated_files": true,
+          "process_restarted": false
+        },
+        "time_utc": "2026-10-14T01:47:31.116558+00:00",
+        "private_data_backup": "/home/caiden/iron-sun-server/backups/pre-vs61-20261014T014722Z.tar.gz",
+        "saved_files_preserved": 0,
+        "relay_unchanged": true,
+        "listening": true,
+        "read_only_root": true,
+        "user": "1000:1000",
+        "restarts": 0,
+        "metadata": {
+          "engine": "5.8.3",
+          "protocol": 61,
+          "platform": "Linux",
+          "target": "Server",
+          "configuration": "Development",
+          "built_utc": "2026-10-14T01:41:00.5580490Z",
+          "input_count": 619,
+          "input_manifest_sha256": "BFB6E8F62B50F8BF961AD90C441DD35F055833F0BD96D8F7BF500CFD96B5652D"
+        },
+        "scope": "Actual native Linux boot and saved-file preservation at empty-lobby deployment; game-only container recreation. No combat, restart recovery, capacity or external-Wi-Fi acceptance."
+      },
+      "current_game_input_manifest_exact_match": true,
+      "scope_note": "",
+      "evidence": {
+        "path": "evidence/native-deployment.json",
+        "sha256": "313C4C2F3743C4FBC0F63A04782D2022B0BC944BC3596C31B2EB9A627CB99593",
+        "bytes": 1123
+      }
+    },
+    {
+      "name": "live-delivery",
+      "result": {
+        "passed": true,
+        "time_utc": "2026-10-14T02:14:03.646482+00:00",
+        "protocol": 61,
+        "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+        "check": {
+          "status": "AVAILABLE",
+          "version": "20261013-184128-652",
+          "protocol": 61,
+          "archive_size": 453396809,
+          "release_notes": "New front-end lobby based on Minimal Frontline. Gather a party, select an appearance, ready up and let the leader start. Human soldier foreground, compact squad portraits and readable native controls. Only Arena Survival is featured. Matching VS61 required. Title and branding remain provisional."
+        },
+        "fresh_update": {
+          "status": "UPDATED",
+          "version": "20261013-184128-652",
+          "install_root": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\fresh-live-install",
+          "warning": null,
+          "feed_available": true,
+          "release_notes": "New front-end lobby based on Minimal Frontline. Gather a party, select an appearance, ready up and let the leader start. Human soldier foreground, compact squad portraits and readable native controls. Only Arena Survival is featured. Matching VS61 required. Title and branding remain provisional.",
+          "protocol": 61
+        },
+        "repeat_update": {
+          "status": "CURRENT",
+          "version": "20261013-184128-652",
+          "install_root": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\fresh-live-install",
+          "warning": null,
+          "feed_available": true,
+          "release_notes": "New front-end lobby based on Minimal Frontline. Gather a party, select an appearance, ready up and let the leader start. Human soldier foreground, compact squad portraits and readable native controls. Only Arena Survival is featured. Matching VS61 required. Title and branding remain provisional.",
+          "protocol": 61
+        },
+        "verified_files": 32,
+        "scope": "Actual production native launcher, live HTTPS latest-release metadata, embedded RSA signature verification, full download and installed hashes. Backend command flow; no fresh physical friend-PC, SmartScreen or normal GUI-button acceptance."
+      },
+      "current_game_input_manifest_exact_match": true,
+      "scope_note": "",
+      "evidence": {
+        "path": "evidence/live-delivery.json",
+        "sha256": "D14C1F2344F18732CF90896A5270E6866712445B8EE0B5B20AF758E0B824B66F",
+        "bytes": 2134
+      }
+    },
+    {
+      "name": "shipping-native-lan",
+      "result": {
+        "passed": true,
+        "protocol": 61,
+        "address": "192.168.4.36:7777",
+        "wrong_invite_control": false,
+        "time_utc": "2026-10-14T02:03:50.077708+00:00",
+        "clients": 2,
+        "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+        "lobby_join_accepted": true,
+        "held_seconds": 12,
+        "unresolved_network_references": 0,
+        "client_logging_available": false,
+        "run_directory": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\native-joins\\20261013-190347"
+      },
+      "current_game_input_manifest_exact_match": true,
+      "scope_note": "",
+      "evidence": {
+        "path": "evidence/shipping-native-lan.json",
+        "sha256": "8F4BDC0180C1000681B227BF4853B5AED1138D8E820539AED24AB3189B82F619",
+        "bytes": 675
+      }
+    },
+    {
+      "name": "shipping-native-relay",
+      "result": {
+        "passed": true,
+        "protocol": 61,
+        "address": "cairo-ferry.tun.ply.gg:42527",
+        "wrong_invite_control": false,
+        "time_utc": "2026-10-14T02:05:13.149588+00:00",
+        "clients": 2,
+        "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+        "lobby_join_accepted": true,
+        "held_seconds": 12,
+        "unresolved_network_references": 0,
+        "client_logging_available": false,
+        "run_directory": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\native-joins\\20261013-190511"
+      },
+      "current_game_input_manifest_exact_match": true,
+      "scope_note": "",
+      "evidence": {
+        "path": "evidence/shipping-native-relay.json",
+        "sha256": "A47D62F6A46B31B3348C8DDBBC03227598DE712AA658D85BB85F3F9556D67BDA",
+        "bytes": 686
+      }
+    },
+    {
+      "name": "shipping-native-wrong-invite",
+      "result": {
+        "passed": true,
+        "protocol": 61,
+        "address": "cairo-ferry.tun.ply.gg:42527",
+        "wrong_invite_control": true,
+        "time_utc": "2026-10-14T02:06:30.363181+00:00",
+        "clients": 1,
+        "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+        "wrong_invite_rejected": true,
+        "client_logging_available": false,
+        "run_directory": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\native-joins\\20261013-190530"
+      },
+      "current_game_input_manifest_exact_match": true,
+      "scope_note": "",
+      "evidence": {
+        "path": "evidence/shipping-native-wrong-invite.json",
+        "sha256": "846E27997161AFF40DB306040476AB14892F2BB06451549B82399A5237B295C1",
+        "bytes": 625
+      }
+    }
+  ],
+  "initial_failures": [
+    "October12 compile access/local-name errors repaired; original dark gradient/card layout replaced.",
+    "Original lobby fixture unready race and private-server launch-order assumption repaired; no production leader reassignment.",
+    "October13 private-menu harness clicked a disabled Connect control before discovery-completion UI tick. Navigation and harness timing corrected; final private form passes.",
+    "Legacy PowerShell owner staging rejected the candidate executable. Exact ZIP/file hashes and diagnostic extraction match. Production native updater installed it; all32 hashes and fresh live HTTPS update/current pass. Legacy staging rejection was not reproduced or used as a passing legacy-update claim.",
+    "Shipping logs are stripped: clean exit and uniquely generated fifth success-gated screenshot validate the packaged fixture.",
+    "Browser automation kernel assets unavailable after reset/retry; no new live browser-click test claimed. Existing page source dynamically selects latest assets; publisher updated signed setup feed."
+  ],
+  "scope_limits": [
+    "No physical second PC or different-Wi-Fi human run",
+    "No current native combat/recovery, full-run pacing, economy/fun or normal performance acceptance",
+    "No new independent code review",
+    "No production character art matching menu portraits",
+    "No new friend-PC SmartScreen or launcher GUI-button acceptance"
+  ]
+}

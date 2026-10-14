@@ -1,0 +1,120 @@
+{
+  "snapshot": "2026-10-12-launcher-smartscreen",
+  "tested_on": "2026-10-12",
+  "gameplay_readiness_percent": 69,
+  "verdict": "NOT_BETA_READY",
+  "reusable_input_evidence": false,
+  "observed_input_count": 619,
+  "expected_input_count": 607,
+  "differences": [
+    {
+      "path": "Content/UI/Menu/CharacterDefender.png",
+      "change": "added"
+    },
+    {
+      "path": "Content/UI/Menu/CharacterVeteran.png",
+      "change": "added"
+    },
+    {
+      "path": "Content/UI/Menu/CharacterVeyran.png",
+      "change": "added"
+    },
+    {
+      "path": "Content/UI/Menu/Fonts/OFL-Oxanium.txt",
+      "change": "added"
+    },
+    {
+      "path": "Content/UI/Menu/Fonts/Oxanium-Bold.ttf",
+      "change": "added"
+    },
+    {
+      "path": "Content/UI/Menu/Fonts/Oxanium-Regular.ttf",
+      "change": "added"
+    },
+    {
+      "path": "Content/UI/Menu/FrontlineFaithful.png",
+      "change": "added"
+    },
+    {
+      "path": "Content/UI/Menu/FrontlineLogo.png",
+      "change": "added"
+    },
+    {
+      "path": "Content/UI/Menu/FrontlineVS61.png",
+      "change": "added"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireFrontEndMenus.cpp",
+      "change": "added"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireFrontlineStyle.h",
+      "change": "added"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireGameMode.h",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireLobby.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireMenuActions.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireMenus.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireMenus.h",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireNetworkCompatibility.h",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireSessionSubsystem.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireUserSettings.h",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireFrontlineFixture.cpp",
+      "change": "added"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireLobbyNetworkFixture.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefirePrivateMenuFixture.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h",
+      "change": "modified"
+    }
+  ],
+  "validation_scope": "Input hash comparison only; no gameplay tests executed. Build/package/environment changes need separate validation."
+}

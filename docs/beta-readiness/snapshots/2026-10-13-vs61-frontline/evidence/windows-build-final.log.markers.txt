@@ -1,0 +1,9 @@
+Result: Succeeded
+Total execution time: 23.47 seconds
+Took 23.66s to run dotnet.exe, ExitCode=0
+Took 103.72s to run UnrealEditor-Cmd.exe, ExitCode=0
+Took 0.81s to run UnrealPak.exe, ExitCode=0
+Took 0.94s to run UnrealPak.exe, ExitCode=0
+BUILD SUCCESSFUL
+AutomationTool exiting with ExitCode=0 (Success)
+Windows Shipping package marked COMPLETE (Prototype): C:\Users\YaYa\Documents\Codex\2026-09-22\connect-this-github-repo-to-a\unreal\Ridgefire\Saved\Packages\20261013-184128-652

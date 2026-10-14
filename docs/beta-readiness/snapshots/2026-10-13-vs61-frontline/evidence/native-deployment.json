@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "protocol": 61,
+  "release": {
+    "release": "5232bf37994b378e",
+    "sha256": "5232bf37994b378e1689a377da3132438335b392f727d16f0617e780d6f85bd2",
+    "previous_release": "releases/2a634f02ad9bbb7b",
+    "activated_files": true,
+    "process_restarted": false
+  },
+  "time_utc": "2026-10-14T01:47:31.116558+00:00",
+  "private_data_backup": "/home/caiden/iron-sun-server/backups/pre-vs61-20261014T014722Z.tar.gz",
+  "saved_files_preserved": 0,
+  "relay_unchanged": true,
+  "listening": true,
+  "read_only_root": true,
+  "user": "1000:1000",
+  "restarts": 0,
+  "metadata": {
+    "engine": "5.8.3",
+    "protocol": 61,
+    "platform": "Linux",
+    "target": "Server",
+    "configuration": "Development",
+    "built_utc": "2026-10-14T01:41:00.5580490Z",
+    "input_count": 619,
+    "input_manifest_sha256": "BFB6E8F62B50F8BF961AD90C441DD35F055833F0BD96D8F7BF500CFD96B5652D"
+  },
+  "scope": "Actual native Linux boot and saved-file preservation at empty-lobby deployment; game-only container recreation. No combat, restart recovery, capacity or external-Wi-Fi acceptance."
+}

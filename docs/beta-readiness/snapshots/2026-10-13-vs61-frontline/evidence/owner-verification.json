@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "time_utc": "2026-10-14T02:03:47.684367+00:00",
+  "version": "20261013-184128-652",
+  "protocol": 61,
+  "verified_files": 32,
+  "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+  "native_current": {
+    "status": "CURRENT",
+    "version": "20261013-184128-652",
+    "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+    "warning": null,
+    "feed_available": true,
+    "release_notes": "New front-end lobby based on Minimal Frontline. Gather a party, select an appearance, ready up and let the leader start. Human soldier foreground, compact squad portraits and readable native controls. Only Arena Survival is featured. Matching VS61 required. Title and branding remain provisional.",
+    "protocol": 61
+  },
+  "scope": "Actual reviewed production launcher, embedded production RSA key, local signed candidate feed and all installed file hashes. No HTTPS or launcher GUI button claim yet. Legacy PowerShell staging attempt rejected; old install remained intact, native launcher update completed normally. Shell GUI-process exit observation was unreliable; completion is captured with subprocess."
+}

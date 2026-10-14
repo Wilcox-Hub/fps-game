@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "time_utc": "2026-10-14T02:14:03.646482+00:00",
+  "protocol": 61,
+  "launcher_sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4",
+  "check": {
+    "status": "AVAILABLE",
+    "version": "20261013-184128-652",
+    "protocol": 61,
+    "archive_size": 453396809,
+    "release_notes": "New front-end lobby based on Minimal Frontline. Gather a party, select an appearance, ready up and let the leader start. Human soldier foreground, compact squad portraits and readable native controls. Only Arena Survival is featured. Matching VS61 required. Title and branding remain provisional."
+  },
+  "fresh_update": {
+    "status": "UPDATED",
+    "version": "20261013-184128-652",
+    "install_root": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\fresh-live-install",
+    "warning": null,
+    "feed_available": true,
+    "release_notes": "New front-end lobby based on Minimal Frontline. Gather a party, select an appearance, ready up and let the leader start. Human soldier foreground, compact squad portraits and readable native controls. Only Arena Survival is featured. Matching VS61 required. Title and branding remain provisional.",
+    "protocol": 61
+  },
+  "repeat_update": {
+    "status": "CURRENT",
+    "version": "20261013-184128-652",
+    "install_root": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\output\\lobby-revision-20261013\\fresh-live-install",
+    "warning": null,
+    "feed_available": true,
+    "release_notes": "New front-end lobby based on Minimal Frontline. Gather a party, select an appearance, ready up and let the leader start. Human soldier foreground, compact squad portraits and readable native controls. Only Arena Survival is featured. Matching VS61 required. Title and branding remain provisional.",
+    "protocol": 61
+  },
+  "verified_files": 32,
+  "scope": "Actual production native launcher, live HTTPS latest-release metadata, embedded RSA signature verification, full download and installed hashes. Backend command flow; no fresh physical friend-PC, SmartScreen or normal GUI-button acceptance."
+}

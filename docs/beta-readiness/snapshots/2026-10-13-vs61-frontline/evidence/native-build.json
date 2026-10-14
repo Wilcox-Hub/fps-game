@@ -1,0 +1,10 @@
+{
+  "engine": "5.8.3",
+  "protocol": 61,
+  "platform": "Linux",
+  "target": "Server",
+  "configuration": "Development",
+  "built_utc": "2026-10-14T01:41:00.5580490Z",
+  "input_count": 619,
+  "input_manifest_sha256": "BFB6E8F62B50F8BF961AD90C441DD35F055833F0BD96D8F7BF500CFD96B5652D"
+}

@@ -1,0 +1,143 @@
+{
+  "previous_snapshot": "2026-10-12-launcher-smartscreen",
+  "current_inputs": 619,
+  "changed_or_added": [
+    {
+      "path": "Content/UI/Menu/CharacterDefender.png",
+      "previous_sha256": null,
+      "sha256": "60EA5D982A81FDED3D560BB9463BA94665211BDA46FDC858084201AA3C55272F"
+    },
+    {
+      "path": "Content/UI/Menu/CharacterVeteran.png",
+      "previous_sha256": null,
+      "sha256": "CE7695F6CD065A9928B3A06C19925F62F7094C511D6D050FC35AC4C5376DD6F4"
+    },
+    {
+      "path": "Content/UI/Menu/CharacterVeyran.png",
+      "previous_sha256": null,
+      "sha256": "A6839B4C1C04B8EAC0862585E0F58D6A97E5B47EC4337F930887BF1B22CF3EBA"
+    },
+    {
+      "path": "Content/UI/Menu/Fonts/OFL-Oxanium.txt",
+      "previous_sha256": null,
+      "sha256": "FE17C0F2581D71B4E1EA7E636E7F4877C29223E11BB1DD1A871E8C3F2A86336B"
+    },
+    {
+      "path": "Content/UI/Menu/Fonts/Oxanium-Bold.ttf",
+      "previous_sha256": null,
+      "sha256": "CC7AF1538B1D713CAEB6A0888887F34A99E6BE2F1D9BA62DE8DFD81B2FBF0513"
+    },
+    {
+      "path": "Content/UI/Menu/Fonts/Oxanium-Regular.ttf",
+      "previous_sha256": null,
+      "sha256": "C89DC4725A7686D1BD81A213CDF98C1C5F59E29ECE8977FB784F00651738670B"
+    },
+    {
+      "path": "Content/UI/Menu/FrontlineFaithful.png",
+      "previous_sha256": null,
+      "sha256": "A10FB61E11736A38D7A3ABFE53910BB9119E4ABF7CBDE6A3AF92CD7955A81A0D"
+    },
+    {
+      "path": "Content/UI/Menu/FrontlineLogo.png",
+      "previous_sha256": null,
+      "sha256": "E315C49D545D940B4557AA938AD4A31307E22EACFD7FCE8E08CFAE021ABB1159"
+    },
+    {
+      "path": "Content/UI/Menu/FrontlineVS61.png",
+      "previous_sha256": null,
+      "sha256": "A7F5D73D91D76C71DB6CB10EA0623A5D67D4298DF6A20BA056E05D73F592D847"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireFrontEndMenus.cpp",
+      "previous_sha256": null,
+      "sha256": "E575D9A1620BCD2308ED1B36BFC1F039136FC72D82D55AAE301B410B742D17F8"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireFrontlineStyle.h",
+      "previous_sha256": null,
+      "sha256": "18870A84F8AB90569370AEC341BDD6DDD5624650702591E60C41E6D88C50B233"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+      "previous_sha256": "4B587488424A3566851527391DC1FB166F786436014FE11758257FA52A62ADA9",
+      "sha256": "F457B63ABC1CF756F4B04D2A947E7F3154BE6F44B66576B31AD2161CF5311D23"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireGameMode.h",
+      "previous_sha256": "49DE07A97DD4781DE3BFED460DCBCB6DB11AEF7FCD85DA2DD3B897F99290CA19",
+      "sha256": "178405D2C3DCB340547F810E93D910BA2A94C61EB35E4B1AA080D27534012D79"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireLobby.cpp",
+      "previous_sha256": "1BD278A98152C8F3AD383836459F06A59A2D8625D1E14AC0FF2331BB913BFE7A",
+      "sha256": "0F9E5B137595F8CC5A77A33E4CC8D84E49C8CC37A182ADDA705F345A15CCE39C"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireMenuActions.cpp",
+      "previous_sha256": "4B1D4FE7E4D33B3A9EC351832DBF1FAF177A7C22E1BA1A15289D119729BFF6BD",
+      "sha256": "C82F7B2D73EC2582A3907CC4B01811105FFD8885A522BB9896CA2B72F5B336F5"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireMenus.cpp",
+      "previous_sha256": "EDB022C5B268F19376B621D856A9ADFA507210EA5311E8C303B2BA730BFF20B3",
+      "sha256": "21F9250AB0B9B2B5A85EA6860918CC08E5173D38121B418A69F2CE319AEB0C4C"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireMenus.h",
+      "previous_sha256": "34057D638BCB2401161C1D26DAAF10C1CE5072ED3E893C3B642052C065652A19",
+      "sha256": "89C387307F46A5C50726463F7F1765EFBBC3046CCF7F39CEF74818AC22BEEDE8"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireNetworkCompatibility.h",
+      "previous_sha256": "6D5E1872D21998F7136D6AA3B82AACCFB611D35C8EE9950E12D4EEA1244CB92F",
+      "sha256": "C08460F3F76833BBE47602FB58237FAB3FE6DE5A392CC6FEBC7DC813041E9C94"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireSessionSubsystem.cpp",
+      "previous_sha256": "BC869B08BB60ADF5694FEDE4D27C43CF1FEE73967239B5527B7D6868757A999E",
+      "sha256": "287F051D5ACBDB94AC22C903237976B33FB859C70DEA9FE3CA9D0874963AE42F"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireUserSettings.h",
+      "previous_sha256": "F5C8C1EFB720178CC9E952E4EC669EE7A99E04D11E0A8A070ECC67356BFF8A7A",
+      "sha256": "62E9D48B3B813E9CBE6F6C4AA546145338357A28129E6CAC77E208A356834CCA"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireFrontlineFixture.cpp",
+      "previous_sha256": null,
+      "sha256": "AFAE2AE03C00EA2DFEF2C9F95C1431DAEC456990D2C89965159B91AF6B67DC5B"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireLobbyNetworkFixture.cpp",
+      "previous_sha256": "B7718CADEF56BF273FC7ABA0CF50F680C8A6ADCD9044B2A8B898725CDD9EE7BE",
+      "sha256": "0B7BB7930601C7260F1A4B1B8F4F6F0EA40AE02C4671DF667D0C33B2A7F8073D"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefirePrivateMenuFixture.cpp",
+      "previous_sha256": "BF448882FE4D9240720A51F67FAA8C45D1E3CAC1C1B0CAD197E2F5C0DC619484",
+      "sha256": "5D3A979CFA2CC35B177EF2E7A4FC4F36DB3EC83140DAB476EE1F82BB17EC3D03"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+      "previous_sha256": "9E5469416D4AFE48A5CF9472867EEBF8751A2BBD73E957D8A06BA3C1EB20ACF8",
+      "sha256": "3080D3CC1FBDDA6E034F326A41ABC3E350E0248C0F23F1D94E1BBAB97230C432"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h",
+      "previous_sha256": "21DDD9E0A213711E1AFC6FB5E071DCA515B4A235D7C30D4E736562522DB1975D",
+      "sha256": "26FD2BCF3AAFCCFCAA8B822F8354479FA48FE930DB74EEED321F156D81E83715"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+      "previous_sha256": "F9C39B3A57FAC848007D585BAFF64E4BCC50795A87572F8149E0030B455E9164",
+      "sha256": "A8F0B79A77250EC8B10DFB400757F1E32DE5F9FB4F37DC9819909AA663A34AE5"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h",
+      "previous_sha256": "61A67D9BE14DD6E44097C409FFDE239D36BC2C0B56AF164810E6F399CE6422FE",
+      "sha256": "CB12E4FDAE3302D55D43131DC94BAE7A29298F14494320DF7F21C806FBA0DBF4"
+    }
+  ],
+  "removed": [],
+  "scope": "Front-end layout, character preselection/appearance, startup and lobby roster; unrelated dirty game work preserved. No game source commit."
+}
