@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "recorded_on": "2026-10-13",
+  "recorded_on": "2026-10-14",
   "tested_on": "2026-10-13",
   "timezone": "America/Los_Angeles",
-  "snapshot_id": "2026-10-13-launcher-rollout",
+  "snapshot_id": "2026-10-13-vs62-setup",
   "source_baseline_commit": "ac54494e66d5321fdf40072d704c057aec3fb6ac",
   "tested_source_includes_unpublished_changes": true,
-  "tested_input_count": 619,
+  "tested_input_count": 621,
   "engine": "Unreal Engine 5.8.3",
   "project": "unreal/Ridgefire",
   "verdict": "NOT_BETA_READY",
@@ -15,19 +15,19 @@
   "overall_beta_readiness_percent": null,
   "confidence": "low",
   "score": "snapshots/2026-10-04-vs41/scores.json",
-  "report": "snapshots/2026-10-13-launcher-rollout/report.md",
-  "input_manifest": "snapshots/2026-10-13-vs61-frontline/input-manifest.json",
-  "test_results": "snapshots/2026-10-13-launcher-rollout/test-results.json",
-  "visual_check": "snapshots/2026-10-13-vs61-frontline/visual-check.json",
-  "cache_policy": "619 current inputs. Reuse each validation group only at its recorded date, exact/scoped input identity and platform level. Earlier gameplay evidence remains historical; no blanket carry-forward.",
+  "report": "snapshots/2026-10-13-vs62-setup/report.md",
+  "input_manifest": "snapshots/2026-10-13-vs62-setup/input-manifest.json",
+  "test_results": "snapshots/2026-10-13-vs62-setup/test-results.json",
+  "visual_check": "snapshots/2026-10-13-vs62-setup/visual-check.json",
+  "cache_policy": "621VS62inputs. Reuse evidence only by exact/scoped hashes, recorded date and platform; lean-removal/shield/character requests are pending new scope.",
   "project_descriptor": {
     "path": "Ridgefire.uproject",
     "sha256": "065A1AB7AF0B97F9C813738343DCC20B66CE016D144DC7FAC6799DCC2692F331"
   },
-  "previous_test_snapshot": "2026-10-13-vs61-frontline",
+  "previous_test_snapshot": "2026-10-13-launcher-rollout",
   "beta_readiness_approved": false,
   "testing_recommendation": "Supervised internal alpha on the refreshed Prototype package; external beta stays conditional on packaged full-run and friend co-op acceptance.",
-  "assessment_kind": "Existing installed launcher live HTTPS automatic-update rollout verification; no new binaries or gameplay assessment",
+  "assessment_kind": "Setup styling/flicker, four active perks, corrected lean and matching package/server delivery.",
   "gameplay_score_estimated_on": "2026-10-04",
   "gameplay_score_source": "2026-10-04-vs41",
   "human_recording_reviewed_on": "2026-10-04",
@@ -39,7 +39,7 @@
     "Normal first-map warned arrivals, bot routes/pressure/stalls and party-scaled weapon time-to-defeat",
     "Actual bot hit registration on visible armor/head, gaps, moving and covered targets",
     "Owner final menu comprehension, shards purchases/upgrades, 90-second early-start feel",
-    "Natural economy and 45–60-minute packaged full run",
+    "Natural economy and 45\u201360-minute packaged full run",
     "Fixed-path firewall/share activation when authorized"
   ],
   "target_gameplay_readiness_percent": 75,
@@ -48,7 +48,7 @@
   "requested_milestone_status": "IN_PROGRESS; 69% latest estimate; 75% remains open",
   "remaining_gates": [
     "Human Q/E hold/toggle/cover/lean feel, Ion hit-earned charge/cue/charged shot at real latency; provisional damage/price/balance",
-    "VS61 actual different-Wi-Fi friend join, primary/secondary combat and original-squad server restart recovery; normal 2–4-player profiling alongside Minecraft",
+    "VS61 actual different-Wi-Fi friend join, primary/secondary combat and original-squad server restart recovery; normal 2\u20134-player profiling alongside Minecraft",
     "Owner two-PC matching VS61 packaged retry, firing both guns and LAN discovery reliability",
     "Human VS61 bot hit feel, moving/covered targets and normal latency; final packaged combat",
     "Human normal VS61 wave cadence, purposeful bot tactics/pressure, first-map travel/cover/scale; finished arena art and normal gate emergence/readability",
@@ -60,11 +60,11 @@
     "Steam/Internet/invites/Quick Play, four-human runs and disconnect AI/reclaim",
     "Production art/animation/audio and minimum-PC profiling/soaks"
   ],
-  "last_automated_implementation_snapshot": "2026-10-13-vs61-frontline",
+  "last_automated_implementation_snapshot": "2026-10-13-vs62-setup",
   "last_automated_scope": "See scoped validation groups; builds and lobby joins are not combat or balance approval.",
   "reviewed_on": "2026-10-05",
   "review_results": "snapshots/2026-10-05-vs42-review/review-results.json",
-  "previous_snapshot": "2026-10-12-launcher-smartscreen",
+  "previous_snapshot": "2026-10-13-launcher-rollout",
   "implementation_review_verdict": "VS42_REQUIRED_FINDINGS_RESOLVED",
   "gameplay_score_review_note": "69% remains the October 4 VS41 planning estimate; implementation/tests/delivery receive no measured fun or beta credit.",
   "reusable_evidence_verified_on": "2026-10-13",
@@ -78,17 +78,17 @@
     1080
   ],
   "primary_ui_resolution_source": "Owner reports playing at 1080p, October 5, 2026",
-  "last_validation_snapshot": "2026-10-13-vs61-frontline",
-  "last_validation_scope": "Final Shipping1080p/720p real Slate controls; Editor private form; four local lobby peers; installed Shipping/native LAN/relay lobby and wrong-invite controls; production HTTPS updater and32-file hashes. No human combat/balance, physical second PC or different-Wi-Fi acceptance.",
+  "last_validation_snapshot": "2026-10-13-vs62-setup",
+  "last_validation_scope": "Shipping four-perk controls and72post-click frames at1080p/1440p/4K; Editor timed setup/effects/saves; fourlocalpeers; nativeLAN/relaylobby andwronginvite; signedpublicrelease/currentowner hashes. No humanfun/combat or4Kperformance.",
   "prior_implementation_test_results": "snapshots/2026-10-05-vs44/test-results.json",
   "last_verified_player_package": {
-    "archive_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261013-184128-652\\Windows",
+    "archive_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261013-213850-543\\Windows",
     "launcher": "C:/Users/YaYa/AppData/Local/IRON SUN/Play-IRON-SUN.cmd",
-    "artifact_manifest": "snapshots/2026-10-13-vs61-frontline/evidence/package-artifacts.json",
-    "verified_on": "2026-10-13",
+    "artifact_manifest": "snapshots/2026-10-13-vs62-setup/evidence/package-artifacts.json",
+    "verified_on": "2026-10-14",
     "launched": true,
-    "launch_scope": "Exact Shipping real Slate menus at1080p/720p, installed native LAN/relay lobby holds; no packaged normal combat/human acceptance.",
-    "updater_snapshot": "2026-10-13-vs61-frontline",
+    "launch_scope": "Exact Shipping setup and native lobby technical checks; no human combat acceptance.",
+    "updater_snapshot": "2026-10-13-vs62-setup",
     "preferred_player_launcher_path": "C:/Users/YaYa/AppData/Local/IRON SUN/Play-IRON-SUN.cmd",
     "fixed_install_windows_path": "C:/Users/YaYa/AppData/Local/IRON SUN/Game/Windows",
     "fixed_install_launched": true
@@ -102,17 +102,17 @@
     "current_report": "snapshots/2026-10-08-vs52/test-results.json"
   },
   "player_updater": {
-    "snapshot": "2026-10-13-vs61-frontline",
+    "snapshot": "2026-10-13-vs62-setup",
     "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
     "launcher": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN\\Play-IRON-SUN.cmd",
     "desktop_shortcut": "C:\\Users\\YaYa\\Desktop\\IRON SUN.lnk",
-    "version": "20261013-184128-652",
+    "version": "20261013-213850-543",
     "network_status": "Native production updater installed/current; fresh published HTTPS install/current passes, all32 files match. Wife/friend update acceptance remains open.",
     "second_pc_accepted": false,
     "setup_zip": "downloads/IRON-SUN-Updater-Setup.zip"
   },
-  "delivery_version": "20261013-184128-652",
-  "delivery_scope": "Existing production 1.0.1 launcher upgrades an isolated complete VS60 install to VS61 over the published signed feed. Friends receive it on next open/idle check; physical friend-PC receipt remains unverified.",
+  "delivery_version": "20261013-213850-543",
+  "delivery_scope": "Published VS62 through existing1.0.1launcher;32owner current and32rollback hashes verified over live signed HTTPS. Physical friend receipt unverified.",
   "map_visual_check": "snapshots/2026-10-09-vs55/map-visual-check.json",
   "map_visual_check_tested_on": "2026-10-09",
   "run_recovery_visual_check": "snapshots/2026-10-09-vs56/run-recovery-visual-check.json",
@@ -128,7 +128,7 @@
   },
   "beta_scope_status": "Existing ten-arena full beta gates retained. Optional private friends beta scope question pending; no scope reduction assumed.",
   "private_server": {
-    "protocol": 60,
+    "protocol": 62,
     "status": "LIVE_INTERNAL_ALPHA",
     "host": "sidequest",
     "setup_directory": "/home/caiden/iron-sun-server",
@@ -139,7 +139,7 @@
     "native_linux_accepted": true,
     "account_prerequisites": [],
     "guide": "unreal/Ridgefire/PRIVATE_SERVER.md",
-    "validation_snapshot": "2026-10-12-vs60-lean-ion",
+    "validation_snapshot": "2026-10-13-vs62-setup",
     "endpoint": "cairo-ferry.tun.ply.gg:42527",
     "origin": "127.0.0.1:7777",
     "relay_transport_verified": true,
@@ -190,12 +190,12 @@
     "live_download_install_scope": "Prior protected CLI production install/open/uninstall/reinstall and live backend checks retain scope; owner now reports actual browser-downloaded setup blocked by SmartScreen. Smooth normal friend-PC first run is not accepted.",
     "installed_game_startup_accepted": true,
     "latest_site_source_handoff_status": "REJECTED; stopped; existing signed-feed workflow used independently",
-    "public_setup_release": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs61-20261013-184128-652-launcher-1.0.1-setup-1",
-    "public_setup_download": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/download/playtest-vs61-20261013-184128-652-launcher-1.0.1-setup-1/IRON-SUN-Setup.exe",
+    "public_setup_release": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs62-20261013-213850-543-launcher-1.0.1-setup-1",
+    "public_setup_download": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/download/playtest-vs62-20261013-213850-543-launcher-1.0.1-setup-1/IRON-SUN-Setup.exe",
     "public_setup_sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
     "publisher_policy_checks_passed": 17,
     "publisher_source_commit": "19641a032739cf3c09c40b84a404d4eaa3a8f7d4",
-    "signed_setup_feed_commit": "e43561650580e5df97267b483ef88fcce101f938",
+    "signed_setup_feed_commit": "e3bd996c42f24c80078fb5916fce97e8f7cba40a",
     "smartscreen_first_run_status": "OWNER_REPORTED_UNRECOGNIZED_APP",
     "smartscreen_first_run_accepted": false,
     "windows_publisher_signature_status": "NotSigned",
@@ -219,7 +219,8 @@
       "idle_game_check_minutes": 10,
       "requires_setup_rerun": false,
       "friend_pc_accepted": false
-    }
+    },
+    "game_version": "20261013-213850-543"
   },
   "website_input_manifest": "snapshots/2026-10-12-launcher-site-sync/website-input-manifest.json",
   "record_publication_status": "CANONICAL_METADATA_ONLY; game source publication unchanged",
@@ -268,5 +269,29 @@
     "native_server_release": "5232bf37994b378e",
     "checks": "snapshots/2026-10-13-vs61-frontline/test-results.json",
     "human_accepted": false
-  }
+  },
+  "minimum_display_resolution": [
+    1920,
+    1080
+  ],
+  "ui_resolution_targets": [
+    [
+      1920,
+      1080
+    ],
+    [
+      2560,
+      1440
+    ],
+    [
+      3840,
+      2160
+    ]
+  ],
+  "pending_owner_direction": [
+    "Remove lean from gameplay/settings;VS62still includes it.",
+    "Build an active shield tactical after resolving its behavior; current Shield is the passive team bonus.",
+    "Make all playable 3Dcharacters match their approved mockups; production likeness gates open.",
+    "Future lobby moving backdrop and sound."
+  ]
 }

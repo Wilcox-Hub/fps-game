@@ -1,0 +1,35 @@
+{
+  "inspected": true,
+  "primary_resolution": [
+    1920,
+    1080
+  ],
+  "supported_ui_targets": [
+    [
+      1920,
+      1080
+    ],
+    [
+      2560,
+      1440
+    ],
+    [
+      3840,
+      2160
+    ]
+  ],
+  "minimum_display_target": [
+    1920,
+    1080
+  ],
+  "minimum_source": "Owner clarification October13: no players below1080p;1440p common,4K later.720p checks are extra regression coverage, not the product target.",
+  "screenshots": [
+    "evidence/setup-1080p.png",
+    "evidence/setup-1440p.png",
+    "evidence/setup-4k.png",
+    "evidence/secondary-1080p-editor.png",
+    "evidence/primary-1080p-editor.png"
+  ],
+  "findings": "Same sunset composition, Oxanium, amber accents and sparse labels as main screen; clipping fixed. Four active choices and two equipped slots. Details opt-in.",
+  "limits": "Perks sampled in exact Shipping at all three targets; secondary/primary frames are Editor. No human aesthetics approval or4K combat performance acceptance. Existing1672x941 scene art is scaled, not native4K production art."
+}

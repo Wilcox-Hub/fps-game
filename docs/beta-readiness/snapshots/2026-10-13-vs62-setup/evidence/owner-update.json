@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "time_utc": "2026-10-14T07:58:36.569605+00:00",
+  "protocol": 62,
+  "version": "20261013-213850-543",
+  "previous_version": "20261013-213850-543",
+  "check": {
+    "status": "AVAILABLE",
+    "version": "20261013-213850-543",
+    "protocol": 62,
+    "archive_size": 453531635,
+    "release_notes": "Loadout menus now match the main lobby. Four immediately available personal perks; equip two. Corrected Q/E lean camera direction and selection-frame flicker. Native text and controls checked at 1080p, 1440p and 4K. Matching co-op server updated. Both players must update to VS62."
+  },
+  "update": {
+    "status": "CURRENT",
+    "version": "20261013-213850-543",
+    "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+    "warning": null,
+    "feed_available": true,
+    "release_notes": "Loadout menus now match the main lobby. Four immediately available personal perks; equip two. Corrected Q/E lean camera direction and selection-frame flicker. Native text and controls checked at 1080p, 1440p and 4K. Matching co-op server updated. Both players must update to VS62.",
+    "protocol": 62
+  },
+  "repeat_update": {
+    "status": "CURRENT",
+    "version": "20261013-213850-543",
+    "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+    "warning": null,
+    "feed_available": true,
+    "release_notes": "Loadout menus now match the main lobby. Four immediately available personal perks; equip two. Corrected Q/E lean camera direction and selection-frame flicker. Native text and controls checked at 1080p, 1440p and 4K. Matching co-op server updated. Both players must update to VS62.",
+    "protocol": 62
+  },
+  "verified_files": 32,
+  "rollback_files_verified": 32,
+  "existing_save_file_count_preserved": 0,
+  "launcher_unchanged": true,
+  "scope": "Actual production 1.0.1 native launcher using the live signed HTTPS feed; owner install upgrade/current, installed artifact hashes and existing file preservation. No normal GUI-button, physical friend-PC receipt or actual Unreal saved-run recovery acceptance."
+}

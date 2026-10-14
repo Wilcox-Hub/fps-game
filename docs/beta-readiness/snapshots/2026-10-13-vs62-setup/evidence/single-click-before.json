@@ -1,0 +1,12 @@
+{
+  "passed": false,
+  "unmeasured_render_frames": 1,
+  "sampled_frames": 8,
+  "reason": "no painted partial menu after selection",
+  "output": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\setup-refinement-20261013\\probe-20261013-203102-113",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "packaged": false
+}

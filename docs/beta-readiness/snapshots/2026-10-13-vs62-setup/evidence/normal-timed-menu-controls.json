@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "interactions": true,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "log": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\setup-refinement-20261013\\review-20261013-212509-848\\Game.log",
+  "captures": [],
+  "scope": "Current Editor normal timed setup, native Slate pointer confirmation, close/resume input and post-menu firing."
+}

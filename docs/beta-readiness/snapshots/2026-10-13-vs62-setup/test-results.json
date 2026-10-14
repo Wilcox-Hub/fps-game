@@ -1,0 +1,278 @@
+{
+  "snapshot": "2026-10-13-vs62-setup",
+  "tested_on": "2026-10-13",
+  "delivery_final_verified_on": "2026-10-14",
+  "passed": true,
+  "protocol": 62,
+  "input_count": 621,
+  "checks": {
+    "lean-ion": {
+      "passed": true,
+      "tests": [
+        "Ridgefire.LeanIon.InputCoverChargeAndRecovery"
+      ],
+      "failures": [],
+      "filter": "Ridgefire.LeanIon.InputCoverChargeAndRecovery",
+      "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261013-212621-022\\Automation.log",
+      "rendered": false,
+      "editor_only": false,
+      "exit_code": 0,
+      "time_utc": "2026-10-14T04:26:35.1347682Z",
+      "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+    },
+    "legacy-ledger-rules": {
+      "passed": true,
+      "tests": [
+        "Ridgefire.LeanIon.LegacyCheckpointMigration",
+        "Ridgefire.Progression.SaveRoundTrip",
+        "Ridgefire.Progression.StorePersistenceAndIsolation",
+        "Ridgefire.Progression.UnlocksAndEffects"
+      ],
+      "failures": [],
+      "filter": "Ridgefire.Progression.UnlocksAndEffects+Ridgefire.Progression.SaveRoundTrip+Ridgefire.Progression.StorePersistenceAndIsolation+Ridgefire.LeanIon.LegacyCheckpointMigration",
+      "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261013-212300-990\\Automation.log",
+      "rendered": false,
+      "editor_only": true,
+      "exit_code": 0,
+      "time_utc": "2026-10-14T04:23:13.9027730Z",
+      "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+    },
+    "checkpoint-compatibility": {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Checkpoints.DiskValidationAndRetirement",
+        "Ridgefire.Checkpoints.RestoreAllArenaBoundaries"
+      ],
+      "failures": [],
+      "filter": "Ridgefire.Checkpoints",
+      "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261013-212301-358\\Automation.log",
+      "rendered": false,
+      "editor_only": false,
+      "exit_code": 0,
+      "time_utc": "2026-10-14T04:23:13.8533569Z",
+      "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+    },
+    "perk-gameplay": {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Progression.PossessedInteractions"
+      ],
+      "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Progression\\checks-20261013-212548-708\\Automation.log",
+      "scope": "Unattended local engine fixtures; no human/hardware/Internet acceptance",
+      "time_utc": "2026-10-14T04:26:07.1290413Z"
+    },
+    "four-local-peers": {
+      "passed": true,
+      "peers": 4,
+      "host_loss": false,
+      "hosted_restart": false,
+      "late_join_rejected": false,
+      "late_join_log": "",
+      "cycles": 2,
+      "rendered_host": false,
+      "logs": [
+        "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261013-212718-397\\Peer0.log",
+        "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261013-212718-397\\Peer1.log",
+        "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261013-212718-397\\Peer2.log",
+        "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261013-212718-397\\Peer3.log"
+      ],
+      "time_utc": "2026-10-14T04:29:06.8199928Z",
+      "scope": "Actual local Editor processes; Null/LAN provider discovery and join, owned input/RPCs, ready/unready, timed setup, leave/end/rehost. HostedRestart checks two full team wipes, remote then host restart, retained XP, normal timed setup, owned movement/fire/reload and gamepad key events. VerifyLateJoin uses a separate direct-connection process after restart and requires an explicit launched-party rejection. No Internet/Steam or human-input acceptance."
+    },
+    "frontline-4k": {
+      "passed": true,
+      "packaged": true,
+      "runtime": "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/Packages/20261013-213850-543/Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+      "resolution": [
+        3840,
+        2160
+      ],
+      "output": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Frontline\\20261013-214927-266",
+      "exit_code": 0,
+      "receipt": "clean Shipping exit and five success-gated screenshots; Shipping logging stripped",
+      "scope": "Actual native Slate pointer input, held front end, character meshes/selection, settings, solo travel and authority lock. Generated backdrop and concept portraits are presentation art, not production 3D acceptance.",
+      "time_utc": "2026-10-14T04:49:46.0597024Z"
+    },
+    "frontline-720-extra": {
+      "passed": true,
+      "packaged": true,
+      "runtime": "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/Packages/20261013-213850-543/Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+      "resolution": [
+        1280,
+        720
+      ],
+      "output": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Frontline\\20261013-214235-392",
+      "exit_code": 0,
+      "receipt": "clean Shipping exit and five success-gated screenshots; Shipping logging stripped",
+      "scope": "Actual native Slate pointer input, held front end, character meshes/selection, settings, solo travel and authority lock. Generated backdrop and concept portraits are presentation art, not production 3D acceptance.",
+      "time_utc": "2026-10-14T04:42:54.1487513Z"
+    },
+    "normal-timed-menu-controls": {
+      "passed": true,
+      "interactions": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "log": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\setup-refinement-20261013\\review-20261013-212509-848\\Game.log",
+      "captures": [],
+      "scope": "Current Editor normal timed setup, native Slate pointer confirmation, close/resume input and post-menu firing."
+    },
+    "setup-1080p": {
+      "passed": true,
+      "unmeasured_render_frames": 0,
+      "sampled_frames": 72,
+      "reason": "no painted partial menu after selection",
+      "output": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\setup-refinement-20261013\\probe-20261013-214016-852",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "packaged": true
+    },
+    "setup-1440p": {
+      "passed": true,
+      "unmeasured_render_frames": 0,
+      "sampled_frames": 72,
+      "reason": "no painted partial menu after selection",
+      "output": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\setup-refinement-20261013\\probe-20261013-214853-369",
+      "resolution": [
+        2560,
+        1440
+      ],
+      "packaged": true
+    },
+    "setup-4k": {
+      "passed": true,
+      "unmeasured_render_frames": 0,
+      "sampled_frames": 72,
+      "reason": "no painted partial menu after selection",
+      "output": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\setup-refinement-20261013\\probe-20261013-214853-423",
+      "resolution": [
+        3840,
+        2160
+      ],
+      "packaged": true
+    },
+    "native-lan": {
+      "passed": true,
+      "protocol": 62,
+      "address": "192.168.4.36:7777",
+      "wrong_invite_control": false,
+      "time_utc": "2026-10-14T04:47:45.881327+00:00",
+      "clients": 2,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "lobby_join_accepted": true,
+      "held_seconds": 12,
+      "unresolved_network_references": 0,
+      "client_logging_available": false,
+      "run_directory": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\setup-refinement-20261013\\native-joins\\20261013-214743"
+    },
+    "native-relay": {
+      "passed": true,
+      "protocol": 62,
+      "address": "cairo-ferry.tun.ply.gg:42527",
+      "wrong_invite_control": false,
+      "time_utc": "2026-10-14T04:49:29.894562+00:00",
+      "clients": 2,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "lobby_join_accepted": true,
+      "held_seconds": 12,
+      "unresolved_network_references": 0,
+      "client_logging_available": false,
+      "run_directory": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\setup-refinement-20261013\\native-joins\\20261013-214928"
+    },
+    "wrong-invite": {
+      "passed": true,
+      "protocol": 62,
+      "address": "cairo-ferry.tun.ply.gg:42527",
+      "wrong_invite_control": true,
+      "time_utc": "2026-10-14T04:51:29.138788+00:00",
+      "clients": 1,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "wrong_invite_rejected": true,
+      "client_logging_available": false,
+      "run_directory": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\setup-refinement-20261013\\native-joins\\20261013-215126"
+    },
+    "native-deployment": {
+      "passed": true,
+      "protocol": 62,
+      "release": {
+        "release": "c10aea39abce41b5",
+        "sha256": "c10aea39abce41b5674e2451214b639f586760dc6d6d8002e3d8ce83eea874a6",
+        "previous_release": "releases/5232bf37994b378e",
+        "activated_files": true,
+        "process_restarted": false
+      },
+      "time_utc": "2026-10-14T04:46:30.186730+00:00",
+      "private_data_backup": "/home/caiden/iron-sun-server/backups/pre-vs62-20261014T044622Z.tar.gz",
+      "saved_files_preserved": 0,
+      "relay_unchanged": true,
+      "listening": true,
+      "read_only_root": true,
+      "user": "1000:1000",
+      "restarts": 0,
+      "metadata": {
+        "engine": "5.8.3",
+        "protocol": 62,
+        "platform": "Linux",
+        "target": "Server",
+        "configuration": "Development",
+        "built_utc": "2026-10-14T04:44:21.3175793Z",
+        "input_count": 621,
+        "input_manifest_sha256": "417B32BC1625DC065D15225F642F1651DC9433B99AF7AFF3B757F511E289993F"
+      },
+      "scope": "Actual native Linux boot and saved-file preservation at empty-lobby deployment; game-only container recreation. No combat, restart recovery, capacity or external-Wi-Fi acceptance."
+    },
+    "owner-update": {
+      "passed": true,
+      "time_utc": "2026-10-14T07:58:36.569605+00:00",
+      "protocol": 62,
+      "version": "20261013-213850-543",
+      "previous_version": "20261013-213850-543",
+      "check": {
+        "status": "AVAILABLE",
+        "version": "20261013-213850-543",
+        "protocol": 62,
+        "archive_size": 453531635,
+        "release_notes": "Loadout menus now match the main lobby. Four immediately available personal perks; equip two. Corrected Q/E lean camera direction and selection-frame flicker. Native text and controls checked at 1080p, 1440p and 4K. Matching co-op server updated. Both players must update to VS62."
+      },
+      "update": {
+        "status": "CURRENT",
+        "version": "20261013-213850-543",
+        "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+        "warning": null,
+        "feed_available": true,
+        "release_notes": "Loadout menus now match the main lobby. Four immediately available personal perks; equip two. Corrected Q/E lean camera direction and selection-frame flicker. Native text and controls checked at 1080p, 1440p and 4K. Matching co-op server updated. Both players must update to VS62.",
+        "protocol": 62
+      },
+      "repeat_update": {
+        "status": "CURRENT",
+        "version": "20261013-213850-543",
+        "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+        "warning": null,
+        "feed_available": true,
+        "release_notes": "Loadout menus now match the main lobby. Four immediately available personal perks; equip two. Corrected Q/E lean camera direction and selection-frame flicker. Native text and controls checked at 1080p, 1440p and 4K. Matching co-op server updated. Both players must update to VS62.",
+        "protocol": 62
+      },
+      "verified_files": 32,
+      "rollback_files_verified": 32,
+      "existing_save_file_count_preserved": 0,
+      "launcher_unchanged": true,
+      "scope": "Actual production 1.0.1 native launcher using the live signed HTTPS feed; owner install upgrade/current, installed artifact hashes and existing file preservation. No normal GUI-button, physical friend-PC receipt or actual Unreal saved-run recovery acceptance."
+    }
+  },
+  "red_to_green": "Single native pointer action produced one unmeasured painted frame. Isolated child prepass fixed it before layout/catalog changes; exact Shipping final loop passes72frames at1080p,1440p,4K.",
+  "harness_corrections": [
+    "PossessedInteractions requires its dedicated legacy-voting fixture flag; a combined world and a flagless run failed and are not counted as passes. Dedicated correct runner passed actual effects/carry/fire.",
+    "Shipping ignores a direct command-line map override and opens the front end. The opt-in test now clicks the actual Solo control. Initial timeout/deadline attempts are not passes.",
+    "Owner update completed before its helper incorrectly checked PreviousGame. Correct Previous directory and all32current/32rollback hashes verified on October14; repeat update CURRENT."
+  ],
+  "limits": [
+    "Four local co-op peers are Editor on one physical machine. Native Shipping joins are lobby-only, not combat, separate Wi-Fi, normal GUI, saved-run recovery or friend-PC acceptance.",
+    "Current native deployment contained zero save files; legacy fixture migration is not proof of real saved-run continuity.",
+    "Perk/lean/menu technical checks do not measure fun, balance or owner readability acceptance.",
+    "The publishedVS62 still includes lean. Owner subsequently requests lean removal and an active shield; that is pending next work.",
+    "Character art remains prototype; likeness, skinning/LODs and finished native model acceptance remain open."
+  ]
+}

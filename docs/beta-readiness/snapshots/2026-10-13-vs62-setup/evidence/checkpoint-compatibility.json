@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "tests": [
+    "Ridgefire.Checkpoints.DiskValidationAndRetirement",
+    "Ridgefire.Checkpoints.RestoreAllArenaBoundaries"
+  ],
+  "failures": [],
+  "filter": "Ridgefire.Checkpoints",
+  "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261013-212301-358\\Automation.log",
+  "rendered": false,
+  "editor_only": false,
+  "exit_code": 0,
+  "time_utc": "2026-10-14T04:23:13.8533569Z",
+  "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+}

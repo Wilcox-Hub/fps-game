@@ -1,0 +1,13 @@
+# VS62 setup refinement — October13,2026
+
+The setup screens now use the main lobby's sunset scene, Oxanium typography, amber accents and sparse controls. Four immediately available personal perks remain: Stable Grip, Rescue Harness, Trauma Kit and Lightweight Rig. Players equip two distinct perks. Existing serialized node IDs remain stable; valid older profiles/checkpoints normalize retired choices in memory and preserve XP. Weapon setup explains primary1/secondary2 and hides exact data behind Weapon details.
+
+A single actual selection reproduced one partial frame because a replacement subtree was created after the window's layout prepass. Measuring the replacement before paint removed it independently of artwork or layout changes. Final exact Shipping selections pass72sampledframes each at1080p,1440p and4K. Q/E's camera roll was reversed while translation/input were correct; its sign was corrected and actual camera-up-vector checks pass. The later owner request to remove lean is a separate pending change;VS62 still includes it.
+
+Focused gameplay, all four zero-XP rules, saved-ledger compatibility, schema migration and both actual checkpoint tests pass. Native pointer/timed setup, close/resume and post-menu firing pass in Editor. Four local Editor peers complete setup/fire/rehosting. Final Windows Shipping and native Linux server build with all621matching inputs. Native deployment was guarded by an empty lobby, retained rollback/private data and left the single-port relay unchanged. Two exact Shipping clients passLAN and public-relay12-second lobby holds; an incorrect invite is rejected.
+
+VS62is public through the unchanged reviewed1.0.1launcher and signed website setup feed. Owner install current verification completed October14:32game files and32retained previous files match. Initial owner-update verification used the wrong rollback-folder name after the install had completed; the corrected helper verifies the actualPrevious folder. A prior automatic approval-review usage limit delayed final verification; it did not reject the release as unsafe.
+
+1080p is the product minimum;1440p and4K are UI targets. Native interface text scales; the existing background artwork is not native4K production art. The720p passes are extra regression coverage. No physical friend-PC, different-Wi-Fi combat, human readability/fun, natural full-run, real saved-run restart or4Kperformance acceptance is claimed. Native deployment contained zero saves. Character models still need likeness/production work.
+
+The69%value remains the October4 low-confidence planning estimate. NOT_BETA_READY and the open75%target are unchanged. Source edits stay local/unpublished; this snapshot publishes readiness metadata only.

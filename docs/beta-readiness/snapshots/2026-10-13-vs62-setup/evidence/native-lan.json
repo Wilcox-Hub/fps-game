@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "protocol": 62,
+  "address": "192.168.4.36:7777",
+  "wrong_invite_control": false,
+  "time_utc": "2026-10-14T04:47:45.881327+00:00",
+  "clients": 2,
+  "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+  "lobby_join_accepted": true,
+  "held_seconds": 12,
+  "unresolved_network_references": 0,
+  "client_logging_available": false,
+  "run_directory": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\setup-refinement-20261013\\native-joins\\20261013-214743"
+}

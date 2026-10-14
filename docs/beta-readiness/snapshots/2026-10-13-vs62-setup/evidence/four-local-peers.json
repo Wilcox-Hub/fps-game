@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "peers": 4,
+  "host_loss": false,
+  "hosted_restart": false,
+  "late_join_rejected": false,
+  "late_join_log": "",
+  "cycles": 2,
+  "rendered_host": false,
+  "logs": [
+    "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261013-212718-397\\Peer0.log",
+    "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261013-212718-397\\Peer1.log",
+    "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261013-212718-397\\Peer2.log",
+    "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LobbyNetwork\\checks-20261013-212718-397\\Peer3.log"
+  ],
+  "time_utc": "2026-10-14T04:29:06.8199928Z",
+  "scope": "Actual local Editor processes; Null/LAN provider discovery and join, owned input/RPCs, ready/unready, timed setup, leave/end/rehost. HostedRestart checks two full team wipes, remote then host restart, retained XP, normal timed setup, owned movement/fire/reload and gamepad key events. VerifyLateJoin uses a separate direct-connection process after restart and requires an explicit launched-party rejection. No Internet/Steam or human-input acceptance."
+}

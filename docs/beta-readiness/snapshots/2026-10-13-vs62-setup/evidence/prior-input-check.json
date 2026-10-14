@@ -1,0 +1,72 @@
+{
+  "snapshot": "2026-10-13-launcher-rollout",
+  "tested_on": "2026-10-13",
+  "gameplay_readiness_percent": 69,
+  "verdict": "NOT_BETA_READY",
+  "reusable_input_evidence": false,
+  "observed_input_count": 621,
+  "expected_input_count": 619,
+  "differences": [
+    {
+      "path": "Source/TP_FirstPerson/RidgefireCheckpoint.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireIon.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireMenuActions.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireMenus.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireMenus.h",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireNetworkCompatibility.h",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireProgression.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireProgression.h",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireSetupMenus.cpp",
+      "change": "added"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireLeanIonTests.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireProgressionInteractionTests.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireProgressionTests.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireSetupSelectionsFixture.cpp",
+      "change": "added"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h",
+      "change": "modified"
+    }
+  ],
+  "validation_scope": "Input hash comparison only; no gameplay tests executed. Build/package/environment changes need separate validation."
+}
