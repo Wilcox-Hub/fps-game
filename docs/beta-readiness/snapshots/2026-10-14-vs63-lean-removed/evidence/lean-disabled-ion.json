@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "tests": [
+    "Ridgefire.LeanIon.InputCoverChargeAndRecovery"
+  ],
+  "failures": [],
+  "filter": "Ridgefire.LeanIon.InputCoverChargeAndRecovery",
+  "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261014-010856-974\\Automation.log",
+  "rendered": false,
+  "editor_only": false,
+  "exit_code": 0,
+  "time_utc": "2026-10-14T08:09:28.8839220Z",
+  "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+}

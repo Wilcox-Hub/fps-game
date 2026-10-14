@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "time_utc": "2026-10-14T08:30:50.634077+00:00",
+  "protocol": 63,
+  "version": "20261014-011053-618",
+  "previous_version": "20261013-213850-543",
+  "check": {
+    "status": "AVAILABLE",
+    "version": "20261014-011053-618",
+    "protocol": 63,
+    "archive_size": 453509522,
+    "release_notes": "Lean has been removed from gameplay, Q/E controls and Settings. Normal crouch bracing and Ion Blaster controls remain. Matching co-op server updated. Both PCs must update to VS63. Active shield tactical and production character-art refinement remain in development."
+  },
+  "update": {
+    "status": "UPDATED",
+    "version": "20261014-011053-618",
+    "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+    "warning": null,
+    "feed_available": true,
+    "release_notes": "Lean has been removed from gameplay, Q/E controls and Settings. Normal crouch bracing and Ion Blaster controls remain. Matching co-op server updated. Both PCs must update to VS63. Active shield tactical and production character-art refinement remain in development.",
+    "protocol": 63
+  },
+  "repeat_update": {
+    "status": "CURRENT",
+    "version": "20261014-011053-618",
+    "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+    "warning": null,
+    "feed_available": true,
+    "release_notes": "Lean has been removed from gameplay, Q/E controls and Settings. Normal crouch bracing and Ion Blaster controls remain. Matching co-op server updated. Both PCs must update to VS63. Active shield tactical and production character-art refinement remain in development.",
+    "protocol": 63
+  },
+  "verified_files": 32,
+  "rollback_files_verified": 32,
+  "existing_save_file_count_preserved": 0,
+  "launcher_unchanged": true,
+  "scope": "Actual production 1.0.1 native launcher using the live signed HTTPS feed; owner install upgrade/current, installed artifact hashes and existing file preservation. No normal GUI-button, physical friend-PC receipt or actual Unreal saved-run recovery acceptance."
+}

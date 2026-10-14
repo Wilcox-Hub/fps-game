@@ -1,0 +1,10 @@
+{
+  "archive": "G:\\IronSunServerPackages\\VS63-20261014-no-lean\\iron-sun-vs63-linux-server.zip",
+  "sha256": "527179E2D13B5C4CE2DD3D41103C33A44A752D212771A2A84CE087D7367F3588",
+  "files": 33,
+  "bytes": 344285753,
+  "release_id": "527179e2d13b5c4c",
+  "protocol": 63,
+  "input_count": 621,
+  "scope": "Complete native server package only; no private keys or saves."
+}

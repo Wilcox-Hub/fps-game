@@ -1,0 +1,27 @@
+{
+  "minimum_display": [
+    1920,
+    1080
+  ],
+  "ui_targets": [
+    [
+      1920,
+      1080
+    ],
+    [
+      2560,
+      1440
+    ],
+    [
+      3840,
+      2160
+    ]
+  ],
+  "future_lobby": [
+    "moving backdrop",
+    "sound"
+  ],
+  "character_fidelity": "Current prototypes fail approved mockup likeness; production work remains open.",
+  "lean": "Removed in VS63 source; matching delivery pending.",
+  "shield": "Active tactical requested; shape/behavior decision pending."
+}

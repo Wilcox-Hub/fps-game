@@ -1,0 +1,77 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "source": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\SourceArt\\Blender\\IRON_SUN_Defender_v2.blend",
+  "mesh_objects": [
+    {
+      "name": "SK_IS_Defender_Body_v2",
+      "vertices": 117777,
+      "triangles": 229966,
+      "uv_layers": 2,
+      "vertex_groups": 79,
+      "armature_modifiers": 1,
+      "dimensions": [
+        1.108751654624939,
+        0.48800086975097656,
+        1.8191331624984741
+      ],
+      "materials": [
+        "Defender woven pressure suit",
+        "Defender Skin",
+        "Defender joint rubber",
+        "Defender amber lenses",
+        "Defender Skin Scales",
+        "Defender slate composite",
+        "Defender inset fittings",
+        "Defender forest composite"
+      ]
+    },
+    {
+      "name": "SK_IS_Defender_Helmet_v2",
+      "vertices": 2598,
+      "triangles": 4984,
+      "uv_layers": 1,
+      "vertex_groups": 1,
+      "armature_modifiers": 1,
+      "dimensions": [
+        0.3227824568748474,
+        0.4245712161064148,
+        0.31100010871887207
+      ],
+      "materials": [
+        "Defender slate composite",
+        "Defender forest composite",
+        "Defender joint rubber",
+        "Defender amber lenses",
+        "Defender inset fittings"
+      ]
+    },
+    {
+      "name": "Review floor",
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        200.0,
+        200.0,
+        0.0
+      ],
+      "materials": [
+        "Stage charcoal"
+      ]
+    }
+  ],
+  "total_triangles": 234952,
+  "armatures": [
+    {
+      "name": "root",
+      "bones": 88
+    }
+  ],
+  "image_textures": [
+    "EnvSamplerTex",
+    "T_Manny_02_BN"
+  ],
+  "scope": "Read-only inspection of authored source scene. No mesh changes, export, Unreal import, rendering or production asset approval."
+}

@@ -1,0 +1,13 @@
+# VS63 lean removal and character audit — October 14, 2026
+
+Lean is removed from gameplay and the live launcher update. Q/E no longer lean; the settings toggle/help entry, camera roll/displacement and movement slowdown are gone. Old toggle preferences, packet bits, saved moves and replicated values cannot restore it. Retained fields are compatibility scaffolding; ordinary crouch bracing and the gun-owned Ion attack remain.
+
+Current Editor checks pass neutral input/camera/collision, forged legacy bits and correction replay, plus Ion charge/cancel/cover controls. Two local Editor clients pass private-server owned movement, both-gun firing and controlled checkpoint recovery. Exact Shipping controls/settings pass at 1080p and 4K. Matching Windows and native Linux packages use all 621 current input hashes. Empty-lobby deployment retained rollback/private data and left the relay unchanged. Two Shipping peers pass native LAN and public-relay lobby holds; wrong invites are rejected.
+
+VS63 is published through the unchanged reviewed 1.0.1 launcher and signed website feed. Owner update reports UPDATED then CURRENT; all 32 current and 32 previous file hashes match. Both co-op PCs need the new version. The native server and owner install had zero saved-run files, so this does not prove real saved-run preservation or physical-device recovery. Source edits remain local/unpublished; these are metadata and artifact delivery records.
+
+The playable character comparison fails production likeness. The old source roster is a 47-object modular blockout; the newer Defender is an unintegrated, roughly 235,000-triangle scene draft. Read-only Blender 5.2.2 inspection confirms source geometry/rig/image counts; no art was overwritten or generator credit spent. The full fidelity report preserves each approved species/armor/face target and the required source-to-Unreal quality gates. Characters still need actual modeling, materials, skinning/LODs and rendered co-op acceptance.
+
+An active shield tactical needs a design decision: deployable barrier, held frontal shield or brief personal protection. The existing saved design only specifies a passive team Shield bonus. A grilling question is pending; no active shield behavior is assumed or implemented. Future moving lobby backdrop and sound, and 1080p minimum with 1440p/4K targets, are saved in the direction notes.
+
+No physical friend-PC, different-Wi-Fi combat, normal GUI-button delivery, natural balance/full-run, finished character or human-fun acceptance is claimed. The 69% value remains the October 4 low-confidence planning estimate. NOT_BETA_READY and the open 75% milestone remain unchanged.

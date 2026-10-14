@@ -1,0 +1,855 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "source": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\SourceArt\\Blender\\IRON_SUN_PlayerModels_v1.blend",
+  "mesh_objects": [
+    {
+      "name": "SM_IS_Veteran_Head",
+      "vertices": 446,
+      "triangles": 872,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.23500007390975952,
+        0.2994999885559082,
+        0.30000001192092896
+      ],
+      "materials": [
+        "Veteran_WornArmor",
+        "Veteran_DarkPressureSuit",
+        "Veteran_AmberSight",
+        "Veteran_AgedBronze"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_Torso",
+      "vertices": 542,
+      "triangles": 1052,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.5199999809265137,
+        0.34870126843452454,
+        0.4399999976158142
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor",
+        "Veteran_AgedBronze"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_Pelvis",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.40000012516975403,
+        0.26499998569488525,
+        0.23000000417232513
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor",
+        "Veteran_AgedBronze"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_UpperArm",
+      "vertices": 334,
+      "triangles": 656,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.17000004649162292,
+        0.18720000982284546,
+        0.27000001072883606
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor",
+        "Veteran_AgedBronze"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_UpperArm_RightPreview",
+      "vertices": 334,
+      "triangles": 656,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.17000004649162292,
+        0.18720000982284546,
+        0.27000001072883606
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor",
+        "Veteran_AgedBronze"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_Forearm",
+      "vertices": 334,
+      "triangles": 656,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.17000004649162292,
+        0.17680001258850098,
+        0.2800000011920929
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor",
+        "Veteran_AgedBronze"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_Forearm_RightPreview",
+      "vertices": 334,
+      "triangles": 656,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.17000004649162292,
+        0.17680001258850098,
+        0.2800000011920929
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor",
+        "Veteran_AgedBronze"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_Hand",
+      "vertices": 278,
+      "triangles": 548,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.12000003457069397,
+        0.10950000584125519,
+        0.12999999523162842
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_Hand_RightPreview",
+      "vertices": 278,
+      "triangles": 548,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.12000003457069397,
+        0.10950000584125519,
+        0.12999999523162842
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_Thigh",
+      "vertices": 334,
+      "triangles": 656,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.22000005841255188,
+        0.2287999987602234,
+        0.4099999964237213
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor",
+        "Veteran_AgedBronze"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_Thigh_RightPreview",
+      "vertices": 334,
+      "triangles": 656,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.22000005841255188,
+        0.2287999987602234,
+        0.4099999964237213
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor",
+        "Veteran_AgedBronze"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_Calf",
+      "vertices": 334,
+      "triangles": 656,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.19000005722045898,
+        0.20800000429153442,
+        0.38999998569488525
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor",
+        "Veteran_AgedBronze"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_Calf_RightPreview",
+      "vertices": 334,
+      "triangles": 656,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.19000005722045898,
+        0.20800000429153442,
+        0.38999998569488525
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor",
+        "Veteran_AgedBronze"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_Foot",
+      "vertices": 112,
+      "triangles": 216,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.17000000178813934,
+        0.33000001311302185,
+        0.12999999523162842
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor"
+      ]
+    },
+    {
+      "name": "SM_IS_Veteran_Foot_RightPreview",
+      "vertices": 112,
+      "triangles": 216,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.17000000178813934,
+        0.33000001311302185,
+        0.12999999523162842
+      ],
+      "materials": [
+        "Veteran_DarkPressureSuit",
+        "Veteran_WornArmor"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Head",
+      "vertices": 1112,
+      "triangles": 2192,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.26659831404685974,
+        0.4150000214576721,
+        0.35999998450279236
+      ],
+      "materials": [
+        "Veyran_VioletSkin",
+        "Veyran_IridescentNacre",
+        "Veyran_CyanSeam",
+        "Veyran_LivingBiofiber"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Torso",
+      "vertices": 1056,
+      "triangles": 2084,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.5200001001358032,
+        0.23600000143051147,
+        0.4300000071525574
+      ],
+      "materials": [
+        "Veyran_LivingBiofiber",
+        "Veyran_IridescentNacre",
+        "Veyran_CyanSeam"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Pelvis",
+      "vertices": 334,
+      "triangles": 656,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.31000009179115295,
+        0.20000001788139343,
+        0.3019999861717224
+      ],
+      "materials": [
+        "Veyran_LivingBiofiber",
+        "Veyran_IridescentNacre"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_UpperArm",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.11500003933906555,
+        0.12479999661445618,
+        0.30000001192092896
+      ],
+      "materials": [
+        "Veyran_VioletSkin",
+        "Veyran_LivingBiofiber",
+        "Veyran_IridescentNacre",
+        "Veyran_CyanSeam"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_UpperArm_RightPreview",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.11500003933906555,
+        0.12479999661445618,
+        0.30000001192092896
+      ],
+      "materials": [
+        "Veyran_VioletSkin",
+        "Veyran_LivingBiofiber",
+        "Veyran_IridescentNacre",
+        "Veyran_CyanSeam"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Forearm",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.10500003397464752,
+        0.11959999799728394,
+        0.28999999165534973
+      ],
+      "materials": [
+        "Veyran_VioletSkin",
+        "Veyran_LivingBiofiber",
+        "Veyran_IridescentNacre",
+        "Veyran_CyanSeam"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Forearm_RightPreview",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.10500003397464752,
+        0.11959999799728394,
+        0.28999999165534973
+      ],
+      "materials": [
+        "Veyran_VioletSkin",
+        "Veyran_LivingBiofiber",
+        "Veyran_IridescentNacre",
+        "Veyran_CyanSeam"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Hand",
+      "vertices": 278,
+      "triangles": 548,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.10999999940395355,
+        0.10000000149011612,
+        0.15000000596046448
+      ],
+      "materials": [
+        "Veyran_VioletSkin",
+        "Veyran_IridescentNacre"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Hand_RightPreview",
+      "vertices": 278,
+      "triangles": 548,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.10999999940395355,
+        0.10000000149011612,
+        0.15000000596046448
+      ],
+      "materials": [
+        "Veyran_VioletSkin",
+        "Veyran_IridescentNacre"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Thigh",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.15000005066394806,
+        0.1664000004529953,
+        0.41999998688697815
+      ],
+      "materials": [
+        "Veyran_VioletSkin",
+        "Veyran_LivingBiofiber",
+        "Veyran_IridescentNacre",
+        "Veyran_CyanSeam"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Thigh_RightPreview",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.15000005066394806,
+        0.1664000004529953,
+        0.41999998688697815
+      ],
+      "materials": [
+        "Veyran_VioletSkin",
+        "Veyran_LivingBiofiber",
+        "Veyran_IridescentNacre",
+        "Veyran_CyanSeam"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Calf",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.1300000250339508,
+        0.14559999108314514,
+        0.4000000059604645
+      ],
+      "materials": [
+        "Veyran_VioletSkin",
+        "Veyran_LivingBiofiber",
+        "Veyran_IridescentNacre",
+        "Veyran_CyanSeam"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Calf_RightPreview",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.1300000250339508,
+        0.14559999108314514,
+        0.4000000059604645
+      ],
+      "materials": [
+        "Veyran_VioletSkin",
+        "Veyran_LivingBiofiber",
+        "Veyran_IridescentNacre",
+        "Veyran_CyanSeam"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Foot",
+      "vertices": 334,
+      "triangles": 656,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.14500001072883606,
+        0.32499998807907104,
+        0.14000000059604645
+      ],
+      "materials": [
+        "Veyran_LivingBiofiber",
+        "Veyran_IridescentNacre"
+      ]
+    },
+    {
+      "name": "SM_IS_Veyran_Foot_RightPreview",
+      "vertices": 334,
+      "triangles": 656,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.14500001072883606,
+        0.32499998807907104,
+        0.14000000059604645
+      ],
+      "materials": [
+        "Veyran_LivingBiofiber",
+        "Veyran_IridescentNacre"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Head",
+      "vertices": 1056,
+      "triangles": 2084,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.24199999868869781,
+        0.31050002574920654,
+        0.24500000476837158
+      ],
+      "materials": [
+        "Defender_BasaltFace",
+        "Defender_VisorAmber",
+        "Defender_SlateComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Helmet",
+      "vertices": 558,
+      "triangles": 1088,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.3000001013278961,
+        0.34549999237060547,
+        0.30250000953674316
+      ],
+      "materials": [
+        "Defender_SlateComposite",
+        "Defender_ForestComposite",
+        "Defender_VisorAmber",
+        "Defender_FlexJoint"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Torso",
+      "vertices": 710,
+      "triangles": 1376,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.941194474697113,
+        0.427706241607666,
+        0.4925000071525574
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_SlateComposite",
+        "Defender_ForestComposite",
+        "Defender_VisorAmber"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Pelvis",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.5499999523162842,
+        0.32999998331069946,
+        0.26499998569488525
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_SlateComposite",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_UpperArm",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.2300000786781311,
+        0.24150002002716064,
+        0.3100000023841858
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_SlateComposite",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_UpperArm_RightPreview",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.2300000786781311,
+        0.24150002002716064,
+        0.3100000023841858
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_SlateComposite",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Forearm",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.21000006794929504,
+        0.22049999237060547,
+        0.30000001192092896
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_SlateComposite",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Forearm_RightPreview",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.21000006794929504,
+        0.22049999237060547,
+        0.30000001192092896
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_SlateComposite",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Hand",
+      "vertices": 278,
+      "triangles": 548,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.1600000411272049,
+        0.1525000035762787,
+        0.15000000596046448
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Hand_RightPreview",
+      "vertices": 278,
+      "triangles": 548,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.1600000411272049,
+        0.1525000035762787,
+        0.15000000596046448
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Thigh",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.2900000810623169,
+        0.2835000157356262,
+        0.4300000071525574
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_SlateComposite",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Thigh_RightPreview",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.2900000810623169,
+        0.2835000157356262,
+        0.4300000071525574
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_SlateComposite",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Calf",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.24000006914138794,
+        0.26249998807907104,
+        0.4099999964237213
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_SlateComposite",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Calf_RightPreview",
+      "vertices": 390,
+      "triangles": 764,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.24000006914138794,
+        0.26249998807907104,
+        0.4099999964237213
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_SlateComposite",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Foot",
+      "vertices": 168,
+      "triangles": 324,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.25,
+        0.3720000088214874,
+        0.1599999964237213
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_SlateComposite",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "SM_IS_Defender_Foot_RightPreview",
+      "vertices": 168,
+      "triangles": 324,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        0.25,
+        0.3720000088214874,
+        0.1599999964237213
+      ],
+      "materials": [
+        "Defender_FlexJoint",
+        "Defender_SlateComposite",
+        "Defender_ForestComposite"
+      ]
+    },
+    {
+      "name": "preview floor",
+      "vertices": 8,
+      "triangles": 12,
+      "uv_layers": 1,
+      "vertex_groups": 0,
+      "armature_modifiers": 0,
+      "dimensions": [
+        9.0,
+        4.0,
+        0.15000000596046448
+      ],
+      "materials": [
+        "Preview_Background"
+      ]
+    }
+  ],
+  "total_triangles": 36096,
+  "armatures": [],
+  "image_textures": [],
+  "scope": "Read-only inspection of authored source scene. No mesh changes, export, Unreal import, rendering or production asset approval."
+}

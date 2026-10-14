@@ -1,0 +1,26 @@
+[
+  {
+    "path": "SourceArt/Blender/IRON_SUN_PlayerModels_v1.blend",
+    "sha256": "B9FDB33FBAFF5CBD7AA3981C023C9EAD4C354656EDAEC752D49EF4E29B92E089"
+  },
+  {
+    "path": "SourceArt/Blender/IRON_SUN_Defender_v2.blend",
+    "sha256": "CD9F21700B989083D3487742D77D48592574FBCEA67ED07A57CF19A50CC18D7C"
+  },
+  {
+    "path": "SourceArt/Concepts/IronSun_PlayerVeteran_FourAngles_v1.png",
+    "sha256": "CE7695F6CD065A9928B3A06C19925F62F7094C511D6D050FC35AC4C5376DD6F4"
+  },
+  {
+    "path": "SourceArt/Concepts/IronSun_PlayerVeyran_FourAngles_v2.png",
+    "sha256": "A6839B4C1C04B8EAC0862585E0F58D6A97E5B47EC4337F930887BF1B22CF3EBA"
+  },
+  {
+    "path": "SourceArt/Concepts/IronSun_PlayerDefender_FourAngles_v4.png",
+    "sha256": "60EA5D982A81FDED3D560BB9463BA94665211BDA46FDC858084201AA3C55272F"
+  },
+  {
+    "path": "SourceArt/Concepts/IronSun_PlayerDefender_FourAngles_v2.png",
+    "sha256": "9A5CE880C4AD74B801425FB4C0723884F90D814E069DE241D88ADB6563945B40"
+  }
+]

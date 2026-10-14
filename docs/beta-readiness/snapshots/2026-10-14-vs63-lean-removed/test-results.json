@@ -1,0 +1,179 @@
+{
+  "snapshot": "2026-10-14-vs63-lean-removed",
+  "tested_on": "2026-10-14",
+  "passed": true,
+  "protocol": 63,
+  "input_count": 621,
+  "checks": {
+    "lean-disabled-ion": {
+      "passed": true,
+      "tests": [
+        "Ridgefire.LeanIon.InputCoverChargeAndRecovery"
+      ],
+      "failures": [],
+      "filter": "Ridgefire.LeanIon.InputCoverChargeAndRecovery",
+      "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261014-010856-974\\Automation.log",
+      "rendered": false,
+      "editor_only": false,
+      "exit_code": 0,
+      "time_utc": "2026-10-14T08:09:28.8839220Z",
+      "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+    },
+    "owned-coop-input-recovery": {
+      "passed": true,
+      "logs": [
+        "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261014-011511-342\\Peer-1.log",
+        "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261014-011511-342\\Peer0.log",
+        "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\PrivateServer\\20261014-011511-342\\Peer1.log"
+      ],
+      "peers": 2,
+      "scope": "Actual Windows Editor dedicated-server process and two remote-client processes over loopback UDP; private invite rejection/retry, leader-only launch, normal timed setup and primary/secondary LMB ammo, leader departure, clear-boundary checkpoint, both clients leaving, empty-server lobby return and original-squad resume. Fixture disables combat damage/AI and completes a controlled first encounter; no balance claim. Not a Linux package, physical-device, internet or performance test.",
+      "time_utc": "2026-10-14T08:17:37.1115238Z"
+    },
+    "shipping-1080p": {
+      "passed": true,
+      "packaged": true,
+      "runtime": "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/Packages/20261014-011053-618/Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "output": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Frontline\\20261014-011511-218",
+      "exit_code": 0,
+      "receipt": "clean Shipping exit and five success-gated screenshots; Shipping logging stripped",
+      "scope": "Actual native Slate pointer input, held front end, character meshes/selection, settings, solo travel and authority lock. Generated backdrop and concept portraits are presentation art, not production 3D acceptance.",
+      "time_utc": "2026-10-14T08:15:32.0301952Z"
+    },
+    "shipping-4k": {
+      "passed": true,
+      "packaged": true,
+      "runtime": "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Saved/Packages/20261014-011053-618/Windows/Ridgefire/Binaries/Win64/TP_FirstPerson-Win64-Shipping.exe",
+      "resolution": [
+        3840,
+        2160
+      ],
+      "output": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\Frontline\\20261014-012119-598",
+      "exit_code": 0,
+      "receipt": "clean Shipping exit and five success-gated screenshots; Shipping logging stripped",
+      "scope": "Actual native Slate pointer input, held front end, character meshes/selection, settings, solo travel and authority lock. Generated backdrop and concept portraits are presentation art, not production 3D acceptance.",
+      "time_utc": "2026-10-14T08:21:40.0349563Z"
+    },
+    "native-lan": {
+      "passed": true,
+      "protocol": 63,
+      "address": "192.168.4.36:7777",
+      "wrong_invite_control": false,
+      "time_utc": "2026-10-14T08:24:04.890752+00:00",
+      "clients": 2,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "lobby_join_accepted": true,
+      "held_seconds": 12,
+      "unresolved_network_references": 0,
+      "client_logging_available": false,
+      "run_directory": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\combat-transition-20261014\\native-joins\\20261014-012402"
+    },
+    "native-relay": {
+      "passed": true,
+      "protocol": 63,
+      "address": "cairo-ferry.tun.ply.gg:42527",
+      "wrong_invite_control": false,
+      "time_utc": "2026-10-14T08:25:45.498901+00:00",
+      "clients": 2,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "lobby_join_accepted": true,
+      "held_seconds": 12,
+      "unresolved_network_references": 0,
+      "client_logging_available": false,
+      "run_directory": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\combat-transition-20261014\\native-joins\\20261014-012543"
+    },
+    "wrong-invite": {
+      "passed": true,
+      "protocol": 63,
+      "address": "cairo-ferry.tun.ply.gg:42527",
+      "wrong_invite_control": true,
+      "time_utc": "2026-10-14T08:27:50.224957+00:00",
+      "clients": 1,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "wrong_invite_rejected": true,
+      "client_logging_available": false,
+      "run_directory": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\combat-transition-20261014\\native-joins\\20261014-012748"
+    },
+    "native-deployment": {
+      "passed": true,
+      "protocol": 63,
+      "release": {
+        "release": "527179e2d13b5c4c",
+        "sha256": "527179e2d13b5c4ce2dd3d41103c33a44a752d212771a2a84ce087d7367f3588",
+        "previous_release": "releases/c10aea39abce41b5",
+        "activated_files": true,
+        "process_restarted": false
+      },
+      "time_utc": "2026-10-14T08:21:26.018100+00:00",
+      "private_data_backup": "/home/caiden/iron-sun-server/backups/pre-vs63-20261014T082117Z.tar.gz",
+      "saved_files_preserved": 0,
+      "relay_unchanged": true,
+      "listening": true,
+      "read_only_root": true,
+      "user": "1000:1000",
+      "restarts": 0,
+      "metadata": {
+        "engine": "5.8.3",
+        "protocol": 63,
+        "platform": "Linux",
+        "target": "Server",
+        "configuration": "Development",
+        "built_utc": "2026-10-14T08:18:44.6271426Z",
+        "input_count": 621,
+        "input_manifest_sha256": "641E73B1FC67A0119A14A28B09C7E7395B7556A0E71E982608B5A6B3A910C4A3"
+      },
+      "scope": "Actual native Linux boot and saved-file preservation at empty-lobby deployment; game-only container recreation. No combat, restart recovery, capacity or external-Wi-Fi acceptance."
+    },
+    "owner-update": {
+      "passed": true,
+      "time_utc": "2026-10-14T08:30:50.634077+00:00",
+      "protocol": 63,
+      "version": "20261014-011053-618",
+      "previous_version": "20261013-213850-543",
+      "check": {
+        "status": "AVAILABLE",
+        "version": "20261014-011053-618",
+        "protocol": 63,
+        "archive_size": 453509522,
+        "release_notes": "Lean has been removed from gameplay, Q/E controls and Settings. Normal crouch bracing and Ion Blaster controls remain. Matching co-op server updated. Both PCs must update to VS63. Active shield tactical and production character-art refinement remain in development."
+      },
+      "update": {
+        "status": "UPDATED",
+        "version": "20261014-011053-618",
+        "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+        "warning": null,
+        "feed_available": true,
+        "release_notes": "Lean has been removed from gameplay, Q/E controls and Settings. Normal crouch bracing and Ion Blaster controls remain. Matching co-op server updated. Both PCs must update to VS63. Active shield tactical and production character-art refinement remain in development.",
+        "protocol": 63
+      },
+      "repeat_update": {
+        "status": "CURRENT",
+        "version": "20261014-011053-618",
+        "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+        "warning": null,
+        "feed_available": true,
+        "release_notes": "Lean has been removed from gameplay, Q/E controls and Settings. Normal crouch bracing and Ion Blaster controls remain. Matching co-op server updated. Both PCs must update to VS63. Active shield tactical and production character-art refinement remain in development.",
+        "protocol": 63
+      },
+      "verified_files": 32,
+      "rollback_files_verified": 32,
+      "existing_save_file_count_preserved": 0,
+      "launcher_unchanged": true,
+      "scope": "Actual production 1.0.1 native launcher using the live signed HTTPS feed; owner install upgrade/current, installed artifact hashes and existing file preservation. No normal GUI-button, physical friend-PC receipt or actual Unreal saved-run recovery acceptance."
+    }
+  },
+  "implementation": "Lean removed from Q/E, settings, view roll, body/camera offset, slowdown and saved movement packet/replay state. Old toggle preferences cannot reactivate it. Gun-owned Ion behavior remains.",
+  "character_review_verdict": "NOT_ACCEPTED_AS_PRODUCTION; existing source/render comparison and read-only Blender inspection identify significant likeness, skinning, texture/LOD and runtime-integration gaps. No new art was activated.",
+  "shield": "Active tactical design question pending; current passive team Shield bonus is separate. No active shield implemented.",
+  "limits": [
+    "Owned co-op fixture uses Windows Editor processes on one PC with AI/damage disabled.",
+    "Native Shipping LAN/relay checks cover lobby compatibility and invite rejection, not combat, external Wi-Fi, actual saved-run restart or capacity.",
+    "Native deployment and owner install had zero save files; no real saved-run preservation claim.",
+    "4K check covers native UI and pointer behavior, not 4K combat performance or native-resolution backdrop art.",
+    "No new human fun, balance or readiness credit. No generator credits spent."
+  ]
+}
