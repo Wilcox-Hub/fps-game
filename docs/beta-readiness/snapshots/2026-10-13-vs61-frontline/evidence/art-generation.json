@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "fallback_cli_used": false,
+  "reference": "C:/Users/YaYa/Documents/ChatGPT/FPS-1/output/lobby-concepts-20261012/05-minimal-frontline.png",
+  "assets": [
+    {
+      "file": "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Content/UI/Menu/FrontlineFaithful.png",
+      "source": "C:/Users/YaYa/.codex/generated_images/01a0fee1-2cbe-7933-8963-053fa2beb94f/exec-72f5a9f8-36b1-4509-928b-af78fb683485.png",
+      "prompt": "Use case: precise-object-edit. Asset type: clean Unreal game menu background, 16:9 landscape. Edit the supplied image with MAXIMUM fidelity. Remove ALL interface overlay elements ONLY: the top-left 05/MINIMAL FRONTLINE caption, IRON SUN logo, PLAY and left navigation letters and orange bar, every squad portrait box/outline/text/dot, CHANGE CHARACTER button, HOST CONTROL caption and START RUN button. Seamlessly reconstruct the underlying scenery where removed. Keep the original scene composition, sunset gate, sun size/position, architecture, camera perspective, color grading, contrast, character scale and faces precisely unchanged. Keep the HUMAN SOLDIER dominant in the right foreground exactly where he is, and the smaller LIZARD behind him closer to center, exactly as supplied. Do not swap the characters, do not add characters, do not shift their faces or change their outfits. Preserve the human weathered off-white armor, short dark hair and beard and natural side profile. Preserve the wet foreground pavement and distant arena. The lower foreground must be real scene/pavement after interface removal, not a black band. Output only the clean background artwork, no lettering, logos, user interface, borders, icons or watermark. High detail 1920x1080 or higher."
+    },
+    {
+      "file": "C:/Users/YaYa/Documents/Codex/2026-09-22/connect-this-github-repo-to-a/unreal/Ridgefire/Content/UI/Menu/FrontlineLogo.png",
+      "source": "C:/Users/YaYa/.codex/generated_images/01a0fee1-2cbe-7933-8963-053fa2beb94f/exec-d7409384-8242-4f92-aa4c-09d80251758a.png",
+      "status": "Temporary old wordmark; permanent title/logo remains undecided",
+      "prompt": "Use case: background-extraction. Asset type: original IRON SUN game logo as transparent PNG. Extract ONLY the large IRON SUN wordmark from the upper-left of the supplied approved mockup. Preserve its exact bold industrial squared letter forms, spacing, distressed ivory metal texture, and glowing horizontal amber eclipse/sun inside the O. The text must read IRON SUN exactly in one horizontal line. Remove every other part of the source image, including the small 05/MINIMAL FRONTLINE caption, characters, scenery and all menu elements. Transparent background with clean genuine alpha around and inside all letters. Tightly framed around the wordmark with modest 2% transparent margins, wide 5.5:1 aspect ratio, enough detail for display 600 pixels wide. No new logo design and no black or colored rectangle. Return only the original logo on transparency."
+    }
+  ],
+  "logo_concepts": "C:/Users/YaYa/Documents/ChatGPT/FPS-1/output/logo-concepts-20261013/generation.json",
+  "logo_concepts_status": "All four rejected by owner; retained as dated history",
+  "font": {
+    "source": "https://github.com/google/fonts/tree/main/ofl/oxanium",
+    "license": "SIL Open Font License 1.1; included in the staged game assets",
+    "preparation": "Static weights 400 and 700 instanced with fontTools 4.66.1"
+  }
+}
