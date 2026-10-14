@@ -1,0 +1,78 @@
+{
+  "protocol": 64,
+  "version": "20261014-134814-678",
+  "publication": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs64-20261014-134814-678-launcher-1.0.1-setup-1",
+  "launcher_version": "1.0.1",
+  "assets": [
+    {
+      "name": "iron-sun-20261014-134814-678.zip",
+      "size_bytes": 453534556,
+      "sha256": "B50F192F3144D6893B77937A410416CF2778B12AA29E5289393D5293ACABEB00"
+    },
+    {
+      "name": "game-manifest.json",
+      "size_bytes": 7522,
+      "sha256": "8B981075C673B968EC87BB7DBE21633C9157F89E8D5859E461D7DF4E25D2890E"
+    },
+    {
+      "name": "game-manifest.sig",
+      "size_bytes": 384,
+      "sha256": "AF2917E0F28524DF555113C45E3333A68440D8DB8C7AA7863844EEE3F313FDA0"
+    },
+    {
+      "name": "IRON-SUN-Setup.exe",
+      "size_bytes": 4025552,
+      "sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8"
+    },
+    {
+      "name": "setup-manifest.json",
+      "size_bytes": 682,
+      "sha256": "13234CEAB145BB5136EBF0939BEF70A8088E6EF64ED8AE2A0AD550DAA213AD96"
+    },
+    {
+      "name": "setup-manifest.sig",
+      "size_bytes": 384,
+      "sha256": "12FB1436F7F30F4DAF184FCA82C66455D1B1601A0B83BED588D1AEDBD0C3F314"
+    },
+    {
+      "name": "IronSunLauncher.exe",
+      "size_bytes": 1785344,
+      "sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4"
+    },
+    {
+      "name": "launcher-manifest.json",
+      "size_bytes": 347,
+      "sha256": "B79B06AAE185E11C1E9385B0F63A7FA7BEDDEBA6A1660410292FF0E561AEEFA3"
+    },
+    {
+      "name": "launcher-manifest.sig",
+      "size_bytes": 384,
+      "sha256": "2B09FD7BC732EB1BCFA322CE5D6618506B9B8126E3835DE94A1DD7BA73C5F37E"
+    }
+  ],
+  "native_server": {
+    "release_id": "9b584c7ce8c04a23",
+    "archive_sha256": "9B584C7CE8C04A23C219D86BB879E35C1B02E1E017BDA5429470AD06CF76BA63",
+    "input_count": 628,
+    "time_utc": "2026-10-14T20:56:16.442927+00:00",
+    "saved_files_preserved": 0,
+    "relay_unchanged": true,
+    "listening": true,
+    "read_only_root": true,
+    "user": "1000:1000",
+    "restarts": 0,
+    "scope": "Actual native Linux boot and saved-file preservation at empty-lobby deployment; game-only container recreation. No combat, restart recovery, capacity or external-Wi-Fi acceptance."
+  },
+  "owner_update": {
+    "passed": true,
+    "time_utc": "2026-10-14T21:00:44.917677+00:00",
+    "protocol": 64,
+    "version": "20261014-134814-678",
+    "previous_version": "20261014-011053-618",
+    "verified_files": 32,
+    "rollback_files_verified": 32,
+    "existing_save_file_count_preserved": 0,
+    "launcher_unchanged": true,
+    "scope": "Actual production 1.0.1 native launcher using the live signed HTTPS feed; owner install upgrade/current, installed artifact hashes and existing file preservation. No normal GUI-button, physical friend-PC receipt or actual Unreal saved-run recovery acceptance."
+  }
+}

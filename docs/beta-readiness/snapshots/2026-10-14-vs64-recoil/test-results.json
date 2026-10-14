@@ -1,0 +1,191 @@
+{
+  "snapshot": "2026-10-14-vs64-recoil",
+  "tested_on": "2026-10-14",
+  "protocol": 64,
+  "input_count": 628,
+  "passed": true,
+  "checks": {
+    "final-packaged-native-gameplay": {
+      "passed": true,
+      "protocol": 64,
+      "peers": 2,
+      "rendered": true,
+      "started_utc": "2026-10-14T20:54:51.984686+00:00",
+      "finished_utc": "2026-10-14T20:55:35.177884+00:00",
+      "receipts": [
+        {
+          "passed": true,
+          "normal_setup": true,
+          "primary_secondary_lmb": true,
+          "feedback_articulates": true,
+          "aim_recovers": true,
+          "cases": [
+            {
+              "slot": 1,
+              "ammo_spent": 7,
+              "observed_aim_rise_degrees": 2.1392,
+              "observed_gun_rotation_degrees": 1.15951
+            },
+            {
+              "slot": 2,
+              "ammo_spent": 2,
+              "observed_aim_rise_degrees": 3.1815,
+              "observed_gun_rotation_degrees": 5.136893
+            }
+          ],
+          "scope": "Opt-in exact runtime normal menu actions, simulated owned keys, real authority/ammo/feedback and actual component transforms. Isolated test server may disable AI/damage. No hardware input, human feel, balance or performance acceptance."
+        },
+        {
+          "passed": true,
+          "normal_setup": true,
+          "primary_secondary_lmb": true,
+          "feedback_articulates": true,
+          "aim_recovers": true,
+          "cases": [
+            {
+              "slot": 1,
+              "ammo_spent": 7,
+              "observed_aim_rise_degrees": 2.1392,
+              "observed_gun_rotation_degrees": 1.126276
+            },
+            {
+              "slot": 2,
+              "ammo_spent": 2,
+              "observed_aim_rise_degrees": 3.1815,
+              "observed_gun_rotation_degrees": 5.061183
+            }
+          ],
+          "scope": "Opt-in exact runtime normal menu actions, simulated owned keys, real authority/ammo/feedback and actual component transforms. Isolated test server may disable AI/damage. No hardware input, human feel, balance or performance acceptance."
+        }
+      ],
+      "scope": "Actual two owned runtimes and isolated authority; normal party/setup menu actions, primary/secondary simulated LMB, authoritative ammo, selected-slot preservation, angular gun feedback and release recovery. Test server disables AI/damage. Not physical-device input, human feel, balance, performance or production saves."
+    },
+    "final-shipping-4k-menu": {
+      "passed": true,
+      "packaged": true,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "exit_code": 0,
+      "receipt": "clean Shipping exit and five success-gated screenshots; Shipping logging stripped",
+      "scope": "Actual native Slate pointer input, held front end, character meshes/selection, settings, solo travel and authority lock. Generated backdrop and concept portraits are presentation art, not production 3D acceptance.",
+      "time_utc": "2026-10-14T20:54:29.2665465Z"
+    },
+    "final-native-lan": {
+      "passed": true,
+      "protocol": 64,
+      "wrong_invite_control": false,
+      "time_utc": "2026-10-14T20:56:51.059626+00:00",
+      "clients": 2,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "lobby_join_accepted": true,
+      "held_seconds": 12,
+      "unresolved_network_references": 0
+    },
+    "final-native-relay": {
+      "passed": true,
+      "protocol": 64,
+      "wrong_invite_control": false,
+      "time_utc": "2026-10-14T20:58:06.188506+00:00",
+      "clients": 2,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "lobby_join_accepted": true,
+      "held_seconds": 12,
+      "unresolved_network_references": 0
+    },
+    "final-native-wrong-invite": {
+      "passed": true,
+      "protocol": 64,
+      "wrong_invite_control": true,
+      "time_utc": "2026-10-14T20:59:22.669934+00:00",
+      "clients": 1,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "wrong_invite_rejected": true
+    },
+    "recoil-dynamics": {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Weapon.Recoil.DynamicsAndTracking"
+      ],
+      "filter": "Ridgefire.Weapon.Recoil.DynamicsAndTracking",
+      "failures": [],
+      "exit_code": 0,
+      "time_utc": "2026-10-14T20:33:33.8818374Z",
+      "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+    },
+    "owner-packets-and-ion": {
+      "passed": true,
+      "tests": [
+        "Ridgefire.LeanIon.InputCoverChargeAndRecovery",
+        "Ridgefire.Weapon.Recoil.OwnerPacketsAndCompensation"
+      ],
+      "filter": "Ridgefire.Weapon.Recoil.OwnerPacketsAndCompensation+Ridgefire.LeanIon.InputCoverChargeAndRecovery",
+      "failures": [],
+      "exit_code": 0,
+      "time_utc": "2026-10-14T20:35:30.5957858Z",
+      "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+    },
+    "immediate-aim-combat": {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Pressure.MovementAimAndCombat",
+        "Ridgefire.Pressure.VisualAimAndTimedBurst"
+      ],
+      "filter": "Ridgefire.Pressure.",
+      "exit_code": 0,
+      "scope": "Controlled local Editor production-path checks; no human or second-PC acceptance"
+    },
+    "unassisted-owned-network-aim": {
+      "passed": true,
+      "peers": 2,
+      "time_utc": "2026-10-14T20:05:39.9947201Z",
+      "scope": "Actual owned client view changes transmitted through production movement packets to an Editor dedicated server. Exact firing aim-direction function compared with control rotation. No server camera/control injection, human or native-Linux acceptance."
+    }
+  },
+  "evidence_scope": {
+    "final_shipping_native_and_delivery": "Exact final packaged files and current input-manifest.json.",
+    "dynamics_owner_ion": "Retained October14 Editor passes at pre-harness-fix-input-manifest.json; only the unrelated opt-in gameplay harness changed afterward.",
+    "earlier_aim_combat": "October14 raw-control-aim correction checks, before the held-trigger recovery fix; retained for their narrow direction/trace scope, not a blanket current pass.",
+    "original_baseline": "Previous VS63 recoil baseline remains an expected red: all four actual gun rotations were zero."
+  },
+  "red_to_green": [
+    {
+      "issue": "Actual gun has no angular firing kick",
+      "red_degrees": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "green": "Real owned Editor articulation and exact final Shipping component transforms."
+    },
+    {
+      "issue": "Unassisted remote aim uses stale server view",
+      "red_error_degrees": 22.00012,
+      "green": "Two owned Editor clients set their own view; production shot direction matches raw control rotation."
+    },
+    {
+      "issue": "GetBaseAimRotation reads a cached local camera during immediate aim/trace checks",
+      "green": "Production helper uses current controller rotation; timed combat, cover and Ion controls pass."
+    },
+    {
+      "issue": "Slow held heavy weapon recovered recoil between shots",
+      "red": "New actual state regression failed before the held-trigger guard.",
+      "green": "Dynamics regression passes; final packaged heavy-gun firing/release recovery passes."
+    },
+    {
+      "issue": "New delivery fixture could lose its single Ready press during connection setup",
+      "red": "Mixed Editor/Shipping and one native Shipping attempt timed out at stage1.",
+      "green": "Harness now waits for nonbusy session and replicated readiness; final native two-client run passes. No game input restriction removed."
+    }
+  ],
+  "limitations": [
+    "Simulated owned input and controlled AI/damage are not physical-device or human-feel acceptance.",
+    "Native relay checks are lobby-only and originate on the developer home network; different-Wi-Fi acceptance remains open.",
+    "Feedback remains server-confirmed; no new local shot prediction or latency compensation.",
+    "No performance, natural economy, full-run, human saved-run recovery, character-fidelity or shield acceptance.",
+    "No new score credit."
+  ],
+  "public_payload": "Numeric/test summaries and path/hash manifests only. Full source, recordings, screenshots, logs, invites, saves and private backups remain local."
+}

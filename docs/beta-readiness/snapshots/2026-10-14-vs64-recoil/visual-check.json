@@ -1,0 +1,35 @@
+{
+  "snapshot": "2026-10-14-vs64-recoil",
+  "tested_on": "2026-10-14",
+  "final_shipping_gameplay_resolution": [
+    1920,
+    1080
+  ],
+  "final_shipping_menu_resolution": [
+    3840,
+    2160
+  ],
+  "earlier_editor_capture": {
+    "input_scope": "Before the held-trigger recovery correction; visual spring/beam implementation unchanged.",
+    "cases": [
+      "Gale hip",
+      "Gale ADS",
+      "Lance hip",
+      "Helix hip"
+    ],
+    "observed_gun_rotation_degrees": [
+      1.0803,
+      0.85861,
+      3.81248,
+      1.80222
+    ],
+    "remaining_aim_after_release_degrees": [
+      0.00621,
+      0.00626,
+      0.00693,
+      0.0068
+    ],
+    "scope": "Controlled temporal samples, not cadence/performance benchmarks or guaranteed peaks. Lance kick frame inspected locally; beam originates at animated barrel."
+  },
+  "limits": "Mechanical transform and automated menu checks, not owner aesthetic/feel approval. No art production credit."
+}
