@@ -274,19 +274,56 @@
     },
     "scope": "Unchanged production launcher 1.0.1 validates the current live signed HTTPS feed using a separate empty probe root. No owner install, game closure or GUI acceptance."
   },
-  "owner_update": null,
+  "owner_update": {
+    "passed": true,
+    "time_utc": "2026-10-15T02:09:19.712591+00:00",
+    "protocol": 66,
+    "version": "20261014-183316-785",
+    "previous_version": "20261014-142836-108",
+    "check": {
+      "status": "AVAILABLE",
+      "version": "20261014-183316-785",
+      "protocol": 66,
+      "archive_size": 453608212,
+      "release_notes": "VS66 fixes elevated enemy ammo drops that could not be collected while crouching. Desert gate surrounds and spawn-chamber roofs now seal into the perimeter, and the unused south-wall gap is closed. Update both PCs to VS66."
+    },
+    "update": {
+      "status": "UPDATED",
+      "version": "20261014-183316-785",
+      "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+      "warning": null,
+      "feed_available": true,
+      "release_notes": "VS66 fixes elevated enemy ammo drops that could not be collected while crouching. Desert gate surrounds and spawn-chamber roofs now seal into the perimeter, and the unused south-wall gap is closed. Update both PCs to VS66.",
+      "protocol": 66
+    },
+    "repeat_update": {
+      "status": "CURRENT",
+      "version": "20261014-183316-785",
+      "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+      "warning": null,
+      "feed_available": true,
+      "release_notes": "VS66 fixes elevated enemy ammo drops that could not be collected while crouching. Desert gate surrounds and spawn-chamber roofs now seal into the perimeter, and the unused south-wall gap is closed. Update both PCs to VS66.",
+      "protocol": 66
+    },
+    "verified_files": 32,
+    "rollback_files_verified": 32,
+    "existing_save_file_count_preserved": 0,
+    "launcher_unchanged": true,
+    "scope": "Actual production 1.0.1 native launcher using the live signed HTTPS feed; owner install upgrade/current, installed artifact hashes and existing file preservation. No normal GUI-button, physical friend-PC receipt or actual Unreal saved-run recovery acceptance."
+  },
   "failed_or_incomplete_attempts": [
     "Initial fixture used adjacent random seeds and did not isolate its arena; discarded as a reproduction. Corrected fixture reproduces real enemy-death/crouched collection.",
     "Chained existing arena tests exposed a test-only prior-arena assumption and out-of-bounds access. The first-map fixture now resets to arena zero and bounds its cardinal-index check. The completed chained group passes.",
     "First offscreen render attempt timed out waiting for 10 FPS while owner game was open. The harness now bounds the interactive pre-wait at 1 FPS; final camera-only captures pass. No performance credit.",
     "Preliminary Windows package lacked the final bay roofs and was kept unpublished in G:/IronSunPlayerPackages/Unpublished/20261014-182755-692.",
     "Publisher first rejected the older full-delivery approval record. Unchanged publisher accepted the existing protected internal-alpha approval record for the unchanged installer/launcher; no protection or policy changed.",
-    "Read-only CLI check against the open owner launcher encountered its single-instance dialog. Temporary CLI process cleaned up; separate empty-root production-launcher check validates the live signed feed."
+    "Read-only CLI check against the open owner launcher encountered its single-instance dialog. Temporary CLI process cleaned up; separate empty-root production-launcher check validates the live signed feed.",
+    "After owner-approved match closure, the already-open GUI reported VS66 completion, but an external read still found VS65 at the fixed desktop-shortcut install root. This GUI report was not accepted as installation proof. The GUI was closed; production native Update at the explicit fixed root then returned UPDATED and CURRENT, with all current/rollback hashes verified."
   ],
   "limits": [
     "Ammo collection uses production pawns/death/drop/overlap paths in controlled Editor fixtures. Exact packaged native co-op check covers setup/firing/recoil, not normal human ammo pickup.",
     "Production LAN/relay checks are lobby-only from the developer home network. No different-Wi-Fi human combat, save restart, normal performance, finished art or fun acceptance.",
-    "Owner paused VS65 match was preserved; installation is pending unless a separate owner-update receipt is present.",
+    "Owner approved closing the paused VS65 match; the fixed installation is now updated and current/rollback hashes verified.",
     "New colosseum/starter-arsenal direction remains a design interview and is not implemented in VS66."
   ],
   "public_payload": "Numeric summaries, dates, paths and hashes only; no raw source, media, private keys, invites, saves or private backups."

@@ -71,9 +71,45 @@
   },
   "native_release_id": "246f8f6063833e52",
   "native_archive_sha256": "246F8F6063833E529F7CC72DF4FCF077DBED021F4189DCFA8E149A4299C4A665",
-  "owner_installed_version": "20261014-142836-108",
-  "owner_installed_protocol": 65,
-  "owner_update": null,
+  "owner_installed_version": "20261014-183316-785",
+  "owner_installed_protocol": 66,
+  "owner_update": {
+    "passed": true,
+    "time_utc": "2026-10-15T02:09:19.712591+00:00",
+    "protocol": 66,
+    "version": "20261014-183316-785",
+    "previous_version": "20261014-142836-108",
+    "check": {
+      "status": "AVAILABLE",
+      "version": "20261014-183316-785",
+      "protocol": 66,
+      "archive_size": 453608212,
+      "release_notes": "VS66 fixes elevated enemy ammo drops that could not be collected while crouching. Desert gate surrounds and spawn-chamber roofs now seal into the perimeter, and the unused south-wall gap is closed. Update both PCs to VS66."
+    },
+    "update": {
+      "status": "UPDATED",
+      "version": "20261014-183316-785",
+      "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+      "warning": null,
+      "feed_available": true,
+      "release_notes": "VS66 fixes elevated enemy ammo drops that could not be collected while crouching. Desert gate surrounds and spawn-chamber roofs now seal into the perimeter, and the unused south-wall gap is closed. Update both PCs to VS66.",
+      "protocol": 66
+    },
+    "repeat_update": {
+      "status": "CURRENT",
+      "version": "20261014-183316-785",
+      "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+      "warning": null,
+      "feed_available": true,
+      "release_notes": "VS66 fixes elevated enemy ammo drops that could not be collected while crouching. Desert gate surrounds and spawn-chamber roofs now seal into the perimeter, and the unused south-wall gap is closed. Update both PCs to VS66.",
+      "protocol": 66
+    },
+    "verified_files": 32,
+    "rollback_files_verified": 32,
+    "existing_save_file_count_preserved": 0,
+    "launcher_unchanged": true,
+    "scope": "Actual production 1.0.1 native launcher using the live signed HTTPS feed; owner install upgrade/current, installed artifact hashes and existing file preservation. No normal GUI-button, physical friend-PC receipt or actual Unreal saved-run recovery acceptance."
+  },
   "live_signed_feed_available": {
     "passed": true,
     "result": {

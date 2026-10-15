@@ -26,7 +26,7 @@
   },
   "previous_test_snapshot": "2026-10-14-vs65-waves",
   "beta_readiness_approved": false,
-  "testing_recommendation": "Close game and reopen launcher to get VS66, then owner-test orb collection while standing/crouching and inspect all three gate surrounds/south wall. Internal alpha; human balance and target 75 remain open.",
+  "testing_recommendation": "Owner VS66 installation is current. Owner-test orb collection while standing/crouching and inspect all three gate surrounds/south wall. Internal alpha; human balance and target 75 remain open.",
   "assessment_kind": "Reproduced crouched tall-role ammo collection and first-arena wall/gate/ceiling seams repaired and packaged.",
   "gameplay_score_estimated_on": "2026-10-04",
   "gameplay_score_source": "2026-10-04-vs41",
@@ -110,15 +110,15 @@
     "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
     "launcher": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN\\Play-IRON-SUN.cmd",
     "desktop_shortcut": "C:\\Users\\YaYa\\Desktop\\IRON SUN.lnk",
-    "version": "20261014-142836-108",
-    "network_status": "Current live signed HTTPS feed validated by unchanged production launcher; owner installation pending because current match is paused.",
+    "version": "20261014-183316-785",
+    "network_status": "Current live signed HTTPS feed validated by unchanged production launcher; owner installation updated and hash-verified.",
     "second_pc_accepted": false,
     "setup_zip": "downloads/IRON-SUN-Updater-Setup.zip",
     "available_version": "20261014-183316-785",
     "available_protocol": 66
   },
   "delivery_version": "20261014-183316-785",
-  "delivery_scope": "VS66 published through unchanged launcher 1.0.1. The signed update is available; the owner’s paused VS65 match is preserved and installation awaits closure of that game.",
+  "delivery_scope": "VS66 published through unchanged launcher 1.0.1. The owner install is updated through the production launcher, with current/rollback file hashes verified.",
   "map_visual_check": "snapshots/2026-10-09-vs55/map-visual-check.json",
   "map_visual_check_tested_on": "2026-10-09",
   "run_recovery_visual_check": "snapshots/2026-10-09-vs56/run-recovery-visual-check.json",
@@ -231,7 +231,7 @@
       "snapshot": "2026-10-14-vs66-drops-and-seams",
       "protocol": 66,
       "live_signed_feed_check_passed": true,
-      "owner_install_current": false,
+      "owner_install_current": true,
       "owner_install_receipt": "snapshots/2026-10-14-vs66-drops-and-seams/delivery.json",
       "friend_pc_accepted": false
     }
@@ -340,18 +340,20 @@
     "approved_so_far": [
       "Player-controlled squad walk up colosseum staircase and through gate.",
       "Entrance landing arsenal before gate; both free starter guns collected there.",
-      "Perks chosen in lobby.",
+      "Perks and shared passive-bonus vote chosen in lobby.",
       "Full initial entrance and shorter later arrivals.",
       "Stone/industrial sci-fi blend following approved arena mockups.",
       "Everyone equipped and ready before enemies.",
-      "Protected staging."
+      "Protected staging.",
+      "Preserve starter pool: Gale/Phasma primary; Gale/Phasma/wildcard secondary; no duplicates. Helix/Vector/Ion remain later purchases.",
+      "Visible weapon racks and compact selection/inspection panel with optional Details.",
+      "Keep gear in later arenas and wait for squad readiness; no repeat free starter issue.",
+      "No forced initial preparation timer; loadout changes clear readiness. Existing 90-second encounter breaks remain.",
+      "Paid random rerolls and weapon upgrades remain available at the in-arena arsenal during combat.",
+      "Gate opens after all equipped/ready; combat waits for the whole active squad to enter, then gate closes safely."
     ],
     "pending_questions": [
-      "Starter eligibility",
-      "Passive team-bonus location/removal",
-      "Rack/panel versus full shop interaction",
-      "Later-arena readiness",
-      "Initial preparation timer"
+      "Final shared-design confirmation requested before implementation."
     ],
     "shared_design_confirmation": false
   }

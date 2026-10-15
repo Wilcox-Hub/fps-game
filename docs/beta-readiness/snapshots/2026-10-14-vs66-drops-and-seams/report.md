@@ -1,6 +1,6 @@
 # VS66 ammo drops and desert gate seams
 
-Published internal alpha **20261014-183316-785**, protocol 66, through unchanged launcher 1.0.1. Matching Lenovo native server is live. [Release](https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs66-20261014-183316-785-launcher-1.0.1-setup-1). The signed update is available; the owner’s paused VS65 match is preserved and installation awaits closure of that game. Source remains local and unpublished; this is not beta approval.
+Published internal alpha **20261014-183316-785**, protocol 66, through unchanged launcher 1.0.1. Matching Lenovo native server is live. [Release](https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs66-20261014-183316-785-launcher-1.0.1-setup-1). The owner install is updated through the production launcher, with current/rollback file hashes verified. Source remains local and unpublished; this is not beta approval.
 
 The owner reported orbs remaining uncollected and gaps at every first-desert-arena enemy gate, and asked us to inspect the paused game. Its VS65 pause view confirmed the detached gate surround. The game was left paused throughout investigation.
 
