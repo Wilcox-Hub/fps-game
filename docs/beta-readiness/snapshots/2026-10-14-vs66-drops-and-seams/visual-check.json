@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "frames_inspected": [
+    {
+      "name": "entrance-open.png",
+      "local_path": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\drops-seams-20261014\\final-frames\\entrance-open.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "A1F1653013C121429FB09F4A116A835F92D429372993C5B2522DE13144B12278"
+    },
+    {
+      "name": "entrance-warning.png",
+      "local_path": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\drops-seams-20261014\\final-frames\\entrance-warning.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "603E3FE7BB32B38BA32B68EEB660F2436FDAFB6F72713B768ACEF57F5574FEDB"
+    },
+    {
+      "name": "first-map-overhead.png",
+      "local_path": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\drops-seams-20261014\\final-frames\\first-map-overhead.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2DAAEBAD367E5D6101A8231D0EE169314CEF79D94BFAD6219CC3DA2A9A3A4AE0"
+    },
+    {
+      "name": "first-map-player-height.png",
+      "local_path": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\drops-seams-20261014\\final-frames\\first-map-player-height.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "FF0DA4014B84850EAF1632DC52DCE36DCFE1DE24ACDEB16EB26113B44C41EFA9"
+    }
+  ],
+  "scope": "Controlled rendered Editor cameras: closed/warned gate, opened bay with sealed roof, player-height court and overhead perimeter. Local images inspected; no new finished-art, performance or human-fun approval. Raw media remains local."
+}

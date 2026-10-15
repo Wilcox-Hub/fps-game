@@ -1,0 +1,89 @@
+{
+  "protocol": 66,
+  "version": "20261014-183316-785",
+  "publication": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs66-20261014-183316-785-launcher-1.0.1-setup-1",
+  "launcher_version": "1.0.1",
+  "assets": [
+    {
+      "name": "iron-sun-20261014-183316-785.zip",
+      "size_bytes": 453608212,
+      "sha256": "0EB0A7DF5B6DE5F40864F831CAFDDE52C36CF25BD75CE6DCF0DF045B0D7A451C"
+    },
+    {
+      "name": "game-manifest.json",
+      "size_bytes": 7231,
+      "sha256": "7A6264A686C93C3DDFBE79A72F89EE1EAB162EC4CF0841AE13DA2352AA86009E"
+    },
+    {
+      "name": "game-manifest.sig",
+      "size_bytes": 384,
+      "sha256": "EA3BAA4421A128EB65EAB21FD4062E4529F597F5DBF2ABD6EA68F5C7EDC26E88"
+    },
+    {
+      "name": "IRON-SUN-Setup.exe",
+      "size_bytes": 4025552,
+      "sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8"
+    },
+    {
+      "name": "setup-manifest.json",
+      "size_bytes": 682,
+      "sha256": "09324678733A291D0A9A275782C88B4606A4CE0DF29FFFB28ECD5CB2FB9533FA"
+    },
+    {
+      "name": "setup-manifest.sig",
+      "size_bytes": 384,
+      "sha256": "8865283BE9724325BDC986E4C152ABB6B92E8466F11DAB2F5181A8129F3BC0C5"
+    },
+    {
+      "name": "IronSunLauncher.exe",
+      "size_bytes": 1785344,
+      "sha256": "C293A7D60887B2D719C753E25E4AE8083A4299513A55FE9C23AD2249AF6378B4"
+    },
+    {
+      "name": "launcher-manifest.json",
+      "size_bytes": 347,
+      "sha256": "5AAFD6A473F4955984FBB39A53B80B4F796BB0D628AA8D193D701E40AC281A6D"
+    },
+    {
+      "name": "launcher-manifest.sig",
+      "size_bytes": 384,
+      "sha256": "C8157B8EE0A316939EE8678B10D917FC25C7D207C6F90A7AF73CFCCF2902209B"
+    }
+  ],
+  "website_setup_feed": {
+    "published": true,
+    "feed_path": "public/setup-feed.json",
+    "commit": "11c083b6300d3cbcf5b3cb0e594a4de22ff60098",
+    "setup_sha256": "62C789A0ABD26F2CA127635AD61FDE7B41537AAD31C4C29A2D54FF754464C9F8",
+    "scope": "Small signed public metadata only; no private key, invite or token uploaded."
+  },
+  "native_server": {
+    "passed": true,
+    "protocol": 66,
+    "time_utc": "2026-10-15T01:46:02.905451+00:00",
+    "saved_files_preserved": 0,
+    "relay_unchanged": true,
+    "listening": true,
+    "read_only_root": true,
+    "user": "1000:1000",
+    "restarts": 0,
+    "scope": "Actual native Linux boot and saved-file preservation at empty-lobby deployment; game-only container recreation. No combat, restart recovery, capacity or external-Wi-Fi acceptance."
+  },
+  "native_release_id": "246f8f6063833e52",
+  "native_archive_sha256": "246F8F6063833E529F7CC72DF4FCF077DBED021F4189DCFA8E149A4299C4A665",
+  "owner_installed_version": "20261014-142836-108",
+  "owner_installed_protocol": 65,
+  "owner_update": null,
+  "live_signed_feed_available": {
+    "passed": true,
+    "result": {
+      "status": "AVAILABLE",
+      "version": "20261014-183316-785",
+      "protocol": 66,
+      "archive_size": 453608212,
+      "release_notes": "VS66 fixes elevated enemy ammo drops that could not be collected while crouching. Desert gate surrounds and spawn-chamber roofs now seal into the perimeter, and the unused south-wall gap is closed. Update both PCs to VS66."
+    },
+    "scope": "Unchanged production launcher 1.0.1 validates the current live signed HTTPS feed using a separate empty probe root. No owner install, game closure or GUI acceptance."
+  },
+  "source_status": "GAME_SOURCE_LOCAL_UNPUBLISHED; PACKAGED_ALPHA_AND_READINESS_METADATA_PUBLICATION_AUTHORIZED"
+}

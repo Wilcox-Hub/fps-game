@@ -1,0 +1,30 @@
+[
+  {
+    "path": "Source/TP_FirstPerson/RidgefireFirstArenaGeometry.cpp",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireFirstArenaLayout.h",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireGameMode.h",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/RidgefireNetworkCompatibility.h",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireEncounterIntegrationTests.cpp",
+    "change": "modified"
+  },
+  {
+    "path": "Source/TP_FirstPerson/Tests/RidgefireFieldDropAndSeamTests.cpp",
+    "change": "added"
+  }
+]

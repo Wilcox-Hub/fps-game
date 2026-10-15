@@ -1,0 +1,293 @@
+{
+  "protocol": 66,
+  "tested_on": "2026-10-14",
+  "timezone": "America/Los_Angeles",
+  "source_inputs": 629,
+  "input_delta": [
+    {
+      "path": "Source/TP_FirstPerson/RidgefireFirstArenaGeometry.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireFirstArenaLayout.h",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireGameMode.h",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireNetworkCompatibility.h",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireEncounterIntegrationTests.cpp",
+      "change": "modified"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireFieldDropAndSeamTests.cpp",
+      "change": "added"
+    }
+  ],
+  "reproduction": {
+    "death_drop": "Before repair a brute drop remains at about 234.9cm and cannot be collected by a 55cm-half-height crouched capsule. Lowering only that same orb to 65cm immediately permits collection. Other normal-sized standing cases are controls; no claim that every reported orb was this failure.",
+    "wall": "Original 60 affected seam rays fail while two intact-wall controls pass. After side/header/south-wall repair, 62 rays pass. Visual inspection then discovers an uncovered deep bay; 9/71 ceiling/seam rays fail before the roof fix and 0/71 fail afterward."
+  },
+  "current_engine_world": {
+    "passed": true,
+    "tests": [
+      "Ridgefire.Regressions.DropsAndSeams.DeathDropWalkover",
+      "Ridgefire.Regressions.DropsAndSeams.FirstArenaBoundary",
+      "Ridgefire.Waves.ArenasPartiesAndQueue",
+      "Ridgefire.Waves.MultipleGatesAndWalkout"
+    ],
+    "failures": [],
+    "filter": "Ridgefire.Regressions.DropsAndSeams+Ridgefire.Waves.ArenasPartiesAndQueue+Ridgefire.Waves.MultipleGatesAndWalkout",
+    "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261014-183314-625\\Automation.log",
+    "rendered": false,
+    "editor_only": false,
+    "exit_code": 0,
+    "time_utc": "2026-10-15T01:33:56.8872165Z",
+    "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+  },
+  "ammo_cases": [
+    {
+      "role": 0,
+      "crouched": false,
+      "orb_height_cm": 65.4,
+      "capsule_half_height_cm": 96.0,
+      "overlap_events_enabled": true,
+      "collected": true,
+      "reserve_before": 0,
+      "reserve_after": 18
+    },
+    {
+      "role": 0,
+      "crouched": true,
+      "orb_height_cm": 65.4,
+      "capsule_half_height_cm": 55.0,
+      "overlap_events_enabled": true,
+      "collected": true,
+      "reserve_before": 18,
+      "reserve_after": 36
+    },
+    {
+      "role": 1,
+      "crouched": false,
+      "orb_height_cm": 65.4,
+      "capsule_half_height_cm": 96.0,
+      "overlap_events_enabled": true,
+      "collected": true,
+      "reserve_before": 36,
+      "reserve_after": 54
+    },
+    {
+      "role": 1,
+      "crouched": true,
+      "orb_height_cm": 65.4,
+      "capsule_half_height_cm": 55.0,
+      "overlap_events_enabled": true,
+      "collected": true,
+      "reserve_before": 54,
+      "reserve_after": 72
+    },
+    {
+      "role": 2,
+      "crouched": false,
+      "orb_height_cm": 65.4,
+      "capsule_half_height_cm": 96.0,
+      "overlap_events_enabled": true,
+      "collected": true,
+      "reserve_before": 72,
+      "reserve_after": 90
+    },
+    {
+      "role": 2,
+      "crouched": true,
+      "orb_height_cm": 65.4,
+      "capsule_half_height_cm": 55.0,
+      "overlap_events_enabled": true,
+      "collected": true,
+      "reserve_before": 90,
+      "reserve_after": 108
+    },
+    {
+      "role": 3,
+      "crouched": false,
+      "orb_height_cm": 65.4,
+      "capsule_half_height_cm": 96.0,
+      "overlap_events_enabled": true,
+      "collected": true,
+      "reserve_before": 108,
+      "reserve_after": 126
+    },
+    {
+      "role": 3,
+      "crouched": true,
+      "orb_height_cm": 65.4,
+      "capsule_half_height_cm": 55.0,
+      "overlap_events_enabled": true,
+      "collected": true,
+      "reserve_before": 126,
+      "reserve_after": 144
+    }
+  ],
+  "boundary_seams": {
+    "traces": 71,
+    "leaks": 0,
+    "first_arena": true
+  },
+  "current_render": {
+    "passed": true,
+    "tests": [
+      "Ridgefire.Waves.FirstMapLayoutAndFrames"
+    ],
+    "failures": [],
+    "filter": "Ridgefire.Waves.FirstMapLayoutAndFrames",
+    "log": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Automation\\LeanIon\\20261014-183316-895\\Automation.log",
+    "rendered": true,
+    "editor_only": false,
+    "exit_code": 0,
+    "time_utc": "2026-10-15T01:34:03.4868351Z",
+    "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance."
+  },
+  "visual_check": "visual-check.json",
+  "exact_shipping_native_gameplay": {
+    "passed": true,
+    "label": "delivery",
+    "protocol": 66,
+    "address": "192.168.4.36:17877",
+    "peers": 2,
+    "rendered": true,
+    "started_utc": "2026-10-15T01:44:24.576816+00:00",
+    "receipts": [
+      {
+        "passed": true,
+        "normal_setup": true,
+        "primary_secondary_lmb": true,
+        "feedback_articulates": true,
+        "aim_recovers": true,
+        "cases": [
+          {
+            "slot": 1,
+            "ammo_spent": 7,
+            "observed_aim_rise_degrees": 2.1392,
+            "observed_gun_rotation_degrees": 1.153919
+          },
+          {
+            "slot": 2,
+            "ammo_spent": 2,
+            "observed_aim_rise_degrees": 3.1815,
+            "observed_gun_rotation_degrees": 5.186604
+          }
+        ],
+        "scope": "Opt-in exact runtime normal menu actions, simulated owned keys, real authority/ammo/feedback and actual component transforms. Isolated test server may disable AI/damage. No hardware input, human feel, balance or performance acceptance."
+      },
+      {
+        "passed": true,
+        "normal_setup": true,
+        "primary_secondary_lmb": true,
+        "feedback_articulates": true,
+        "aim_recovers": true,
+        "cases": [
+          {
+            "slot": 1,
+            "ammo_spent": 7,
+            "observed_aim_rise_degrees": 2.1392,
+            "observed_gun_rotation_degrees": 1.138298
+          },
+          {
+            "slot": 2,
+            "ammo_spent": 2,
+            "observed_aim_rise_degrees": 3.1815,
+            "observed_gun_rotation_degrees": 5.214507
+          }
+        ],
+        "scope": "Opt-in exact runtime normal menu actions, simulated owned keys, real authority/ammo/feedback and actual component transforms. Isolated test server may disable AI/damage. No hardware input, human feel, balance or performance acceptance."
+      }
+    ],
+    "scope": "Actual two owned runtimes and isolated authority; normal party/setup menu actions, primary/secondary simulated LMB, authoritative ammo, selected-slot preservation, angular gun feedback and release recovery. Test server disables AI/damage. Not physical-device input, human feel, balance, performance or production saves.",
+    "finished_utc": "2026-10-15T01:45:09.249623+00:00",
+    "output": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\drops-seams-20261014\\gameplay-delivery-20261014-184424"
+  },
+  "production_lobby_auth": {
+    "lan": {
+      "passed": true,
+      "protocol": 66,
+      "address": "192.168.4.36:7777",
+      "wrong_invite_control": false,
+      "clients": 2,
+      "held_seconds": 12,
+      "unresolved_network_references": 0,
+      "lobby_join_accepted": true,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "time_utc": "2026-10-15T01:47:01.316516+00:00"
+    },
+    "relay": {
+      "passed": true,
+      "protocol": 66,
+      "address": "cairo-ferry.tun.ply.gg:42527",
+      "wrong_invite_control": false,
+      "clients": 2,
+      "held_seconds": 12,
+      "unresolved_network_references": 0,
+      "lobby_join_accepted": true,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "time_utc": "2026-10-15T01:49:20.309883+00:00"
+    },
+    "wrong-invite": {
+      "passed": true,
+      "protocol": 66,
+      "address": "192.168.4.36:7777",
+      "wrong_invite_control": true,
+      "clients": 1,
+      "wrong_invite_rejected": true,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "time_utc": "2026-10-15T01:50:38.188021+00:00"
+    }
+  },
+  "native_build": {
+    "passed": true,
+    "engine": "5.8.3",
+    "protocol": 66,
+    "files": 33,
+    "input_count": 629
+  },
+  "windows_build": {
+    "passed": true,
+    "configuration": "Shipping",
+    "version": "20261014-183316-785",
+    "files": 32
+  },
+  "launcher_live_signed_check": {
+    "passed": true,
+    "result": {
+      "status": "AVAILABLE",
+      "version": "20261014-183316-785",
+      "protocol": 66,
+      "archive_size": 453608212,
+      "release_notes": "VS66 fixes elevated enemy ammo drops that could not be collected while crouching. Desert gate surrounds and spawn-chamber roofs now seal into the perimeter, and the unused south-wall gap is closed. Update both PCs to VS66."
+    },
+    "scope": "Unchanged production launcher 1.0.1 validates the current live signed HTTPS feed using a separate empty probe root. No owner install, game closure or GUI acceptance."
+  },
+  "owner_update": null,
+  "failed_or_incomplete_attempts": [
+    "Initial fixture used adjacent random seeds and did not isolate its arena; discarded as a reproduction. Corrected fixture reproduces real enemy-death/crouched collection.",
+    "Chained existing arena tests exposed a test-only prior-arena assumption and out-of-bounds access. The first-map fixture now resets to arena zero and bounds its cardinal-index check. The completed chained group passes.",
+    "First offscreen render attempt timed out waiting for 10 FPS while owner game was open. The harness now bounds the interactive pre-wait at 1 FPS; final camera-only captures pass. No performance credit.",
+    "Preliminary Windows package lacked the final bay roofs and was kept unpublished in G:/IronSunPlayerPackages/Unpublished/20261014-182755-692.",
+    "Publisher first rejected the older full-delivery approval record. Unchanged publisher accepted the existing protected internal-alpha approval record for the unchanged installer/launcher; no protection or policy changed.",
+    "Read-only CLI check against the open owner launcher encountered its single-instance dialog. Temporary CLI process cleaned up; separate empty-root production-launcher check validates the live signed feed."
+  ],
+  "limits": [
+    "Ammo collection uses production pawns/death/drop/overlap paths in controlled Editor fixtures. Exact packaged native co-op check covers setup/firing/recoil, not normal human ammo pickup.",
+    "Production LAN/relay checks are lobby-only from the developer home network. No different-Wi-Fi human combat, save restart, normal performance, finished art or fun acceptance.",
+    "Owner paused VS65 match was preserved; installation is pending unless a separate owner-update receipt is present.",
+    "New colosseum/starter-arsenal direction remains a design interview and is not implemented in VS66."
+  ],
+  "public_payload": "Numeric summaries, dates, paths and hashes only; no raw source, media, private keys, invites, saves or private backups."
+}

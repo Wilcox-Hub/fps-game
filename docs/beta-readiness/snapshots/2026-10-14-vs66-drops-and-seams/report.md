@@ -1,0 +1,13 @@
+# VS66 ammo drops and desert gate seams
+
+Published internal alpha **20261014-183316-785**, protocol 66, through unchanged launcher 1.0.1. Matching Lenovo native server is live. [Release](https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs66-20261014-183316-785-launcher-1.0.1-setup-1). The signed update is available; the owner’s paused VS65 match is preserved and installation awaits closure of that game. Source remains local and unpublished; this is not beta approval.
+
+The owner reported orbs remaining uncollected and gaps at every first-desert-arena enemy gate, and asked us to inspect the paused game. Its VS65 pause view confirmed the detached gate surround. The game was left paused throughout investigation.
+
+A real enemy-death regression reproduces a crouched player missing a brute’s elevated ammo orb (about 234.9cm above the floor). Lowering only that orb restores collection. Production drops now trace the floor while ignoring pawns, then spawn 65cm above it. All eight role/standing/crouched cases grant exactly 18 reserve rounds once; health drops remain health drops and may stay when the player is fully healed. This establishes a specific reproduced cause, not an explanation for every orb the owner saw.
+
+The north/east/west inset gates now have overlapping physical side returns and headers joining the perimeter. Deep spawn chambers have complete roofs meeting their side/back walls. The unused south opening is closed because the existing player spawn is inside that wall. Gate coordinates, eight cover islands, center/flank routes and current wave curve are retained. Final **71/71** boundary/ceiling rays, four-layout/party arrival/queue controls and actual multi-gate bot walk-out pass. Four rendered **1920×1080** views were inspected, including the opened enclosed bay. Existing first-map tests also recover correctly after the arena matrix, avoiding a test-only index crash.
+
+Final Windows Shipping and native Linux builds share **629 current inputs** (six modified and one added versus VS65). Two exact packaged clients pass controlled native setup, both-gun firing and recoil. Production LAN/relay lobby holds and wrong-invite rejection pass. These are controlled checks, with frozen or disabled enemy combat where stated; human ammo feel, different-Wi-Fi combat, recovery, performance, finished art and natural pacing are unaccepted. See test-results.json for failed/incomplete attempts and scope.
+
+Keep the low-confidence **69%** planning estimate dated October 4, weighted 68.5, **NOT_BETA_READY**; target 75% remains open. No readiness points are assigned for these technical repairs. The new colosseum entrance/free starter-arsenal flow is being grilled separately and is not part of VS66.
