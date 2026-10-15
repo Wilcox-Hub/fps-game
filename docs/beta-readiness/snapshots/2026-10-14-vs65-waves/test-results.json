@@ -1,0 +1,180 @@
+{
+  "snapshot": "2026-10-14-vs65-waves",
+  "tested_on": "2026-10-14",
+  "protocol": 65,
+  "input_count": 628,
+  "passed": true,
+  "checks": {
+    "current-curve-and-comparison": {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Economy.RulesAndStats",
+        "Ridgefire.Run.EncounterPlan",
+        "Ridgefire.Run.OpeningRampAndArenaReset"
+      ],
+      "failures": [],
+      "filter": "Ridgefire.Economy.RulesAndStats+Ridgefire.Run.OpeningRampAndArenaReset+Ridgefire.Run.EncounterPlan",
+      "rendered": false,
+      "editor_only": false,
+      "exit_code": 0,
+      "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance.",
+      "time_utc": "2026-10-14T21:28:00.2186774Z"
+    },
+    "actual-world-spawns": {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Waves.ArenasPartiesAndQueue"
+      ],
+      "failures": [],
+      "filter": "Ridgefire.Waves.ArenasPartiesAndQueue",
+      "rendered": false,
+      "editor_only": false,
+      "exit_code": 0,
+      "scope": "Controlled Unreal Editor regression; generated fixtures and simulated input, no packaged, physical-device or human acceptance.",
+      "time_utc": "2026-10-14T21:10:50.8084006Z"
+    },
+    "accelerated-integrated-route": {
+      "passed": true,
+      "tests": [
+        "Ridgefire.Run.IntegratedRoute"
+      ],
+      "exit_code": 0,
+      "scope": "Actual local Unreal route through all four prototypes and21 reinforced encounters, real setup/relays/champion guard/rewards;20x test time and frozen/fixture-killed enemies. No human difficulty/pacing/performance or network acceptance.",
+      "time_utc": "2026-10-14T21:30:20.9639421Z"
+    },
+    "final-shipping-native-gameplay": {
+      "passed": true,
+      "rendered": true,
+      "scope": "Actual two owned runtimes and isolated authority; normal party/setup menu actions, primary/secondary simulated LMB, authoritative ammo, selected-slot preservation, angular gun feedback and release recovery. Test server disables AI/damage. Not physical-device input, human feel, balance, performance or production saves.",
+      "protocol": 65,
+      "peers": 2,
+      "receipts": [
+        {
+          "passed": true,
+          "normal_setup": true,
+          "primary_secondary_lmb": true,
+          "feedback_articulates": true,
+          "aim_recovers": true,
+          "cases": [
+            {
+              "slot": 1,
+              "ammo_spent": 7,
+              "observed_aim_rise_degrees": 2.1392,
+              "observed_gun_rotation_degrees": 1.166051
+            },
+            {
+              "slot": 2,
+              "ammo_spent": 2,
+              "observed_aim_rise_degrees": 3.1815,
+              "observed_gun_rotation_degrees": 5.046422
+            }
+          ],
+          "scope": "Opt-in exact runtime normal menu actions, simulated owned keys, real authority/ammo/feedback and actual component transforms. Isolated test server may disable AI/damage. No hardware input, human feel, balance or performance acceptance."
+        },
+        {
+          "passed": true,
+          "normal_setup": true,
+          "primary_secondary_lmb": true,
+          "feedback_articulates": true,
+          "aim_recovers": true,
+          "cases": [
+            {
+              "slot": 1,
+              "ammo_spent": 7,
+              "observed_aim_rise_degrees": 2.1392,
+              "observed_gun_rotation_degrees": 1.177635
+            },
+            {
+              "slot": 2,
+              "ammo_spent": 2,
+              "observed_aim_rise_degrees": 3.1815,
+              "observed_gun_rotation_degrees": 5.084138
+            }
+          ],
+          "scope": "Opt-in exact runtime normal menu actions, simulated owned keys, real authority/ammo/feedback and actual component transforms. Isolated test server may disable AI/damage. No hardware input, human feel, balance or performance acceptance."
+        }
+      ],
+      "started_utc": "2026-10-14T21:33:53.247789+00:00",
+      "finished_utc": "2026-10-14T21:35:11.828736+00:00"
+    },
+    "final-native-first-wave": {
+      "passed": true,
+      "protocol": 65,
+      "time_utc": "2026-10-14T21:35:12.108703+00:00",
+      "players": 2,
+      "initial_alive": 3,
+      "pending": 6,
+      "total_enemies": 9,
+      "live_threat": 6,
+      "live_threat_limit": 10,
+      "arrival_group": 3,
+      "threat_budget": 18,
+      "ordinary_sentry_health": 145.2,
+      "incoming_damage_multiplier": 1.04,
+      "scope": "Actual exact native Linux isolated server spawn receipts after two final Shipping clients completed normal setup. Production first-wave role HP/damage and queued/initial population observed; AI/damage disabled for the controlled firing scenario. Not human pressure or balance approval."
+    },
+    "final-native-lan": {
+      "passed": true,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "time_utc": "2026-10-14T21:36:37.290450+00:00",
+      "protocol": 65,
+      "clients": 2,
+      "wrong_invite_control": false,
+      "lobby_join_accepted": true,
+      "held_seconds": 12,
+      "unresolved_network_references": 0
+    },
+    "final-native-relay": {
+      "passed": true,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "time_utc": "2026-10-14T21:37:52.591851+00:00",
+      "protocol": 65,
+      "clients": 2,
+      "wrong_invite_control": false,
+      "lobby_join_accepted": true,
+      "held_seconds": 12,
+      "unresolved_network_references": 0
+    },
+    "final-native-wrong-invite": {
+      "passed": true,
+      "scope": "Actual packaged Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+      "time_utc": "2026-10-14T21:39:10.905452+00:00",
+      "protocol": 65,
+      "clients": 1,
+      "wrong_invite_control": true,
+      "wrong_invite_rejected": true
+    }
+  },
+  "source_scope": {
+    "current": "Rules/comparison, final integrated route and packaged/native/delivery checks use current input-manifest.json.",
+    "earlier-world": "World spawn matrix uses pre-comparison-input-manifest.json. Only comparison implementation and two test files changed afterward; spawn and encounter code remained unchanged.",
+    "prior-ui": "VS64 4K front-end evidence remains dated at VS64; no fresh VS65 4K claim. Current rendered Shipping setup/gameplay is1080p."
+  },
+  "feedback_loop": [
+    {
+      "issue": "Opening too hard/fast and no requested arena health reset",
+      "before": "New opening/reset test failed on original VS64 curve.",
+      "after": "Current test passes smaller openings, damage relief, exact per-role90% entry health, continued growth and immutable party plans."
+    },
+    {
+      "issue": "Solo comparison recreated first-arena health",
+      "after": "Current same-encounter comparison removes party modifiers; a later solo sentry reference is7 shots and brute14 with the baseline42-damage gun."
+    },
+    {
+      "issue": "Old integrated fixture expected12 live and12 queued",
+      "before": "Reached all21 encounters/four arenas but failed two obsolete literal-count assertions (observed3/3).",
+      "after": "Fixture now validates actual values against the authored plan; completed accelerated rerun passes."
+    }
+  ],
+  "incomplete_attempts": [
+    "Unaccelerated route stopped before its known real-time limit; it is not a passed run.",
+    "First accelerated attempt stalled during local Zen cache startup and was stopped. Completed retry uses the documented installed filesystem-cache fallback; no protection setting changed."
+  ],
+  "limits": [
+    "Human easy-opening feel, pressure, natural economy/45–60-minute pacing and fun remain unaccepted.",
+    "Controlled route uses accelerated time and frozen/fixture-killed enemies; native gameplay disables AI/damage and simulates owned input.",
+    "Native relay evidence is lobby-only from the developer home network, not different-Wi-Fi human combat.",
+    "No physical friend-PC receipt, saved-run restart or normal performance acceptance."
+  ],
+  "public_payload": "Numeric/test summaries and path/hash inventories only. Raw source, logs, media, keys, saves and private backups remain local."
+}
