@@ -1,0 +1,15 @@
+{
+  "status": "UNPUBLISHED",
+  "configuration": "Shipping",
+  "product_status": "Prototype",
+  "built_at_utc": "2026-10-16T02:40:28.4511403Z",
+  "archive_id": "20261015-194011-543",
+  "bootstrap_sha256": "A048E78E1D61EC1419EB3EFA005C7B132C02440A35C4958204F316788699EDA4",
+  "runtime_sha256": "E380074A314E754D564703543722F64E2BB6993AF8C590B31B349425BDAFFA35",
+  "project_package_selector": "PASS; official list-only validator selected this COMPLETE prototype",
+  "public_game_feed_remains": "VS66 / protocol 66",
+  "launcher_version": "1.0.1",
+  "launcher_update_created": false,
+  "native_server_updated": false,
+  "game_source_pushed": false
+}

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "recorded_on": "2026-10-14",
-  "tested_on": "2026-10-14",
+  "recorded_on": "2026-10-15",
+  "tested_on": "2026-10-15",
   "timezone": "America/Los_Angeles",
-  "snapshot_id": "2026-10-14-vs66-drops-and-seams",
+  "snapshot_id": "2026-10-15-vs67-arrival",
   "source_baseline_commit": "ac54494e66d5321fdf40072d704c057aec3fb6ac",
   "tested_source_includes_unpublished_changes": true,
-  "tested_input_count": 629,
+  "tested_input_count": 637,
   "engine": "Unreal Engine 5.8.3",
   "project": "unreal/Ridgefire",
   "verdict": "NOT_BETA_READY",
@@ -15,36 +15,29 @@
   "overall_beta_readiness_percent": null,
   "confidence": "low",
   "score": "snapshots/2026-10-04-vs41/scores.json",
-  "report": "snapshots/2026-10-14-vs66-drops-and-seams/report.md",
-  "input_manifest": "snapshots/2026-10-14-vs66-drops-and-seams/input-manifest.json",
-  "test_results": "snapshots/2026-10-14-vs66-drops-and-seams/test-results.json",
-  "visual_check": "snapshots/2026-10-14-vs66-drops-and-seams/visual-check.json",
-  "cache_policy": "629 exact VS66 inputs. Reuse this snapshot only at its recorded source/platform/scope. VS65 wave/recoil history retains its own input state; no blanket carry-forward.",
+  "report": "snapshots/2026-10-15-vs67-arrival/report.md",
+  "input_manifest": "snapshots/2026-10-15-vs67-arrival/input-manifest.json",
+  "test_results": "snapshots/2026-10-15-vs67-arrival/test-results.json",
+  "visual_check": "snapshots/2026-10-15-vs67-arrival/visual-check.json",
+  "cache_policy": "637 exact VS67 local-unpublished inputs versus 629 VS66 inputs. Reuse only when hashes, platform and validation scope match; no blanket carry-forward.",
   "project_descriptor": {
     "path": "Ridgefire.uproject",
     "sha256": "065A1AB7AF0B97F9C813738343DCC20B66CE016D144DC7FAC6799DCC2692F331"
   },
-  "previous_test_snapshot": "2026-10-14-vs65-waves",
+  "previous_test_snapshot": "2026-10-14-vs66-drops-and-seams",
   "beta_readiness_approved": false,
   "testing_recommendation": "Owner VS66 installation is current. Owner-test orb collection while standing/crouching and inspect all three gate surrounds/south wall. Internal alpha; human balance and target 75 remain open.",
-  "assessment_kind": "Reproduced crouched tall-role ammo collection and first-arena wall/gate/ceiling seams repaired and packaged.",
+  "assessment_kind": "Approved colosseum arrival, starter arsenal and mid-round random reroll/upgrade flow implemented locally; focused Editor regressions and official Windows Shipping package validation pass; networked movement and human acceptance remain open.",
   "gameplay_score_estimated_on": "2026-10-04",
   "gameplay_score_source": "2026-10-04-vs41",
   "human_recording_reviewed_on": "2026-10-04",
-  "owner_feedback_acceptance": "Owner reported second-attempt LAN lobby/setup success but joining-client fire swapped weapons. Initial menu revision rejected; final revision awaits owner acceptance. 90-second regroup and shards approved. Owner requests bot-shaped hitboxes; VS53 automated controls pass, human acceptance pending. Owner approved wave recommendations and matching first-map layout; VS54 prototype implemented, human pressure/scale/balance acceptance pending. Owner requests multi-location spawning and closer first-map layout; VS55 engine controls pass, human pressure/scale/art approval remains pending. VS56 safe-boundary host recovery and local-input-ready controls implemented; controlled cold-process checks pass, physical-device/owner acceptance pending. Owner approved complete lean/Ion design; implemented in VS60, human feel/balance not yet accepted. October13 first lobby rejected; revised sparse mockup5 composition implemented with human foreground/lizard behind. New branding interview open; mode names approved. Current revision awaits owner usability acceptance. October14 owner removes lean; published VS63 follows. Active shield design pending. Player models must match approved mockups; current prototypes fail fidelity review. October14 owner rejects current dull/fake recoil and requests an Apex-style reference; no revised-feel acceptance. October14 five recoil choices approved; only bounded tracking relief is Apex-inspired. VS64 implemented/published; no human revised-feel acceptance yet. October14 opening waves rejected as too hard/fast. Owner confirms easy firsttwo only at run start, lower opening damage and numbers/composition-led pressure. VS65 implements and publishes this direction; no human balance acceptance yet. October14 owner reports uncollected orbs and desert gate/wall gaps in paused VS65. VS66 reproduces crouched brute-drop height and physical seam/ceiling holes, repairs and publishes them; owner revised-behavior acceptance remains open.",
+  "owner_feedback_acceptance": "Owner reported second-attempt LAN lobby/setup success but joining-client fire swapped weapons. Initial menu revision rejected; final revision awaits owner acceptance. 90-second regroup and shards approved. Owner requests bot-shaped hitboxes; VS53 automated controls pass, human acceptance pending. Owner approved wave recommendations and matching first-map layout; VS54 prototype implemented, human pressure/scale/balance acceptance pending. Owner requests multi-location spawning and closer first-map layout; VS55 engine controls pass, human pressure/scale/art approval remains pending. VS56 safe-boundary host recovery and local-input-ready controls implemented; controlled cold-process checks pass, physical-device/owner acceptance pending. Owner approved complete lean/Ion design; implemented in VS60, human feel/balance not yet accepted. October13 first lobby rejected; revised sparse mockup5 composition implemented with human foreground/lizard behind. New branding interview open; mode names approved. Current revision awaits owner usability acceptance. October14 owner removes lean; published VS63 follows. Active shield design pending. Player models must match approved mockups; current prototypes fail fidelity review. October14 owner rejects current dull/fake recoil and requests an Apex-style reference; no revised-feel acceptance. October14 five recoil choices approved; only bounded tracking relief is Apex-inspired. VS64 implemented/published; no human revised-feel acceptance yet. October14 opening waves rejected as too hard/fast. Owner confirms easy firsttwo only at run start, lower opening damage and numbers/composition-led pressure. VS65 implements and publishes this direction; no human balance acceptance yet. October14 owner reports uncollected orbs and desert gate/wall gaps in paused VS65. VS66 reproduces crouched brute-drop height and physical seam/ceiling holes, repairs and publishes them; owner revised-behavior acceptance remains open. October15 owner approved the arrival/arsenal plan. Protocol67 implements lobby perk/team bonus, protected starter arsenal, ready-and-enter gate flow, later-arena retention, and paid in-round known/random weapon acquisition and upgrades. Editor focused regressions and a COMPLETE local Shipping package pass. The network fixture cannot inject movement; human two-PC arrival, Shipping combat and presentation remain unaccepted.",
   "next_gameplay_checks": [
-    "Owner VS66 actual ammo/health orb distinction and standing/crouched collection, all three enclosed desert gates and south boundary.",
-    "Owner normal VS65 first/second round ease, later pressure/role variety and lower-population next-arena entry after the10% health drop.",
-    "Owner feel test of manageable opening bursts, stronger heavy recoil, ADS and manual compensation/release recovery.",
-    "Normal physical two-PC firing at real latency; current automated raw-control aim and packaged owned recoil checks pass within their scope.",
-    "Matching VS65 two-PC normal-input Ion combat; cancel/refund, ready sound and direct-hit charge pacing",
-    "Matching VS65 physical two-PC save/close/reopen/original-squad Continue with both guns, ammo, shards, upgrades and objectives retained",
-    "Matching VS65 two-PC host/join and firing with primary and secondary",
-    "Normal first-map warned arrivals, bot routes/pressure/stalls and party-scaled weapon time-to-defeat",
-    "Actual bot hit registration on visible armor/head, gaps, moving and covered targets",
-    "Owner final menu comprehension, shards purchases/upgrades, 90-second early-start feel",
-    "Natural economy and 45–60-minute packaged full run",
-    "Fixed-path firewall/share activation when authorized"
+    "Two physical PCs: select distinct starter guns, ready, traverse the gate together, confirm it closes only after all connected players enter, then verify encounter one begins.",
+    "Owner acceptance of lobby selection, staging clarity, gate traversal, final movement and 1080p/1440p/4K readability.",
+    "Two-player normal Shipping combat after arrival, including known purchases, random reroll and upgrades during a live encounter.",
+    "Human balance/fun acceptance of the arrival pacing and in-arena shard economy.",
+    "Finish visual/art pass on the colosseum stair, landing, racks and gate before public beta."
   ],
   "target_gameplay_readiness_percent": 75,
   "target_status": "IN_PROGRESS; latest estimate 69%, target 75% not reached",
@@ -336,7 +329,9 @@
   },
   "design_clarification_policy": "Owner requests automatic grill-me below their requested 98% instruction-confidence standard. Resolve material ambiguity to shared explicit understanding; subjective feel requires playtesting and confidence percentages are not measured guarantees.",
   "arrival_direction": {
-    "status": "GRILLING; NOT_IMPLEMENTED_IN_VS66",
+    "status": "IMPLEMENTED_IN_UNPUBLISHED_VS67",
+    "protocol": 67,
+    "shared_design_confirmation": true,
     "approved_so_far": [
       "Player-controlled squad walk up colosseum staircase and through gate.",
       "Entrance landing arsenal before gate; both free starter guns collected there.",
@@ -352,9 +347,24 @@
       "Paid random rerolls and weapon upgrades remain available at the in-arena arsenal during combat.",
       "Gate opens after all equipped/ready; combat waits for the whole active squad to enter, then gate closes safely."
     ],
-    "pending_questions": [
-      "Final shared-design confirmation requested before implementation."
+    "pending_questions": [],
+    "implementation_notes": [
+      "Perks and shared team bonus are chosen in the lobby; no timed loadout screen after loading.",
+      "Protected staging has no initial timer; changing loadout clears readiness.",
+      "All-ready opens the gate; encounter start waits until the active squad crosses the threshold and the gate closes safely.",
+      "Starter racks issue one free primary plus one distinct free secondary; later arenas keep gear.",
+      "Paid known weapons, random wildcard rerolls and weapon upgrades remain in the in-arena arsenal, purchasable with shards during combat."
     ],
-    "shared_design_confirmation": false
+    "human_accepted": false,
+    "published": false
+  },
+  "current_unpublished_build": {
+    "protocol": 67,
+    "package_archive_id": "20261015-194011-543",
+    "package_status": "COMPLETE_PROTOTYPE",
+    "package_validation": "official selector list-only PASS; packaged process launch confirmed, clean shutdown smoke inconclusive",
+    "public_feed_protocol": 66,
+    "launcher_version": "1.0.1",
+    "published": false
   }
 }

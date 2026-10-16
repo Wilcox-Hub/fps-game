@@ -1,0 +1,228 @@
+{
+  "base_snapshot": "2026-10-14-vs66-drops-and-seams",
+  "base_input_count": 629,
+  "current_input_count": 637,
+  "changed_inputs": 38,
+  "delta": [
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArenaDressing.cpp",
+      "change": "modified",
+      "previous_sha256": "0609CD91DA7CECFFB50C5C58A877EA06A31E7D24CC498A41F4DC41EDBF9278D7",
+      "sha256": "7BCD00AA0A31D5255DD35112FF1664BDD68E21156025D109AA22C6990CEB61F7"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArenaDressing.h",
+      "change": "modified",
+      "previous_sha256": "1AE551ABE8E80BEC9D6331C5B0190298A49B7FA4418CD03AAA5FEC561BF8FAE0",
+      "sha256": "7889BC85A4C88515D3023EB41488DB2BFD3C0E3C7F04BB0F52A22E80DB087708"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArrival.cpp",
+      "change": "added",
+      "sha256": "946D3D18C310E5AA8C5A68E9EB7494508510314CB16BEB1D2A4C411D52CE53AA"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArrivalGate.cpp",
+      "change": "added",
+      "sha256": "7292CFB20796B5DF4252F3A29C8559BBB788DC0203A1DC5CDB5B74F9A0166B15"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArrivalGate.h",
+      "change": "added",
+      "sha256": "E8BD101E0D9BDC88313402F7F88AE85CEB2DDD34E2B49058942CEE76ABB1D9B0"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArrivalGeometry.cpp",
+      "change": "added",
+      "sha256": "08A0F4A04D2742F6CEF8319FBD4D89FCD6DE9DED352BFFECE446C28391BAB79C"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArrivalHUD.cpp",
+      "change": "added",
+      "sha256": "FBDDB558C176F1964A4DCDAF1F34F9EECDCF7F736D0E37217D348690B1526A8B"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArrivalMenus.cpp",
+      "change": "added",
+      "sha256": "C16661293BA2238B63AE67B5BC18CE707CA94B8596D3B981893565D6DAF88C4C"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireCharacterMovement.cpp",
+      "change": "modified",
+      "previous_sha256": "944EDAE0BD8B8D553796D5AAE765357C364D828189EC8D2E95F346F910D9100B",
+      "sha256": "D7B3B02F88A741846D838F1B6ADCA1BE70AFCAE34AE9EAEA3458D524449C646A"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireCheckpoint.cpp",
+      "change": "modified",
+      "previous_sha256": "8FBD010ED5A949014977CEF64468F2A1508BB435487C07321F30DBC3BE08AC33",
+      "sha256": "788BD257A568ADAE44F4CF7C8B3C8DF1B876E8049F79A59442AA93511D505EB4"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireCheckpoint.h",
+      "change": "modified",
+      "previous_sha256": "1593817472454243EE74525AF86639E5F2268D39E1EACD30159806DB41763FF6",
+      "sha256": "29E1FD511E580A70AA7DDB73FC8FE62BDDD82B8C5E908C69E3479974DA0CFBBE"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireEconomy.cpp",
+      "change": "modified",
+      "previous_sha256": "5194442C2064C26387851BA327C14DEFF551A5EDDBCE490871F3EC37C4ECDA13",
+      "sha256": "EFB14600A5E3B565727C2F379E795F9B64E3287083468C52B437DEC97C44B068"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireFirstArenaGeometry.cpp",
+      "change": "modified",
+      "previous_sha256": "11C15050EAB6A39A33C1655A19FCC785265DD34C30C68B10508FB2EC6A40D4BD",
+      "sha256": "7A56AF83DA618B70F886281FBB1DADC1806613B9859F14C01ED19A23883B3C05"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireFirstArenaPlayers.cpp",
+      "change": "modified",
+      "previous_sha256": "C0D5165249094529ADF559C2B9E3F31415DDEB43EF20896E25F20D7EE6E499B4",
+      "sha256": "7861A5B540059A9B144A2C491DDE8D421D1CF2CA7E84581118AEBBDEBFF748D2"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireFrontEndMenus.cpp",
+      "change": "modified",
+      "previous_sha256": "D22005DEDCEB985ECF14BBAC5A7685A5C1A51257813BBC486F046087FD972BD6",
+      "sha256": "FAAE111A8F47D22915131A2EB9BDBAA0FEE3B7B6D2521D6C25972E06709F75BB"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireGameMode.cpp",
+      "change": "modified",
+      "previous_sha256": "3DCC70206D47D31A97CF75E0AFC623CF794C7F13A1E15004ED291E830C839105",
+      "sha256": "8D3A5710F793B782DD28511AD4F675FF8BB191F5F7548486E398F8FF772DE527"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireGameMode.h",
+      "change": "modified",
+      "previous_sha256": "828B9832EEB921F4F5027F5A5026F679C0030720D3EF4FA5CA6DB0C499201DB2",
+      "sha256": "8C04E93FA251CE3FADEF7AF7721D57DE2CED7436F156ECD9FDAB0FEE45D011DA"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireHUD.cpp",
+      "change": "modified",
+      "previous_sha256": "4BAC32826F905B02C081BD338BB3814245A0BCF7C08EA3209642FAEF818D7407",
+      "sha256": "F0F781EDCD6FD44C1FEB98CAB8D5992F54E969279058F26ABE27928F3417376D"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireHUD.h",
+      "change": "modified",
+      "previous_sha256": "3646288691FAB2C90CEC3A1FE2B0890850098C3D973CF1E7C80880DFE6852DC1",
+      "sha256": "457D5EF1E8FE57CA8208202D8D24367373DA6DA58CB4BEDAC52037BC8CF1C21D"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireLobby.cpp",
+      "change": "modified",
+      "previous_sha256": "0F9E5B137595F8CC5A77A33E4CC8D84E49C8CC37A182ADDA705F345A15CCE39C",
+      "sha256": "B397D4FABEDF5A9C2CC5F8331A44853B02A22035E092302C8AFC93A502EE2D3E"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireMenuActions.cpp",
+      "change": "modified",
+      "previous_sha256": "A3FB1B8446A3C9339734615BA1D119D8CED44832A4E9F342855D431E9BE9DC21",
+      "sha256": "4969C147C2DA5975BACE6983E42184D254DA09E4E8D29232C2B6F95DDC303DCF"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireMenus.cpp",
+      "change": "modified",
+      "previous_sha256": "47016A04DF34794A6B07A26A9265AE59CDDC6D5A3011838CE6CED5C6B88312B7",
+      "sha256": "C566051EF25B8BCBED8E8E9DBF30D3D3103B16685D7C035494EE47EE0C7BADBE"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireMenus.h",
+      "change": "modified",
+      "previous_sha256": "A725017C959599BC6C025A6EDE12D0215DDC95415EC365B219DB6C2E5F1A0FB4",
+      "sha256": "93CA312F1D7542D0862C392B78A1CCFF45EDAFCC319847233E5D9B132889071D"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireNetworkCompatibility.h",
+      "change": "modified",
+      "previous_sha256": "38FF70A41DB3359BE6C460556C50142938BC4003D6E9B2B492C072C15B2B7CFC",
+      "sha256": "E1A1DB77BDFEBF9814FEBF027E4A77D6D8C3826A2D459F348C719DA4780D6B89"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireRandomArsenal.cpp",
+      "change": "added",
+      "sha256": "DD6B9070CC67B50337DD4FCAEF7ECCEB01016F8B968429EBE34498EAAB6B7953"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireRun.cpp",
+      "change": "modified",
+      "previous_sha256": "CDEE3D99DCC3B86C0741AAC2036986C8AECFC2E23868F2221E5A2F8F37D7C4AD",
+      "sha256": "B0778E346141D340BA11A1AA6D12E09E10546E5321E2B39B66695B56E28F0F63"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireRunCheckpoint.cpp",
+      "change": "modified",
+      "previous_sha256": "7746CD4E2035F5900ED1994BDDB6BE86E983578631B43ED044BC7388A308B6C8",
+      "sha256": "960B5BDC96F0CE67483D1AE86025B783D71ECCB9CF3C058A34555A7AC264484A"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireSessionSubsystem.h",
+      "change": "modified",
+      "previous_sha256": "73ADF13AAC8BACC791FF8EAD2562E4FC4ADD90BEA9BC9722836F38B7A17C7467",
+      "sha256": "0DCD9EDCEA70969753F81376D319DD4153C275389C2D5001DB4A8E0B4849D0C8"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireShopHUD.cpp",
+      "change": "modified",
+      "previous_sha256": "79517A46B123F4E0F8A1A370700C000B5659073B071C237DD7160F17EB7DE115",
+      "sha256": "29CFA55D5E43EE7B880D90FA6A917FF05E07C48A18DD9C1C5220E1522C64FBDF"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireWeaponProgression.cpp",
+      "change": "modified",
+      "previous_sha256": "B9EE9937B76E2A978262950D16BAE9F3D2ECB9132D5B20ED9A1B3985DD2D7360",
+      "sha256": "98952D7234F2E8924336B3C32BEBAA91A67E8A151B00FF624F1C72C4A00244FF"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireWeaponProgression.h",
+      "change": "modified",
+      "previous_sha256": "1864CB2D366A1229220E8880BBA59EE6B54FE214B1B2C7318C4E9878D0EEFCBB",
+      "sha256": "B0D456F65765F6D16463A4EB1769ECBB82590282160AD4DBACBE98AC36473660"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireArrivalTests.cpp",
+      "change": "added",
+      "sha256": "E5C59B805F49D04E106B792E53F149B9D6D3E08E6E09AEF7143890E644FC022A"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireCheckpointTests.cpp",
+      "change": "modified",
+      "previous_sha256": "92D7F0368523EBC1D6AB6C6FFBA5DB8088BDE4FD0B3E734294B257ACF4CFEF35",
+      "sha256": "2896F605B096A089053DDAA28904AB85499C1C73F5191823954DC19DBABF4902"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireFieldDropAndSeamTests.cpp",
+      "change": "modified",
+      "previous_sha256": "4ED98F4136A645ED112B7025D534B1999693A31F107257F3199FBA0F29214121",
+      "sha256": "7E2CDD8A357DD76940742EA454782C0538BB22A42145D3159E6C6CF14D1E4067"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireRecoilGameplayFixture.cpp",
+      "change": "modified",
+      "previous_sha256": "FAB605F92308C579CADECD1D3F49728AE8194BBE195700CC2B3A36C3E77C40F9",
+      "sha256": "BC6BB8D2DAC982B2FCE7E18243D4FD6109D8BFC1EE2E2C9D8B3306DE18591AD8"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+      "change": "modified",
+      "previous_sha256": "5F3A5250927C1A67CBA108257C15EE2B36D10031E851E620DA17273E2E8869B7",
+      "sha256": "BCC17D49D8CAD6861D3CBC417CE6167A634712A2414B055208EA7301D0E7AD7F"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+      "change": "modified",
+      "previous_sha256": "887BF92757BAA5F0C0D477EA4D2557CA103452ECC846615AF192EE484C3FF51B",
+      "sha256": "4CA688DE82D682120C22B20165DC6F0862E083DB9D94A9576DE0C0821E5CD956"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h",
+      "change": "modified",
+      "previous_sha256": "B51558C6D1C9868018877F69BEE51BCBF4AECA5716B75DE33BAF68A9A073686F",
+      "sha256": "B2A593E4E56F1E88EE27959ECE710D86930C49AFE00EC15122B4E09FF69F4610"
+    }
+  ]
+}
