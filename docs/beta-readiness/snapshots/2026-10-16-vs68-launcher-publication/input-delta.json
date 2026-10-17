@@ -1,0 +1,11 @@
+{
+  "previous_snapshot": "2026-10-16-wildcard-evolution",
+  "differences": [
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireRecoilGameplayFixture.cpp",
+      "change": "modified",
+      "before_sha256": "BC6BB8D2DAC982B2FCE7E18243D4FD6109D8BFC1EE2E2C9D8B3306DE18591AD8",
+      "after_sha256": "4EB83201A05F4B97468A26FBD4544E51C4D5F33EDDE0683CFF27E994DD78FD58"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "protocol": 68,
+  "release": {
+    "release": "bf3895eaed4cb808",
+    "sha256": "bf3895eaed4cb80829579cb22bcffd4599205fcef1d877321f118011325914f0",
+    "previous_release": "releases/246f8f6063833e52",
+    "activated_files": true,
+    "process_restarted": false
+  },
+  "time_utc": "2026-10-17T04:38:41.125076+00:00",
+  "saved_files_preserved": 0,
+  "relay_unchanged": true,
+  "listening": true,
+  "read_only_root": true,
+  "user": "1000:1000",
+  "restarts": 0,
+  "metadata": {
+    "engine": "5.8.3",
+    "protocol": 68,
+    "platform": "Linux",
+    "target": "Server",
+    "configuration": "Development",
+    "built_utc": "2026-10-17T04:37:08.9246910Z",
+    "input_count": 747,
+    "input_manifest_sha256": "EC604E72EB9DA221C19211B86AEB68CCE03E25B4A2AD755AE24495023A044725"
+  },
+  "scope": "Actual native Linux boot and saved-file preservation at empty-lobby deployment; game-only container recreation. No combat, restart recovery, capacity or external-Wi-Fi acceptance."
+}

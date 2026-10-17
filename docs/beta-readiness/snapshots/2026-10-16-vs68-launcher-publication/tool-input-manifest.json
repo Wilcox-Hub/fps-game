@@ -1,0 +1,306 @@
+[
+  {
+    "path": "unreal/Ridgefire/ArtTools/build_arsenal_station.py",
+    "sha256": "E07DB66E5CE19C8E1F8C71CD5139E66FB3585E093FB4CBD5A4C1B013A225138A"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/build_defender_character.py",
+    "sha256": "CC29D125ADBFFF6C4D2332E7AAC22CA74CFE4EA4CDEFFDEB59546651285A49BD"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/build_player_outfits.py",
+    "sha256": "646B48981E7DBF1391C55E02BE522B656C606F5A11661A66C9C07ABAC83AD769"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/build_starter_rack.py",
+    "sha256": "420925FF6765842D0291A28F95C6685E8943C68E5A43AA55CFE8D49DD420AF8E"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/build_wildcard_library.py",
+    "sha256": "84160BF6C99944421C0D3AC8CEFEE108C0A294425C4AB13C9932750C7B8EB64A"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/check_wildcard_mounts.py",
+    "sha256": "FD1CAA1E5EA8F8E4C0A3B50A9714D858F1CF7D1A413A1F8BD983E1C2B0E05C39"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/create_player_preview_level.py",
+    "sha256": "306C6F4A9ADCDAD2792DD7DCFA8C58F8D9EB1EAA9F16DA3D4E2048C2BD726505"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/export_player_rig_reference.py",
+    "sha256": "C10FBFE74974AF06BA777429C000B3D4E815D17395DDFF279A4FED3E02C3B3A5"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/generate_ridgefire_models.py",
+    "sha256": "037F4DEF601ECFAA34A2F90CA9691354770685ADCE185B101206D12456D5EC13"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/import_player_outfits.py",
+    "sha256": "CD16A2F82F85F3384435E6AE48E68279DA439C3ADE45E0D91751754BC5233472"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/import_ridgefire_models.py",
+    "sha256": "F59EDDADB78286372DD0B6A81278D94333B6EDCEA29A63FEE46606268A02BF68"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/import_starter_rack.py",
+    "sha256": "CF5B21C4E184EFED683EC9B3BDAFC1844DA2C98C5CE16FEAF319FB05B76EE413"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/import_wildcard_library.py",
+    "sha256": "7481BE7F6E63B0DB62D201A25FD2E575B0FA6AF26E064B835219A4E10CF70F5D"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/inspect_player_rig.py",
+    "sha256": "D85DFAF0424EB5506667D37683F5FD4EC5E79D929CE83685DDF5332E372BC1C9"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/Pipeline/arsenal-review.json",
+    "sha256": "354DCB544EAF23E5740651E688949A5E7911B01DF6458565D289A7092B66D579"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/Pipeline/blender_asset_job.py",
+    "sha256": "F3198FB3FB35A2B547E598F24D6D1166B7A7DA7559B307D524A7072697DBABA1"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/Pipeline/unreal_asset_job.py",
+    "sha256": "67C43B2473C3952774EE9B22FF257762358098EDFE67006A77BE6B25E6313CA3"
+  },
+  {
+    "path": "unreal/Ridgefire/ArtTools/render_defender_review.py",
+    "sha256": "0AB437D5A3E8C6D132FBFAE8FCCB341F0688C4764AB0062870EAC0179C2EF7D3"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/asset-manifest.json",
+    "sha256": "0895644DB5748D5B821B2A437618E105EF7C85990BF4480436A9B2DC23E682CE"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/mount-validation.json",
+    "sha256": "AE0A5C6EFBF1C49A7DC1E93D878302195F63197A19F2AF3FA1F9C3DCEA1EBBED"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_0_0.fbx",
+    "sha256": "F4C86392F970CCBB17566C293D5298B5AFC34C389EA39A085AE06CB19D190209"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_0_1.fbx",
+    "sha256": "73758B197B8D9FED8E8A7FE2D99ED9181A4BF712AF1E1E4F57B9E222524CC45F"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_0_2.fbx",
+    "sha256": "D90AF7FE855D77A85046BDBFA3E6761CFB7E5FA1DF1B99EDDA93945DC23F1255"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_0_3.fbx",
+    "sha256": "8E245657EA1C7B3FD40D761EED23FA78C8A68B0C3EE4FF02ECA6922E7B676FB9"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_1_0.fbx",
+    "sha256": "2526C8BA327D4ABDEE378FE04B8CE91864D9D40551B5595A03FA03A013CF3471"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_1_1.fbx",
+    "sha256": "25BC304BE9A2F9E2D227FD71BA7A08198ABC5747EA636047307762D8C194709A"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_1_2.fbx",
+    "sha256": "01E18F26300F424768A2D544E4D8F4E8E07BB1CAE906622D7442B960A09B792B"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_1_3.fbx",
+    "sha256": "12E20238B00B8DA0B2AD248048005990783AA3D3FAC5E33FBE61BF00FA42BF37"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_2_0.fbx",
+    "sha256": "BC848A0383769286A660FCB59E2CCD08F23319677080A3E0CA839FFA415A0241"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_2_1.fbx",
+    "sha256": "96FBC9D3B17EC76AE22D750F48F50C3D2910326331EBB72FCAC9257C649259A0"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_2_2.fbx",
+    "sha256": "7E4C42DE9850CB2DE77E6F79188AEABC16A6F264606E28A1DD49C9B7FE6363EC"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_2_3.fbx",
+    "sha256": "86C79E21821D7462BFF74B14DFC58134577F6F694E0A02C766C176B250FED572"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_3_0.fbx",
+    "sha256": "628BD867FBCCBEE8DA93812F0B42EDF6B5B01544E8C3C1C02F68164595244D82"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_3_1.fbx",
+    "sha256": "116CFDF297FC03F3E1D38199001E741D05C90D10B0C7FBA630E2C603C56C690F"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_3_2.fbx",
+    "sha256": "179CF30072A00BC56EB685FB58E36CCCC383B780B5A63F0AC8EA25ADA1AADDE1"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_3_3.fbx",
+    "sha256": "30972D17CA7F45E8BBC369BA8345230DD3B331450788E0A2D7A7BA1008DE06C0"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_4_0.fbx",
+    "sha256": "315F3E2DDFBB6C436D0CE743BE403ACDD31B0B30835C24A35ECC6E6F2C0723E6"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_4_1.fbx",
+    "sha256": "D51D72904C403C69B9EDB3C26072ACE5FE0ACEBAD726CF77439BAAA37E89EDB0"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_4_2.fbx",
+    "sha256": "9FBA0954DA7BF7BD750F5CF7D30F183F50797BBD065E376E39D786F34AABDF34"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_4_3.fbx",
+    "sha256": "FC00987DA86EC490B7E6C56843D5E1800112F98EE1DBB4AA567906FF8B0DEDAA"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_5_0.fbx",
+    "sha256": "4C1A01B5E680C881608C5E9C9E06702E4008E8F0F785FE58C52A6C058911C877"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_5_1.fbx",
+    "sha256": "303380121848E20A032D002D5E2C25FF95C78B9C487188C979CB9B78280DD989"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_5_2.fbx",
+    "sha256": "2756A272198372D499893A37B865D3A79DCAEE9EC9B166B22D54306D6B7E2777"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Body_5_3.fbx",
+    "sha256": "539D5E2F4DF265DF9E9DEC74DC238BA77746003CE7B5CC42107EA7B7B4CC4AC7"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Cooling_0.fbx",
+    "sha256": "08588D0A20D3194F14927C242B281A640B267B3BF1E188254E94E6E23793943E"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Cooling_1.fbx",
+    "sha256": "7BF962771DEC7C089ABA1403B5AF1EA912D3282CB36E971EA03393B06718DEBF"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Cooling_2.fbx",
+    "sha256": "59D59885D116CE430BCD68D0C74B8669AA9040BEAEDF8CF41C92FBE2EDE010FD"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Cooling_3.fbx",
+    "sha256": "31FE3DD58E26193D8FF4E3C52B652F2D6838576598DDCD3A30F757E4CEFAA7DF"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Core_0.fbx",
+    "sha256": "894E3655D13E571AA65DC43C237C0D87701751E5DD128910E87768DFAF693458"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Core_1.fbx",
+    "sha256": "844D7BF0444C02AD0D6495E4FA82DB4C433C6A384C91F633CB6E60E101AC4C5D"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Core_2.fbx",
+    "sha256": "5FD87848D787F3CAD0951EDCA1C8479F13415645E39C93C93984C44A1B7B316B"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Core_3.fbx",
+    "sha256": "D43D90191A9BF238253E164C9B040DBC02417F2C507B75C4304A3A1F99B68A6D"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Emitter_0.fbx",
+    "sha256": "9EEDF6F59E8B3DD2E6EBF23300F4A7C92C32D44075868A33BC81810CE3A43181"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Emitter_1.fbx",
+    "sha256": "05B5133B5F2D009DE7FC7BB62BD829DEE2A1FC882E8127E5F901C471FC9DB259"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Emitter_2.fbx",
+    "sha256": "1F7D344F04A97D1D442B8E3E38D0A50A62784F7460948E0365879322EE85EDFF"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Emitter_3.fbx",
+    "sha256": "1FE40C31D0856E37D0725CAD3EC4CEA1C8BE0FA4638A851BE0BA1E0FC8FE399E"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Feed_0_0.fbx",
+    "sha256": "6C1C7385003D2779F765D4BAECED64B3945EFD11A550613E419FDBDF5E8A990E"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Feed_0_1.fbx",
+    "sha256": "6994592CC17BC8CF738EEF27C2D8DECCF36237E8B469ED43BD134DA95C4FA397"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Feed_1_0.fbx",
+    "sha256": "BA51DBB46DECD2370D1C97F15ECA9E294DCE09E7C4D34B7CF4B7FFDDA20B9602"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Feed_1_1.fbx",
+    "sha256": "9A230D2E8F263CE76DA87E584743FEB182CD3B30356F4FA4BDB1525F8B1545B5"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Feed_2_0.fbx",
+    "sha256": "DC709629DCC2566F4E1AFBB29B66E88E771B24F48ECC9A6950D649E072252E96"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Feed_2_1.fbx",
+    "sha256": "7FF5F12459F513039562BC7F07E2B8348795572303EA9841A8F8161A330A7BF5"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Grip_0.fbx",
+    "sha256": "2307132F00E6A8C93F952F9A1F20BDE2E6DFE4BA5769C71A60174604DA1E1895"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Grip_1.fbx",
+    "sha256": "AA0EF870219BA74CBC5075BAB636298DDCB5136343A6C9AB3063DB6ABD3AD68D"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Grip_2.fbx",
+    "sha256": "9DE7CE84ED2BE67B2EA51A8DEE92DD164F3548308926FFFA4770911909B505A9"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Grip_3.fbx",
+    "sha256": "A27CB681190C73A51BA4F34F6E775AF550ADAEEFA8F3E58177BB5AA243EC99AC"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Optic_1_0.fbx",
+    "sha256": "F9C8B5F91782817679C9870AFA7D714353BF4E3C268721C3A0372223EF505957"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Optic_1_1.fbx",
+    "sha256": "80F39EA73D65C78C9963F36943733A1BA37C5D0E5BC89CA1AAC874AEDD1DC3D4"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Optic_2_0.fbx",
+    "sha256": "40CBBC7D4DC90F09CF772BF1484A802DB46CB4DF1E2776790643A168ADC13A5D"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Optic_2_1.fbx",
+    "sha256": "F8A045B7102D5E9BA726D6BEF84A71B38593120F7C19FE3F5B79C20B175FC2C8"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Optic_3_0.fbx",
+    "sha256": "93896C9234BA11A4EC5B4CE1FB7C10FEB13A2ED4FE09B2C366AC62F63EBBF994"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Optic_3_1.fbx",
+    "sha256": "FAFEA682D9E2D0276E7950BEEAB8A24098B20799C64ADBE8B46BDBB132F8A8B8"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Optic_4_0.fbx",
+    "sha256": "66DF2256B3E529F0243BFCBC28E064B7FE623EB93CDA84F5DCF355AAB4473438"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/SM_WC_Optic_4_1.fbx",
+    "sha256": "01FF62B1BFBBFD1C772E0C5603D7E4E298B836C15FF0686BEC9809A18455CB46"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/unreal-import.json",
+    "sha256": "903B9E0857EA9A24BB5C14F1E730FB407DE7B952E77E7062DEC9FBE0AB0D03BB"
+  },
+  {
+    "path": "unreal/Ridgefire/SourceArt/WildcardBeta/WildcardLibrary.blend",
+    "sha256": "E50CCA5C87FB484572D6345278DAA32CF765913E239664AEA62E69E4642DC012"
+  }
+]

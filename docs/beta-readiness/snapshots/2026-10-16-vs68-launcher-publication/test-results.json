@@ -1,0 +1,159 @@
+{
+  "protocol": 68,
+  "tested_on": "2026-10-16",
+  "timezone": "America/Los_Angeles",
+  "input_count": 747,
+  "input_delta": [
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireRecoilGameplayFixture.cpp",
+      "change": "modified",
+      "before_sha256": "BC6BB8D2DAC982B2FCE7E18243D4FD6109D8BFC1EE2E2C9D8B3306DE18591AD8",
+      "after_sha256": "4EB83201A05F4B97468A26FBD4544E51C4D5F33EDDE0683CFF27E994DD78FD58"
+    }
+  ],
+  "builds": {
+    "windows_shipping": true,
+    "native_linux_server": true
+  },
+  "exact_shipping_1080": {
+    "result": {
+      "passed": true,
+      "stage": 24,
+      "scope": "Packaged solo production menu, raw InputKey rack and combat fixture; no hardware or human acceptance",
+      "reason": "Production lobby/rack/gate, both-gun fire and paid five-second refit with reserved slot and explicit Enter collection passed"
+    },
+    "executable": "G:\\IRON-SUN-Work\\WildcardPackages\\20261016-213325-765\\Windows\\Ridgefire\\Binaries\\Win64\\TP_FirstPerson-Win64-Shipping.exe",
+    "exit_code": 0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "rendered": true,
+    "package": "G:\\IRON-SUN-Work\\WildcardPackages\\20261016-213325-765\\Windows",
+    "finished_utc": "2026-10-17T04:37:19.6710223Z"
+  },
+  "native_deployment": {
+    "passed": true,
+    "protocol": 68,
+    "release": {
+      "release": "bf3895eaed4cb808",
+      "sha256": "bf3895eaed4cb80829579cb22bcffd4599205fcef1d877321f118011325914f0",
+      "previous_release": "releases/246f8f6063833e52",
+      "activated_files": true,
+      "process_restarted": false
+    },
+    "time_utc": "2026-10-17T04:38:41.125076+00:00",
+    "saved_files_preserved": 0,
+    "relay_unchanged": true,
+    "listening": true,
+    "read_only_root": true,
+    "user": "1000:1000",
+    "restarts": 0,
+    "metadata": {
+      "engine": "5.8.3",
+      "protocol": 68,
+      "platform": "Linux",
+      "target": "Server",
+      "configuration": "Development",
+      "built_utc": "2026-10-17T04:37:08.9246910Z",
+      "input_count": 747,
+      "input_manifest_sha256": "EC604E72EB9DA221C19211B86AEB68CCE03E25B4A2AD755AE24495023A044725"
+    },
+    "scope": "Actual native Linux boot and saved-file preservation at empty-lobby deployment; game-only container recreation. No combat, restart recovery, capacity or external-Wi-Fi acceptance."
+  },
+  "native_joins": [
+    {
+      "passed": true,
+      "protocol": 68,
+      "address": "192.168.4.36:7777",
+      "wrong_invite_control": false,
+      "time_utc": "2026-10-17T04:39:11.108714+00:00",
+      "clients": 2,
+      "scope": "Exact packaged Windows Shipping clients and native Lenovo Linux Server; lobby/authentication only, no UI, combat, recovery, different-Wi-Fi human or performance acceptance.",
+      "lobby_join_accepted": true,
+      "held_seconds": 12,
+      "unresolved_network_references": 0,
+      "client_logging_available": false,
+      "run_directory": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\vs68-publication\\native-joins\\20261016-213909"
+    },
+    {
+      "passed": true,
+      "protocol": 68,
+      "address": "cairo-ferry.tun.ply.gg:42527",
+      "wrong_invite_control": false,
+      "time_utc": "2026-10-17T04:40:28.562416+00:00",
+      "clients": 2,
+      "scope": "Exact packaged Windows Shipping clients and native Lenovo Linux Server; lobby/authentication only, no UI, combat, recovery, different-Wi-Fi human or performance acceptance.",
+      "lobby_join_accepted": true,
+      "held_seconds": 12,
+      "unresolved_network_references": 0,
+      "client_logging_available": false,
+      "run_directory": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\vs68-publication\\native-joins\\20261016-213948"
+    },
+    {
+      "passed": true,
+      "protocol": 68,
+      "address": "cairo-ferry.tun.ply.gg:42527",
+      "wrong_invite_control": true,
+      "time_utc": "2026-10-17T04:41:45.358626+00:00",
+      "clients": 1,
+      "scope": "Exact packaged Windows Shipping clients and native Lenovo Linux Server; lobby/authentication only, no UI, combat, recovery, different-Wi-Fi human or performance acceptance.",
+      "wrong_invite_rejected": true,
+      "client_logging_available": false,
+      "run_directory": "C:\\Users\\YaYa\\.codex\\visualizations\\2026\\10\\02\\01a0fee1-2cbe-7933-8963-053fa2beb94f\\vs68-publication\\native-joins\\20261016-214046"
+    }
+  ],
+  "owner_launcher_update": {
+    "passed": true,
+    "version": "20261016-213325-765",
+    "protocol": 68,
+    "results": [
+      {
+        "status": "UPDATED",
+        "version": "20261016-213325-765",
+        "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+        "warning": null,
+        "feed_available": true,
+        "release_notes": "New walk-in colosseum arrival, crosshair-selected weapon racks, Phasma holo and Gale 2x sights, alien wildcard weapon parts and firing styles, fixed upgrade transformations, shared five-second refits, and rare solar blue-magma weapon. All players must update to VS68. Balance and final art remain in testing.",
+        "protocol": 68
+      },
+      {
+        "status": "CURRENT",
+        "version": "20261016-213325-765",
+        "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+        "warning": null,
+        "feed_available": true,
+        "release_notes": "New walk-in colosseum arrival, crosshair-selected weapon racks, Phasma holo and Gale 2x sights, alien wildcard weapon parts and firing styles, fixed upgrade transformations, shared five-second refits, and rare solar blue-magma weapon. All players must update to VS68. Balance and final art remain in testing.",
+        "protocol": 68
+      }
+    ],
+    "current_files_verified": 32,
+    "rollback_version": "20261014-183316-785",
+    "rollback_files_verified": 32,
+    "save_files_observed": 0,
+    "scope": "Unchanged production launcher using real signed public HTTPS feed at the owner fixed install root; CLI update/current, all payload/rollback hashes and observed save preservation. No GUI button, friend-PC or human gameplay acceptance.",
+    "finished_utc": "2026-10-17T04:43:39.734634+00:00"
+  },
+  "reused_prior_evidence": {
+    "snapshot": "2026-10-16-wildcard-evolution",
+    "date": "2026-10-16",
+    "unchanged_production_inputs": true,
+    "excluded_changed_input": "Source/TP_FirstPerson/Tests/RidgefireRecoilGameplayFixture.cpp",
+    "scope": "Prior generator/fixed-upgrade/real-disk, actual signatures, physical solar/refit/hazards, local two-process owner refit and1080p/4K assembly checks retain original technical scopes. The only source delta selects the first gate without a loop in an opt-in test helper; both release targets rebuilt and this exact Windows package rechecked."
+  },
+  "initial_failures": [
+    "Linux Clang rejected two always-break iterator loops in an opt-in test fixture; replaced with direct iterator checks and rebuilt successfully without relaxing compiler checks.",
+    "A simultaneous Windows build interrupted Linux SDK validation during cook. Repeating Linux packaging after Windows completion succeeded; release targets then had identical747 input hashes."
+  ],
+  "audit_100_rolls": {
+    "status": "PAUSED_AT_OWNER_REQUEST",
+    "completed": false,
+    "reason": "Owner prioritized publishing the completed game for testing before usage runs out."
+  },
+  "limitations": [
+    "No new human fun, balance, final-art or whole-game beta credit.",
+    "Relay checks originate from the developer network; different-Wi-Fi human gameplay remains unaccepted.",
+    "Shipping client logs unavailable; native-server join/roster/rejection evidence supplies lobby verdicts.",
+    "Normal GUI buttons and friend-PC receipt are not established by CLI updater checks."
+  ]
+}

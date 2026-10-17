@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "recorded_on": "2026-10-15",
-  "tested_on": "2026-10-15",
+  "recorded_on": "2026-10-16",
+  "tested_on": "2026-10-16",
   "timezone": "America/Los_Angeles",
-  "snapshot_id": "2026-10-15-vs67-arrival",
+  "snapshot_id": "2026-10-16-vs68-launcher-publication",
   "source_baseline_commit": "ac54494e66d5321fdf40072d704c057aec3fb6ac",
   "tested_source_includes_unpublished_changes": true,
-  "tested_input_count": 637,
+  "tested_input_count": 747,
   "engine": "Unreal Engine 5.8.3",
   "project": "unreal/Ridgefire",
   "verdict": "NOT_BETA_READY",
@@ -15,29 +15,43 @@
   "overall_beta_readiness_percent": null,
   "confidence": "low",
   "score": "snapshots/2026-10-04-vs41/scores.json",
-  "report": "snapshots/2026-10-15-vs67-arrival/report.md",
-  "input_manifest": "snapshots/2026-10-15-vs67-arrival/input-manifest.json",
-  "test_results": "snapshots/2026-10-15-vs67-arrival/test-results.json",
-  "visual_check": "snapshots/2026-10-15-vs67-arrival/visual-check.json",
-  "cache_policy": "637 exact VS67 local-unpublished inputs versus 629 VS66 inputs. Reuse only when hashes, platform and validation scope match; no blanket carry-forward.",
+  "report": "snapshots/2026-10-16-vs68-launcher-publication/report.md",
+  "input_manifest": "snapshots/2026-10-16-vs68-launcher-publication/input-manifest.json",
+  "test_results": "snapshots/2026-10-16-vs68-launcher-publication/test-results.json",
+  "visual_check": "snapshots/2026-10-16-vs68-launcher-publication/visual-check.json",
+  "cache_policy": "747 exact current input hashes; one test-helper delta recorded. Reuse only dated, scoped technical evidence.",
   "project_descriptor": {
     "path": "Ridgefire.uproject",
     "sha256": "065A1AB7AF0B97F9C813738343DCC20B66CE016D144DC7FAC6799DCC2692F331"
   },
-  "previous_test_snapshot": "2026-10-14-vs66-drops-and-seams",
+  "previous_test_snapshot": "2026-10-16-weapon-optics",
   "beta_readiness_approved": false,
-  "testing_recommendation": "Owner VS66 installation is current. Owner-test orb collection while standing/crouching and inspect all three gate surrounds/south wall. Internal alpha; human balance and target 75 remain open.",
-  "assessment_kind": "Approved colosseum arrival, starter arsenal and mid-round random reroll/upgrade flow implemented locally; focused Editor regressions and official Windows Shipping package validation pass; networked movement and human acceptance remain open.",
+  "testing_recommendation": "Update every PC through the launcher, then test normal guns/rack/ADS, wildcard variety and shared upgrade collection. Resume the paused isolated100-roll audit later.",
+  "assessment_kind": "Approved wildcard generation, fixed evolution, shared physical refit, solar blue magma and initial modular alien art.",
   "gameplay_score_estimated_on": "2026-10-04",
   "gameplay_score_source": "2026-10-04-vs41",
   "human_recording_reviewed_on": "2026-10-04",
-  "owner_feedback_acceptance": "Owner reported second-attempt LAN lobby/setup success but joining-client fire swapped weapons. Initial menu revision rejected; final revision awaits owner acceptance. 90-second regroup and shards approved. Owner requests bot-shaped hitboxes; VS53 automated controls pass, human acceptance pending. Owner approved wave recommendations and matching first-map layout; VS54 prototype implemented, human pressure/scale/balance acceptance pending. Owner requests multi-location spawning and closer first-map layout; VS55 engine controls pass, human pressure/scale/art approval remains pending. VS56 safe-boundary host recovery and local-input-ready controls implemented; controlled cold-process checks pass, physical-device/owner acceptance pending. Owner approved complete lean/Ion design; implemented in VS60, human feel/balance not yet accepted. October13 first lobby rejected; revised sparse mockup5 composition implemented with human foreground/lizard behind. New branding interview open; mode names approved. Current revision awaits owner usability acceptance. October14 owner removes lean; published VS63 follows. Active shield design pending. Player models must match approved mockups; current prototypes fail fidelity review. October14 owner rejects current dull/fake recoil and requests an Apex-style reference; no revised-feel acceptance. October14 five recoil choices approved; only bounded tracking relief is Apex-inspired. VS64 implemented/published; no human revised-feel acceptance yet. October14 opening waves rejected as too hard/fast. Owner confirms easy firsttwo only at run start, lower opening damage and numbers/composition-led pressure. VS65 implements and publishes this direction; no human balance acceptance yet. October14 owner reports uncollected orbs and desert gate/wall gaps in paused VS65. VS66 reproduces crouched brute-drop height and physical seam/ceiling holes, repairs and publishes them; owner revised-behavior acceptance remains open. October15 owner approved the arrival/arsenal plan. Protocol67 implements lobby perk/team bonus, protected starter arsenal, ready-and-enter gate flow, later-arena retention, and paid in-round known/random weapon acquisition and upgrades. Editor focused regressions and a COMPLETE local Shipping package pass. The network fixture cannot inject movement; human two-PC arrival, Shipping combat and presentation remain unaccepted.",
+  "owner_feedback_acceptance": "Owner reported second-attempt LAN lobby/setup success but joining-client fire swapped weapons. Initial menu revision rejected; final revision awaits owner acceptance. 90-second regroup and shards approved. Owner requests bot-shaped hitboxes; VS53 automated controls pass, human acceptance pending. Owner approved wave recommendations and matching first-map layout; VS54 prototype implemented, human pressure/scale/balance acceptance pending. Owner requests multi-location spawning and closer first-map layout; VS55 engine controls pass, human pressure/scale/art approval remains pending. VS56 safe-boundary host recovery and local-input-ready controls implemented; controlled cold-process checks pass, physical-device/owner acceptance pending. Owner approved complete lean/Ion design; implemented in VS60, human feel/balance not yet accepted. October13 first lobby rejected; revised sparse mockup5 composition implemented with human foreground/lizard behind. New branding interview open; mode names approved. Current revision awaits owner usability acceptance. October14 owner removes lean; published VS63 follows. Active shield design pending. Player models must match approved mockups; current prototypes fail fidelity review. October14 owner rejects current dull/fake recoil and requests an Apex-style reference; no revised-feel acceptance. October14 five recoil choices approved; only bounded tracking relief is Apex-inspired. VS64 implemented/published; no human revised-feel acceptance yet. October14 opening waves rejected as too hard/fast. Owner confirms easy firsttwo only at run start, lower opening damage and numbers/composition-led pressure. VS65 implements and publishes this direction; no human balance acceptance yet. October14 owner reports uncollected orbs and desert gate/wall gaps in paused VS65. VS66 reproduces crouched brute-drop height and physical seam/ceiling holes, repairs and publishes them; owner revised-behavior acceptance remains open. October16 owner rejects clipped primitive rack screenshot and requests this feature be beta ready. Compact authored model and equipped-identity repairs now pass controlled Editor/network/Shipping checks; revised owner visual/feel acceptance remains open.",
   "next_gameplay_checks": [
-    "Two physical PCs: select distinct starter guns, ready, traverse the gate together, confirm it closes only after all connected players enter, then verify encounter one begins.",
-    "Owner acceptance of lobby selection, staging clarity, gate traversal, final movement and 1080p/1440p/4K readability.",
-    "Two-player normal Shipping combat after arrival, including known purchases, random reroll and upgrades during a live encounter.",
-    "Human balance/fun acceptance of the arrival pacing and in-arena shard economy.",
-    "Finish visual/art pass on the colosseum stair, landing, racks and gate before public beta."
+    "Normal matching VS68 co-op rack selection, ADS/fire, shared refit contention and owner collection.",
+    "Natural wildcard/marked-weapon progression, upgrades and solar-magma hazards.",
+    "Resume the isolated100-roll logged audit; provide sequence review and a change suggestion.",
+    "Normal matching VS68 two-PC input/refit: both guns fire, one shared five-second machine, reserved slot and owner collection.",
+    "Natural wildcard rarity/potential cadence and marked weak-gun transformations; later-wave/boss pressure, shard economy and normal full-run fun.",
+    "Solar magma ground readability, overheating, indoor limitations and upgraded teammate-hazard fairness; initial model/optic art acceptance.",
+    "Owner normal-input Phasma holo/Gale2x aim, recoil, both-gun firing and1/2 swaps at1080p, then matching two-PC aim/fire.",
+    "Owner VS66 actual ammo/health orb distinction and standing/crouched collection, all three enclosed desert gates and south boundary.",
+    "Owner normal VS65 first/second round ease, later pressure/role variety and lower-population next-arena entry after the10% health drop.",
+    "Owner feel test of manageable opening bursts, stronger heavy recoil, ADS and manual compensation/release recovery.",
+    "Normal physical two-PC firing at real latency; current automated raw-control aim and packaged owned recoil checks pass within their scope.",
+    "Matching VS65 two-PC normal-input Ion combat; cancel/refund, ready sound and direct-hit charge pacing",
+    "Matching VS65 physical two-PC save/close/reopen/original-squad Continue with both guns, ammo, shards, upgrades and objectives retained",
+    "Matching VS65 two-PC host/join and firing with primary and secondary",
+    "Normal first-map warned arrivals, bot routes/pressure/stalls and party-scaled weapon time-to-defeat",
+    "Actual bot hit registration on visible armor/head, gaps, moving and covered targets",
+    "Owner final menu comprehension, shards purchases/upgrades, 90-second early-start feel",
+    "Natural economy and 45–60-minute packaged full run",
+    "Fixed-path firewall/share activation when authorized"
   ],
   "target_gameplay_readiness_percent": 75,
   "target_status": "IN_PROGRESS; latest estimate 69%, target 75% not reached",
@@ -57,17 +71,17 @@
     "Steam/Internet/invites/Quick Play, four-human runs and disconnect AI/reclaim",
     "Production art/animation/audio and minimum-PC profiling/soaks"
   ],
-  "last_automated_implementation_snapshot": "2026-10-14-vs66-drops-and-seams",
-  "last_automated_scope": "Current controlled Editor pickup/seam/world, 1080p camera inspection, exact Shipping/native setup/firing and production lobby/auth; no human or score credit.",
+  "last_automated_implementation_snapshot": "2026-10-16-vs68-launcher-publication",
+  "last_automated_scope": "Wildcard/evolution/shared-refit technical candidate; whole-game NOT_BETA_READY retained.",
   "reviewed_on": "2026-10-05",
   "review_results": "snapshots/2026-10-05-vs42-review/review-results.json",
-  "previous_snapshot": "2026-10-14-vs65-waves",
+  "previous_snapshot": "2026-10-16-wildcard-evolution",
   "implementation_review_verdict": "VS42_REQUIRED_FINDINGS_RESOLVED",
   "gameplay_score_review_note": "69% remains the October 4 VS41 planning estimate; implementation/tests/delivery receive no measured fun or beta credit.",
-  "reusable_evidence_verified_on": "2026-10-14",
+  "reusable_evidence_verified_on": "2026-10-16",
   "review_resolution": "snapshots/2026-10-05-vs43/resolution.json",
-  "visual_check_tested_on": "2026-10-14",
-  "publication_status": "GAME_SOURCE_LOCAL_UNPUBLISHED; PACKAGED_ALPHA_AND_READINESS_METADATA_PUBLISHED",
+  "visual_check_tested_on": "2026-10-16",
+  "publication_status": "PUBLISHED_INTERNAL_ALPHA_VS68; existing launcher1.0.1 and matching Lenovo native server.",
   "implementation_self_review": "Reviewed floor traces ignoring death/player bodies, shared first-map dimensions, physical returns/roof fit and largest-role clearance, unchanged gate positions and source input delta. Corrected existing test isolation. Focused world, rendered, packaged/native and lobby checks retain explicit scopes; no independent/human review.",
   "previous_visual_check": "snapshots/2026-10-14-vs63-lean-removed/visual-check.json",
   "primary_ui_resolution": [
@@ -75,17 +89,17 @@
     1080
   ],
   "primary_ui_resolution_source": "Owner reports playing at 1080p, October 5, 2026",
-  "last_validation_snapshot": "2026-10-14-vs66-drops-and-seams",
-  "last_validation_scope": "Scoped current VS66 technical validation; no human, different-Wi-Fi, normal performance, full-run or beta approval.",
+  "last_validation_snapshot": "2026-10-16-vs68-launcher-publication",
+  "last_validation_scope": "Exact Shipping1080p rack/gate/fire/refit; native two-client LAN/public-relay lobby/auth; unchanged production updater public download/current and installed/rollback hashes.",
   "prior_implementation_test_results": "snapshots/2026-10-05-vs44/test-results.json",
   "last_verified_player_package": {
-    "archive_absolute_path": "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Saved\\Packages\\20261014-183316-785\\Windows",
+    "archive_absolute_path": "G:\\IRON-SUN-Work\\WildcardPackages\\20261016-213325-765\\Windows",
     "launcher": "C:/Users/YaYa/AppData/Local/IRON SUN/Play-IRON-SUN.cmd",
-    "artifact_manifest": "snapshots/2026-10-14-vs66-drops-and-seams/package-artifacts.json",
-    "verified_on": "2026-10-14",
+    "artifact_manifest": "snapshots/2026-10-16-vs68-launcher-publication/package-artifacts.json",
+    "verified_on": "2026-10-16",
     "launched": true,
-    "launch_scope": "Exact VS66 Shipping two-client controlled native setup/firing at1080p; no human ammo-pickup acceptance.",
-    "updater_snapshot": "2026-10-14-vs66-drops-and-seams",
+    "launch_scope": "Packaged solo production menu, raw InputKey rack and combat fixture; no hardware or human acceptance",
+    "updater_snapshot": "2026-10-16-vs68-launcher-publication",
     "preferred_player_launcher_path": "C:/Users/YaYa/AppData/Local/IRON SUN/Play-IRON-SUN.cmd",
     "fixed_install_windows_path": "C:/Users/YaYa/AppData/Local/IRON SUN/Game/Windows",
     "fixed_install_launched": false
@@ -99,35 +113,35 @@
     "current_report": "snapshots/2026-10-08-vs52/test-results.json"
   },
   "player_updater": {
-    "snapshot": "2026-10-14-vs66-drops-and-seams",
+    "snapshot": "2026-10-16-vs68-launcher-publication",
     "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
     "launcher": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN\\Play-IRON-SUN.cmd",
     "desktop_shortcut": "C:\\Users\\YaYa\\Desktop\\IRON SUN.lnk",
-    "version": "20261014-183316-785",
-    "network_status": "Current live signed HTTPS feed validated by unchanged production launcher; owner installation updated and hash-verified.",
+    "version": "20261016-213325-765",
+    "network_status": "Real production signed HTTPS updater returned update/current; all32 owner install files and rollback hashes verified.",
     "second_pc_accepted": false,
     "setup_zip": "downloads/IRON-SUN-Updater-Setup.zip",
-    "available_version": "20261014-183316-785",
-    "available_protocol": 66
+    "available_version": "20261016-213325-765",
+    "available_protocol": 68
   },
-  "delivery_version": "20261014-183316-785",
-  "delivery_scope": "VS66 published through unchanged launcher 1.0.1. The owner install is updated through the production launcher, with current/rollback file hashes verified.",
+  "delivery_version": "20261016-213325-765",
+  "delivery_scope": "Signed public game release, exact Shipping1080p, native LAN/relay lobby/auth, production updater and32 installed/rollback hashes. No human beta acceptance.",
   "map_visual_check": "snapshots/2026-10-09-vs55/map-visual-check.json",
   "map_visual_check_tested_on": "2026-10-09",
   "run_recovery_visual_check": "snapshots/2026-10-09-vs56/run-recovery-visual-check.json",
   "run_recovery_visual_check_tested_on": "2026-10-09",
   "run_recovery": {
     "implemented": true,
-    "protocol": 65,
-    "schema_version": 2,
+    "protocol": 68,
+    "schema_version": 3,
     "save_scope": "Safe host-owned encounter/regroup/arena-entry boundaries; original LAN squad; terminal wipe/victory retirement",
-    "latest_technical_validation": "2026-10-12-vs60-lean-ion",
+    "latest_technical_validation": "2026-10-16-wildcard-evolution",
     "packaged_physical_device_accepted": false,
     "test_card": "unreal/Ridgefire/VS60_COOP_TEST_CARD.md"
   },
   "beta_scope_status": "Existing ten-arena full beta gates retained. Optional private friends beta scope question pending; no scope reduction assumed.",
   "private_server": {
-    "protocol": 66,
+    "protocol": 68,
     "status": "LIVE_INTERNAL_ALPHA",
     "host": "sidequest",
     "setup_directory": "/home/caiden/iron-sun-server",
@@ -138,7 +152,7 @@
     "native_linux_accepted": true,
     "account_prerequisites": [],
     "guide": "unreal/Ridgefire/PRIVATE_SERVER.md",
-    "validation_snapshot": "2026-10-14-vs66-drops-and-seams",
+    "validation_snapshot": "2026-10-16-vs68-launcher-publication",
     "endpoint": "cairo-ferry.tun.ply.gg:42527",
     "origin": "127.0.0.1:7777",
     "relay_transport_verified": true,
@@ -150,7 +164,7 @@
     "checkpoint_restart_accepted": false,
     "native_disconnect_isolation_verified": true
   },
-  "tool_input_manifest": "snapshots/2026-10-12-vs60-lean-ion/tool-input-manifest.json",
+  "tool_input_manifest": "snapshots/2026-10-16-vs68-launcher-publication/tool-input-manifest.json",
   "launcher_input_manifest": "snapshots/2026-10-13-launcher-rollout/launcher-input-manifest.json",
   "internet_launcher": {
     "version": "1.0.1",
@@ -165,7 +179,7 @@
     "website": "https://iron-sun-playtest.wilcoxwarrior4577.chatgpt.site",
     "source_repository": "https://github.com/Wilcox-Hub/iron-sun-releases",
     "fallback": "Published complete game-only ZIP; manual updates",
-    "game_only_release": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs60-20261012-034847-088-game",
+    "game_only_release": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs68-20261016-213325-765-launcher-1.0.1-setup-1",
     "windows_setup_implemented": true,
     "windows_setup_fixture_assertions_passed": 14,
     "website_setup_gate_checks_passed": 10,
@@ -230,7 +244,7 @@
     }
   },
   "website_input_manifest": "snapshots/2026-10-12-launcher-site-sync/website-input-manifest.json",
-  "record_publication_status": "METADATA_ONLY; NO GAME SOURCE, RAW MEDIA OR PRIVATE SERVER DATA",
+  "record_publication_status": "LOCAL snapshot; no GitHub commit/push requested in this turn. Published readiness records retain earlier scope.",
   "dedicated_coop_verification": {
     "snapshot": "2026-10-12-vs60-lean-ion",
     "platform": "Windows Editor owned combat/state fixture; native Linux/Shipping lobby only",
@@ -329,9 +343,7 @@
   },
   "design_clarification_policy": "Owner requests automatic grill-me below their requested 98% instruction-confidence standard. Resolve material ambiguity to shared explicit understanding; subjective feel requires playtesting and confidence percentages are not measured guarantees.",
   "arrival_direction": {
-    "status": "IMPLEMENTED_IN_UNPUBLISHED_VS67",
-    "protocol": 67,
-    "shared_design_confirmation": true,
+    "status": "GRILLING; NOT_IMPLEMENTED_IN_VS66",
     "approved_so_far": [
       "Player-controlled squad walk up colosseum staircase and through gate.",
       "Entrance landing arsenal before gate; both free starter guns collected there.",
@@ -347,24 +359,72 @@
       "Paid random rerolls and weapon upgrades remain available at the in-arena arsenal during combat.",
       "Gate opens after all equipped/ready; combat waits for the whole active squad to enter, then gate closes safely."
     ],
-    "pending_questions": [],
-    "implementation_notes": [
-      "Perks and shared team bonus are chosen in the lobby; no timed loadout screen after loading.",
-      "Protected staging has no initial timer; changing loadout clears readiness.",
-      "All-ready opens the gate; encounter start waits until the active squad crosses the threshold and the gate closes safely.",
-      "Starter racks issue one free primary plus one distinct free secondary; later arenas keep gear.",
-      "Paid known weapons, random wildcard rerolls and weapon upgrades remain in the in-arena arsenal, purchasable with shards during combat."
+    "pending_questions": [
+      "Final shared-design confirmation requested before implementation."
     ],
+    "shared_design_confirmation": false
+  },
+  "starter_rack_status": {
+    "implemented": true,
+    "protocol": 67,
+    "approach_opens_inspection": true,
+    "non_modal": true,
+    "slot_order": "1 then 2, then currently held slot",
+    "focus_ui_rebuilds": false,
+    "local_host_client_passed": true,
+    "rendered_resolutions": [
+      [
+        1920,
+        1080
+      ],
+      [
+        2560,
+        1440
+      ],
+      [
+        3840,
+        2160
+      ]
+    ],
+    "physical_two_pc_accepted": false,
     "human_accepted": false,
+    "feature_status": "TECHNICAL_BETA_CANDIDATE",
+    "wall_clearance_passed": true,
+    "matching_display_and_held_models": true,
+    "physical_muzzle_sockets": true,
+    "held_secondary_replacement_fixed": true,
+    "staging_slot_keys_fixed": true,
+    "packaged_solo_fixture_passed": true,
+    "candidate_executable": "G:\\IRON-SUN-Work\\RackBeta\\20261016-081243-465\\Archive\\Windows\\TP_FirstPerson.exe",
+    "test_card": "unreal/Ridgefire/STARTER_RACK_BETA_TEST_CARD.md"
+  },
+  "local_rack_candidate": {
+    "protocol": 67,
+    "package_artifacts": "snapshots/2026-10-16-rack-beta-candidate/package-artifacts.json",
+    "executable": "G:\\IRON-SUN-Work\\RackBeta\\20261016-081243-465\\Archive\\Windows\\TP_FirstPerson.exe",
+    "shipping_solo_passed": true,
     "published": false
   },
-  "current_unpublished_build": {
-    "protocol": 67,
-    "package_archive_id": "20261015-194011-543",
-    "package_status": "COMPLETE_PROTOTYPE",
-    "package_validation": "official selector list-only PASS; packaged process launch confirmed, clean shutdown smoke inconclusive",
-    "public_feed_protocol": 66,
-    "launcher_version": "1.0.1",
-    "published": false
+  "weapon_optics": {
+    "snapshot": "2026-10-16-weapon-optics",
+    "phasma": "1x holo",
+    "gale": "2x",
+    "wildcard": "unchanged",
+    "status": "LOCAL_TECHNICAL_PASS",
+    "human_accepted": false,
+    "network_ads_accepted": false,
+    "local_package": "G:\\IRON-SUN-Work\\OpticsBeta\\20261016-152046-924\\Archive\\Windows"
+  },
+  "local_wildcard_candidate": {
+    "protocol": 68,
+    "package": "G:\\IRON-SUN-Work\\WildcardPackages\\20261016-211840-879\\Windows",
+    "status": "LOCAL_TECHNICAL_CANDIDATE_PASS",
+    "published": false,
+    "package_artifacts": "snapshots/2026-10-16-wildcard-evolution/package-artifacts.json"
+  },
+  "paused_work": {
+    "status": "PAUSED_AT_OWNER_REQUEST",
+    "completed": false,
+    "reason": "Owner prioritized publishing the completed game for testing before usage runs out."
   }
 }

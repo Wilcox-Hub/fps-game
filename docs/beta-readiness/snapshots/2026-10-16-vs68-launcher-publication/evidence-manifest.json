@@ -1,0 +1,52 @@
+[
+  {
+    "path": "input-delta.json",
+    "sha256": "260AF5F47B60BCE14E437C0FD1E23B54ECE396C269B808CFA31BB49CE8AC23C1",
+    "bytes": 394
+  },
+  {
+    "path": "input-manifest.json",
+    "sha256": "9116CDEA87A79D3FEED1434F10244AF743495490190E058DA47496A565BAE190",
+    "bytes": 133040
+  },
+  {
+    "path": "launcher-update.json",
+    "sha256": "6221574B982DA24098F74E08E75092D8E4F944920BDC951BBC137A672A805782",
+    "bytes": 1677
+  },
+  {
+    "path": "native-server.json",
+    "sha256": "C9386570499D88934AF472C3373915013E93F42177E241397F1A817A528CB765",
+    "bytes": 1024
+  },
+  {
+    "path": "package-artifacts.json",
+    "sha256": "DB180F014F62E0946CE4CC900C986C359D8EF4FC0AB18FD45273E51B886DAD00",
+    "bytes": 6663
+  },
+  {
+    "path": "publication.json",
+    "sha256": "D22B5CF8164149F0A944A94C68EBD496CE129775E82EB4B0C45309A1232629B4",
+    "bytes": 3795
+  },
+  {
+    "path": "report.md",
+    "sha256": "C841FE6E0274ACA94D6B1F00D92643321EC72F0279872DC972E84BEB509FA0E4",
+    "bytes": 2855
+  },
+  {
+    "path": "test-results.json",
+    "sha256": "3BF903F8820E85B01F1150B3BFCDB4C8520ADD9F0AA7DF75791D815C715D5E9B",
+    "bytes": 7921
+  },
+  {
+    "path": "tool-input-manifest.json",
+    "sha256": "17DB4211BE4D222D090CC37A27C7B7FB6D3327A37BF3306BED9E4D299F51431E",
+    "bytes": 12359
+  },
+  {
+    "path": "visual-check.json",
+    "sha256": "205F87D1E08097031B4943FE37750CDF78E7CAFE61E60491AD398FCC176448B7",
+    "bytes": 929
+  }
+]

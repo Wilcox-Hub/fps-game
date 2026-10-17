@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "version": "20261016-213325-765",
+  "protocol": 68,
+  "results": [
+    {
+      "status": "UPDATED",
+      "version": "20261016-213325-765",
+      "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+      "warning": null,
+      "feed_available": true,
+      "release_notes": "New walk-in colosseum arrival, crosshair-selected weapon racks, Phasma holo and Gale 2x sights, alien wildcard weapon parts and firing styles, fixed upgrade transformations, shared five-second refits, and rare solar blue-magma weapon. All players must update to VS68. Balance and final art remain in testing.",
+      "protocol": 68
+    },
+    {
+      "status": "CURRENT",
+      "version": "20261016-213325-765",
+      "install_root": "C:\\Users\\YaYa\\AppData\\Local\\IRON SUN",
+      "warning": null,
+      "feed_available": true,
+      "release_notes": "New walk-in colosseum arrival, crosshair-selected weapon racks, Phasma holo and Gale 2x sights, alien wildcard weapon parts and firing styles, fixed upgrade transformations, shared five-second refits, and rare solar blue-magma weapon. All players must update to VS68. Balance and final art remain in testing.",
+      "protocol": 68
+    }
+  ],
+  "current_files_verified": 32,
+  "rollback_version": "20261014-183316-785",
+  "rollback_files_verified": 32,
+  "save_files_observed": 0,
+  "scope": "Unchanged production launcher using real signed public HTTPS feed at the owner fixed install root; CLI update/current, all payload/rollback hashes and observed save preservation. No GUI button, friend-PC or human gameplay acceptance.",
+  "finished_utc": "2026-10-17T04:43:39.734634+00:00"
+}

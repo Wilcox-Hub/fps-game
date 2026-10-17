@@ -1,0 +1,20 @@
+{
+  "exact_shipping_1080": {
+    "result": {
+      "passed": true,
+      "stage": 24,
+      "scope": "Packaged solo production menu, raw InputKey rack and combat fixture; no hardware or human acceptance",
+      "reason": "Production lobby/rack/gate, both-gun fire and paid five-second refit with reserved slot and explicit Enter collection passed"
+    },
+    "executable": "G:\\IRON-SUN-Work\\WildcardPackages\\20261016-213325-765\\Windows\\Ridgefire\\Binaries\\Win64\\TP_FirstPerson-Win64-Shipping.exe",
+    "exit_code": 0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "rendered": true,
+    "package": "G:\\IRON-SUN-Work\\WildcardPackages\\20261016-213325-765\\Windows",
+    "finished_utc": "2026-10-17T04:37:19.6710223Z"
+  },
+  "prior_4k_scope": "Previous candidate4K rack/refit and assembly evidence has unchanged production UI, models and weapon code; no new4K run or human visual acceptance."
+}
