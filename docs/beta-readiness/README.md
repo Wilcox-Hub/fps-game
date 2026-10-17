@@ -1,3 +1,5 @@
+October17 landing seam: **local source/Editor repair** removes the top-stair checkerboard artifact. Actual geometry fails before the repair and passes afterward with zero overlapping faces;27 seam support probes and1080p rendered checks pass. Public launcher/server remain VS68; no new Shipping, performance or beta acceptance. See [landing report](snapshots/2026-10-17-landing-seam/report.md).
+
 October16 VS68 publication: **game20261016-213325-765 is live through launcher1.0.1**, with a matching Lenovo native server. Exact Shipping1080p rack/fire/refit, two-client native LAN/relay lobby/auth and public production updater/current plus32 file hashes pass. Reopen the launcher and update every co-op PC. The owner paused the isolated100-roll audit; it remains unfinished. Whole-game NOT_BETA_READY and the dated69% estimate are unchanged. See [release record](snapshots/2026-10-16-vs68-launcher-publication/report.md).
 
 # IRON SUN beta readiness

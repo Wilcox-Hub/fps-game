@@ -1,0 +1,6 @@
+{
+  "changed_inputs": 2,
+  "own_added_line_whitespace_errors": [],
+  "temporary_debug_instrumentation": false,
+  "review": "Checked clipping arithmetic, retained heights/component count, material/trim fit, actual coplanar face failure before repair, seam support probes and final rendered view. No broad artwork or settings change."
+}

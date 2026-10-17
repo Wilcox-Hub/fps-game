@@ -1,0 +1,15 @@
+{
+  "previous_snapshot": "2026-10-16-vs68-launcher-publication",
+  "differences": [
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArrivalGeometry.cpp",
+      "before_sha256": "4BDB8DEE6D3B35B6CAE08BB4AEE13EF4680F208087480C32AE3842D172B8EB95",
+      "after_sha256": "AB71D4C5E6CD1BB024889E7CF6FF6220F31376E1582607901E216F9416D8B510"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireArrivalTests.cpp",
+      "before_sha256": "5F7D5D7B0C44046C3F8B94249F209EFE7C8EC454B75EE877A8C03022C17D331D",
+      "after_sha256": "2ABDD80E0F772512FD3A192F01C28D0DF2FFCA230DA0979989AEFA131DAB791A"
+    }
+  ]
+}

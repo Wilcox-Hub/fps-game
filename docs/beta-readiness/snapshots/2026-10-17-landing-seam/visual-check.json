@@ -1,0 +1,12 @@
+{
+  "rendered": true,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "inspected_frames": 2,
+  "crosshatched_overlap_strip_absent": true,
+  "frame_manifest": "frame-evidence.json",
+  "performance_accepted": false,
+  "human_acceptance": false
+}

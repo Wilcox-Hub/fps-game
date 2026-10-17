@@ -1,0 +1,37 @@
+[
+  {
+    "path": "frame-evidence.json",
+    "sha256": "5C9B618181FDA22A1AD50A71FA97A39B298513F5794A53A214769A2A508702C8",
+    "bytes": 637
+  },
+  {
+    "path": "input-delta.json",
+    "sha256": "4775F450E8B4698D9E6B5EC5FB87AB0DAF37F6421093090D4B81CCC4E65EF784",
+    "bytes": 629
+  },
+  {
+    "path": "input-manifest.json",
+    "sha256": "BAE525FC34FD2BA8BB0BEB11B5E660ECB9F5F67191FB796BB53E64B603967D6C",
+    "bytes": 133040
+  },
+  {
+    "path": "report.md",
+    "sha256": "4AEBA7CE43D10321CD1957015D5E3FBB84C15847BDF7E1D3E4C0724B2E755484",
+    "bytes": 1728
+  },
+  {
+    "path": "review.json",
+    "sha256": "18F08A9782351D03AF8406E3A1FCE9EBAAFBA9BE8127E0AF9A9591D4F4F60768",
+    "bytes": 341
+  },
+  {
+    "path": "test-results.json",
+    "sha256": "083C65166E373027BA743D8EB4C3C4C304458B7FD9E8667DF09104E137FA57FA",
+    "bytes": 2902
+  },
+  {
+    "path": "visual-check.json",
+    "sha256": "E21F755D3F34689185A68BB523DA915EA72DAA8764572EC23CFD393C447B6F1E",
+    "bytes": 252
+  }
+]

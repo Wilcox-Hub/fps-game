@@ -1,0 +1,20 @@
+{
+  "resolution": [
+    1920,
+    1080
+  ],
+  "frames": [
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\stair-landing\\green-render\\01-top-landing.png",
+      "sha256": "D825E0AD11C8EA24570446D8BCE375C32DF910DEDBAABCAB032A20DAB25FD16F",
+      "bytes": 2166185
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\stair-landing\\green-render\\02-oblique-landing.png",
+      "sha256": "932D22DE27D883425E2E1AE665395E96A74D115FA48E30ACA6FA2B48ED4DC356",
+      "bytes": 2153636
+    }
+  ],
+  "reviewed": true,
+  "scope": "Local actual-render images; not uploaded as public media."
+}

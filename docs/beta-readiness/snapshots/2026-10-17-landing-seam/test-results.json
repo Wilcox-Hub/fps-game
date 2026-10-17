@@ -1,0 +1,59 @@
+{
+  "tested_on": "2026-10-17",
+  "scope": "Focused Editor game-world geometry and1080p rendered checks; not Shipping, network, human acceptance or performance.",
+  "test": "Ridgefire.Arrival.LandingSurface",
+  "red": {
+    "phase": "red",
+    "exit_code": 0,
+    "surface": {
+      "coplanar_pairs": 1,
+      "shared_area_cm2": 139500.002,
+      "probes": 27,
+      "missing": 0,
+      "unsupported": 0,
+      "rendered": false
+    },
+    "succeeded": 0,
+    "failed": 1,
+    "rendered": false,
+    "scope": "Actual production entrance components in an isolated Editor game world; fixed camera images and downward seam probes. No owner save changes, packaged release or human acceptance."
+  },
+  "green": {
+    "phase": "green",
+    "exit_code": 0,
+    "surface": {
+      "coplanar_pairs": 0,
+      "shared_area_cm2": 0.0,
+      "probes": 27,
+      "missing": 0,
+      "unsupported": 0,
+      "rendered": false
+    },
+    "succeeded": 1,
+    "failed": 0,
+    "rendered": false,
+    "scope": "Actual production entrance components in an isolated Editor game world; fixed camera images and downward seam probes. No owner save changes, packaged release or human acceptance."
+  },
+  "rendered": {
+    "phase": "green",
+    "exit_code": 0,
+    "surface": {
+      "coplanar_pairs": 0,
+      "shared_area_cm2": 0.0,
+      "probes": 27,
+      "missing": 0,
+      "unsupported": 0,
+      "rendered": true
+    },
+    "succeeded": 1,
+    "failed": 0,
+    "rendered": true,
+    "scope": "Actual production entrance components in an isolated Editor game world; fixed camera images and downward seam probes. No owner save changes, packaged release or human acceptance."
+  },
+  "reproduction": "Actual Cube components ArenaCollision_1_66 and ArenaCollision_1_79 shared1800x77.5cm top faces at equal height, matching the crosshatched strip observed in the owner open game.",
+  "change": "Clip the final tread to the existing landing rear edge; keep12 steps, all top heights, original landing footprint and physical component ordinals. Keep its edge trim inside the remaining visible tread.",
+  "visual_review": "Inspected the actual live VS68 owner stair view and both current1080p Editor images. The broad depth-competition strip is absent in the fixed images. Fine lighting grain elsewhere is not claimed resolved.",
+  "capture_environment": "Initial rendered attempt timed out at the engine10-FPS automation startup gate while two owner game windows remained open. Headless geometry reproduced and passed independently. Final visual-only process used a transient1-FPS startup threshold; no persisted settings changed and no performance pass claimed.",
+  "release": "Local source/Editor repair only. No new Shipping package, launcher rollout, native server change or owner game replacement.",
+  "paused_100_roll_audit": "Remains paused at owner request."
+}
