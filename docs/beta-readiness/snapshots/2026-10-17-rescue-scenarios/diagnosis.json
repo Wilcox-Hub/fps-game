@@ -1,0 +1,23 @@
+{
+  "confirmed": [
+    "HUD advertised V while actual rescue/arsenal binding was T; V executes melee",
+    "Ammo drop consumed unconditionally even when AddReserve granted zero rounds",
+    "Applying a finite cap could reduce a previously preserved above-cap reserve",
+    "A retained orb needed overlap retry after changing from a full/solar gun"
+  ],
+  "fixed": [
+    "T/VIEW prompt matches actual existing binding",
+    "AddReserve returns useful granted amount; consume only after positive gain",
+    "Above-cap reserve is preserved",
+    "Authority retries overlapping eligible players every0.25 seconds without changing shared ownership, drop rates, reward amounts or solar rules"
+  ],
+  "unproven": [
+    "The exact late-first-arena host empty Gale/Phasma failure",
+    "Whether natural squad ammo supply is sufficient"
+  ],
+  "harness_history": [
+    "Initial tests asserted the legacy key immediately; corrected to wait for an input tick before making control claims",
+    "First visual fixture spawned an abstract native NPC; corrected to actual sentry Blueprint with null guard",
+    "One exploratory matrix case lost its recovery budget waiting for a concurrent compile/SDK check; startup and scenario budgets are now separate, and the final complete batch passes"
+  ]
+}

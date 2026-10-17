@@ -1,0 +1,90 @@
+{
+  "previous_snapshot": "2026-10-17-landing-seam",
+  "differences": [
+    {
+      "path": "Content/IRON_SUN/Medical/M_IS_MedicalGlass.uasset",
+      "before_sha256": null,
+      "after_sha256": "23E80B4E7ABE1DFEE82B0FD64F8CA177295D7F8C601AEE87F6513D0A067E4089"
+    },
+    {
+      "path": "Content/IRON_SUN/Medical/M_IS_MedicalStatus.uasset",
+      "before_sha256": null,
+      "after_sha256": "A69017F1764E58BDF480BECCB7AB58F26198075FFD418E6CD9A2CCBBAF441699"
+    },
+    {
+      "path": "Content/IRON_SUN/Medical/SM_IS_MedicalGuard.uasset",
+      "before_sha256": null,
+      "after_sha256": "F3768BEE76B654AB78565AEF5C55E7FE7A87A6AD0AD965229DC5795F2F9B2974"
+    },
+    {
+      "path": "Content/IRON_SUN/Medical/SM_IS_MedicalPod.uasset",
+      "before_sha256": null,
+      "after_sha256": "F5CE178C45A3EAA8F306363F0AA7D8EE7EEF64465D3822505B89FF90EE05EEFC"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireGameMode.h",
+      "before_sha256": "528B11DD8473256378ABE7618053EE45A650FBA337F0C421F2E0A0AF22D52839",
+      "after_sha256": "7E89D027142C51266E52395CD07A08268D3B8E857F46BE4BCE03CA5E001F23C6"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireHUD.cpp",
+      "before_sha256": "9AD20AECB43B53E85975C548690E1D553A11AF84AA8ADE214222B9D6B5A13CBD",
+      "after_sha256": "2CB3075E4AC8BD6E7D655640ECE70D4995607AD8277FC981AD45882978CE7A66"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireHUD.h",
+      "before_sha256": "457D5EF1E8FE57CA8208202D8D24367373DA6DA58CB4BEDAC52037BC8CF1C21D",
+      "after_sha256": "4B0B5CAA67EA8CB72C883F78C01151AB860DF28D76449FA644B991C0D2B34971"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireHealingTube.cpp",
+      "before_sha256": "1EEBF9847E923115B0287C2B5F97035E3381BB9C9759DE72AB64FEF7320C9B80",
+      "after_sha256": "66DB6B8FFF7F5DAC5CF380517C6A726E93744B16F2A54F766CF2464B2B1040C1"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireHealingTube.h",
+      "before_sha256": "6CEFDAEC41B0A846019F91727B65028366EEE6007442C089FCD333BBD0C45BC4",
+      "after_sha256": "D0AC16CCFF615142A04B70302BC8A7D0BEAAB4A25407F50A32F0A9D2522C61A8"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefirePickup.cpp",
+      "before_sha256": "4D4B1FEF83F49982D3A0C3B197C6841002E5EF7FEDBC80AAFF7E68202578C801",
+      "after_sha256": "D41FD5152306AEC44578E31C1CFAA6EA24C9053C93C8550F521BE1E7C23CFDB5"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefirePickup.h",
+      "before_sha256": "44B157388831710B3E8EF5C998CD8B601DADD5924F2BC38DCD9F6CEC0A18EDF2",
+      "after_sha256": "07A24E06A08DBCB05E5C76B770764AE1A80BE3E1C80373FB94D5A30D1AA2AD1B"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireFieldDropAndSeamTests.cpp",
+      "before_sha256": "7E2CDD8A357DD76940742EA454782C0538BB22A42145D3159E6C6CF14D1E4067",
+      "after_sha256": "7F2A718307BC47B8AFBB7F840AD84E607404D446FAABD9E3DAF3FFE0776407D3"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireHealingTubeNetworkTests.cpp",
+      "before_sha256": "9580363B1233B3B74C4B662A0236FBA7AEF261B660FC977E635B95F6562556AC",
+      "after_sha256": "4A0B70DE1693337D65FFBD127C5320F23EED80CD42F19C1979DC818EE9EA2815"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireMedicalPresentationTests.cpp",
+      "before_sha256": null,
+      "after_sha256": "F75DB43115B40C3A7C961BA4407C737B4D4CBBD48920C8C2B3A1C9DDB87755C2"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireScenarioSetup.h",
+      "before_sha256": null,
+      "after_sha256": "4EDA74491F817D09D84ABD5B0350BEF2C398B385C56C4A0C8201B7AC61BEFFE2"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.cpp",
+      "before_sha256": "CA6473CAA3A34919D95C28CFBBCD445F7F85CB0F266A7E04FA294347F5DA22FD",
+      "after_sha256": "D19230B7DB9A138C3E3293974A907DD7B7DAB73B512D1F444FD583A9CE93646F"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterCharacter.h",
+      "before_sha256": "376923BF6AD3F37C7FA9F43B4B8A77307970015DCBA7A7A1AD11AE67D424283C",
+      "after_sha256": "E4D073FCF23C2EC64EAB55E832FE591F62053B7524819C5EA9625EE41ADABF2E"
+    }
+  ]
+}

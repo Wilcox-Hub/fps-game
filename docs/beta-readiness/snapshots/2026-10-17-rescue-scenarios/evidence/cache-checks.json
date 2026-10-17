@@ -1,0 +1,23 @@
+{
+  "matching": {
+    "passed": true,
+    "exit_code": 0,
+    "elapsed_seconds": 0.232,
+    "output": "REUSED exact dated evidence: C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\coop-supplies\\mutual-final\\results.json",
+    "launched_scenario": false
+  },
+  "different_count": {
+    "passed": true,
+    "exit_code": 1,
+    "elapsed_seconds": 0.22,
+    "output": "ValueError: Cached evidence is stale, incomplete, failed or a different scope",
+    "launched_scenario": false
+  },
+  "different_recipe": {
+    "passed": true,
+    "exit_code": 1,
+    "elapsed_seconds": 0.227,
+    "output": "ValueError: Cached evidence is stale, incomplete, failed or a different scope",
+    "launched_scenario": false
+  }
+}

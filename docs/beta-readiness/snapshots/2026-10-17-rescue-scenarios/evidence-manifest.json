@@ -1,0 +1,107 @@
+[
+  {
+    "path": "diagnosis.json",
+    "sha256": "D522F0BE8D1EC085B12A052D85CDB42E350088ADB4AE84657E7317819118EEA5",
+    "bytes": 1306
+  },
+  {
+    "path": "evidence/cache-checks.json",
+    "sha256": "80C5057A48EC79AB4091492F97B77463CD6938F0DED8462787D692CACB6AAB64",
+    "bytes": 728
+  },
+  {
+    "path": "evidence/medical-asset-bounds.json",
+    "sha256": "26C0EBE6F6B21FB4845C3061407FB354174DE3B691033556D3A4397125C916EC",
+    "bytes": 569
+  },
+  {
+    "path": "evidence/medical-render.json",
+    "sha256": "72031A6CBD6156C3D67E8055D81F77874C23612A6E44CAFA2319E8463C7BB102",
+    "bytes": 238
+  },
+  {
+    "path": "evidence/medical-unreal-import.json",
+    "sha256": "D45FDCFD961C54311980309F2FBF65C39796CB55BA5D80A3FB882B1988CFB6F4",
+    "bytes": 702
+  },
+  {
+    "path": "evidence/mutual-marker-checks.json",
+    "sha256": "3BEC92B2F01462681F54F11165A76A3C01B0233A18C806E8A9677A38DCD78626",
+    "bytes": 305
+  },
+  {
+    "path": "evidence/mutual-rescue-results.json",
+    "sha256": "C1DE9F467C146278A2C841FFE31A20804AE04FCEAA460585E8591A3E03EF6880",
+    "bytes": 5022
+  },
+  {
+    "path": "evidence/network-results.json",
+    "sha256": "302B8466BD90719ABAA0EB003B3529828CDC3B31022C00B528B2B7D8267BC2C6",
+    "bytes": 15223
+  },
+  {
+    "path": "evidence/pickup-and-controls.json",
+    "sha256": "437A0B6E723CBE1A6980F968C0587032D5072709E88C43EC789AC1E8C8B7DBB2",
+    "bytes": 250
+  },
+  {
+    "path": "evidence/resolved-cases.json",
+    "sha256": "FA04751E2A430773DE24A699B25EF46449DD3CDB83B596703F0EC19A2D8B4144",
+    "bytes": 647
+  },
+  {
+    "path": "evidence/scenario-plan.json",
+    "sha256": "6A52A8A9A429342739F74B2886B10FA652201DF11059168BA0D94A083761283A",
+    "bytes": 608
+  },
+  {
+    "path": "input-delta.json",
+    "sha256": "99270A3DA99D44F5A0196F4DFB1D97083ED788A0E18E1B50C3DA622BC3D76AA5",
+    "bytes": 4220
+  },
+  {
+    "path": "input-manifest.json",
+    "sha256": "23780A4F094A7C5F09EDE595A3ACA499057CB2F52291DB2C880B697C9F548836",
+    "bytes": 134014
+  },
+  {
+    "path": "local-evidence-manifest.json",
+    "sha256": "6AFBCD7E18BAFF4CCAAE7EE51213CB231C4423808821F698857BD6354D3F970D",
+    "bytes": 1241
+  },
+  {
+    "path": "report.md",
+    "sha256": "B82415E293B73438120C8862C13F0F60CD1E2990CD203022BA671BFC021C7462",
+    "bytes": 4253
+  },
+  {
+    "path": "review.json",
+    "sha256": "A0C6B690EF21D4BC6BD8AC041436320A35CF3CE80E31C4D9AEEAA79D9ABA775B",
+    "bytes": 608
+  },
+  {
+    "path": "test-results.json",
+    "sha256": "E70EBA6E9874535CC77D7375BEE07734F80E15F5F40DB167193BB994171AD452",
+    "bytes": 1735
+  },
+  {
+    "path": "tool-input-manifest.json",
+    "sha256": "4F03FC53BA4957E85D9C56B3201BCB8BF19A7A3644C2759196003191C8C16040",
+    "bytes": 983
+  },
+  {
+    "path": "variation-input-manifest.json",
+    "sha256": "878CD2A579072043B866CF0352BC1ED517F835F309D8228FB409F5648958638F",
+    "bytes": 134014
+  },
+  {
+    "path": "variation-scope-review.json",
+    "sha256": "6F843DB6FAAB335470FD7B36D03892434D069AFB7616F934ACCBA67EB741874A",
+    "bytes": 510
+  },
+  {
+    "path": "visual-check.json",
+    "sha256": "62642B24BD0A8DFBCC863DB1CAE91D245AA36D31A5356CB75FCB81E90A78077E",
+    "bytes": 1339
+  }
+]

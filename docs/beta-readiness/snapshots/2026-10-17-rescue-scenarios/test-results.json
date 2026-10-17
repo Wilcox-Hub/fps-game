@@ -1,0 +1,33 @@
+{
+  "recorded_on": "2026-10-17",
+  "editor_build": "PASS",
+  "shipping_compile": "PASS; no new cook/package or Shipping play claim",
+  "focused": {
+    "exit_code": 0,
+    "succeeded": 3,
+    "failed": 0,
+    "filter": "Ridgefire.Regressions.CoopSupplies",
+    "scope": "Actual production actors and possessed player pawns in isolated Editor world, NullRHI; not a network or rendered acceptance."
+  },
+  "two_process_cases": 6,
+  "network_scope": "two local Editor processes; real owners/RPCs, NullRHI; normal-time recovery; no hardware/Shipping/internet/visual acceptance",
+  "enemy_hit_pause": "Actual living sentry trace; both peers see five-second pause, preserved progress and resumed recovery",
+  "medical_visual": {
+    "exit_code": 0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "scope": "Isolated actual Editor medical-pod scene; no human, Shipping, network or performance acceptance.",
+    "failed": 0,
+    "succeeded": 1,
+    "rendered": true
+  },
+  "original_host_report": "Empty Gale/Phasma ammo-loss report remains unconfirmed in controlled tests. Confirmed zero-gain consumption and full/solar/surplus edge cases are repaired. Natural co-op supply balance remains unmeasured.",
+  "controls": "V remains melee. HUD now shows T/VIEW for contextual carry, set-down and tube deposit. Correctly timed input test proves V does not carry and T does.",
+  "delivery": "Local source/assets/Editor only. Public launcher, owner install and Lenovo server remain VS68/20261016-213325-765.",
+  "paused_100_roll_audit": "Still paused; not resumed by this rescue test request.",
+  "continuous_mutual_case": 1,
+  "completed_rescues": 8,
+  "fixture_scope_review": "variation-scope-review.json"
+}

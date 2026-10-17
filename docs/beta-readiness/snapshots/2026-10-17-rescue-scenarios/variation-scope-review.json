@@ -1,0 +1,8 @@
+{
+  "changed_after_six_cases": [
+    "Source/TP_FirstPerson/Tests/RidgefireHealingTubeNetworkTests.cpp",
+    "Source/TP_FirstPerson/Tests/RidgefireScenarioSetup.h"
+  ],
+  "production_runtime_assets_and_focused_visual_tests_unchanged": true,
+  "scope": "Six cases retain their own prior fixture/binary hashes. Two test-only files were extended for the continuous case, which has final full-input/binary hashes. Do not treat the earlier six-case batch as an exact cache pass for the extended harness."
+}

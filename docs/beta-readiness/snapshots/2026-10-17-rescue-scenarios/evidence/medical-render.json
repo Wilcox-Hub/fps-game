@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "scope": "Isolated actual Editor medical-pod scene; no human, Shipping, network or performance acceptance.",
+  "failed": 0,
+  "succeeded": 1,
+  "rendered": true
+}

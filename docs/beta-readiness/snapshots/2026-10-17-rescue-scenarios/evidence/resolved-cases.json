@@ -1,0 +1,44 @@
+[
+  {
+    "case": 1,
+    "arena": 0,
+    "held_slot": 0,
+    "angle": 180,
+    "carrier": "host"
+  },
+  {
+    "case": 2,
+    "arena": 0,
+    "held_slot": 1,
+    "angle": 180,
+    "carrier": "client"
+  },
+  {
+    "case": 3,
+    "arena": 1,
+    "held_slot": 0,
+    "angle": 90,
+    "carrier": "host"
+  },
+  {
+    "case": 4,
+    "arena": 1,
+    "held_slot": 1,
+    "angle": 90,
+    "carrier": "client"
+  },
+  {
+    "case": 5,
+    "arena": 2,
+    "held_slot": 0,
+    "angle": 0,
+    "carrier": "host"
+  },
+  {
+    "case": 6,
+    "arena": 2,
+    "held_slot": 1,
+    "angle": 0,
+    "carrier": "client"
+  }
+]

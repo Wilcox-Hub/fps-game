@@ -1,0 +1,8 @@
+{
+  "host": [
+    "[2026.10.17-16.54.02:865][550]LogTemp: Display: MUTUAL RESCUE PASS peer=host legs=2 original_players=true same_match=true"
+  ],
+  "client": [
+    "[2026.10.17-16.54.02:674][213]LogTemp: Display: MUTUAL RESCUE PASS peer=client legs=2 original_players=true same_match=true"
+  ]
+}

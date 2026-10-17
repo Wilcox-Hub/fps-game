@@ -1,0 +1,26 @@
+{
+  "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\coop-supplies\\build-mutual-editor.log": {
+    "sha256": "F00BF8FA34E9DE4446BB90A5B4E706299FB1E977875C37052D7785AA32057101",
+    "bytes": 7449
+  },
+  "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\coop-supplies\\build-shipping-verified.log": {
+    "sha256": "87C7FC9B37CDE2A7472EE181B33A39775E713E66431A667FCFE60A5522B7630B",
+    "bytes": 6884
+  },
+  "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\coop-supplies\\verified-regressions\\game.log": {
+    "sha256": "738307A51BFAD937063960CAC7D4B3D079F3F8B0A26008B72BBB1AEB7519F556",
+    "bytes": 192924
+  },
+  "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\coop-supplies\\medical-verified\\game.log": {
+    "sha256": "12607C87856A7BE4AA4B32D4EEE8D8886D99683C3458B6021E1D3E0CA0270E3F",
+    "bytes": 206876
+  },
+  "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\coop-supplies\\mutual-final\\case-001\\host.log": {
+    "sha256": "5A8D7882BA5BD93A8A01D7B5DF59FC2F0E7C01A19A7D80EC569A60FDF5C4492B",
+    "bytes": 196198
+  },
+  "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\coop-supplies\\mutual-final\\case-001\\client.log": {
+    "sha256": "F5DE31FF4D43D5AA6441B5CE8FEB188D7632F3907D9292CC0F0C8537846A4B54",
+    "bytes": 187476
+  }
+}

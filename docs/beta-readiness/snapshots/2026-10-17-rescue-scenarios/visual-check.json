@@ -1,0 +1,39 @@
+{
+  "rendered": true,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "inspected_frames": 4,
+  "states": [
+    "ready",
+    "recovering",
+    "under_fire_paused",
+    "recovered"
+  ],
+  "frames": [
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\coop-supplies\\medical-verified\\01-ready.png",
+      "sha256": "2EC1CDAD189FE8B1F068792A1F2D2312F5FB3CDC4D07EFE0A00EFEF555CBC4A3",
+      "bytes": 2222060
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\coop-supplies\\medical-verified\\02-recovering.png",
+      "sha256": "6293EB9F3090D604581D0E362F48AB8F852E8933F6781F6B2AEAFC95C269E444",
+      "bytes": 2098393
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\coop-supplies\\medical-verified\\03-paused.png",
+      "sha256": "96D2182CE2E304B5F4A4DC2AAC1E2C642F967BC69A7BF115327CB6B7449519AF",
+      "bytes": 2096731
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\coop-supplies\\medical-verified\\04-recovered.png",
+      "sha256": "0A6EB792ABC580D123D0F2EE39F52249C3508C90CA8E3EDBA4566DC1F1AB5EBF",
+      "bytes": 2181045
+    }
+  ],
+  "human_acceptance": false,
+  "performance_accepted": false,
+  "scope": "Actual integrated medical actor in isolated Editor world; temporary patient/player art remains unfinished."
+}

@@ -1,0 +1,68 @@
+{
+  "recorded_at": "2026-10-17T16:54:03.204562+00:00",
+  "identity": {
+    "scene": "two-player-mutual-rescue",
+    "cases": [
+      {
+        "case": 1,
+        "arena": 0,
+        "held_slot": 0,
+        "angle": 180,
+        "carrier": "host"
+      }
+    ],
+    "hit_pause": true,
+    "input_sha256": "a252516787a2e0dcea035611e158ca194dc0ddfdd84b9ca2a3b4a251176a6497",
+    "input_count": 753,
+    "runner_sha256": "26c497b15753be9c6683ed3f339482f5a6f9c650113a80f5b3471ca151f68cbc",
+    "binaries": {
+      "C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Binaries\\Win64\\UnrealEditor-TP_FirstPerson.dll": "6965e4aa1d2e5b5c55d5525e82655a2c624489e1464bc2925afd3c1dcc30e0db",
+      "G:\\Unreal Engine\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe": "5db233608a7d82102cc92cf9f591b8a9657ae16a5b7b09b131d00bbe0a4cc715",
+      "G:\\Unreal Engine\\UE_5.8\\Engine\\Build\\Build.version": "eab58750e84719489f3ee0d42d05a533ceb357eb3ee511777e9408d27a85f43c"
+    },
+    "scope": "two local Editor processes; real owners/RPCs, NullRHI; normal-time recovery; no hardware/Shipping/internet/visual acceptance"
+  },
+  "passed": 1,
+  "failed": 0,
+  "completed": 1,
+  "requested": 1,
+  "cases": [
+    {
+      "case": 1,
+      "arena": 0,
+      "held_slot": 0,
+      "angle": 180,
+      "carrier": "host",
+      "passed": true,
+      "failure": null,
+      "elapsed_seconds": 150.85,
+      "events": {
+        "host": [
+          "[2026.10.17-16.51.38:494][  0]LogTemp: Display: RIDGEFIRE TUBE PLACEMENT arena=IRON SUN ARENA valid=true location=X=1350.000 Y=-3800.000 Z=2.462",
+          "[2026.10.17-16.51.45:818][328]LogTemp: Display: RIDGEFIRE TUBE PLACEMENT arena=IRON SUN ARENA valid=true location=X=102150.000 Y=97250.000 Z=1000.000",
+          "[2026.10.17-16.51.45:834][328]LogTemp: Display: SCENARIO ARRANGED arena=0 held=0 actual_player_owners=2",
+          "[2026.10.17-16.51.46:251][354]LogTemp: Display: RIDGEFIRE TUBE HOST PASS orientation=host_carrier original_pawns=true replicated_occupant=true carry_cleared=true inventory_unchanged=true repeat_rejected=true",
+          "[2026.10.17-16.51.55:636][917]LogTemp: Display: RIDGEFIRE TUBE HOST HIT PAUSE PASS orientation=host_carrier trace=actual earned=preserved pause=5s resumed=true",
+          "[2026.10.17-16.52.54:176][429]LogTemp: Display: SCENARIO AMMO PASS owner=remote reserve=6->24",
+          "[2026.10.17-16.52.54:176][429]LogTemp: Display: RIDGEFIRE TUBE HOST RECOVERY PASS orientation=host_carrier owner_input=remote_observed seconds=67.92 hp=50 restored=true movement=true firing=true inventory_before_fire=true",
+          "[2026.10.17-16.52.54:824][468]LogTemp: Display: RIDGEFIRE TUBE HOST PASS orientation=remote_owned_carrier original_pawns=true replicated_occupant=true carry_cleared=true inventory_unchanged=true repeat_rejected=true",
+          "[2026.10.17-16.53.04:142][ 27]LogTemp: Display: RIDGEFIRE TUBE HOST HIT PAUSE PASS orientation=remote_owned_carrier trace=actual earned=preserved pause=5s resumed=true",
+          "[2026.10.17-16.54.02:865][550]LogTemp: Display: SCENARIO AMMO PASS owner=host reserve=6->24",
+          "[2026.10.17-16.54.02:865][550]LogTemp: Display: RIDGEFIRE TUBE HOST RECOVERY PASS orientation=remote_owned_carrier owner_input=true seconds=68.04 hp=50 restored=true movement=true firing=true inventory_before_fire=true"
+        ],
+        "client": [
+          "[2026.10.17-16.51.50:494][282]LogTemp: Display: RIDGEFIRE TUBE CLIENT PASS orientation=host_carrier original_remote_pawn=true replicated_occupant=true attachment=true",
+          "[2026.10.17-16.51.55:711][595]LogTemp: Display: RIDGEFIRE TUBE CLIENT HIT PAUSE PASS orientation=host_carrier earned=preserved pause=replicated_5s resumed=true",
+          "[2026.10.17-16.52.54:366][114]LogTemp: Display: SCENARIO AMMO CLIENT PASS reserve=6->24",
+          "[2026.10.17-16.52.54:366][115]LogTemp: Display: RIDGEFIRE TUBE CLIENT RECOVERY PASS orientation=host_carrier owner_input=true seconds=63.87 hp=50 restored=true movement=true firing=true inventory_before_fire=true",
+          "[2026.10.17-16.52.54:833][142]LogTemp: Display: RIDGEFIRE TUBE CLIENT PASS orientation=remote_owned_carrier owner_rpc=true original_remote_pawn=true replicated_occupant=true repeat_ignored=true inventory_unchanged=true",
+          "[2026.10.17-16.53.04:167][702]LogTemp: Display: RIDGEFIRE TUBE CLIENT HIT PAUSE PASS orientation=remote_owned_carrier earned=preserved pause=replicated_5s resumed=true",
+          "[2026.10.17-16.54.02:674][212]LogTemp: Display: SCENARIO AMMO CLIENT PASS reserve=6->24",
+          "[2026.10.17-16.54.02:674][213]LogTemp: Display: RIDGEFIRE TUBE CLIENT RECOVERY PASS orientation=remote_owned_carrier owner_input=host_observed seconds=67.84 hp=50 restored=true movement=true firing=true inventory_before_fire=true"
+        ]
+      }
+    }
+  ],
+  "inputs_unchanged_during_run": true,
+  "binaries_unchanged_during_run": true
+}

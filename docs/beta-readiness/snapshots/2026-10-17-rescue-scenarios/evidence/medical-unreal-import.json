@@ -1,0 +1,39 @@
+{
+  "SM_IS_MedicalPod": {
+    "dimensions_cm": [
+      135.36001586914062,
+      139.3920135498047,
+      247.67599437260628
+    ],
+    "origin_cm": [
+      0.0,
+      0.0,
+      123.83799768674373
+    ],
+    "materials": [
+      "IS_Rubber",
+      "IS_Cyan",
+      "IS_Ceramic",
+      "IS_Iron",
+      "IS_Brass",
+      "Medical_Iron"
+    ]
+  },
+  "SM_IS_MedicalGuard": {
+    "dimensions_cm": [
+      30.07246971130371,
+      98.48138427734375,
+      189.99999046325684
+    ],
+    "origin_cm": [
+      42.96171283721924,
+      0.0,
+      116.99998950958252
+    ],
+    "materials": [
+      "Medical_Glass",
+      "Medical_Iron",
+      "Medical_Ceramic"
+    ]
+  }
+}

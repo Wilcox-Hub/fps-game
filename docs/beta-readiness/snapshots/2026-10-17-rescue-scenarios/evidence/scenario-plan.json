@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "timeout_seconds": 180,
+  "prompt": "Two actual player owners rescue one another across three arenas, both starter guns and different approaches; enemy fire must pause but preserve recovery, and both peers must see useful ammo after revival.",
+  "variations": {
+    "arenas": [
+      0,
+      1,
+      2
+    ],
+    "carriers": [
+      "host",
+      "client"
+    ],
+    "held_slots": [
+      0,
+      1
+    ],
+    "approach_angles": [
+      180,
+      90,
+      0
+    ]
+  },
+  "scene": "two-player-rescue",
+  "enemy_hit_pause": true,
+  "test_count": 6
+}
