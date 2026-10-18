@@ -229,3 +229,10 @@ Kind: local-continuation-record
 **local_path:** docs/ORCA_WORK_IN_PROGRESS.md
 
 **note:** Oct18 local standard E and walk-up refit work finished; original natural host ammo loss unresolved; game source unpublished. Local path is provenance, not a link claiming a published file.
+
+<a id="owner-auto-interviews"></a>
+## owner-auto-interviews
+
+Kind: owner-request-current-task
+
+**quote:** Make all grill me questions regarding iron sun automatically update. If any conflict activate grill me and clarify

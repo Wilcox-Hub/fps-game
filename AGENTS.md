@@ -21,6 +21,6 @@ For beta status, scoring, milestone planning, or test selection, read `docs/beta
 ## Project memory — all work
 
 - Start every game, art, research, tooling, testing or release task at `docs/memory/README.md` and `active-work.json`; load the relevant current decision branch before implementation. Historical interviews are evidence; latest human corrections govern.
-- Capture grill-me questions/options/original answers, approvals and replacements through `docs/memory/WORKFLOW.md`. Update work/issue/evidence pointers at checkpoints and completion; preserve unanswered choices explicitly.
+- Automatically save each IRON SUN grill-me round before asking and capture/review/sync every reply immediately through `docs/memory/AUTOMATIC_INTERVIEWS.md`, without a separate save request. Any unresolved conflict activates grill-me; record both statements and block affected implementation until owner clarification/confirmation. Resolved supersessions stay resolved. Update work/issue/evidence pointers at checkpoints.
 - The owner authorizes ongoing memory-only GitHub updates. Run the memory check and scoped publication preview before publishing through `tools/project_memory.py`; this authorization excludes unrelated game/source, builds, launcher feeds and server deployment.
 <!-- IRON-SUN-MEMORY:END -->

@@ -146,6 +146,21 @@
       "id": "memory-validation",
       "kind": "tool-evidence",
       "path": "docs/memory/setup-validation.json"
+    },
+    {
+      "id": "automatic-interviews",
+      "kind": "workflow",
+      "path": "docs/memory/AUTOMATIC_INTERVIEWS.md"
+    },
+    {
+      "id": "design-conflicts",
+      "kind": "conflict-register",
+      "path": "docs/memory/conflicts.json"
+    },
+    {
+      "id": "automatic-interviews-validation",
+      "kind": "tool-evidence",
+      "path": "docs/memory/automatic-interviews-validation.json"
     }
   ],
   "edges": [
@@ -303,6 +318,21 @@
       "from": "iron-sun",
       "to": "memory-validation",
       "relation": "contains"
+    },
+    {
+      "from": "iron-sun",
+      "to": "automatic-interviews",
+      "relation": "contains"
+    },
+    {
+      "from": "iron-sun",
+      "to": "design-conflicts",
+      "relation": "contains"
+    },
+    {
+      "from": "automatic-interviews",
+      "to": "automatic-interviews-validation",
+      "relation": "validated-by"
     }
   ],
   "decision_replacement_edges": "docs/design-decisions/current.json: decisions[].supersedes/superseded_by"

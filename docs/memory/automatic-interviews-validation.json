@@ -1,0 +1,24 @@
+{
+  "tested_at": "2026-10-18T09:16:00.685381+00:00",
+  "scope": "Automatic IRON SUN interview capture/sync and conflict gate; no gameplay or beta assessment.",
+  "focused_tests_passed": 22,
+  "cases": [
+    "pending question then exact answer",
+    "declared/structured rule conflicts require grill-me without approving rule",
+    "answer revision retains original and is idempotent",
+    "offline answer retention",
+    "retry preserves original sync baseline",
+    "automatic sync restricts changed paths and verifies remote",
+    "answered rounds require semantic review",
+    "remote memory changes reject overwrites",
+    "unanswered entry cannot resolve a conflict"
+  ],
+  "current_conflicts": 0,
+  "historical_answers_unchanged": 157,
+  "limits": [
+    "Semantic contradiction review is performed by the assistant; the helper detects structured proposed-rule and answer changes.",
+    "Automatic capture runs in active repository sessions following AGENTS guidance, not as a background monitor of unrelated chats.",
+    "No synthetic test interview is published."
+  ],
+  "game_source_and_delivery": "unchanged"
+}

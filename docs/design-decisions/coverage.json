@@ -89,5 +89,5 @@
       "missing_answer_ids": []
     }
   ],
-  "limits": "Backfill from two saved segments of this game's conversation. Not a complete transcript export. Missing answers and deferred choices remain explicit; source dates and validation scopes are retained."
+  "limits": "Historical backfill comes from two saved game-conversation segments; future rounds use incremental live capture. Not a complete transcript export. Pending/missing answers and deferred choices remain explicit; source dates and validation scopes are retained."
 }

@@ -33,5 +33,5 @@ Official setup reference: [Mem0 Codex integration guide](https://github.com/mem0
 <!-- IRON-SUN-MEMORY:BEGIN -->
 ## Canonical all-work memory
 
-Start at [Project Memory](memory/README.md). It connects approved direction, original grill-me answers, current work, open issues and canonical test evidence. Every task reads the relevant branch and updates it through [the workflow](memory/WORKFLOW.md). Mem0 remains an optional searchable aid; this GitHub-backed tree is the shared record.
+Start at [Project Memory](memory/README.md). It connects approved direction, original grill-me answers, current work, open issues and canonical test evidence. Every task reads the relevant branch and updates it through [the workflow](memory/WORKFLOW.md). All IRON SUN grill-me rounds/replies are captured and synced automatically through [the interview workflow](memory/AUTOMATIC_INTERVIEWS.md); unresolved conflicts trigger grill-me clarification before affected implementation. Mem0 remains an optional searchable aid; this GitHub-backed tree is the shared record.
 <!-- IRON-SUN-MEMORY:END -->

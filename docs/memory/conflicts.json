@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "policy": "Any unresolved IRON SUN design conflict activates grill-me and blocks only affected implementation until archived owner clarification/confirmation. Resolved supersessions stay resolved.",
+  "conflicts": []
+}

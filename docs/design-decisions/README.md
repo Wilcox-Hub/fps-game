@@ -18,7 +18,7 @@ Current rules below are the design baseline. Historical interviews preserve what
 
 ## Original interview answers
 
-| Interview | Questions | Answers recovered |
+| Interview | Questions | Answers saved |
 | --- | ---: | ---: |
 | [2026-10-02-perks](interviews/2026-10-02-perks.md) | 1 | 1 |
 | [2026-10-04-pacing-economy](interviews/2026-10-04-pacing-economy.md) | 5 | 1 |

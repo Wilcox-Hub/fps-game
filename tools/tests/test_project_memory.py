@@ -116,5 +116,81 @@ class MemoryTests(unittest.TestCase):
         self.assertEqual(calls[2][1]["parents"],["base"])
         self.assertFalse(calls[3][1]["force"])
 
+    def round_record(self,answer="Keep lean removed."):
+        return {"project":"iron-sun","interview_id":"2026-10-18-test-lean","entries":[{
+            "id":"2026-10-18-test-lean-q1","question_number":1,"question":"Keep lean removed?",
+            "options":["Keep removed","Restore lean"],"question_timestamp_utc":"2026-10-18T09:00:00Z",
+            "answer":answer,"answer_timestamp_utc":"2026-10-18T09:01:00Z"}],
+            "review":{"status":"clear" if answer else "pending","checked_decisions":["controls-lean-removed"],"conflicts":[]}}
+
+    def test_live_capture_question_then_answer_preserves_prompt(self):
+        memory.capture_round(self.root,self.round_record(None),True)
+        result=memory.capture_round(self.root,self.round_record(),True)
+        data=memory.read(self.root,result["saved"])
+        self.assertEqual(len(data["entries"]),1)
+        self.assertEqual(data["entries"][0]["answer"],"Keep lean removed.")
+        self.assertEqual(memory.check(self.root),[])
+
+    def test_changed_rule_requires_grilling_without_promoting_rule(self):
+        record=self.round_record("Restore lean.")
+        record["review"]["proposed_rules"]=[{"decision_id":"controls-lean-removed","rule":"Restore Q/E lean."}]
+        old=memory.read(self.root,"docs/design-decisions/current.json")
+        result=memory.capture_round(self.root,record,True)
+        self.assertEqual(result["next_action"],"activate-grill-me")
+        self.assertTrue(memory.pending_conflicts(self.root,["controls-lean-removed"]))
+        self.assertEqual(memory.read(self.root,"docs/design-decisions/current.json"),old)
+
+    def test_changed_answer_keeps_history_and_repeated_capture_is_idempotent(self):
+        record=self.round_record();memory.capture_round(self.root,record,True)
+        record["entries"][0]["answer"]="Actually restore it."
+        result=memory.capture_round(self.root,record,True)
+        memory.capture_round(self.root,record,True)
+        entry=memory.read(self.root,result["saved"])["entries"][0]
+        self.assertEqual(entry["answer_revisions"][0]["answer"],"Keep lean removed.")
+        self.assertEqual(len(entry["answer_revisions"]),1)
+        self.assertEqual(len(memory.pending_conflicts(self.root)),1)
+
+    def test_answer_is_saved_when_network_sync_fails(self):
+        with patch.object(memory,"gh",side_effect=RuntimeError("offline")):
+            result=memory.capture_round(self.root,self.round_record())
+        self.assertEqual(result["sync"],"pending")
+        self.assertEqual(memory.read(self.root,result["saved"])["entries"][0]["answer"],"Keep lean removed.")
+
+    def test_retry_retains_original_sync_baseline(self):
+        record=self.round_record()
+        with patch.object(memory,"gh",side_effect=RuntimeError("offline")):
+            result=memory.capture_round(self.root,record)
+        with patch.object(memory,"gh",return_value={"object":{"sha":"base"}}),patch.object(memory,"publish",return_value={"commit":"synced"}) as publish,patch.object(memory,"publication_plan",return_value=[]):
+            memory.capture_round(self.root,record)
+        self.assertIsNone(publish.call_args.kwargs["expected"][result["saved"]])
+        self.assertEqual(memory.read(self.root,"docs/memory/.sync-state.local.json")["expected"],{})
+
+    def test_live_capture_syncs_only_round_files_and_verifies(self):
+        with patch.object(memory,"gh",return_value={"object":{"sha":"remote-base"}}),patch.object(memory,"publish",return_value={"commit":"synced"}) as publish,patch.object(memory,"publication_plan",return_value=[]):
+            result=memory.capture_round(self.root,self.round_record())
+        self.assertEqual(result["sync"],"verified")
+        paths=publish.call_args.kwargs["paths"]
+        self.assertTrue(all(memory.allowed(p) for p in paths))
+        self.assertNotIn("tools/project_memory.py",paths)
+        self.assertNotIn("docs/memory/active-work.json",paths)
+
+    def test_capture_rejects_answer_without_conflict_review(self):
+        record=self.round_record();record["review"]["status"]="pending"
+        with self.assertRaisesRegex(ValueError,"Review answered rounds"):memory.capture_round(self.root,record,True)
+
+    def test_remote_changed_memory_cannot_be_overwritten_by_auto_sync(self):
+        path="docs/memory/open-issues.json"
+        def api(endpoint,data=None,method=None):
+            if "git/ref/" in endpoint:return {"object":{"sha":"base"}}
+            return {"truncated":False,"tree":[{"path":path,"type":"blob","sha":"different-remote-content"}]}
+        with patch.object(memory,"gh",side_effect=api):
+            with self.assertRaisesRegex(ValueError,"reconcile before syncing"):
+                memory.publication_plan(self.root,"base",paths=[path],expected={path:"old-local-version"})
+
+    def test_unanswered_entry_cannot_clear_a_conflict(self):
+        record=self.round_record(None);result=memory.capture_round(self.root,record,True)
+        memory.write(self.root,"docs/memory/conflicts.json",{"conflicts":[{"id":"fake-resolution","status":"resolved","decision_id":"controls-lean-removed","owner_confirmed":True,"resolution":"Not actually answered","resolution_entry_id":"2026-10-18-test-lean-q1"}]})
+        self.assertTrue(any("archived owner confirmation" in error for error in memory.check(self.root)))
+
 
 if __name__=="__main__":unittest.main()

@@ -6,17 +6,17 @@ Generated from [current.json](../current.json). Read current rules before histor
 
 **APPROVED** · Recorded 2026-10-18
 
-Before any game, art, tooling, research, testing or release task, read the memory index/current work and only the relevant decision branches. Capture new user answers, corrections, outcomes, open questions and evidence at checkpoints. Publish scoped memory updates to GitHub under this standing request; preserve unrelated code and separate release authorization. Keep original answers and supersession history.
+Before any game, art, tooling, research, testing or release task, read the memory index/current work and only the relevant decision branches. Capture new user answers, corrections, outcomes, open questions and evidence at checkpoints. Publish scoped memory updates to GitHub under this standing request; preserve unrelated code and separate release authorization. Keep original answers and supersession history. Every grill-me round/reply is automatically captured and synced as part of the active task, without a separate save request; follow the conflict gate before dependent work.
 
-Sources: [owner-memory-scope](../../../docs/design-decisions/sources.md#owner-memory-scope).
+Sources: [owner-memory-scope](../../../docs/design-decisions/sources.md#owner-memory-scope), [owner-auto-interviews](../../../docs/design-decisions/sources.md#owner-auto-interviews).
 
 ## workflow-clarification — Resolve uncertain design through grill-me
 
 **APPROVED** · Recorded 2026-10-18
 
-When instructions/direction remain uncertain under the owner's requested 98% threshold, apply the grilling skill, asking the current frontier in batches with recommendations and waiting for answers/confirmation. Look up environmental facts first. Save exact questions/options/answers and clarify corrections; never claim numerical confidence is an observed test result.
+Automatically capture every IRON SUN grill-me prompt/options before asking and save/review/sync each reply immediately. Any unresolved conflict among answers, current rules or proposed changes activates grill-me, preserves both statements and blocks affected implementation until owner clarification and explicit confirmation. Resolved supersessions stay resolved. Investigate environmental facts first; the 98% instruction-confidence preference is not a measured validation score.
 
-Sources: [owner-grill-policy](../../../docs/design-decisions/sources.md#owner-grill-policy).
+Sources: [owner-grill-policy](../../../docs/design-decisions/sources.md#owner-grill-policy), [owner-auto-interviews](../../../docs/design-decisions/sources.md#owner-auto-interviews).
 
 ## workflow-evidence — Dated evidence with scoped reuse
 

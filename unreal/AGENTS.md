@@ -20,5 +20,5 @@ For beta status, scoring, milestone planning, or test selection, read `docs/beta
 <!-- IRON-SUN-MEMORY:BEGIN -->
 ## Project memory
 
-All Unreal work follows repository-root `docs/memory/README.md` and its workflow. Read current decisions before implementation; capture answers, corrections, work status and scoped evidence afterward. Routine memory-only GitHub sync is owner-authorized; game/source/releases retain their separate publication rule.
+All Unreal work follows repository-root `docs/memory/README.md` and its workflow. Read current decisions before implementation; capture answers, corrections, work status and scoped evidence afterward. Automatically capture/sync every IRON SUN grill-me round/reply and activate grill-me for unresolved conflicts before affected implementation; follow `docs/memory/AUTOMATIC_INTERVIEWS.md`. Routine memory-only GitHub sync is owner-authorized; game/source/releases retain their separate publication rule.
 <!-- IRON-SUN-MEMORY:END -->

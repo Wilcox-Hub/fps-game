@@ -22,6 +22,7 @@ IRON SUN
 ```
 
 - [Workspace/tool context](ENVIRONMENT.md) and [memory setup checks](setup-validation.json).
+- [Automatic grill-me capture and clarification](AUTOMATIC_INTERVIEWS.md) · [Conflict register](conflicts.json).
 - [Current work](active-work.json) and [open issues](open-issues.json).
 - [Approved direction and original interviews](../design-decisions/README.md).
 - [All-work maintenance procedure](WORKFLOW.md) and [machine-readable tree](graph.json).
