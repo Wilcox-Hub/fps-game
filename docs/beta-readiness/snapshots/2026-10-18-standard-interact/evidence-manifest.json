@@ -1,0 +1,87 @@
+[
+  {
+    "path": "evidence/hold-input.json",
+    "sha256": "FA35962DA1A77ED3D53D6B5D6B6882FE811E573D59394B9032286F8018ECB5B5",
+    "bytes": 248
+  },
+  {
+    "path": "evidence/mutual-markers.json",
+    "sha256": "EB12F5DB226497E3A50E7E41B3908496A0836A9C0619E7AEF8137FB96EA1DFF6",
+    "bytes": 1615
+  },
+  {
+    "path": "evidence/mutual-network.json",
+    "sha256": "CF59EE3B78137CB83F34CBEE336676B0C0966D7F4511077DDD4F80B208B6D2ED",
+    "bytes": 5022
+  },
+  {
+    "path": "evidence/network-plan.json",
+    "sha256": "38560E7F053A7C57578203C08C874D6E000A78267F9EDA94BD352DB351A54933",
+    "bytes": 543
+  },
+  {
+    "path": "evidence/original-red.json",
+    "sha256": "627898B3A6E32EFA53C85E00A309DF2DE06858D1F04EF808889519E635C32E10",
+    "bytes": 248
+  },
+  {
+    "path": "evidence/pickup-controls.json",
+    "sha256": "437A0B6E723CBE1A6980F968C0587032D5072709E88C43EC789AC1E8C8B7DBB2",
+    "bytes": 250
+  },
+  {
+    "path": "evidence/pre-contrast-input-manifest.json",
+    "sha256": "743E63F32653747587B170BDB81526145BAAFDA4FFD7CC33927FBFCD98189567",
+    "bytes": 121317
+  },
+  {
+    "path": "evidence/refit-cases.json",
+    "sha256": "EDF848892DB70135BCF4308F3A648278F2C93872EAFBD5C30E0BCB73E3B83892",
+    "bytes": 231
+  },
+  {
+    "path": "evidence/render-1080.json",
+    "sha256": "A1069A2B81669ADFFBDE7C087AF255DD8AF7BCF6BB8B58177822113A95D9F334",
+    "bytes": 241
+  },
+  {
+    "path": "evidence/render-4k.json",
+    "sha256": "DF31A1504CEC8C6D11CC94570E46E914B3EFCBAB2B0D830B653C1338FF09E004",
+    "bytes": 241
+  },
+  {
+    "path": "input-delta.json",
+    "sha256": "C1ED58F677964BD31A1D660FF1FD33B7EC3CD384FAD3352136B3F731018F295E",
+    "bytes": 3440
+  },
+  {
+    "path": "input-manifest.json",
+    "sha256": "826CB6684175B5189CA5236E1A94FA7F5EA4228CE72B5E7F53ABD68A89C5F2F1",
+    "bytes": 134979
+  },
+  {
+    "path": "post-network-scope-review.json",
+    "sha256": "D4D9D8DCAE61891C6A5A7C38C0EE8827392314C68EFFAD182DDAD27BDCCD10C0",
+    "bytes": 509
+  },
+  {
+    "path": "report.md",
+    "sha256": "394961D424B340CA515AAFA434565BEDB6DEE5FA3874B78AA2D030A1733AA473",
+    "bytes": 2482
+  },
+  {
+    "path": "test-results.json",
+    "sha256": "D0953A1DCC69FA13B32D6BBA56B095AAD72EB9C04864153F7FC8F8C084B425E6",
+    "bytes": 6888
+  },
+  {
+    "path": "tool-input-manifest.json",
+    "sha256": "D798097CDA024A0B819D32D31ED166DF82BA78D696A0446A6E72B0EF40346339",
+    "bytes": 673
+  },
+  {
+    "path": "visual-check.json",
+    "sha256": "5AA6D9EA18365D37648D468C87FAE2C0441A634012F8CE38036C6E5F33F51A8E",
+    "bytes": 870
+  }
+]

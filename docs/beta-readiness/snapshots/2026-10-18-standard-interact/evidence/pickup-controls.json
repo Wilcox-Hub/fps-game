@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "succeeded": 3,
+  "failed": 0,
+  "filter": "Ridgefire.Regressions.CoopSupplies",
+  "scope": "Actual production actors and possessed player pawns in isolated Editor world, NullRHI; not a network or rendered acceptance."
+}

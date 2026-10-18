@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "scene": "two-player-mutual-rescue",
+  "prompt": "The host rescues the client, then the recovered client rescues the host in the same live match, with real enemy-hit pauses and ammo pickup after each revival. Preserve the original pawns and loadouts.",
+  "test_count": 1,
+  "timeout_seconds": 240,
+  "enemy_hit_pause": true,
+  "variations": {
+    "arenas": [
+      0
+    ],
+    "held_slots": [
+      0
+    ],
+    "approach_angles": [
+      180
+    ],
+    "carriers": [
+      "host"
+    ]
+  }
+}

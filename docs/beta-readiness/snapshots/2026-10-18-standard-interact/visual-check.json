@@ -1,0 +1,30 @@
+{
+  "rendered": true,
+  "inspected_frames": 2,
+  "resolutions": [
+    [
+      1920,
+      1080
+    ],
+    [
+      3840,
+      2160
+    ]
+  ],
+  "state": "Actual hold-E pickup prompt and progress",
+  "frames": [
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\standard-interact\\contrast-1080\\01-hold.png",
+      "sha256": "C727D44E7674C18CBA00AEB88EBE761A903B8D8B9A90F296624EBE642337441A",
+      "bytes": 1999027
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\standard-interact\\contrast-4k\\01-hold.png",
+      "sha256": "7E7F8369EAFF9774E29A44C50178F94CB28FA566F80E462DCF11D19EEC5ECED9",
+      "bytes": 7885135
+    }
+  ],
+  "human_acceptance": false,
+  "performance_accepted": false,
+  "scope": "Integrated Editor HUD and two-character scene; surrounding player/arena art remains unfinished."
+}

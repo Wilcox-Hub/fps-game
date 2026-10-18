@@ -1,0 +1,11 @@
+{
+  "resolution": [
+    3840,
+    2160
+  ],
+  "succeeded": 1,
+  "failed": 0,
+  "exit_code": 0,
+  "scope": "Actual isolated Editor hold interaction and HUD progress; no packaged/human/performance acceptance.",
+  "rendered": true
+}
