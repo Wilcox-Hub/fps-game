@@ -1,0 +1,1 @@
+{"passed":true,"stage":3,"busy_checks":2,"reason":"Remote owner input, shared refit contention, ready occupancy and owner-only collection replicated","scope":"Two real loopback Editor processes and production owner input/RPC; no separate PC or human acceptance"}

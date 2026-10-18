@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "succeeded": 1,
+  "rendered": true,
+  "failed": 0,
+  "resolution": [
+    3840,
+    2160
+  ],
+  "scope": "Actual isolated Editor walk-up refit, three rendered states; no packaged/human/performance acceptance."
+}

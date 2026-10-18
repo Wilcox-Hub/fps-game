@@ -1,0 +1,6 @@
+{
+  "scene": "two-player-refit",
+  "prompt": "Joining player deposits the held weapon with E, peer contention rejects, five-second refit stays occupied until owner E collection.",
+  "count": 1,
+  "scope": "Two isolated local Editor game processes, production E input and owner RPC; NullRHI, no separate PC or packaged acceptance."
+}

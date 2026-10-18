@@ -1,0 +1,61 @@
+{
+  "recorded_on": "2026-10-18",
+  "editor_compile": "PASS",
+  "shipping_compile": "PASS; no new cook/package or Shipping play claim",
+  "world": {
+    "exit_code": 0,
+    "succeeded": 9,
+    "failed": 0,
+    "filter": "Ridgefire.Refit",
+    "scope": "Actual production actors and possessed player pawns in isolated Editor world, NullRHI; not a network or rendered acceptance."
+  },
+  "network": {
+    "requested": 1,
+    "passed": 1,
+    "failed": 0,
+    "cases": [
+      {
+        "case": 1,
+        "passed": true,
+        "error": null,
+        "seconds": 59.28
+      }
+    ],
+    "inputs_unchanged": true,
+    "binary_unchanged": true,
+    "module_sha256": "8e228ba187c9dba2ad96ac4c32a47edcc1f01e2845081bba7afa6134b9f58464"
+  },
+  "backend": {
+    "exit_code": 0,
+    "succeeded": 1,
+    "failed": 0,
+    "filter": "Ridgefire.Weapon.Recipes.PhysicalWorldResourcesAndRefit",
+    "scope": "Actual production actors and possessed player pawns in isolated Editor world, NullRHI; not a network or rendered acceptance."
+  },
+  "render1080": {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "failed": 0,
+    "rendered": true,
+    "succeeded": 1,
+    "exit_code": 0,
+    "scope": "Actual isolated Editor walk-up refit, three rendered states; no packaged/human/performance acceptance."
+  },
+  "render4k": {
+    "exit_code": 0,
+    "succeeded": 1,
+    "rendered": true,
+    "failed": 0,
+    "resolution": [
+      3840,
+      2160
+    ],
+    "scope": "Actual isolated Editor walk-up refit, three rendered states; no packaged/human/performance acceptance."
+  },
+  "diagnosis": "Original red: no world focus target and E did nothing. Backend required an open shop. Added direct authoritative held-gun station path, preserving shared payment/refit/collection backend.",
+  "test_harness_correction": "Instant test turns/teleports now update the actual camera cache before negative focus checks. Initial failed variation batch is preserved locally; no claim those failures were gameplay defects.",
+  "source_and_release_scope": "Local game changes only; public VS68 and server unchanged.",
+  "beta_approved": false
+}

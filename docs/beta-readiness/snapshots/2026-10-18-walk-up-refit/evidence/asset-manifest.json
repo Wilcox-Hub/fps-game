@@ -1,0 +1,15 @@
+{
+  "name": "Original IRON SUN field refit station",
+  "front": "+X",
+  "units": "metres",
+  "parts": 44,
+  "polygons": 4312,
+  "materials": [
+    "Iron",
+    "Ceramic",
+    "Brass",
+    "Rubber",
+    "Cyan"
+  ],
+  "copyright": "Original project asset; no external game assets."
+}

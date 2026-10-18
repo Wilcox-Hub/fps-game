@@ -1,0 +1,54 @@
+{
+  "rendered": true,
+  "inspected_frames": 6,
+  "resolutions": [
+    [
+      1920,
+      1080
+    ],
+    [
+      3840,
+      2160
+    ]
+  ],
+  "states": [
+    "hover_cost_hint",
+    "refitting",
+    "ready_to_collect"
+  ],
+  "frames": [
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\walk-up-refit\\final-1080\\01-hover.png",
+      "sha256": "7213C99BAC75F5A267DCB0789C6340D4DC7B1EE4CCE9724569267A1F6D5219A8",
+      "bytes": 2338785
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\walk-up-refit\\final-1080\\02-refitting.png",
+      "sha256": "AC296AAFB88C012AD9557405D51E82519B11C728DCF36C2FFFE3F24BFDBB3574",
+      "bytes": 2308937
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\walk-up-refit\\final-1080\\03-ready.png",
+      "sha256": "7BDC8A58036F4A3D2DC328803922D9CD6BE2A4854DA85F14F4F39B64DEAFCBF0",
+      "bytes": 2309007
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\walk-up-refit\\final-4k\\01-hover.png",
+      "sha256": "FB9E38F3F772B216B9EEB90F502A480ACDD4731E79E828B24B96D553FD26DD7E",
+      "bytes": 9174475
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\walk-up-refit\\final-4k\\02-refitting.png",
+      "sha256": "07990FEA6B58E13EA7FE6D985D65B81DE5E0E57E81D5B42876600FAEF34767F5",
+      "bytes": 8833998
+    },
+    {
+      "path": "C:\\Users\\YaYa\\Documents\\ChatGPT\\FPS-1\\walk-up-refit\\final-4k\\03-ready.png",
+      "sha256": "F60CE8D66F38FFCDE70CA7E5D91E9E3DB1E5975B36F01A15203AD96831F3E46B",
+      "bytes": 9003177
+    }
+  ],
+  "human_acceptance": false,
+  "performance_accepted": false,
+  "scope": "Actual integrated Editor station and player HUD. Surrounding arsenal, player/weapon art and HUD remain unfinished."
+}

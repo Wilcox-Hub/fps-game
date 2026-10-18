@@ -1,0 +1,85 @@
+{
+  "previous_snapshot": "2026-10-17-rescue-scenarios",
+  "differences": [
+    {
+      "path": "Content/IRON_SUN/Arsenal/SM_IS_RefitStation.uasset",
+      "before_sha256": null,
+      "after_sha256": "24E2E15990AF33ED505A7118CD45AAC8EBE948F568E65944796FDD51FE0FC8D1"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArenaDressing.cpp",
+      "before_sha256": "A00697F5E730BB70ED70EA9171FFF7B706F3C9151FF2BF4FDAEF19931CEFD3C4",
+      "after_sha256": "48F58A2EF835CFE8B751A230F2388D2C4DA58C48E10EFA2BD31E4F0D1D337994"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireArenaDressing.h",
+      "before_sha256": "082C27E2F2B760DD2414FCC3D6CF508EDDCEE35D43509AEEE66A6137C57E31BB",
+      "after_sha256": "689026A106FE5BD3B6DBDD49DD99EF2303BFA025E6833A4C2B36DFAC691E9D1A"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireEconomy.cpp",
+      "before_sha256": "4E1EA6CD5BBEC5E068C841FE26DAE258ACB86F7E15EE01F30AA291170CDB7F6F",
+      "after_sha256": "44B8E055E3B8B7C2312406A65AA0944825CAC066956F16D2A116D52944B09522"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireGameMode.h",
+      "before_sha256": "7E89D027142C51266E52395CD07A08268D3B8E857F46BE4BCE03CA5E001F23C6",
+      "after_sha256": "A333D9C4F61BD957D926BC10900E4B1F94DD3052CEC3FE1581A007F28C3D0AAB"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireHUD.cpp",
+      "before_sha256": "2CB3075E4AC8BD6E7D655640ECE70D4995607AD8277FC981AD45882978CE7A66",
+      "after_sha256": "2DA62B3E135D3129DC7971E3FC68E6A232ECD05BA2FE33F03166EEAC13AE5D58"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireRefit.cpp",
+      "before_sha256": "7FD92413F4EED9443ED8EDAECC488F33EBC291059E20EDA99F318E5CA59DC3BA",
+      "after_sha256": "65B212D26D5105CED584C1D1D8C07D7B0FEF50A3EE727B0C0978D05A30349F11"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireRefitInteraction.cpp",
+      "before_sha256": null,
+      "after_sha256": "178722A5CF47CE75EA37DF5A6778FE99D23708442BA62D4BE154DA6667B38B0C"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireRefitStation.cpp",
+      "before_sha256": null,
+      "after_sha256": "09E792D8C5DD1E884A06A63430E4AE9B0292AB82DB477643D40314C11526C2A8"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireWildcardDisplay.cpp",
+      "before_sha256": "BD93C49960B5736D7E6873BFF1FBBAD0F855B159F557412372F3B5A1F100C4E4",
+      "after_sha256": "7C50CAF11BC7F97394D0D01EC924091500FD37D87DACAEAF90D6E6E89559FE8C"
+    },
+    {
+      "path": "Source/TP_FirstPerson/RidgefireWildcardFactory.cpp",
+      "before_sha256": "4B88B1FC58DE0C85D7BB74EC329A1A9C3851957D3CA7E7483C09D486B2158132",
+      "after_sha256": "97C2FA571153E7FE7C20BCB6ABD1587167CD1FD401C28FD58393162A21AB3F0A"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireRecipeNetworkFixture.cpp",
+      "before_sha256": "A8F3C7F082EEEBAC43B4A9D687673E769F2E86788DA45B5D4654AF651522DB5C",
+      "after_sha256": "E49E055D5E297161B874BFE2F009C8AC97A3F00220138A7F6AD10D555338DFE1"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireScenarioSetup.h",
+      "before_sha256": "4EDA74491F817D09D84ABD5B0350BEF2C398B385C56C4A0C8201B7AC61BEFFE2",
+      "after_sha256": "13AF416BE91F5A2079055F51B71A6929250D21D5A74EC571E2B11A9FCEBF8586"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Tests/RidgefireWalkUpRefitTests.cpp",
+      "before_sha256": null,
+      "after_sha256": "EA85C1D186D179CF7770FFF79CE8523E22F88793278387080670BFB91BDC2C9C"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.cpp",
+      "before_sha256": "3BA19784C5BB78874200E10A4E49E6CE8282AD5F0A20F63E52D5ED2F47A8B871",
+      "after_sha256": "B19B5BAA3A1027B648A748F173C36731AB9A3205DDE71DD7DEAFD3F0D4A16236"
+    },
+    {
+      "path": "Source/TP_FirstPerson/Variant_Shooter/ShooterPlayerController.h",
+      "before_sha256": "8D715C52CE39BB54191D9A2114AA554E20929B35352A13824C99D972F93BE516",
+      "after_sha256": "AFEDAA7824C24F442D01446ED04EF75DDFBE8AE2106BA4DA663E722877ABD41A"
+    }
+  ]
+}

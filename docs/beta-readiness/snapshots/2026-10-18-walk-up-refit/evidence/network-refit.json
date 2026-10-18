@@ -1,0 +1,16 @@
+{
+  "requested": 1,
+  "passed": 1,
+  "failed": 0,
+  "cases": [
+    {
+      "case": 1,
+      "passed": true,
+      "error": null,
+      "seconds": 59.28
+    }
+  ],
+  "inputs_unchanged": true,
+  "binary_unchanged": true,
+  "module_sha256": "8e228ba187c9dba2ad96ac4c32a47edcc1f01e2845081bba7afa6134b9f58464"
+}
