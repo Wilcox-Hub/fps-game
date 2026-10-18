@@ -1,0 +1,72 @@
+{
+  "recorded_on": "2026-10-18",
+  "issues": [
+    {
+      "id": "host-ammo-natural",
+      "status": "open",
+      "priority": "high",
+      "report": "Late in arena one the co-op host's ammo orbs disappeared without increasing ammunition. Host carried unupgraded Gale and Phasma.",
+      "evidence": "docs/design-decisions/interviews/2026-10-17-coop-diagnostics.md",
+      "known": "Controlled grants/pickups pass. That does not reproduce or resolve the exact natural failure.",
+      "next_action": "Trace actual host inventory/reserve state and pickup receipts through an ordinary late-arena run, including down/recovery."
+    },
+    {
+      "id": "rescue-device-acceptance",
+      "status": "human-validation-pending",
+      "priority": "high",
+      "report": "Owner could not rescue/carry a downed co-op partner in the published play session.",
+      "known": "Local Oct17/18 controlled two-process rescue and standard held-E checks pass; new interaction/refit source is not in the current public package.",
+      "evidence": "docs/beta-readiness/snapshots/2026-10-18-standard-interact/report.md",
+      "next_action": "After an explicitly authorized matching release, validate normal two-PC held-E rescue and useful ammo."
+    },
+    {
+      "id": "refit-delivery",
+      "status": "local-candidate-only",
+      "priority": "high",
+      "report": "Owner reported no accessible upgrade station.",
+      "known": "Authored walk-up E refit exists locally and passed recorded tests. Public VS68 has not received this latest station/interaction work.",
+      "evidence": "docs/beta-readiness/snapshots/2026-10-18-walk-up-refit/report.md",
+      "next_action": "Review compatibility/build matching packages/server and validate a separately requested rollout."
+    },
+    {
+      "id": "healing-tube-polish",
+      "status": "owner-acceptance-pending",
+      "priority": "normal",
+      "report": "Owner dislikes healing-tube appearance and originally could not use it.",
+      "known": "Controlled rescue/deposit and medical presentation evidence exists. Appearance and ordinary device feel remain human acceptance work.",
+      "evidence": "docs/beta-readiness/snapshots/2026-10-17-rescue-scenarios/report.md",
+      "next_action": "Show current in-game pod and validate medical interaction in the normal co-op flow."
+    },
+    {
+      "id": "shield-definition",
+      "status": "design-open",
+      "priority": "normal",
+      "report": "Active shield behavior has not been settled.",
+      "decision": "combat-shield",
+      "next_action": "Resume the shield design frontier when this task is chosen."
+    },
+    {
+      "id": "wildcard-100-rolls",
+      "status": "paused-by-owner",
+      "priority": "normal",
+      "report": "Isolated100-roll output monitoring/review and change suggestion are requested but unfinished.",
+      "decision": "workflow-roll-audit",
+      "next_action": "Keep paused until owner resumes."
+    },
+    {
+      "id": "historical-coverage",
+      "status": "bounded-recovery",
+      "priority": "normal",
+      "report": "Recovered saved interview answers are indexed; five unanswered prompts are explicit gaps. Other external chats are not claimed imported.",
+      "evidence": "docs/design-decisions/coverage.json",
+      "next_action": "Append future answers at capture time; recover missing originals if a relevant saved record becomes available."
+    },
+    {
+      "id": "orca-second-account",
+      "status": "waiting-for-owner-login",
+      "priority": "normal",
+      "report": "Same-account conversation recovery passed. Two-account Windows A→B→A continuity awaits the second login.",
+      "next_action": "Validate once the second account is available; never publish account credentials."
+    }
+  ]
+}

@@ -16,3 +16,11 @@
 ## Beta readiness records
 
 For beta status, scoring, milestone planning, or test selection, read `docs/beta-readiness/latest.json` and `docs/beta-readiness/README.md` first. Reuse saved evidence when its source inputs and validation scope match; use the folder's hash checker before applying historical passes to current code. After relevant tests or a readiness assessment, add a dated snapshot and update the latest pointer and overview together. Keep recorded percentages dated and distinguish gameplay estimates from overall beta acceptance.
+
+<!-- IRON-SUN-MEMORY:BEGIN -->
+## Project memory — all work
+
+- Start every game, art, research, tooling, testing or release task at `docs/memory/README.md` and `active-work.json`; load the relevant current decision branch before implementation. Historical interviews are evidence; latest human corrections govern.
+- Capture grill-me questions/options/original answers, approvals and replacements through `docs/memory/WORKFLOW.md`. Update work/issue/evidence pointers at checkpoints and completion; preserve unanswered choices explicitly.
+- The owner authorizes ongoing memory-only GitHub updates. Run the memory check and scoped publication preview before publishing through `tools/project_memory.py`; this authorization excludes unrelated game/source, builds, launcher feeds and server deployment.
+<!-- IRON-SUN-MEMORY:END -->

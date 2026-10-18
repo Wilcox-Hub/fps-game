@@ -1,0 +1,93 @@
+{
+  "recovered_on": "2026-10-18",
+  "question_count": 162,
+  "updated_on": "2026-10-18",
+  "answer_count": 157,
+  "interviews": [
+    {
+      "id": "2026-10-02-perks",
+      "path": "docs/design-decisions/interviews/2026-10-02-perks.json",
+      "questions": 1,
+      "answers": 1,
+      "missing_answer_ids": []
+    },
+    {
+      "id": "2026-10-04-pacing-economy",
+      "path": "docs/design-decisions/interviews/2026-10-04-pacing-economy.json",
+      "questions": 5,
+      "answers": 1,
+      "missing_answer_ids": [
+        "2026-10-04-pacing-economy-q1",
+        "2026-10-04-pacing-economy-q2",
+        "2026-10-04-pacing-economy-q3",
+        "2026-10-04-pacing-economy-q4"
+      ]
+    },
+    {
+      "id": "2026-10-08-combat-movement",
+      "path": "docs/design-decisions/interviews/2026-10-08-combat-movement.json",
+      "questions": 24,
+      "answers": 24,
+      "missing_answer_ids": []
+    },
+    {
+      "id": "2026-10-11-lean-ion",
+      "path": "docs/design-decisions/interviews/2026-10-11-lean-ion.json",
+      "questions": 35,
+      "answers": 35,
+      "missing_answer_ids": []
+    },
+    {
+      "id": "2026-10-13-naming-perks",
+      "path": "docs/design-decisions/interviews/2026-10-13-naming-perks.json",
+      "questions": 18,
+      "answers": 18,
+      "missing_answer_ids": []
+    },
+    {
+      "id": "2026-10-14-arena-arrival",
+      "path": "docs/design-decisions/interviews/2026-10-14-arena-arrival.json",
+      "questions": 15,
+      "answers": 15,
+      "missing_answer_ids": []
+    },
+    {
+      "id": "2026-10-14-recoil",
+      "path": "docs/design-decisions/interviews/2026-10-14-recoil.json",
+      "questions": 5,
+      "answers": 5,
+      "missing_answer_ids": []
+    },
+    {
+      "id": "2026-10-14-shield",
+      "path": "docs/design-decisions/interviews/2026-10-14-shield.json",
+      "questions": 1,
+      "answers": 0,
+      "missing_answer_ids": [
+        "2026-10-14-shield-q1"
+      ]
+    },
+    {
+      "id": "2026-10-14-wave-pressure",
+      "path": "docs/design-decisions/interviews/2026-10-14-wave-pressure.json",
+      "questions": 3,
+      "answers": 3,
+      "missing_answer_ids": []
+    },
+    {
+      "id": "2026-10-16-wildcard-refits",
+      "path": "docs/design-decisions/interviews/2026-10-16-wildcard-refits.json",
+      "questions": 52,
+      "answers": 52,
+      "missing_answer_ids": []
+    },
+    {
+      "id": "2026-10-17-coop-diagnostics",
+      "path": "docs/design-decisions/interviews/2026-10-17-coop-diagnostics.json",
+      "questions": 3,
+      "answers": 3,
+      "missing_answer_ids": []
+    }
+  ],
+  "limits": "Backfill from two saved segments of this game's conversation. Not a complete transcript export. Missing answers and deferred choices remain explicit; source dates and validation scopes are retained."
+}

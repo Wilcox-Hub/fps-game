@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "root": "iron-sun",
+  "nodes": [
+    {
+      "id": "iron-sun",
+      "kind": "project",
+      "path": "docs/memory/README.md"
+    },
+    {
+      "id": "direction",
+      "kind": "decision-index",
+      "path": "docs/design-decisions/README.md"
+    },
+    {
+      "id": "active-work",
+      "kind": "task",
+      "path": "docs/memory/active-work.json"
+    },
+    {
+      "id": "open-issues",
+      "kind": "issue-index",
+      "path": "docs/memory/open-issues.json"
+    },
+    {
+      "id": "checkpoints",
+      "kind": "work-history",
+      "path": "docs/memory/work-log.jsonl"
+    },
+    {
+      "id": "validation",
+      "kind": "evidence-pointer",
+      "path": "docs/beta-readiness/latest.json"
+    },
+    {
+      "id": "memory-workflow",
+      "kind": "workflow",
+      "path": "docs/memory/WORKFLOW.md"
+    },
+    {
+      "id": "identity-modes",
+      "kind": "design-topic",
+      "path": "docs/design-decisions/topics/identity-modes.md"
+    },
+    {
+      "id": "combat-movement",
+      "kind": "design-topic",
+      "path": "docs/design-decisions/topics/combat-movement.md"
+    },
+    {
+      "id": "waves-arenas",
+      "kind": "design-topic",
+      "path": "docs/design-decisions/topics/waves-arenas.md"
+    },
+    {
+      "id": "weapons-economy",
+      "kind": "design-topic",
+      "path": "docs/design-decisions/topics/weapons-economy.md"
+    },
+    {
+      "id": "wildcards-refits",
+      "kind": "design-topic",
+      "path": "docs/design-decisions/topics/wildcards-refits.md"
+    },
+    {
+      "id": "squad-arrival",
+      "kind": "design-topic",
+      "path": "docs/design-decisions/topics/squad-arrival.md"
+    },
+    {
+      "id": "presentation",
+      "kind": "design-topic",
+      "path": "docs/design-decisions/topics/presentation.md"
+    },
+    {
+      "id": "network-delivery",
+      "kind": "design-topic",
+      "path": "docs/design-decisions/topics/network-delivery.md"
+    },
+    {
+      "id": "work-policy",
+      "kind": "design-topic",
+      "path": "docs/design-decisions/topics/work-policy.md"
+    },
+    {
+      "id": "2026-10-02-perks",
+      "kind": "interview",
+      "path": "docs/design-decisions/interviews/2026-10-02-perks.md"
+    },
+    {
+      "id": "2026-10-04-pacing-economy",
+      "kind": "interview",
+      "path": "docs/design-decisions/interviews/2026-10-04-pacing-economy.md"
+    },
+    {
+      "id": "2026-10-08-combat-movement",
+      "kind": "interview",
+      "path": "docs/design-decisions/interviews/2026-10-08-combat-movement.md"
+    },
+    {
+      "id": "2026-10-11-lean-ion",
+      "kind": "interview",
+      "path": "docs/design-decisions/interviews/2026-10-11-lean-ion.md"
+    },
+    {
+      "id": "2026-10-13-naming-perks",
+      "kind": "interview",
+      "path": "docs/design-decisions/interviews/2026-10-13-naming-perks.md"
+    },
+    {
+      "id": "2026-10-14-arena-arrival",
+      "kind": "interview",
+      "path": "docs/design-decisions/interviews/2026-10-14-arena-arrival.md"
+    },
+    {
+      "id": "2026-10-14-recoil",
+      "kind": "interview",
+      "path": "docs/design-decisions/interviews/2026-10-14-recoil.md"
+    },
+    {
+      "id": "2026-10-14-shield",
+      "kind": "interview",
+      "path": "docs/design-decisions/interviews/2026-10-14-shield.md"
+    },
+    {
+      "id": "2026-10-14-wave-pressure",
+      "kind": "interview",
+      "path": "docs/design-decisions/interviews/2026-10-14-wave-pressure.md"
+    },
+    {
+      "id": "2026-10-16-wildcard-refits",
+      "kind": "interview",
+      "path": "docs/design-decisions/interviews/2026-10-16-wildcard-refits.md"
+    },
+    {
+      "id": "2026-10-17-coop-diagnostics",
+      "kind": "interview",
+      "path": "docs/design-decisions/interviews/2026-10-17-coop-diagnostics.md"
+    },
+    {
+      "id": "environment",
+      "kind": "environment",
+      "path": "docs/memory/ENVIRONMENT.md"
+    },
+    {
+      "id": "memory-validation",
+      "kind": "tool-evidence",
+      "path": "docs/memory/setup-validation.json"
+    }
+  ],
+  "edges": [
+    {
+      "from": "iron-sun",
+      "to": "direction",
+      "relation": "contains"
+    },
+    {
+      "from": "iron-sun",
+      "to": "active-work",
+      "relation": "contains"
+    },
+    {
+      "from": "iron-sun",
+      "to": "open-issues",
+      "relation": "contains"
+    },
+    {
+      "from": "iron-sun",
+      "to": "checkpoints",
+      "relation": "contains"
+    },
+    {
+      "from": "iron-sun",
+      "to": "validation",
+      "relation": "contains"
+    },
+    {
+      "from": "iron-sun",
+      "to": "memory-workflow",
+      "relation": "contains"
+    },
+    {
+      "from": "direction",
+      "to": "identity-modes",
+      "relation": "contains"
+    },
+    {
+      "from": "direction",
+      "to": "combat-movement",
+      "relation": "contains"
+    },
+    {
+      "from": "direction",
+      "to": "waves-arenas",
+      "relation": "contains"
+    },
+    {
+      "from": "direction",
+      "to": "weapons-economy",
+      "relation": "contains"
+    },
+    {
+      "from": "direction",
+      "to": "wildcards-refits",
+      "relation": "contains"
+    },
+    {
+      "from": "direction",
+      "to": "squad-arrival",
+      "relation": "contains"
+    },
+    {
+      "from": "direction",
+      "to": "presentation",
+      "relation": "contains"
+    },
+    {
+      "from": "direction",
+      "to": "network-delivery",
+      "relation": "contains"
+    },
+    {
+      "from": "direction",
+      "to": "work-policy",
+      "relation": "contains"
+    },
+    {
+      "from": "direction",
+      "to": "2026-10-02-perks",
+      "relation": "supported-by"
+    },
+    {
+      "from": "direction",
+      "to": "2026-10-04-pacing-economy",
+      "relation": "supported-by"
+    },
+    {
+      "from": "direction",
+      "to": "2026-10-08-combat-movement",
+      "relation": "supported-by"
+    },
+    {
+      "from": "direction",
+      "to": "2026-10-11-lean-ion",
+      "relation": "supported-by"
+    },
+    {
+      "from": "direction",
+      "to": "2026-10-13-naming-perks",
+      "relation": "supported-by"
+    },
+    {
+      "from": "direction",
+      "to": "2026-10-14-arena-arrival",
+      "relation": "supported-by"
+    },
+    {
+      "from": "direction",
+      "to": "2026-10-14-recoil",
+      "relation": "supported-by"
+    },
+    {
+      "from": "direction",
+      "to": "2026-10-14-shield",
+      "relation": "supported-by"
+    },
+    {
+      "from": "direction",
+      "to": "2026-10-14-wave-pressure",
+      "relation": "supported-by"
+    },
+    {
+      "from": "direction",
+      "to": "2026-10-16-wildcard-refits",
+      "relation": "supported-by"
+    },
+    {
+      "from": "direction",
+      "to": "2026-10-17-coop-diagnostics",
+      "relation": "supported-by"
+    },
+    {
+      "from": "active-work",
+      "to": "open-issues",
+      "relation": "continues"
+    },
+    {
+      "from": "active-work",
+      "to": "validation",
+      "relation": "validated-by"
+    },
+    {
+      "from": "checkpoints",
+      "to": "validation",
+      "relation": "references"
+    },
+    {
+      "from": "iron-sun",
+      "to": "environment",
+      "relation": "contains"
+    },
+    {
+      "from": "iron-sun",
+      "to": "memory-validation",
+      "relation": "contains"
+    }
+  ],
+  "decision_replacement_edges": "docs/design-decisions/current.json: decisions[].supersedes/superseded_by"
+}

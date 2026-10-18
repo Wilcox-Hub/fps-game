@@ -29,3 +29,9 @@ To verify memory, save a harmless project fact (for example, “Iron Sun's first
 Verification on 2026-09-27: the official plugin's status/doctor checks identified `https://github.com/Wilcox-Hub/fps-game` and authenticated successfully. From this checkout, its core capture/flush saved the harmless user-confirmed first-arena sentry constraint (`semantic-succeeded`, one memory). A separate fresh Python process using the same plugin core and repository scope retrieved that fact. This verifies repository-scoped save/retrieval, not automatic hook behavior in a newly opened Codex game task. The verification chat's workspace was a different folder, so its MCP `search_memories` results were not proof of FPS-repo scope; future game tasks should open this checkout directly and confirm the scope there.
 
 Official setup reference: [Mem0 Codex integration guide](https://github.com/mem0ai/mem0/blob/main/docs/integrations/codex.mdx).
+
+<!-- IRON-SUN-MEMORY:BEGIN -->
+## Canonical all-work memory
+
+Start at [Project Memory](memory/README.md). It connects approved direction, original grill-me answers, current work, open issues and canonical test evidence. Every task reads the relevant branch and updates it through [the workflow](memory/WORKFLOW.md). Mem0 remains an optional searchable aid; this GitHub-backed tree is the shared record.
+<!-- IRON-SUN-MEMORY:END -->

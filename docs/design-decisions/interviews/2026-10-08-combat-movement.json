@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "id": "2026-10-08-combat-movement",
+  "captured_on": "2026-10-18",
+  "source_kind": "recovered-primary-conversation",
+  "scope": "Game-design questions and user answers only. Original options preserved when available. Dates in file names are America/Los_Angeles; provenance timestamps are UTC.",
+  "completeness": "Recovered entries only; missing answers are explicitly marked. This is not a complete export of every chat or every historical interview.",
+  "entries": [
+    {
+      "question_number": 1,
+      "question": "❓ **Q1 — What makes it boring?** Pick the **two biggest problems** from your last session:\n\n- Enemies are predictable.\n- Shooting and killing them feels unsatisfying.\n- There’s little reason to move or change tactics.\n- Nothing exciting happens between ordinary fights.\n- Buying weapons and upgrades doesn’t feel rewarding.\n\n➡️ My starting recommendation: **predictable enemies and too few meaningful tactical decisions**. Your experience should decide the priority.\n",
+      "options": [],
+      "answer": "1 and 2",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-07T21:35:13.894Z",
+        "text_sha256": "1938b52dfe3baa57b5276eea6b0e7ebf9fdaf9acbb3d636ea50c70524d7c9aca"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:38:17.174Z",
+        "text_sha256": "c761a01453b0f12c0d1ced55a91864bb1cc8e46dd9f7a2a05683a6ecc7f4e142"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q1",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 2,
+      "question": "❓ **Q2 — What should good movement look like?** When the team is playing well, should they mostly:\n\n- Hold a defensible position, then relocate when enemies threaten it?\n- Advance between cover positions to complete objectives?\n- Stay moving throughout most fights?\n\n➡️ I recommend **holding positions temporarily, with deliberate moves between cover**. Teams should be able to establish control, but enemies should create understandable reasons to leave.\n",
+      "options": [],
+      "answer": "Use suggested",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-07T21:35:13.894Z",
+        "text_sha256": "61d53930a2bf9ae42177a4ac27c8ce27318751a348bdda3683bdc7f3de166ec2"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:38:17.174Z",
+        "text_sha256": "55f8e1ad22126405566ed889b427531f00402a6c3a29d35d25aafd2d71859325"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q2",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 3,
+      "question": "❓ **Q3 — How forgiving should combat be?** Against ordinary enemies midway through a run, should stepping into the open allow:\n\n- A brief chance to react and reach cover?\n- Several seconds to fight back before retreating?\n- Very little margin unless a teammate helps?\n\n➡️ I recommend **several seconds against one ordinary enemy, but a brief escape window when multiple enemies concentrate fire**. Sustained exposure should hurt; a single mistake should usually be recoverable.",
+      "options": [],
+      "answer": "2 \n\nAlso a slide mechanic would be great, and maybe a dash/roll?",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-07T21:35:13.894Z",
+        "text_sha256": "5d41c88c4856e7663039b8c9ffe86c6022ebb41e748b2b769bb60812eed10617"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:38:17.174Z",
+        "text_sha256": "e2d82c531b05a75f1c06af8e5a26f33a09ce41f37b2eacc6d180a3e7e4a96f52"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q3",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 4,
+      "question": "❓ **Q4 — Enemy unpredictability:** What should make you change your plan?\n\n- Enemies taking different routes and angles.\n- Different enemy roles working together.\n- Occasional reinforcements changing an otherwise controlled fight.\n\n➡️ I recommend **different routes plus complementary roles**: one enemy pressures your position while another moves for an angle. Their actions should be readable enough that you can respond.\n",
+      "options": [],
+      "answer": "Use suggested",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:38:53.043Z",
+        "text_sha256": "16c9777d9cf89197f0f7981f6898fd31fc240808f3f52969aeefc732e2f07e3c"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:40:48.655Z",
+        "text_sha256": "55f8e1ad22126405566ed889b427531f00402a6c3a29d35d25aafd2d71859325"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q4",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 5,
+      "question": "❓ **Q5 — Satisfying shooting:** Which **two** improvements matter most?\n\n- Stronger sound, recoil, and impact feedback.\n- Enemies visibly reacting to hits and dying convincingly.\n- Precision rewarded through weak points or armor.\n- Guns feeling more distinct from each other.\n\n➡️ I recommend **impact feedback and enemy reactions first**. Those directly address whether ordinary shooting feels good.\n",
+      "options": [],
+      "answer": "1 and 5.",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:38:53.043Z",
+        "text_sha256": "31dcb2ef10d2923c54769de522475ddc71c3766de22587406c915d2ee4751e3d"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:40:48.655Z",
+        "text_sha256": "4a7aa87d4d6ddeca36e9a131ae939ceb69db3c4d786adf35c18a679419145367"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q5",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 6,
+      "question": "❓ **Q6 — What is sliding for?** Should its main purpose be:\n\n- Reaching nearby cover while under fire?\n- Attacking aggressively while sliding?\n- Moving faster around the arena?\n\n➡️ I recommend **reaching cover under fire**. Start from a sprint, carry momentum briefly, and commit to the direction. That gives it a clear tactical purpose; we can settle shooting during slides and recovery time next.",
+      "options": [],
+      "answer": "1 and 2, sliding should have reduced accuracy",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:38:53.043Z",
+        "text_sha256": "88ca8b317c1573b243108b844a5fc874c167684da227b435e013a29d9953cbf1"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:40:48.655Z",
+        "text_sha256": "0898b7d028bf8eb2a8030f563e2b231d888e74142ccdd9448639ff0c0528e9ae"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q6",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 7,
+      "question": "❓ **Q7 — Shooting feedback:** You chose **1 and 5**, but there were only four options. Alongside stronger sound, recoil, and impacts, did you mean:\n\n- **2:** Better enemy hit reactions and deaths.\n- **3:** Weak points and armor rewarding precision.\n- **4:** More distinct gun handling.\n- Something else?\n\n➡️ I recommend **2**, but won’t assume that’s your answer.\n",
+      "options": [],
+      "answer": "I meant 1 and 4. But also 2 is a good focus",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:41:25.575Z",
+        "text_sha256": "756bc259b2f5b6bff383d017395581c75d7009358106e6a77fbf3b6e9c108a88"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:44:24.187Z",
+        "text_sha256": "e678dff5cabce254a34c44d07aa431f1c414e656ad0b16c3168c3bdc67de1152"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q7",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 8,
+      "question": "❓ **Q8 — Enemy firing pattern:** Should ordinary ranged enemies use short bursts, sustained fire, or individual deliberate shots?\n\n➡️ I recommend **short bursts with recognizable pauses**. Different enemies can threaten different angles while you get opportunities to shoot or move. Heavier enemies can have slower, more threatening attacks.\n",
+      "options": [],
+      "answer": "Too simple, mostly short bursts but a mix would be good",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:41:25.575Z",
+        "text_sha256": "aa291a9e7b052651186269d7e98c56470ab05b5cc545e96c005c882d86500421"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:44:24.187Z",
+        "text_sha256": "d836b40de69178a654166beca054ca503e0a8122f0bf148995b1176095c0c75d"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q8",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 9,
+      "question": "❓ **Q9 — Aiming during slides:** Should you be able to aim down sights while sliding, with reduced accuracy, or only fire from the hip?\n\n➡️ I recommend **allowing both**, with reduced accuracy even when aiming. Sliding should remain useful for close attacks while making precise shots harder.\n",
+      "options": [],
+      "answer": "Both, but hip is better",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:41:25.575Z",
+        "text_sha256": "cac1deddb0a0e5898aacf84e8674324be35b40eba954283caf4362cb8fb6c14b"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:44:24.187Z",
+        "text_sha256": "921d29621a36558b5da66e091474723cdd06565bb400fdc81efa03890f7229af"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q9",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 10,
+      "question": "❓ **Q10 — Repeated sliding:** What should limit it?\n\n- Needing sprint speed again, plus a brief recovery.\n- A fixed cooldown.\n- A stamina cost.\n\n➡️ I recommend **sprint speed and a brief recovery**. Each slide spends momentum, so repeatedly sliding should cost you positioning and time.\n",
+      "options": [],
+      "answer": "1, if should be a momentum thing",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:41:25.575Z",
+        "text_sha256": "44bd03a39bafa7365e02705327ce6a90be5f84d5c2ea10546896d7b01c3834bd"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:44:24.187Z",
+        "text_sha256": "15a9325089b798577f441ccf6e1967b0e63673f7d3f8e19074b3ac473fb7683a"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q10",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 11,
+      "question": "❓ **Q11 — Roll or dash:** Should the first movement pass include another evasive move, or should we test sliding before deciding?\n\n➡️ I recommend **testing sliding first**. If you still need a quick sideways escape from a standing position, a short physical dodge could fill that role. Sliding itself should provide no invulnerability.",
+      "options": [],
+      "answer": "Use suggested",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:41:25.575Z",
+        "text_sha256": "1ad347b05754c661ba4c740268587b15140b9047b4ab7bcb1f449b53fee49a0e"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:44:24.187Z",
+        "text_sha256": "55f8e1ad22126405566ed889b427531f00402a6c3a29d35d25aafd2d71859325"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q11",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 12,
+      "question": "❓ **Q12 — The firing mix:** Does this match what you mean?\n\n- Most bots fire short bursts.\n- Some fire longer sequences that pressure exposed players.\n- Heavy attacks use slower, powerful shots with a clear wind-up.\n- Each enemy type keeps a recognizable firing style.\n\n➡️ I recommend this mix. You can learn an enemy’s behavior while still having to respond to changing situations.\n",
+      "options": [],
+      "answer": "Yes use this mix but not too harshly, that feels too predictable and basic and the goal of this game is not to be too predictable or basic. Let’s make it fast and dangerous",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:45:12.721Z",
+        "text_sha256": "0a9508355c19cc1c734e87891702f0358e204c449109d912df48d8e2d880cc4f"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:49:34.366Z",
+        "text_sha256": "6c8e546bfda1d64be0462b5c6818b6907e918cc0d33d1d66caee0fb562d70417"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q12",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 13,
+      "question": "❓ **Q13 — Flanking pressure:** Should enemies routinely try to surround you, or should coordinated flanks be occasional threats?\n\n➡️ I recommend **limited coordinated flanks**: one enemy pressures your cover while another takes a side route. Footsteps and movement should give you a chance to detect it. Larger groups can create more angles as difficulty increases.\n",
+      "options": [],
+      "answer": "Use suggested, make some bot types smarter than others and change up which are smarter and more strategic based on the arena",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:45:12.721Z",
+        "text_sha256": "df77bd4c442ecea9ebd3c3cc5da1e4f6958d54e0c7dcc2383ccfb527f50bb39b"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:49:34.366Z",
+        "text_sha256": "3a8fff5d8819331e2d26d4acb0d3b4d9f15e0d38e61268c51ba39f374f3f7db1"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q13",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 14,
+      "question": "❓ **Q14 — Slide steering:** How much control should you have after starting?\n\n- Mostly committed, with small steering adjustments.\n- Freely steer throughout.\n- Completely fixed direction.\n\n➡️ I recommend **small steering adjustments**. Enough to reach cover cleanly, while preserving the consequences of your initial direction.\n",
+      "options": [],
+      "answer": "Use suggested",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:45:12.721Z",
+        "text_sha256": "eda2de42180f64986fd1021599875d95ac12084e40ee9f294a0c87ca40939310"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:49:34.366Z",
+        "text_sha256": "55f8e1ad22126405566ed889b427531f00402a6c3a29d35d25aafd2d71859325"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q14",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 15,
+      "question": "❓ **Q15 — Ending a slide:** Should you finish crouched or automatically stand?\n\n➡️ I recommend **finishing crouched**, then standing or sprinting when you choose. That makes sliding behind low cover dependable.",
+      "options": [],
+      "answer": "I think it should be based on you, if you hold down the crouch button with momentum then you slide and if you let go too soon you stand up, but if you let go late you’re still just crouched and have no momentum yk?",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:45:12.721Z",
+        "text_sha256": "df89c62a2b7b9fb1bb1f45b9ceee83731eaa2b8647ef66eaaac23eba54b79873"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:49:34.366Z",
+        "text_sha256": "ac29d28bdd3de9fc03654c026eea1fdcb0b9532937d8021bb19e5310f2ac7f24"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q15",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 16,
+      "question": "❓ **Q16 — Dodging enemy fire:** Should enemies keep correcting their aim throughout a burst, or commit enough that a well-timed slide can escape their shots?\n\n➡️ I recommend **limited aim correction**. Ordinary bots commit more; smarter bots track better or anticipate movement. That lets speed and positioning matter without making sliding an automatic escape.\n",
+      "options": [],
+      "answer": "Use suggested for now, let’s test it and make tweaks",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:50:26.726Z",
+        "text_sha256": "fa677e6f2e35756c513416532f1f07019f232d3c55f426478b17cb754c2f0fa7"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:53:59.491Z",
+        "text_sha256": "f766a900cf41e0cf76df9a2390a753aed4170a22eb46635b16e90eee3dab7219"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q16",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 17,
+      "question": "❓ **Q17 — Changing intelligence:** Should each arena always have the same smarter bot types, or should that change between runs too?\n\n➡️ I recommend **arena tendencies with variation between runs**. An arena favors certain tactics, but different bot types can take the strategic role. Their movement and coordination should reveal the threat.\n",
+      "options": [],
+      "answer": "Use suggested",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:50:26.726Z",
+        "text_sha256": "c996558a23614371aa1d14184d550b8068a3a030ee84b721cd876a3d991b124f"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:53:59.491Z",
+        "text_sha256": "55f8e1ad22126405566ed889b427531f00402a6c3a29d35d25aafd2d71859325"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q17",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 18,
+      "question": "❓ **Q18 — Standing after a slide:** After momentum runs out and releasing crouch leaves you crouched, should tapping crouch again or starting a sprint bring you upright?\n\n➡️ I recommend **both**, provided there’s room to stand. Early release stands you up immediately; late release preserves your crouched position.\n",
+      "options": [],
+      "answer": "It’s a good not toggle, sprinting should automatically bring you upright anytime your crouched yes.",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:50:26.726Z",
+        "text_sha256": "ed732c1f53904cc6779af3a60ffc87b9291fec18fb1af7991b81c3f3efc0c6fb"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:53:59.491Z",
+        "text_sha256": "faca4fdcf642c31050d863a9bcb8364f36514301929c78ca103f7944d592a16b"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q18",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 19,
+      "question": "❓ **Q19 — Aiming down sights:** The code check found no dedicated sight-aiming system in the shooter code. Should normal aiming tighten accuracy and slow movement, while aiming during a slide remains unstable?\n\n➡️ I recommend **yes**, with modest zoom. During slides, hip fire should be quicker and more controllable; aiming shouldn’t erase the movement penalty.\n",
+      "options": [],
+      "answer": "Yes use suggested",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:50:26.726Z",
+        "text_sha256": "8544a5ad0914b448df530d0d3fdc9e6b667af17d99202b982b2df8a599cb3d2e"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:53:59.491Z",
+        "text_sha256": "5bc7af5a6955a53f80b6cc220933727da8e11b82ef9b079467f5c15b7a3fe060"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q19",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 20,
+      "question": "❓ **Q20 — Distinct gun handling:** Should guns demand noticeably different firing habits—controlled automatic fire, timed bursts, heavy deliberate shots—or mainly differ in sound and damage?\n\n➡️ I recommend **different firing habits plus distinct sound, recoil, and impacts**. Each gun should give you a reason to use it beyond having higher damage.",
+      "options": [],
+      "answer": "Yes use suggested, also increased recoil for heavier shooting guns and for really high fire rate",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:50:26.726Z",
+        "text_sha256": "17acefe58f6031a51029419ad1a86531431e197927f9c67adc7bbaeec1be6387"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:53:59.491Z",
+        "text_sha256": "5d7fa06bc42aa07bf4838a7fd18ede7671dd59ec2f5913416bd1bd088446b827"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q20",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 21,
+      "question": "❓ **Q21 — Releasing crouch late:** Once the slide has lost momentum, should releasing crouch:\n\n- Stand you up, keeping crouch consistently hold-based?\n- Leave you crouched until you sprint, preserving your earlier slide rule?\n\n➡️ I recommend **the first**: hold to remain crouched, release to stand, sprint to stand and move. But your earlier late-release behavior is a valid alternative.\n",
+      "options": [],
+      "answer": "The first",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:54:22.221Z",
+        "text_sha256": "53a737d359c36eca40a1e7de2c39dfa11697ea7e5fd13c9645fb0d27928999d7"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:57:04.240Z",
+        "text_sha256": "6c5be2173287547e70a21a1fa8288ec3061cc030a5f4e879cc4afd97e4464a29"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q21",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 22,
+      "question": "❓ **Q22 — Recoil control:** Should stronger recoil follow a learnable pattern, or introduce substantial random kick?\n\n➡️ I recommend **mostly controllable upward recoil with modest sideways variation**. Heavy guns kick sharply per shot; rapid-fire guns become harder to control during sustained fire.\n",
+      "options": [],
+      "answer": "Use suggested, also not every gun should be the same but keep gun types to similar patterns to learn easier but also be difficult to aim perfectly with no effort",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:54:22.221Z",
+        "text_sha256": "0e1d806f2537b1c14336ee23671539da34d23663a07baaef865bd1e9dbb009fd"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:57:04.240Z",
+        "text_sha256": "389afaec2594552ac8398e0f4c55d96bc20b4138f7794a0d7d64b39db63d959a"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q22",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 23,
+      "question": "❓ **Q23 — Enemy hit reactions:** Should hits only look impactful, or should sufficiently heavy hits sometimes interrupt an enemy’s attack?\n\n➡️ I recommend **small visible reactions for ordinary hits, with selective interruptions from heavy hits or weak-point hits**. Tough enemies should resist interruption, so sustained fire can’t keep every bot helpless.",
+      "options": [],
+      "answer": "Use suggested",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:54:22.221Z",
+        "text_sha256": "5d88d38705cf9d6872b018d6da16579bbe138f294d1fb916b90fe84260f1428f"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-08T23:57:04.240Z",
+        "text_sha256": "55f8e1ad22126405566ed889b427531f00402a6c3a29d35d25aafd2d71859325"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-08-combat-movement-q23",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": null,
+      "question": "For buying and upgrading weapons, which pacing should we try first?",
+      "options": [
+        "60-second regroup, with early team start",
+        "90-second regroup, with early team start",
+        "Keep short breaks; unlock upgrades after encounter 3"
+      ],
+      "answer": "90-second regroup, with early team start",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-09T05:37:28.324Z",
+        "text_sha256": "22c6d42dc711a7f5fc9f940c9985f42cda4bdbfb105da76fca409b3cded4e34e"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-09T05:38:48.484Z",
+        "text_sha256": "1f4726f0ed83c0bf2f542dbcd991b2babdbe981218cc1f2feb31b33696a0534b"
+      },
+      "capture": "original-question",
+      "id": "2026-10-08-combat-movement-choice24",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    }
+  ]
+}

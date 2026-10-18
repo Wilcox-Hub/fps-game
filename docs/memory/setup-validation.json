@@ -1,0 +1,29 @@
+{
+  "tested_at": "2026-10-18T09:02:22.321610+00:00",
+  "scope": "Project-memory tooling and archive only; no new gameplay, build, fun or readiness assessment.",
+  "archive": {
+    "interviews": 11,
+    "questions": 162,
+    "answers_recovered": 157,
+    "missing_answer_prompts": 5,
+    "wildcard_questions_1_through_51": "all recovered plus final approval",
+    "decision_records": 49
+  },
+  "checks": {
+    "original_answer_hashes": "pass",
+    "unique_ids_and_replacement_edges": "pass",
+    "graph_targets": "pass",
+    "focused_tool_tests": "13 passed",
+    "retrieval_current_lean_removal": "pass",
+    "retrieval_original_host_ammo_failure": "pass",
+    "publication_scope_preview": "memory/decision documents, helper/tests and marked pointer blocks only"
+  },
+  "privacy": "Exports selected game-design Q&A and work facts, not raw sessions, reasoning, authentication material or unrelated chat.",
+  "limits": [
+    "No complete transcript import is claimed.",
+    "Five unanswered/unrecovered prompts are explicit, including active shield behavior.",
+    "Agent instructions enforce the read/update workflow; this is not a background agent or new paid cloud service.",
+    "Mem0 remains optional and was not reconfigured or claimed live-verified by this setup."
+  ],
+  "game": "Unchanged. Existing beta-readiness record remains canonical."
+}

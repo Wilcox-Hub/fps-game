@@ -16,3 +16,9 @@ Work in `unreal/Ridgefire/`; the root HTML/CSS/JavaScript browser prototype is s
 ## Beta readiness records
 
 For beta status, scoring, milestone planning, or test selection, read `docs/beta-readiness/latest.json` and `docs/beta-readiness/README.md` first. Reuse saved evidence when its source inputs and validation scope match; use the folder's hash checker before applying historical passes to current code. After relevant tests or a readiness assessment, add a dated snapshot and update the latest pointer and overview together. Keep recorded percentages dated and distinguish gameplay estimates from overall beta acceptance.
+
+<!-- IRON-SUN-MEMORY:BEGIN -->
+## Project memory
+
+All Unreal work follows repository-root `docs/memory/README.md` and its workflow. Read current decisions before implementation; capture answers, corrections, work status and scoped evidence afterward. Routine memory-only GitHub sync is owner-authorized; game/source/releases retain their separate publication rule.
+<!-- IRON-SUN-MEMORY:END -->

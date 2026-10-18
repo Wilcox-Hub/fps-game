@@ -1,0 +1,815 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-10-18",
+  "authority": "Current human request > explicit later human correction > active approved rule > historical summaries. Provisional values require validation.",
+  "topics": {
+    "identity-modes": "Identity, modes and naming",
+    "combat-movement": "Combat, movement and controls",
+    "waves-arenas": "Waves, arena layout and pressure",
+    "weapons-economy": "Two-slot weapons, shards and arsenal",
+    "wildcards-refits": "Wildcard pool, potential and physical upgrades",
+    "squad-arrival": "Squad lobby, perks and arena arrival",
+    "presentation": "Visual direction, characters and readable UI",
+    "network-delivery": "Co-op, launcher and delivery",
+    "work-policy": "How development, memory and validation work"
+  },
+  "sources": {
+    "owner-arena-identity": {
+      "kind": "owner-approved-design-summary",
+      "path": "docs/beta-readiness/snapshots/2026-10-08-vs51/design/PACING_AND_WEAPON_PROGRESSION.md",
+      "note": "Approved Oct4 direction; its old cash, break duration and upgrade-choice details have later replacements below."
+    },
+    "owner-pressure-wording": {
+      "kind": "owner-statement",
+      "quote": "This is great, replace fast with pressure inducing",
+      "context": "Enemy fight description; approved afterward."
+    },
+    "owner-lean-removal": {
+      "kind": "owner-statement",
+      "quote": "Also let’s make sure the lean function is removed from the game for now. I don’t think it’s actually worth it. Now let’s get that shield tactical working."
+    },
+    "owner-e-interact": {
+      "kind": "owner-statement",
+      "quote": "Let’s make e the standard interact key. When you walk up to a downed teammate you have to hold e to pick them up how’s bout"
+    },
+    "owner-two-slots": {
+      "kind": "owner-statement-and-approved-design",
+      "quote": "make it 1 & 2 and 3 is an extra weapon slot for later",
+      "clarification": "Owner subsequently agreed to a two-weapon core without a third-slot unlock. The published Oct8 pacing design records that approved final carry limit.",
+      "path": "docs/beta-readiness/snapshots/2026-10-08-vs51/design/PACING_AND_WEAPON_PROGRESSION.md"
+    },
+    "owner-slot-pickup": {
+      "kind": "owner-statement",
+      "quote": "like apex legends when you equip a gun it automatically adds it to 1 slot then the next gun you grab auto loads to the 2 slot and whatever gun your holding when you click swap that slot is switched"
+    },
+    "owner-rack-focus": {
+      "kind": "owner-statement",
+      "quote": "id rather it be more like you hover your crosshair or center of your screen over the slightly highlighted gun and select it and see the stats"
+    },
+    "owner-shards": {
+      "kind": "owner-statement",
+      "quote": "Still don’t love the layout but it’s better. Also 30 seconds between rounds is not enough time to rage a weapon, we need either more time or it to unlock after a certain wave. Also let’s make it shards instead of cash"
+    },
+    "owner-midround-arsenal": {
+      "kind": "owner-statement",
+      "quote": "make a reroll for a random gun still possible to buy mid round and guns to be upgraded"
+    },
+    "owner-refit-interaction": {
+      "kind": "owner-statement",
+      "quote": "also upgrade station was not available. also i think it should function more like the pack a punch where you walk up and just press e or f and drop it in and drop it in for the cost with it displaying the cost and a glimpse of the upgrade direction when you hover over it"
+    },
+    "owner-magma-request": {
+      "kind": "owner-statement",
+      "quote": "make one gun shoot like a lava splatter but be blue glowing magma and its super overpowered but very short range and hurts you if it touches you because the magma stays on the ground for 10 seconds. and it overheats rather easy but recharges ammo with sunlight slowly. but if the arena we enter doesn't have sun light it doesn't recharge"
+    },
+    "owner-art-sheet": {
+      "kind": "owner-statement",
+      "quote": "for the visual sheeet i like 1, 2 if it had a different color/texture, 3, 4, and 6",
+      "context": "Later sheet preference replaces assumptions based on earlier numbered sheets. Preserve the specific referenced image before using numeric cells as an art brief."
+    },
+    "owner-optics": {
+      "kind": "owner-statement",
+      "quote": "great thanks, now lets add a scope to the guns, thinking a holo for the phasma and 2x for the other",
+      "context": "The other starting gun is Gale; corresponding Oct16 optics record identifies it."
+    },
+    "owner-menu-reference": {
+      "kind": "owner-feedback",
+      "quote": "The whole vibe, it’s hard to handstand, too much info and not clear enough. And it’s ugly menus. These are examples of better looking menus and ui",
+      "context": "Owner supplied Portal2, a sparse pause menu and a compact audio panel as references. Actual image assets remain separate visual references."
+    },
+    "owner-lobby-direction": {
+      "kind": "owner-approved-design-summary",
+      "local_path": "unreal/Ridgefire/LOBBY_DIRECTION.md",
+      "summary": "Mockup5 Minimal Frontline with mockup1 atmosphere. Later correction puts human foreground, lizard behind; lizard stays selectable. Launcher opens menu; party gathers before explicit Start. Appearance is cosmetic."
+    },
+    "owner-resolution": {
+      "kind": "owner-statement",
+      "quote": "No one will be playing below 1080p. Many people will play on 2k and some on 4K later on"
+    },
+    "owner-moving-backdrop": {
+      "kind": "owner-statement",
+      "quote": "Also in the future let’s make the backdrop moving and add sounds"
+    },
+    "owner-character-fidelity": {
+      "kind": "owner-statement",
+      "quote": "Can we make sure all the characters are perfect and follow their mockups?"
+    },
+    "owner-working-name": {
+      "kind": "owner-statement",
+      "quote": "Just keep it as iron sun for now but let’s keep working on the name"
+    },
+    "owner-server-direction": {
+      "kind": "owner-statements-and-deployment-record",
+      "summary": "Keep run progression on the host; no host migration or shared Steam Cloud run state for this milestone. Later approved a free Lenovo private-server path and one game UDP tunnel; rented scale-out servers remain a later business choice.",
+      "path": "docs/beta-readiness/snapshots/2026-10-16-vs68-launcher-publication/report.md"
+    },
+    "owner-launcher": {
+      "kind": "owner-request",
+      "quote": "It needs to be a pc friendly download, I’d likely email it to my friends or send it through discord",
+      "summary": "Owner requested an installed launcher, shortcuts, game download and automatic published updates. Browser security/user launch prompts remain platform behavior."
+    },
+    "owner-no-signing-cost": {
+      "kind": "owner-answer",
+      "quote": "keep unsigned, no approval for further costs",
+      "context": "Declines recurring Artifact Signing charge. Do not add paid services or new fees."
+    },
+    "owner-grill-policy": {
+      "kind": "owner-statement",
+      "quote": "If you’re not 98% confident on any instruction pls activate grill me skill automatically until 98% confidence or higher is achieved",
+      "clarification": "Use interviews to resolve design uncertainty; confidence percentages are not measured proof or a substitute for owner acceptance."
+    },
+    "owner-scenario-runner": {
+      "kind": "owner-statement",
+      "quote": "please run a simulation with two characters reviving each other like its two players. and if you dont have a way to do that please make a way son we can test specific functions and scenarios and just load up a prompt and scene for what we need to test and set a number of tests where each one is slight different like a different angle or holding a different gun or on a different arena"
+    },
+    "owner-100-roll-pause": {
+      "kind": "owner-request-and-current-work-record",
+      "quote": "Can you pause what you’re doing and publish the latest work to the launcher? About to run out of usage and I want to get that out to test before.",
+      "context": "The isolated100-roll audit was paused; current work record and published release record preserve that state. Do not auto-resume it through this memory setup."
+    },
+    "owner-memory-scope": {
+      "kind": "owner-request-current-task",
+      "quote": "So ALL work flows through that and uses it as a memory for direction and all work",
+      "context": "Standing authorization for routine memory-only capture/publication; game/source/releases remain separate authorized actions."
+    },
+    "current-evidence": {
+      "kind": "published-validation-index",
+      "path": "docs/beta-readiness/latest.json",
+      "note": "Check input hashes, evidence date and validation level before reusing passes. Latest is a pointer; follow it instead of treating cached memory as current test proof."
+    },
+    "current-work-record": {
+      "kind": "local-continuation-record",
+      "local_path": "docs/ORCA_WORK_IN_PROGRESS.md",
+      "note": "Oct18 local standard E and walk-up refit work finished; original natural host ammo loss unresolved; game source unpublished. Local path is provenance, not a link claiming a published file."
+    }
+  },
+  "decisions": [
+    {
+      "id": "identity-arena-survival",
+      "topic": "identity-modes",
+      "title": "Sci-fi squad arena survival",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Keep the sentry-arena identity, purposeful enemies, pressure, cover and stakes. The main route moves arena to arena. Zombie theming, mindless crowds, repeated circular kiting and superhero player powers do not define this game.",
+      "sources": [
+        "owner-arena-identity",
+        "owner-pressure-wording"
+      ]
+    },
+    {
+      "id": "identity-modes",
+      "topic": "identity-modes",
+      "title": "Progression Run and Holdout",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "PROGRESSION RUN is the multi-arena mode, targeting a 45–60-minute successful run. HOLDOUT is the future single-arena survival mode; tune its duration later. Expose only the current playable mode for now.",
+      "sources": [
+        "owner-arena-identity",
+        "2026-10-13-naming-perks-q10",
+        "2026-10-13-naming-perks-q13"
+      ]
+    },
+    {
+      "id": "identity-working-title",
+      "topic": "identity-modes",
+      "title": "Keep IRON SUN for now",
+      "status": "open",
+      "recorded_on": "2026-10-18",
+      "rule": "IRON SUN remains the working title. Naming is open: short, industrial/in-world language, pressure/survival with some competition; explore restrained stamped lettering and a fighter-applied mark after selecting a title. None of the rejected REDUCT variations or later shortlist names is approved.",
+      "sources": [
+        "owner-working-name",
+        "2026-10-13-naming-perks-q1",
+        "2026-10-13-naming-perks-q3",
+        "2026-10-13-naming-perks-q5",
+        "2026-10-13-naming-perks-q7",
+        "2026-10-13-naming-perks-q15"
+      ]
+    },
+    {
+      "id": "combat-pressure",
+      "topic": "combat-movement",
+      "title": "Pressure-inducing fights",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Favor temporary holds and deliberate movement between cover. Mostly short enemy bursts mix with longer pressure and telegraphed heavy attacks. Limited aim correction, complementary roles and bounded coordinated flanks let movement matter. Strategic roles vary by arena and between runs; avoid a rigid predictable script.",
+      "sources": [
+        "owner-pressure-wording",
+        "2026-10-08-combat-movement-q2",
+        "2026-10-08-combat-movement-q8",
+        "2026-10-08-combat-movement-q12",
+        "2026-10-08-combat-movement-q13",
+        "2026-10-08-combat-movement-q16",
+        "2026-10-08-combat-movement-q17"
+      ]
+    },
+    {
+      "id": "combat-slide",
+      "topic": "combat-movement",
+      "title": "Hold crouch and spend momentum",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Slide from sprint momentum, with small steering adjustments and reduced shooting accuracy. Permit hipfire and ADS, with hipfire more practical. Hold to remain crouched; release stands when clear, and sprint stands when clear. Rebuild momentum before repeating. A roll/dash remains deferred until sliding is tested.",
+      "sources": [
+        "2026-10-08-combat-movement-q6",
+        "2026-10-08-combat-movement-q9",
+        "2026-10-08-combat-movement-q10",
+        "2026-10-08-combat-movement-q11",
+        "2026-10-08-combat-movement-q14",
+        "2026-10-08-combat-movement-q21"
+      ]
+    },
+    {
+      "id": "combat-recoil",
+      "topic": "combat-movement",
+      "title": "Learnable recoil with bounded tracking relief",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Manageable opening shots grow into more demanding climb/drift; stronger heavy-gun and sustained rapid-fire recoil. Related gun families share learnable patterns without becoming identical. Use visible backward/upward gun kick with little extra camera shake; recovery respects manual compensation; ADS slightly calms recoil. Only modest capped tracking relief borrows the Apex characteristic; build the rest as IRON SUN's own foundation.",
+      "sources": [
+        "2026-10-08-combat-movement-q22",
+        "2026-10-14-recoil-q1",
+        "2026-10-14-recoil-q2",
+        "2026-10-14-recoil-q3",
+        "2026-10-14-recoil-q4",
+        "2026-10-14-recoil-q5"
+      ]
+    },
+    {
+      "id": "controls-lean-enabled",
+      "topic": "combat-movement",
+      "title": "Historical lean implementation",
+      "status": "superseded",
+      "recorded_on": "2026-10-11",
+      "rule": "The October 11 interview approved manual Q/E lean, hold default and a settings toggle. This is historical, replaced by removal.",
+      "sources": [
+        "2026-10-11-lean-ion-q1",
+        "2026-10-11-lean-ion-q4",
+        "2026-10-11-lean-ion-q5"
+      ],
+      "superseded_by": "controls-lean-removed"
+    },
+    {
+      "id": "controls-lean-removed",
+      "topic": "combat-movement",
+      "title": "Lean is removed for now",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Remove lean behavior and its settings entry. Historical lean answers do not authorize reintroducing it.",
+      "sources": [
+        "owner-lean-removal"
+      ],
+      "supersedes": [
+        "controls-lean-enabled"
+      ]
+    },
+    {
+      "id": "controls-old-rescue",
+      "topic": "combat-movement",
+      "title": "Historical T rescue binding",
+      "status": "superseded",
+      "recorded_on": "2026-10-11",
+      "rule": "The lean/Ion interview chose V melee, F healing and T contextual rescue/arsenal. World interaction has since moved to E.",
+      "sources": [
+        "2026-10-11-lean-ion-q28"
+      ],
+      "superseded_by": "controls-e-interact"
+    },
+    {
+      "id": "controls-e-interact",
+      "topic": "combat-movement",
+      "title": "E standard interaction and held rescue pickup",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "E is standard world interaction. Hold E near a downed teammate to pick them up; a short cancelled hold must do nothing. Releasing after pickup keeps carrying; a fresh E press sets down or deposits at medical equipment. F heals; V is melee, with M a current fallback. Keep prompts and input context consistent across racks, arsenals, upgrades and objectives.",
+      "sources": [
+        "owner-e-interact",
+        "current-work-record"
+      ],
+      "supersedes": [
+        "controls-old-rescue"
+      ]
+    },
+    {
+      "id": "controls-hold-duration",
+      "topic": "combat-movement",
+      "title": "Initial rescue hold duration",
+      "status": "provisional",
+      "recorded_on": "2026-10-18",
+      "rule": "The current local implementation uses 0.65 seconds with progress feedback and range/target cancellation. This is an engineering tuning choice, not a user-selected or human-accepted duration.",
+      "sources": [
+        "current-work-record"
+      ]
+    },
+    {
+      "id": "combat-ion",
+      "topic": "combat-movement",
+      "title": "Ion is a weapon identity",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Ion is a semi-automatic arsenal gun, not a universal player power. Normal direct successful hits build one stored charge based on roughly 3–4 original magazines; misses do not. A deliberate alternate attack has a short cancellable windup, one-round cost and small aimed impact disruption pulse. Preserve gun charge across reloads, holstering, upgrades and Continue. Signal ready charge audibly and visually; heavier bots resist interruption.",
+      "sources": [
+        "2026-10-11-lean-ion-q9",
+        "2026-10-11-lean-ion-q12",
+        "2026-10-11-lean-ion-q13",
+        "2026-10-11-lean-ion-q14",
+        "2026-10-11-lean-ion-q15",
+        "2026-10-11-lean-ion-q16",
+        "2026-10-11-lean-ion-q18",
+        "2026-10-11-lean-ion-q22",
+        "2026-10-11-lean-ion-q23",
+        "2026-10-11-lean-ion-q34",
+        "2026-10-11-lean-ion-q35"
+      ]
+    },
+    {
+      "id": "combat-shield",
+      "topic": "combat-movement",
+      "title": "Active shield remains unresolved",
+      "status": "open",
+      "recorded_on": "2026-10-18",
+      "rule": "The owner requests an active shield tactical. Its form and exact behavior are not yet approved; a passive team Shield bonus is not proof of an active tactical. Resolve the shield interview frontier before implementation.",
+      "sources": [
+        "owner-lean-removal",
+        "2026-10-14-shield-q1"
+      ]
+    },
+    {
+      "id": "waves-opening",
+      "topic": "waves-arenas",
+      "title": "Easy first two rounds of the run",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Rounds 1–2 of the entire run should feel forgiving through fewer enemies and lower incoming damage. Ramp afterward primarily through numbers, overlapping arrivals and tougher role combinations, with health and damage increasing more gradually.",
+      "sources": [
+        "2026-10-14-wave-pressure-q1",
+        "2026-10-14-wave-pressure-q2",
+        "2026-10-14-wave-pressure-q3"
+      ]
+    },
+    {
+      "id": "waves-arena-relief",
+      "topic": "waves-arenas",
+      "title": "New arenas ease population and reduce health 10%",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Later arenas open with fewer enemies. Ordinary role health starts at 90% of the previous arena's final-round baseline, then continues growing from that point. Carry earned difficulty and enemy damage forward; do not reset every arena to the first-run easy opening. Apply co-op scaling using current party size.",
+      "sources": [
+        "2026-10-14-wave-pressure-q1",
+        "2026-10-14-wave-pressure-q3"
+      ]
+    },
+    {
+      "id": "arenas-layout",
+      "topic": "waves-arenas",
+      "title": "Layout follows the approved first-map mockup",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Keep the planned desert-colosseum layout and visible multiple gate/door arrival locations; enemies walk from coherent entrances rather than popping into the center. Walls and gates must meet correctly. Larger playable scale, pressure toward cover and authored enemy routes remain visual/gameplay goals requiring actual map review.",
+      "sources": [
+        "owner-arena-identity",
+        "current-evidence"
+      ]
+    },
+    {
+      "id": "weapons-two-slots",
+      "topic": "weapons-economy",
+      "title": "Exactly two carried weapons",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Keys 1 and 2 select the two usable carried guns. A third carried slot/unlock is outside the core approved design. Empty slots fill in order; with both full, accepting a replacement changes the currently held slot. Racks, inventory displays, saves and co-op must agree on actual owned usable weapons.",
+      "sources": [
+        "owner-two-slots",
+        "owner-slot-pickup"
+      ]
+    },
+    {
+      "id": "economy-shards",
+      "topic": "weapons-economy",
+      "title": "Shards and acquisition choices",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Use shards. Known weapon purchases are the dependable main purchase lane; preserve the random wildcard reroll instead of a duplicate mystery box. Encounter and optional-objective cash-equivalent shard rewards are shared; difficult melee-finisher bonus rewards belong to the attacker. Preserve clarity about individual cost/ownership.",
+      "sources": [
+        "owner-shards",
+        "owner-arena-identity",
+        "2026-10-11-lean-ion-q29",
+        "2026-10-11-lean-ion-q30"
+      ]
+    },
+    {
+      "id": "economy-short-break",
+      "topic": "weapons-economy",
+      "title": "Historical short regroup",
+      "status": "superseded",
+      "recorded_on": "2026-10-18",
+      "rule": "Earlier direction allowed roughly 15–25 seconds between encounters. That was later replaced by the selected 90-second break.",
+      "sources": [
+        "owner-arena-identity"
+      ],
+      "superseded_by": "economy-regroup90"
+    },
+    {
+      "id": "economy-regroup90",
+      "topic": "weapons-economy",
+      "title": "90-second regroup and early team start",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Use 90-second breaks between encounters with an early team start. Initial run preparation has no forced countdown. Paid known weapons, random rerolls and upgrades remain available mid-combat through the arsenal; interaction supplies no safety pause.",
+      "sources": [
+        "2026-10-08-combat-movement-choice24",
+        "owner-midround-arsenal",
+        "2026-10-14-arena-arrival-q13"
+      ],
+      "supersedes": [
+        "economy-short-break"
+      ]
+    },
+    {
+      "id": "weapons-rack",
+      "topic": "weapons-economy",
+      "title": "Crosshair selection and optional detail",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Approach a physical gun rack, aim at a slightly highlighted weapon, inspect it and select it. Keep a compact readable comparison and make detailed statistics optional. Actual held/displayed models should match and remain clear of walls. Preserve movement and reliable one-action input.",
+      "sources": [
+        "owner-rack-focus",
+        "2026-10-14-arena-arrival-q11"
+      ]
+    },
+    {
+      "id": "weapons-optics",
+      "topic": "weapons-economy",
+      "title": "Phasma holo and Gale 2x",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Fit Phasma with a 1x holo and Gale with a 2x optic. ADS must align the reticle and actual camera aim with the shot trace; spread, parallax/near cover and recoil still require explicit scoped validation.",
+      "sources": [
+        "owner-optics",
+        "current-evidence"
+      ]
+    },
+    {
+      "id": "wildcards-quality",
+      "topic": "wildcards-refits",
+      "title": "Weak through jackpot with real tradeoffs",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Weak guns remain functional. Mid rolls beat base Phasma in their intended role while allowing recoil, range, ammo or handling costs. Rare jackpots can shred ordinary bots; bosses and late waves still matter. Most strong rolls have tradeoffs, with rare excellent all-round exceptions. Fixed upgrade potential can turn a weak start into an exceptional weapon.",
+      "sources": [
+        "2026-10-16-wildcard-refits-q1",
+        "2026-10-16-wildcard-refits-q2",
+        "2026-10-16-wildcard-refits-q3",
+        "2026-10-16-wildcard-refits-q4",
+        "2026-10-16-wildcard-refits-q9",
+        "2026-10-16-wildcard-refits-q16"
+      ]
+    },
+    {
+      "id": "wildcards-pool",
+      "topic": "wildcards-refits",
+      "title": "Families, parts and firing cycles",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Six normal families: sidearms, compact automatics, rifles, precision rifles, scatterguns and heavy automatics, plus very rare launchers and dedicated melee. Compatible physical frame/core/emitter/feed/grip/cooling/optic parts determine actual mechanics. Include semi-auto, auto, burst, pump/bolt, charge and supported spin-up. Melee occupies one weapon slot; physical strikes work empty and powered attacks consume charge. Finite cells/ammo remains the normal rule.",
+      "sources": [
+        "2026-10-16-wildcard-refits-q18",
+        "2026-10-16-wildcard-refits-q26",
+        "2026-10-16-wildcard-refits-q27",
+        "2026-10-16-wildcard-refits-q35",
+        "2026-10-16-wildcard-refits-q37"
+      ]
+    },
+    {
+      "id": "wildcards-mechanisms",
+      "topic": "wildcards-refits",
+      "title": "Eight selected signature mechanisms",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Use embedded-hit detonation; narrow/wide pattern switching; real bounded surface ricochets; manually guided projectiles for rare heavy launchers; persistent impact fields; continuous heat-managed beams; a held powered cutter; and broad enemy-penetrating shots. Most special guns get one, rare compatible jackpots two. Electrical chaining and remote planted spikes were not selected. Weaknesses are mechanical; remove random self-damage, damage wheels, health stealing and health/sprint/streak damage multipliers. Specific blue-magma hazard damage is an explicitly approved exception.",
+      "sources": [
+        "2026-10-16-wildcard-refits-q21",
+        "2026-10-16-wildcard-refits-q22",
+        "2026-10-16-wildcard-refits-q24"
+      ]
+    },
+    {
+      "id": "wildcards-potential",
+      "topic": "wildcards-refits",
+      "title": "Potential counter final boundary",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Draw each player's next marked-offer interval with 5% of intervals on rolls 1–3,80% on 4–8 and 15% on 9–10; guarantee by 10. Count each new free/token/shard wildcard offer, not inspecting the same offer or known purchases. Reset when the marked offer appears, even if passed. Preserve the per-player per-run counter across arenas/Continue; reset for a new run. The mark promises an exceptional fixed upgraded form, not immediate jackpot quality.",
+      "sources": [
+        "2026-10-16-wildcard-refits-q9",
+        "2026-10-16-wildcard-refits-q47",
+        "2026-10-16-wildcard-refits-q48",
+        "2026-10-16-wildcard-refits-q49",
+        "2026-10-16-wildcard-refits-q50",
+        "2026-10-16-wildcard-refits-q51"
+      ]
+    },
+    {
+      "id": "wildcards-odds",
+      "topic": "wildcards-refits",
+      "title": "Initial probability tuning",
+      "status": "provisional",
+      "recorded_on": "2026-10-18",
+      "rule": "Early:20% weak/50% mid/27% good/3% jackpot; deep arenas approach 10/40/42/8. Improve with arena progress, not reroll spam. Launchers and dedicated melee each around 1% of all rolls. Blue magma around 0.25% early,0.5% deep, inside jackpot odds. These are initial tuning targets, not measured distribution results.",
+      "sources": [
+        "2026-10-16-wildcard-refits-q7",
+        "2026-10-16-wildcard-refits-q10",
+        "2026-10-16-wildcard-refits-q41",
+        "2026-10-16-wildcard-refits-q42"
+      ]
+    },
+    {
+      "id": "wildcards-magazines-optics",
+      "topic": "wildcards-refits",
+      "title": "Normal/extended magazines and varied sights",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Normal and extended magazines are separate rolls. Good/jackpot quality plus a high or very low family-relative fire rate increases extended-mag likelihood; it is not guaranteed. Usually pay a modest reload/handling cost. Provide multiple fitted optics at 1x/2x/3x/4x where appropriate, including a red upside-down-V chevron with its apex as aim reference. Shared alternate fire keeps RMB for ADS.",
+      "sources": [
+        "2026-10-16-wildcard-refits-q28",
+        "2026-10-16-wildcard-refits-q35",
+        "2026-10-16-wildcard-refits-q36",
+        "2026-10-16-wildcard-refits-q40"
+      ]
+    },
+    {
+      "id": "wildcards-magma",
+      "topic": "wildcards-refits",
+      "title": "Solar blue-magma jackpot",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Very rare, very strong short-range blue-glowing magma gun. Hold fire for irregular heavy arcing blobs, roughly 6m useful reach, with left/right variation. Ground deposits last 10 seconds; owner can be hurt. Base protects teammates; the major upgraded form greatly increases damage and also harms teammates. Player hazard damage is reduced but dangerous. Overheat readily. Recharge slowly only in direct sunlight, held or stowed; shade/roofs/sunless arenas block recharge. Ordinary ammo drops do not refill it; paid upgrades retain the refill rule.",
+      "sources": [
+        "owner-magma-request",
+        "2026-10-16-wildcard-refits-q30",
+        "2026-10-16-wildcard-refits-q31",
+        "2026-10-16-wildcard-refits-q32",
+        "2026-10-16-wildcard-refits-q33",
+        "2026-10-16-wildcard-refits-q34",
+        "2026-10-16-wildcard-refits-q38",
+        "2026-10-16-wildcard-refits-q39"
+      ]
+    },
+    {
+      "id": "upgrades-old-choice",
+      "topic": "wildcards-refits",
+      "title": "Historical exact-preview upgrade choice",
+      "status": "superseded",
+      "recorded_on": "2026-10-18",
+      "rule": "Earlier progression proposed exact upgrade previews and choosing a behavior at purchase. Later wildcard/refit answers replace that with a path fixed when rolled and only general hints beforehand.",
+      "sources": [
+        "owner-arena-identity"
+      ],
+      "superseded_by": "upgrades-fixed-path"
+    },
+    {
+      "id": "upgrades-fixed-path",
+      "topic": "wildcards-refits",
+      "title": "Fixed gun-specific transformations",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "All guns can receive a major transformation and only meaningful gun-specific follow-ups. Roll the path with the weapon; preserve its identity. A potential-marked weapon guarantees an exceptional upgraded form. Before paying, show general hints about direction, preserving discovery rather than disclosing exact future stats.",
+      "sources": [
+        "2026-10-16-wildcard-refits-q4",
+        "2026-10-16-wildcard-refits-q5",
+        "2026-10-16-wildcard-refits-q6",
+        "2026-10-16-wildcard-refits-q9",
+        "2026-10-16-wildcard-refits-q15"
+      ],
+      "supersedes": [
+        "upgrades-old-choice"
+      ]
+    },
+    {
+      "id": "upgrades-physical",
+      "topic": "wildcards-refits",
+      "title": "Walk-up shared physical refit",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Aim at the machine, see cost and a general upgrade hint, then E inserts the held gun and pays once. Refit about 5 seconds while the other gun remains usable. One machine for the whole squad stays occupied until the owner collects; no deletion timer. Reserve the original slot without creating a third weapon. Refill the magazine and top reserves up to at least 50%, preserving surplus.",
+      "sources": [
+        "owner-refit-interaction",
+        "owner-e-interact",
+        "2026-10-16-wildcard-refits-q11",
+        "2026-10-16-wildcard-refits-q12",
+        "2026-10-16-wildcard-refits-q13",
+        "2026-10-16-wildcard-refits-q23",
+        "2026-10-16-wildcard-refits-q44"
+      ]
+    },
+    {
+      "id": "upgrades-cost",
+      "topic": "wildcards-refits",
+      "title": "Initial refit prices",
+      "status": "provisional",
+      "recorded_on": "2026-10-18",
+      "rule": "Start testing at 700 shards for the first transformation, then 1,200/1,800 only for meaningful further stages. Saving the first arena's six 120-shard clear rewards yields 720, putting a first upgrade near arena one's end. Costs and earnings remain tuning values, not guaranteed fun or economy acceptance.",
+      "sources": [
+        "2026-10-16-wildcard-refits-q17",
+        "2026-10-16-wildcard-refits-q45"
+      ]
+    },
+    {
+      "id": "arrival-lobby",
+      "topic": "squad-arrival",
+      "title": "Gather and prepare before the match",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Launcher Play opens a front end. Host/join a party, choose cosmetic appearance, choose two perks and the shared team-bonus vote in the lobby, ready up, then the leader explicitly starts. Do not launch directly into an active match or timed post-load selection screens.",
+      "sources": [
+        "owner-lobby-direction",
+        "2026-10-14-arena-arrival-q7",
+        "2026-10-14-arena-arrival-q10"
+      ]
+    },
+    {
+      "id": "arrival-perks",
+      "topic": "squad-arrival",
+      "title": "Four available perks; equip two",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Keep Stable Grip, Rescue Harness, Trauma Kit and Lightweight Rig, available immediately. Each player equips two. Differentiate handling, rescue, healing and movement without superhero powers. Earlier perk lists do not reintroduce removed choices.",
+      "sources": [
+        "2026-10-13-naming-perks-choice17",
+        "2026-10-13-naming-perks-choice18"
+      ]
+    },
+    {
+      "id": "arrival-gate",
+      "topic": "squad-arrival",
+      "title": "Squad-controlled colosseum entrance",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Walk together up broad worn stone/industrial sci-fi steps matching the arena mockups. Protected arsenal/racks sit before the main gate. Collect one free primary and one free secondary without duplicates using the preserved Gale/Phasma/wildcard starter eligibility. No forced preparation countdown; loadout changes clear ready. Open when all active players are equipped/ready; wait for the whole squad to enter, then safely close and begin combat. Later arenas retain gear, use shorter entrances and wait for team readiness; no repeated free starters.",
+      "sources": [
+        "2026-10-14-arena-arrival-q1",
+        "2026-10-14-arena-arrival-q2",
+        "2026-10-14-arena-arrival-q3",
+        "2026-10-14-arena-arrival-q4",
+        "2026-10-14-arena-arrival-q5",
+        "2026-10-14-arena-arrival-q6",
+        "2026-10-14-arena-arrival-q8",
+        "2026-10-14-arena-arrival-q9",
+        "2026-10-14-arena-arrival-q12",
+        "2026-10-14-arena-arrival-q13",
+        "2026-10-14-arena-arrival-q14"
+      ]
+    },
+    {
+      "id": "presentation-ui",
+      "topic": "presentation",
+      "title": "Sparse, readable and consistent",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Use the approved main-screen composition across lobby, selections and arsenal. Reduce information density, keep text crisp and native, give selections stable layouts without one-frame glitches, and put deep stats under Details. Portal 2's sparse menu and the owner's supplied pause/audio references guide hierarchy; copying their artwork is not approved.",
+      "sources": [
+        "owner-menu-reference",
+        "owner-lobby-direction",
+        "2026-10-14-arena-arrival-q11"
+      ]
+    },
+    {
+      "id": "presentation-resolution",
+      "topic": "presentation",
+      "title": "1080p minimum;1440p and 4K",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Target readable native UI and correct scaling at 1080p,1440p and 4K. Prior 720p checks are extra regressions. Validate actual renders instead of treating generated concepts as game screenshots.",
+      "sources": [
+        "owner-resolution",
+        "current-evidence"
+      ]
+    },
+    {
+      "id": "presentation-characters",
+      "topic": "presentation",
+      "title": "Match the character mockups",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Playable 3D characters should follow their approved individual mockups. Keep the lizard selectable, with human foreground/lizard behind in the approved lobby composition. Portrait/backdrop art and prototype mesh visibility do not establish finished model fidelity.",
+      "sources": [
+        "owner-character-fidelity",
+        "owner-lobby-direction"
+      ]
+    },
+    {
+      "id": "presentation-weapon-art",
+      "topic": "presentation",
+      "title": "Distinct alien construction",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Support radically varied alien weapon construction, suggestive of 100+ civilizations, while preserving practical handling, readable muzzles, working ADS and clean rack mounting. Later sheet preference is 1/2/3/4/6; concept 2 uses dark iridescent ceramic and smoked glass. Keep sheet-specific references distinct; a numerical concept choice alone cannot reconstruct a missing image. Upgrades should physically develop the gun.",
+      "sources": [
+        "owner-art-sheet",
+        "2026-10-16-wildcard-refits-q19",
+        "2026-10-16-wildcard-refits-q29"
+      ]
+    },
+    {
+      "id": "presentation-lobby-motion",
+      "topic": "presentation",
+      "title": "Moving backdrop and sound later",
+      "status": "deferred",
+      "recorded_on": "2026-10-18",
+      "rule": "Add appropriate lobby motion, ambience and menu feedback in a future polish pass. Preserve the approved composition; exact animation/audio treatment remains open.",
+      "sources": [
+        "owner-moving-backdrop"
+      ]
+    },
+    {
+      "id": "network-host-state",
+      "topic": "network-delivery",
+      "title": "Host-owned runs and private playtest server",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Keep progression/checkpoints on the active host/server. Preserve LAN and the approved free Lenovo private-server/tunnel route for remote friends. Host migration and shared Steam Cloud run state are outside this milestone. A future rented-server expansion is a separate decision; do not treat old dedicated-server deferral as cancelling the already approved Lenovo playtest.",
+      "sources": [
+        "owner-server-direction"
+      ]
+    },
+    {
+      "id": "delivery-launcher",
+      "topic": "network-delivery",
+      "title": "Installed launcher and published updates",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Friends get a clear Windows installer/link, installed launcher and shortcuts. Launcher downloads/verifies the game and published updates. Play opens the front end. Keep launcher, game package, server protocol and tested source identities distinct; local code edits are not automatically live updates.",
+      "sources": [
+        "owner-launcher",
+        "owner-lobby-direction",
+        "current-evidence"
+      ]
+    },
+    {
+      "id": "delivery-cost",
+      "topic": "network-delivery",
+      "title": "No new signing fee",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Keep the launcher unsigned under the owner's current choice. No new paid signing, subscriptions or service charges without separate explicit approval. Do not disable Windows protections to hide an unsigned-app prompt.",
+      "sources": [
+        "owner-no-signing-cost"
+      ]
+    },
+    {
+      "id": "workflow-memory",
+      "topic": "work-policy",
+      "title": "Every task uses project memory",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Before any game, art, tooling, research, testing or release task, read the memory index/current work and only the relevant decision branches. Capture new user answers, corrections, outcomes, open questions and evidence at checkpoints. Publish scoped memory updates to GitHub under this standing request; preserve unrelated code and separate release authorization. Keep original answers and supersession history.",
+      "sources": [
+        "owner-memory-scope"
+      ]
+    },
+    {
+      "id": "workflow-clarification",
+      "topic": "work-policy",
+      "title": "Resolve uncertain design through grill-me",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "When instructions/direction remain uncertain under the owner's requested 98% threshold, apply the grilling skill, asking the current frontier in batches with recommendations and waiting for answers/confirmation. Look up environmental facts first. Save exact questions/options/answers and clarify corrections; never claim numerical confidence is an observed test result.",
+      "sources": [
+        "owner-grill-policy"
+      ]
+    },
+    {
+      "id": "workflow-evidence",
+      "topic": "work-policy",
+      "title": "Dated evidence with scoped reuse",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Beta-readiness latest.json/README are canonical for tested status. Match input hashes, package/environment and validation level before reusing passes. Keep source, build, controlled simulation, rendered, packaged, network/device, performance and human-fun evidence distinct. Do not rerun unchanged matching tests by default or increase readiness based on documentation.",
+      "sources": [
+        "current-evidence"
+      ]
+    },
+    {
+      "id": "workflow-scenarios",
+      "topic": "work-policy",
+      "title": "Reusable controlled scenarios",
+      "status": "approved",
+      "recorded_on": "2026-10-18",
+      "rule": "Maintain prompt/scene/count-style scenario testing for specific functions, including two actual player-controlled roles reviving/carrying each other with varied angle, gun, arena and owner/client role. Store results and input identity in beta-readiness; automation supplements real-device and human-feel testing.",
+      "sources": [
+        "owner-scenario-runner",
+        "current-evidence"
+      ]
+    },
+    {
+      "id": "workflow-roll-audit",
+      "topic": "work-policy",
+      "title": "100-roll audit stays paused",
+      "status": "deferred",
+      "recorded_on": "2026-10-18",
+      "rule": "The isolated 100-roll wildcard output/distribution review remains paused at the owner's release request. Keep its requested summary/change suggestion as pending work; do not mark it run or completed.",
+      "sources": [
+        "owner-100-roll-pause"
+      ]
+    }
+  ]
+}

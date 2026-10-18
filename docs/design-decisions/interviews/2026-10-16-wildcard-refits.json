@@ -1,0 +1,1224 @@
+{
+  "schema_version": 1,
+  "id": "2026-10-16-wildcard-refits",
+  "captured_on": "2026-10-18",
+  "source_kind": "recovered-primary-conversation",
+  "scope": "Game-design questions and user answers only. Original options preserved when available. Dates in file names are America/Los_Angeles; provenance timestamps are UTC.",
+  "completeness": "Recovered entries only; missing answers are explicitly marked. This is not a complete export of every chat or every historical interview.",
+  "entries": [
+    {
+      "question_number": 1,
+      "question": "❓ Q1 — How overpowered can a jackpot get? ➡️ I recommend shredding ordinary bots while bosses still demand a fight.",
+      "options": [
+        "Shred ordinary bots; bosses remain dangerous (Recommended)",
+        "Allow rare rolls that melt bosses too"
+      ],
+      "answer": "use 1 but with exceptions that later rounds still feel a bi hard like the progression in zombies games",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:12:40.559Z",
+        "text_sha256": "bf3dfd5f46d832e6bc75ce2ee4617d8680ecfe79f04f4046aa93e7509fa679e8"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:15:36.298Z",
+        "text_sha256": "6ea6e124d631f13915769f7809ab78839265b765152ec1fdd5391f2f1f215c50"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q1",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 2,
+      "question": "❓ Q2 — By “mid,” do you mean an average-quality roll should outperform an unupgraded Phasma in its intended role, while still allowing worse range, recoil or ammo economy? ➡️ I recommend keeping those tradeoffs.",
+      "options": [
+        "Stronger in its role, with tradeoffs (Recommended)",
+        "Stronger than base Phasma in every major stat"
+      ],
+      "answer": "Stronger in its role, with tradeoffs (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:12:40.559Z",
+        "text_sha256": "49157e4c73d7dd6246daaac880e9c154a6e870f6628adc905fc0263a6ac272ec"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:15:36.298Z",
+        "text_sha256": "87ccca9347d6a50cea0a7e8965b4f2b109517b07cc3af9315d4d16d664422dff"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q2",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 3,
+      "question": "❓ Q3 — How bad can a bad roll be? ➡️ I recommend weaker or awkward but still functional, with occasional useful situations.",
+      "options": [
+        "Weak or awkward, but usable (Recommended)",
+        "Some can be nearly useless before upgrading"
+      ],
+      "answer": "Weak or awkward, but usable (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:12:40.559Z",
+        "text_sha256": "743da0ede097329874fa4ddf4f481d1d7bef1580044cb88b45fe7ab0c92d89c9"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:15:36.298Z",
+        "text_sha256": "0d24d7cf27e0ee6bef4a752c713731cdd4de8f4b078e2883162c0cd7a1a27a6a"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q3",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 4,
+      "question": "❓ Q4 — What determines an upgrade’s transformation? ➡️ I recommend giving each rolled gun its own fixed upgrade path, so its potential is real and upgrading develops that same gun.",
+      "options": [
+        "Fixed path rolled with the gun (Recommended)",
+        "Player chooses between two paths",
+        "Roll a new random outcome on each upgrade"
+      ],
+      "answer": "Fixed path rolled with the gun (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:12:40.559Z",
+        "text_sha256": "19f7490fce27cd0ee94b956f8e164fe3025f6dbc891df466c67f01486298b4c3"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:15:36.298Z",
+        "text_sha256": "d204d8d101186d372761b4cbd2ea6ec9850aa411c2e0b5407d8504f3e34ecea4"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q4",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 5,
+      "question": "❓ Q5 — How should upgrade stages work? ➡️ I recommend one major transformation, with further upgrades only where that gun has a meaningful additional change.",
+      "options": [
+        "Big transformation, then gun-specific follow-ups (Recommended)",
+        "Two major stages available to every gun",
+        "Keep three levels for every gun"
+      ],
+      "answer": "Big transformation, then gun-specific follow-ups (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:12:40.559Z",
+        "text_sha256": "3b1f06a01e9eacb9e61a6b60ef012f6f471a984a43e57a11f4b43eb2436f2ecf"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:15:36.298Z",
+        "text_sha256": "6b6bfd12a6b09da4e1a3b14c631f19501c1b1c38ff88fe35d99f0abdd50b313a"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q5",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 6,
+      "question": "❓ Q6 — Should this redesign apply to Gale and Phasma too? ➡️ I recommend distinct upgrades for both, with wildcards having much more varied power and potential.",
+      "options": [
+        "All guns; wildcards have the widest variation (Recommended)",
+        "Only wildcard guns for now"
+      ],
+      "answer": "All guns; wildcards have the widest variation (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:12:40.559Z",
+        "text_sha256": "5d8ef6165c721d7465a14c7958af4f386603b77d58bc2c1196ac598676fb60c4"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:15:36.298Z",
+        "text_sha256": "9a15a247ddb1d1587f10634ba5bc8b35d60f846fc78786bb6cd9a238eaec1c7d"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q6",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 7,
+      "question": "❓ Q7 — The free starting wildcard can currently use the full random pool. Should it still be able to roll a jackpot? ➡️ I recommend allowing it, with better jackpot odds on later shard rerolls.",
+      "options": [
+        "Starting jackpots possible; later rerolls have better odds (Recommended)",
+        "Same full pool and odds from the start",
+        "Reserve overpowered rolls for later shard rerolls"
+      ],
+      "answer": "Starting jackpots possible; later rerolls have better odds (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:12:40.559Z",
+        "text_sha256": "f9c60a0ffc50d47bf78c9196572955aab48609f3047c02a5d90aedb444762de6"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:15:36.298Z",
+        "text_sha256": "18b6c73bc73d4c75366415b34a9e331d2a5f0f4acaf8becab18618d2e868e885"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q7",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 8,
+      "question": "❓ Q8 — Which Pack-a-Punch qualities matter most? ➡️ I recommend both a dramatic weapon transformation and a short physical refit at our existing arsenal. You could use your other gun while it works.",
+      "options": [
+        "Transformation plus a short physical refit (Recommended)",
+        "Weapon transformation, with instant arsenal upgrades",
+        "Focus mainly on the machine interaction"
+      ],
+      "answer": "Transformation plus a short physical refit (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:12:40.559Z",
+        "text_sha256": "729cf484a54fb2b26ed72f5bcbfbfc07e566385cba5d154db0f972a324151874"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:15:36.298Z",
+        "text_sha256": "e59bed7196217865b62e9754c97afc930252aa17f33d871b49e520baad212071"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q8",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 9,
+      "question": "❓ Q9 — What should the potential symbol promise? ➡️ I recommend that it guarantees an exceptional upgraded form somewhere along that gun’s fixed path. The exact result can remain a surprise.",
+      "options": [
+        "Guaranteed exceptional upgrade potential (Recommended)",
+        "Only a chance of an exceptional upgrade"
+      ],
+      "answer": "Guaranteed exceptional upgrade potential (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:17:13.423Z",
+        "text_sha256": "6f1805bb47706d1513b4568f3e1a6e7de35f733c665fdf0ef2ca3d08f684c521"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:21:25.326Z",
+        "text_sha256": "1a99035663dc0d4d71edd775f3902503bc7eff375af2d45e2a29441cbf3875c5"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q9",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 10,
+      "question": "❓ Q10 — How should later rerolls gain better odds? ➡️ I recommend improving the odds as the squad reaches deeper arenas, while keeping bad rolls possible. Repeatedly buying rolls alone would not improve the odds.",
+      "options": [
+        "Improve with arena progress (Recommended)",
+        "Give every shard reroll the same improved odds"
+      ],
+      "answer": "Improve with arena progress (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:17:13.423Z",
+        "text_sha256": "3e286f87a90423d998ae7b6feff1fd945cefa52c6da1f2982c91ec9d52e452da"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:21:25.326Z",
+        "text_sha256": "6e879cba50023c6d8342e7f1f8d0c3d24e84a88394980dbd202c18429633d7e5"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q10",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 11,
+      "question": "❓ Q11 — How long should the physical arsenal refit take? You can fight with your other gun during it. ➡️ I recommend about five seconds as our first test.",
+      "options": [
+        "About 5 seconds (Recommended)",
+        "About 3 seconds",
+        "About 8 seconds"
+      ],
+      "answer": "About 5 seconds (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:17:13.423Z",
+        "text_sha256": "91773a866c2ecdae248d4d692741c400ea4492658d08c290c075ecd5dd5e4eb4"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:21:25.326Z",
+        "text_sha256": "ad408ae23cf2b42cfdcdcb04475e26ed93ccd205fdfccef524f4f058eda29efe"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q11",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 12,
+      "question": "❓ Q12 — How do you recover the upgraded gun? ➡️ I recommend collecting it from the arsenal yourself, with no timer that deletes an uncollected weapon.",
+      "options": [
+        "Collect it yourself; no disappearance timer (Recommended)",
+        "Return it automatically when the refit finishes"
+      ],
+      "answer": "Collect it yourself; no disappearance timer (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:17:13.423Z",
+        "text_sha256": "f3e8dbf226436c31462ed0716467ed1461893a14cb0a14277854c1c02c97a5b6"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:21:25.326Z",
+        "text_sha256": "6f9012a9040268436d69214f142ebc778940dd32880e36078b79ac11da3b18de"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q12",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 13,
+      "question": "❓ Q13 — Can squad members upgrade at the same time? ➡️ I recommend independent refits so one player cannot block everyone else’s upgrade.",
+      "options": [
+        "Each player can refit independently (Recommended)",
+        "One gun at a time for the whole squad"
+      ],
+      "answer": "One gun at a time for the whole squad",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:17:13.423Z",
+        "text_sha256": "74e4feb6d7259b17710a08e516452c0429930bba90a8d3f84ce0a0b6883599a0"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:21:25.326Z",
+        "text_sha256": "90fd0dbe5142b974d068690f235297183ae2a3d24c3559f649d88afa95d5556e"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q13",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 14,
+      "question": "❓ Q14 — Should an upgrade also replenish ammunition? ➡️ I recommend a full magazine and that gun’s normal reserve allowance as part of a successful upgrade.",
+      "options": [
+        "Refill magazine and normal reserves (Recommended)",
+        "Refill the magazine only",
+        "Keep the existing ammunition"
+      ],
+      "answer": "refill ammo and half reserves",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:17:13.423Z",
+        "text_sha256": "ffb692a4fb20ddaeb1369527a4cecb29a0bea328b234bc25cf4ff0ca3e7acdea"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:21:25.326Z",
+        "text_sha256": "6c979a9811ec40fa7144cd1e32813673ce5a6339ec54cf5cad7146976fb30f0f"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q14",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 15,
+      "question": "❓ Q15 — How much should the arsenal reveal before spending shards? ➡️ I recommend showing the next upgrade’s exact stats and firing behavior, while leaving later transformations undiscovered.",
+      "options": [
+        "Preview the next upgrade; hide later stages (Recommended)",
+        "Show only general hints before upgrading",
+        "Reveal the entire upgrade path immediately"
+      ],
+      "answer": "Show only general hints before upgrading",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:17:13.423Z",
+        "text_sha256": "9238fb92122a0ca1750e015d46dc26a496fb02fbcb8dd763bb3a259113a63fa4"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:21:25.326Z",
+        "text_sha256": "b84256a0bb76c16b1f6a1b24c41033300ac8f5286cca1d27537f761f6b677a7f"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q15",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 16,
+      "question": "❓ Q16 — Must every overpowered gun have a major weakness? ➡️ I recommend that most have a tradeoff, but a very rare roll can be an excellent all-round weapon. Later-wave pressure still needs to matter.",
+      "options": [
+        "Usually a tradeoff; rare all-round monsters allowed (Recommended)",
+        "Every overpowered gun needs a major weakness",
+        "Overpowered rolls can routinely excel at everything"
+      ],
+      "answer": "Usually a tradeoff; rare all-round monsters allowed (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:17:13.423Z",
+        "text_sha256": "b13362ffd2a36c6960356139a07ff5de3961de3726b6ce80e6eb9caa3ea4e1ba"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:21:25.326Z",
+        "text_sha256": "9750dddb325bfcaf247fea2d6be56d410687150dae059b733301820ae01981a8"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q16",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 17,
+      "question": "❓ Q17 — When should a player saving shards afford the first major upgrade? Currently, encounter clears pay 120 shards each, so the 450-shard upgrade becomes affordable after the fourth clear. ➡️ I recommend keeping that roughly 3–4-clear saving target; spending shards on rerolls would delay it.",
+      "options": [
+        "After roughly 3–4 clears if saving (Recommended)",
+        "After roughly 1–2 clears",
+        "Near the end of the first arena"
+      ],
+      "answer": "Near the end of the first arena",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:17:53.883Z",
+        "text_sha256": "2063ff22682062e415f3c4330bd489f3dc700a885a983c1e66908a15a53d4b6b"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:21:25.326Z",
+        "text_sha256": "57660ee3e19e5b87b688b843caac1019a6c49de297fcdc0cf5326ff4ea939b29"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q17",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 18,
+      "question": "❓ Q18 — Which weapon families should form the wildcard pool? ➡️ I recommend six: sidearms, compact automatics, rifles, precision rifles, scatterguns and heavy automatics. Compatible families can use conventional, coil, plasma or ion technology.",
+      "options": [
+        "Use those six families (Recommended)",
+        "Use those six plus rare launchers",
+        "Start with a smaller selection"
+      ],
+      "answer": "use 6 plus very rare launchers and unique melee weapons",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:23:14.430Z",
+        "text_sha256": "558b3b78975d3ec0dc2e80774b65627b61a3fc3a3be7dfb260fd55554ead4cd2"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:30:35.868Z",
+        "text_sha256": "ab9b8937c5e4a74d660f545382bba711063bce86f46bc11bc9789575f0b8c6c9"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q18",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 19,
+      "question": "❓ Q19 — How mixed should the physical parts look? ➡️ I recommend coherent parts from each weapon origin, with rare compatible mixed-origin builds. Their shape and material should make the gun readable.",
+      "options": [
+        "Coherent origins; rare compatible mixes (Recommended)",
+        "Freely mix parts from every origin"
+      ],
+      "answer": "lets blend option 1 and 2. make it feel pretty all over the place with 100+ species from other galaxies they can look like anything",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:23:14.430Z",
+        "text_sha256": "636ff84b69a2e4d38d0bb75c0ee6f38a63aa6fbeaf86c34f25da47f443ba17f1"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:30:35.868Z",
+        "text_sha256": "a39f169fa10f2fa8974394895842c9571495bd7bc066da2d580b671c42f4eca9"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q19",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 20,
+      "question": "❓ Q20 — Which special mechanisms belong in the first pool? ➡️ I recommend enemy-body penetration, controlled impact blasts, delayed secondary pulses, hit-earned ion discharges and sustained-fire power build-up. True surface ricochets and electrical chaining could widen the pool.",
+      "options": [
+        "Use the five recommended mechanisms (Recommended)",
+        "Also include true ricochets and electrical chaining",
+        "Keep special mechanisms more limited"
+      ],
+      "answer": "no lets use like 10 pls, get some inspo from halo and its different species and guns pls. and other guns with known very unique gun satyles",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:23:14.430Z",
+        "text_sha256": "fd60815b6fb610506f0b10e4ea535b92442c354392f168896c0eda593cb0fff1"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:30:35.868Z",
+        "text_sha256": "be051c1961fae80b0e665eade52dc58f9bbd43ae29cad181d99e6109741a4cb5"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q20",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 21,
+      "question": "❓ Q21 — Should bad rolls come from mechanical weaknesses? ➡️ I recommend recoil, spread, small capacity, slow reload/cycling, short effective range or slow handling. I would remove the current random self-damage, random damage wheel, health-steal and health/sprint/kill-streak damage multipliers.",
+      "options": [
+        "Use mechanical weaknesses; remove those effects (Recommended)",
+        "Keep some of those existing effects—I'll specify"
+      ],
+      "answer": "Use mechanical weaknesses; remove those effects (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:23:14.430Z",
+        "text_sha256": "0870837e68d55cc571297259d87cf69f6a70730bf29831f7e0997f8da4d82259"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:30:35.868Z",
+        "text_sha256": "011dbaa99cf09ee31b7b0634d92050af0fed27a383c419fc071aa58f069618a7"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q21",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 22,
+      "question": "❓ Q22 — How many special mechanisms can one gun combine? ➡️ I recommend one on most special guns, with two compatible mechanisms possible on a rare jackpot. Ordinary stat and part variations would still provide variety.",
+      "options": [
+        "Usually one; rare jackpots can combine two (Recommended)",
+        "Always limit guns to one",
+        "Allow three or more on rare guns"
+      ],
+      "answer": "Usually one; rare jackpots can combine two (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:23:14.430Z",
+        "text_sha256": "5419a77f102e8489c0aa495ca517bc293552446af45e6746b66df96be097d27c"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:30:35.868Z",
+        "text_sha256": "37865ee32e3ccd8192e84b1eb5996af4e400f3895b459a0cd7d5dd7d7fb7c5c4"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q22",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 23,
+      "question": "❓ Q23 — For your one-gun-at-a-time refit machine, does an uncollected finished gun block the next player? ➡️ I recommend moving finished guns to an owner-only collection tray so the machine can process the next gun. Players still return to collect their own weapon.",
+      "options": [
+        "Finished gun moves to a collection tray (Recommended)",
+        "Machine stays occupied until the owner collects it"
+      ],
+      "answer": "Machine stays occupied until the owner collects it",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:23:14.430Z",
+        "text_sha256": "dc368f3790147051e8901d9c590bdbe1e6ddf67fcf6ce0db46be248c7fb88a78"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:30:35.868Z",
+        "text_sha256": "f610adda5548d88829e77be26245d00688f8bbc668bf9abd035b61b7394e83f1"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q23",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 24,
+      "question": "❓ Q24 — For the ten signature mechanisms, I recommend: 1) shots that embed and detonate after enough hits; 2) switchable narrow/wide shot patterns; 3) real surface ricochets; 4) manually guided heavy projectiles; 5) short-lived damaging impact fields; 6) limited electrical chains; 7) continuous beams with heat management; 8) planted spikes you discharge later; 9) a held powered cutter; 10) broad shots that penetrate lined-up enemies. Keep this set, or which would you replace?",
+      "options": [
+        "Keep these ten (Recommended)",
+        "Keep most; I’ll name replacements",
+        "Explore different mechanisms"
+      ],
+      "answer": "keep 1, 2, 3, 4 (for heavy rare launcher types), 5, 7, 9, 10",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:41:46.982Z",
+        "text_sha256": "b4a0939ce4930ff3928fac440df436f650b88c0716c7c267a9c5f1bc430b0e62"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:57:50.954Z",
+        "text_sha256": "bff65bdab76fa424ffc96ebccd69f18acd18c5ac871a9fc14c40521c9d1bda29"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q24",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 25,
+      "question": "❓ Q25 — Which numbered concepts on the new image sheet do you like most, and which should we avoid? My strongest picks are 02 and 03, with 06 for rare melee; they give us very different construction styles.",
+      "options": [],
+      "answer": "2,5,7 are ,my favorties.",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:41:46.982Z",
+        "text_sha256": "29b388b86d9a7ea061402c4d6dc5c65a79f0af0aca6fe6f7a20f613f234194bc"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:57:50.954Z",
+        "text_sha256": "014f5fd5084a187ba748d4018a521865021efa5d76f4a552f187b4374c86af13"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q25",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 26,
+      "question": "❓ Q26 — Should ranged wildcard guns always consume finite ammunition or cells, even if they also manage heat? I recommend this to preserve ammo pressure; an exceptional gun can still have excellent efficiency.",
+      "options": [
+        "Finite ammunition/cells (Recommended)",
+        "Allow very rare heat-only guns",
+        "Vary freely by weapon"
+      ],
+      "answer": "Finite ammunition/cells (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:41:46.982Z",
+        "text_sha256": "f444c53330bcc629951c43556095f082e559d46bf64ee1850efec170a8703598"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:57:50.954Z",
+        "text_sha256": "71bcca3588c208bd92408118547556efccb5be768005a3be9028f8fc3fc100a6"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q26",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 27,
+      "question": "❓ Q27 — How should the rare melee weapons work? They would occupy one of the existing two weapon slots. I recommend dependable physical strikes plus stronger powered attacks that consume charge, so an empty battery still leaves a usable weapon.",
+      "options": [
+        "Physical strikes + limited powered attacks (Recommended)",
+        "Unlimited powered attacks; balance reach and recovery",
+        "Every attack consumes charge"
+      ],
+      "answer": "Physical strikes + limited powered attacks (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:41:46.982Z",
+        "text_sha256": "e549a2225bca3435f3a6c5be30d6ad49dc6590b33a1ac770e4164fb0287a5a5f"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:57:50.954Z",
+        "text_sha256": "c7664a0a61143efb085511ab83359367ae329201b27d6527d70f6758df393ba7"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q27",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 28,
+      "question": "❓ Q28 — May unusual guns use one consistent alternate-fire button for switching patterns or triggering a planted charge? I recommend allowing it while keeping right-click for aiming. The exact key can be chosen after checking existing bindings.",
+      "options": [
+        "Allow one shared alternate-fire input (Recommended)",
+        "Keep every mechanism on existing shoot/aim/reload controls"
+      ],
+      "answer": "Allow one shared alternate-fire input (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:41:46.982Z",
+        "text_sha256": "a915bd6706f32f5e85e827f49209710bbf94783462c838740aafd525e390ad6b"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T00:57:50.954Z",
+        "text_sha256": "bd75131241e72c5b38bc33cd8ec221529fa7e3a3e4d6af733056a82403e67bc6"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q28",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 29,
+      "question": "❓ Q29 — For concept 02, which new finish should we try while keeping its grown-shell shape? I recommend dark iridescent ceramic with smoked glass.",
+      "options": [
+        "Dark iridescent ceramic + smoked glass (Recommended)",
+        "Brushed silver + translucent blue"
+      ],
+      "answer": "Dark iridescent ceramic + smoked glass (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:02:20.724Z",
+        "text_sha256": "cb249c5ff65813c82c7a5d3c16c6c82479ac71c04a5f636112f5b5709075c2ac"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:08:13.396Z",
+        "text_sha256": "62892448de1adb5af1d56b321f466f149950cc4e2d629e28f68713b43c81f8d1"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q29",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 30,
+      "question": "❓ Q30 — How should the blue-magma gun fire? I recommend holding the trigger for a ragged spray of heavy, arcing splashes, with roughly six metres of useful reach. It would feel like throwing molten material rather than firing a straight beam.",
+      "options": [
+        "Hold for a close-range splattering spray (Recommended)",
+        "Separate trigger pulls launch larger globs"
+      ],
+      "answer": "use 1 but make the spray a bit unpredictable and random in the sense it blops a but to the left and right",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:02:20.724Z",
+        "text_sha256": "f65a70684bd1b4a7b3d49bd0af07f2c230aeb84633beedf7bfd23e9a943ad7a9"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:08:13.396Z",
+        "text_sha256": "2ac443c0c124067e97be55239992fa4261560bf2a344f8fdea7a088d58776e85"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q30",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 31,
+      "question": "❓ Q31 — Does solar charging require the gun itself to be in direct sunlight, or is being anywhere in a sunlit arena enough? I recommend direct sunlight: roofs, deep shade and sunless arenas stop charging, while stored ammunition remains usable.",
+      "options": [
+        "Direct sunlight required (Recommended)",
+        "Anywhere in an arena with sunlight"
+      ],
+      "answer": "Direct sunlight required (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:02:20.724Z",
+        "text_sha256": "9917cce8655ae869c521962678027d02e433973bf985b397c4216fbc3e24dfdc"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:08:13.396Z",
+        "text_sha256": "7d66920f74c4e09038e2d40b6c347438e2d75b987eaa21df129b1e10664a5a37"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q31",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 32,
+      "question": "❓ Q32 — Can ordinary ammo drops refill the blue-magma gun? I recommend sunlight as its only normal refill source, making its indoor limitation meaningful. A paid weapon upgrade would still refill it under our existing upgrade rule.",
+      "options": [
+        "Sunlight only; paid upgrades still refill it (Recommended)",
+        "Compatible ammo pickups can refill it too"
+      ],
+      "answer": "Sunlight only; paid upgrades still refill it (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:02:20.724Z",
+        "text_sha256": "855f8b64d494db55a5e795b7df7d3183416f349576bdcecd2370aeebb3ceebf3"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:08:13.396Z",
+        "text_sha256": "05caafd99862145f0ecb4d5d92be6cb0b31211122beeec105b5de4e9e7dce08a"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q32",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 33,
+      "question": "❓ Q33 — Who can the lingering blue magma hurt? It will damage enemies and its owner. I recommend protecting teammates from another player's magma so one player cannot repeatedly burn the squad.",
+      "options": [
+        "Enemies and owner; teammates protected (Recommended)",
+        "Enemies and every player, including teammates"
+      ],
+      "answer": "if its pack a punched it should deal very heavy damage and hurt teammates too",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:02:20.724Z",
+        "text_sha256": "f1c6798c37f2023d574f490154a45935f79475fe20f86950b5dcc94b50d4870d"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:08:13.396Z",
+        "text_sha256": "c263ecf46f492e5019f197e3c45e338853631f7b11abb1dcc955b3bd350117e4"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q33",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 34,
+      "question": "❓ Q34 — Should this specific blue-magma weapon always be an exceptionally powerful, very rare wildcard result? I recommend a rare jackpot recipe with its short range, overheating and hazardous ground preserved.",
+      "options": [
+        "Very rare jackpot recipe (Recommended)",
+        "Allow weaker versions of it in ordinary rolls"
+      ],
+      "answer": "Very rare jackpot recipe (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:02:20.724Z",
+        "text_sha256": "05e50a129d08dae5805b8e7ffa8fe798b8c16d32bfe5f912bb760256bf53019e"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:08:13.396Z",
+        "text_sha256": "212922071717fee9214a413c14c2e59123d4e93e7b5c429a946bd0cca1923293"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q34",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 35,
+      "question": "❓ Q35 — For the wider parts pool, should functional parts determine real characteristics? I recommend rolling a body/frame, firing core, barrel/emitter, feed system, grip/bracing, cooling assembly and suitable optic. Compatible combinations set damage, cadence, accuracy, recoil, handling, capacity, reload, range and heat; finishes provide additional visual variety.",
+      "options": [
+        "Functional parts shape performance (Recommended)",
+        "Mostly cosmetic parts; performance rolls separately"
+      ],
+      "answer": "use 1 but add extended mag or normal as well pls, with a bit balance that makes it higher likelihood of getting an extended mag if the gun is rated really good and has a high or very low fire rate",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:02:20.724Z",
+        "text_sha256": "5d89075b51c31dc495910a335b1a73e3527d096832f63d529fd639e5d90d3ffb"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:08:13.396Z",
+        "text_sha256": "f280cd9e838a5929436b6157c3b178ed03239657e04bffe1ebc105eb686945ee"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q35",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 36,
+      "question": "❓ Q36 — What optics belong in wildcard rolls? I recommend readable 1× sights for close-range guns, 1×–2× for general-purpose guns, and occasional 3×–4× for precision weapons, with sights fitted to each design.",
+      "options": [
+        "Roll optics suited to the weapon's role (Recommended)",
+        "Use one consistent sight per weapon family"
+      ],
+      "answer": "yes use 1, make a couple of each. i love the red dot with an upsidedown v style too",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:02:20.724Z",
+        "text_sha256": "b0674077e3a797aaca035f7b862a131d57f964e6444fded95eceb414033519aa"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:08:13.396Z",
+        "text_sha256": "0a36a124aeb860546819c508d34b5eb941c299a75ef02fde532f3407a1d0ff9e"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q36",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 37,
+      "question": "❓ Q37 — Besides the special mechanisms, should normal wildcard firing cycles include semi-auto, full-auto, burst, pump/bolt, charged shots and heavy-weapon spin-up? I recommend all of these where the weapon family and physical design support them.",
+      "options": [
+        "Include these compatible firing cycles (Recommended)",
+        "Keep semi-auto, full-auto and burst for now"
+      ],
+      "answer": "Include these compatible firing cycles (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:02:20.724Z",
+        "text_sha256": "47ee1629923c78104c6dfbcf11461a7f598af161200d7b6e45ebd1d48d2d326f"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:08:13.396Z",
+        "text_sha256": "0736a6cbe8a1088ad8ea7ad5aea23310606e5f0aaf75557d06329252a39dfe09"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q37",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 38,
+      "question": "❓ Q38 — For the upgraded magma gun, should the owner and teammates take full enemy-level damage, or reduced but serious hazard damage? I recommend a brief touch hurting, while staying in the magma can down a player. Enemies would still take its full exceptional damage.",
+      "options": [
+        "Reduced but dangerous damage to players (Recommended)",
+        "Full weapon damage to players too"
+      ],
+      "answer": "Reduced but dangerous damage to players (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:11:54.494Z",
+        "text_sha256": "fe892e6dde8ab70c1076d79d0167038f599036678e4447a63a9e40251549fe50"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:14:10.974Z",
+        "text_sha256": "a796dca41128279fb068f8a25a6f460f785140b5af5af2563c2169ebfb0af2d8"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q38",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 39,
+      "question": "❓ Q39 — Must the magma gun be held to recharge in direct sunlight, or can it charge while stowed? I recommend held-only charging so replenishing it requires a deliberate choice.",
+      "options": [
+        "Held in direct sunlight (Recommended)",
+        "Stowed or held while the player is in direct sunlight"
+      ],
+      "answer": "Stowed or held while the player is in direct sunlight",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:11:54.494Z",
+        "text_sha256": "c769271798c4c35d47303571394f73aecfc7536021cba30e23d274ecc7bbac46"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:14:10.974Z",
+        "text_sha256": "ab064c19b5924bd47afc022200586286661dc13165222ef3f19fbba8ff26b9ee"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q39",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 40,
+      "question": "❓ Q40 — Should extended magazines usually bring a modest tradeoff? I recommend more capacity with a longer reload or slightly slower handling, while preserving the possibility of a rare excellent all-round roll.",
+      "options": [
+        "Usually a modest tradeoff (Recommended)",
+        "Extra capacity without a built-in penalty"
+      ],
+      "answer": "Usually a modest tradeoff (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:11:54.494Z",
+        "text_sha256": "a77e9b766ea18477218db0ac2d9abb558dce78d9dfdaea4c0dc9ac6bdc3db925"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:14:10.974Z",
+        "text_sha256": "401d18dd5a3dc17fe258dd6f003677cd48427154c4cbb119c5fcbc7bc90aaf2b"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q40",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 41,
+      "question": "❓ Q41 — What starting quality odds should we test? I recommend early rolls at 20% weak, 50% mid, 27% good and 3% jackpot; gradually reaching 10% weak, 40% mid, 42% good and 8% jackpot in deep arenas. Mid rolls still beat base Phasma within their intended role.",
+      "options": [
+        "Use that mix as initial tuning (Recommended)",
+        "Make jackpots rarer",
+        "Make strong rolls more common"
+      ],
+      "answer": "Use that mix as initial tuning (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:11:54.494Z",
+        "text_sha256": "66b88ea8733be6731053e4064a94e6a955a6780b2fbf961f52ffdac4ab3b1f93"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:14:10.974Z",
+        "text_sha256": "63d388a292f21bca154fbb13b79294482cdea8557eceace5f15a1582a7277352"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q41",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 42,
+      "question": "❓ Q42 — For the very rare weapons, I recommend roughly 1% launcher rolls and 1% dedicated melee rolls. The blue-magma recipe would appear in about 0.25% of early rolls, rising to 0.5% later, counted inside the jackpot odds. Should we start there?",
+      "options": [
+        "Use those initial rare-weapon odds (Recommended)",
+        "Make these weapons more common",
+        "Make these weapons rarer"
+      ],
+      "answer": "Use those initial rare-weapon odds (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:11:54.494Z",
+        "text_sha256": "6a6d9f96bdcec98e334ef40ebcaffb5b11bdbe1916ee32c84ab102b4fa38aa99"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:14:10.974Z",
+        "text_sha256": "c6a09d200c62816088237a5fb4cf2f57140921d616c3eef4cd6c025c5aeaaf7a"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q42",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 43,
+      "question": "❓ Q43 — How often should a weak roll have the symbol guaranteeing an exceptional upgrade path? I recommend about one in five weak rolls. Other quality levels can also have exceptional paths, but an ordinary weak roll would still improve without always becoming a monster.",
+      "options": [
+        "About one in five weak rolls (Recommended)",
+        "About one in ten weak rolls",
+        "About one in three weak rolls"
+      ],
+      "answer": "make it feel a bit random, it has a 80% chance of happening between 3-8 rolls and for sure under 10 rolls",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:11:54.494Z",
+        "text_sha256": "97f6855972dad036d92e9c5df1cc5d689166e18baa012c38ba8462f60ac4f856"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:14:10.974Z",
+        "text_sha256": "25819887f4062c06bedd8d0fc845dcf9fd14f052f28d852dd2b4eb19d43d2723"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q43",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 44,
+      "question": "❓ Q44 — When upgrading, should “full magazine and half reserves” mean topping reserves up to at least 50%, or adding another half-reserve to what you already have? I recommend topping up to at least 50%, preserving any ammunition already above that amount.",
+      "options": [
+        "Top up to at least half; preserve surplus (Recommended)",
+        "Add half a reserve to existing ammo, up to capacity"
+      ],
+      "answer": "Top up to at least half; preserve surplus (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:11:54.494Z",
+        "text_sha256": "bd31bfba64d01d6fa414924787e88e875777dd58f9b1f4b449c7b68e0799bf98"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:14:10.974Z",
+        "text_sha256": "f965b2756bef2cd78877a390ae67cc746f5eb8bbd200434e1e69204ff622e8c5"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q44",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 45,
+      "question": "❓ Q45 — I recommend testing 700 shards for the first major transformation: saving the first arena's six 120-shard rewards gives 720. Meaningful later stages would initially cost 1,200 and 1,800 where that gun has them. Does that fit your upgrade pacing?",
+      "options": [
+        "Use these initial upgrade prices (Recommended)",
+        "Make upgrades cheaper",
+        "Make upgrades more expensive"
+      ],
+      "answer": "Use these initial upgrade prices (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:11:54.494Z",
+        "text_sha256": "1b00fcc41f1326afb8f9f4845bdaf1778a7b63d66059311dff4bea12b2a94236"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:14:10.974Z",
+        "text_sha256": "007f91ec07326eba430782ad48f4a300c9a89d21b4db7dce0e2166a74ea4393b"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q45",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 46,
+      "question": "❓ Q46 — For “80% between rolls 3–8, guaranteed under 10,” how should the remaining 20% work? I recommend 10% on rolls 1–2, 80% on rolls 3–8, and 10% on roll 9. That allows occasional early surprises and never reaches roll 10.",
+      "options": [
+        "10% on 1–2; 80% on 3–8; 10% on 9 (Recommended)",
+        "80% on 3–8; remaining 20% on 9"
+      ],
+      "answer": "5% on 1-3, 80% 4-8, 15% 8-10",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:16:35.531Z",
+        "text_sha256": "341e92934b7c037148ac381f90b205931c9207f36c6c9fab82889427c30cdbf4"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:20:01.552Z",
+        "text_sha256": "2c1fb4411bfda0001c97356e8d8ef4e37cf2f78d68a8c732fb4123854cd35db1"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q46",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 47,
+      "question": "❓ Q47 — What does that guarantee produce? I recommend a gun with the symbol guaranteeing an exceptional upgraded form, regardless of its current quality. Immediate jackpot odds would still follow the separate arena-progression curve.",
+      "options": [
+        "Potential-marked gun, any current quality (Recommended)",
+        "Specifically a weak gun with exceptional potential",
+        "An already-powerful jackpot gun"
+      ],
+      "answer": "Potential-marked gun, any current quality (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:16:35.531Z",
+        "text_sha256": "22adffdec0e9f7ad426cabd951bc1f16b074159e7cec1285fb02375fcc55ede7"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:20:01.552Z",
+        "text_sha256": "fa03f3f657a3b61119679b85110dabad31dc99c9df114b66dbb11608dead12d7"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q47",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 48,
+      "question": "❓ Q48 — Who owns the counter? I recommend a separate counter for each player, kept across arenas and Continue, starting fresh with a new run.",
+      "options": [
+        "Each player, for that run (Recommended)",
+        "One shared counter for the squad"
+      ],
+      "answer": "Each player, for that run (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:16:35.531Z",
+        "text_sha256": "dd887cf4760c6a6c1a8b6b423ae61eafde7323b977d40ea0461007eaa08f4cc5"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:20:01.552Z",
+        "text_sha256": "c135327657ab3e60c90ae3eab51a34d363d4f1d8fce9e1420effad38d6a41fd6"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q48",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 49,
+      "question": "❓ Q49 — What counts as a roll? I recommend every new wildcard offer: the free starter offer plus token-funded or shard-funded rerolls. Looking at the same gun again and buying known weapons would not count.",
+      "options": [
+        "Every new wildcard offer (Recommended)",
+        "Only wildcard weapons actually kept",
+        "Only weak wildcard offers"
+      ],
+      "answer": "Every new wildcard offer (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:16:35.531Z",
+        "text_sha256": "497c1bb52ea1cb9bdfdf7d885cf19b9a82e9e1223a33916147e240a508688ca0"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:20:01.552Z",
+        "text_sha256": "cd85138d5d2cfd915436a090f1c39f786663b3fe08594d8a4a95e73f2a385a3a"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q49",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 50,
+      "question": "❓ Q50 — When does the counter restart? I recommend when a potential-marked offer appears, even if you pass on it. That makes taking or rejecting that gun a meaningful decision.",
+      "options": [
+        "When the marked offer appears (Recommended)",
+        "Only when the marked gun is kept"
+      ],
+      "answer": "When the marked offer appears (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:16:35.531Z",
+        "text_sha256": "56bf4fdf49d379d08ae04ffa29eff75e2f1db956434cf222eda9a84917a915db"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:20:01.552Z",
+        "text_sha256": "e51878ab2468b27e2d467c71defdea348189f519cfb206daa3094417c1faadab"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q50",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 51,
+      "question": "❓ Q51 — Your timing bands both include roll 8. Which interpretation should we use? I recommend 5% on rolls 1–3, 80% on 4–8, and 15% on 9–10. We can also keep your literal 8–10 final band, which gives roll 8 extra weight. Both follow your newer maximum of 10 rolls.",
+      "options": [
+        "Final 15% covers 9–10 (Recommended)",
+        "Keep 8–10; give roll 8 extra weight"
+      ],
+      "answer": "Final 15% covers 9–10 (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:21:00.474Z",
+        "text_sha256": "109bcfebbb8552517bd76c40576b42569e88a74c0f637483dfe77d1aa3666f12"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:21:32.503Z",
+        "text_sha256": "3bd4ace581366f29ba6977c112e001963121afaf9d96a906597f873c6357300c"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-q51",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": null,
+      "question": "Final design confirmation — Approve implementation of the complete IRON SUN wildcard specification: the eight selected mechanisms; varied alien functional parts, normal/extended magazines and multiple optics; fixed gun-specific upgrade paths; the per-player potential-symbol counter (5% on rolls 1–3, 80% on 4–8, 15% on 9–10); shared five-second refits with owner collection; the solar blue-magma jackpot; and inventory, co-op and save integration. Use the agreed initial roll odds and 700/1,200/1,800-shard upgrade prices, then validate the results.",
+      "options": [
+        "Approve—implement the complete plan (Recommended)",
+        "Revise the plan before implementation"
+      ],
+      "answer": "Approve—implement the complete plan (Recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:23:32.750Z",
+        "text_sha256": "cba6eea7e0d9a61f2c73e1ba7968b0068dcfa40cf404cedba7cad50f72512c1c"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T01:24:21.108Z",
+        "text_sha256": "6433695e4af931e062e57c96de1c63dd7471351cda2c5e4a38e4866a1667f522"
+      },
+      "capture": "original-question",
+      "id": "2026-10-16-wildcard-refits-choice52",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    }
+  ]
+}

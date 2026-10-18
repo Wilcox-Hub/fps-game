@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "2026-10-17-coop-diagnostics",
+  "captured_on": "2026-10-18",
+  "source_kind": "recovered-primary-conversation",
+  "scope": "Game-design questions and user answers only. Original options preserved when available. Dates in file names are America/Los_Angeles; provenance timestamps are UTC.",
+  "completeness": "Recovered entries only; missing answers are explicitly marked. This is not a complete export of every chat or every historical interview.",
+  "entries": [
+    {
+      "question_number": null,
+      "question": "When the host walked over an ammo orb, what happened?",
+      "options": [
+        "It stayed on the ground",
+        "It disappeared, but ammo did not increase",
+        "I’m not sure"
+      ],
+      "answer": "It disappeared, but ammo did not increase",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T15:57:55.836Z",
+        "text_sha256": "220ed72a0872866dd6413dee052186844b7af204f79bb82e03bf1267a8b0c068"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T15:59:19.721Z",
+        "text_sha256": "d0eec54f408d11fecf27a3825275bc74cf2e09a501d60616d0761584726b7950"
+      },
+      "capture": "original-question",
+      "id": "2026-10-17-coop-diagnostics-choice1",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": null,
+      "question": "Which two guns was the host carrying when pickups stopped working, and did this begin after being downed/revived or swapping a gun at the arsenal?",
+      "options": [],
+      "answer": "phasma and gale. also she was downed but i could not revive her. pressing v to carry did nothing.",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T15:57:55.836Z",
+        "text_sha256": "5477420e816ccc8925d99f0778db66c13bd7141e792bdbcb15b09412b930f4b8"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T15:59:19.721Z",
+        "text_sha256": "0b4b6776cc616bb507a2c566020cce0a78d1eb8a24c14a526e8e3096d3896f45"
+      },
+      "capture": "original-question",
+      "id": "2026-10-17-coop-diagnostics-choice2",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": null,
+      "question": "Before the host’s ammo pickups stopped working, had Gale or Phasma been upgraded at the arsenal? “Don’t remember” is fine—this helps narrow down the original ammo failure.",
+      "options": [
+        "At least one was upgraded",
+        "Neither was upgraded",
+        "Don’t remember"
+      ],
+      "answer": "neither was upgraded because upgrades arent available.",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T16:41:29.724Z",
+        "text_sha256": "6f00029a6d4dffb661512cee3607ee3f5150a0b5bcb5d08e31dc44cec6d60785"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-17T19:17:57.131Z",
+        "text_sha256": "007ced90741e1f2ca57a9bceecabd44722a9337fdfd612281188e268aa393691"
+      },
+      "capture": "original-question",
+      "id": "2026-10-17-coop-diagnostics-choice3",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    }
+  ]
+}

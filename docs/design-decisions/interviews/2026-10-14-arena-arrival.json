@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "id": "2026-10-14-arena-arrival",
+  "captured_on": "2026-10-18",
+  "source_kind": "recovered-primary-conversation",
+  "scope": "Game-design questions and user answers only. Original options preserved when available. Dates in file names are America/Los_Angeles; provenance timestamps are UTC.",
+  "completeness": "Recovered entries only; missing answers are explicitly marked. This is not a complete export of every chat or every historical interview.",
+  "entries": [
+    {
+      "question_number": 1,
+      "question": "❓ Q1 — Entrance control: should players walk up the stairs and through the gate themselves, or watch a short automatic entrance? ➡️ I recommend player-controlled movement with the squad.",
+      "options": [
+        "Walk in with the squad (recommended)",
+        "Short automatic introduction"
+      ],
+      "answer": "Walk in with the squad (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:38:36.301Z",
+        "text_sha256": "496052e198b1450dde46abff4714bb13feb6e217b7665091e62b13f8cca8b655"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:40:23.878Z",
+        "text_sha256": "b8d40ece577665aeab8d09f35752b87c1eb4a8815d39c548fe108ad4ecd7c4e4"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q1",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 2,
+      "question": "❓ Q2 — Starting weapons: should the arsenal replace the opening gun-selection screen? ➡️ I recommend choosing one free primary and one free secondary at the arsenal; later purchases and upgrades still cost shards.",
+      "options": [
+        "Choose both free starting guns at the arsenal (recommended)",
+        "Choose guns in the menu, then collect them at the arsenal",
+        "Keep the current gun-selection flow"
+      ],
+      "answer": "Choose both free starting guns at the arsenal (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:38:36.301Z",
+        "text_sha256": "af5e991b9b0d05d1009d912424e7500eec481c4231e1b38b94fe9aa511a0262b"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:40:23.878Z",
+        "text_sha256": "562b80f2d42a783eec9881c24a20c2eb0a265e6f7c6239e24ab73336ee53cbe1"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q2",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 3,
+      "question": "❓ Q3 — Entrance frequency: where should this arrival happen? ➡️ I recommend the full staircase entrance at the start of a run, with shorter entrances between later arenas.",
+      "options": [
+        "Full entrance at run start; shorter later arrivals (recommended)",
+        "Full entrance at every arena",
+        "First arena only; other arrivals stay as they are"
+      ],
+      "answer": "Full entrance at run start; shorter later arrivals (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:38:36.301Z",
+        "text_sha256": "65ee0ad60e30c1334a008c8483cfb2eccdd2eef356883989db91d16bf1ac4f26"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:40:23.878Z",
+        "text_sha256": "972b85a13c1624faba7c25417b14a6a630d7192753269d4c4208c196e6f92a54"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q3",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 4,
+      "question": "❓ Q4 — Visual direction: how should the colosseum entrance look? ➡️ I recommend a massive industrial sci-fi gate, broad steps, worn metal and stone, and restrained arena lighting.",
+      "options": [
+        "Industrial sci-fi colosseum (recommended)",
+        "Mostly stone colosseum with sci-fi machinery",
+        "Cleaner futuristic military entrance"
+      ],
+      "answer": "A mix of 1 and 2. Lets it follow the current mockup styles",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:38:36.301Z",
+        "text_sha256": "14c7fcd147b7e049d1ff57d485f85a0a089a714e435b0d0145044bd0369326ee"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:40:23.878Z",
+        "text_sha256": "27b05fe3a6b0c23f886df96720ee937689a65e188572bd93516ca7c1fd7854a1"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q4",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 5,
+      "question": "❓ Q5 — Starting combat: should the squad explicitly ready up before the first encounter? ➡️ I recommend everyone equipped and ready before enemies can arrive; the existing 90-second regroup breaks would stay between encounters.",
+      "options": [
+        "Everyone equipped and ready (recommended)",
+        "Host starts once everyone has weapons",
+        "Automatic preparation countdown"
+      ],
+      "answer": "Everyone equipped and ready (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:38:36.301Z",
+        "text_sha256": "a9e40564c507049553e785f00299cd90b9cdd342ae7b16fb1ab113c5ed693559"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:40:23.878Z",
+        "text_sha256": "26ad57cd442d144bc6d8c2e8275b4dc877c233501530e440645b44f5cfce30f7"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q5",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 6,
+      "question": "❓ Q6 — Arsenal location: should the squad collect its guns before passing through the main gate, or walk through the gate to reach the arsenal inside the arena? ➡️ I recommend an arsenal on the entrance landing: prepare together, ready up, then the gate opens.",
+      "options": [
+        "Arsenal before the gate (recommended)",
+        "Arsenal inside the arena"
+      ],
+      "answer": "Arsenal before the gate (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:41:34.360Z",
+        "text_sha256": "557db8d7c730eb6aa0242c37bffb0f4adc62ec4b6d42c3d0959e535babb6c26a"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:42:58.441Z",
+        "text_sha256": "9c269dbc6ac5b0a0dad9b77041f9871698f987dc5e54b8241b386c620e0829a1"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q6",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 7,
+      "question": "❓ Q7 — Perks: should players choose their two perks in the lobby, or at the arsenal with their weapons? ➡️ I recommend perks in the lobby so the entrance arsenal stays focused and easy to read.",
+      "options": [
+        "Choose perks in the lobby (recommended)",
+        "Choose perks at the arsenal"
+      ],
+      "answer": "Choose perks in the lobby (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:41:34.360Z",
+        "text_sha256": "73d8700eab5e8123216abb956b05f43be9adabc5cefa976a874ea12ad5f7f95d"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:42:58.900Z",
+        "text_sha256": "63145b86a29cf24d862e84f514110d1d91d17d38aad430efe06760e71d89643c"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q7",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 8,
+      "question": "❓ Q8 — Preparation area: should it be a quiet, protected staging area or allow live-fire weapon testing? ➡️ I recommend protected staging for the first implementation, with no enemies before the squad starts.",
+      "options": [
+        "Protected staging (recommended)",
+        "Live-fire practice with refillable ammo"
+      ],
+      "answer": "Protected staging (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:41:34.360Z",
+        "text_sha256": "a5cf79d6188cf24b119ff27c2197c2cbd5ad16af59646c26bc108c4c1ef5d2be"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:43:35.151Z",
+        "text_sha256": "d5bf5ba062675975616343c27e89011e99e25a065b548573cc1574db425994b1"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q8",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 9,
+      "question": "❓ Q9 — Free starter pool: should we preserve the current opening choices—Gale or Phasma for the primary, and Gale, Phasma or a wildcard for the secondary, without duplicates? ➡️ I recommend preserving that pool; Helix, Vector and Ion remain later arsenal purchases.",
+      "options": [
+        "Preserve the current starter pool (recommended)",
+        "Revisit the starter pool before building"
+      ],
+      "answer": "Preserve the current starter pool (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:44:00.710Z",
+        "text_sha256": "c16b2b27f488f5c500bb98b6310bd9d0b7fa8abe45c51eb18d0d9f18b94345b2"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T02:02:17.763Z",
+        "text_sha256": "70b45f564eb8d6379511b74048b40eaab06cfdece141006b5649eec97672a249"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q9",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 10,
+      "question": "❓ Q10 — Team bonus: the current setup also has a shared passive-bonus vote after perks. ➡️ I recommend moving that vote into the lobby alongside perk selection, so there are no timed selection screens after loading.",
+      "options": [
+        "Move the team-bonus vote into the lobby (recommended)",
+        "Remove the shared team-bonus vote"
+      ],
+      "answer": "Move the team-bonus vote into the lobby (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:44:00.710Z",
+        "text_sha256": "a32c49d19a94e5e4837674e92484adc0d98ec6935a0505faaa7ab321771247a9"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T02:02:17.763Z",
+        "text_sha256": "18c601b3628ba8a992849f1f567bfd924b12034a3fbfb18fd3f41c1a1d256007"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q10",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 11,
+      "question": "❓ Q11 — Grabbing guns: how should the entrance arsenal work? ➡️ I recommend visible weapon racks with a compact selection/inspection panel, with detailed stats tucked behind Details.",
+      "options": [
+        "Weapon racks and a compact panel (recommended)",
+        "Use the full arsenal shop menu"
+      ],
+      "answer": "Weapon racks and a compact panel (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:44:00.710Z",
+        "text_sha256": "9542f43a4a6c67279e61e85649bd3c091623d6a99c7f25e28082daaab2e7da27"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T02:02:17.763Z",
+        "text_sha256": "7c8d0b72585dcc197ce4132b42add43997b698692b188591fb6b90e025ea23ff"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q11",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 12,
+      "question": "❓ Q12 — Later arenas: should the squad keep its weapons, use a shorter entrance, and ready up before enemies arrive? ➡️ I recommend this, without collecting starter guns again.",
+      "options": [
+        "Keep gear; short entrance and team ready (recommended)",
+        "Keep gear; short entrance and automatic countdown"
+      ],
+      "answer": "Keep gear; short entrance and team ready (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:44:00.710Z",
+        "text_sha256": "252dcdf38686b672477433aa6a0bc83b1d6ed8466fd21d59151940f1169c4a6c"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T02:02:17.763Z",
+        "text_sha256": "359bda1f2ceda60e58b5124fcb2728e9b578a97f35e36ed549314241c43c85d0"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q12",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 13,
+      "question": "❓ Q13 — Initial preparation time: should players have as long as they need to collect guns and ready up? ➡️ I recommend no forced countdown. Changing your loadout clears your ready status; the 90-second breaks still apply between encounters.",
+      "options": [
+        "No forced initial countdown (recommended)",
+        "Use a 90-second initial preparation timer"
+      ],
+      "answer": "No forced initial countdown (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T01:44:00.710Z",
+        "text_sha256": "a3c0d0fd3dc22b95fb7520c53d01a7955a8715cbbeed269923f7d8db2ccc5f4d"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T02:02:17.763Z",
+        "text_sha256": "7c31247ceec61b869410b4be96557a583e169d25cda5f96e2f941ca43c157f1b"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q13",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 14,
+      "question": "❓ Q14 — After everyone is equipped and ready, should the entrance gate open and enemies wait until the entire active squad has walked inside? ➡️ I recommend this: everyone enters together, the gate closes safely once clear, then the first encounter begins.",
+      "options": [
+        "Wait until the whole squad enters (recommended)",
+        "Start combat when the first player enters"
+      ],
+      "answer": "Wait until the whole squad enters (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T02:05:15.557Z",
+        "text_sha256": "bc29e60e47d731fd05f14b936b39bebf98d58c41c3e447309b860004b4c32cc8"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T02:10:12.800Z",
+        "text_sha256": "631b46fd2d93adae1ec0001c2d5b7d38ac430a2e715413086d4c3be52852c956"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-q14",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": null,
+      "question": "Approve this entrance implementation?\n\n• Choose two perks and the shared team bonus in the lobby; remove timed selection screens after loading.\n• Walk with the squad up a stone-and-industrial sci-fi colosseum staircase matching our arena mockups.\n• Use weapon racks and a compact panel at the protected arsenal before the gate. Details stay optional.\n• Collect one free primary and one free secondary: preserve the current Gale/Phasma/wildcard starter eligibility, with no duplicates.\n• Take as long as needed. Everyone must be equipped and ready; changing a loadout clears readiness.\n• The gate opens when everyone is ready. Combat waits until the whole active squad enters, then the gate closes safely.\n• Later arenas retain your gear, use shorter entrances and wait for team readiness; no repeat free starting guns.\n• Keep the in-arena arsenal for paid known weapons, random rerolls and upgrades, including during combat. Purchases use shards.\n• Keep 90-second regroup breaks with early team start between encounters.",
+      "options": [
+        "Approve—implement this plan",
+        "Change part of this plan"
+      ],
+      "answer": "Approve—implement this plan",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T02:10:32.508Z",
+        "text_sha256": "d89c41e6a4c67a91b5b8b487d8b5b0216619637a023180adcbf541ac83378e33"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-15T02:16:11.554Z",
+        "text_sha256": "76a43d63c0eacec8fb763c1610e78b21202193b9b57f9efc2914eca68685f0e3"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-arena-arrival-choice15",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    }
+  ]
+}

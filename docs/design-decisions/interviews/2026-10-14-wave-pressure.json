@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "2026-10-14-wave-pressure",
+  "captured_on": "2026-10-18",
+  "source_kind": "recovered-primary-conversation",
+  "scope": "Game-design questions and user answers only. Original options preserved when available. Dates in file names are America/Los_Angeles; provenance timestamps are UTC.",
+  "completeness": "Recovered entries only; missing answers are explicitly marked. This is not a complete export of every chat or every historical interview.",
+  "entries": [
+    {
+      "question_number": 1,
+      "question": "❓ Q1 — Where should the two easy rounds apply?\n\n➡️ I recommend easy rounds 1–2 at the start of the whole run. Later arenas open with fewer enemies and the 10% enemy-health drop, while keeping the strength earned through previous arenas.",
+      "options": [
+        "Easy first two rounds of the run (recommended)",
+        "Easy first two rounds in every arena"
+      ],
+      "answer": "Easy first two rounds of the run (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T21:20:27.845Z",
+        "text_sha256": "c017bba39600b1b833fa823fbb2d49a0d0f9230a283fd0ba91f12910b1811a8c"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T21:27:24.847Z",
+        "text_sha256": "8d77c567abcd965506993821a414723aa4c81855efc7425857a1312b6d5b63b3"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-wave-pressure-q1",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 2,
+      "question": "❓ Q2 — How should we make those opening rounds forgiving?\n\n➡️ I recommend fewer enemies plus lower incoming damage, then ramp both up. The current prototype starts solo with six enemies total, two arriving together, and half the previous opening damage.",
+      "options": [
+        "Fewer enemies and lower damage (recommended)",
+        "Fewer enemies; keep current enemy damage"
+      ],
+      "answer": "Fewer enemies and lower damage (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T21:20:27.845Z",
+        "text_sha256": "866054d14f881c96116cbdca0c001c601d20bd792a73cfd6c39d7bc7187763d2"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T21:27:57.902Z",
+        "text_sha256": "0a89178830b8401bd7142090033b2f7ffd07e6199c25729eb0e27cfb625beb35"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-wave-pressure-q2",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 3,
+      "question": "❓ Q3 — After the opening, what should drive the rising pressure?\n\n➡️ I recommend enemy numbers, overlapping arrivals and tougher role combinations leading the increase, with health and damage growing more gradually. The 10% health drop will use the previous arena’s final round as its baseline.",
+      "options": [
+        "Numbers and composition lead (recommended)",
+        "Health and damage rise just as strongly"
+      ],
+      "answer": "Numbers and composition lead (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T21:20:27.845Z",
+        "text_sha256": "a85b682375c14e753bb5d8f20fb1b5ee227ece28e6caa44dcf59a33c752c5cf0"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T21:27:58.291Z",
+        "text_sha256": "bd06f7b7f54cd520f69750a538b35c8011e79176537bd095a11cd90cab82b793"
+      },
+      "capture": "original-question",
+      "id": "2026-10-14-wave-pressure-q3",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    }
+  ]
+}

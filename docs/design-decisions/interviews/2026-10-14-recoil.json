@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "2026-10-14-recoil",
+  "captured_on": "2026-10-18",
+  "source_kind": "recovered-primary-conversation",
+  "scope": "Game-design questions and user answers only. Original options preserved when available. Dates in file names are America/Los_Angeles; provenance timestamps are UTC.",
+  "completeness": "Recovered entries only; missing answers are explicitly marked. This is not a complete export of every chat or every historical interview.",
+  "entries": [
+    {
+      "question_number": 1,
+      "question": "❓ **Q1 — How demanding should the opening shots be?**\n\nA. The first few shots are manageable; longer sprays climb and drift more.\nB. Strong recoil immediately, requiring control from the first shot.\nC. Strong-looking gun movement, but relatively forgiving aim recoil.\n\n➡️ **A.** Short bursts should feel dependable; holding the trigger should require skill.\n",
+      "options": [],
+      "answer": "A for all guns but stronger recoil for heavier gun types",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T13:15:25.763Z",
+        "text_sha256": "1b09380424a075973724748b0b09cff444c36e97a94a01c0e4d04e784cd27693"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T19:29:12.381Z",
+        "text_sha256": "2656de2d90c92d0c5090d0d87cfa73891e691e6d84566fe85403b69ccd9e6a84"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-14-recoil-q1",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 2,
+      "question": "❓ **Q2 — What happens after you release the trigger?**\n\nA. After a brief pause, remaining recoil smoothly returns. Pulling down yourself reduces that return, so it doesn’t pull your aim down twice.\nB. Aim stays where recoil pushed it; you bring it back manually.\n\n➡️ **A.** Responsive recovery that respects your mouse input.\n",
+      "options": [],
+      "answer": "Use suggested",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T13:15:25.763Z",
+        "text_sha256": "ca7275035f7b1f84e225752ce06fb416da3257c3adad880caf336f6298531545"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T19:29:12.381Z",
+        "text_sha256": "55f8e1ad22126405566ed889b427531f00402a6c3a29d35d25aafd2d71859325"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-14-recoil-q2",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 3,
+      "question": "❓ **Q3 — Where should the feeling of impact come from?**\n\nA. The gun kicks backward and upward, then settles; little extra screen shake.\nB. The gun kicks, and the camera also jolts noticeably—especially with heavy weapons.\n\nActual aim recoil remains in both choices.\n\n➡️ **A.** Give the weapon weight while keeping enemies readable.\n",
+      "options": [],
+      "answer": "A",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T13:15:25.763Z",
+        "text_sha256": "59741405eab1359fa8aa88bd6857c8d51249cc2da4a91b72db8f85639c6790c0"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T19:29:12.381Z",
+        "text_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-14-recoil-q3",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 4,
+      "question": "❓ **Q4 — Should aiming down sights reduce recoil?**\n\nA. Slightly less recoil and calmer weapon movement, while retaining the same recognizable pattern.\nB. The same recoil as hipfire; aiming mainly improves accuracy and visibility.\n\n➡️ **A.** A useful control advantage without making aimed fire effortless.\n",
+      "options": [],
+      "answer": "A",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T13:15:25.763Z",
+        "text_sha256": "00920eacc867e4bfec629e5243c037c2c465368a8411bef095dc28d6821082e5"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T19:29:12.381Z",
+        "text_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-14-recoil-q4",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 5,
+      "question": "❓ **Q5 — Should smooth tracking help control recoil?**\n\nApex’s [official guide](https://help.ea.com/en/articles/apex-legends/best-settings-pc/) describes horizontal aim movement helping reduce recoil.\n\nA. Keep recoil strength consistent while moving your aim.\nB. Give a modest reduction during steady tracking, capped so turning cannot erase recoil.\n\n➡️ **B.** Borrow that fluid tracking feel, while preserving meaningful gun control.\n\nI’ll wait for your answers before tuning, following the [grilling skill](C:/Users/YaYa/.codex/skills/grilling/SKILL.md): “Then wait for the user's answers before the next round.”",
+      "options": [],
+      "answer": "B, actually let’s have this be the only characteristic we really take. The rest is a base that we build from",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T13:15:25.763Z",
+        "text_sha256": "32ceede012ca0e9f40808d8ef58d309b91d0d307838b30cc90988ba1db4fd452"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T19:29:12.381Z",
+        "text_sha256": "50a072c4f0510b67d218a528d8ea524e1881b19e878a3f583c894c239048a3bf"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-14-recoil-q5",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    }
+  ]
+}

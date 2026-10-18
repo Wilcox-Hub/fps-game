@@ -1,0 +1,448 @@
+{
+  "schema_version": 1,
+  "id": "2026-10-13-naming-perks",
+  "captured_on": "2026-10-18",
+  "source_kind": "recovered-primary-conversation",
+  "scope": "Game-design questions and user answers only. Original options preserved when available. Dates in file names are America/Los_Angeles; provenance timestamps are UTC.",
+  "completeness": "Recovered entries only; missing answers are explicitly marked. This is not a complete export of every chat or every historical interview.",
+  "entries": [
+    {
+      "question_number": 1,
+      "question": "❓ Q1 — What should the name make you feel first?\n\nA. Pressure and survival: tense, dangerous, grounded.\nB. A strange sci-fi world: mysterious and memorable.\nC. Competition and combat: forceful and confrontational.\n\n➡️ I recommend A, with a little of B.",
+      "options": [
+        "A — Pressure and survival, with some mystery (recommended)",
+        "B — A strange sci-fi world",
+        "C — Competition and combat"
+      ],
+      "answer": "A and a little c",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:30:38.693Z",
+        "text_sha256": "c77752edd6a5229c24ccc23f964d3212076be0e302cee3fc694700eaf07fceb9"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:38:57.412Z",
+        "text_sha256": "3d72b1f4bd62137b528cf10136cf1c3a7c93b2d341fcdb99db09a2d55be4f28c"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-13-naming-perks-q1",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 2,
+      "question": "❓ Q2 — What kind of name appeals to you most?\n\nA. A short invented word that could belong to our world.\nB. A concrete place, event, or system inside the game.\nC. A brief phrase with an interesting double meaning.\n\n➡️ I recommend B: something that sounds like it belongs to the setting and can cover both future modes.",
+      "options": [
+        "B — Place, event, or system (recommended)",
+        "A — Short invented word",
+        "C — Phrase with a double meaning"
+      ],
+      "answer": "B",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:30:38.693Z",
+        "text_sha256": "e5b15f158034c0b5a8503ce94eb11c7ccd2988d7912deb7f92245451334ebf64"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:38:57.412Z",
+        "text_sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-13-naming-perks-q2",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 3,
+      "question": "❓ Q3 — Which logo direction should guide the next pass?\n\nA. Mostly typography: clean, distinctive letters and one restrained detail.\nB. Rough utilitarian lettering: markings you might find on arena equipment.\nC. A small abstract symbol alongside simple lettering.\n\n➡️ I recommend A. We can establish the name first, then give it a recognizable letterform.",
+      "options": [
+        "A — Distinctive typography (recommended)",
+        "B — Utilitarian equipment markings",
+        "C — Small abstract symbol"
+      ],
+      "answer": "A blend of b and c actually. I don’t like the direction you naturally went",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:30:38.693Z",
+        "text_sha256": "6dc9758f43be4d8bcdb032e55af3fe267e7aeb69858f46485d9dff5bacc52542"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:38:57.412Z",
+        "text_sha256": "06881f3f357207452d9ee604d31b95867175b1e241b1cd70ddcd1732e19d9baf"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-13-naming-perks-q3",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 4,
+      "question": "❓ Q4 — What should the name refer to inside the game’s world?\n\nA. The event or trial that squads enter.\nB. The arena complex or territory they fight through.\nC. The system or organization running the arenas.\n\n➡️ I recommend A; it fits survival and competition without depending on one map.",
+      "options": [
+        "A — Event or trial (recommended)",
+        "B — Arena complex or territory",
+        "C — Controlling system or organization"
+      ],
+      "answer": "A, maybe c would be a better direction. Naming the games?",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:40:02.455Z",
+        "text_sha256": "5d4af5fd0d5366dddcab00746fe9199359706520ce3b184ae75be76bee7f7bd8"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:50:31.411Z",
+        "text_sha256": "5455787892d6da8d4b6a342cc2d09668aa8422490635749e11e779fa0b9506bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-13-naming-perks-q4",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 5,
+      "question": "❓ Q5 — What language should the name sound like?\n\nA. Plain, forceful words people would actually say.\nB. Industrial terminology: a designation, process, or operating condition.\nC. An unfamiliar in-world term with a meaning we establish.\n\n➡️ I recommend A with some of B.",
+      "options": [
+        "A — Plain and forceful, with an industrial edge (recommended)",
+        "B — Industrial designation or process",
+        "C — Unfamiliar in-world term"
+      ],
+      "answer": "B and c",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:40:02.455Z",
+        "text_sha256": "3bf844a8fa406dafb0846747950f790efece18b82cb35b1f92322b0d1f75222b"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:50:31.411Z",
+        "text_sha256": "18dd71fbfd9be285387c6118af46037873b1239195105ae2cecae88389511c9d"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-13-naming-perks-q5",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 6,
+      "question": "❓ Q6 — How compact should the title be?\n\n➡️ I recommend one or two short words; either can work without describing every mechanic.",
+      "options": [
+        "One or two short words (recommended)",
+        "One word only",
+        "A longer distinctive phrase"
+      ],
+      "answer": "Yes compact is good",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:40:02.455Z",
+        "text_sha256": "454b56a34910cb6bced8741a71c1f6caf1d7a9cf9d6e917d8d405520d0ead4cb"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:50:31.411Z",
+        "text_sha256": "3f1a6c1ceca68a34518c22e8efae2b7750ded519ce28c51d870a3ebf7e11f794"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-13-naming-perks-q6",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 7,
+      "question": "❓ Q7 — Which equipment-marking style is closer to your taste?\n\nA. A stamped identification mark: sturdy lettering, a few deliberate cuts, a compact abstract symbol.\nB. Arena wayfinding: clean signs, route marks, and directional shapes.\nC. A rough hand-applied mark used by the fighters themselves.\n\n➡️ I recommend A, with restraint in the wear and texture.",
+      "options": [
+        "A — Stamped identification mark (recommended)",
+        "B — Arena wayfinding",
+        "C — Fighter-applied mark"
+      ],
+      "answer": "A and some c, give me both and let me pick",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:40:02.455Z",
+        "text_sha256": "e6f2f4fd0b30fa93cc29cda536e3651d2f074148a9809b3582c6b3721e9a9972"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:50:31.411Z",
+        "text_sha256": "f7e0ca03f9f2212614c5525aff31dc8ae1110bcf960a83c080a9b4fd98ac1c5b"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-13-naming-perks-q7",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 8,
+      "question": "❓ Q8 — Which existing game names or logos do you actually like? Two or three examples are enough, even from completely different genres. This will help me avoid repeating the style you dislike.",
+      "options": [],
+      "answer": "None actually",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:40:02.455Z",
+        "text_sha256": "3d09edc9393d4b89319beffe4ef24f3708ff4a5a216ea58cd599a140f89c38d5"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:50:31.411Z",
+        "text_sha256": "8a3d16e06bfd1464d76a9feeb1faa2c8de14d8eeaa8bdff46fbb2fe5300b3d55"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-13-naming-perks-q8",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 9,
+      "question": "❓ Q9 — Which of these feels closest to a game you’d want to name?\n\nA. INTERLOCK — a possible name for the system controlling the arenas, gates, and progression.\nB. CUTLINE — a possible name for the trial’s survival cutoff and the system enforcing it.\nC. KORDEN — an invented name for the organization running the arenas; its meaning would come from the world.\nD. CORDON — a name drawn from the enclosed territory and its controlling authority.\n\n➡️ I recommend exploring INTERLOCK and KORDEN first. These are naming directions, not fixed lore or checked availability. You can reject the whole set and tell me what feels wrong.",
+      "options": [
+        "INTERLOCK — industrial system",
+        "CUTLINE — survival cutoff",
+        "KORDEN — invented organization",
+        "CORDON — contained territory"
+      ],
+      "answer": "I don’t like any of them, I like the concept of cutline and interlock the most but I don’t love it.",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:52:30.326Z",
+        "text_sha256": "ed000ff3dbb576efb7bdd43f430aac048f568edd24494571a37ea6184563152c"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T01:57:17.763Z",
+        "text_sha256": "dfc5df2cf6efce895d7d1792ad1334d4a3b30209fa624104aa176ce2bb37e1b4"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-13-naming-perks-q9",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 10,
+      "question": "❓ Q10 — Is the second mode still the previously planned single-arena survival mode?\n\nThe saved plan has a roughly 20-minute run in one arena, compared with the current 45–60-minute route through multiple arenas. Newer lobby notes left its rules open, so I want to resolve that conflict before naming it.\n\n➡️ I recommend keeping the single-arena survival concept; we can tune its duration later.",
+      "options": [
+        "Yes — single-arena survival (recommended)",
+        "Single arena, but endless survival",
+        "The second mode has changed"
+      ],
+      "answer": "Yes — single-arena survival (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:03:08.591Z",
+        "text_sha256": "2a8eacea88495fcb54807b3207e9aaa112c47046041866f14d049ecb624e209e"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:09:39.311Z",
+        "text_sha256": "d23c22c2a7d774d5fb174b5e15f8c7e6b9c191667257bb049a60eeb40a4756dc"
+      },
+      "capture": "original-question",
+      "id": "2026-10-13-naming-perks-q10",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 11,
+      "question": "❓ Q11 — Which new game-title direction feels closest?\n\nA. DEADBAND — a cold, unfamiliar program designation.\nB. CROSSLOAD — an industrial name suggesting pressure carried by the squad.\nC. LOADLINE — an operating limit, with the linked-arena idea underneath it.\nD. REDUCT — a short invented designation for the controlling system or organization.\n\n➡️ My pick to explore is DEADBAND. These are sound-and-feel proposals; none fixes the lore or has been checked for name conflicts yet. Reject all four if they still miss.",
+      "options": [
+        "DEADBAND",
+        "CROSSLOAD",
+        "LOADLINE",
+        "REDUCT"
+      ],
+      "answer": "I like reduct, deadband is cool idea but not great sounding",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:12:08.194Z",
+        "text_sha256": "d3f5a46792a7176453bd22e97325a10de7632d35477cd728301f0073f4644979"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:16:15.300Z",
+        "text_sha256": "285c3ad3e14ad2c6cf61f49cd4b84c026ded49f335927a7c60420247879e3e64"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-13-naming-perks-q11",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 12,
+      "question": "❓ Q12 — Which pair of mode names feels best? The first name is the multi-arena run; the second is single-arena survival.\n\nA. ADVANCE / HOLDOUT — clear and forceful.\nB. TRAVERSE / CONTAINMENT — more industrial and in-world.\nC. THE RUN / THE STAND — names fighters might use themselves.\n\n➡️ I recommend A for menu clarity, but C may better match the rougher fighter-mark branding you asked to compare.",
+      "options": [
+        "ADVANCE / HOLDOUT (recommended)",
+        "TRAVERSE / CONTAINMENT",
+        "THE RUN / THE STAND"
+      ],
+      "answer": "Progressive run and holdout? Thoughts?",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:12:08.194Z",
+        "text_sha256": "694c56522ad0250c0b0feb6533a7cc985c831e2be2eeda7de969c73153c026ec"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:16:15.300Z",
+        "text_sha256": "53ae16a0580107dca5c1902e5a32013e5844f6c6c4f97a70728a9951b8c3e45b"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-13-naming-perks-q12",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 13,
+      "question": "❓ Q13 — Which wording should we use for the multi-arena mode alongside HOLDOUT?\n\n➡️ I recommend PROGRESSION RUN: the squad moves through arenas and develops its weapons during the run. We can keep your original wording if you prefer its sound.",
+      "options": [
+        "PROGRESSION RUN (recommended)",
+        "PROGRESSIVE RUN"
+      ],
+      "answer": "PROGRESSION RUN (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:18:14.139Z",
+        "text_sha256": "7cd42df5172597be73e4b23ca40818714429bc858d82a4c0acbb3a38c7f5b4f9"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:20:30.321Z",
+        "text_sha256": "0f70eec9fa3095e6e72bf36a2d560a6dec5fa983632984398c49825e59ce7767"
+      },
+      "capture": "original-question",
+      "id": "2026-10-13-naming-perks-q13",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 14,
+      "question": "❓ Q14 — REDUCT is already used by an existing programming puzzle game. How should we proceed with the name?\n\n➡️ I recommend finding a nearby variation that keeps the short, industrial sound you liked. The two logo styles can stay the same.",
+      "options": [
+        "Find a nearby variation (recommended)",
+        "Keep REDUCT for concept mockups while we decide"
+      ],
+      "answer": "Find a nearby variation (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:19:49.783Z",
+        "text_sha256": "6beb04743379dd55badd37f6fd0859c7d3ed97f1286518a5cd382d288eda1f94"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:20:12.692Z",
+        "text_sha256": "07bc00b207aa619a5af07cbb610279dbccb0e73e2fb24a47669a9337f69ed0fe"
+      },
+      "capture": "original-question",
+      "id": "2026-10-13-naming-perks-q14",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 15,
+      "question": "❓ Q15 — Which name should I use for the stamped and fighter-mark logo comparisons?\n\n➡️ I recommend REDUKT. REDUCTA is slightly more distinct in sound. Both have existing uses outside games, so this is a concept choice rather than final availability clearance.",
+      "options": [
+        "REDUKT (recommended)",
+        "REDUCTA",
+        "Move further away from REDUCT"
+      ],
+      "answer": "Move further away from REDUCT",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:24:42.236Z",
+        "text_sha256": "c7c19aa8b294c3ead13691685fb4a9fd2224b6f39c04e923ab754a4731ea73af"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:25:49.231Z",
+        "text_sha256": "2c1728bdbafafd71fc6b7aa85d48f4901b2cbeaec82d72c5f2f02ec896cfa934"
+      },
+      "capture": "original-question",
+      "id": "2026-10-13-naming-perks-q15",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 16,
+      "question": "❓ Q16 — Which fresh direction has the most potential?\n\nA. UNSPARED — a trial that gives the squad no easy way through.\nB. EXACTOR — a cold name for the authority running the arenas.\nC. NULLMARK — an unfamiliar designation from the arena system.\nD. HARD LIMIT — a pressure threshold the squad has to survive.\n\n➡️ My strongest pick is UNSPARED for the stakes, with EXACTOR closest to the controlling-organization idea. No exact game-title match surfaced for these in the limited check; this is still a shortlist.",
+      "options": [
+        "UNSPARED",
+        "EXACTOR",
+        "NULLMARK",
+        "HARD LIMIT"
+      ],
+      "answer": "Is this the game name or mode name?",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:36:14.367Z",
+        "text_sha256": "f92c2192ee2a353e9afaa50bd565052eb48160f2afce06ddd586b7e2a9c61215"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T02:37:34.501Z",
+        "text_sha256": "5d5324352caf9678a874bda2b23c0500493aa008b5d403c16f2212d6e1744c62"
+      },
+      "capture": "original-question",
+      "id": "2026-10-13-naming-perks-q16",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": null,
+      "question": "Which four perks should we keep? I recommend Stable Grip, Rescue Harness, Trauma Kit, and Lightweight Rig for weapon handling, teammate rescue, healing, and movement.",
+      "options": [
+        "Keep those four (recommended)",
+        "Swap Trauma Kit for Reinforced Plating"
+      ],
+      "answer": "Keep those four (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T03:20:18.707Z",
+        "text_sha256": "0ce756f3d094323d8aa09e6a336645ec3880ab2e4756f2fc58867a73fd7acd8c"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T03:43:17.941Z",
+        "text_sha256": "4606d3e7a463d67e20341e77a2cadcbbf90b54035216f67b2531eeedb7e30df5"
+      },
+      "capture": "original-question",
+      "id": "2026-10-13-naming-perks-choice17",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": null,
+      "question": "Should all four be usable from the first run, while players still equip only two?",
+      "options": [
+        "Yes—all four available immediately (recommended)",
+        "Keep their current XP unlock requirements"
+      ],
+      "answer": "Yes—all four available immediately (recommended)",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T03:20:18.707Z",
+        "text_sha256": "669cb496d73844cf3538125373cb7918b3d7024869dac55a0ffafbf166fdb556"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-14T03:43:09.635Z",
+        "text_sha256": "7cde7303de58116951e928474424dd5c2dcaee45cf8660ecd85bf3ac02e621f9"
+      },
+      "capture": "original-question",
+      "id": "2026-10-13-naming-perks-choice18",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    }
+  ]
+}

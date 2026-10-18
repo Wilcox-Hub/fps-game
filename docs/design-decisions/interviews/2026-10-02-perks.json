@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "2026-10-02-perks",
+  "captured_on": "2026-10-18",
+  "source_kind": "recovered-primary-conversation",
+  "scope": "Game-design questions and user answers only. Original options preserved when available. Dates in file names are America/Los_Angeles; provenance timestamps are UTC.",
+  "completeness": "Recovered entries only; missing answers are explicitly marked. This is not a complete export of every chat or every historical interview.",
+  "entries": [
+    {
+      "question_number": null,
+      "question": "Which feel should guide the perk redesign?",
+      "options": [
+        "A mix of flashy powers and tactical combos",
+        "Mostly flashy sci-fi powers",
+        "Mostly skill-based combat and movement tricks"
+      ],
+      "answer": "A mix of option 1 and 3",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-03T02:14:05.607Z",
+        "text_sha256": "285125f6713a82a03d1e7854f827e91a3dfa660dac45fac45dda331c47c6bfc7"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-03T02:17:36.558Z",
+        "text_sha256": "37582d0aa9e5c5e9f40cf9a55ab6ce0fe77930a8e450179693b39fef4b00b532"
+      },
+      "capture": "original-question",
+      "id": "2026-10-02-perks-choice1",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    }
+  ]
+}

@@ -1,0 +1,778 @@
+{
+  "schema_version": 1,
+  "id": "2026-10-11-lean-ion",
+  "captured_on": "2026-10-18",
+  "source_kind": "recovered-primary-conversation",
+  "scope": "Game-design questions and user answers only. Original options preserved when available. Dates in file names are America/Los_Angeles; provenance timestamps are UTC.",
+  "completeness": "Recovered entries only; missing answers are explicitly marked. This is not a complete export of every chat or every historical interview.",
+  "entries": [
+    {
+      "question_number": 1,
+      "question": "❓ **Q1 — Lean control:** How should players lean around cover?\n\n- **A:** Manually choose left or right.\n- **B:** Automatically lean when aiming beside cover.\n\n➡️ **Recommend A.** The player decides when to expose themselves. We’ll settle hold/toggle and bindings next.\n",
+      "options": [],
+      "answer": "A",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:11:04.549Z",
+        "text_sha256": "9aa8ff8a958bdcf28e9d71c4480faf6a1662c503e7f259583b6c133bd3e3391a"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:28:42.821Z",
+        "text_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "prior_question_versions": [
+        {
+          "question": "❓ **Q1 — Lean control:** Should players deliberately choose left or right lean, or should the game automatically lean when aiming beside cover?\n\n➡️ I recommend manual control so peeking is a player decision.",
+          "source": {
+            "kind": "saved-game-conversation",
+            "timestamp_utc": "2026-10-12T04:58:52.691Z",
+            "text_sha256": "cf6a525a06d4ad1bb6ba6d85e8788e1c0f5ea34ae2ae047ffc14a57da96087be"
+          },
+          "status": "rephrased before answer; no separate answer inferred"
+        }
+      ],
+      "id": "2026-10-11-lean-ion-q1",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 2,
+      "question": "❓ **Q2 — Movement while leaning:** How much movement should a peek allow?\n\n- **A:** Standing or crouched, with slow walking.\n- **B:** Normal walking speed while leaning.\n\nBoth would allow hipfire and ADS. My proposed rule is that sprinting, sliding, jumping, or carrying a teammate cancels lean.\n\n➡️ **Recommend A.** Lean becomes a deliberate way to establish a firing angle, with a movement cost.\n",
+      "options": [],
+      "answer": "A and use suggested",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:11:04.549Z",
+        "text_sha256": "711a1fa9624d1b7ad87f0f3268cf8f1cfb19f05821e730fc1b016632dff585d0"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:28:42.821Z",
+        "text_sha256": "49554648162a3b11493754d033475fef5cf9e6e9ac3074e0a9157362f8247de4"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "prior_question_versions": [
+        {
+          "question": "❓ **Q2 — Lean movement:** Should lean be a deliberate peek while standing or crouched with slow movement, or remain available while moving freely?\n\n➡️ I recommend slow, grounded peeks with both hipfire and ADS; sprinting, sliding, jumping, and carrying a teammate cancel lean.",
+          "source": {
+            "kind": "saved-game-conversation",
+            "timestamp_utc": "2026-10-12T04:58:52.691Z",
+            "text_sha256": "35b2c22d94a89304d944e1df527801fbdbca35e7ede0d77a4fc1cb645619282e"
+          },
+          "status": "rephrased before answer; no separate answer inferred"
+        }
+      ],
+      "id": "2026-10-11-lean-ion-q2",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 3,
+      "question": "❓ **Q3 — Ion Surge:** Currently, every player can fill a charge meter and press E to release an energy blast within 18 metres, blocked by cover. What should happen to it?\n\n- **A:** Rework it into a specific weapon or equipment function.\n- **B:** Keep the universal charged blast.\n- **C:** Remove it.\n\n➡️ **Recommend A.** A powerful effect could give a particular piece of gear a distinct identity. We’d design that effect in the next round.\n\nYou can answer **1A, 2A, 3A**, or explain what you’d change.",
+      "options": [],
+      "answer": "A\n\nDo more questions at a time",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:11:04.549Z",
+        "text_sha256": "229f0749846076adf763b96dc4e00e9dfc60529428bb03ef823f59f2d73bcefe"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:28:42.821Z",
+        "text_sha256": "5bcf1da848f49c29057790cd486d258d4d7e9725ac0a55936312c077e2cb7a6a"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "prior_question_versions": [
+        {
+          "question": "❓ **Q3 — Ion Surge:** The current prototype lets every player press E with a full charge meter to release an energy blast within 18 metres, blocked by cover. Given your preference against a superhero feel, should we rework this as a weapon/equipment action, keep the current blast, or remove it?\n\n➡️ I recommend reworking it as a weapon/equipment action so the power comes from the gear.",
+          "source": {
+            "kind": "saved-game-conversation",
+            "timestamp_utc": "2026-10-12T05:07:16.953Z",
+            "text_sha256": "dd77d9dc6ea01d3de59a1c24544bbbddcbc09f76a49efa17c0091e8dcf89ff4b"
+          },
+          "status": "rephrased before answer; no separate answer inferred"
+        }
+      ],
+      "id": "2026-10-11-lean-ion-q3",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 4,
+      "question": "❓ **Q4 — Hold or toggle lean?**\n\n- **A:** Hold the lean key; release to straighten.\n- **B:** Tap once to lean; tap again to straighten.\n\n➡️ **Recommend A**, matching your hold-based crouch preference.\n",
+      "options": [],
+      "answer": "a but allow toggle to be turned on in settings",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:33:13.359Z",
+        "text_sha256": "e8c599656511961d26486931077e2df3829e6940f4ad021986a7adf420eb0fad"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:39:57.414Z",
+        "text_sha256": "11ec69d45563854e38b49450e608b2e6c8b088d9f3babff99ff7cf14c67163e9"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q4",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 5,
+      "question": "❓ **Q5 — Keyboard bindings?**\n\n- **A:** Q leans left; E leans right. Reserve those keys for lean and move the reworked Ion function elsewhere if needed.\n- **B:** Use different keys—tell me which.\n\n➡️ **Recommend A.** Ion’s exact control comes after we choose its gear form.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:33:13.359Z",
+        "text_sha256": "56b0372b35189282127f20ea22ba00cb9f1b8d959c87768552a3ec53067a5ea2"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:39:57.414Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q5",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 6,
+      "question": "❓ **Q6 — How quickly should lean respond?**\n\n- **A:** Responsive, with a short smooth transition.\n- **B:** A slower, weightier transition that makes each peek more committed.\n\n➡️ **Recommend A.** Slow walking and physical exposure already provide the commitment. Exact timing stays provisional for testing.\n",
+      "options": [],
+      "answer": "a, but heavier weapon class leans slightly slower&#x20;",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:33:13.359Z",
+        "text_sha256": "3689c6086322e513dbb421abdd2f4f6e51eaf2c1d940802ff55820080bf7ab0d"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:39:57.414Z",
+        "text_sha256": "97ec091404be9564fd16e35ca0138bb15d5571e44565694cc2cbc9a62ceba949"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q6",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 7,
+      "question": "❓ **Q7 — Should leaning improve weapon handling?**\n\n- **A:** No extra accuracy or recoil bonus; it provides a different firing angle.\n- **B:** Leaning also provides a small bracing bonus.\n\n➡️ **Recommend A.** Your existing stationary-crouch bracing would still apply when crouched.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:33:13.359Z",
+        "text_sha256": "a79b8d98dec92bc6830252f2ffb0644ec01acdb41bdc22fa3809b79cac14a93b"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:39:57.414Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q7",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 8,
+      "question": "❓ **Q8 — Reloading while leaned?**\n\n- **A:** Stay leaned while reloading; straighten when the player releases lean.\n- **B:** Reloading automatically straightens the player.\n\n➡️ **Recommend A**, preserving manual control over exposure.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:33:13.359Z",
+        "text_sha256": "224d2ee1ba6933ffd8707f07a3fb21a5abba97959130ca73274671c2099a2bdb"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:39:57.414Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q8",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 9,
+      "question": "❓ **Q9 — Where should the reworked Ion function live?**\n\n- **A:** As part of a particular gun’s identity, occupying one of the existing two weapon slots.\n- **B:** As separate carried equipment, such as an emitter or grenade.\n- **C:** As a selectable gun-upgrade behavior, alongside choices such as Echo Pulse and Through Shot.\n\n➡️ **Recommend A.** It could make a known weapon worth buying and committing to. We’d then choose whether it belongs to an existing gun or a new one.\n",
+      "options": [],
+      "answer": "a, but its a charge that happens on a ion blaster gun after so many shots or successful hits on an enemy",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:33:13.359Z",
+        "text_sha256": "62bac4c3045e4a8591717ed1248a0ac72e4ef03627585cd77aa35f9aad7b289f"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:39:57.414Z",
+        "text_sha256": "c99cdc2c2fe274f8625b8c83074bf2e2517c1f31502857bd300155dc95d1ab3a"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q9",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 10,
+      "question": "❓ **Q10 — What tactical job should Ion perform?**\n\n- **A:** Concentrated damage, especially against a tough target.\n- **B:** Disruption: interrupt bots or create a brief opening, with little damage.\n- **C:** A mix of damage and disruption.\n\n➡️ **Recommend C**, with restrained damage and stronger enemies resisting interruption. Its value would come from creating an opening rather than clearing an entire wave.\n",
+      "options": [],
+      "answer": "c",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:33:13.359Z",
+        "text_sha256": "ea46ef6ac219d515a630d7a55b10a0f8aa4c59affcfda0ebeaa5675165bb19bb"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:39:57.414Z",
+        "text_sha256": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q10",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 11,
+      "question": "❓ **Q11 — Controller support for this lean pass?**\n\n- **A:** Establish keyboard/mouse lean first; design controller bindings afterward.\n- **B:** Implement keyboard/mouse and controller lean together.\n\n➡️ **Recommend A** for the first playable iteration. Existing controller shoulders and stick clicks already have assigned actions, so their lean mapping needs a separate decision.\n\nYou can reply **4A, 5A, 6A…**, with changes wherever you want.",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:33:13.359Z",
+        "text_sha256": "c26f17e7af44e22ba623570eca236636fa67da3b8748a8f23f388d4d1aa25763"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:39:57.414Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q11",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 12,
+      "question": "❓ **Q12 — Ordinary Ion Blaster fire:** What should its normal shots feel like?\n\n- **A:** Deliberate semi-automatic energy shots.\n- **B:** Short bursts.\n- **C:** Continuous automatic fire.\n\n➡️ **Recommend A**, giving accurate individual shots a distinct rhythm.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:46:44.533Z",
+        "text_sha256": "3c8be76cdcfb2a36e3e310d5b11e39f50d567479fb16767fd00d5bef44576a87"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:53:28.616Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q12",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 13,
+      "question": "❓ **Q13 — Earning charge:** What should build the gun’s charge?\n\n- **A:** Successful direct hits on living enemies, counted once per normal shot.\n- **B:** Every shot fired, including misses.\n- **C:** Small gains from firing, larger gains from hitting.\n\n➡️ **Recommend A.** Charge rewards landing shots and prevents charging against a wall.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:46:44.533Z",
+        "text_sha256": "2aa3a1e6af8c2d7e8fbc5a4972b801da0c2255d88edd07526ddabac8197946bc"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:53:28.616Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q13",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 14,
+      "question": "❓ **Q14 — Spending full charge:** How should the stronger attack happen?\n\n- **A:** The next shot automatically becomes charged. Players can hold it by waiting to fire.\n- **B:** Players explicitly activate a charged attack; ordinary firing remains available.\n\n➡️ **Recommend A**, keeping the mechanic within the normal shooting controls. If you choose B, we’ll settle its input afterward.\n",
+      "options": [],
+      "answer": "b, and a sound and visual queue tells its charged",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:46:44.533Z",
+        "text_sha256": "81137cd19f2a6b5431de238d11a761d6287fb8df44e0370e064dee7d0780eef4"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:53:28.616Z",
+        "text_sha256": "799f6d185fff487117fce13870a2a03f94ee9c7972f95917e554c3a38d0bff7d"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q14",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 15,
+      "question": "❓ **Q15 — Charged attack shape:** What should the discharge do?\n\n- **A:** Hit one aimed target with damage and disruption.\n- **B:** Hit the aimed target, with a small disruption pulse around the impact.\n- **C:** Release a short directional cone affecting several nearby enemies.\n\n➡️ **Recommend B.** Most damage goes to the direct target; the nearby pulse creates a brief opening.\n",
+      "options": [],
+      "answer": "b&#x20;",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:46:44.533Z",
+        "text_sha256": "c4206d4e6c5b2cacc23eac2ba1f1ddfa99a99eecc6975be466942e39f23c4f73"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:53:28.616Z",
+        "text_sha256": "0f05afd89526d630e1ac7ab83d7e5645e97f51ccb86aaedc9aa7742e2d56d05f"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q15",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 16,
+      "question": "❓ **Q16 — What does “disruption” mean?**\n\n- **A:** Interrupt an attack and briefly stagger susceptible bots.\n- **B:** Temporarily slow their movement.\n- **C:** Temporarily impair their targeting accuracy.\n\n➡️ **Recommend A**, with stronger enemies resisting interruption and protection against repeated stun-locking.\n",
+      "options": [],
+      "answer": "a and c",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:46:44.533Z",
+        "text_sha256": "bb194db099943060f7ac68fc6d834983716ddd371bced3f2689dc3f42ebd9368"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:53:28.616Z",
+        "text_sha256": "7f0b1eac9b877eaa2b40dc96b5e6c73f4ff409c80031332a7f6450ab8f238df2"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q16",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 17,
+      "question": "❓ **Q17 — Ammunition:** Does the Blaster still use normal ammunition?\n\n- **A:** Magazine, reserve ammo and reloads remain; charge strengthens a shot.\n- **B:** Charge becomes its main resource, replacing ordinary ammunition.\n\n➡️ **Recommend A**, preserving ammunition pressure and reload windows.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:46:44.533Z",
+        "text_sha256": "a3327cc6b0475d39866e5b7fb41f1a22ea88a93ea3965430b45c8b0abd418be3"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:53:28.616Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q17",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 18,
+      "question": "❓ **Q18 — Keeping earned charge:** What happens when you reload, switch weapons or reach regroup?\n\n- **A:** Charge stays with that gun, including through saved-run continuation.\n- **B:** Switching away loses charge.\n- **C:** Charge gradually decays while the gun is holstered.\n\n➡️ **Recommend A.** It lets players prepare the Blaster and save its discharge for a useful moment.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:46:44.533Z",
+        "text_sha256": "bc700c4f5db5b23fa82d69883f33fc8165c34389f6eed80651de93f32a7a8ba6"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:53:28.616Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q18",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 19,
+      "question": "❓ **Q19 — Heavy-weapon lean handling:** Should upgrading a gun change its lean speed?\n\n- **A:** Each gun family has a stable handling class; power upgrades preserve its lean speed.\n- **B:** Stronger upgrades or certain wildcard properties can make a gun heavier and slow its lean.\n\n➡️ **Recommend A.** Heavier weapon families lean slightly slower, while upgrades retain familiar handling.\n\nExact damage, charge thresholds and timing can stay provisional until this behavior is settled and tested.",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:46:44.533Z",
+        "text_sha256": "19d67f4663ce7b1301f43759db7e36a984a9c7a49a08c63b6692f5f98eb61435"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:53:28.616Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q19",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 20,
+      "question": "❓ **Q20 — Charged-attack button:** Q/E will handle leaning, RMB aiming, and middle mouse melee.\n\n- **A:** Z fires the charged attack.\n- **B:** A mouse thumb button fires it.\n\n➡️ **A.** Z works on a standard keyboard and mouse without displacing another action.\n",
+      "options": [],
+      "answer": "a, also use f or v for mele not middle mouse",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:57:24.872Z",
+        "text_sha256": "29aada845e11d42b24ab80df5308b9d9260627cf72c7c1a561bef3f85dd3c7f6"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:08:13.115Z",
+        "text_sha256": "f314a4d93487e11dc4e279da5685366454b93e2eede85a5c3af35d3adc792f23"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q20",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 21,
+      "question": "❓ **Q21 — Getting the Ion Blaster:**\n\n- **A:** Buy it at the arsenal with shards.\n- **B:** Also offer it as a starting weapon.\n\n➡️ **A.** It gives players something distinct to work toward. It still occupies one of the two weapon slots.\n",
+      "options": [],
+      "answer": "i want it to have more of a feel like when you enter a new section in blackops 2 zombies and unlock it in the new area and get to buy it or use the mystery box for it. definitely love the mystery box idea. thoughts?",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:57:24.872Z",
+        "text_sha256": "9977920a53a061c6ab9d3670a58a096d1548a65bb8a77a83b864e144709e6d27"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:08:13.115Z",
+        "text_sha256": "5a3a196869d5de4363dbad5b043389dc2783e956a7146d12ad709a288f7a3e9d"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q21",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 22,
+      "question": "❓ **Q22 — Charged-shot ammo cost:**\n\n- **A:** One magazine round plus the stored charge.\n- **B:** Three magazine rounds plus the stored charge.\n- **C:** Stored charge only; usable with an empty magazine.\n\n➡️ **A.** Successful hits already earn the attack. An empty magazine still requires reloading.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:57:24.872Z",
+        "text_sha256": "2b723b86d315e1191c26604cafde1f51c401a4e8c39887a2c7f6592f97a2e71a"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:08:13.115Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q22",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 23,
+      "question": "❓ **Q23 — How often should it charge?**\n\n- **A:** Roughly every 6–8 successful normal hits.\n- **B:** Roughly every 10–12 hits.\n- **C:** Roughly every 3–4 hits.\n\n➡️ **A**, starting at eight hits for testing. Frequent enough to matter, with a reason to aim carefully.\n",
+      "options": [],
+      "answer": "thinking 3-4 mags worth",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:57:24.872Z",
+        "text_sha256": "c4f545b7171f8ae6858d6edb3fcf33358906a61d503697939bc762d48565f683"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:08:13.115Z",
+        "text_sha256": "85290183683e2d33391d6d8f67e8fcd22e16f6825491367e7f52741dd8086b8a"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q23",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 24,
+      "question": "❓ **Q24 — Saving charged attacks:**\n\n- **A:** Store one ready attack. Further hits cannot bank another until it’s spent.\n- **B:** Store up to two charged attacks.\n\n➡️ **A.** It creates a choice between saving the attack and using it to resume building charge.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:57:24.872Z",
+        "text_sha256": "0fddfcf4b8beefb3d7a3d072449021e416a64b216ef5efa77fa064deb41371fc"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:08:13.115Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q24",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 25,
+      "question": "❓ **Q25 — Charged-shot feel:**\n\n- **A:** Fires immediately, with stronger recoil and slightly longer recovery.\n- **B:** Has a short, visible windup before firing.\n\n➡️ **A.** The separate button already makes it deliberate; immediate response helps under pressure.\n",
+      "options": [],
+      "answer": "b",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:57:24.872Z",
+        "text_sha256": "281203ef00d0a7038544feaa13bd44eb6162388e243aea01c26fbf9dfa62f3b5"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:08:13.115Z",
+        "text_sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q25",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 26,
+      "question": "❓ **Q26 — Upgrade behavior:** Power upgrades would strengthen both normal and charged damage. Should the chosen Echo Pulse or Through Shot behavior also affect charged attacks?\n\n- **A:** Those behaviors affect normal shots only; the charged attack keeps its distinct disruption pulse.\n- **B:** They also affect the charged direct hit.\n\n➡️ **A.** It keeps the charged attack readable and easier to balance.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:57:24.872Z",
+        "text_sha256": "2f2635b07d7b31713747744cfa8408b6846fe1bdac5616960b342a70ac03f97d"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:08:13.115Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q26",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 27,
+      "question": "❓ **Q27 — Existing Charge Recovery perk:** It currently increases Ion gains by 15%.\n\n- **A:** Keep it as an Ion Blaster specialist perk.\n- **B:** Replace it with a modest damage bonus against heavy sentries.\n- **C:** Remove it for now.\n\n➡️ **B.** That creates a broader combat role without requiring one particular gun. The bonus would start conservatively and need balance testing.\n\nAfter these answers, I’ll summarize the design for confirmation. The [grilling skill](C:/Users/YaYa/.codex/skills/grilling/SKILL.md) requires: “Do not act on it until the user confirms you have reached a shared understanding.”",
+      "options": [],
+      "answer": "b",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T05:57:24.872Z",
+        "text_sha256": "dfaa7b34867b98ac479a50df22886de552b2389172c1823d19dfb963a09b768a"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:08:13.115Z",
+        "text_sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q27",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 28,
+      "question": "❓ **Q28 — Melee controls:** F currently heals, and V handles teammate rescue.\n\n- **A:** V melee, F healing, T contextual rescue/arsenal interaction.\n- **B:** F melee, V rescue, G healing—replacing the old combat wildcard hotkey.\n\n➡️ **A.** F stays available for emergency healing. Remove middle-mouse melee.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:12:13.844Z",
+        "text_sha256": "9e5ae7d99ffbd1f32a38d5dfdc67522421f98d162ac224d64df0beae80d8d7be"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:24:51.720Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q28",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 29,
+      "question": "❓ **Q29 — What counts as a new section?**\n\n- **A:** Reaching the next arena unlocks additional known weapons for purchase.\n- **B:** Opening rooms or sections within an arena unlocks their weapon stations.\n\n➡️ **A for the first implementation.** It fits our arena-to-arena progression. B would also require designing playable rooms and doors; the current perimeter bays are enemy entrances.\n",
+      "options": [],
+      "answer": "scratch this it takes away from the core function of the arsenal&#x20;",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:12:13.844Z",
+        "text_sha256": "a36b37b587e52cefb1ba9859f8b3860414a396b2f40d729fca5191caf213e8c9"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:24:51.720Z",
+        "text_sha256": "dbf73464b6ac0ad996893907aaa5ddada8039c63fb1603b70909da1d1539724b"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q29",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 30,
+      "question": "❓ **Q30 — Mystery-box payment:**\n\n- **A:** Replace arsenal reroll tokens with paid mystery-box rolls using personal shards.\n- **B:** Keep earned reroll tokens as the box’s payment.\n\n➡️ **A.** It creates a meaningful choice between saving for a known gun and gambling on a discovery.\n",
+      "options": [],
+      "answer": "should we have mystery box if we have the reroll?",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:12:13.844Z",
+        "text_sha256": "d3987f96730890a20cf3c5a133da981685463f1cd1aa8de027238ffd5bc8b005"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:24:51.720Z",
+        "text_sha256": "d0c5d2c356563987e0b903e69e5c3c96087970a3cb5aa3552846361b53738da9"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q30",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 31,
+      "question": "❓ **Q31 — Mystery-box weapon pool:**\n\n- **A:** It can reveal weapons whose known purchase hasn’t unlocked yet, including the Ion Blaster.\n- **B:** It only draws from currently unlocked weapons.\n\n➡️ **A.** Finding something early gives the box its appeal.\n",
+      "options": [],
+      "answer": "idk",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:12:13.844Z",
+        "text_sha256": "988b1a3c66505ee4613f902a360fdd839eeded0dde09dacbad172971b99722e8"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:24:51.720Z",
+        "text_sha256": "c6e5e46c59267114f91d64df0e069b0dae176f9a134656820bba1e6164318980"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q31",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 32,
+      "question": "❓ **Q32 — When can players use the box?**\n\n- **A:** During regroup only.\n- **B:** During combat too; interacting provides no protection or pause.\n\n➡️ **B.** Taking that risk could create memorable moments. Upgrades would remain available during regroup.\n",
+      "options": [],
+      "answer": "idk",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:12:13.844Z",
+        "text_sha256": "9d057483a2f78cf6ee963c78fa452cb00cfdab27f54eef8834bd6f922bb7cfb8"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:24:51.720Z",
+        "text_sha256": "c6e5e46c59267114f91d64df0e069b0dae176f9a134656820bba1e6164318980"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q32",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 33,
+      "question": "❓ **Q33 — Unlocks between runs:**\n\n- **A:** Area-based weapon access resets with each new run.\n- **B:** Once discovered, a weapon remains purchasable in future runs.\n\n➡️ **A.** Progressing through the arenas stays meaningful each run. Saved-run continuation preserves that run’s unlocks.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:12:13.844Z",
+        "text_sha256": "b321daceac4afe10ed063a64c0d71ec74c869fe13d34cd36a10e922a5dc348a2"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:24:51.720Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q33",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 34,
+      "question": "❓ **Q34 — “Three–four magazines” of charge:**\n\n- **A:** A fixed number of successful hits based on the gun’s original magazine size. Larger magazines help you reach it with fewer reloads.\n- **B:** Always three–four current magazines’ worth, so magazine upgrades also increase the hits required.\n\n➡️ **A.** An upgrade should help rather than move the charge target farther away. Misses still earn no charge.\n",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:12:13.844Z",
+        "text_sha256": "a679247ff52ba6774a60048df0a5bfdab9af29c5cace3b33b763252657b1ae1e"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:24:51.720Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q34",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    },
+    {
+      "question_number": 35,
+      "question": "❓ **Q35 — Cancelling the charged-shot windup:**\n\n- **A:** Switching, reloading or sprinting cancels it; ammo and charge are spent only when it fires.\n- **B:** Starting the windup commits you to firing and briefly prevents those actions.\n\n➡️ **A.** You can abandon the attack when danger changes, without losing the charge you earned.",
+      "options": [],
+      "answer": "a",
+      "question_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:12:13.844Z",
+        "text_sha256": "3ccac9df63608631814fb277bd3885fe62db8aee09edf786c142fdc16a5c1ac2"
+      },
+      "answer_source": {
+        "kind": "saved-game-conversation",
+        "timestamp_utc": "2026-10-12T06:24:51.720Z",
+        "text_sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+      },
+      "capture": "original-question",
+      "answer_format": "numbered-answer; spelling and option letters preserved",
+      "id": "2026-10-11-lean-ion-q35",
+      "answer_status": "answered",
+      "interpretation": "Historical answer; current rules and later corrections are in ../../current.json."
+    }
+  ]
+}
