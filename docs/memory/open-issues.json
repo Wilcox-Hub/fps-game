@@ -7,8 +7,9 @@
       "priority": "high",
       "report": "Late in arena one the co-op host's ammo orbs disappeared without increasing ammunition. Host carried unupgraded Gale and Phasma.",
       "evidence": "docs/design-decisions/interviews/2026-10-17-coop-diagnostics.md",
-      "known": "Controlled grants/pickups pass. That does not reproduce or resolve the exact natural failure.",
-      "next_action": "Trace actual host inventory/reserve state and pickup receipts through an ordinary late-arena run, including down/recovery."
+      "known": "Owner clarified Oct20 that pickup failure began while the host could still walk/shoot. Current local Editor candidate passes 12/12 actual two-process Gale/Phasma pickup/reload/swap cases for both owners and one existing rescue/recovery/ammo case. An earlier same-day standalone six-encounter/17-drop check also passed. Original normal-play failure remains unreproduced; production ammo code was unchanged in this task.",
+      "next_action": "Capture the failure during normal co-op on an identified package/source version, tracing both carried gun pools, actual pickup receipts/ages and collecting owner. Keep issue open; local test passes do not validate published VS68 or prove the original cause.",
+      "latest_evidence": "docs/beta-readiness/snapshots/2026-10-20-host-ammo-scenarios/report.md"
     },
     {
       "id": "rescue-device-acceptance",
