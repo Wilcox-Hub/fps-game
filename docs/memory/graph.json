@@ -161,6 +161,11 @@
       "id": "automatic-interviews-validation",
       "kind": "tool-evidence",
       "path": "docs/memory/automatic-interviews-validation.json"
+    },
+    {
+      "id": "orca-mobile-help",
+      "kind": "workflow",
+      "path": "docs/memory/ORCA_MOBILE.md"
     }
   ],
   "edges": [
@@ -333,6 +338,11 @@
       "from": "automatic-interviews",
       "to": "automatic-interviews-validation",
       "relation": "validated-by"
+    },
+    {
+      "from": "environment",
+      "to": "orca-mobile-help",
+      "relation": "documents"
     }
   ],
   "decision_replacement_edges": "docs/design-decisions/current.json: decisions[].supersedes/superseded_by"

@@ -1,5 +1,5 @@
 {
-  "recorded_on": "2026-10-18",
+  "recorded_on": "2026-10-20",
   "issues": [
     {
       "id": "host-ammo-natural",
@@ -67,6 +67,15 @@
       "priority": "normal",
       "report": "Same-account conversation recovery passed. Two-account Windows A→B→A continuity awaits the second login.",
       "next_action": "Validate once the second account is available; never publish account credentials."
+    },
+    {
+      "id": "orca-phone-navigation",
+      "status": "awaiting-device-detail",
+      "priority": "normal",
+      "report": "Owner cannot find a terminal or chat composer on the phone.",
+      "known": "Official Orca supports phone Chat UI inside a paired host agent session. October17 setup left phone pairing pending; current pairing and exact screen are unverified.",
+      "evidence": "docs/memory/ORCA_MOBILE.md",
+      "next_action": "Use the owner response about Safari versus native app to identify the screen; confirm host pairing/session tab before diagnosing an input bug."
     }
   ]
 }
