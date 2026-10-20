@@ -70,12 +70,12 @@
     },
     {
       "id": "orca-phone-navigation",
-      "status": "awaiting-device-detail",
+      "status": "resolved-owner-report",
       "priority": "normal",
       "report": "Owner cannot find a terminal or chat composer on the phone.",
-      "known": "Official Orca supports phone Chat UI inside a paired host agent session. October17 setup left phone pairing pending; current pairing and exact screen are unverified.",
+      "known": "On2026-10-20 the owner replied “Greta I got it!” after the paired-host/session Chat UI guidance. Phone navigation is accepted by owner report; exact connection route and an agent message send were not independently observed.",
       "evidence": "docs/memory/ORCA_MOBILE.md",
-      "next_action": "Use the owner response about Safari versus native app to identify the screen; confirm host pairing/session tab before diagnosing an input bug."
+      "next_action": "Reopen only if phone access fails again; no further screen-detail question is needed now."
     }
   ]
 }

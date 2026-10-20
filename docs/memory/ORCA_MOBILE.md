@@ -6,6 +6,6 @@ Use the official Orca IDE iPhone companion. Open the paired home PC, then the ex
 
 If no connected PC is available, finish pairing: the desktop account/status menu opens the mobile pairing flow, and the phone's **Pair** screen accepts its code/deep link. Orca Relay is the documented preference for remote access when available and requires sign-in. Keep the host awake, online and Orca running.
 
-The October 17 local remote-access record left Relay sign-in and phone pairing pending. That dated record is not proof of the phone's current state. The owner now reports no terminal/chat box; a clarification asking whether they use Safari or the installed app is pending. Do not assume the missing composer is a specific known bug without the actual screen/version.
+The October 17 local remote-access record left Relay sign-in and phone pairing pending. That dated record is not proof of the phone's current state. On October20 the owner reported “Greta I got it!” after the navigation guidance. Navigation is resolved by owner report; exact pairing path and a sent agent message were not independently observed. Do not assume the missing composer is a specific known bug without the actual screen/version.
 
 Sources: [Orca mobile](https://www.onorca.dev/docs/mobile), [official App Store link](https://apps.apple.com/us/app/orca-ide/id6766130217).
