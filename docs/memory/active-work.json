@@ -1,21 +1,22 @@
 {
-  "task": "concise-current-memory",
+  "task": "orca-grill-trigger-verification",
   "phase": "completed",
-  "outcome": "Shortened current notes; required material-change refreshes, linked detail and verified GitHub sync. Original interviews preserved.",
+  "outcome": "Saved Orca session had the grilling skill; automatic-interview policy was added afterward. Existing chat needs one explicit read of current instructions. No live auto-trigger test or message to that session was performed.",
   "topics": [
     "work-policy"
   ],
   "decisions": [
-    "workflow-memory"
+    "workflow-memory",
+    "workflow-clarification"
   ],
   "evidence": [
-    "docs/memory/WORKFLOW.md",
-    "docs/design-decisions/coverage.json"
+    "docs/memory/ORCA_MOBILE.md",
+    "docs/memory/AUTOMATIC_INTERVIEWS.md"
   ],
   "publication": {
-    "memory": "This scoped documentation update.",
-    "game": "Unchanged; delivery/evidence remain in beta-readiness."
+    "memory": "Scoped support finding.",
+    "game": "Unchanged."
   },
-  "next_action": "Investigate host ammo loss. Local E/refit delivery pending;100-roll audit paused.",
-  "recorded_at": "2026-10-20T17:36:04.222792+00:00"
+  "next_action": "Load current memory/interview rules in the older Orca chat once; then continue game work. Host ammo investigation remains next;100-roll audit paused.",
+  "recorded_at": "2026-10-20T17:40:34.322399+00:00"
 }

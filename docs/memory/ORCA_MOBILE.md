@@ -9,3 +9,7 @@ If no connected PC is available, finish pairing: the desktop account/status menu
 The October 17 local remote-access record left Relay sign-in and phone pairing pending. That dated record is not proof of the phone's current state. On October20 the owner reported “Greta I got it!” after the navigation guidance. Navigation is resolved by owner report; exact pairing path and a sent agent message were not independently observed. Do not assume the missing composer is a specific known bug without the actual screen/version.
 
 Sources: [Orca mobile](https://www.onorca.dev/docs/mobile), [official App Store link](https://apps.apple.com/us/app/orca-ide/id6766130217).
+
+## Loading updated interview rules in an existing session
+
+The saved IRON SUN Orca session from October17 included the grilling skill catalog, but predates the automatic-interview policy added October18. This confirms skill availability at that session's launch, not a live automatic trigger test. For that older chat, send once: “Read the current AGENTS.md, docs/memory/README.md and docs/memory/AUTOMATIC_INTERVIEWS.md, then continue from saved work.” New Codex runs discover current repository instructions at startup. Preserve the session; no new chat is required just to explicitly read the current files.
