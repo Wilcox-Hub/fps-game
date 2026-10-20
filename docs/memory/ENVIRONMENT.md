@@ -8,4 +8,6 @@ Supporting research/assets live outside the game checkout in the owner's IRON SU
 
 The existing Mem0 plugin is an optional retrieval aid. Its scope follows the assistant's workspace, so a search from the research folder does not prove game-repository memory. Follow [the configured scope guidance](../MEMORY.md). Blender scene operations require the application and its MCP add-on connection; installed configuration alone does not prove a live connection. Paid asset services need their own configured credentials and explicit cost approval.
 
+For Orca delegation and tool parity, follow [the worker workflow](ORCA_WORKFLOW.md). The owner authorizes selective Luna helpers at extra-high reasoning in separate conversations, with main-agent review. October 20: Orca 1.4.232 launched a real `gpt-6-luna`/`xhigh` worker; GitHub access and completion messaging passed. Orca's bundled `orca-cli`/`orchestration` guides and the installed Codex `grill-me`/`grilling` skills are separate catalogs. The global AGENTS pointer applies this helper preference to Orca sessions; project permissions still govern each task.
+
 For what is actually published, follow [current evidence](../beta-readiness/latest.json) and the current task's publication field. Source edits, a build and a live launcher/server rollout are separate states.

@@ -243,3 +243,14 @@ Kind: owner-request-current-task
 Kind: owner-request-current-task
 
 **quote:** Make sure memory is always concise and fully updated
+
+<a id="owner-orca-delegation"></a>
+## owner-orca-delegation
+
+Kind: owner-statement
+
+**recorded_on:** 2026-10-20
+
+**quote:** Make sure orca has all tools like orchestrator and spawning Luna agents on extra high in a separate chat when viable to do smaller tasks at lesser cost and everything we have setup here for efficiency
+
+[Repository evidence](../../docs/memory/ORCA_WORKFLOW.md)

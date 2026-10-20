@@ -171,6 +171,11 @@
       "id": "2026-10-20-host-ammo",
       "kind": "interview",
       "path": "docs/design-decisions/interviews/2026-10-20-host-ammo.md"
+    },
+    {
+      "id": "orca-worker-workflow",
+      "kind": "workflow",
+      "path": "docs/memory/ORCA_WORKFLOW.md"
     }
   ],
   "edges": [
@@ -353,6 +358,11 @@
       "from": "direction",
       "to": "2026-10-20-host-ammo",
       "relation": "supported-by"
+    },
+    {
+      "from": "memory-workflow",
+      "to": "orca-worker-workflow",
+      "relation": "delegation"
     }
   ],
   "decision_replacement_edges": "docs/design-decisions/current.json: decisions[].supersedes/superseded_by"

@@ -1,25 +1,24 @@
 {
-  "task": "next-steps-planning",
+  "task": "orca-efficiency-setup",
   "phase": "completed",
-  "outcome": "Compiled all 58 open GitHub work tickets plus the roadmap into a dated queue, separating independent technical work, remote design discussion, normal-device/human acceptance and explicitly paused work. Current 760 input hashes match the latest evidence; no new engine test or implementation began.",
+  "outcome": "Installed version-matched Orca CLI/orchestration skills and persisted the owner-authorized Luna/xhigh helper workflow. A real separate terminal-chat worker passed GitHub/tool smoke checks, delivered accepted completion and was released with archived output. Corrected bundled-guide versus installed-skill interpretation; live asset-service health and Windows cross-account continuity remain unverified.",
   "topics": [
-    "work-policy",
-    "weapons-economy",
-    "network-delivery"
+    "work-policy"
   ],
   "decisions": [
-    "workflow-memory",
-    "workflow-evidence",
-    "workflow-roll-audit"
+    "workflow-orca-delegation",
+    "workflow-memory"
   ],
   "evidence": [
-    "docs/memory/NEXT_STEPS_2026-10-20.md",
-    "docs/beta-readiness/snapshots/2026-10-20-host-ammo-scenarios/report.md"
+    "docs/memory/ORCA_WORKFLOW.md",
+    "docs/memory/ENVIRONMENT.md",
+    "C:/Users/YaYa/Documents/ChatGPT/FPS-1/output/orca-setup/2026-10-20/SETUP_RESULT.md",
+    "C:/Users/YaYa/Documents/ChatGPT/FPS-1/output/orca-setup/2026-10-20/verification.json"
   ],
   "publication": {
-    "memory": "Owner-authorized work queue and checkpoint; validate, preview and verify scoped sync.",
-    "game": "No game/source/release changes from this planning task."
+    "memory": "Owner-authorized memory-only sync; validate, preview and verify GitHub readback. Global/local Orca instructions are configured on this PC.",
+    "game": "No game implementation, engine test, source/release publication or account switch performed for this setup; preserve existing work."
   },
-  "next_action": "Suggested next independent block: focused ammo diagnostics, uninterrupted two-process encounter/reload/pickup coverage, then matching local test candidate preparation. Original ammo failure remains open; 100-roll audit stays paused.",
-  "recorded_at": "2026-10-20T19:47:49.345569+00:00"
+  "next_action": "Continue the existing beta-preparation block in docs/ORCA_WORK_IN_PROGRESS.md: ammo diagnostics, longer two-process reload/pickup coverage, then compatibility/local package review. Original host ammo issue stays open; 100-roll audit remains paused. Use bounded Luna/xhigh helpers where useful.",
+  "recorded_at": "2026-10-20T21:49:04.152501+00:00"
 }

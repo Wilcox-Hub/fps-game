@@ -21,6 +21,7 @@ For beta status, scoring, milestone planning, or test selection, read `docs/beta
 ## Project memory — all work
 
 - Start at `docs/memory/README.md` and current work; load relevant rules only. Keep summaries concise, link details, and refresh affected records after material changes and before task completion using `docs/memory/WORKFLOW.md`.
+- For Orca delegation, read `docs/memory/ORCA_WORKFLOW.md` before dispatch: owner-approved Luna/extra-high helpers, focused scope, main-agent review and cleanup.
 - Capture/sync every IRON SUN grill-me round/reply through `docs/memory/AUTOMATIC_INTERVIEWS.md`. Unresolved conflicts require owner clarification before affected implementation; preserve resolved history.
 - Routine memory-only GitHub sync is authorized: validate, preview and verify publication. Game/source/releases retain separate authorization; preserve unrelated work.
 <!-- IRON-SUN-MEMORY:END -->

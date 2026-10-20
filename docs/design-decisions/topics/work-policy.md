@@ -41,3 +41,11 @@ Sources: [owner-scenario-runner](../../../docs/design-decisions/sources.md#owner
 The isolated 100-roll wildcard output/distribution review remains paused at the owner's release request. Keep its requested summary/change suggestion as pending work; do not mark it run or completed.
 
 Sources: [owner-100-roll-pause](../../../docs/design-decisions/sources.md#owner-100-roll-pause).
+
+## workflow-orca-delegation — Selective Orca helpers with main-agent review
+
+**APPROVED** · Recorded 2026-10-20
+
+Follow the owner-authorized helper policy in docs/memory/ORCA_WORKFLOW.md before delegating in Orca. Keep the main conversation responsible for review and integration; tool exposure and live service validation are separate.
+
+Sources: [owner-orca-delegation](../../../docs/design-decisions/sources.md#owner-orca-delegation).

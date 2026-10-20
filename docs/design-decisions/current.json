@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "recorded_on": "2026-10-18",
+  "recorded_on": "2026-10-20",
   "authority": "The current human request governs. Any unresolved contradiction with approved direction triggers grill-me clarification/confirmation before the affected rule changes. Preserve confirmed replacements and supersession history; provisional values need validation.",
   "topics": {
     "identity-modes": "Identity, modes and naming",
@@ -149,6 +149,12 @@
     "owner-concise-memory": {
       "kind": "owner-request-current-task",
       "quote": "Make sure memory is always concise and fully updated"
+    },
+    "owner-orca-delegation": {
+      "kind": "owner-statement",
+      "recorded_on": "2026-10-20",
+      "quote": "Make sure orca has all tools like orchestrator and spawning Luna agents on extra high in a separate chat when viable to do smaller tasks at lesser cost and everything we have setup here for efficiency",
+      "path": "docs/memory/ORCA_WORKFLOW.md"
     }
   },
   "decisions": [
@@ -820,6 +826,17 @@
       "rule": "The isolated 100-roll wildcard output/distribution review remains paused at the owner's release request. Keep its requested summary/change suggestion as pending work; do not mark it run or completed.",
       "sources": [
         "owner-100-roll-pause"
+      ]
+    },
+    {
+      "id": "workflow-orca-delegation",
+      "topic": "work-policy",
+      "title": "Selective Orca helpers with main-agent review",
+      "status": "approved",
+      "recorded_on": "2026-10-20",
+      "rule": "Follow the owner-authorized helper policy in docs/memory/ORCA_WORKFLOW.md before delegating in Orca. Keep the main conversation responsible for review and integration; tool exposure and live service validation are separate.",
+      "sources": [
+        "owner-orca-delegation"
       ]
     }
   ]
