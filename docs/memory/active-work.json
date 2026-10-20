@@ -1,7 +1,7 @@
 {
-  "task": "persistent-memory-context-explanation",
+  "task": "concise-current-memory",
   "phase": "completed",
-  "outcome": "Verified detailed GitHub-backed memory remains present:157 saved answers across11 groups,49 decision records and explicit gaps. Explained that stored files persist outside chat, while retrieved content uses context tokens; selective loading reduces repetition without a zero-token or perfect-recall guarantee. Owner reports phone navigation working.",
+  "outcome": "Shortened current notes; required material-change refreshes, linked detail and verified GitHub sync. Original interviews preserved.",
   "topics": [
     "work-policy"
   ],
@@ -9,18 +9,13 @@
     "workflow-memory"
   ],
   "evidence": [
-    "docs/memory/README.md",
-    "docs/design-decisions/coverage.json",
-    "docs/memory/ORCA_MOBILE.md",
-    "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
-    "https://developers.openai.com/api/docs/guides/prompt-caching"
+    "docs/memory/WORKFLOW.md",
+    "docs/design-decisions/coverage.json"
   ],
   "publication": {
-    "scope": "Memory and decision documentation only",
-    "game": "No game/source/package/feed/server rollout. Last published game is VS68/game20261016-213325-765; launcher1.0.1 as verified in the Oct16 release report.",
-    "prior_game_task": "Standard E/held rescue and walk-up refit finished locally; see Oct18 reports.",
-    "memory": "Memory status and owner-reported phone resolution only. No account settings, model configuration, paid services or game rollout changed."
+    "memory": "This scoped documentation update.",
+    "game": "Unchanged; delivery/evidence remain in beta-readiness."
   },
-  "next_action": "Continue within the existing IRON SUN workspace using saved direction and current work. Original host ammo failure remains the next gameplay investigation; local E/refit delivery pending and100-roll audit remains paused.",
-  "recorded_at": "2026-10-20T17:32:27.224675+00:00"
+  "next_action": "Investigate host ammo loss. Local E/refit delivery pending;100-roll audit paused.",
+  "recorded_at": "2026-10-20T17:36:04.222792+00:00"
 }

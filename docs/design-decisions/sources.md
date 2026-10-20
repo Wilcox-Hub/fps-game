@@ -236,3 +236,10 @@ Kind: local-continuation-record
 Kind: owner-request-current-task
 
 **quote:** Make all grill me questions regarding iron sun automatically update. If any conflict activate grill me and clarify
+
+<a id="owner-concise-memory"></a>
+## owner-concise-memory
+
+Kind: owner-request-current-task
+
+**quote:** Make sure memory is always concise and fully updated

@@ -145,6 +145,10 @@
     "owner-auto-interviews": {
       "kind": "owner-request-current-task",
       "quote": "Make all grill me questions regarding iron sun automatically update. If any conflict activate grill me and clarify"
+    },
+    "owner-concise-memory": {
+      "kind": "owner-request-current-task",
+      "quote": "Make sure memory is always concise and fully updated"
     }
   },
   "decisions": [
@@ -765,10 +769,11 @@
       "title": "Every task uses project memory",
       "status": "approved",
       "recorded_on": "2026-10-18",
-      "rule": "Before any game, art, tooling, research, testing or release task, read the memory index/current work and only the relevant decision branches. Capture new user answers, corrections, outcomes, open questions and evidence at checkpoints. Publish scoped memory updates to GitHub under this standing request; preserve unrelated code and separate release authorization. Keep original answers and supersession history. Every grill-me round/reply is automatically captured and synced as part of the active task, without a separate save request; follow the conflict gate before dependent work.",
+      "rule": "Start all IRON SUN work from the memory index/current checkpoint and relevant current rules. Keep summaries concise, deduplicate facts and link detailed answers/evidence. Refresh affected records after each material decision, correction, outcome, blocker or release and before dependent work/task completion. Preserve exact interview answers and dated history. Automatically capture/sync every grill-me round/reply; unresolved conflicts require owner clarification. Validate and verify scoped GitHub sync; mark offline updates pending. Game/source/releases retain separate authorization.",
       "sources": [
         "owner-memory-scope",
-        "owner-auto-interviews"
+        "owner-auto-interviews",
+        "owner-concise-memory"
       ]
     },
     {

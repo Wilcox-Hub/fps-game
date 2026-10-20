@@ -1,34 +1,18 @@
 # IRON SUN — Project Memory
 
-Start every task here. This is the GitHub-backed memory tree for game direction and work continuity. Follow the branch relevant to the task; full chat history is unnecessary for routine work.
+Start every task with this index and [current work](active-work.json), then load only the relevant branch. Keep current summaries short; original answers and evidence remain linked.
 
-```text
-IRON SUN
-├── Current work and next action → active-work.json
-├── Approved direction → ../design-decisions/README.md
-│   ├── Identity, modes and naming
-│   ├── Combat, movement and controls
-│   ├── Waves, arenas and pressure
-│   ├── Weapons, shards and arsenal
-│   ├── Wildcards and physical upgrades
-│   ├── Squad lobby and arrival
-│   ├── Art, characters and readable UI
-│   ├── Co-op, launcher and delivery
-│   └── Development and validation rules
-├── Original questions and answers → ../design-decisions/interviews/
-├── Unresolved issues and acceptance → open-issues.json
-├── Task checkpoints → work-log.jsonl
-└── Test evidence and readiness → ../beta-readiness/latest.json
-```
+| Need | Read |
+| --- | --- |
+| Approved rules | [Design decisions](../design-decisions/README.md) |
+| Original answers and gaps | [Interview coverage](../design-decisions/coverage.json) |
+| Bugs and pending work | [Issues](open-issues.json) |
+| Conflicting direction | [Conflict register](conflicts.json) |
+| Tested status | [Latest evidence](../beta-readiness/latest.json) and [reuse rules](../beta-readiness/README.md) |
+| Capture and sync | [Workflow](WORKFLOW.md); [automatic interviews](AUTOMATIC_INTERVIEWS.md) |
+| Tools and phone help | [Environment](ENVIRONMENT.md); [Orca mobile](ORCA_MOBILE.md); [Mem0](../MEMORY.md) |
+| History | [Task checkpoints](work-log.jsonl); [memory graph](graph.json) |
 
-- [Workspace/tool context](ENVIRONMENT.md) and [memory setup checks](setup-validation.json).
-- [Automatic grill-me capture and clarification](AUTOMATIC_INTERVIEWS.md) · [Conflict register](conflicts.json).
-- [Current work](active-work.json) and [open issues](open-issues.json).
-- [Approved direction and original interviews](../design-decisions/README.md).
-- [All-work maintenance procedure](WORKFLOW.md) and [machine-readable tree](graph.json).
-- [Canonical test/readiness record](../beta-readiness/latest.json) and [evidence reuse rules](../beta-readiness/README.md).
-- [Mem0 setup and scope](../MEMORY.md): optional retrieval; this file tree remains the shared record.
+Search: `python tools/project_memory.py search "topic"`; add `--history` only when original answers are needed.
 
-Use `python tools/project_memory.py search "ammo"` for a small relevant lookup; add `--history` for original answers. Current approved rules come first. Use `check` before publishing. [Recovery coverage](../design-decisions/coverage.json) explicitly lists historical gaps.
-
-This is agent-maintained file memory with a real node/relationship index, not a new paid service or an autonomous daemon. Repository guidance requires reading and updating it. Changes become available to other PCs/accounts when they read or pull the GitHub version; it does not transfer an entire private chat or run a game deployment.
+Refresh affected records after each material decision, correction, result, blocker or release. Replace stale current summaries, retain history, validate and sync before ending the task. Stored memory persists; reading retrieved content uses context tokens. Updates run during active project work.

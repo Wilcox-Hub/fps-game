@@ -31,7 +31,7 @@ Verification on 2026-09-27: the official plugin's status/doctor checks identifie
 Official setup reference: [Mem0 Codex integration guide](https://github.com/mem0ai/mem0/blob/main/docs/integrations/codex.mdx).
 
 <!-- IRON-SUN-MEMORY:BEGIN -->
-## Canonical all-work memory
+## Canonical project record
 
-Start at [Project Memory](memory/README.md). It connects approved direction, original grill-me answers, current work, open issues and canonical test evidence. Every task reads the relevant branch and updates it through [the workflow](memory/WORKFLOW.md). All IRON SUN grill-me rounds/replies are captured and synced automatically through [the interview workflow](memory/AUTOMATIC_INTERVIEWS.md); unresolved conflicts trigger grill-me clarification before affected implementation. Mem0 remains an optional searchable aid; this GitHub-backed tree is the shared record.
+Start at [Project Memory](memory/README.md). Follow its [concise-update workflow](memory/WORKFLOW.md) and [automatic interview capture](memory/AUTOMATIC_INTERVIEWS.md). GitHub files are the shared record; Mem0 aids retrieval. Read only relevant branches, refresh affected status after meaningful changes, and retain original answers/evidence behind links.
 <!-- IRON-SUN-MEMORY:END -->
