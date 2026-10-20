@@ -166,6 +166,11 @@
       "id": "orca-mobile-help",
       "kind": "workflow",
       "path": "docs/memory/ORCA_MOBILE.md"
+    },
+    {
+      "id": "2026-10-20-host-ammo",
+      "kind": "interview",
+      "path": "docs/design-decisions/interviews/2026-10-20-host-ammo.md"
     }
   ],
   "edges": [
@@ -343,6 +348,11 @@
       "from": "environment",
       "to": "orca-mobile-help",
       "relation": "documents"
+    },
+    {
+      "from": "direction",
+      "to": "2026-10-20-host-ammo",
+      "relation": "supported-by"
     }
   ],
   "decision_replacement_edges": "docs/design-decisions/current.json: decisions[].supersedes/superseded_by"

@@ -31,6 +31,7 @@ Current rules below are the design baseline. Historical interviews preserve what
 | [2026-10-14-wave-pressure](interviews/2026-10-14-wave-pressure.md) | 3 | 3 |
 | [2026-10-16-wildcard-refits](interviews/2026-10-16-wildcard-refits.md) | 52 | 52 |
 | [2026-10-17-coop-diagnostics](interviews/2026-10-17-coop-diagnostics.md) | 3 | 3 |
+| [2026-10-20-host-ammo](interviews/2026-10-20-host-ammo.md) | 1 | 1 |
 
 ## Source notes
 

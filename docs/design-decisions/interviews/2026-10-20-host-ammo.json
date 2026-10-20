@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "2026-10-20-host-ammo",
+  "captured_on": "2026-10-20",
+  "source_kind": "live-interview-capture",
+  "scope": "IRON SUN design interview; exact questions, options and original answers.",
+  "completeness": "Live incremental capture. Pending questions and unresolved conflicts are retained explicitly.",
+  "entries": [
+    {
+      "id": "2026-10-20-host-ammo-q1",
+      "question_number": 1,
+      "question": "When the host’s ammo pickups stopped working, could she still walk and shoot, or had she already been downed?",
+      "options": [
+        "She could still walk and shoot",
+        "She was already downed",
+        "I don’t remember"
+      ],
+      "question_source": {
+        "kind": "live-game-conversation",
+        "timestamp_utc": "2026-10-20T17:51:57.818000+00:00",
+        "text_sha256": "1e7c7fd5ab7db8728a9f6a62a95e1cb853704bf13fb9847653029a8f606c2d17"
+      },
+      "answer": "She could still walk and shoot, until she ran out of ammo then she couldn’t shoot ofc",
+      "answer_status": "answered",
+      "answer_source": {
+        "kind": "live-game-conversation",
+        "timestamp_utc": "2026-10-20T17:52:38+00:00",
+        "text_sha256": "118580228a0aad73959c386925d51b3e99a505c6b5f7e75c7b02d6cd22b3d0ce"
+      },
+      "review": {
+        "status": "clear",
+        "checked_decisions": [
+          "weapons-two-slots",
+          "workflow-evidence"
+        ]
+      },
+      "capture": "live"
+    }
+  ]
+}
