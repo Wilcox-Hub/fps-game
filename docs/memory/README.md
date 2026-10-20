@@ -6,6 +6,7 @@ Start every task with this index and [current work](active-work.json), then load
 | --- | --- |
 | Approved rules | [Design decisions](../design-decisions/README.md) |
 | Original answers and gaps | [Interview coverage](../design-decisions/coverage.json) |
+| Full next-step inventory | [October20 work queue](NEXT_STEPS_2026-10-20.md) |
 | Bugs and pending work | [Issues](open-issues.json) |
 | Conflicting direction | [Conflict register](conflicts.json) |
 | Tested status | [Latest evidence](../beta-readiness/latest.json) and [reuse rules](../beta-readiness/README.md) |

@@ -1,25 +1,25 @@
 {
-  "task": "host-ammo-natural",
-  "phase": "checkpoint",
-  "outcome": "Added and ran the owner-requested actual two-process ammo recipe: 12/12 cases pass (both owners, Gale/Phasma, empty guns/reload overlap/swaps), plus one existing rescue recipe. Editor build and all 760 current input hashes pass. No original normal-play reproduction or production ammo fix; issue remains open.",
+  "task": "next-steps-planning",
+  "phase": "completed",
+  "outcome": "Compiled all 58 open GitHub work tickets plus the roadmap into a dated queue, separating independent technical work, remote design discussion, normal-device/human acceptance and explicitly paused work. Current 760 input hashes match the latest evidence; no new engine test or implementation began.",
   "topics": [
+    "work-policy",
     "weapons-economy",
     "network-delivery"
   ],
   "decisions": [
-    "weapons-two-slots",
-    "workflow-scenarios",
-    "workflow-evidence"
+    "workflow-memory",
+    "workflow-evidence",
+    "workflow-roll-audit"
   ],
   "evidence": [
-    "docs/design-decisions/interviews/2026-10-20-host-ammo.md",
-    "docs/beta-readiness/snapshots/2026-10-20-host-ammo-scenarios/report.md",
-    "unreal/Ridgefire/TEST_SCENARIOS.md"
+    "docs/memory/NEXT_STEPS_2026-10-20.md",
+    "docs/beta-readiness/snapshots/2026-10-20-host-ammo-scenarios/report.md"
   ],
   "publication": {
-    "memory": "Owner-authorized scoped diagnostic summary and captured owner reply; detailed test/source artifacts remain local.",
-    "game": "Only test/fixture/runner/docs changed. Production ammo code preserved; no game/source publication, Shipping package, launcher or server update."
+    "memory": "Owner-authorized work queue and checkpoint; validate, preview and verify scoped sync.",
+    "game": "No game/source/release changes from this planning task."
   },
-  "next_action": "Trace the original failure during normal identified-build co-op. Two-process Editor checks pass; normal full-arena/packaged two-PC/human acceptance remains open. The 100-roll audit stays paused.",
-  "recorded_at": "2026-10-20T18:10:40.152176+00:00"
+  "next_action": "Suggested next independent block: focused ammo diagnostics, uninterrupted two-process encounter/reload/pickup coverage, then matching local test candidate preparation. Original ammo failure remains open; 100-roll audit stays paused.",
+  "recorded_at": "2026-10-20T19:47:49.345569+00:00"
 }
