@@ -47,18 +47,20 @@ admission, real tube approach, dedicated input and ghost-seat lifecycle failures
 Rendered20s pilot03 passes at build12. Full-01 failed116.887s, and both
 subsequent diagnostic pilots failed the20s no-shot watchdog with usable ammo.
 Failure JSON/PNGs inspected. Diagnostic02 exposes conservative maximum-capsule
-navigation rejecting a player beside cover. Build21 passes. Pawn-sized navigation reviewed/integrated; capsule/arena/cover
-regressions pass17 and controlled pressure pair passes18. Four arena and hip/ADS
-1080p frames inspected. Pressure setup loop corrected (stay inside closing gate).
-Four-peer18 diagnostic found real joining-client native1 draw rejected by legacy
-server armory gate; source19 allows only validated already-carried primary draw.
-All4 equip/ready/walk through gate20, but stale restart assertions then failed
-valid starting-bonus/catalog state. Fixture21 verifies empty carried slots, no
-earned bonuses, fresh pawns, original XP and baseline catalog; full rerun ongoing.
-No full lifecycle or30-minute acceptance yet. Natural-ammo draft portability and
-navigation reviewed; follow-up remains Saved-only for missing initial arrival
-movement and client graph center. Main owns all engine runs. Broad roadmap
-worker failed output cap/no report; main owns triage.
+navigation rejecting a player beside cover. Build26 passes. Full actual4peer lifecycle passes24,81.494s stable inputs:12
+rack/ready/native gate entries,2hosted restarts, original XP/fresh pawns/slots,
+controls and latejoin rejection. Remote owned-primary draw fixed19; later fixture
+repairs preserve current catalog/starting bonus, reset per-map markers, wait
+production pawn placement and native input dispatch. Voluntary leave stand-in
+assertion and abrupt host loss are separate pending variants.
+
+Rendered navigation03 failed44.225s with usable ammo. Actual34/96capsule probe
+still rejects both recorded positions. Deterministic world test25 proves no
+capsule penetration, but downward sweeps clip sloped cover; floor ray finds flat
+ground and full deployed capsules clear. Source26 extends existing safe floor
+fallback to nonwalkable sweep hits; affected4regressions PASS26; rendered180s floor04 running. No30min pass.
+All owned helpers reviewed/released/acked; natural-ammo draft remains Saved-only,
+not compiled or runtime accepted. Source/game publication unchanged.
 
 
 All detailed run paths/worker IDs/next action remain in local Orca/readiness
