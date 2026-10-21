@@ -64,9 +64,14 @@ combat/carry cases pass gameplay/artifact checks at stable identities; all10PNG
 frames inspected. Real3-2-1/owned Gale and Phasma HUD visible; cold countdown
 camera shows void/loading, and carry host label frame is hidden by downed overlay.
 Presentation follow-ups remain open. Both writable helpers released/acked.
-Actual1800s rendered native-progression soak is running, inputs frozen;
+Actual1800s rendered native-progression attempt FAILED1148.111s after first6waves;
 `G:/IRON-SUN-Work/AutonomousBeta/20261020/CombatSoak/native-progression-07`.
-Only read-only ticket audit ctx_a861136b8771 remains active. No30min pass yet.
+Native vote/travel/R/gate opening succeeded; capsule stuck in later crossing,
+45s bound preserved.423shots/42reloads/1062live-enemy sec,13bounded health
+topups/no ammo topups. Fast real-level arrival regression ctx_94e32bdedb5d
+is being implemented; Garden core draft ctx_8c9e737424a1 stays Saved-only.
+Main eliminated-HUD correction/camera-target diagnostics edited/unbuilt.
+No engine job live and no30min pass. Reconnect camera cause still unconfirmed.
 
 Natural ammo harness integrated/compiled32;60spilot02 INCONCLUSIVE: both actual
 owners move/fire/reload/swap with liveAI,1natural client/Gale+18 award, separate

@@ -1,7 +1,7 @@
 {
   "task": "autonomous-beta-tickets",
   "phase": "checkpoint",
-  "outcome": "Editor33 and both rendered reconnect gameplay/artifact checks PASS, stable identities. All10 frames inspected; returning countdown void-camera and carry host label hidden by downed overlay remain. Actual1800s native-progression soak running session89161 with inputs frozen. Writable helpers released/acked; read-only major-ticket audit ctx_a861136b8771 active. No30min pass, original ammo open; no game/source publication.",
+  "outcome": "Full33soak FAIL1148.111s after first6waves at later gate crossing45s bound. Stable identities;423shots/42reloads/1062live sec,13bounded health/no ammo topups. No engine jobs. Main HUD/camera-target diagnostics unbuilt. Arrival regression ctx_94e32bdedb5d owns2test files, GardenDraft ctx_8c9e737424a1 Saved-only. Reconnect33gameplay/artifacts pass, actual presentation follow-ups open. Original ammo open;100rollpaused.",
   "topics": [
     "work-policy",
     "network-delivery"
@@ -21,6 +21,6 @@
     "memory": "Owner-authorized scoped sync at checkpoints.",
     "game": "Local implementation/builds/testing only; no game/source commit, public deployment or new paid service."
   },
-  "next_action": "Monitor frozen-input1800s soak; review read-only ticket audit, then diagnose rendered camera/carry capture after run. Longer natural ammo and matching local packages. No shutdown while useful work remains.",
-  "recorded_at": "2026-10-21T09:19:12.167998+00:00"
+  "next_action": "Settle/review arrival test helper, build34; fast actual-level gate red reproduction and camera-target marker run; fix based on evidence, rendered regression, fullsoak retry. Review Garden core draft, extend natural ammo, matching local packages. No shutdown while useful work remains.",
+  "recorded_at": "2026-10-21T09:43:38.412538+00:00"
 }
