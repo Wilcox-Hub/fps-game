@@ -183,3 +183,13 @@ PASS5.96s; normal-time actual4peer54 is active, exec84183/port7954. Current774-i
 manifest verifies; only changed52-to54 input is the opt-in network fixture.
 Disconnect/AI, Garden packages/species harvest/failure penalty/art/human gates
 remain open. Core70 candidate/public68 preserved; exact run paths in local WIP.
+
+### October21 full four-peer Garden56 pass
+
+Editor56 and actual4peer21-wave/four-arena run PASS. Every peer proves ordered seed mask15/sequence4, both gate phases/full standing-capsule sweeps, native gates/votes and retained slots. Normal opening then controlled4x world time/frozen-killed NPCs; no performance/balance/Shipping/device/human acceptance. Red53 stale role damage,54 driver front-row gate crowding and55 champion/brute classification retained; only test drivers changed. Same-source unexpected-disconnect/AI56 is active (exec84005/port7966). One bounded Luna/xhigh Saved-only Garden acceptance audit ctx8b95c966eb45 is active. Current runtime256a903c-59a0-490c-80b4-5186b749a948; exact saved session unchanged. Garden package/species harvest/failure/art/human criteria remain open; frozenCore70 preserved.
+
+### October21 safe account handoff checkpoint
+
+Four-peer56 full21-wave Garden route PASS. Disconnect56 failed because the old runner joined anonymous clients, which correctly do not qualify for takeover: valid saved-player ID is required by TakeOverDisconnectedPlayer. Saved Invoke-RunNetwork71.ps1 now supplies four unique synthetic32-digit GUIDs through normal RidgefirePlayer URL options; parses, retry NOT launched. No production takeover fix claimed. No active engine/build jobs or owned workers. Garden acceptance audit ctx8b95 succeeded, reviewed/released/acked, fleet reclaimable empty. Missing harvest/species/failure values remain owner choices; readable path cue and E-node hint are safe next UI fixes after account continuity. Development package builder prepared, not launched.
+
+Fresh supported unfiltered orca account list now verifies TWO DISTINCT signed-in Plus identities (managed and System default OAuth), superseding earlier same-identity observations. Current managed weekly100%used, session/five-hour null; second quota unknown. Account select CLI only supports OpenCode/Devin; native desktop screenshot confirms existing IRON SUN - Talk Here and usage menu available. User already authorized switching this exact conversation. Preparing supported account UI/Restart after this checkpoint, with no active jobs; no credentials read/copied. Exact session01a14bab-ce64-7530-bb8b-0eae10c928bd, markerIRON-SUN-ORCA-READY-20261017. Do not shut down: independent work remains and the other account is not shown exhausted.
