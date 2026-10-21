@@ -29,16 +29,18 @@ Cold restore: `G:/IRON-SUN-Work/AutonomousBeta/20261020/CheckpointNetwork/checks
 The separately identified local VS69 candidate remains preserved; public VS68
 is unchanged. Follow the latest dated readiness record for current hash scope.
 
-Current source is protocol70 work in progress: main is integrating original-pawn
-ownership/carry preservation, loadout/profile transfer, returning-ID admission,
-visible/original-tone3-2-1 countdown and transient Rejoin Party. One reused helper
-implements/tests the stand-in controller, another owns combat-soak code and the
-stale four-peer fixture repair. Interim Editor build01 failed on two controller
-API errors, corrected in source; final rebuild is pending reviewed test-driver
-fixes. Main also corrected surrogate leader eligibility and the session operation
-completion condition for rejoining an active run. No protocol70
-runtime/build/package pass is claimed yet. These changes do not update VS69
-packages. Exact live task IDs and build state are in the Orca continuation file.
+Current source is protocol70: original-pawn/carry control transfer, loadout/profile
+preservation, returning-ID admission, visible/original-tone3-2-1 and transient
+Rejoin Party. Editor build07 passes. Actual local combat reclaim passes at
+build06; carry/tube reclaim passes at build07, each with original pawn, native
+owner fire/reload, exact handback pools and correct original XP ledger. Carry
+first failed because AI targeted the solid pod center; reachable side approach
+and final waypoint precision now pass. Failed test-driver attempts remain saved.
+These are controlled Editor/loopback results, not Shipping/human acceptance.
+A20-second rendered combat-soak pilot and read-only Luna/xhigh integration review
+are active. No VS69 package overwrite or public game/source publication. Exact
+run paths/worker IDs and next action are in the local Orca continuation/readiness
+records. Original host ammo failure remains open;100-roll audit remains paused.
 
 ## Account handoff request
 
