@@ -10,7 +10,7 @@ Start every task with this index and [current work](active-work.json), then load
 | Bugs and pending work | [Issues](open-issues.json) |
 | Conflicting direction | [Conflict register](conflicts.json) |
 | Tested status | [Latest evidence](../beta-readiness/latest.json) and [reuse rules](../beta-readiness/README.md) |
-| Local test candidate | [October20 VS69](BETA_CANDIDATE_2026-10-20.md) — technical preparation complete; normal co-op/human acceptance open |
+| Local test candidate | [October21 core VS70](BETA_CANDIDATE_2026-10-21.md) — local technical checks pass; normal co-op/human acceptance open; prior VS69 preserved |
 | Autonomous continuation | [Major-ticket work and account handoff](AUTONOMOUS_BETA_2026-10-20.md) |
 | Capture and sync | [Workflow](WORKFLOW.md); [automatic interviews](AUTOMATIC_INTERVIEWS.md) |
 | Tools and phone help | [Environment](ENVIRONMENT.md); [Orca mobile](ORCA_MOBILE.md); [Mem0](../MEMORY.md) |

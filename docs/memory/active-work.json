@@ -1,7 +1,7 @@
 {
   "task": "autonomous-beta-tickets",
   "phase": "checkpoint",
-  "outcome": "Rendered offscreen1920x1080 Editor41 PASS1800.009 wall/world seconds; 1726 live-enemy seconds,673 shots,69 reloads,60 swaps,9056.844m player/11506.383m enemy motion. Opening six waves clear, native Brassfall vote/gate crossing, max wave10. No-enemy/shot gaps8.076/9.331s;1789 samples,148426 frames,p50/95/99 bins11/13/14ms,5frames>=50ms,peak3.429GB. 26 bounded health topups,zero ammo topups. Source/binary/runner unchanged and normal exit0. Controlled standalone performance/stress scope on this RTX3060 PC, not Shipping,minimum-PC,two-device,balance or human acceptance. Garden final repairs remain Saved-only under ctx7970; no game/source publication.",
+  "outcome": "Core70 candidate VS70-20261021-a521304f712d: matching771-input Windows/Linux builds and37/35artifact integrity pass. Exact Shipping solo rack/refit/74optics and both-backend2client authenticated lobby/old68 version rejection pass. Full rendered30min Editor soak passes at stable identity. Six Shipping frames inspected; async hint/ready screenshot sequencing defect recorded. Natural300s probe97461 still running separately; Garden23-target proposal reviewed/Saved-only, all helpers released. No game/source publication or beta approval. Natural300s is now INCONCLUSIVE (early client death,zero natural drops); main is correcting root-origin aim in the test driver only and compiling42.",
   "topics": [
     "work-policy",
     "network-delivery"
@@ -14,13 +14,13 @@
     "network-host-state"
   ],
   "evidence": [
-    "docs/memory/AUTONOMOUS_BETA_2026-10-20.md",
-    "docs/memory/MEM0_HOOK_REPAIR.md"
+    "docs/memory/BETA_CANDIDATE_2026-10-21.md",
+    "docs/memory/AUTONOMOUS_BETA_2026-10-20.md"
   ],
   "publication": {
     "memory": "Owner-authorized scoped sync at checkpoints.",
     "game": "Local implementation/builds/testing only; no game/source commit, public deployment or new paid service."
   },
-  "next_action": "Build matching frozen-core70 Windows Shipping and Linux dedicated packages serially, verify integrity and actual lobby/version joins. Review Garden final Saved-only repairs before protocol71 integration and focused world/network tests. Original ammo and human gates remain open; no shutdown while useful work remains.",
-  "recorded_at": "2026-10-21T11:22:22.918561+00:00"
+  "next_action": "Inspect Editor42, run bounded120s actual2peer natural probe with player-view aim receipts, then integrate/test the reviewed Garden71 prototype and screenshot sequencing fix. Preserve frozen core70 candidate; no game/source publication.",
+  "recorded_at": "2026-10-21T11:50:41.380347+00:00"
 }

@@ -87,7 +87,7 @@ shot gaps8.076/9.331seconds; frame p50/95/99 bins11/13/14ms,5frames>=50ms,
 peak physical3.429GB. It uses26bounded health topups; this is controlled standalone
 Editor stress evidence on the available RTX3060 PC, not balance,min-spec,Shipping,
 multiplayer-device or human acceptance. All inputs/binaries/runner stay unchanged
-and exit0; exec31299 has ended. Matching local Windows/Linux packages are next.
+and exit0; exec31299 has ended. Matching local Windows/Linux packages now pass builds,37/35artifact integrity, exact Shipping rack/refit/74optics and actual2client lobby/auth/version checks on both backends. Candidate VS70-20261021-a521304f712d is preserved; see BETA_CANDIDATE_2026-10-21.md. The300-second natural audit ended inconclusive after early client death and zero natural drops. Test-driver root-origin aiming is corrected at Editor42; a bounded120s actual2peer rerun is active. Original ammo remains open. Named hint/ready captures need fixture sequencing repair; six actual Shipping frames were inspected.
 The original host ammo failure remains open. Exact result:
 `G:/IRON-SUN-Work/AutonomousBeta/20261020/CombatSoak/native-progression-09/run-summary.json`.
 
@@ -95,11 +95,9 @@ Garden is Saved-only, actual protocol70. Main accepted the repaired two-choice
 legacy route proposal and verified all22 baseline/proposed hashes. Fresh
 independent review found socket-use-box floor/pickup occlusion, an outdated
 network disconnect assertion and missing client seed/gate replication checks.
-That reviewer was reused as a bounded Saved-only repair worker, ctx7970; main
-owns integration and engine use. Species ammo, failure penalty and final art
+That reviewer was reused as a bounded Saved-only repair worker, ctx7970; all23baseline/proposed hashes and read-only patch checks pass. The worker is now released/acked; main owns integration and engine use. Species ammo, failure penalty and final art
 remain open. The eliminated-HUD correction compiles; rendered eliminated-state
-acceptance remains open. Matching core70 package helpers and a human checklist
-are prepared but not run; the completed stable soak now permits serial package preparation.
+acceptance remains open. Matching core70 packages and the updated human checklist are ready for normal two-PC testing. Natural ammo and the separate Garden proposal remain ongoing; no current overall beta readiness is claimed.
 
 Natural ammo harness integrated/compiled32;60spilot02 INCONCLUSIVE: both actual
 owners move/fire/reload/swap with liveAI,1natural client/Gale+18 award, separate
