@@ -71,14 +71,26 @@ then AIlabel/PhasmaHUD/nativeinputs pass. Defaultheadless retains activecarry/
 tube scope; combined37PASS at stableidentity.4arena/1..4controller16cohort37
 PASS uses10xfixtureworldtime. Actual2peer legacyteamwipe37PASS confirms first
 defeat keepssurvivor/runactive and finalgameover replicates; living-onlyrewards.
-No production reward/balance change. Full1800s rendered retry37 now running
-`G:/IRON-SUN-Work/AutonomousBeta/20261020/CombatSoak/native-progression-08`,
-exec50126, inputsfixed. HUD now
-truthful for fullyeliminated players; compiles, renderedHUD acceptance pending.
-Garden writerreleased;925line19targetdraft baselinehashes allmatch. Independent
-read-only reviewer ctx_cd595c132ca8 active, mainactualreview underway; no live
-Garden source applied, actualsource staysprotocol70. Draft proposes71 on integration,
-not new owner-approved tuning. No30min/currentpackage/device/human acceptance.
+No production reward/balance change. Full1800s rendered retry37 FAILED525.613s,
+20s no-shot at a rockcorner with usable6/18Phasma and5liveNPCs; notammoexhaustion.
+Captured-pose regressions38/39 reproduced the rock-corner route failure:
+floor and full-capsule standing clearance were valid, but the nearest graph
+anchor could not reach the goal. A collision-checked multi-anchor fallback now
+passes40/41. Build41 passes RecordedArenaFloorQueries, AgentDimensionsAroundCover
+and CoverRouteAndMemory; every returned corner segment passes an independent
+full-capsule sweep. No wall, capsule, speed or watchdog weakening.
+Evidence: `G:/IRON-SUN-Work/AutonomousBeta/20261020/Navigation/run-20261021-034652/result.json`.
+Full rendered 1800-second retry09 is running (exec31299), with native progression,
+normal-input 2.5-second trigger spacing and unchanged acceptance gates. No30min
+acceptance yet. The original ammo failure remains open.
+
+Garden repairs remain Saved-only, actual protocol70. Worker task9531/ctx4af is
+revising the proposal after main review. Its proposed three-choice legacy route
+expansion was rejected: an existing Mirror visit keeps that middle branch, with
+only Brassfall/Finale offered and Finale reserved before the four-visit cap.
+Review all repaired source/tests and hashes before any integration; no source
+changes or engine overlap while the frozen-input soak runs. The eliminated-HUD
+correction compiles; rendered eliminated-state acceptance remains open.
 
 Natural ammo harness integrated/compiled32;60spilot02 INCONCLUSIVE: both actual
 owners move/fire/reload/swap with liveAI,1natural client/Gale+18 award, separate
