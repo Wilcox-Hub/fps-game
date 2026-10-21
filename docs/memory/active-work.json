@@ -1,7 +1,7 @@
 {
   "task": "autonomous-beta-tickets",
   "phase": "checkpoint",
-  "outcome": "Editor build07 passes. Actual combat reclaim passes at build06 and carry/tube reclaim passes at build07 with stable inputs/binary: real AI damage/carry walking/deposit, stranger rejection, same-pawn3-2-1, native owner fire/reload, exact handback ammo and original-profile XP. Fixed actual AI tube approach navigation after failed carry run. Rendered20-second pilot and read-only integration reviewer active. Original ammo bug open; publicVS68 unchanged;100-roll audit paused.",
+  "outcome": "Full-two-seat combat/carry reclaim passes at build10; actual dedicated takeover/empty lobby/freshlaunch passes at build11 after dedicated input/ghost-seat corrections. Rendered20s pilot passes12. Full30min attempt failed116.887s at no-shot20s watchdog with2live enemies; no long-soak pass. Build13 diagnostic state/screenshot enabled,180s pilot exec10231 running. Natural-ammo draft helper ctx_d69b1d0fcf5e writesSaved only; broad audit failed/provider output cap and cleaned up through Orca. Source/game unpublished, original ammo issue open/100-roll paused.",
   "topics": [
     "work-policy",
     "network-delivery"
@@ -21,6 +21,6 @@
     "memory": "Owner-authorized scoped sync at checkpoints.",
     "game": "Local implementation/builds/testing only; no game/source commit, public deployment or new paid service."
   },
-  "next_action": "Review soak pilot and ctx_3bf2db3290e8 findings, correct concrete failures, then current four-peer lifecycle, final combined reclaim, full rendered soak and matching local packages. Preserve conditional shutdown/account recovery instructions.",
-  "recorded_at": "2026-10-21T05:59:56.614657+00:00"
+  "next_action": "Finish diagnostic-01 without input edits; inspect failure-state.json/failure.png and distinguish test movement from production pursuit, then repair/verify. Continue four-peer lifecycle, local packages/rendered reclaim and reviewed natural-ammo draft. Refresh readiness and verified memory; conditional shutdown only at true authorized end condition.",
+  "recorded_at": "2026-10-21T06:37:36.657452+00:00"
 }

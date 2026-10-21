@@ -37,10 +37,28 @@ owner fire/reload, exact handback pools and correct original XP ledger. Carry
 first failed because AI targeted the solid pod center; reachable side approach
 and final waypoint precision now pass. Failed test-driver attempts remain saved.
 These are controlled Editor/loopback results, not Shipping/human acceptance.
-A20-second rendered combat-soak pilot and read-only Luna/xhigh integration review
-are active. No VS69 package overwrite or public game/source publication. Exact
-run paths/worker IDs and next action are in the local Orca continuation/readiness
-records. Original host ammo failure remains open;100-roll audit remains paused.
+Actual full-two-seat combat/carry reclaim now passes at build10 (both3.03s,
+original pawn/pools/profile, native fire/reload). Dedicated takeover initially
+crashed in Slate human-touch setup; AI engine-only input initialization now passes
+at build11. The same dedicated run also proves empty-server seamless cleanup with
+zero controllers/PlayerStates and a fresh2client launch. Main fixed full-capacity
+admission, real tube approach, dedicated input and ghost-seat lifecycle failures.
+
+Rendered20s pilot03 passes at build12. Attempted30-minute full-01 failed after
+116.887s because no shots occurred for20s despite2live enemies; it is not a full
+soak pass. Build13 adds bounded failure pose/navigation/ammo JSON and screenshot;
+180s diagnostic pilot running before any pursuit/movement change. Four-peer,
+matching new packages, rendered reclaim and human/physical-device acceptance
+remain pending. A bounded natural-ammo draft helper writes only Saved files.
+The broader roadmap worker hit provider max_output_tokens before any report;
+main inspected/stopped its exact terminal through Orca and recorded failed Task,
+then took over triage. No accepted broad audit is claimed.
+
+All detailed run paths/worker IDs/next action remain in local Orca/readiness
+records. No public game/source publication orVS69 package overwrite; publicVS68
+unchanged. Original host ammo failure remains unreproduced/open and100-roll audit
+paused. Minimum PC and approved-reference character fidelity need owner evidence;
+those gates do not block independent local implementation/validation.
 
 ## Account handoff request
 
