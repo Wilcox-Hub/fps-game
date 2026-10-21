@@ -33,7 +33,10 @@ Current source is protocol70 work in progress: main is integrating original-pawn
 ownership/carry preservation, loadout/profile transfer, returning-ID admission,
 visible/original-tone3-2-1 countdown and transient Rejoin Party. One reused helper
 implements/tests the stand-in controller, another owns combat-soak code and the
-stale four-peer fixture repair. An interim Editor build is running; no protocol70
+stale four-peer fixture repair. Interim Editor build01 failed on two controller
+API errors, corrected in source; final rebuild is pending reviewed test-driver
+fixes. Main also corrected surrogate leader eligibility and the session operation
+completion condition for rejoining an active run. No protocol70
 runtime/build/package pass is claimed yet. These changes do not update VS69
 packages. Exact live task IDs and build state are in the Orca continuation file.
 
@@ -63,3 +66,14 @@ failed workers were released through Orca; the retry and second helper started
 with confirmed Luna/xhigh. No trust hashes or sandbox protections were edited.
 See [repair details](MEM0_HOOK_REPAIR.md); fresh saved-capture verification is
 still distinct from hook trust and successful worker startup.
+
+## Authorized final shutdown
+
+Owner subsequently pre-approved PC shutdown once all independently possible work
+is complete and owner input is needed, or both Codex accounts are actually out of
+usage. This does not authorize an early shutdown while useful independent work
+continues. Before shutdown: save files/exact continuation and outstanding gates,
+settle and release owned helpers, finish or cleanly stop owned builds/tests,
+validate and sync memory with GitHub readback, and preserve this exact saved
+conversation. Use normal graceful Windows shutdown without force-closing other
+applications. A missing five-hour metric is not evidence of exhausted accounts.
