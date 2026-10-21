@@ -162,3 +162,24 @@ settle and release owned helpers, finish or cleanly stop owned builds/tests,
 validate and sync memory with GitHub readback, and preserve this exact saved
 conversation. Use normal graceful Windows shutdown without force-closing other
 applications. A missing five-hour metric is not evidence of exhausted accounts.
+
+### October21 integrated Garden52 checkpoint
+
+Editor52 and actual four-arena21-wave controlled standalone route PASS. The driver crosses real initial/later gates, retains both guns and uses native E for seed pickup/plant. Red51 stored a pre-plant wave baseline;52 asserts both the one-wave plant and one-wave defense transitions separately.20x world time/frozen-killed enemies; no balance/performance/Shipping/human acceptance. Source snapshot774 is current52. Active Saved-only helper ctx_40075f75431a corrects network helper unity names, pawn/epoch initialization and three-human/four-combat-seat disconnect assertions; Source network is still old FDA715 baseline. No engine job after solo52.
+
+Latest actual session telemetry12:44:06UTC reports weekly10080-minute window100%used, secondary null and no five-hour meter. No distinct second identity is newly verified; owner readiness question remains pending. No switch, five-hour2% trigger or both-account exhaustion is claimed. Current CLI account commands only advertise OpenCode/Devin; use supported Codex account UI/restart for a verified other identity. No account credentials read or modified.
+
+### October21 four-peer validation54
+
+Full controlled solo52 also passes rendered; all four1080p arena frames inspected.
+Garden remains primitive/bright and final visual readability/art is open. The
+network helper's reviewed proposal is integrated; worker settled/released/acked,
+no active/reclaimable owned helpers. Main adds only fixture nativeN early-ready
+once per regroup epoch, preserving production90s optional waits and700s watchdog.
+Actual4peer53 proves all opening native2/1/R selections and realW gate crossings,
+then fails its stale base-damage comparison for a correctly scaled sprinter.
+Main54 checks exact role damage and actual seed; no production change. Editor54
+PASS5.96s; normal-time actual4peer54 is active, exec84183/port7954. Current774-input
+manifest verifies; only changed52-to54 input is the opt-in network fixture.
+Disconnect/AI, Garden packages/species harvest/failure penalty/art/human gates
+remain open. Core70 candidate/public68 preserved; exact run paths in local WIP.
