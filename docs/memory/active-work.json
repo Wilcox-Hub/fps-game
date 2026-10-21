@@ -1,10 +1,9 @@
 {
-  "task": "beta-preparation",
+  "task": "autonomous-beta-tickets",
   "phase": "checkpoint",
-  "outcome": "Local technical candidate VS69-20261020-1d98618a77db is prepared. Matching Windows Shipping/Linux Server packages retain763 source inputs and36/35 verified artifacts.24 traced ammo cases, six controlled uninterrupted encounters, no-gain/refit/mutual rescue, exact Shipping1080p controls/74 optics assertions and both-backend two-client lobby/auth/VS68 rejection pass. Original host ammo failure remains unreproduced/open; public VS68 and full beta acceptance are unchanged.",
+  "outcome": "Protocol70 AI/reclaim source integration is in progress: original-pawn/carry guard, controller/loadout/profile transfer, returning-ID admission, original-tone/visible3-2-1 and transient Rejoin Party. Stand-in and soak code artifacts reviewed for integration; interim Editor build running, no protocol70 runtime pass yet. Frozen VS69 cold-process two-peer checkpoint restore passes. Four-peer VS69 driver connected/launched all peers but timed out in new protected rack arrival; helper repair underway. Owner-approved hook review and real Luna/xhigh orchestration now work; original ammo issue remains open and public VS68 unchanged.",
   "topics": [
     "work-policy",
-    "weapons-economy",
     "network-delivery"
   ],
   "decisions": [
@@ -12,17 +11,16 @@
     "workflow-evidence",
     "workflow-scenarios",
     "workflow-roll-audit",
-    "weapons-two-slots"
+    "network-host-state"
   ],
   "evidence": [
-    "docs/memory/BETA_CANDIDATE_2026-10-20.md",
-    "docs/beta-readiness/snapshots/2026-10-20-vs69-candidate/report.md",
-    "unreal/Ridgefire/LOCAL_BETA_TEST_CARD.md"
+    "docs/memory/AUTONOMOUS_BETA_2026-10-20.md",
+    "docs/memory/MEM0_HOOK_REPAIR.md"
   ],
   "publication": {
-    "memory": "Owner-authorized scoped checkpoint sync; verify GitHub readback.",
-    "game": "Local source, readiness records and packages only; no source commit, game publication, feed change or public deployment."
+    "memory": "Owner-authorized scoped sync at checkpoints.",
+    "game": "Local implementation/builds/testing only; no game/source commit, public deployment or new paid service."
   },
-  "next_action": "Normal two-PC Gale/Phasma ammo/rescue/refit/Continue and human acceptance on the isolated identified VS69 candidate. While away, use remaining presentation/performance/session audits from the saved queue; do not repeat matching passed scopes. Original ammo issue remains open and100-roll audit remains paused.",
-  "recorded_at": "2026-10-21T02:52:34.367508+00:00"
+  "next_action": "Finish/review both active helper tasks, integrate compiler feedback, run real combat/carry disconnect/reclaim regression and a short rendered combat-soak pilot, then full soak and current four-peer lifecycle checks. Preserve VS69 artifacts and paused100-roll audit. Five-hour2% trigger/distinct second account remain unverified.",
+  "recorded_at": "2026-10-21T05:26:45.987879+00:00"
 }

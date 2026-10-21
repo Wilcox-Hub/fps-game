@@ -1,6 +1,6 @@
 # Mem0 hook repair — October 20, 2026
 
-Status: code and timing fix installed; seven changed hook definitions await the owner's required Codex review. Do not report live automatic capture as verified until the updated definitions are trusted and a fresh callback succeeds.
+Status: code/timing fix installed and seven changed definitions trusted through Codex's normal review screen after the owner's explicit “i approve” on October20. The screen showed no pending reviews; two new Luna/xhigh workers then started successfully. Fresh saved automatic-capture verification remains separate and is not yet claimed.
 
 The owner's pasted log contains six explicit three-second timeout messages while game preparation continued. The game chat was left running throughout diagnosis.
 
@@ -21,6 +21,8 @@ The owner's pasted log contains six explicit three-second timeout messages while
 
 Backups: `before-hook_runner.py`, `before-hook-definitions.json`. Receipts: `encoding-patch.json`, `timing-patch.json`, `installed-pending-review-hooks.json`. The local plugin patch can be replaced by a future plugin update; check the installed version/behavior after updating.
 
-Next: owner opens `/hooks` in Orca and reviews/trusts the seven modified Mem0 definitions; verify trust through `hooks/list`, then run fresh callbacks and inspect saved capture plus failures. If the current game turn still uses its old snapshot, wait for it to finish before refreshing the same saved session. Account authentication, game code and builds were not changed by this repair.
+October20 follow-up: the owner approved the concrete comparison: unchanged commands, seven timeout increases to15seconds and background capture for PostToolUse/Stop/SubagentStop. The main agent opened Review hooks in the blocked helper's TUI and used its advertised trust-all action. The review warning disappeared, listed installed/active counts matched, and fresh worker startup no longer stopped at the hook prompt. The unused blocked worker was released; no trust hash was edited or review bypassed.
+
+Next: verify fresh callbacks and actual saved capture plus failures. If the ongoing game turn retains its earlier hook snapshot, refresh the same saved session only at a safe checkpoint. Account authentication and game code were not changed by this repair.
 
 Primary source: [OpenAI Hooks documentation](https://learn.chatgpt.com/docs/hooks), especially hook trust, background execution, and timeout limits. The original account/chat recovery remains successful; its memory-hook limitation is tracked here.
