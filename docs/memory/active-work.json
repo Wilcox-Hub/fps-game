@@ -1,7 +1,7 @@
 {
   "task": "autonomous-beta-tickets",
   "phase": "checkpoint",
-  "outcome": "Editor17 passes; reviewed pawn-sized navigation integrated, helper released/acked. New actual collision test16 failed due static fixture placement after registration, corrected17 with explicit position assertions; five-test suite running exec51536. Dedicated/reclaim dated passes preserved;30min and diagnostic soaks failed, four-peer15 rack selection failed, next diagnostics staged. Natural ammo Saved-only draft pending. Source/public unchanged, original ammo issue open,100-roll paused.",
+  "outcome": "Build21 passes. Capsule/arena/cover17 and controlled pressure18 pass with images reviewed. Real joining-client primary draw in protected arrival fixed19; all4 equip/ready/native walk20, then stale restart fixture assertions fail and are corrected21. Full lifecycle exec64089 running frozen. Natural-ammo helper ctx_cd2c4b11a6d6 adds missing initial native arrival/client graph center in Saved only. Full30min and diagnostic soaks still unpassed; original host ammo failure open/100-roll paused. No source/game publication.",
   "topics": [
     "work-policy",
     "network-delivery"
@@ -21,6 +21,6 @@
     "memory": "Owner-authorized scoped sync at checkpoints.",
     "game": "Local implementation/builds/testing only; no game/source commit, public deployment or new paid service."
   },
-  "next_action": "Inspect frozen build17 navigation suite; diagnose fresh four-peer arrival-state logs and rendered180s soak/recorded-pose query. Continue natural-ammo integration and current package/reclaim work. No shutdown while independent work continues; live five-hour meter null, one managed account/no inactive, weekly58% used.",
-  "recorded_at": "2026-10-21T07:18:55.381861+00:00"
+  "next_action": "Finish full four-peer lifecycle04, diagnose actual result; rerun rendered180s soak and recorded endpoint probes before30min. Integrate/compile/review natural ammo when source freeze ends, then current package/reclaim scope. Continue autonomously; eventual graceful shutdown only at authorized true end condition.",
+  "recorded_at": "2026-10-21T07:36:05.923680+00:00"
 }

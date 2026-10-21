@@ -47,15 +47,19 @@ admission, real tube approach, dedicated input and ghost-seat lifecycle failures
 Rendered20s pilot03 passes at build12. Full-01 failed116.887s, and both
 subsequent diagnostic pilots failed the20s no-shot watchdog with usable ammo.
 Failure JSON/PNGs inspected. Diagnostic02 exposes conservative maximum-capsule
-navigation rejecting a player beside cover. Build17 passes. Luna/xhigh worker
-ctx_ecf74bd1946c completed pawn-sized navigation, reviewed and released; main
-integrated callers and fixed actual test-geometry placement failure. Five-test
-collision/arena/pressure suite running; exact saved-pose cause remains to verify. Four-peer current driver also
-failed after all4 confirmed rack positions; only host readied. Main added stage,
-view-target and menu diagnostics before another run. No30-minute or four-peer
-pass is claimed. Natural-ammo draft is accepted Saved-only, helper released;
-compile/integration/runtime review remains. Broad roadmap helper failed provider
-output cap with no report; main inspected/stopped/accounted it and owns triage.
+navigation rejecting a player beside cover. Build21 passes. Pawn-sized navigation reviewed/integrated; capsule/arena/cover
+regressions pass17 and controlled pressure pair passes18. Four arena and hip/ADS
+1080p frames inspected. Pressure setup loop corrected (stay inside closing gate).
+Four-peer18 diagnostic found real joining-client native1 draw rejected by legacy
+server armory gate; source19 allows only validated already-carried primary draw.
+All4 equip/ready/walk through gate20, but stale restart assertions then failed
+valid starting-bonus/catalog state. Fixture21 verifies empty carried slots, no
+earned bonuses, fresh pawns, original XP and baseline catalog; full rerun ongoing.
+No full lifecycle or30-minute acceptance yet. Natural-ammo draft portability and
+navigation reviewed; follow-up remains Saved-only for missing initial arrival
+movement and client graph center. Main owns all engine runs. Broad roadmap
+worker failed output cap/no report; main owns triage.
+
 
 All detailed run paths/worker IDs/next action remain in local Orca/readiness
 records. No public game/source publication orVS69 package overwrite; publicVS68
