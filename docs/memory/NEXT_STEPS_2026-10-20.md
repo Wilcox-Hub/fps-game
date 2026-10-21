@@ -5,6 +5,13 @@ open GitHub tracker. This is a work inventory, not a new readiness score or a
 claim that every open ticket still lacks implementation. No implementation,
 build, test, source publication or deployment is started by this planning task.
 
+October20 progress: items 1–4 below are prepared in the identified local
+[VS69 candidate](BETA_CANDIDATE_2026-10-20.md). Diagnostics, extended controlled
+co-op checks, matching Windows/Linux artifacts and the human card are complete.
+Scoped 1080p refit/rack/optics and lobby/version checks also pass. The original
+ammo failure and normal two-PC/human acceptance remain open; remaining parts of
+items 5–8 and the larger roadmap still need work. No public rollout occurred.
+
 ## Best next block without a human play session
 
 | Order | Work | Concrete result | Boundary |
@@ -18,8 +25,10 @@ build, test, source publication or deployment is started by this planning task.
 | 7 | Audit remaining delivery/session paths | Targeted local automation for Continue/rejoin, both guns/resources retained, bad-build rejection and team-wipe/restart; rerun only affected or genuinely new scopes | Existing matching evidence keeps its original limits |
 | 8 | Reconcile the tracker with actual work | Mark each milestone as missing, locally implemented, technically checked, awaiting delivery or awaiting player acceptance in the work record | Prepare issue edits for review; do not equate an open issue with missing code |
 
-The first three items are the recommended immediate sequence. More gameplay
-systems can follow their approved dependencies once this candidate is stable.
+The first three items were the initial sequence and now have local technical
+evidence. Next use the human card when normal co-op is available; while away,
+remaining presentation/performance/session audits can follow their approved
+dependencies without repeating unchanged checks.
 
 ## Decisions that can be discussed remotely
 

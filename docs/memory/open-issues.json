@@ -7,7 +7,7 @@
       "priority": "high",
       "report": "Late in arena one the co-op host's ammo orbs disappeared without increasing ammunition. Host carried unupgraded Gale and Phasma.",
       "evidence": "docs/design-decisions/interviews/2026-10-17-coop-diagnostics.md",
-      "known": "Owner clarified Oct20 that failure began while the host could still walk/shoot. Local VS69 adds opt-in ammo diagnostics;12 earlier traced two-process cases passed and final extended validation is in progress. Original normal-play failure remains unreproduced; no production reward/eligibility fix is claimed.",
+      "known": "Owner clarified Oct20 that failure began while the host could still walk/shoot. Identified local VS69 adds opt-in ammo diagnostics;24 traced two-process ammo cases and six controlled uninterrupted encounters pass. Matching Windows/Linux candidates and scoped Shipping/lobby checks pass. Original normal-play failure remains unreproduced; no production reward/eligibility fix is claimed.",
       "next_action": "Capture the failure during normal co-op on an identified package/source version, tracing both carried gun pools, actual pickup receipts/ages and collecting owner. Keep issue open; local test passes do not validate published VS68 or prove the original cause.",
       "latest_evidence": "docs/beta-readiness/snapshots/2026-10-20-vs69-candidate/report.md"
     },
@@ -16,18 +16,18 @@
       "status": "human-validation-pending",
       "priority": "high",
       "report": "Owner could not rescue/carry a downed co-op partner in the published play session.",
-      "known": "Local Oct17/18 controlled two-process rescue and standard held-E checks pass; new interaction/refit source is not in the current public package.",
+      "known": "Local Oct17/18 controlled rescue checks and Oct20 VS69 two-way recovery with actual hit pauses pass. Matching local VS69 package is prepared; new interaction/refit work is not in public VS68.",
       "evidence": "docs/beta-readiness/snapshots/2026-10-18-standard-interact/report.md",
-      "next_action": "After an explicitly authorized matching release, validate normal two-PC held-E rescue and useful ammo."
+      "next_action": "Use the separate identified local VS69 candidate for normal two-PC held-E rescue and useful-ammo acceptance; any public rollout remains separately authorized."
     },
     {
       "id": "refit-delivery",
       "status": "local-candidate-only",
       "priority": "high",
       "report": "Owner reported no accessible upgrade station.",
-      "known": "Authored walk-up E refit exists locally and passed recorded tests. Public VS68 has not received this latest station/interaction work.",
+      "known": "Walk-up E refit passes actual-owner/shared occupancy checks and exact VS69 Shipping1080p E deposit/700-shard charge/other-gun fire/original-slot collection. Matching local candidate is prepared; normal two-PC acceptance is open and public VS68 has not received the station/interaction work.",
       "evidence": "docs/beta-readiness/snapshots/2026-10-18-walk-up-refit/report.md",
-      "next_action": "Review compatibility/build matching packages/server and validate a separately requested rollout."
+      "next_action": "Use the identified local VS69 human test card for normal two-PC refit acceptance, then review any separately requested rollout."
     },
     {
       "id": "healing-tube-polish",

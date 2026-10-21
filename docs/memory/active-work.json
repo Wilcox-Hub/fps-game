@@ -1,7 +1,7 @@
 {
   "task": "beta-preparation",
   "phase": "checkpoint",
-  "outcome": "Local VS69 opt-in ammo diagnostics compile and updated E refit delivery fixture passes in Editor. Final763-input co-op matrix, packet-emulation and uninterrupted six-encounter checks are running. Dated readiness snapshot records pass/pending status; original host pickup failure stays open. Public delivery remains VS68.",
+  "outcome": "Local technical candidate VS69-20261020-1d98618a77db is prepared. Matching Windows Shipping/Linux Server packages retain763 source inputs and36/35 verified artifacts.24 traced ammo cases, six controlled uninterrupted encounters, no-gain/refit/mutual rescue, exact Shipping1080p controls/74 optics assertions and both-backend two-client lobby/auth/VS68 rejection pass. Original host ammo failure remains unreproduced/open; public VS68 and full beta acceptance are unchanged.",
   "topics": [
     "work-policy",
     "weapons-economy",
@@ -15,12 +15,14 @@
     "weapons-two-slots"
   ],
   "evidence": [
-    "docs/beta-readiness/snapshots/2026-10-20-vs69-candidate/report.md"
+    "docs/memory/BETA_CANDIDATE_2026-10-20.md",
+    "docs/beta-readiness/snapshots/2026-10-20-vs69-candidate/report.md",
+    "unreal/Ridgefire/LOCAL_BETA_TEST_CARD.md"
   ],
   "publication": {
-    "memory": "Owner-authorized scoped checkpoint sync.",
-    "game": "Local changes and packages only; no commit, publication or deployment authorized."
+    "memory": "Owner-authorized scoped checkpoint sync; verify GitHub readback.",
+    "game": "Local source, readiness records and packages only; no source commit, game publication, feed change or public deployment."
   },
-  "next_action": "Finish current isolated co-op checks, then build and verify matching local Windows/Linux candidate artifacts and prepare the human test card. No public rollout.",
-  "recorded_at": "2026-10-21T01:42:19.884833+00:00"
+  "next_action": "Normal two-PC Gale/Phasma ammo/rescue/refit/Continue and human acceptance on the isolated identified VS69 candidate. While away, use remaining presentation/performance/session audits from the saved queue; do not repeat matching passed scopes. Original ammo issue remains open and100-roll audit remains paused.",
+  "recorded_at": "2026-10-21T02:52:34.367508+00:00"
 }
