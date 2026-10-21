@@ -80,12 +80,16 @@ passes40/41. Build41 passes RecordedArenaFloorQueries, AgentDimensionsAroundCove
 and CoverRouteAndMemory; every returned corner segment passes an independent
 full-capsule sweep. No wall, capsule, speed or watchdog weakening.
 Evidence: `G:/IRON-SUN-Work/AutonomousBeta/20261020/Navigation/run-20261021-034652/result.json`.
-Full rendered 1800-second retry09 is running (exec31299). At the latest
-checkpoint it has passed21minutes, cleared the first six encounters, voted for
-Brassfall and started wave7 through the repaired native gate. Final completion,
-source/binary stability and all acceptance gates remain pending; no30min pass.
-Normal-input 2.5-second trigger spacing and all existing gates are unchanged.
-The original host ammo failure remains open.
+Full rendered retry09 PASS at build41:1800.009wall/world seconds,1726live-enemy
+seconds,673shots,69reloads,60swaps,zero ammo topups. It clears the opening six
+encounters, crosses the native Brassfall gate and reaches wave10. Maximum enemy/
+shot gaps8.076/9.331seconds; frame p50/95/99 bins11/13/14ms,5frames>=50ms,
+peak physical3.429GB. It uses26bounded health topups; this is controlled standalone
+Editor stress evidence on the available RTX3060 PC, not balance,min-spec,Shipping,
+multiplayer-device or human acceptance. All inputs/binaries/runner stay unchanged
+and exit0; exec31299 has ended. Matching local Windows/Linux packages are next.
+The original host ammo failure remains open. Exact result:
+`G:/IRON-SUN-Work/AutonomousBeta/20261020/CombatSoak/native-progression-09/run-summary.json`.
 
 Garden is Saved-only, actual protocol70. Main accepted the repaired two-choice
 legacy route proposal and verified all22 baseline/proposed hashes. Fresh
@@ -95,7 +99,7 @@ That reviewer was reused as a bounded Saved-only repair worker, ctx7970; main
 owns integration and engine use. Species ammo, failure penalty and final art
 remain open. The eliminated-HUD correction compiles; rendered eliminated-state
 acceptance remains open. Matching core70 package helpers and a human checklist
-are prepared but not run; they require a completed stable soak.
+are prepared but not run; the completed stable soak now permits serial package preparation.
 
 Natural ammo harness integrated/compiled32;60spilot02 INCONCLUSIVE: both actual
 owners move/fire/reload/swap with liveAI,1natural client/Gale+18 award, separate
