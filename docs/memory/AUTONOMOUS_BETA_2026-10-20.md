@@ -80,17 +80,22 @@ passes40/41. Build41 passes RecordedArenaFloorQueries, AgentDimensionsAroundCove
 and CoverRouteAndMemory; every returned corner segment passes an independent
 full-capsule sweep. No wall, capsule, speed or watchdog weakening.
 Evidence: `G:/IRON-SUN-Work/AutonomousBeta/20261020/Navigation/run-20261021-034652/result.json`.
-Full rendered 1800-second retry09 is running (exec31299), with native progression,
-normal-input 2.5-second trigger spacing and unchanged acceptance gates. No30min
-acceptance yet. The original ammo failure remains open.
+Full rendered 1800-second retry09 is running (exec31299). At the latest
+checkpoint it has passed21minutes, cleared the first six encounters, voted for
+Brassfall and started wave7 through the repaired native gate. Final completion,
+source/binary stability and all acceptance gates remain pending; no30min pass.
+Normal-input 2.5-second trigger spacing and all existing gates are unchanged.
+The original host ammo failure remains open.
 
-Garden repairs remain Saved-only, actual protocol70. Worker task9531/ctx4af is
-revising the proposal after main review. Its proposed three-choice legacy route
-expansion was rejected: an existing Mirror visit keeps that middle branch, with
-only Brassfall/Finale offered and Finale reserved before the four-visit cap.
-Review all repaired source/tests and hashes before any integration; no source
-changes or engine overlap while the frozen-input soak runs. The eliminated-HUD
-correction compiles; rendered eliminated-state acceptance remains open.
+Garden is Saved-only, actual protocol70. Main accepted the repaired two-choice
+legacy route proposal and verified all22 baseline/proposed hashes. Fresh
+independent review found socket-use-box floor/pickup occlusion, an outdated
+network disconnect assertion and missing client seed/gate replication checks.
+That reviewer was reused as a bounded Saved-only repair worker, ctx7970; main
+owns integration and engine use. Species ammo, failure penalty and final art
+remain open. The eliminated-HUD correction compiles; rendered eliminated-state
+acceptance remains open. Matching core70 package helpers and a human checklist
+are prepared but not run; they require a completed stable soak.
 
 Natural ammo harness integrated/compiled32;60spilot02 INCONCLUSIVE: both actual
 owners move/fire/reload/swap with liveAI,1natural client/Gale+18 award, separate
@@ -118,7 +123,7 @@ exact conversation under the verified other account. Do not create a substitute
 chat or concurrent writers to this saved session.
 
 Current limitation: Orca account-list reports a null five-hour session meter and
-only a weekly value. Its managed and System-default Codex entries currently
+only a weekly value. Latest saved-session telemetry at11:11UTC reports a10080-minute weekly window91% used (9% remaining), with no300-minute/five-hour window. Its managed and System-default Codex entries currently
 report the same provider/workspace identity; a distinct second subscription is
 not verified. No automatic switch, usable second allowance or exact2% trigger
 is claimed. Recheck live usage/identity at meaningful checkpoints and use the

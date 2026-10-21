@@ -1,7 +1,7 @@
 {
   "task": "autonomous-beta-tickets",
   "phase": "checkpoint",
-  "outcome": "Editor41 and three focused navigation regressions pass after red38/39 captured-corner reproduction and a capsule-safe multi-anchor fallback. Rendered 1800-second native-progression-09 is running, exec31299; no 30-minute pass yet. Garden remains Saved-only under review; a proposed third route choice was rejected. Original host ammo failure remains open; 100-roll audit paused.",
+  "outcome": "Build41 rendered soak09 has passed21minutes, cleared the opening six encounters and started wave7 after a native Brassfall vote and repaired gate crossing. No final30min pass or stability acceptance yet. Saved-only Garden independent review found socket-query and runner/replication gaps; bounded repair worker ctx7970 is active. Current usage telemetry exposes weekly9% remaining and no five-hour window; original ammo failure remains open.",
   "topics": [
     "work-policy",
     "network-delivery"
@@ -21,6 +21,6 @@
     "memory": "Owner-authorized scoped sync at checkpoints.",
     "game": "Local implementation/builds/testing only; no game/source commit, public deployment or new paid service."
   },
-  "next_action": "Monitor frozen-input soak09, review corrected Garden draft and settle its worker. Record actual soak result, then prepare matching stable local packages and extend natural ammo coverage. No shutdown while useful independent work remains.",
-  "recorded_at": "2026-10-21T10:53:17.077278+00:00"
+  "next_action": "Finish and inspect actual frozen-input soak09 result; if accepted, build serial matching local Windows/Linux candidates. Review Garden Saved-only final repairs before integration and serial engine tests. No shutdown while useful independent work remains.",
+  "recorded_at": "2026-10-21T11:12:49.949937+00:00"
 }
