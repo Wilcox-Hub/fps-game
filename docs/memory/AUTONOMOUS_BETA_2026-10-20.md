@@ -58,20 +58,27 @@ Sustained rendered180.005s pilot32 passes:164live-enemy seconds,68shots,6reloads
 Explicit2.5s normal-input trigger spacing sustains load;75%enemy/all other gates
 unchanged. Earlier .85s180srun failed only load114<135. No30min acceptance yet.
 Current full combat/carry reclaim32 and actual dedicated empty-party/fresh-party32
-PASS at stable identities. Editor33 compiles reviewed native progression and
-corrected actual viewport callback/manual pixel PNG save. Both rendered reconnect
-combat/carry cases pass gameplay/artifact checks at stable identities; all10PNG
-frames inspected. Real3-2-1/owned Gale and Phasma HUD visible; cold countdown
-camera shows void/loading, and carry host label frame is hidden by downed overlay.
-Presentation follow-ups remain open. Both writable helpers released/acked.
-Actual1800s rendered native-progression attempt FAILED1148.111s after first6waves;
-`G:/IRON-SUN-Work/AutonomousBeta/20261020/CombatSoak/native-progression-07`.
-Native vote/travel/R/gate opening succeeded; capsule stuck in later crossing,
-45s bound preserved.423shots/42reloads/1062live-enemy sec,13bounded health
-topups/no ammo topups. Fast real-level arrival regression ctx_94e32bdedb5d
-is being implemented; Garden core draft ctx_8c9e737424a1 stays Saved-only.
-Main eliminated-HUD correction/camera-target diagnostics edited/unbuilt.
-No engine job live and no30min pass. Reconnect camera cause still unconfirmed.
+PASS at stable identities. Editor37 builds. Actual-level later gate regression
+red35 identifies enemy-bay BackWall across player entry; later8bay offsets22.5
+degrees preserve8and firstarena layout, green36 proves nativeR/W/fullcapsule
+crossing/gateclosure/wave7. Full1800s attempt33 failed1148s after first6waves;
+423shots/42reloads/1062live seconds,13bounded health/noammo topups. Retry pending.
+Rendered reconnectcombat36/carry37 PASS at stable individual identities; all10
+actual1080frames inspected. Server SetViewTarget repairs priorSpectatorPawn
+3-2-1 camera; actualstandin/nearbyPOV markers and worldviews now agree. Carry
+render waits actual60.02s recovery plus exact existing12XP depositor reward,
+then AIlabel/PhasmaHUD/nativeinputs pass. Defaultheadless retains activecarry/
+tube scope; combined37PASS at stableidentity.4arena/1..4controller16cohort37
+PASS uses10xfixtureworldtime. Actual2peer legacyteamwipe37PASS confirms first
+defeat keepssurvivor/runactive and finalgameover replicates; living-onlyrewards.
+No production reward/balance change. Full1800s rendered retry37 now running
+`G:/IRON-SUN-Work/AutonomousBeta/20261020/CombatSoak/native-progression-08`,
+exec50126, inputsfixed. HUD now
+truthful for fullyeliminated players; compiles, renderedHUD acceptance pending.
+Garden writerreleased;925line19targetdraft baselinehashes allmatch. Independent
+read-only reviewer ctx_cd595c132ca8 active, mainactualreview underway; no live
+Garden source applied, actualsource staysprotocol70. Draft proposes71 on integration,
+not new owner-approved tuning. No30min/currentpackage/device/human acceptance.
 
 Natural ammo harness integrated/compiled32;60spilot02 INCONCLUSIVE: both actual
 owners move/fire/reload/swap with liveAI,1natural client/Gale+18 award, separate
