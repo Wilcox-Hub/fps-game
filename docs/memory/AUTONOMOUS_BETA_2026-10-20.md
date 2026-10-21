@@ -58,10 +58,15 @@ Sustained rendered180.005s pilot32 passes:164live-enemy seconds,68shots,6reloads
 Explicit2.5s normal-input trigger spacing sustains load;75%enemy/all other gates
 unchanged. Earlier .85s180srun failed only load114<135. No30min acceptance yet.
 Current full combat/carry reclaim32 and actual dedicated empty-party/fresh-party32
-PASS at stable identities. Two focused helpers now implement native long-soak
-progression (ctx_503470b2d9bf) and actual rendered reclaim captures
-(ctx_9822b821acdc), exclusive fixture/tool files, no engine work. Main must review,
-compile/test and release/ack. Current edits are unbuilt;32passes stay dated.
+PASS at stable identities. Editor33 compiles reviewed native progression and
+corrected actual viewport callback/manual pixel PNG save. Both rendered reconnect
+combat/carry cases pass gameplay/artifact checks at stable identities; all10PNG
+frames inspected. Real3-2-1/owned Gale and Phasma HUD visible; cold countdown
+camera shows void/loading, and carry host label frame is hidden by downed overlay.
+Presentation follow-ups remain open. Both writable helpers released/acked.
+Actual1800s rendered native-progression soak is running, inputs frozen;
+`G:/IRON-SUN-Work/AutonomousBeta/20261020/CombatSoak/native-progression-07`.
+Only read-only ticket audit ctx_a861136b8771 remains active. No30min pass yet.
 
 Natural ammo harness integrated/compiled32;60spilot02 INCONCLUSIVE: both actual
 owners move/fire/reload/swap with liveAI,1natural client/Gale+18 award, separate
