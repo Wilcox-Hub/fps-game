@@ -23,3 +23,5 @@ The successful verification turn showed two hooks timing out after 3 seconds. Me
 Evidence: `C:/Users/YaYa/Documents/ChatGPT/FPS-1/output/orca-setup/2026-10-20/account-repair/verification.json` and the selected account's saved rollout for session `01a14bab-ce64-7530-bb8b-0eae10c928bd`. No raw credentials or email addresses are included in the repair receipt.
 
 References: [Orca account switching](https://www.onorca.dev/docs/agents/codex-hot-swap), [OpenAI authentication](https://learn.chatgpt.com/docs/auth).
+
+Follow-up: [hook repair](MEM0_HOOK_REPAIR.md) fixes UTF-8 input handling and adds timeout headroom/background capture. Installed October 20; seven modified definitions require owner trust before live verification. The earlier diagnostic counts above retain their original scope.
