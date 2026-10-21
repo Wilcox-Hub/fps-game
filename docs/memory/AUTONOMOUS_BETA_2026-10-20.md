@@ -44,15 +44,18 @@ at build11. The same dedicated run also proves empty-server seamless cleanup wit
 zero controllers/PlayerStates and a fresh2client launch. Main fixed full-capacity
 admission, real tube approach, dedicated input and ghost-seat lifecycle failures.
 
-Rendered20s pilot03 passes at build12. Attempted30-minute full-01 failed after
-116.887s because no shots occurred for20s despite2live enemies; it is not a full
-soak pass. Build13 adds bounded failure pose/navigation/ammo JSON and screenshot;
-180s diagnostic pilot running before any pursuit/movement change. Four-peer,
-matching new packages, rendered reclaim and human/physical-device acceptance
-remain pending. A bounded natural-ammo draft helper writes only Saved files.
-The broader roadmap worker hit provider max_output_tokens before any report;
-main inspected/stopped its exact terminal through Orca and recorded failed Task,
-then took over triage. No accepted broad audit is claimed.
+Rendered20s pilot03 passes at build12. Full-01 failed116.887s, and both
+subsequent diagnostic pilots failed the20s no-shot watchdog with usable ammo.
+Failure JSON/PNGs inspected. Diagnostic02 exposes conservative maximum-capsule
+navigation rejecting a player beside cover. Build17 passes. Luna/xhigh worker
+ctx_ecf74bd1946c completed pawn-sized navigation, reviewed and released; main
+integrated callers and fixed actual test-geometry placement failure. Five-test
+collision/arena/pressure suite running; exact saved-pose cause remains to verify. Four-peer current driver also
+failed after all4 confirmed rack positions; only host readied. Main added stage,
+view-target and menu diagnostics before another run. No30-minute or four-peer
+pass is claimed. Natural-ammo draft is accepted Saved-only, helper released;
+compile/integration/runtime review remains. Broad roadmap helper failed provider
+output cap with no report; main inspected/stopped/accounted it and owns triage.
 
 All detailed run paths/worker IDs/next action remain in local Orca/readiness
 records. No public game/source publication orVS69 package overwrite; publicVS68
