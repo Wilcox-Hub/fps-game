@@ -91,13 +91,22 @@ and exit0; exec31299 has ended. Matching local Windows/Linux packages now pass b
 The original host ammo failure remains open. Exact result:
 `G:/IRON-SUN-Work/AutonomousBeta/20261020/CombatSoak/native-progression-09/run-summary.json`.
 
-Garden is Saved-only, actual protocol70. Main accepted the repaired two-choice
-legacy route proposal and verified all22 baseline/proposed hashes. Fresh
-independent review found socket-use-box floor/pickup occlusion, an outdated
-network disconnect assertion and missing client seed/gate replication checks.
-That reviewer was reused as a bounded Saved-only repair worker, ctx7970; all23baseline/proposed hashes and read-only patch checks pass. The worker is now released/acked; main owns integration and engine use. Species ammo, failure penalty and final art
-remain open. The eliminated-HUD correction compiles; rendered eliminated-state
-acceptance remains open. Matching core70 packages and the updated human checklist are ready for normal two-PC testing. Natural ammo and the separate Garden proposal remain ongoing; no current overall beta readiness is claimed.
+Garden71 is locally integrated. Main reviewed the23-target proposal and fixed
+compile43 issues; Editor48/UHT and actual checkpoint world/disk48 pass. World
+coverage includes grounded nativeE seed recovery/plant/defend, destroyed actors,
+legacy history, safe v4 phases, full-capsule open/closed gate, real central fallback
+and occupied closure deferral. Main moved refit clear of the seed, widened side
+mouths for the conservative navigation graph and bounded the outer wall. Earlier
+44?47 failures and diagnostics are preserved. Prototype species ammo, failure
+penalty, final art/readability and human gates remain open; no new tuning promoted.
+
+Rack screenshot sequencing now waits for PNG completion before E; rendered48
+PASS46.59s and both exact hint/ready frames inspected. Pure Garden rules48 pass.
+Later-wave missing-seed regression red49/green50 proves pending path closure and
+normal wave/defense progress survive representation replacement; checkpoint50 pass. Progression fixtures lack current protected-arrival
+handling, so a bounded Saved-only Luna/xhigh helper is preparing that repair.
+Main owns review, integration and serial engine use. Frozen core70 packages and
+human card are preserved; no Garden full-run/network/package acceptance yet.
 
 Natural ammo harness integrated/compiled32;60spilot02 INCONCLUSIVE: both actual
 owners move/fire/reload/swap with liveAI,1natural client/Gale+18 award, separate
