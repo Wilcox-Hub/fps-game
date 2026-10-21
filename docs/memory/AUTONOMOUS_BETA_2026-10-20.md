@@ -47,20 +47,31 @@ admission, real tube approach, dedicated input and ghost-seat lifecycle failures
 Rendered20s pilot03 passes at build12. Full-01 failed116.887s, and both
 subsequent diagnostic pilots failed the20s no-shot watchdog with usable ammo.
 Failure JSON/PNGs inspected. Diagnostic02 exposes conservative maximum-capsule
-navigation rejecting a player beside cover. Build26 passes. Full actual4peer lifecycle passes24,81.494s stable inputs:12
-rack/ready/native gate entries,2hosted restarts, original XP/fresh pawns/slots,
-controls and latejoin rejection. Remote owned-primary draw fixed19; later fixture
-repairs preserve current catalog/starting bonus, reset per-map markers, wait
-production pawn placement and native input dispatch. Voluntary leave stand-in
-assertion and abrupt host loss are separate pending variants.
+navigation rejecting a player beside cover. Build32 passes. Full4peer restart lifecycle24, separate voluntary-leave/noAI and
+abrupt-host-loss30, navigation30 and4immediate pre/post ammo cases31 pass at
+stable saved identities. Editor rock collision readiness before graph repairs
+actual stale edges; floor/capsule regression evidence is retained. No movement-
+speed or waypoint-tolerance change.
 
-Rendered navigation03 failed44.225s with usable ammo. Actual34/96capsule probe
-still rejects both recorded positions. Deterministic world test25 proves no
-capsule penetration, but downward sweeps clip sloped cover; floor ray finds flat
-ground and full deployed capsules clear. Source26 extends existing safe floor
-fallback to nonwalkable sweep hits; affected4regressions PASS26; rendered180s floor04 running. No30min pass.
-All owned helpers reviewed/released/acked; natural-ammo draft remains Saved-only,
-not compiled or runtime accepted. Source/game publication unchanged.
+Sustained rendered180.005s pilot32 passes:164live-enemy seconds,68shots,6reloads,
+6swaps, real movement/health damage, no fixture health/ammo topups,p95/99bins12ms.
+Explicit2.5s normal-input trigger spacing sustains load;75%enemy/all other gates
+unchanged. Earlier .85s180srun failed only load114<135. No30min acceptance yet.
+Current full combat/carry reclaim32 and actual dedicated empty-party/fresh-party32
+PASS at stable identities. Two focused helpers now implement native long-soak
+progression (ctx_503470b2d9bf) and actual rendered reclaim captures
+(ctx_9822b821acdc), exclusive fixture/tool files, no engine work. Main must review,
+compile/test and release/ack. Current edits are unbuilt;32passes stay dated.
+
+Natural ammo harness integrated/compiled32;60spilot02 INCONCLUSIVE: both actual
+owners move/fire/reload/swap with liveAI,1natural client/Gale+18 award, separate
+wave rewards, zero pre-snapshot mismatch. Other3owner/gun and depleted-pool awards
+missing. First pilot had a fixture cache-initialization deadlock; owned host
+stopped and wrapper cleaned both. Native initial2/1draws and bounded-baseline
+correction32 make both pools known without gifts. Source pre-award trace records
+actual before-state only;4controlled owner/gun pickup cases and9synthetic audit
+guards pass. Original host ammo failure remains open;100-roll paused. Source/
+game unpublished, current package/device/human gates open, publicVS68 unchanged.
 
 
 All detailed run paths/worker IDs/next action remain in local Orca/readiness
