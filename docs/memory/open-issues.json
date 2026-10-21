@@ -64,11 +64,11 @@
     },
     {
       "id": "orca-second-account",
-      "status": "distinct-signins-verified-switch-pending",
+      "status": "selected-system-default-restart-pending",
       "priority": "normal",
       "report": "Same-account conversation recovery passed. Two-account Windows A→B→A continuity awaits the second login.",
       "next_action": "Use existing pane Codex usage/account UI to choose System default and its account-switch Restart, preserving exact session01a14bab-ce64-7530-bb8b-0eae10c928bd. Verify fresh status/usage after restart. Existing user switch authorization applies; do not create a replacement chat.",
-      "known": "Oct21 fresh supported unfiltered orca account list verifies managed Plus and System default OAuth with different provider identities. Current managed weekly window100%used; session/five-hour meter null, extra usage enabled. No credentials/tokens inspected or copied; no switch or second quota yet proved."
+      "known": "Two distinct sign-ins verified. Supported current-pane UI selected System default; fresh meter23%/300minutes used and41%weekly used. Current agent stays on managed until Restart. Exact-session continuity after this switch is pending; no credentials read/copied."
     },
     {
       "id": "orca-phone-navigation",
