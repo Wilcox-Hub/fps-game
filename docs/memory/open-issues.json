@@ -68,7 +68,7 @@
       "priority": "normal",
       "report": "Same-account conversation recovery passed. Two-account Windows A→B→A continuity awaits the second login.",
       "next_action": "Continue useful work on available actual allowance; monitor actual process telemetry. At observed owner2%five-hour threshold, save checkpoint and use supported same-session restart/account flow. Do not infer process account from selector, or exhaustion from a missing meter.",
-      "known": "October22 exact session/marker verified; actual process still uses managed CODEX_HOME while Orca selector is System default. Latest bounded actual-session telemetry18:17:36UTC shows weekly5%used/10080minutes, secondary null and no five-hour meter. Selected other account0%five-hour/weekly observation is from17:42UTC, not newly refreshed. Supported account switch remains unverified; no credentials accessed."
+      "known": "Exact saved session/marker verified, actual process still managed while Orca selector is System default. Latest bounded actual-session telemetry2026-10-22T19:26:55Z shows weekly14%used/10080minutes, secondary null, no five-hour meter. Other account0%usage observation is17:42UTC, not newly refreshed. Switch unverified; no credential access. Missing five-hour window does not prove the owner2% trigger or exhaustion."
     },
     {
       "id": "orca-phone-navigation",

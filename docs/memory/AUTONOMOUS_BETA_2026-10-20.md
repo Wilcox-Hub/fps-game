@@ -225,3 +225,26 @@ Read natural58 result and compare per-drop assignment maps in both actual logs; 
 Natural58 INCONCLUSIVE180s:2client-Gale natural awards,0pre-snapshot mismatch,0depleted awards; both peers agree on2observed drop assignments. Original host ammo bug open. Impaired58 uncapped fails initial client gate sweep with96-saved-move warning; same-source60FPS retry is sole engine job9719/port8006, exact collision checks unchanged. One active reused Luna/xhigh worker ctx_94d1526100f1/task_f67f59633587/terminal3deb prepares Saved-only issue10 lethal-request race proposal. Prior ctx145 audit accepted/reused/acked. Exact Development57 route/checkpoint/frame/48-artifact passes retained.
 
 Finish impaired58 capped60 and diagnose actual failure without weakening sweeps. Review worker CombatRaceProposal baseline/diff, integrate only opt-in Editor test seams after engines finish, then real no-delay and100ms control cases. Current Source58 frozen. Preserve Core70/public68, original ammo issue and100-roll pause; no early shutdown or source/public publication.
+
+### October22 current checkpoint - Source65
+
+Exact saved session/marker and managed process continuity verified. Actual usage
+19:26:55UTC: weekly14%used/10080minutes, secondary null; five-hour2% trigger is
+not observable. Orca selector remains System default; process switch unverified.
+No shutdown: useful independent work remains. No credentials accessed.
+
+Current Source65/protocol71 has775inputs. Strict two-real-owner lethal race passes
+0/100ms with16.7/66.7ms authority receipts, same live NetGUID target, one death/
+score/objective/XP/drop and converged ammo. Ordinary co-op65 and mixed current
+Editor65/frozen Development57 startup pass. Earlier reds, scopes and exact paths
+are in current readiness and work-log; these are controlled local technical checks.
+
+Frozen Development57 cooked21-wave route/checkpoints/five1080p images pass,
+48artifacts intact. NativeLinux60/protocol71 build and2matching Development57
+client joins pass; public68 rejected. Linux has33post-run artifact fingerprints,
+not an invented pre/post comparison. Owned Docker container removed/Desktop
+stopped. Editor59 impaired full Garden/disconnect route passes verified100ms/2%.
+
+Fresh local Shipping65 package PASS: UHT compile155.61s/UAT30.62s, rack/refit20.91s, optics21.36s/74checks/6ADS swaps. Six actual1080p frames inspected, including correct price/E insert and READY/E collect. Two exact Shipping65 clients join Editor65 and nativeLinux60; old68 rejected in both.32artifacts match pre-runtime fingerprints. Owned Docker container removed/Desktop stopped. Six-file Garden supply Saved proposal reviewed; same proven Luna/xhigh worker reused for Saved-only world/checkpoint tests task_c3848cad3ee6/ctx_ea454f39f318, source still65/protocol71. Original ammo loss and human/art/balance gates remain open.
+
+Finish Garden supply production review, verify six baseline hashes, integrate reversible existing18-round/wave2 E-harvest prototype after owned engines settle, then build and run focused world/checkpoint/two-owner checks. Keep source/game/public rollout unpublished,100-roll paused and no early shutdown.
