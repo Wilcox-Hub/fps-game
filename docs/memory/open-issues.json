@@ -1,5 +1,5 @@
 {
-  "recorded_on": "2026-10-21",
+  "recorded_on": "2026-10-22",
   "issues": [
     {
       "id": "host-ammo-natural",
@@ -68,7 +68,7 @@
       "priority": "normal",
       "report": "Same-account conversation recovery passed. Two-account Windows A→B→A continuity awaits the second login.",
       "next_action": "Continue useful work on available actual allowance; monitor actual process telemetry. At observed owner2%five-hour threshold, save checkpoint and use supported same-session restart/account flow. Do not infer process account from selector, or exhaustion from a missing meter.",
-      "known": "Exact saved session/marker verified, actual process still managed while Orca selector is System default. Latest bounded actual-session telemetry2026-10-22T19:26:55Z shows weekly14%used/10080minutes, secondary null, no five-hour meter. Other account0%usage observation is17:42UTC, not newly refreshed. Switch unverified; no credential access. Missing five-hour window does not prove the owner2% trigger or exhaustion."
+      "known": "Exact saved session/marker verified. Actual process remains managed while Orca selector is System default. Bounded actual-session telemetry2026-10-22T19:50:18Z shows weekly18%used/10080minutes, secondary null, no five-hour meter. Other account0% observation remains17:42UTC, not newly refreshed. Process switch unverified; missing five-hour window does not establish the owner2% trigger or exhaustion."
     },
     {
       "id": "orca-phone-navigation",
