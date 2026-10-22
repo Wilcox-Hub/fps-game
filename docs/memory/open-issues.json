@@ -68,7 +68,7 @@
       "priority": "normal",
       "report": "Same-account conversation recovery passed. Two-account Windows A\u2192B\u2192A continuity awaits the second login.",
       "next_action": "Continue useful work on available actual allowance; monitor actual process telemetry. At observed owner2%five-hour threshold, save checkpoint and use supported same-session restart/account flow. Do not infer process account from selector, or exhaustion from a missing meter.",
-      "known": "Exact saved session/marker verified. Actual process remains managed while Orca selector is System default. Bounded actual-session telemetry2026-10-22T20:48:57Z shows weekly26%used/10080minutes, secondary null, no five-hour meter. Other account0% observation remains17:42UTC, not freshly refreshed. Process switch unverified; missing meter does not establish the owner2% five-hour trigger or exhaustion."
+      "known": "Actual managed main process remains usable. Latest safe observation23:50:51UTC primary weekly56%used/10080minutes, secondary null; no five-hour meter and owner2%five-hour trigger unobserved. Both helper attempts stopped on actual usage/auth errors, which do not prove both accounts drained. Selector is not process account."
     },
     {
       "id": "orca-phone-navigation",
@@ -85,8 +85,8 @@
       "priority": "high",
       "report": "GitHub issue23 requires limited recoverable arena-specific supplies delivered to the arsenal, optional loss never blocks progression.",
       "evidence": "docs/beta-readiness/snapshots/2026-10-22-vs72-supply-delivery/report.md",
-      "known": "Source96/game72 candidate VS72-20261022-dcdb600b9032 Windows Development compiled/cooked;775inputs,52recorded artifacts. Actual cooked world/lifecycle/checkpoints PASS8.36s and rendered full21 cargo PASS155.71s; all5actual1080p frames inspected: carrier machine aim clear, observer green orb visible, readable HUD/fullgun/Bretry/18reserve+10provisional XP/ordinary refit. RuntimeSHA d05c6550a57670412d99d54b9b4289483b2c1a441a440c26fbf6ba0a66215ae6;52artifacts unchanged after both checks.96 actual4peer normal/impaired strict passes remain separate,95/88 proofs frozen. No actual remote visuals/transport lifecycle/physical/Internet/final art/balance/human or beta acceptance. NativeLinux/Shipping72 next; original ammo open,100-roll paused,no rollout/shutdown.",
-      "next_action": "Build exact matching nativeLinux72 and Shipping72 isolated candidates, record artifacts, verify native/local lobby/auth/old-build rejection, retain human/physical/final-content gates."
+      "known": "Source96/game72 local candidate VS72-20261022-dcdb600b9032: matching775-input WindowsDevelopment/Shipping/Linux packages52/34/35artifacts unchanged; cooked world8.36s/full21 rendered cargo155.71s/five inspected frames, Shipping rack22.11s/optics19.39s/74checks6swaps/six selected inspected frames, both backend/config joins and old68 rejection pass.96 actual4peer normal/impaired strict passes separate. Not beta ready. Exact combined record Garden72/Candidate72-result.json. Shipping rack original wrapper failure retained with independent pass (logging compiled out). All owned jobs/Docker stopped; helpers none. Original ammo open,100-roll paused,public68/launcher unchanged. Independent arena work remains; no shutdown.",
+      "next_action": "Use identified VS72 local candidate for normal co-op cargo, original ammo and human acceptance; real cargo transport disconnect and remote visuals remain open. Keep source/public rollout separate while independent missing-arena work continues."
     }
   ]
 }
