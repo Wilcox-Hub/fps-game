@@ -66,7 +66,7 @@
       "id": "orca-second-account",
       "status": "selector-process-differ-allowances-reset",
       "priority": "normal",
-      "report": "Same-account conversation recovery passed. Two-account Windows A→B→A continuity awaits the second login.",
+      "report": "Same-account conversation recovery passed. Two-account Windows A\u2192B\u2192A continuity awaits the second login.",
       "next_action": "Continue useful work on available actual allowance; monitor actual process telemetry. At observed owner2%five-hour threshold, save checkpoint and use supported same-session restart/account flow. Do not infer process account from selector, or exhaustion from a missing meter.",
       "known": "Exact saved session/marker verified. Actual process remains managed while Orca selector is System default. Bounded actual-session telemetry2026-10-22T20:48:57Z shows weekly26%used/10080minutes, secondary null, no five-hour meter. Other account0% observation remains17:42UTC, not freshly refreshed. Process switch unverified; missing meter does not establish the owner2% five-hour trigger or exhaustion."
     },
@@ -75,7 +75,7 @@
       "status": "resolved-owner-report",
       "priority": "normal",
       "report": "Owner cannot find a terminal or chat composer on the phone.",
-      "known": "On2026-10-20 the owner replied “Greta I got it!” after the paired-host/session Chat UI guidance. Phone navigation is accepted by owner report; exact connection route and an agent message send were not independently observed.",
+      "known": "On2026-10-20 the owner replied \u201cGreta I got it!\u201d after the paired-host/session Chat UI guidance. Phone navigation is accepted by owner report; exact connection route and an agent message send were not independently observed.",
       "evidence": "docs/memory/ORCA_MOBILE.md",
       "next_action": "Reopen only if phone access fails again; no further screen-detail question is needed now."
     },
@@ -85,8 +85,8 @@
       "priority": "high",
       "report": "GitHub issue23 requires limited recoverable arena-specific supplies delivered to the arsenal, optional loss never blocks progression.",
       "evidence": "docs/beta-readiness/snapshots/2026-10-22-vs72-supply-delivery/report.md",
-      "known": "Local Source83/game72 world/disk PASS17.42s and rendered missed-supply full21 PASS170.84s/2actual1080p phase frames inspected. Source86 both actual4peer full21 cases0delay and100ms2% pass strict775-input/module/driver/4generated-identity/raw-log proof: same per-case seed/carrier Pawn, native7E/7B, one18active-stock reserve/+10provisional XP each, no-gain/replay. Authority both carried banks; clients actual active slot/A both via B, no unreplicated-cache claims. Real Garden arsenal coordinate mismatch corrected. +10XP/source/window provisional; no original host-ammo fix, mid-wave crash, actual lifecycle, positive cargo render, cooked/final-art/human proof. Helpers stopped after usage/auth failure; main continues.",
-      "next_action": "Integrate Saved positive cargo presentation test, inspect4actual images, add actual down/death/logout/patient and missing-active-seed recovery coverage, then exact isolated cooked candidates. No public/source rollout."
+      "known": "Source95/game72,775inputs Editor/world lifecycle17.56s PASS. Actual co-op lethal damage/production Logout after unpossession drop same unpaid cargo, missing progress-one seed recreates and native E recovers, direct forfeit preserves completed required defense/resources; normal wave advance retains normal72 resupply. Actual patient lethal damage/carry followed by scheduled production seed tick (no manual tick) drops cargo and retains patient. In-process possessed fixtures, no transport/device proof. Only checkpoint tests changed from frozen88 world/rendered passing production; exact95 proof archived,89-94 test reds retained. Main alone; original ammo open/100-roll paused/no rollout/shutdown.",
+      "next_action": "Add actual peer owner-pawn/cleared-owner receipts, compile next96, run normal/impaired4peer current-binary acceptance then isolated Windows/Linux72 packages and cooked checks."
     }
   ]
 }
