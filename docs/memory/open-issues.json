@@ -7,7 +7,7 @@
       "priority": "high",
       "report": "Late in arena one the co-op host's ammo orbs disappeared without increasing ammunition. Host carried unupgraded Gale and Phasma.",
       "evidence": "docs/design-decisions/interviews/2026-10-17-coop-diagnostics.md",
-      "known": "Owner clarified Oct20 that failure began while the host could still walk/shoot. Frozen local Core70 adds diagnostics and retains controlled two-process pickup/reload/swap passes; matching Windows/Linux package and scoped Shipping/lobby checks pass. Natural300s is inconclusive with no awards; corrected-camera120s observes five natural awards across three owner/gun cases with zero pre-snapshot mismatch, but client/Phasma and depleted-pool pickup coverage remain absent. Original normal-play failure remains unreproduced; no production ammo fix is claimed.",
+      "known": "Owner clarified Oct20 that failure began while the host could still walk/shoot. Frozen local Core70 adds diagnostics and retains controlled two-process pickup/reload/swap passes; matching Windows/Linux package and scoped Shipping/lobby checks pass. Natural300s is inconclusive with no awards; corrected-camera120s observes five natural awards across three owner/gun cases with zero pre-snapshot mismatch, but client/Phasma and depleted-pool pickup coverage remain absent. Original normal-play failure remains unreproduced; no production ammo fix is claimed. October22 stable-assignment58 probe180s remains inconclusive:2client-Gale natural awards,0pre-snapshot mismatches and0depleted awards. Both peers agree on2observed target assignments; original host failure remains unreproduced.",
       "next_action": "Capture the failure during normal co-op on an identified package/source version, tracing both carried gun pools, actual pickup receipts/ages and collecting owner. Keep issue open; local test passes do not validate published VS68 or prove the original cause.",
       "latest_evidence": "docs/beta-readiness/snapshots/2026-10-21-vs70-core-candidate/report.md"
     },
@@ -68,7 +68,7 @@
       "priority": "normal",
       "report": "Same-account conversation recovery passed. Two-account Windows A→B→A continuity awaits the second login.",
       "next_action": "Continue useful work on available actual allowance; monitor actual process telemetry. At observed owner2%five-hour threshold, save checkpoint and use supported same-session restart/account flow. Do not infer process account from selector, or exhaustion from a missing meter.",
-      "known": "October22 exact session and marker verified. Actual managed process weekly0%used; five-hour window absent. System default selector is a distinct OAuth account with fresh0%used five-hour/weekly meters. Restart/account switch remains unverified. No credentials accessed."
+      "known": "October22 exact session/marker verified; actual process still uses managed CODEX_HOME while Orca selector is System default. Latest bounded actual-session telemetry18:17:36UTC shows weekly5%used/10080minutes, secondary null and no five-hour meter. Selected other account0%five-hour/weekly observation is from17:42UTC, not newly refreshed. Supported account switch remains unverified; no credentials accessed."
     },
     {
       "id": "orca-phone-navigation",

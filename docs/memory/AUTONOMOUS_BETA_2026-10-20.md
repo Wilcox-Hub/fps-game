@@ -213,3 +213,15 @@ Inspect rendered57 full route and all Garden path-phase images; fix observed fai
 Current Source57 full21-wave native-E/rendered route PASS; four actual1080p images inspected: Garden closed/open/closed cues fit and Last Star E hint is visible. Pending-close label has no separate image; final Garden art remains primitive. Same-source56 valid-ID disconnect/AI full route PASS. Current sole engine/build job63721 is fresh Development57 archive20261022-1058. Source/binaries frozen. All owned workers accepted/released/acked; audit proposal remains Saved-only.
 
 Finish Development57 cook/package, inspect real runtime and run Saved Invoke-PackagedIntegrated71.ps1 with isolated profile through full route/objectives/nav. Diagnose real failures without exposing Editor cheat driver in Shipping. Then stable cross-process natural-drop assignment and remaining independent major tickets. Preserve core70/public68; original ammo bug open,100-roll paused. No early shutdown/source publication.
+
+### October22 cooked Development57 pass and natural58
+
+Exact cooked Development57 full rendered21-wave route PASS156.83s and both checkpoint world/disk checks PASS11.06s. Five packaged1080p frames inspected;48 artifact integrity passes after runs. Current Source58 only opt-in natural-ammo stable ordinal/map logging, Editor58 PASS6.00s; sole engine job29445 is180s two-peer stable-assignment58-01/port7986. Production57 remains unchanged, no workers. Original ammo failure and100-roll pause retained.
+
+Read natural58 result and compare per-drop assignment maps in both actual logs; retain missing natural/depleted coverage honestly. Fix only observed fixture failures. Then remaining independent major tickets and current source evidence. Garden species/failure values/art/human gates remain owner-dependent. Monitor actual account allowance; no early shutdown/source/public publication.
+
+### October22 natural58 result and impaired retry
+
+Natural58 INCONCLUSIVE180s:2client-Gale natural awards,0pre-snapshot mismatch,0depleted awards; both peers agree on2observed drop assignments. Original host ammo bug open. Impaired58 uncapped fails initial client gate sweep with96-saved-move warning; same-source60FPS retry is sole engine job9719/port8006, exact collision checks unchanged. One active reused Luna/xhigh worker ctx_94d1526100f1/task_f67f59633587/terminal3deb prepares Saved-only issue10 lethal-request race proposal. Prior ctx145 audit accepted/reused/acked. Exact Development57 route/checkpoint/frame/48-artifact passes retained.
+
+Finish impaired58 capped60 and diagnose actual failure without weakening sweeps. Review worker CombatRaceProposal baseline/diff, integrate only opt-in Editor test seams after engines finish, then real no-delay and100ms control cases. Current Source58 frozen. Preserve Core70/public68, original ammo issue and100-roll pause; no early shutdown or source/public publication.
