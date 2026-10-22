@@ -201,3 +201,15 @@ Account UI follow-up: existing current-pane Codex selector successfully chose Sy
 October22 exact saved session01a14bab-ce64-7530-bb8b-0eae10c928bd and IRON-SUN-ORCA-READY-20261017 verified. Actual process still uses managed CODEX_HOME; Orca selector remains System default, so account switch is NOT claimed. Fresh actual-session telemetry shows weekly0%used, no five-hour window; selected other account shows0%used in both windows. No exhaustion or2%trigger now. Source56 manifest774 matches; valid-ID disconnect retry is active, exec40751/port7976. No workers or source changes.
 
 Read NetworkDisconnect-56-Identified/checks-20261022-104650-218 result and diagnose actual AI/gate/HP failures without weakening checks. Then E-node and truthful Garden path cue, followed by packaged Development objective validation. Preserve core70/public68. Monitor actual process allowance; switch exact saved session at owner threshold when observable. No early shutdown, source publication or new paid service.
+
+### October22 disconnect56 pass and UI57
+
+Garden71 valid-ID disconnect56 full21-wave/four-arena PASS: original-pawn AI takeover, three voters/four combat seats and all later native arrival gates; per-peer ordered seed and full-capsule gate phases. Source57 E-node/path cue and native-E/render driver changes compile10.64s. Actual rendered57 active exec63559; no package verdict. Luna/xhigh audit ctx_e27045d0a8bf accepted/released/acked, no reclaimable workers; ordinal proposal Saved-only/unvalidated. Exact saved session/marker verified; actual managed allowance reset, switch unverified.
+
+Inspect rendered57 full route and all Garden path-phase images; fix observed failures. Then fresh Saved Build-Development71.ps1 archive and actual packaged native-E/objective/nav test. After package ends review stable cross-process natural-drop assignment, preserving production economy and original ammo issue. No public/source publication or early shutdown.
+
+### October22 render57 pass and Development package
+
+Current Source57 full21-wave native-E/rendered route PASS; four actual1080p images inspected: Garden closed/open/closed cues fit and Last Star E hint is visible. Pending-close label has no separate image; final Garden art remains primitive. Same-source56 valid-ID disconnect/AI full route PASS. Current sole engine/build job63721 is fresh Development57 archive20261022-1058. Source/binaries frozen. All owned workers accepted/released/acked; audit proposal remains Saved-only.
+
+Finish Development57 cook/package, inspect real runtime and run Saved Invoke-PackagedIntegrated71.ps1 with isolated profile through full route/objectives/nav. Diagnose real failures without exposing Editor cheat driver in Shipping. Then stable cross-process natural-drop assignment and remaining independent major tickets. Preserve core70/public68; original ammo bug open,100-roll paused. No early shutdown/source publication.
