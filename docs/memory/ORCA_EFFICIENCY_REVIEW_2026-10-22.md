@@ -46,3 +46,9 @@ about56KB/6200words; at least55 identifiable read commands referenced it.
 Detailed report and local measurements:
 `C:/Users/YaYa/Documents/ChatGPT/FPS-1/output/orca-review/2026-10-22/REVIEW.md`.
 No raw transcripts, account identities, credentials or billing data are synced.
+
+## Graph follow-up — October22
+
+Owner chose the most useful time frame for comparing game changes. The three-day scorecard is the primary view: Codex Oct17–19 (72h), game work mainly Oct17–18; Orca Oct20–22 to13:15Pacific (61h15m). Gameplay breadth looks broadly comparable. Orca's documented automated route increased from2 to4 peers and its window adds a 30-minute soak plus72 hash-checked Windows/Linux package artifacts. Codex's window records direct interaction improvements and rescue/refit scenarios. Tests differ, so the graph does not add them into a productivity score. Faster coding is unproven. The previous single12h graphic is supporting context only.
+
+Graph source (local): `C:/Users/YaYa/Documents/ChatGPT/FPS-1/output/orca-review/2026-10-22/game-progress-three-days.png`.
