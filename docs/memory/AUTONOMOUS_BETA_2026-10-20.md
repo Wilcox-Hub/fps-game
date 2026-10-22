@@ -272,3 +272,15 @@ Finish nativeLinux71 source71 compile/cook/archive, freeze provenance and valida
 Ground-harvest Source73/protocol71 technical milestone complete: both actual4-peer full21 cases0delay and100ms/2% pass strict source/module/775input/driver/log validation, same per-case NetGUIDs, one18-round joining-secondary award, capped no-gain and unchanged primary pools. Original normal wrapper missing-victory error preserved; retained host log has exact victory and independent proof passes; delayed wrapper also passes. Combined proof is Garden71/Supply73-Network-Reviewed/result.json. New readiness snapshot2026-10-22-vs71-harvest-controls matches current775inputs; NOT_BETA_READY, no new score. Cooked71 world/harvest/route/three1080p frames and matching nativeLinux71 joins/48Win+33Linux integrity pass at exact frozen scope. No engine/build job live; Docker stopped. One proven Luna/xhigh worker task_8e292b4d01c1/ctx_9f11bd639190/terminal9735dd71 prepares Saved-only cargo-to-arsenal production proposal. +10XP/protocol72 remain provisional/unapplied. Actual managed weekly26%used20:48:57UTC, no five-hour meter. Original ammo issue open,100-roll paused; no source/public rollout or switch/shutdown.
 
 Review SupplyDeliveryProposal baselines/diff before later integration, preserving required seed defense, optional no-softlock closure, server deposit LOS/range, no-gain cargo retention, carrier/patient recovery and legacyv4/no-replay invariants. Prepare focused world/checkpoint acceptance and real-peer delivery checks; keep source73 milestone/candidates frozen and separate. Continue authorized independent work; no early shutdown.
+
+### October22 - cargo delivery integration begins
+
+Source76 test-only/game71 provides clean native E red: defended seed remains3,
+not carried, exactly1ground supply/1seed. Earlier camera and synchronous queued-B
+fixture failures are preserved; Editor74-76 pass7.41/6.31/6.22s. Source77/game72
+now integrates the reviewed11-file cargo draft plus main focus/debounce fixes;
+Editor77 building, no cargo runtime pass. +10XP/source/window provisional.
+Production worker accepted/released; same world helper reused for Saved-only
+real-peer cargo proposal task_d143b7749bce/ctx_d290c1d1e1da. See current cargo
+readiness report; completed Source73 proof remains separately frozen. No source/
+public rollout or original host-ammo fix;100-roll paused, useful work continues.
