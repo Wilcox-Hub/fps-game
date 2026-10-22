@@ -312,3 +312,18 @@ Both helper attempts stopped after usage-limit final turns without worker_done;
 network repair also auth-refresh error. Exact terminals closed via worker-stop,
 Saved report/v1 preserved, no reclaimable resources. Both-account exhaustion is
 not proven; main continues alone, no shutdown or account/source/public switch.
+
+### October22 - actual cargo co-op controls pass
+
+Source86/game72 both actual4-peer full21 cases0delay and100ms2% pass strict
+775input/module/fixture/driver/commandline/profile/ID/raw-log verification.
+One18active-stock reserve/+10provisional XP each, native7E/7B, same per-case
+seed/carrier Pawn and no-gain/replay controls. Authority both carried banks,
+clients actual active slot/A both via B; no simultaneous race/lifecycle/physical
+link/human claim. Earlier84 timed-placement and85 teammate-ray fixture failures
+retained; Windows CRLF abort verified and observer placements corrected. Both
+86 case proofs and exact module/fixtures/driver/validator frozen. Positive cargo
+rendering proposal now next; actual lifecycle/missing seed and cooked pending.
+No original ammo fix,100-roll audit, public/source rollout or shutdown.
+
+Source87 positive cargo render: Editor PASS; full21 FAIL168.63s, two spawned-damage assertions. Four actual1080p images show carried sphere obstructing carrier crosshair; delivered frame clears. Delivery sequence itself completes. Exact failed87 module/source/manifest frozen at Garden72/Source87-FailedRenderedProof; no positive rendered pass. Main diagnosing role expectation/owner visibility, then focused correction. Frozen86 peer proofs remain scoped separately.
