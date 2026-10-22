@@ -64,11 +64,11 @@
     },
     {
       "id": "orca-second-account",
-      "status": "selected-system-default-restart-pending",
+      "status": "selector-process-differ-allowances-reset",
       "priority": "normal",
       "report": "Same-account conversation recovery passed. Two-account Windows A→B→A continuity awaits the second login.",
-      "next_action": "Use existing pane Codex usage/account UI to choose System default and its account-switch Restart, preserving exact session01a14bab-ce64-7530-bb8b-0eae10c928bd. Verify fresh status/usage after restart. Existing user switch authorization applies; do not create a replacement chat.",
-      "known": "Two distinct sign-ins verified. Supported current-pane UI selected System default; fresh meter23%/300minutes used and41%weekly used. Current agent stays on managed until Restart. Exact-session continuity after this switch is pending; no credentials read/copied."
+      "next_action": "Continue useful work on available actual allowance; monitor actual process telemetry. At observed owner2%five-hour threshold, save checkpoint and use supported same-session restart/account flow. Do not infer process account from selector, or exhaustion from a missing meter.",
+      "known": "October22 exact session and marker verified. Actual managed process weekly0%used; five-hour window absent. System default selector is a distinct OAuth account with fresh0%used five-hour/weekly meters. Restart/account switch remains unverified. No credentials accessed."
     },
     {
       "id": "orca-phone-navigation",
