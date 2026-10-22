@@ -284,3 +284,31 @@ Production worker accepted/released; same world helper reused for Saved-only
 real-peer cargo proposal task_d143b7749bce/ctx_d290c1d1e1da. See current cargo
 readiness report; completed Source73 proof remains separately frozen. No source/
 public rollout or original host-ammo fix;100-roll paused, useful work continues.
+
+### October22 - cargo world controls green
+
+Source81/game72 actual-world cargo/disk PASS17.14s,775inputs stable. Native E
+carry/delivery, full-gun retention, bound B retry, one18-round/+10provisional XP
+award, server phase/range/opaque denial, v4 no-replay and safe forfeiture pass.
+Source77/78 exposed Garden getter(0,620) versus actual arsenal(-1100,1500);
+Source79 fixes the location. Source80 corrects measured phase/refit/cube fixture
+faults and passes17.54s;81 extends direct authority and prompt checks. See current
+cargo readiness report for retained reds and exact limits. Rendering, real peers,
+recovery audit and cooked acceptance pending; no original ammo fix or beta claim.
+
+Source82 world PASS17.10s extends the actual machine range-edge case: delivery
+intent/no payment is preserved outside arsenal500cm, with move-closer prompt.
+Source83 world PASS17.42s verifies the actual successful deposit-written slot,
+exact terminal/resources/XP payload and production Continue/E no replay. Scope
+is saved boundary, no mid-wave crash guarantee. Module/three fixtures/manifest
+frozen in Garden72/Source83-FrozenEditorProof. Full rendered missed-supply route
+running. Network v1 concrete review blockers sent for same-worker repair
+ctx_9e4b8cf31ec0; recovery static audit identifies remaining lifecycle/missing-seed
+coverage gaps, no unconditional production defect. No peer/cooked/beta claim.
+
+Source83 full rendered standard missed-supply route PASS170.84s;2actual1080p
+Garden42/43 phase frames inspected, HUD fits. No positive cargo render yet.
+Both helper attempts stopped after usage-limit final turns without worker_done;
+network repair also auth-refresh error. Exact terminals closed via worker-stop,
+Saved report/v1 preserved, no reclaimable resources. Both-account exhaustion is
+not proven; main continues alone, no shutdown or account/source/public switch.

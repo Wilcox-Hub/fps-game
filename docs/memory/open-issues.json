@@ -78,6 +78,15 @@
       "known": "On2026-10-20 the owner replied “Greta I got it!” after the paired-host/session Chat UI guidance. Phone navigation is accepted by owner report; exact connection route and an agent message send were not independently observed.",
       "evidence": "docs/memory/ORCA_MOBILE.md",
       "next_action": "Reopen only if phone access fails again; no further screen-detail question is needed now."
+    },
+    {
+      "id": "garden-cargo-acceptance",
+      "status": "in-progress",
+      "priority": "high",
+      "report": "GitHub issue23 requires limited recoverable arena-specific supplies delivered to the arsenal, optional loss never blocks progression.",
+      "evidence": "docs/beta-readiness/snapshots/2026-10-22-vs72-supply-delivery/report.md",
+      "known": "Local Source83/game72 world cargo/disk PASS17.42s and full rendered missed-supply route PASS170.84s;2actual1080p phase frames inspected. Real Garden arsenal coordinate mismatch reproduced/corrected. Native E carry/delivery, full-gun retention, bound B retry, exact18 stock reserve/+10provisional XP once, direct authority rejection and actual successful claim checkpoint/Continue no-replay at saved boundary pass. +10XP/source/window provisional; no mid-wave crash, original host-ammo fix, real-peer/cooked/final-art/human proof. Both Luna worker attempts stopped after usage failures; preserved network v1 requires main repairs before integration.",
+      "next_action": "Main finish reviewed network fixture/driver blockers, verify separate peers at0/100ms2%, actual down/death/logout/patient lifecycle and missing-active-seed paths, positive cargo rendering and isolated cooked candidates. No source/public rollout authorized."
     }
   ]
 }
