@@ -380,3 +380,18 @@ No actual audio/objective peers/down/transport/checkpoint/3D-combat/normal-route
 cooked/final-art/human acceptance. Halo ID5 is not offered; checkpoint writes
 gated until versioned persistence. Next actual peer recovery, checkpoints and3D
 combat. Original ammo open; frozen72/public68 unchanged; no shutdown while work remains.
+
+### October22 - actual Halo heart peer/down/rejoin controls
+
+113 four actual2-owner0/100ms client/host cases PASS28.92/28.70/29.36/28.77s,
+strict raw identity/source/module/driver/GUID/ownership/native E/11.68m flight/
+warning/physical descent/no-replay review.114 real client down/healthy-host native
+recovery at100ms PASS31.57s; specific downed flag/pawn retained (generic IsDead
+also true atHP0). No frozen114 module claim.116 actual client process loss and
+fresh same-human rejoin at100ms PASS42.50s: same live server/original pawn/heart,
+ownerless drop, restored native approach/pickup/flight/delivery/replay/gravity.
+Independent audit verifies3PIDs. Exact113/116303-file archives/modules/drivers
+frozen; earlier harness failures kept. Production unchanged111;779 inputs.
+Distinct source scopes; no host-crash/disk/3D-combat/audio/normal-route/cooked/
+physical/final-art/human acceptance. Next versioned Halo persistence and3D combat.
+Original ammo open,100-roll paused,72/public68 preserved; no rollout/shutdown.
