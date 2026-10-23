@@ -1,7 +1,7 @@
 {
   "task": "autonomous-beta-tickets",
   "phase": "checkpoint",
-  "outcome": "Source96/game72 local candidate VS72-20261022-dcdb600b9032: matching775-input WindowsDevelopment/Shipping/Linux packages52/34/35artifacts unchanged; cooked world8.36s/full21 rendered cargo155.71s/five inspected frames, Shipping rack22.11s/optics19.39s/74checks6swaps/six selected inspected frames, both backend/config joins and old68 rejection pass.96 actual4peer normal/impaired strict passes separate. Not beta ready. Exact combined record Garden72/Candidate72-result.json. Shipping rack original wrapper failure retained with independent pass (logging compiled out). All owned jobs/Docker stopped; helpers none. Original ammo open,100-roll paused,public68/launcher unchanged. Independent arena work remains; no shutdown.",
+  "outcome": "Source100/game73: Editor build PASS; actual native world PASS20.55s, all six signed directions about307cm from rest, speed caps, custom3 ascent flags and press/release separation, actual swept wall collision and gravity return.776 inputs unchanged. Fixed measured vertical-only zero-speed clamp by recomputing analog strength after composing thrust; removed all tagged99 probes. No normal-ground/network/Halo objective/cooked acceptance. VS72 candidate preserved; original ammo failure open.",
   "topics": [
     "work-policy",
     "network-delivery"
@@ -14,13 +14,13 @@
     "network-host-state"
   ],
   "evidence": [
-    "docs/beta-readiness/snapshots/2026-10-22-vs72-supply-delivery/report.md",
+    "docs/beta-readiness/snapshots/2026-10-22-vs73-halo-prototype/report.md",
     "docs/memory/AUTONOMOUS_BETA_2026-10-20.md"
   ],
   "publication": {
     "memory": "Owner-authorized checkpoint sync.",
     "game": "Local only; no source/game/public rollout."
   },
-  "next_action": "Review canonical Halo Wreckfield#36/#37 and current movement/objective/recovery interfaces; implement smallest six-direction zero-G/marked recoverable heart/gravity-return slice with targeted actual-world/native-input/network/cooked evidence. Preserve exact96 candidate and prior proofs. No final art/owner tuning/publishing claims.",
-  "recorded_at": "2026-10-22T23:53:43.619927+00:00"
+  "next_action": "Add normal-ground and outside-arena controls, then verify actual two-process predicted movement at0 and100ms before Halo heart/arena integration. Drag/braking remain provisional; no score or publication change.",
+  "recorded_at": "2026-10-23T00:32:56.049969+00:00"
 }
