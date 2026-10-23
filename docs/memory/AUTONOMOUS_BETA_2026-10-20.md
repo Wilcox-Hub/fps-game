@@ -366,3 +366,17 @@ No native E, actual arena gravity, transport/down/reconnect, cooked or audio/vis
 acceptance from107.108 now wires native E/GameMode policy/missing-heart recovery;
 its build/test evidence is pending in active work. Halo is not offered in normal
 routes; versioned checkpoint fields and3D combat remain open. Preserve105/72.
+
+### October22 - native Halo heart and rendered cues verified
+
+Source108/game73 actual native E/GameMode/missing-heart/physical-gravity lifecycle
+PASS20.86s,779 inputs. Source111 actual rendered lifecycle PASS28.55s; all4real
+1080p frames viewed. Loose heart clear of corpse, open socket with visible
+delivered heart, marker/warning/Space-up/Ctrl-down/ordinary controls readable,
+carried owner view clear. Held camera after falling partly crops completed heart
+above frame; green completion marker remains visible. Controlled prototype only.
+Exact108/111303-file archives/modules frozen; failed109/110 visual reviews kept.
+No actual audio/objective peers/down/transport/checkpoint/3D-combat/normal-route/
+cooked/final-art/human acceptance. Halo ID5 is not offered; checkpoint writes
+gated until versioned persistence. Next actual peer recovery, checkpoints and3D
+combat. Original ammo open; frozen72/public68 unchanged; no shutdown while work remains.
