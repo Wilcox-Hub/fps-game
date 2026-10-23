@@ -440,3 +440,45 @@ Next: actual Halo3D enemy pursuit/combat/navigation, then route/cooked checks.
 <!-- /CHECKPOINTS122 -->
 
 Frozen122 archive SHA256 2495eb5d5f9f7637b950d04a387c3a5fb55c854e402601f9e9d6a1754c7b98c6; Editor module ea81ec966f3e765f3697790afc4c4214c9f69945e50e9079aa70b60a285e2f95. All owned jobs settled, including6357; main usable. Safe quota03:04:37UTC October23: weekly85% used/10080min, secondary null; no five-hour trigger observed. No shutdown while independent work remains.
+
+<!-- FLIGHT127 -->
+### October22 Halo live enemy flight/cover milestone — exact Source127, game73
+
+The actual one-enemy world control passes31.59s on782 unchanged inputs.
+A separate bounded flight graph uses actual capsule-tested nodes/segments;
+the existing floor graph stays intact. Native character flying supplies real
+acceleration, collision and movement replication. Target choice/perception/range
+use3D distances during flight. Flight braking prevents the observed ceiling coast.
+
+Actual route controls pass for open flight, new partial cover, independently swept
+segments, full-height disconnected cover, removal/recovery, embedded goals and
+invalid/bounded/oversized agents. The same tracked living standard enemy climbs
+from its placed setup, warns before firing, hits/damages the player, stops damaging
+through a full wall, physically reroutes/reacquires after partial cover, then falls
+when the heart's natural warning timer restores gravity. No enemy relocation occurs
+after setup. Gravity phase is deliberately seeded; this is no full natural run.
+
+Raw85-sample review confirms native modes/health/timing and maximum altitude
+1234.79cm above the floor. Its original v1 sampling rejection is retained: the hit
+immediately changes stage, so the last pre-hit sample cannot contain that hit.
+The corrected audit requires the first post-hit sample within250ms, still flying
+at the same nearby position, shot increment/health drop before gravity changes,
+and independently observed>150cm detour. Actual engine acceptance was unchanged.
+
+Same-source regression passes: ground navigation14.35s (two checks), all four
+checkpoint tests22.36s, and native heart lifecycle20.36s. Exact127 archive/module
+are frozen underHalo73/Source127-FrozenCoveredFlightProof. Raw review is at
+Halo73/Combat127/attempt-01/independent-review-result.json.
+
+123 walking/no-climb failure23s and125 flight/gravity failure24.97s remain frozen;
+an old test WaveTimer started wave2/reset its tracked set.126 stabilizes the one
+enemy fixture, requires that enemy's own hit, adds flight braking, and passes24.79s.
+124 lambda type compile failure is retained;125 fixes the type. Production flight
+last changed126;127 expands only the controls.
+
+Limits: standard existing enemy/prototype visuals, controlled standalone/headless
+world. Rendered combat, other roles, actual peer AI, landing/pursuit from wreck tops,
+normal routes and cooked/audio/final-art/human acceptance remain open.122 cold
+checkpoint co-op proof stays a separate frozen scope; no current peer AI claim.
+Next: rendered/landing/role/peer controls before enabling normal Halo routes.
+<!-- /FLIGHT127 -->
