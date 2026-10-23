@@ -541,3 +541,38 @@ physical-device/Internet, balance or human acceptance.129 rendered readability a
 unreproduced/open. No beta approval;69% remains datedOctober4.
 Next: actual Unreal audio-mixer gravity cues, normal-route and cooked acceptance.
 <!-- /PEER_AI133 -->
+
+<!-- AUDIO134_PAUSE137 -->
+### October22 pause checkpoint: mixer audio and normal Halo route
+
+Paused at Caiden's request; resume only when he asks. All owned engine/build/test
+jobs have settled and no reclaimable Orca workers remain. Leave the PC running.
+No account switch or shutdown is requested by this pause.
+
+Source134 actual Unreal master-mixer output passes21.07s with audio explicitly
+on. Its5.44s48kHz stereo WAV passes waveform review:660Hz warning, quiet middle,
+140Hz completion and no clipping. Evidence: Halo73/Audio134/attempt-01/
+waveform-review.json and Source134-FrozenMixerAudioProof. This is engine audio
+output, not speaker listening, mixed-combat, multiplayer or cooked acceptance.
+
+Source135 route properties pass14.53s over5000seeds and four voting patterns.
+The local normal route can now offer Halo(ID5) as the seeded foundry-family
+alternative; new runs do not repeat Brassfall/Halo and legacy histories remain
+supported. This remains an unaccepted local rollout. Source136's fixture type
+compile failure is retained;137 fixes the type and pickup query, build passes.
+
+Source137 actual normal0-Halo-Garden-Finale integration FAILS53.43s before the
+Halo objective: protected arrival epoch2, phase open_gate_sweep, full capsule
+sweep did not clear the actually passable opening. All782 inputs stayed unchanged;
+owned job30167 ended and its Editor closed. Exact failure/logs are retained at
+Halo73/Integrated137/attempt-01. Source/config/tools and Editor module are frozen
+at Halo73/Source137-FrozenArrivalRedAtPause (306 archived files,782 input hashes).
+Do not claim normal Halo heart travel, checkpoint, exit or cooked acceptance.
+
+Resume first by inspecting that arrival sweep's actual blocker/geometry, then
+fix and rerun the normal Halo arrival before continuing the heart and route.
+Earlier frozen133 peer AI,129 rendered readability and122 cold checkpoint scopes
+remain separate passes. No cooked73 candidate exists; preserve frozen VS72 and
+public68/launcher1.0.1. Original ammo issue stays unreproduced/open. Beta approval,
+physical-device/Internet and human-fun acceptance remain open;69% is datedOctober4.
+<!-- /AUDIO134_PAUSE137 -->
