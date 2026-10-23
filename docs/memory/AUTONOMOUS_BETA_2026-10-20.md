@@ -353,3 +353,16 @@ Prior red evidence retained. No Halo heart/arena/rendered/cooked/human acceptanc
 next implement the marked recoverable heart, native E delivery and gravity warning.
 Tuning provisional, original ammo open, exact72 candidate and public68 preserved.
 No new score, public/source rollout, worker retry, account switch or shutdown.
+
+### October22 - Halo heart module world controls pass
+
+Source107/game73,778 inputs: actual world lifecycle PASS20.27s. Production NPC
+death releases the marked heart;3D range, real camera ray and opaque cover guards,
+Pawn-owned carry, cached-controller drop after actual unpossession, naturally
+scheduled bounded recovery, physical anchor delivery, provisional4s warning and
+terminal no replay pass. Exact302-file source/config/tools archive and module
+frozen in Halo73/Source107-FrozenHeartModuleProof; result Heart107-World/attempt-01.
+No native E, actual arena gravity, transport/down/reconnect, cooked or audio/visual
+acceptance from107.108 now wires native E/GameMode policy/missing-heart recovery;
+its build/test evidence is pending in active work. Halo is not offered in normal
+routes; versioned checkpoint fields and3D combat remain open. Preserve105/72.
