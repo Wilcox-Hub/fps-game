@@ -395,3 +395,48 @@ frozen; earlier harness failures kept. Production unchanged111;779 inputs.
 Distinct source scopes; no host-crash/disk/3D-combat/audio/normal-route/cooked/
 physical/final-art/human acceptance. Next versioned Halo persistence and3D combat.
 Original ammo open,100-roll paused,72/public68 preserved; no rollout/shutdown.
+
+<!-- CHECKPOINTS122 -->
+### October22 Halo checkpoint milestone — exact Source122, game73
+
+All four actual standalone checkpoint tests pass in22.94s: existing disk/retirement,
+all-arena world restore, new Halo disk/schema migration and actual Halo Continue.
+The new schema persists bounded heart recovery, warning time and restored gravity.
+A carried heart resumes loose at its last safe recovery position because Continue
+places players at safe arrival positions. No carrier pointer enters a save.
+
+Unreal omits default-valued properties. The immutable legacy default remains4;
+every new store generation explicitly writes5 and verifies that version after disk
+readback. Actual engine checks distinguish omitted-v4 from explicit-v5 bytes.
+The isolated v4 Garden fixture retains carried cargo, ledger, path state, both ammo
+pools, ion and cash; its original generation stays untouched. Unsupported pre-v5
+Halo payloads remain preserved/read-only. Earlier v1–v3 migration paths remain.
+
+Four actual cold host/client cases pass: loose/normal39.75s, restored/normal39.75s,
+loose/100ms41.47s, restored/100ms39.06s. Both original owners stop; byte-identical
+checkpoint copies enter a fresh host profile, followed by fresh same-human client.
+Actual lobby Continue blocks missing teammates and rejects a different squad.
+Strict raw review confirms fresh process/profile identities, both saved slot files
+physically containing top-level version5, one bounded ownerless heart with the
+same authority NetGUID on both replicas, actual0/100ms NetDriver settings, expected
+authority/autonomous roles, correct gravity and saved spent ammo/XP/cash. Both
+owners pass native primary/secondary firing and switching checks.
+
+779 Source/Config/Content inputs and Editor binaries remain unchanged throughout.
+Exact122 source/config/tools/module, runners and validator are frozen under
+Halo73/Source122-FrozenCheckpointProof. Combined review:
+Halo73/Checkpoint122-Network/combined-reviewed-result.json.
+
+117 expectation/shared-fixture reds and119 helper-access compile red are retained.
+118 standalone pass is frozen separately.121 cold controls passed but serialized
+schema default suppression was found in review;122 supersedes that implementation.
+
+Scope: synthesized safe-boundary cold fixtures, plus actual world pickup/delivery,
+carried recovery, natural warning/gravity and no-replay checks. No midwave host
+crash recovery, full Halo combat/3D navigation, normal-route, cooked/audio,
+physical-device/Internet, final-art or human acceptance. The original ammo report
+is still unreproduced/open. The69% estimate remains datedOctober4; beta is not ready.
+Next: actual Halo3D enemy pursuit/combat/navigation, then route/cooked checks.
+<!-- /CHECKPOINTS122 -->
+
+Frozen122 archive SHA256 2495eb5d5f9f7637b950d04a387c3a5fb55c854e402601f9e9d6a1754c7b98c6; Editor module ea81ec966f3e765f3697790afc4c4214c9f69945e50e9079aa70b60a285e2f95. All owned jobs settled, including6357; main usable. Safe quota03:04:37UTC October23: weekly85% used/10080min, secondary null; no five-hour trigger observed. No shutdown while independent work remains.
