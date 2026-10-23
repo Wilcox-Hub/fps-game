@@ -503,3 +503,41 @@ has-NoSound: no actual audio acceptance. No peer AI, other roles, wreck-top land
 normal route, cooked, physical/Internet or human acceptance yet.
 Next: actual wreck-top landing/recovery, role and two-peer live AI controls.
 <!-- /RENDERED129 -->
+
+<!-- PEER_AI133 -->
+### October22 Halo landing, roles and actual peer AI
+
+Source130 real wreck-top landing/pursuit passes16.86s: actual raised physical
+support, native walkoff/descent and same living enemy's own warning/hit/damage.
+No production landing fix was needed. Source131 standard/sprinter/brute native
+flight-cover-gravity group passes73.99s, with slower brute observed longer.
+These scopes are independently frozen; production movement last changed126,
+HUD129. They are not one identical-source aggregate.
+
+Source132 live standard AI with two actual owners passes26.75/27.47s at0/100ms;
+strict raw audit passes, but both runs' damaged owner was the host. Source133
+extends controlled placement to request either host or client as AI target.
+Four actual133 cases pass: host/normal26.87s, client/normal30.38s,
+host/100ms26.84s, client/100ms30.60s. Raw audit confirms distinct process/profile/
+human identities; actual NetDriver0/100ms; authority role3/autonomous owner2/
+simulated enemy1; same live enemy GUID; actual native up/down/intent and release;
+real NPC climb/own warnings/shots/hits and health loss on the requested authority
+and owning process; seeded warning followed by natural gravity and physical NPC/
+both-player descent. Sampled enemy replica errors are0.002?0.006cm in firing poses,
+not a latency/performance acceptance claim. All782inputs/binaries unchanged.
+
+The first host100ms133 attempt ended19.02s on Windows sharing the harness command
+file during replacement. Its result is retained; bounded2s replacement retry
+changes only runner I/O. Normal proofs retain the original runner, impaired proofs
+use the retry variant; both are frozen. No gameplay or acceptance gate changed.
+Exact133 proof: Halo73/Source133-FrozenLivePeerProof. Combined raw review:
+Halo73/LiveAI133-Network/combined-reviewed-result.json.132,131 and130 proofs remain.
+
+Limits: controlled standard AI in two local processes, initial test placements;
+no natural full bearer objective in the live-AI cases, current peer down/reconnect
+combat, rendered peer, normal-route/cooked, actual audio, final species art,
+physical-device/Internet, balance or human acceptance.129 rendered readability and
+122 cold checkpoint co-op remain separate frozen scopes. Original ammo bug stays
+unreproduced/open. No beta approval;69% remains datedOctober4.
+Next: actual Unreal audio-mixer gravity cues, normal-route and cooked acceptance.
+<!-- /PEER_AI133 -->
