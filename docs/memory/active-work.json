@@ -1,7 +1,7 @@
 {
   "task": "autonomous-beta-tickets",
   "phase": "checkpoint",
-  "outcome": "Source127/game73 controlled live Halo flight/cover PASS31.59s; raw85-sample audit corroborates native flight, max altitude1234.79cm, telegraph-before-shot, full-cover no damage, physical partial-cover reacquisition and falling gravity return. Same782-input ground navigation14.35s, four checkpoint tests22.36s and native heart20.36s all PASS. Exact127 frozen; standard enemy only, no peer/render/cooked acceptance.",
+  "outcome": "Source129/game73 actual rendered Halo live flight/cover/gravity PASS42.89s,782 unchanged inputs; all four actual1920x1080 images inspected, controlled prototype readability PASS. Distant idle tube caption removed via nearby600cm/visibility hint gate; active rescue guidance retained.129 frozen;128 visual rejection retained. No audio/final-art/peer/landing/cooked/human acceptance.",
   "topics": [
     "work-policy",
     "network-delivery"
@@ -21,6 +21,6 @@
     "memory": "Owner-authorized checkpoint sync.",
     "game": "Local only; no source/game/public rollout."
   },
-  "next_action": "Sync127 scoped memory evidence, then rendered combat, wreck-top landing/recovery, other-role and actual peer AI checks before normal routes/cooked acceptance. No owned jobs live; no shutdown while independent work remains.",
-  "recorded_at": "2026-10-23T03:46:50.698406+00:00"
+  "next_action": "Actual wreck-top landing/recovery, other-role and live two-peer AI controls before normal routes/cooked acceptance. No owned jobs live;127 ground/checkpoint/native-heart proof remains separate frozen scope. No shutdown while independent work remains.",
+  "recorded_at": "2026-10-23T03:58:19.845873+00:00"
 }

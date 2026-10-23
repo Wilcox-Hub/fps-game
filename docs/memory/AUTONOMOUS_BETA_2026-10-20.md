@@ -482,3 +482,24 @@ normal routes and cooked/audio/final-art/human acceptance remain open.122 cold
 checkpoint co-op proof stays a separate frozen scope; no current peer AI claim.
 Next: rendered/landing/role/peer controls before enabling normal Halo routes.
 <!-- /FLIGHT127 -->
+
+<!-- RENDERED129 -->
+### October22 actual Halo rendered combat ? Source129/game73
+
+Source128 rendered control passes39.57s but all four actual1080p images were
+inspected and rejected for a distant idle rescue-tube caption across the enemy.
+Source129 gates only that idle contextual hint to600cm3D proximity and a real
+visibility ray; occupied rescue guidance retains its prior behavior.
+
+Source129 actual1920x1080 D3D12 run PASS42.89s with782 unchanged inputs. All four
+new images were inspected: clear flying-enemy warning/heart marker, opaque full
+cover with no body/damage, visible partial-cover detour and readable restored-gravity
+objective/marker/ordinary controls. Controlled prototype readability passes.
+Both128 rejection and129 acceptance retain images/hashes and visual-inspection.json
+underHalo73/Combat128-Rendered andCombat129-Rendered. Exact129 is frozen at
+Halo73/Source129-FrozenRenderedFlightProof. Enemy/environment blockouts, checker QA
+cover and auxiliary enemy light are not final Veydr/graveyard art approval. Runner
+has-NoSound: no actual audio acceptance. No peer AI, other roles, wreck-top landing,
+normal route, cooked, physical/Internet or human acceptance yet.
+Next: actual wreck-top landing/recovery, role and two-peer live AI controls.
+<!-- /RENDERED129 -->
