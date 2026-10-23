@@ -337,3 +337,19 @@ Source96/game72,775inputs BOTH actual4peer full21 cases normal/100ms2% strict in
 Source96/game72 candidate VS72-20261022-dcdb600b9032 Windows Development compiled/cooked;775inputs,52recorded artifacts. Actual cooked world/lifecycle/checkpoints PASS8.36s and rendered full21 cargo PASS155.71s; all5actual1080p frames inspected: carrier machine aim clear, observer green orb visible, readable HUD/fullgun/Bretry/18reserve+10provisional XP/ordinary refit. RuntimeSHA d05c6550a57670412d99d54b9b4289483b2c1a441a440c26fbf6ba0a66215ae6;52artifacts unchanged after both checks.96 actual4peer normal/impaired strict passes remain separate,95/88 proofs frozen. No actual remote visuals/transport lifecycle/physical/Internet/final art/balance/human or beta acceptance. NativeLinux/Shipping72 next; original ammo open,100-roll paused,no rollout/shutdown. Next: Build exact matching nativeLinux72 and Shipping72 isolated candidates, record artifacts, verify native/local lobby/auth/old-build rejection, retain human/physical/final-content gates.
 
 Source96/game72 local candidate VS72-20261022-dcdb600b9032: matching775-input WindowsDevelopment/Shipping/Linux packages52/34/35artifacts unchanged; cooked world8.36s/full21 rendered cargo155.71s/five inspected frames, Shipping rack22.11s/optics19.39s/74checks6swaps/six selected inspected frames, both backend/config joins and old68 rejection pass.96 actual4peer normal/impaired strict passes separate. Not beta ready. Exact combined record Garden72/Candidate72-result.json. Shipping rack original wrapper failure retained with independent pass (logging compiled out). All owned jobs/Docker stopped; helpers none. Original ammo open,100-roll paused,public68/launcher unchanged. Independent arena work remains; no shutdown. Next: Review canonical Halo Wreckfield#36/#37 and current movement/objective/recovery interfaces; implement smallest six-direction zero-G/marked recoverable heart/gravity-return slice with targeted actual-world/native-input/network/cooked evidence. Preserve exact96 candidate and prior proofs. No final art/owner tuning/publishing claims.
+
+### October22 - Halo movement controls verified
+
+Source105/game73,776 inputs: actual standalone six native axes, wall, physical
+gravity return and normal walk/jump/crouch PASS22.82s. Two actual local owners,
+normal43.13s and100ms42.94s, each pass all12 owner/authority signed movements,
+vertical predicted flags, speed cap, release/convergence and replicated gravity
+return. Independent raw proof review passes; all owned processes settled.
+Exact300-file source/config/tools archive and module frozen at Halo73/
+Source105-FrozenMovementProof; details in the VS73 snapshot/report and combined
+Movement105-Network review. Vertical analog-speed clamp repaired100; same-frame
+release/press harness cancellation repaired104;105 removes probes/fixture timer.
+Prior red evidence retained. No Halo heart/arena/rendered/cooked/human acceptance;
+next implement the marked recoverable heart, native E delivery and gravity warning.
+Tuning provisional, original ammo open, exact72 candidate and public68 preserved.
+No new score, public/source rollout, worker retry, account switch or shutdown.
