@@ -576,3 +576,74 @@ remain separate passes. No cooked73 candidate exists; preserve frozen VS72 and
 public68/launcher1.0.1. Original ammo issue stays unreproduced/open. Beta approval,
 physical-device/Internet and human-fun acceptance remain open;69% is datedOctober4.
 <!-- /AUDIO134_PAUSE137 -->
+
+<!-- RELEASE73_PROGRESS_OCT25 -->
+### October25 resumed: finish and publish the launcher update
+
+Caiden explicitly requested finishing and publishing through the launcher,
+ending the October22 pause. Publication is authorized after validation; no
+new paid service,100-roll audit or whole-game beta approval is implied.
+
+Source138 repeats the exact Halo entry failure97.31s and identifies the southern
+hull behind the open gate.139 creates the matching protected doorway; native
+entry passes, then a first-bearer-before-immediate-kill guard fails54.96s.140
+marks the live spawned batch synchronously. Pickup passes, but the fixture's
+straight ascent meets the real enemy-bay ceiling93.88s.141 changes only that
+fixture to follow a capsule-clear native flight path out, then Space ascent,
+Ctrl descent and E delivery. All failures remain preserved.
+
+Exact Source141/game73 normal0-Halo-Garden-Finale21-encounter route passes170.31s,
+including actual bearer/pickup/native thrust/warning/gravity/restored checkpoint,
+Garden interactions, exit/victory and no duplicate terminal rewards. Current
+checkpoint group22.50s, native movement22.40s and rendered live combat42.15s pass.
+All four actual1920x1080 images were inspected; controlled prototype readability
+passes. Final species/environment art and human balance/fun remain open.
+
+Four current two-owner live AI cases pass26.72/30.19/27.34/30.08s: host/client
+intended targets at0/100ms, strict raw authority/ownership/health/native intent/
+gravity audit, unchanged inputs/module. All12 actual two-owner Gale/Phasma ammo
+cases pass with build-tagged authoritative conservation receipts: both owners,
+both slots, empty pools, reload overlap and swapping after collection. These
+controls do not reproduce or close the original intermittent ammo issue.
+
+782 current inputs and exact141 source/config/tools/module are frozen at
+G:/IRON-SUN-Work/AutonomousBeta/20261020/Halo73/Source141-FrozenNormalRouteProof.
+Dated scope: docs/beta-readiness/snapshots/2026-10-25-vs73-launcher-release/.
+Cooked/client/server builds and launcher publication are pending at this entry.
+Preserve frozenVS72 and the liveVS68 release until validated promotion/rollback.
+The unchanged launcher1.0.1/setup pass their existing exact delivery-policy gate.
+No beta approval or new score:69% remains datedOctober4.
+<!-- /RELEASE73_PROGRESS_OCT25 -->
+
+<!-- RELEASE73_PUBLISHED_OCT25 -->
+### October25 VS73 published and installed
+
+[Signed VS73 release](https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs73-20261025-014825-010-launcher-1.0.1-setup-1) is live through unchanged launcher1.0.1.
+Game version20261025-014825-010, final Source142/protocol73. Final Windows
+Development51/Shipping34/nativeLinux34 artifacts share782 frozen inputs.142 is
+only the reviewed equivalent HUD iterator correction after Linux Clang rejected
+an unconditional first-actor loop.141 peer/ammo proofs retain their exact scope.
+
+Final cooked normal Halo21-encounter rendered route PASS166.59s; all four cooked
+checkpoint controls12.91s; Shipping rack/refit20.63s and74optics/six swaps19.41s.
+All six final cooked1080p images and six selected Shipping images inspected.
+Actual matching Shipping/nativeServer LAN and public-relay lobby joins and wrong
+invite rejection pass. First metadata BOM failure restored68 automatically;
+verified same-candidate retry preserves the relay/private save backup. No physical
+friend-PC or human combat acceptance is claimed. Native current release is
+50a273c7d26faa80; previousbf3895eaed4cb808 remains available for rollback.
+
+The existing protected signing identity was recovered from prior app storage
+and matched against the embedded launcher key; no identity rotation/key material
+publication. Signed immutable release has nine verified assets; setup feed was
+published by the standard publisher. Actual installed production launcher reports
+UPDATED then CURRENT; all34 current payload files and33 previous rollback files
+verify;0 local saves observed. No replacement launcher installation is required.
+
+Caiden can reopen the launcher to play; every co-op PC must update to73. The
+original intermittent ammo issue remains unreproduced/open despite12 traced
+owner/gun/reload/swap controls. Final art, balance/fun, normal physical-device/
+Internet combat and remaining beta work stay open. NOT_BETA_READY;69% is only
+the datedOctober4 estimate. All owned jobs settled; PC remains on for testing.
+Dated details: docs/beta-readiness/snapshots/2026-10-25-vs73-launcher-release/.
+<!-- /RELEASE73_PUBLISHED_OCT25 -->
