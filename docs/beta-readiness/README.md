@@ -1,4 +1,61 @@
+<!-- RELEASE73_OVERVIEW -->
+October25 VS73 launcher release: Published VS73/20261025-014825-010 through unchanged launcher1.0.1; final Source142/game73 matching Windows/nativeLinux builds from782 frozen inputs. Final cooked21-encounter Halo route166.59s, checkpoints12.91s, Shipping rack/refit20.63s and optics19.41s PASS; final captures inspected. Exact Shipping native LAN/relay/invite controls PASS. Actual installed launcher UPDATED then CURRENT, all34 new payload and33 rollback files verified;0 saves observed. No beta/human acceptance; original ammo issue unreproduced/open.
+[Current evidence](snapshots/2026-10-25-vs73-launcher-release/report.md). NOT_BETA_READY;69% is datedOctober4.
+<!-- /RELEASE73_OVERVIEW -->
+
+<!-- VS73_HALO -->
+October22 **Halo prototype in progress; NOT_BETA_READY**. PAUSED at Caiden request. Source137/game73 build PASS; actual normal Halo route integration FAIL53.43s at protected arrival epoch2: full capsule sweep did not clear actually passable opening.782 inputs unchanged, owned Editor/test job30167 settled.135 route properties PASS14.53s;134 actual mixer WAV and133 four live-peer cases remain frozen passes. Normal Halo route is local work in progress, not accepted or packaged.
+Exact VS72 local technical candidate remains frozen;69% datedOctober4 unchanged.
+[Current local scope](snapshots/2026-10-22-vs73-halo-prototype/report.md).
+
+<!-- VS72_CARGO -->
+October22 **VS72 local technical test candidate; NOT_BETA_READY**.
+Source96/game72 matching775-input WindowsDevelopment/Shipping/Linux packages,
+52/34/35artifact sets/hashes unchanged. Cooked world/lifecycle8.36s and full21
+rendered cargo155.71s pass; five actual1080p images inspected. Shipping rack
+independent review22.11s and optics19.39s/74checks/6swaps pass; six selected
+actual frames inspected. Original rack wrapper false negative retained. Both
+client configurations join nativeLinux/WindowsEditor local lobbies, old68 rejected.
+96 actual4peer full21 normal/100ms2% strict passes and95 world lifecycle proof
+retain their scopes. Original ammo, real transport cargo recovery/remote visuals,
+physical/Internet/final content/art/balance/human acceptance open. No score/rollout change.
+[Current local evidence](snapshots/2026-10-22-vs72-supply-delivery/report.md).
+
+<!-- VS71_HARVEST -->
+October22 **Garden ground-harvest technical controls pass; NOT_BETA_READY**.
+Exact cooked71 harvest/world/checkpoints and full rendered route pass; three
+1080p cooked frames inspected,48Windows/33Linux artifacts unchanged. Matching
+nativeLinux71 joins and real four-peer full21 routes at0delay and100ms/2% pass
+within scope: one stock-gun18-round award, no-gain preservation and one claim.
+Original normal wrapper failure is retained alongside strict independent proof;
+no simultaneous eligible-collector race or physical-network acceptance claimed.
+Current Source73 adds only Editor test instrumentation to frozen cooked71.
+Cargo-to-arsenal/XP is a Saved-only provisional proposal. Original ammo loss,
+final species art, balance, normal two-PC and human acceptance remain open.
+775inputs; Core70/Shipping65/public68 and dated69% preserved.
+[Evidence](snapshots/2026-10-22-vs71-harvest-controls/report.md).
+<!-- /VS71_HARVEST -->
+
+<!-- VS70_AUTONOMOUS -->
+October21 **VS70 local technical candidate**: matching771-input Windows/Linux
+packages,37/35artifact integrity, exact Shipping solo rack/refit/74optics and
+both-backend matching-client/old-build lobby checks PASS. Full1800.009-second
+rendered Editor soak PASS; controlled health topups/no ammo topups, not balance
+or human proof. Natural300s and corrected-camera120s remain inconclusive; the latter
+observes five awards across three owner/gun cases. Current source71 Editor hint/ready
+captures pass, while frozen70 retains its old capture-timing limitation.
+Physical devices, final content and human acceptance remain open. Garden is locally applied,
+original ammo failure open,100-roll paused,dated69% unchanged,NOT_BETA_READY.
+[Candidate](snapshots/2026-10-21-vs70-core-candidate/report.md).
+<!-- /VS70_AUTONOMOUS -->
+
+<!-- VS69_CANDIDATE -->
+October20 localVS69 candidate: **LOCAL_TECHNICAL_CANDIDATE**.24 traced ammo cases, six uninterrupted encounters, refit and mutual rescue pass; exact Shipping1080p controls/refit and74 optics assertions pass. Packages share763 source/config/content inputs. Per-backend lobby/auth/version results, pending gates and exact identities are in the [candidate report](snapshots/2026-10-20-vs69-candidate/report.md). Public remainsVS68; original ammo failure stays open; no beta approval or change to the dated69% estimate.
+<!-- /VS69_CANDIDATE -->
+
 October18 standard interaction: **E to interact; hold E to pick up a downed teammate**. Tap/range cancellation, no drop on release, fresh-press deposit/arsenal, nine refit cases, three supply/control regressions, continuous two-player mutual rescue and1080p/4K progress captures pass. Editor/Shipping compile pass; public launcher/server remain VS68, dated69%/NOT_BETA_READY unchanged. See [interaction report](snapshots/2026-10-18-standard-interact/report.md).
+
+October20: [host ammo scenarios](snapshots/2026-10-20-host-ammo-scenarios/report.md) pass 12/12 actual two-process owner/Gale/Phasma pickup, reload and swap cases, plus one existing rescue recipe. The original late-arena normal-play failure remains unreproduced; no production ammo fix or game release. Editor/NullRHI scope only. Current game inputs: 760. The October4 69% planning estimate and NOT_BETA_READY verdict are unchanged.
 
 October18 walk-up refit: **aim at the machine, see price/general hint, press E to insert and collect**. Nine arena/slot cases, real joining-owner/shared-lock collection, existing physical-resource regression, six1080p/4K frames and Editor/Shipping compile pass. Local candidate only; launcher/server stay VS68. Whole-game69% remains dated, NOT_BETA_READY. See [refit report](snapshots/2026-10-18-walk-up-refit/report.md).
 
@@ -8,9 +65,17 @@ October17 landing seam: **local source/Editor repair** removes the top-stair che
 
 October16 VS68 publication: **game20261016-213325-765 is live through launcher1.0.1**, with a matching Lenovo native server. Exact Shipping1080p rack/fire/refit, two-client native LAN/relay lobby/auth and public production updater/current plus32 file hashes pass. Reopen the launcher and update every co-op PC. The owner paused the isolated100-roll audit; it remains unfinished. Whole-game NOT_BETA_READY and the dated69% estimate are unchanged. See [release record](snapshots/2026-10-16-vs68-launcher-publication/report.md).
 
-# IRON SUN beta readiness
+October 16 wildcard evolution: **local protocol-68 generation, fixed paths, shared five-second refit and solar blue magma are implemented.** Focused actual mechanism/resource/Continue checks, two loopback peers and exact Shipping lobby/rack/refit controls at1080p/4K pass. Fifty-four initial Blender modules and1x–4x optics are imported. Human balance, normal two-PC, production art and performance remain open. Public launcher/server stayVS66;69% remains the October4 estimate, NOT_BETA_READY. [Report](snapshots/2026-10-16-wildcard-evolution/report.md).
 
-October 15 VS67: **the approved colosseum arrival, starter arsenal and mid-round arsenal direction is implemented in an unpublished prototype.** Focused arrival, checkpoint and field-drop regressions pass; the official Windows Shipping packaging script and package selector pass. The controlled two-client fixture reaches the open gate but simulated movement is zero, so network gate crossing/encounter start remain inconclusive. Packaged runtime launch occurred, while the bounded smoke shutdown did not complete. Four earlier 1080p Editor views were inspected; the entrance remains blockout geometry. Public game feed/native server remain VS66. Human/physical two-PC acceptance remains open. The 69% low-confidence gameplay estimate stays dated October 4, NOT_BETA_READY. See [VS67](snapshots/2026-10-15-vs67-arrival/report.md).
+October16 weapon optics: **Phasma1× holo and Gale2× scope, with socket-aligned ADS and clear reticles.** Final Editor1080p/4K and exact Shipping1080p pass74 controlled assertions each, including both-gun fire and six aimed swaps. Current rack/arrival/equipment regressions pass. Local candidate; launcher/server remainVS66. Human feel/network ADS are open; the dated69% estimate and NOT_BETA_READY verdict stay unchanged. [Report](snapshots/2026-10-16-weapon-optics/report.md).
+
+October 16 rack candidate: **compact authored station, distinct matching display/held guns, no observed wall intersections and corrected live slot replacement.** Final Editor arrival/clearance/27-cycle equipment checks, 1080p/1440p/4K, two local network peers and exact Shipping solo entry/pickup/gate/fire pass within their recorded scopes. Physical two-PC and owner art/feel approval remain open. Local candidate only; public launcher/server stay VS66. Whole-game69% remains the dated October4 estimate, NOT_BETA_READY. [Report](snapshots/2026-10-16-rack-beta-candidate/report.md).
+
+October 16 rack polish: **approach the rack, aim, inspect and click while retaining movement and camera control.** Shared slot rules, actual 1/2 switching, stable UI, owning-client receipts and replicated target state are implemented locally. Current Editor build, 1080p production/rack checks, rendered 1440p/4K rack checks and a separate local joining client pass within their recorded scope. Art, hardware feel, physical two-PC, Shipping delivery and ADS acceptance remain open. The October 4 estimate stays 69%, NOT_BETA_READY. [Latest report](snapshots/2026-10-16-rack-polish/report.md). Metadata remains local; the previous GitHub integration write block is unresolved.
+
+October 15 VS67: **two weapon slots now fill in order and later rack picks replace the held slot; ADS uses a clearer 20-degree zoom.** The Editor build and NullRHI arrival-flow test pass, including pre-wave slot switching. The 1080p ADS fixture stalls at stage 0 before producing images, so zoom remains visually unverified; no second-PC/human acceptance or beta credit. The 69% estimate remains dated October 4, NOT_BETA_READY. See [VS67](snapshots/2026-10-15-vs67-slot-followup/report.md).
+
+# IRON SUN beta readiness
 
 October 14 VS66: **grounded ammo drops and enclosed desert gates are published through the launcher.** Real crouched brute-drop failure reproduced and repaired; 8 role/stance cases and 71 boundary/ceiling rays pass. Current four-layout/party arrivals, actual walk-out, four inspected1080p views, builds, exact Shipping/native setup/firing and production LAN/relay lobby/auth pass. The owner install is updated through the production launcher, with current/rollback file hashes verified. 629 inputs; human acceptance remains open, 69% stays the October4 estimate, NOT_BETA_READY. See [VS66](snapshots/2026-10-14-vs66-drops-and-seams/report.md).
 
@@ -131,3 +196,10 @@ The current Editor dedicated server and two local clients pass both-gun LMB stab
 ## VS60 approved lean and gun-owned Ion
 
 Q/E lean with hold/toggle Settings, V melee, Z charged Ion, Heavy Target Training and schema 2 migration are implemented. Final controlled Editor/owned-network checks, matching Windows/native builds, owner 32-file update verification and actual installed Shipping LAN/Playit native lobby holds pass. Four 1080p Editor frames inspected. Human combat/lean/Ion balance, different-Wi-Fi, physical two-PC, native saved-run restart and fun remain open. Public game ZIP refreshed; launcher review hold unchanged. 607 current inputs; earlier evidence remains dated/scoped. 69% is the October 4 planning estimate, NOT_BETA_READY. See [VS60](snapshots/2026-10-12-vs60-lean-ion/report.md).
+
+
+## VS67 starter rack and slot behavior
+
+Starter guns follow the intended Apex-style slot order: first pick fills slot 1, second fills slot 2, and later picks replace the held slot. A local Unreal Editor compile and controlled arrival-flow automation passed, including center-ray focus and held-slot replacement. The separate ADS render fixture still stalls before capture, so sight-picture rendering and human rack usability remain open. The 69% October 4 gameplay estimate is unchanged and beta approval remains false. See [VS67](snapshots/2026-10-15-vs67-slot-followup/report.md).
+
+GitHub publication note: the existing VS67 arrival record is unchanged. The slot follow-up is stored locally because the GitHub integration returned HTTP 403 for the authorized write; publish it when repository write access is available.

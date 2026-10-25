@@ -1,0 +1,130 @@
+{
+  "recorded_utc": "2026-10-25T08:26:29.594775+00:00",
+  "source_label": 141,
+  "status": "PASS_CONTROLLED_PROTOTYPE_READABILITY",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "captures": [
+    {
+      "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Editor141-RenderedCombat\\isolated-profile\\Saved\\VisualCaptures\\HaloCombat-2260618403369\\01-flight-warning.png",
+      "sha256": "d3ee93fc257f53c48e6cca34e7c5210c0152a2f65e474e64ac6f8ffc1aa6116b"
+    },
+    {
+      "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Editor141-RenderedCombat\\isolated-profile\\Saved\\VisualCaptures\\HaloCombat-2260618403369\\02-full-cover.png",
+      "sha256": "c11ff07c18df55fa99126312a355db6d472020e2f5a3f4ace9ac34cc38575b03"
+    },
+    {
+      "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Editor141-RenderedCombat\\isolated-profile\\Saved\\VisualCaptures\\HaloCombat-2260618403369\\03-partial-cover-detour.png",
+      "sha256": "1e7b10f7f31d8b973104d9df71a0d395f561d6e485c34317f09712ec34307644"
+    },
+    {
+      "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Editor141-RenderedCombat\\isolated-profile\\Saved\\VisualCaptures\\HaloCombat-2260618403369\\04-gravity-return.png",
+      "sha256": "c6812b10f62f4600e0b122f8b20c78adbd53d613de445fb3b67f22f986577d48"
+    }
+  ],
+  "findings": [
+    "Actual flight warning, heart-bearer marker and HUD readable.",
+    "Full opaque test wall hides enemy body; marker remains visible.",
+    "Partial-cover edge exposes reacquiring enemy; no stray rescue-tube caption.",
+    "Restored gravity label and ordinary controls readable."
+  ],
+  "limits": "Actual four rendered standalone frames inspected; prototype meshes/auxiliary light/test wall, no final species/environment art, peer rendering, package or human feel acceptance.",
+  "cooked_normal_route": {
+    "status": "PASS_CONTROLLED_PROTOTYPE_UI_AND_FLOW",
+    "recorded_utc": "2026-10-25T08:40:35.943775+00:00",
+    "frames": [
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked141-HaloRoute\\isolated-profile\\Saved\\VisualCaptures\\Run-2267174049796\\Arena0.png",
+        "sha256": "f96dad2eb6a092e847808fc9f0ab0fddb62c818f044d2acc8870503a8f6a2932"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked141-HaloRoute\\isolated-profile\\Saved\\VisualCaptures\\Run-2267174049796\\Arena3.png",
+        "sha256": "a31aa666148ad0ce6e42e89951c24862786ff5aa224e397d6038100adb119932"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked141-HaloRoute\\isolated-profile\\Saved\\VisualCaptures\\Run-2267174049796\\Arena4.png",
+        "sha256": "88dad028dc3eb553432d3a321180fb1b6d51ce098b16c66d5117c4e12e7b514c"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked141-HaloRoute\\isolated-profile\\Saved\\VisualCaptures\\Run-2267174049796\\Arena42.png",
+        "sha256": "106070e2a307a7c36744baaee68b47b6faa6a52ef260eeef8cf23891b809f00a"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked141-HaloRoute\\isolated-profile\\Saved\\VisualCaptures\\Run-2267174049796\\Arena43.png",
+        "sha256": "03bbc9f481a60575aec43eb8baef4e16ab5996b13eb656d6c640c7006e120a80"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked141-HaloRoute\\isolated-profile\\Saved\\VisualCaptures\\Run-2267174049796\\Arena5.png",
+        "sha256": "d04150b9580865f445b028a1b1b0d005acc1f55ab01578b6c4c0a8194dff66e0"
+      }
+    ],
+    "findings": [
+      "Actual six1080p cooked frames inspected: first arena, initial Halo, Garden defend/open harvest/closed missed offer, finale.",
+      "HUD/objective and interaction directions readable in the retained fixture views.",
+      "Prototype meshes/materials remain provisional; no final art or human acceptance."
+    ],
+    "scope": "Exact cooked Development141 route; controlled combat with native objective input. Not Shipping combat, physical-device or human-fun acceptance."
+  },
+  "final142": {
+    "recorded_utc": "2026-10-25T09:07:25.762035+00:00",
+    "status": "PASS_CONTROLLED_PROTOTYPE_READABILITY",
+    "source_label": 142,
+    "inspected": [
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked142-HaloRoute\\isolated-profile\\Saved\\VisualCaptures\\Run-2278332332492\\Arena0.png",
+        "sha256": "5e1dcc45a92cccaf7bd8ea31844ec32347c63ae88c48717e97b52f142ef3a113"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked142-HaloRoute\\isolated-profile\\Saved\\VisualCaptures\\Run-2278332332492\\Arena3.png",
+        "sha256": "6b2c49ce16415db49d67c7d806c06c2c11a61c470d26225675daee1360a7ee0e"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked142-HaloRoute\\isolated-profile\\Saved\\VisualCaptures\\Run-2278332332492\\Arena4.png",
+        "sha256": "30bfff8948be1ccad16a7ec19ff4ad675a9fb343237501b78807ef1fca0fb7b3"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked142-HaloRoute\\isolated-profile\\Saved\\VisualCaptures\\Run-2278332332492\\Arena42.png",
+        "sha256": "48d4c8d9b62a0a17d173652745861532760a3c160901107e1a171ff9a2fdc68b"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked142-HaloRoute\\isolated-profile\\Saved\\VisualCaptures\\Run-2278332332492\\Arena43.png",
+        "sha256": "bfee152fa51e3ba98e969156775f07e01c57fe56736f396b95283e888da5f678"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked142-HaloRoute\\isolated-profile\\Saved\\VisualCaptures\\Run-2278332332492\\Arena5.png",
+        "sha256": "3b92b31504c96ec5c9a3d2475bdfced9b880e4454d4901c05a6dd63788db5a45"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Shipping142-Rack\\03-gale-fired.png",
+        "sha256": "6fc3660f717005b1030e291f06fc9d80a07c65efcb88c106b5489ef1bb4b6a32"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Shipping142-Rack\\05-refit-hint.png",
+        "sha256": "24687bf4b10a930096d9ab91af957645712e2ee57f4f7e890d66d5a79e42e889"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Shipping142-Rack\\06-refit-ready.png",
+        "sha256": "a975b3a40d3ac20c813fb833a4053cf9975dd494400e1a9efab78ef17eb4668c"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Shipping142-Rack\\07-refit-collected.png",
+        "sha256": "97e67f63234cb7184decd658db95e7084e1ca9604f32a9ad30d1cd35dfeb6612"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Shipping142-Optics\\02-gale-2x.png",
+        "sha256": "59b3a812101cbbc9b64a35db1e6237006acb2f1a02a4f9550f56bce2630bb2ca"
+      },
+      {
+        "path": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Shipping142-Optics\\03-phasma-holo.png",
+        "sha256": "557b8a23740a53274ba4d14ecd73e73d016631d248059eff016a9d500db1a004"
+      }
+    ],
+    "findings": [
+      "All six final cooked1080p route frames inspected; Halo objective/marker/zero-G controls and Garden defense/harvest/missed offer readable.",
+      "Six selected actual Shipping1080p frames inspected: firing, priced E refit hint, ready/collection, Gale2x and Phasma holo.",
+      "Prototype visuals and human balance/fun remain unaccepted."
+    ]
+  }
+}

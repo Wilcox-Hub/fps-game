@@ -1,0 +1,10 @@
+{
+  "source_label": 142,
+  "previous_source_label": 141,
+  "input_count": 782,
+  "changed_inputs": [
+    "Source/TP_FirstPerson/RidgefireHUD.cpp"
+  ],
+  "review": "The only change is replacing an unconditional first-actor loop/break with initialized iterator/if. Exact remaining HUD text was compared. No gameplay, schema, network-layout, audio, config or asset changes.141 gameplay/peer/ammo proofs remain labeled141; final142 package/visual/compatibility checks are separate.",
+  "frozen142_proof_sha256": "bf6d7214013238c7a519f299af532189689d4ea21781433cb21bf6d7626fd435"
+}

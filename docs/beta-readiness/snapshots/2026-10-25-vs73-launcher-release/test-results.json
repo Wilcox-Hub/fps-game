@@ -1,0 +1,229 @@
+{
+  "recorded_utc": "2026-10-25T09:23:02.214154+00:00",
+  "protocol": 73,
+  "source_label": 142,
+  "checks": {
+    "normal_halo_route138": {
+      "passed": false,
+      "seconds": 97.31,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261020\\Halo73\\Integrated138\\attempt-01\\result.json",
+      "inputs_unchanged": true,
+      "errors": [
+        "[2026.10.25-08.12.39:095][610]LogAutomationController: Error: Test Completed. Result={Fail} Name={HaloIntegratedRoute} Path={Ridgefire.Run.HaloIntegratedRoute}",
+        "[2026.10.25-08.12.39:098][611]LogAutomationController: Error: LogTemp: RIDGEFIRE RUN ARRIVAL_FAIL peer=standalone epoch=2 initial=0 phase=open_gate_sweep reason=full capsule sweep blocked: actor=RidgefireArenaDressing_1 component=ArenaCollision_1_8 impact=V(X=-980.00, Y=-4290.00, Z=162.61) pawn=V(X=-980.00, Y=-5270.00, Z=100.61) gate=V(X=-800.00, Y=-4150.00, Z=2.46) penetration=0 [log] ",
+        "[2026.10.25-08.12.39:098][611]LogAutomationController: Error: protected arrival open_gate_sweep failed: full capsule sweep blocked: actor=RidgefireArenaDressing_1 component=ArenaCollision_1_8 impact=V(X=-980.00, Y=-4290.00, Z=162.61) pawn=V(X=-980.00, Y=-5270.00, Z=100.61) gate=V(X=-800.00, Y=-4150.00, Z=2.46) penetration=0 [C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Source\\TP_FirstPerson\\Tests\\RidgefireRunTests.cpp(554)]"
+      ]
+    },
+    "normal_halo_route139": {
+      "passed": false,
+      "seconds": 54.96,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261020\\Halo73\\Integrated139\\attempt-01\\result.json",
+      "inputs_unchanged": true,
+      "errors": [
+        "[2026.10.25-08.14.33:517][629]LogAutomationController: Error: Test Completed. Result={Fail} Name={HaloIntegratedRoute} Path={Ridgefire.Run.HaloIntegratedRoute}",
+        "[2026.10.25-08.14.33:520][630]LogAutomationController: Error: Expected 'first actual deployed enemy is marked before immediate lethal damage' to be true. [C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Source\\TP_FirstPerson\\Tests\\RidgefireRunTests.cpp(196)]"
+      ]
+    },
+    "normal_halo_route140": {
+      "passed": false,
+      "seconds": 93.88,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261020\\Halo73\\Integrated140\\attempt-01\\result.json",
+      "inputs_unchanged": true,
+      "errors": [
+        "[2026.10.25-08.17.27:161][ 33]LogAutomationController: Error: Test Completed. Result={Fail} Name={HaloIntegratedRoute} Path={Ridgefire.Run.HaloIntegratedRoute}",
+        "[2026.10.25-08.17.27:164][ 34]LogAutomationController: Error: normal Halo native heart travel timed out stage1 pos=V(X=-1534.80, Y=-3605.08, Z=416.36) [C:\\Users\\YaYa\\Documents\\Codex\\2026-09-22\\connect-this-github-repo-to-a\\unreal\\Ridgefire\\Source\\TP_FirstPerson\\Tests\\RidgefireRunTests.cpp(204)]"
+      ]
+    },
+    "normal_halo_route141": {
+      "passed": true,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261020\\Halo73\\Integrated141\\attempt-01\\result.json",
+      "seconds": 170.31,
+      "input_count": 782,
+      "inputs_unchanged": true,
+      "errors": []
+    },
+    "Editor141-Checkpoints": {
+      "passed": true,
+      "seconds": 22.5,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Editor141-Checkpoints\\result.json",
+      "inputs_unchanged": true
+    },
+    "Editor141-Movement": {
+      "passed": true,
+      "seconds": 22.4,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Editor141-Movement\\result.json",
+      "inputs_unchanged": true
+    },
+    "Editor141-RenderedCombat": {
+      "passed": true,
+      "seconds": 42.15,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Editor141-RenderedCombat\\result.json",
+      "inputs_unchanged": true
+    },
+    "current_two_owner_live_AI141": {
+      "passed": true,
+      "cases": 4,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261020\\Halo73\\Release141-LiveAI\\combined-reviewed-result.json",
+      "seconds": [
+        26.72,
+        30.19,
+        27.34,
+        30.08
+      ],
+      "source_label": 141
+    },
+    "ammo141_two_owner_matrix": {
+      "passed": true,
+      "cases": 12,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Ammo141-Matrix\\results.json",
+      "inputs_unchanged": true,
+      "binaries_unchanged": true,
+      "scope": "Two actual local owners, Gale/Phasma both slots, depleted pools/reload overlap/swap after pickup, strict opt-in authoritative receipt conservation. Original intermittent report still unreproduced."
+    },
+    "Cooked141-HaloRoute": {
+      "passed": true,
+      "seconds": 169.24,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked141-HaloRoute\\result.json",
+      "runtime_sha256": "718154ecb6867587b2110be3efd4107604856287ef9319b5f48656ac90ec0b8d",
+      "input_count": 782,
+      "inputs_unchanged": true
+    },
+    "Cooked141-Checkpoints": {
+      "passed": true,
+      "seconds": 12.93,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked141-Checkpoints\\result.json",
+      "runtime_sha256": "718154ecb6867587b2110be3efd4107604856287ef9319b5f48656ac90ec0b8d",
+      "input_count": 782,
+      "inputs_unchanged": true
+    },
+    "cooked_halo_route141": {
+      "passed": true,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked141-HaloRoute\\result.json",
+      "seconds": 169.24,
+      "input_count": 782,
+      "inputs_unchanged": true,
+      "errors": []
+    },
+    "linux141_compile_red": {
+      "passed": false,
+      "log": "unreal/Ridgefire/Saved/AutonomousBeta/20261020/linux-build73.log",
+      "reason": "Clang unreachable loop increment in first-heart HUD loop; corrected equivalently in142 without disabling warnings."
+    },
+    "linux142_native_build": {
+      "passed": true,
+      "log": "unreal/Ridgefire/Saved/AutonomousBeta/20261020/linux-build73-source142-attempt02.log",
+      "source_label": 142,
+      "proof": "G:/IRON-SUN-Work/AutonomousBeta/20261025/Release73/linux-artifacts.json"
+    },
+    "Cooked142-HaloRoute": {
+      "passed": true,
+      "source_label": 142,
+      "seconds": 166.59,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked142-HaloRoute\\result.json",
+      "runtime_sha256": "cac49b4e333ec3533e890b4c30c5becc2012885a300b5c7562db5bb45e76071f",
+      "inputs_unchanged": true
+    },
+    "Cooked142-Checkpoints": {
+      "passed": true,
+      "source_label": 142,
+      "seconds": 12.91,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Cooked142-Checkpoints\\result.json",
+      "runtime_sha256": "cac49b4e333ec3533e890b4c30c5becc2012885a300b5c7562db5bb45e76071f",
+      "inputs_unchanged": true
+    },
+    "Shipping142-Rack": {
+      "passed": true,
+      "source_label": 142,
+      "seconds": 20.63,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Shipping142-Rack\\driver-result.json",
+      "runtime_sha256": "ae75667d95c06996e4867551b475bdb2dd4db446bc6df11cbaa300acfa8fff28",
+      "inputs_unchanged": true
+    },
+    "Shipping142-Optics": {
+      "passed": true,
+      "source_label": 142,
+      "seconds": 19.41,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Shipping142-Optics\\driver-result.json",
+      "runtime_sha256": "ae75667d95c06996e4867551b475bdb2dd4db446bc6df11cbaa300acfa8fff28",
+      "inputs_unchanged": true
+    },
+    "native142_deployment": {
+      "passed": true,
+      "protocol": 73,
+      "release": "50a273c7d26faa80",
+      "private_backup_kept": true,
+      "relay_unchanged": true,
+      "save_files_preserved": 0
+    },
+    "exact_shipping142_native_joins": {
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "protocol": 73,
+          "address": "192.168.4.36:7777",
+          "wrong_invite_control": false,
+          "time_utc": "2026-10-25T09:02:34.486158+00:00",
+          "clients": 2,
+          "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+          "lobby_join_accepted": true,
+          "held_seconds": 12,
+          "unresolved_network_references": 0,
+          "client_logging_available": false,
+          "run_directory": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Delivery\\native-joins\\20261025-020232"
+        },
+        {
+          "passed": true,
+          "protocol": 73,
+          "address": "cairo-ferry.tun.ply.gg:42527",
+          "wrong_invite_control": false,
+          "time_utc": "2026-10-25T09:03:49.847860+00:00",
+          "clients": 2,
+          "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+          "lobby_join_accepted": true,
+          "held_seconds": 12,
+          "unresolved_network_references": 0,
+          "client_logging_available": false,
+          "run_directory": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Delivery\\native-joins\\20261025-020250"
+        },
+        {
+          "passed": true,
+          "protocol": 73,
+          "address": "cairo-ferry.tun.ply.gg:42527",
+          "wrong_invite_control": true,
+          "time_utc": "2026-10-25T09:04:08.471551+00:00",
+          "clients": 1,
+          "scope": "Actual installed Windows Shipping runtimes, opt-in smoke harness calling production JoinServer, native Lenovo Linux Server. Lobby only; no UI, firing, recovery, different-Wi-Fi, human or normal performance acceptance.",
+          "wrong_invite_rejected": true,
+          "client_logging_available": false,
+          "run_directory": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Delivery\\native-joins\\20261025-020407"
+        }
+      ],
+      "scope": "Two exact Shipping clients/nativeServer73 LAN and public relay lobby only; wrong invite rejected. No physical friend-PC or human combat acceptance."
+    },
+    "launcher_publication": {
+      "passed": true,
+      "tag": "playtest-vs73-20261025-014825-010-launcher-1.0.1-setup-1",
+      "protocol": 73,
+      "url": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs73-20261025-014825-010-launcher-1.0.1-setup-1",
+      "assets": 9,
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Delivery\\publication-result.json"
+    },
+    "actual_owner_launcher_receipt": {
+      "passed": true,
+      "version": "20261025-014825-010",
+      "statuses": [
+        "UPDATED",
+        "CURRENT"
+      ],
+      "current_files_verified": 34,
+      "rollback_files_verified": 33,
+      "save_files_observed": 0,
+      "scope": "Actual unchanged installed production launcher, real signed public HTTPS update/current, every new payload and previous rollback hash, observed saves preserved. No GUI-button, friend-PC or human gameplay acceptance.",
+      "result": "G:\\IRON-SUN-Work\\AutonomousBeta\\20261025\\Release73\\Delivery\\owner-update.json"
+    }
+  },
+  "historical_evidence": "../2026-10-22-vs73-halo-prototype/report.md",
+  "scope": "Individual proofs retain their exact source, package and validation level; no beta or human acceptance.",
+  "status": "Published VS73/20261025-014825-010 through unchanged launcher1.0.1; final Source142/game73 matching Windows/nativeLinux builds from782 frozen inputs. Final cooked21-encounter Halo route166.59s, checkpoints12.91s, Shipping rack/refit20.63s and optics19.41s PASS; final captures inspected. Exact Shipping native LAN/relay/invite controls PASS. Actual installed launcher UPDATED then CURRENT, all34 new payload and33 rollback files verified;0 saves observed. No beta/human acceptance; original ammo issue unreproduced/open."
+}
