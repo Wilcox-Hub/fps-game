@@ -1,26 +1,19 @@
 {
-  "task": "launcher-vs73-publication",
+  "task": "local-qwen-unreal-review-20261031",
   "phase": "completed",
-  "outcome": "Published VS73/20261025-014825-010 through unchanged launcher1.0.1; final Source142/game73 matching Windows/nativeLinux builds from782 frozen inputs. Final cooked21-encounter Halo route166.59s, checkpoints12.91s, Shipping rack/refit20.63s and optics19.41s PASS; final captures inspected. Exact Shipping native LAN/relay/invite controls PASS. Actual installed launcher UPDATED then CURRENT, all34 new payload and33 rollback files verified;0 saves observed. No beta/human acceptance; original ammo issue unreproduced/open.",
-  "next_action": "Caiden can reopen the installed launcher and play VS73. Every co-op PC must update to73. Gather normal gameplay/real two-PC feedback on ammo, rescue, refits, Garden supply and Halo; final art/balance/fun, physical-device/Internet combat and other beta tickets remain open. PC stays on; no owned test/build/update jobs remain.",
+  "outcome": "Blind comparison of two existing open-ticket fixes in isolated G: copy: Q3 cargo logout APPROVE first attempt; team-wipe initial DENY for missed client refresh, Qwen's one feedback repair APPROVE. Native assertions148/148, actual UE5.8.3 compile and checkpoint21.32s/focused two-process team-wipe34.59s PASS. Broader restart FAILS identically in candidate83.49s and freshly compiled reference83.97s; root cause and normal-play impact unknown, full ticket acceptance withheld.853 original source/config/content/tools hashes unchanged. No game merge/release or Qwen32K profile change.",
   "topics": [
     "work-policy",
-    "network-delivery"
+    "local-model-evaluation"
   ],
-  "decisions": [
-    "workflow-memory",
-    "workflow-evidence",
-    "workflow-scenarios",
-    "workflow-roll-audit",
-    "network-host-state"
-  ],
+  "decisions": [],
   "evidence": [
-    "docs/beta-readiness/snapshots/2026-10-25-vs73-launcher-release/report.md",
-    "docs/memory/AUTONOMOUS_BETA_2026-10-20.md"
+    "docs/memory/QWEN_UNREAL_TRIAL_2026-10-31.md"
   ],
   "publication": {
-    "memory": "Owner-authorized scoped sync pending final readback.",
-    "game": "https://github.com/Wilcox-Hub/iron-sun-releases/releases/tag/playtest-vs73-20261025-014825-010-launcher-1.0.1-setup-1; signed binaries and setup feed published; game source remains local."
+    "memory": "Owner-authorized scoped memory sync; exact commit/readback recorded in G:/AI/Benchmarks/unreal-qwen-20261031/memory-publication.json.",
+    "game": "No game source commit, merge or release authorized or performed. Existing VS73 remains unchanged."
   },
-  "recorded_at": "2026-10-25T09:23:02.558762+00:00"
+  "next_action": "Use local Q3 for bounded repairs with tests/review. Next useful project investigation is the reproduced reference/candidate post-travel restart-fixture mismatch; distinguish automation-only failure from normal gameplay before a production change. Image setup remains deferred.",
+  "recorded_at": "2026-11-01T00:07:32.678591+00:00"
 }
