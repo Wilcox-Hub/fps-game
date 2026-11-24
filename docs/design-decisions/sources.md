@@ -272,3 +272,12 @@ Kind: owner-statement
 **recorded_on:** 2026-11-24
 
 **quote:** I want very low ping to actually kind of be a priority with this. It doesn't need to be that much of one right now.
+
+<a id="owner-standalone-friend-play"></a>
+## owner-standalone-friend-play
+
+Kind: owner-statement
+
+**recorded_on:** 2026-11-24
+
+**quote:** The game won’t be published to steam for a long while. Make the server join what we need it to be

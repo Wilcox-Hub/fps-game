@@ -1,7 +1,7 @@
 {
   "task": "friend-party-server-assignment",
   "phase": "checkpoint",
-  "outcome": "Owner specified existing friend invites, squad ready-up, automatic dedicated-server assignment and no visible address. Low ping across the squad is a priority. Existing VS73 uses direct private-server join followed by readiness on the server. Standalone uses the Null online provider. GitHub #12 already tracks this work. Direction recorded; implementation and testing are pending.",
+  "outcome": "Standalone VS74 adds private guest enrollment, friend requests, invites, squad readiness and automatic dedicated-server assignment. Editor compile and local API checks pass. Two independent Unreal clients automatically connected to one dedicated match, and the slot reopened after exit. All 785 frozen source/config/content hashes match. UI clicks, packaged builds, remote connection and latency verification remain pending.",
   "topics": [
     "network-delivery"
   ],
@@ -10,14 +10,14 @@
     "network-host-state"
   ],
   "evidence": [
-    "docs/design-decisions/topics/network-delivery.md",
     "https://github.com/Wilcox-Hub/fps-game/issues/12",
-    "docs/beta-readiness/snapshots/2026-10-25-vs73-launcher-release/report.md"
+    "docs/beta-readiness/snapshots/2026-11-24-vs74-standalone-friends/report.md",
+    "unreal/Ridgefire/Tools/PrivateServer/PartyBroker/README.md"
   ],
   "publication": {
-    "memory": "Scoped owner-authorized memory sync.",
-    "game": "Design recorded. Published VS73 is the existing direct-join playtest."
+    "memory": "Owner-authorized scoped memory update. Evidence paths reference local source and tests.",
+    "game": "Local VS74 source and Editor evidence. VS73 is the published playtest."
   },
-  "next_action": "Use Steam friends/lobbies when an IRON SUN Steamworks test app and two test accounts are available, or integrate authenticated in-game friends for the standalone launcher. Start with one compatible dedicated Lenovo match slot. Verify invite acceptance before server join, both players ready, one assigned server, full/unavailable response and retry, then play from two networks and record in-game latency.",
-  "recorded_at": "2026-11-24T20:57:45.794721+00:00"
+  "next_action": "The Lenovo admin route timed out. Restore admin access, configure the HTTPS party service and a matching dedicated slot, package the Windows client and Linux server, then verify invite-to-combat and ping on two home networks. See the PartyBroker rollout README. Public playtest remains VS73; this feature is local.",
+  "recorded_at": "2026-11-24T21:12:46.305614+00:00"
 }

@@ -14,9 +14,9 @@ Sources: [owner-server-direction](../../../docs/design-decisions/sources.md#owne
 
 **APPROVED** · Recorded 2026-11-24
 
-From the main lobby, invite an existing Steam friend or in-game friend to the squad. The invite can be accepted before a match server is assigned. When the squad is ready, the game assigns one compatible dedicated server to the entire squad and connects everyone automatically. Players need no server address and no squad member has to host the match. Favor low in-game ping across the squad when multiple servers are available. The playtest may use a single Lenovo server. The first identity provider and hosting rollout are implementation choices.
+Use in-game guest friends and invites in the standalone launcher build. The player can accept an invite before match assignment. When all squad members ready up, assign one compatible dedicated server and connect the squad automatically. Players enter no server address and nobody in the squad hosts. The first playtest can use one Lenovo slot. Favor low in-game ping across the squad when multiple servers are available. Steam integration is deferred.
 
-Sources: [owner-friend-party-flow](../../../docs/design-decisions/sources.md#owner-friend-party-flow), [owner-low-ping-priority](../../../docs/design-decisions/sources.md#owner-low-ping-priority).
+Sources: [owner-friend-party-flow](../../../docs/design-decisions/sources.md#owner-friend-party-flow), [owner-low-ping-priority](../../../docs/design-decisions/sources.md#owner-low-ping-priority), [owner-standalone-friend-play](../../../docs/design-decisions/sources.md#owner-standalone-friend-play).
 
 ## delivery-launcher — Installed launcher and published updates
 

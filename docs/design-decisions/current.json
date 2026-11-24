@@ -165,6 +165,11 @@
       "kind": "owner-statement",
       "recorded_on": "2026-11-24",
       "quote": "I want very low ping to actually kind of be a priority with this. It doesn't need to be that much of one right now."
+    },
+    "owner-standalone-friend-play": {
+      "kind": "owner-statement",
+      "recorded_on": "2026-11-24",
+      "quote": "The game won’t be published to steam for a long while. Make the server join what we need it to be"
     }
   },
   "decisions": [
@@ -761,10 +766,11 @@
       "title": "Friend invites, ready checks and automatic server assignment",
       "status": "approved",
       "recorded_on": "2026-11-24",
-      "rule": "From the main lobby, invite an existing Steam friend or in-game friend to the squad. The invite can be accepted before a match server is assigned. When the squad is ready, the game assigns one compatible dedicated server to the entire squad and connects everyone automatically. Players need no server address and no squad member has to host the match. Favor low in-game ping across the squad when multiple servers are available. The playtest may use a single Lenovo server. The first identity provider and hosting rollout are implementation choices.",
+      "rule": "Use in-game guest friends and invites in the standalone launcher build. The player can accept an invite before match assignment. When all squad members ready up, assign one compatible dedicated server and connect the squad automatically. Players enter no server address and nobody in the squad hosts. The first playtest can use one Lenovo slot. Favor low in-game ping across the squad when multiple servers are available. Steam integration is deferred.",
       "sources": [
         "owner-friend-party-flow",
-        "owner-low-ping-priority"
+        "owner-low-ping-priority",
+        "owner-standalone-friend-play"
       ]
     },
     {
