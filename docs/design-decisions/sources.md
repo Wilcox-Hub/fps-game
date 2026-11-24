@@ -254,3 +254,21 @@ Kind: owner-statement
 **quote:** Make sure orca has all tools like orchestrator and spawning Luna agents on extra high in a separate chat when viable to do smaller tasks at lesser cost and everything we have setup here for efficiency
 
 [Repository evidence](../../docs/memory/ORCA_WORKFLOW.md)
+
+<a id="owner-friend-party-flow"></a>
+## owner-friend-party-flow
+
+Kind: owner-statement
+
+**recorded_on:** 2026-11-24
+
+**quote:** I also want it to work like Arena Breakout Infinite and Apex Legends, where once you have somebody friended, whether that's via Steam account or just in-game, you can just invite them. You do not need a server address. You invite them to your team, then you ready up and the match starts and it grabs a server for you.
+
+<a id="owner-low-ping-priority"></a>
+## owner-low-ping-priority
+
+Kind: owner-statement
+
+**recorded_on:** 2026-11-24
+
+**quote:** I want very low ping to actually kind of be a priority with this. It doesn't need to be that much of one right now.

@@ -10,6 +10,14 @@ Keep progression/checkpoints on the active host/server. Preserve LAN and the app
 
 Sources: [owner-server-direction](../../../docs/design-decisions/sources.md#owner-server-direction).
 
+## network-friend-parties-server-assignment — Friend invites, ready checks and automatic server assignment
+
+**APPROVED** · Recorded 2026-11-24
+
+From the main lobby, invite an existing Steam friend or in-game friend to the squad. The invite can be accepted before a match server is assigned. When the squad is ready, the game assigns one compatible dedicated server to the entire squad and connects everyone automatically. Players need no server address and no squad member has to host the match. Favor low in-game ping across the squad when multiple servers are available. The playtest may use a single Lenovo server. The first identity provider and hosting rollout are implementation choices.
+
+Sources: [owner-friend-party-flow](../../../docs/design-decisions/sources.md#owner-friend-party-flow), [owner-low-ping-priority](../../../docs/design-decisions/sources.md#owner-low-ping-priority).
+
 ## delivery-launcher — Installed launcher and published updates
 
 **APPROVED** · Recorded 2026-10-18

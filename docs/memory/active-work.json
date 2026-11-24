@@ -1,19 +1,23 @@
 {
-  "task": "local-qwen-unreal-review-20261031",
-  "phase": "completed",
-  "outcome": "Blind comparison of two existing open-ticket fixes in isolated G: copy: Q3 cargo logout APPROVE first attempt; team-wipe initial DENY for missed client refresh, Qwen's one feedback repair APPROVE. Native assertions148/148, actual UE5.8.3 compile and checkpoint21.32s/focused two-process team-wipe34.59s PASS. Broader restart FAILS identically in candidate83.49s and freshly compiled reference83.97s; root cause and normal-play impact unknown, full ticket acceptance withheld.853 original source/config/content/tools hashes unchanged. No game merge/release or Qwen32K profile change.",
+  "task": "friend-party-server-assignment",
+  "phase": "checkpoint",
+  "outcome": "Owner specified existing friend invites, squad ready-up, automatic dedicated-server assignment and no visible address. Low ping across the squad is a priority. Existing VS73 uses direct private-server join followed by readiness on the server. Standalone uses the Null online provider. GitHub #12 already tracks this work. Direction recorded; implementation and testing are pending.",
   "topics": [
-    "work-policy",
-    "local-model-evaluation"
+    "network-delivery"
   ],
-  "decisions": [],
+  "decisions": [
+    "network-friend-parties-server-assignment",
+    "network-host-state"
+  ],
   "evidence": [
-    "docs/memory/QWEN_UNREAL_TRIAL_2026-10-31.md"
+    "docs/design-decisions/topics/network-delivery.md",
+    "https://github.com/Wilcox-Hub/fps-game/issues/12",
+    "docs/beta-readiness/snapshots/2026-10-25-vs73-launcher-release/report.md"
   ],
   "publication": {
-    "memory": "Owner-authorized scoped memory sync; exact commit/readback recorded in G:/AI/Benchmarks/unreal-qwen-20261031/memory-publication.json.",
-    "game": "No game source commit, merge or release authorized or performed. Existing VS73 remains unchanged."
+    "memory": "Scoped owner-authorized memory sync.",
+    "game": "Design recorded. Published VS73 is the existing direct-join playtest."
   },
-  "next_action": "Use local Q3 for bounded repairs with tests/review. Next useful project investigation is the reproduced reference/candidate post-travel restart-fixture mismatch; distinguish automation-only failure from normal gameplay before a production change. Image setup remains deferred.",
-  "recorded_at": "2026-11-01T00:07:32.678591+00:00"
+  "next_action": "Use Steam friends/lobbies when an IRON SUN Steamworks test app and two test accounts are available, or integrate authenticated in-game friends for the standalone launcher. Start with one compatible dedicated Lenovo match slot. Verify invite acceptance before server join, both players ready, one assigned server, full/unavailable response and retry, then play from two networks and record in-game latency.",
+  "recorded_at": "2026-11-24T20:57:45.794721+00:00"
 }

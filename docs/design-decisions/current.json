@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "recorded_on": "2026-10-20",
+  "recorded_on": "2026-11-24",
   "authority": "The current human request governs. Any unresolved contradiction with approved direction triggers grill-me clarification/confirmation before the affected rule changes. Preserve confirmed replacements and supersession history; provisional values need validation.",
   "topics": {
     "identity-modes": "Identity, modes and naming",
@@ -155,6 +155,16 @@
       "recorded_on": "2026-10-20",
       "quote": "Make sure orca has all tools like orchestrator and spawning Luna agents on extra high in a separate chat when viable to do smaller tasks at lesser cost and everything we have setup here for efficiency",
       "path": "docs/memory/ORCA_WORKFLOW.md"
+    },
+    "owner-friend-party-flow": {
+      "kind": "owner-statement",
+      "recorded_on": "2026-11-24",
+      "quote": "I also want it to work like Arena Breakout Infinite and Apex Legends, where once you have somebody friended, whether that's via Steam account or just in-game, you can just invite them. You do not need a server address. You invite them to your team, then you ready up and the match starts and it grabs a server for you."
+    },
+    "owner-low-ping-priority": {
+      "kind": "owner-statement",
+      "recorded_on": "2026-11-24",
+      "quote": "I want very low ping to actually kind of be a priority with this. It doesn't need to be that much of one right now."
     }
   },
   "decisions": [
@@ -743,6 +753,18 @@
       "rule": "Keep progression/checkpoints on the active host/server. Preserve LAN and the approved free Lenovo private-server/tunnel route for remote friends. Host migration and shared Steam Cloud run state are outside this milestone. A future rented-server expansion is a separate decision; do not treat old dedicated-server deferral as cancelling the already approved Lenovo playtest.",
       "sources": [
         "owner-server-direction"
+      ]
+    },
+    {
+      "id": "network-friend-parties-server-assignment",
+      "topic": "network-delivery",
+      "title": "Friend invites, ready checks and automatic server assignment",
+      "status": "approved",
+      "recorded_on": "2026-11-24",
+      "rule": "From the main lobby, invite an existing Steam friend or in-game friend to the squad. The invite can be accepted before a match server is assigned. When the squad is ready, the game assigns one compatible dedicated server to the entire squad and connects everyone automatically. Players need no server address and no squad member has to host the match. Favor low in-game ping across the squad when multiple servers are available. The playtest may use a single Lenovo server. The first identity provider and hosting rollout are implementation choices.",
+      "sources": [
+        "owner-friend-party-flow",
+        "owner-low-ping-priority"
       ]
     },
     {
