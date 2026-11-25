@@ -1,22 +1,23 @@
 {
-  "task": "standalone-friends-backend-staging",
-  "phase": "checkpoint",
-  "outcome": "VS74 backend ZIP with 41 verified files is staged locally. Native Linux and Windows Development packages were built. Two cooked clients automatically joined and started one native Linux match through the extracted Docker deployment. Slot reuse and persistent friends after broker restart passed. Lenovo is owner-confirmed offline. Public VS73 remains current.",
+  "task": "hosted-coop-restart",
+  "phase": "completed",
+  "outcome": "Fixed collision blocking returning-player spawn. Two local Windows Editor players passed guest and host restarts, current rack and gate progression, movement, firing and reloading. Direct suite passed late-join rejection in 78.659 seconds. Updated co-op wrapper passed combat/rewards and two restart cycles. Public VS73 and dated 69% remain current.",
   "topics": [
     "network-delivery"
   ],
   "decisions": [
-    "network-friend-parties-server-assignment",
-    "network-host-state"
+    "network-host-state",
+    "network-friend-parties-server-assignment"
   ],
   "evidence": [
-    "https://github.com/Wilcox-Hub/fps-game/issues/12",
+    "docs/beta-readiness/snapshots/2026-11-25-hosted-restart/report.md",
+    "docs/beta-readiness/snapshots/2026-11-25-hosted-restart/test-results.json",
     "docs/beta-readiness/snapshots/2026-11-24-vs74-backend-staging/report.md"
   ],
   "publication": {
-    "memory": "Owner-authorized scoped memory update. Deployment archive and full evidence are local.",
-    "game": "Backend staged and rehearsed locally. Public build remains VS73."
+    "memory": "Owner-authorized scoped memory sync.",
+    "game": "Restart repair verified in the local Editor build. Frozen VS74 backend and public VS73 remain separately scoped."
   },
-  "next_action": "Transfer IRON-SUN-VS74-backend-r2.zip and its SHA256 sidecar to Lenovo when online, set the public HTTPS hostname and authorized game UDP route, then build the matching Shipping launcher payload with that hostname and check two households and ping. Rollout README is inside the ZIP.",
-  "recorded_at": "2026-11-24T21:35:08.010156+00:00"
+  "next_action": "Run normal hosted restart and combat with two matching packaged clients when available. When the Lenovo is online, transfer IRON-SUN-VS74-backend-r2.zip with its SHA256 sidecar, configure the public HTTPS and game UDP routes, then verify a matching Shipping client and ping from two households.",
+  "recorded_at": "2026-11-25T17:19:42.207866+00:00"
 }
